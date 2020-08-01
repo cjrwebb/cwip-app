@@ -65,6 +65,7 @@ ui <- dashboardPage(title = paste("CWIP App", sep = ""),
 tabItem(tabName = "data_dash",
         setSliderColor(color = rep("#00947c", 7), sliderId = 1:7),
         chooseSliderSkin("Flat"),
+        br(), br(),
         
         fluidRow(
           column(
@@ -112,6 +113,7 @@ tabItem(tabName = "data_dash",
 # Spending Waffles Tab ----------------------------------------------------
 
   tabItem(tabName = "spending",
+          br(), br(),
           
           fluidRow(column(12, selectizeInput("la_spending", "Select a local authority:", selected = NULL, choices = NULL, options = list(multiple = TRUE, maxOptions = 1000), multiple = FALSE,  width = "95%"))),
           fluidRow(column(12, plotOutput("waffle_plot", width = "100%", height = "800px") %>% withSpinner(color="#0dc5c1", type = 8)))
@@ -123,6 +125,7 @@ tabItem(tabName = "data_dash",
 # Side by side trends tab -------------------------------------------------
 
 tabItem(tabName = "sbs_trends",
+        br(), br(),
         
         fluidRow(column(6, selectizeInput("var_sbs_trend_left", "Select something to visualise:", choices = NULL, selected = NULL, options = list(multiple = FALSE, maxOptions = 1000), multiple = FALSE, width = "100%")),
                  column(6, selectizeInput("var_sbs_trend_right", "Select something to visualise:", choices = NULL, selected = NULL, options = list(multiple = FALSE, maxOptions = 1000), multiple = FALSE, width = "100%"))
@@ -150,6 +153,7 @@ tabItem(tabName = "sbs_trends",
 # Side-by-side Maps -------------------------------------------------------
 
 tabItem(tabName = "sbs_maps",
+        br(), br(),
         
         fluidRow(column(6, selectizeInput("var_sbs_map_left", "Select something to visualise:", choices = NULL, selected = NULL, options = list(multiple = FALSE, maxOptions = 1000), multiple = FALSE, width = "100%")),
                  column(6, selectizeInput("var_sbs_map_right", "Select something to visualise:", choices = NULL, selected = NULL, options = list(multiple = FALSE, maxOptions = 1000), multiple = FALSE, width = "100%"))
@@ -179,6 +183,7 @@ tabItem(tabName = "sbs_maps",
 # CLA by Ethnic Group Tab -------------------------------------------------
 
 tabItem(tabName = "cla_ethnicity",
+        br(), br(),
         fluidRow(
         column(3, 
                selectizeInput("la_select_cla_ethnicity", "Select one or more local authorities to highlight:", selected = NULL, choices = NULL, options = list(multiple = TRUE, maxOptions = 1000), multiple = TRUE,  width = "100%"),
@@ -192,6 +197,7 @@ tabItem(tabName = "cla_ethnicity",
 # HCA Clustering tab ------------------------------------------------------
 
 tabItem(tabName = "hca",
+        br(), br(),
         
         fluidRow(
         column(3, 
@@ -212,6 +218,7 @@ tabItem(tabName = "hca",
 
 
       tabItem(tabName = "uni_maps",
+              br(), br(),
                fluidRow(
                  column(
                    12,
@@ -291,6 +298,7 @@ tabItem(tabName = "hca",
 
       
       tabItem(tabName = "biv_maps", # Open tab - bivariate maps
+              br(), br(),
               fluidRow(
                 # Title
                 column(
@@ -372,6 +380,7 @@ tabItem(tabName = "hca",
 
             
         tabItem(tabName = "corrs", # Open tab - correlations
+                br(), br(),
                 fluidRow(
                   # Title
                   column(
@@ -435,6 +444,7 @@ tabItem(tabName = "hca",
 
 
       tabItem(tabName = "anova", # Open tab - correlations
+              br(), br(),
               fluidRow(
                 # Title
                 column(
@@ -491,6 +501,7 @@ tabItem(tabName = "hca",
 
                 
                 tabItem(tabName = "regress", # Open tab - regress
+                        br(), br(),
                         fluidRow(
                           # Title
                           column(
@@ -583,21 +594,21 @@ tabItem(tabName = "hca",
 
 tags$head(tags$style(HTML('
 
-.content {
-  margin-top: 50px;
-}
-
-.sidebar {
-  position: fixed;
-  width: 220px;
-  white-space: nowrap;
-  overflow: visible;
-}
-
-.main-header {
-  position: fixed;
-  width:100%;
-}
+        .content {
+          margin-top: 50px;
+        }
+        
+        .sidebar {
+          position: fixed;
+          width: 220px;
+          white-space: nowrap;
+          overflow: visible;
+        }
+        
+        .main-header {
+          position: fixed;
+          width:100%;
+        }
 
 
         /* logo */

@@ -68,7 +68,7 @@ Sys.setenv('MAPBOX_TOKEN' = mapbox_access_token)
 
 # Load Pre-prepared data -------------------------------------------------------
 ### IMPORTANT! 
-lsoa_data_spatial <- read_rds("data/mog_datav4.RDS")
+lsoa_data_spatial <- read_rds("data/mog_datav4.Rds")
 labels_lsoa_data <- read_csv("data/lsoa_dataset_labelsv4.csv")
 csc_data <- read_rds("data/csc_data.RDS") %>%
   mutate(value = ifelse(is.infinite(value), NA, value))
