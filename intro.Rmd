@@ -1,0 +1,66 @@
+---
+title: "Welcome to the CWIP App"
+author: "Version 2.0: Open Beta"
+output:
+  html_fragment:
+     includes:
+       before_body: header.html
+---
+
+<br><br>
+
+<!-- <div class="mycontent"> -->
+
+<div style = "padding: 0px 100px;"> 
+
+<center>
+# Welcome to the CWIP App
+## Version 2.0 (Pre-release Open Beta)
+</center>
+
+
+</div>
+<br>
+<br>
+
+<div style = "padding: 0px 100px; font-size: 16px"> 
+
+The CWIP App is in beta. Please submit any feedback, questions, and bugs to <a href = "mailto:c.j.webb@sheffield.ac.uk">c.j.webb@sheffield.ac.uk</a>. 
+
+Please cite the CWIP App as *Webb, C. & Thomas, R. (2020). The Child Welfare Inequalities Project App. www.cwip-app.co.uk*. Please email me with any details on how you have used the CWIP App, this way I can evidence its impact and justify future funding.
+
+To read the full report about the findings from the Child Welfare Inequalities Project and other outputs, [click here](https://www.nuffieldfoundation.org/project/inequalities-in-child-welfare-intervention-rates).
+
+The purpose of the CWIP App is to increase the accessibility of government data related to children's services through consolidated data sets and web-based data visualisation, including for quite complex data processing and visualisation procedures. We think if more people, including people with lived experience and frontline practitioners who are usually excluded from discussions about trends and features in data, there can be better activism and accountability on behalf of children and families. Click on one of the features on the left-hand side to start exploring data.
+
+All data has been sourced from public government data releases. Some data comes from my own archives of public government data, as the Department for Education frequently removes older data. All data transformations and modelling was programme by me, and therefore you should use caution and double-check any rates, the most up-to-date data, and the internal calculations if using them to inform a critical decision. The full list of sources includes:
+
+* Data from the Department for Education: 
+  * Children in Need Census
+  * Children looked-after statistics
+  * Section 251 Returns
+* Data from the Office of National Statistics and Nomis (Census and Population estimates)
+* Indices of Multiple Deprivation 2019 and 2015
+* 2011 Census relating to Ethnicity
+* Life Expectancy at Birth (2009-2013)
+* Median House Price (2017 & 2018)
+* Journey Time Statistics for Key Services (2017)
+* Access to Healthy Assets and Hazards (AHAH) 2017
+* StatsWales
+* Northern Ireland Statistics and Research Agency
+* Northern Ireland Indices of Multiple Deprivation 2017
+* Scottish Indices of Multiple Deprivation & Indicators 2020
+* Scottish Census Data (2011)
+
+It was only possible to create this app thanks to the people behind R Shiny, RStudio, as well as many other R package authors and the wider community. The code is sure to upset the stomach of any competent programmer, but is available here, along with data: (To Be Added)
+
+
+<b>Issues</b>
+
+* <strike>Cannot install waffle plots from github using `devtools::install_github`, which prevents installing `waffle` > 0.7.0 for spending waffle plots. Temporarily hidden spending waffle plots. </strike> SOLVED BY CHANGING `Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")`
+* Fixed Waffle plots, but cannot display these in Shiny app. Problem with Font Awesome 5 library or with waffle package? Can't see immediate fix and will wait until waffle > 0.70 is on CRAN. 
+
+
+</div>
+
+<br><br><br><br><br>
