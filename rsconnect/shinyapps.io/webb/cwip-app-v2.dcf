@@ -1,0 +1,12 @@
+name: cwip-app-v2
+title: cwip-app-v2
+username:
+account: webb
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2630883
+bundleId: 3462540
+url: https://webb.shinyapps.io/cwip-app-v2/
+when: 1596279084.3254
+asMultiple: FALSE
+asStatic: FALSE

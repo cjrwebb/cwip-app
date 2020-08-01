@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1596280428773.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2000456439",
+    "id" : "81900AB7",
+    "lastKnownWriteTime" : 1596280106,
+    "last_content_update" : 1596280106,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/Shiny Apps/cwip-app/global.R",
+    "project_path" : "global.R",
+    "properties" : {
+        "cursorPosition" : "17,21",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
