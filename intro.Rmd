@@ -58,7 +58,8 @@ It was only possible to create this app thanks to the people behind R Shiny, RSt
 <b>Issues</b>
 
 * <strike>Cannot install waffle plots from github using `devtools::install_github`, which prevents installing `waffle` > 0.7.0 for spending waffle plots. Temporarily hidden spending waffle plots. </strike> SOLVED BY CHANGING `Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")`
-* Fixed Waffle plots, but cannot display these in Shiny app. Problem with Font Awesome 5 library or with waffle package? Can't see immediate fix and will wait until waffle > 0.70 is on CRAN. 
+* <strike>Fixed Waffle plots, but cannot display these in Shiny app. Problem with Font Awesome 5 library or with waffle package? Can't see immediate fix and will wait until waffle > 0.70 is on CRAN.</strike> Fixed by installing fonts to .fonts on shinyapps.io deployment 
+
 
 
 </div>

@@ -52,7 +52,7 @@ server <- shinyServer(function(input, output, session){
   
   # Outputs for Data Dashboard
   
-  output$data_dash_trend <- renderPlot({
+  output$data_dash_trend <- renderCachedPlot({
     
     if (is.null(input$var_data_dash)) {
       
@@ -75,9 +75,9 @@ server <- shinyServer(function(input, output, session){
       
     }
     
-  })
+  }, cacheKeyExpr = {list(input$var_data_dash, input$trend_switch, input$year_range_data_dash, input$adj_dep_data_dash, input$la_names_data_dash, input$inc_avg_data_dash)})
   
-  output$data_dash_map <- renderPlot({
+  output$data_dash_map <- renderCachedPlot({
     
     if (is.null(input$var_data_dash)) { 
       
@@ -108,7 +108,7 @@ server <- shinyServer(function(input, output, session){
         
       }
     
-  })
+  }, cacheKeyExpr = {list(input$data_dash_plot_switch, input$var_data_dash, input$trend_switch, input$year_range_data_dash, input$adj_dep_data_dash, input$la_names_data_dash, input$inc_avg_data_dash)})
   
   
   # Inputs/outputs for Spending Waffles
@@ -120,7 +120,7 @@ server <- shinyServer(function(input, output, session){
                        selected = "",
                        server = TRUE)
   
-  output$waffle_plot <- renderPlot({
+  output$waffle_plot <- renderCachedPlot({
     
     if (input$la_spending == "") {
       
@@ -133,7 +133,7 @@ server <- shinyServer(function(input, output, session){
     }
     
     
-  })
+  }, cacheKeyExpr = {list(input$la_spending)})
   
   
 
@@ -171,17 +171,17 @@ server <- shinyServer(function(input, output, session){
   
   # Outputs
   
-  output$sbs_trend_plot_left <- renderPlot({
+  output$sbs_trend_plot_left <- renderCachedPlot({
     
     plot_csctrend(data = csc_data, var = input$var_sbs_trend_left, year_range = seq(input$year_range_sbs_trend_left[1], input$year_range_sbs_trend_left[2], 1), adj_dep = input$adj_dep_sbs_trend_left, la_select = input$la_select_sbs_trend_left, include_avg = input$inc_avg_sbs_trend_left)
     
-  })
+  }, cacheKeyExpr = {list(input$var_sbs_trend_left, input$year_range_sbs_trend_left, input$adj_dep_sbs_trend_left, input$la_select_sbs_trend_left, input$inc_avg_sbs_trend_left)})
   
-  output$sbs_trend_plot_right <- renderPlot({
+  output$sbs_trend_plot_right <- renderCachedPlot({
     
     plot_csctrend(data = csc_data, var = input$var_sbs_trend_right, year_range = seq(input$year_range_sbs_trend_right[1], input$year_range_sbs_trend_right[2], 1), adj_dep = input$adj_dep_sbs_trend_right, la_select = input$la_select_sbs_trend_right, include_avg = input$inc_avg_sbs_trend_right)
     
-  })
+  }, cacheKeyExpr = {list(input$var_sbs_trend_right, input$year_range_sbs_trend_right, input$adj_dep_sbs_trend_right, input$la_select_sbs_trend_right, input$inc_avg_sbs_trend_right)})
   
   
 
@@ -219,7 +219,7 @@ server <- shinyServer(function(input, output, session){
   
   # Outputs
   
-  output$sbs_map_plot_left <- renderPlot({
+  output$sbs_map_plot_left <- renderCachedPlot({
     
     
     if (seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1) == seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1)) 
@@ -233,9 +233,9 @@ server <- shinyServer(function(input, output, session){
                  make_cart = input$cart_sbs_map_left,
                  global_scales = set_global_scales_left)
     
-  })
+  }, cacheKeyExpr = {list(input$year_range_sbs_map_left, input$year_range_sbs_map_right, input$var_sbs_map_left, input$adj_dep_sbs_map_left, input$la_select_sbs_map_left, input$cart_sbs_map_left)})
   
-  output$sbs_map_plot_right <- renderPlot({
+  output$sbs_map_plot_right <- renderCachedPlot({
     
     if (seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1) == seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1)) 
     {set_global_scales_right <- FALSE} else {set_global_scales_right <- TRUE}
@@ -246,7 +246,7 @@ server <- shinyServer(function(input, output, session){
                  make_cart = input$cart_sbs_map_right, 
                  global_scales = set_global_scales_right)
     
-  })
+  }, cacheKeyExpr = {list(input$year_range_sbs_map_right, input$year_range_sbs_map_left, input$var_sbs_map_right, input$adj_dep_sbs_map_right, input$la_select_sbs_map_right, input$cart_sbs_map_right)})
   
   
   
@@ -267,13 +267,13 @@ server <- shinyServer(function(input, output, session){
                        selected = "",
                        server = TRUE)
   
-  output$plot_cla_ethnicity <- renderPlot({
+  output$plot_cla_ethnicity <- renderCachedPlot({
     
     if (input$var_cla_ethnicity %in% csc_ethnicity_vars[6:9]) {relative_arg <- TRUE} else {relative_arg <- FALSE}
     
     plot_ethnic_inequalities(data = csc_ethnicity_data, var = input$var_cla_ethnicity, la_select = input$la_select_cla_ethnicity, relative = relative_arg)
     
-  })
+  }, cacheKeyExpr = {list(input$var_cla_ethnicity, input$la_select_cla_ethnicity)})
   
   
 
@@ -282,6 +282,7 @@ server <- shinyServer(function(input, output, session){
   updateSelectizeInput(session, 
                        "var_hca",
                        choices = csc_vars,
+                       selected = csc_vars[17],
                        options = list(maxOptions = 1000),
                        server = TRUE)
   
@@ -294,14 +295,14 @@ server <- shinyServer(function(input, output, session){
                        server = TRUE)
   
   
-  output$plot_hca <- renderPlot({
+  output$plot_hca <- renderCachedPlot({
     
     if (input$trend_hca == FALSE) {make_trendhca <- FALSE} else {make_trendhca <- TRUE}
     
     plot_csc_hca(data = csc_data, var_list = input$var_hca, la_select = input$la_select_hca, year_range = seq(input$year_range_hca[1], input$year_range_hca[2], 1), trend_hca = make_trendhca)
     
     
-  })
+  }, cacheKeyExpr = {list(input$var_hca, input$trend_hca, input$la_select_hca, input$year_range_hca)})
   
 
   

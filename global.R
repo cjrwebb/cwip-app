@@ -60,7 +60,7 @@ spinner <- tagList(
   span("Loading the MOG...", style="color:white;")
 )
 
-# You will need to register for a mapbox token and save it as "mapbox_token.txt" run the app
+# You will need to register for a mapbox token and save it as "mapbox_token.txt" run parts of the app
 # https://www.mapbox.com 
 mapbox_access_token = read_file("mapbox_token.txt")
 Sys.setenv('MAPBOX_TOKEN' = mapbox_access_token)
