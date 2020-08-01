@@ -67,9 +67,8 @@ Sys.setenv('MAPBOX_TOKEN' = mapbox_access_token)
 
 
 # Load Pre-prepared data -------------------------------------------------------
-### IMPORTANT! You need to unzip the data files due to size > 100MB if 
-### downloaded/forked from github
-lsoa_data_spatial <- read_rds("data/mog_datav4.Rds")
+### IMPORTANT! 
+lsoa_data_spatial <- read_rds("data/mog_datav4.RDS")
 labels_lsoa_data <- read_csv("data/lsoa_dataset_labelsv4.csv")
 csc_data <- read_rds("data/csc_data.RDS") %>%
   mutate(value = ifelse(is.infinite(value), NA, value))
