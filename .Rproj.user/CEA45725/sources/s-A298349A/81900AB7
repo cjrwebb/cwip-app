@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2000456439",
+    "hash" : "0",
     "id" : "81900AB7",
-    "lastKnownWriteTime" : 1596280106,
-    "last_content_update" : 1596280106,
+    "lastKnownWriteTime" : 1596283926,
+    "last_content_update" : 1596283926526,
     "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/Shiny Apps/cwip-app/global.R",
     "project_path" : "global.R",
     "properties" : {
-        "cursorPosition" : "17,21",
-        "scrollLine" : "0"
+        "cursorPosition" : "60,1",
+        "scrollLine" : "57"
     },
     "read_only" : false,
     "read_only_alternatives" : [
