@@ -11,7 +11,7 @@ output:
 
 <br>
 
-<div style = "padding: 0px 100px; font-size: 16px"> 
+<div style = "padding: 0px 20%; font-size: 16px"> 
 
 The CWIP App is in beta. Please submit any feedback, questions, and bugs to <a href = "mailto:c.j.webb@sheffield.ac.uk">c.j.webb@sheffield.ac.uk</a>, or [log an issue on Github](https://github.com/cjrwebb/cwip-app). Please check the Issues section below to see if the issue you're reporting has already been submitted.
 
