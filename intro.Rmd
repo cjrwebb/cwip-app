@@ -54,6 +54,8 @@ It was only possible to create this app thanks to the people behind R Shiny, RSt
 
 * England Average label on trendplots can occassionally obscure LA label.
 
+* Add additional filter to remove Isles of Scilly and City of London from some data
+
 </details>
 
 

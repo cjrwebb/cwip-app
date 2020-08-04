@@ -1,0 +1,972 @@
+Meta Data Document
+Release of underlying data
+Children looked after in England including adoption: 2017 to 2018
+
+Overview
+
+This publication provides information about children looked after (CLA) in England for the year ending 31 March 2018.  The figures are based on data collected annually through the Children Looked After data collection which is completed each spring by all local authorities in England.  Further details on which children are included in the data collection can be found in the children looked after return 2017-18 collection guide:
+https://www.gov.uk/government/publications/children-looked-after-return-2017-to-2018-guide.
+
+National totals are derived by summing data provided by each LA and then applying rounding and suppression.  The sum of each LA will not necessarily match national totals as a result.
+
+Regional totals are derived by summing data for each LA within that region and then applying rounding and suppression.  The sum of regional totals will not necessarily match the national total as a result.
+
+LA level data are data as returned by each LA and have been suppressed or secondary suppressed where necessary.
+
+Rounding and suppression: To ensure that no individual can be identified, we use conventions for the rounding and suppression of small numbers.  National and regional totals have been rounded to the nearest 10.  Percentages and rates have been rounded to the nearest whole number.  Averages have been rounded to one decimal place
+
+For confidentiality purposes, numbers from one to five inclusive and any percentages or averages based on them have been suppressed and replaced by a cross (x).  Where any number is shown as zero (0), the original figure submitted was zero (0).  It has been necessary to suppress other figures whenever it would be possible to calculate the value of a suppressed number by means of simple arithmetic.  The rule applied in these circumstances has been to suppress the next smallest data item.  Where data is not available it is reported as ‘..’.
+
+Unless otherwise stated, numbers and percentage exclude children looked after under an agreed series of short term placements.  Historical data may differ from older publications.  This is mainly due to the implementation of amendments and corrections sent by some local authorities and after the publication date of previous materials.
+
+
+The Underlying Data Files
+File 1 Title: CLA2018.csv 
+This file contains data on children looked after in the years ending 31 March 2014 to 2018
+File 2 Title: ADM2018.csv 
+This file contains data on children who started to be looked after in the years ending 31 March 2014 to 2018
+File 3 Title: CEA2018.csv 
+This file contains data on children who ceased to be looked after in the years ending 31 March 2014 to 2018, including adoption
+File 4 Title: CareLeavers17182018.csv 
+This file contains data on children now aged 17 and 18 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday in the years ending 31 March 2014 to 2018
+File 5 Title: CareLeavers_Act_InTouch19to212018.csv 
+This file contains data on children now aged 19 to 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday in the year ending 31 March 2014 to 2018 – activity and ‘in touch’ information
+File 6 Title: CareLeavers_Acc_StayPut19to212018.csv 
+This file contains data on children now aged 19 to 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday in the year ending 31 March 2014 to 2018 – accommodation information
+File 7 Title: Missing2018.csv 
+This file contains data on children who were missing or away without authorisation from their agreed placement in the year ending 31 March 2014 to 2018
+File 8 Title: OC22018.csv 
+This file contains data on outcomes for children who were looked after continuously for 12 months at 31 March 2014 to 2018
+
+
+Data usage notes – further information is available in the CLA guide published alongside the release:
+
+1: Isles of Scilly local authority do not have any looked after children and so are not included in underlying data files.
+
+2: In order to allow users maximum flexibility to aggregate data to meet their own purposes, LA level data has been shown to the nearest whole number.
+
+3: The LA_order field can be used to display the data in all files to the published regional and local authority order.
+
+4: Missing2018.csv and CareLeavers17182018.csv, and the 11 data items ‘CLA_RPC’ in the file CLA2018.csv are experimental statistics and users should be cautious interpreting the data.
+
+
+Annex A:
+
+CLA2018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_Mar2014: Children looked after at 31 March 2014
+CLA_Mar2015: Children looked after at 31 March 2015
+CLA_Mar2016: Children looked after at 31 March 2016
+CLA_Mar2017: Children looked after at 31 March 2017
+CLA_Mar2018: Children looked after at 31 March 2018
+CLA_Pop2014: Mid-year population estimate of children in 2014
+CLA_Pop2015: Mid-year population estimate of children in 2015
+CLA_Pop2016: Mid-year population estimate of children in 2016
+CLA_Pop2017: Mid-year population estimate of children in 2017
+CLA_Pop2018: Mid-year population estimate of children in 2018
+CLA_Rate2014: Rate of looked after children per 10,000 at 31 March 2014 [1]
+CLA_Rate2015: Rate of looked after children per 10,000 at 31 March 2015 [1]
+CLA_Rate2016: Rate of looked after children per 10,000 at 31 March 2016 [1]
+CLA_Rate2017: Rate of looked after children per 10,000 at 31 March 2017 [1]
+CLA_Rate2018: Rate of looked after children per 10,000 at 31 March 2018 [1]
+CLA_2014: Children looked after during the year ending 31 March 2014
+CLA_2015: Children looked after during the year ending 31 March 2015
+CLA_2016: Children looked after during the year ending 31 March 2016
+CLA_2017: Children looked after during the year ending 31 March 2017
+CLA_2018: Children looked after during the year ending 31 March 2018
+CLA_stp2014: Children looked after during the year ending 31 March 2014 who were only looked after under a series of short term placements [2]
+CLA_stp2015: Children looked after during the year ending 31 March 2015 who were only looked after under a series of short term placements [2]
+CLA_stp2016: Children looked after during the year ending 31 March 2016 who were only looked after under a series of short term placements [2]
+CLA_stp2017: Children looked after during the year ending 31 March 2017 who were only looked after under a series of short term placements [2]
+CLA_stp2018: Children looked after during the year ending 31 March 2018 who were only looked after under a series of short term placements [2]
+CLA_male: Male children looked after at 31 March 2018
+CLA_female: Female children looked after at 31 March 2018
+CLA_male_pc: Percentage of children looked after at 31 March 2018 who were male
+CLA_female_pc: Percentage of children looked after at 31 March 2018 who were female
+CLA_U1: Children looked after at 31 March 2018 aged under 1
+CLA_1to4: Children looked after at 31 March 2018 aged 1 to 4
+CLA_5to9: Children looked after at 31 March 2018 aged 5 to 9
+CLA_10to15: Children looked after at 31 March 2018 aged 10 to 15
+CLA_16over: Children looked after at 31 March 2018 aged 16 and over [3]
+CLA_U1_pc: Percentage of children looked after at 31 March 2018 aged under 1
+CLA_1to4_pc: Percentage of children looked after at 31 March 2018 aged 1 to 4
+CLA_5to9_pc: Percentage of children looked after at 31 March 2018 aged 5 to 9
+CLA_10to15_pc: Percentage of children looked after at 31 March 2018 aged 10 to 15
+CLA_16over_pc: Percentage of children looked after at 31 March 2018 aged 16 and over [3]
+CLA_White: Children looked after at 31 March 2018 from a white ethnic background
+CLA_Mixed: Children looked after at 31 March 2018 from a mixed ethnic background
+CLA_Asian: Children looked after at 31 March 2018 from an Asian ethnic background [3]
+CLA_Black: Children looked after at 31 March 2018 from a black ethnic background
+CLA_EOTH: Children looked after at 31 March 2018 from any other ethnic background [3]
+CLA_Oth: Children looked after at 31 March 2018 where ethnic background is not known [4]
+CLA_White_pc: Percentage of children looked after at 31 March 2018 from a white ethnic background
+CLA_Mixed_pc: Percentage of children looked after at 31 March 2018 from a mixed ethnic background
+CLA_Asian_pc: Percentage of children looked after at 31 March 2018 from an Asian ethnic background [3]
+CLA_Black_pc: Percentage of children looked after at 31 March 2018 from a black ethnic background
+CLA_EOTH_pc: Percentage of children looked after at 31 March 2018 from any other ethnic background [3]
+CLA_Oth_pc: Percentage of children looked after at 31 March 2018 where ethnic background is not known [4]
+CLA_Fost: Children looked after at 31 March 2018 in foster placements
+CLA_Adopt: Children looked after at 31 March 2018 placed for adoption
+CLA_Parent: Children looked after at 31 March 2018 placed with parents
+CLA_Ocom: Children looked after at 31 March 2018 placed in other placements within the community
+CLA_Secure: Children looked after at 31 March 2018 placed in secure units, children’s homes and semi-independent living accommodation [5]
+CLA_Ores: Children looked after at 31 March 2018 placed in other residential settings
+CLA_RSch: Children looked after at 31 March 2018 placed in residential schools
+CLA_OthPl: Children looked after at 31 March 2018 in other placements
+CLA_Fost_pc: Percentage of children looked after at 31 March 2018 in foster placements
+CLA_Adopt_pc: Percentage of children looked after at 31 March 2018 placed for adoption
+CLA_Parent_pc: Percentage of children looked after at 31 March 2018 placed with parents
+CLA_Ocom_pc: Percentage of children looked after at 31 March 2018 placed in other placements within the community
+CLA_Secure_pc: Percentage of children looked after at 31 March 2018 placed in secure units, children’s homes and semi-independent living accommodation [5]
+CLA_Ores_pc: Percentage of children looked after at 31 March 2018 placed in other residential settings
+CLA_RSch_pc: Percentage of children looked after at 31 March 2018 placed in residential schools
+CLA_Oth_Pl_pc: Percentage of children looked after at 31 March 2018 placed in other placements
+CLA_ICO: Children looked after at 31 March 2018 under an interim care order
+CLA_FCO: Children looked after at 31 March 2018 under a full care order
+CLA_FrAd: Children looked after at 31 March 2018 who are freed for adoption [6]
+CLA_PlaceO: Children looked after at 31 March 2018 who have a placement order [7]
+CLA_S20: Children looked after at 31 March 2018 accommodated under section 20 [3]
+CLA_CPG: Children looked after at 31 March 2018 detained under child protection grounds [8]
+CLA_YJLS: Children looked after at 31 March 2018 under a youth justice legal status [9]
+CLA_ICO_pc: Percentage of children looked after at 31 March 2018 under an interim care order
+CLA_FCO_pc: Percentage of children looked after at 31 March 2018 under a full care order
+CLA_FrAd_pc: Percentage of children looked after at 31 March 2018 who are freed for adoption [6]
+CLA_PlaceO_pc: Percentage of children looked after at 31 March 2018 who have a placement order [7]
+CLA_S20_pc: Percentage of children looked after at 31 March 2018 accommodated under section 20 [3]
+CLA_CPG_pc: Percentage of children looked after at 31 March 2018 detained under child protection grounds [8]
+CLA_YJLS_pc: Percentage of children looked after at 31 March 2018 under a youth justice legal status [9]
+CLA_UASC2014: Children looked after at 31 March 2014 who were unaccompanied asylum seekers during the year [3]
+CLA_UASC2015: Children looked after at 31 March 2015 who were unaccompanied asylum seekers during the year [3]
+CLA_UASC2016: Children looked after at 31 March 2016 who were unaccompanied asylum seekers during the year [3]
+CLA_UASC2017: Children looked after at 31 March 2017 who were unaccompanied asylum seekers during the year [3]
+CLA_UASC2018: Children looked after at 31 March 2018 who were unaccompanied asylum seekers during the year [3]
+CLA_OwnP: Children looked after at 31 March 2018 where placement is provided by the local authority’s own provision
+CLA_OthLA: Children looked after at 31 March 2018 under where placement is provided by another local authority
+CLA_OthPP: Children looked after at 31 March 2018 where placement is provided by other public provision
+CLA_Priv: Children looked after at 31 March 2018 where placement is provided by private provision
+CLA_Vol: Children looked after at 31 March 2018 where placement is provided by voluntary provision
+CLA_Par: Children looked after at 31 March 2018 where placement is provided by parents [10]
+CLA_Nrep: Children looked after at 31 March 2018 where placement provider is not reported [11]
+CLA_LTE20: Children looked after at 31 March 2018 placed within 20 miles of the child’s home
+CLA_GT20: Children looked after at 31 March 2018 placed over 20 miles from the child’s home
+CLA_NoInfo: Children looked after at 31 March 2018 where the distance from the child’s home is not known or not recorded [12]
+CLA_InLA: Children looked after at 31 March 2018 placed within the local authority boundary [13]
+CLA_OutLA: Children looked after at 31 March 2018 placed outside of the local authority boundary [13]
+CLA_InLA_LTE20: Children looked after at 31 March 2018 placed within the local authority boundary and within 20 miles of the child’s home [13]
+CLA_OutLA_LTE20: Children looked after at 31 March 2018 placed outside of the local authority boundary and within 20 miles of the child’s home [13]
+CLA_InLA_GT20: Children looked after at 31 March 2018 placed within the local authority boundary and over 20 miles from the child’s home [13]
+CLA_OutLA_GT20: Children looked after at 31 March 2018 placed outside of the local authority boundary and over 20 miles from the child’s home [13]
+CLA_InLA_NoInfo: Children looked after at 31 March 2018 placed within the local authority boundary where the distance from the child’s home is not known or not recorded [12, 13]
+CLA_OutLA_NoInfo: Children looked after at 31 March 2018 placed outside of the local authority boundary where the distance from the child’s home is not known or not recorded [12, 13]
+CLA_LAPl: Children looked after at 31 March 2018 who were the responsibility of all local authorities placed within the local authority boundary
+CLA_IntPl: Children looked after at 31 March 2018 who were the responsibility of the internal local authority placed internally within the local authority boundary [14]
+CLA_ExtPl: Children looked after at 31 March 2018 who were the responsibility of an external local authority placed within the local authority boundary [14]
+CLA_NetGain: Children looked after at 31 March 2018 – net gain of children by a local authority [14]
+CLA_LTE20_pc: Percentage of children looked after at 31 March 2018 placed within 20 miles of the child’s home
+CLA_GT20_pc: Percentage of children looked after at 31 March 2018 placed over 20 miles from the child’s home
+CLA_NoInfo_pc: Percentage of children looked after at 31 March 2018 where the distance from the child’s home is not known or not recorded [12]
+CLA_InLA_pc: Percentage of children looked after at 31 March 2018 placed within the local authority boundary [13]
+CLA_OutLA_pc: Percentage of children looked after at 31 March 2018 placed outside of the local authority boundary [13]
+CLA_InLA_LTE20_pc: Percentage of children looked after at 31 March 2018 placed within the local authority boundary and within 20 miles of the child’s home [13]
+CLA_OutLA_LTE20_pc: Percentage of children looked after at 31 March 2018 placed outside of the local authority boundary and within 20 miles of the child’s home [13]
+CLA_InLA_GT20_pc: Percentage of children looked after at 31 March 2018 placed within the local authority boundary and over 20 miles from the child’s home [13]
+CLA_OutLA_GT20_pc: Percentage of children looked after at 31 March 2018 placed outside of the local authority boundary and over 20 miles from the child’s home [13]
+CLA_InLA_NoInfo_pc: Percentage of children looked after at 31 March 2018 placed within the local authority boundary where the distance from the child’s home is not known or not recorded [12, 13]
+CLA_OutLA_NoInfo_pc: Percentage of children looked after at 31 March 2018 placed outside of the local authority boundary where the distance from the child’s home is not known or not recorded [12, 13]
+CLA_IntPl_pc: Percentage of children placed within the local authority boundary at 31 March 2018 who were the responsibility of the internal local authority [14]
+CLA_ExtPl_pc: Percentage of children placed within the local authority boundary at 31 March 2018 who were the responsibility of an external local authority [14]
+CLA_3_Pl: Children looked after at 31 March 2018 with three or more placements during the year
+CLA_3_Pl_pc: Percentage of children looked after at 31 March 2018 with three or more placements during the year
+CLA_2andhalfyears: Children looked after continuously for at least 2.5 years at 31 March 2018 aged under 16
+CLA_SamePl_2years: Children looked after at 31 March 2018 aged under 16 who had been looked after continuously for at least 2.5 years who were living in the same placement for at least 2 years, or are placed for adoption and their adoption and their adoptive placement together with their previous placement, last for at least 2 years
+CLA_SamePl_2years_pc: Percentage of children looked after continuously for at least 2.5 years at 31 March aged under 16 who were living in the same placement for at least 2 years, or are placed for adoption and their adoption and their adoptive placement together with their previous placement, last for at least 2 years
+CLA_NewPl_All_Place: Placements that started during the year ending 31 March 2018
+CLA_NewPl_InLA_LTE20: Placements that started during the year ending 31 March 2018 within the local authority boundary and within 20 miles of the child’s home [13]
+CLA_NewPl_OutLA_LTE20: Placements that started during the year ending 31 March 2018 placed outside of the local authority boundary and within 20 miles of the child’s home [13]
+CLA_NewPl_InLA_GT20: Placements that started during the year ending 31 March 2018 placed within the local authority boundary and over 20 miles from the child’s home [13]
+CLA_NewPl_OutLA_GT20: Placements that started during the year ending 31 March 2018 placed outside of the local authority boundary and over 20 miles from the child’s home [13]
+CLA_NewPl_NoInfo: Placements that started during the year ending 31 March 2018 where the distance from the child’s home is not known or not recorded [12]
+CLA_NewPl_InLA_LTE20_pc: Percentage of placements that started during the year ending 31 March 2018 placed within the local authority boundary and within 20 miles of the child’s home [13]
+CLA_NewPl_OutLA_LTE20_pc: Percentage of placements that started during the year ending 31 March 2018 placed outside of the local authority boundary and within 20 miles of the child’s home [13]
+CLA_NewPl_InLA_GT20_pc: Percentage of placements that started during the year ending 31 March 2018 placed within the local authority boundary and over 20 miles from the child’s home [13]
+CLA_NewPl_OutLA_GT20_pc: Percentage of placements that started during the year ending 31 March 2018 placed outside of the local authority boundary and over 20 miles from the child’s home [13]
+CLA_NewPl_NoInfo_pc: Percentage of placements that started during the year ending 31 March 2018 placed within the local authority boundary where the distance from the child’s home is not known or not recorded [12]
+CLA_RPC_All_Place: Placements that ended during the year ending 31 March 2018
+CLA_RPC_CarePlan: Placements that ended during the year ending 31 March 2018 due to a change to/implementation of care plan
+CLA_RPC_Resign: Placements that ended during the year ending 31 March 2018 due to resignation or closure of provision
+CLA_RPC_Alleg: Placements that ended during the year ending 31 March 2018 due to allegation
+CLA_RPC_Standards: Placements that ended during the year ending 31 March 2018 due to standards of care concern
+CLA_RPC_Approval: Placements that ended during the year ending 31 March 2018 due to removal of approval
+CLA_RPC_CarerBehav: Placements that ended during the year ending 31 March 2018 due to the carer requesting the placement end because of the child’s behaviour
+CLA_RPC_CarerOther: Placements that ended during the year ending 31 March 2018 due to the carer requesting the placement end for other reasons
+CLA_RPC_Child: Placements that ended during the year ending 31 March 2018 due to the child requesting the placement end
+CLA_RPC_Auth: Placements that ended during the year ending 31 March 2018 due to the responsible area/authority requesting the placement end
+CLA_RPC_Status: Placements that ended during the year ending 31 March 2018 due to the change in the status of a placement only
+CLA_RPC_Other: Placements that ended during the year ending 31 March 2018 due to other reasons
+CLA_RPC_CarePlan_pc: Percentage of placements that ended during the year ending 31 March 2018 due to a change to/implementation of care plan
+CLA_RPC_Resign_pc: Percentage of placements that ended during the year ending 31 March 2018 due to resignation or closure of provision
+CLA_RPC_Alleg_pc: Percentage of placements that ended during the year ending 31 March 2018 due to allegation
+CLA_RPC_Standards_pc: Percentage of placements that ended during the year ending 31 March 2018 due to standards of care concern
+CLA_RPC_Approval_pc: Percentage of placements that ended during the year ending 31 March 2018 due to removal of approval
+CLA_RPC_CarerBehav_pc: Percentage of placements that ended during the year ending 31 March 2018 due to the carer requesting the placement end because of the child’s behaviour
+CLA_RPC_CarerOther_pc: Percentage of placements that ended during the year ending 31 March 2018 due to the carer requesting the placement end for other reasons
+CLA_RPC_Child_pc: Percentage of placements that ended during the year ending 31 March 2018 due to the child requesting the placement end
+CLA_RPC_Auth_pc: Percentage of placements that ended during the year ending 31 March 2018 due to the responsible area/authority requesting the placement end
+CLA_RPC_Status_pc: Percentage of placements that ended during the year ending 31 March 2018 due to the change in the status of a placement only
+CLA_RPC_Other_pc: Percentage of placements that ended during the year ending 31 March 2018 due to other reasons
+
+[1]  The rates per 10,000 children under 18 years have been derived using the mid-year population estimates provided by the Office for National Statistics.
+[2]  Children looked after exclusively under one or more agreed series of short term placements at any time during the years ending 31 March.  These figures exclude children who have been looked after under both a series of short term placements and other legal statuses during the year.
+[3]  For some local authorities, such as Kent, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+[4]  Information refused or not yet obtained.
+[5]  The description of these placement types has changed to provide clarity on the type of accommodation the children are living in.  There has not been any change to the data collection and the figures are not affected.
+[6]  No new applications for freeing orders may be made on or after 30 December 2005.
+[7]  Placement orders came into force on 30 December 2005.
+[8]  These are children under police protection and in local authority accommodation, children subject to emergency protection orders and children under child assessment orders and in local authority accommodation.
+[9]  These are children on remand or committed for trial, children detained in local authority accommodation under section 38(6) of the Police and Criminal Evidence Act 1984 and children sentenced to CYPA 1969 supervision orders with residence requirement.
+[10]  A placement provider does not apply to children who are placed with parents.
+[11]  Placement provider not reported.  This includes children who are reported missing from their agreed placement, children placed under “other placement” (unspecified) and some children who are placed for adoption where this is to protect the whereabouts of the child.
+[12]  “Home” address unknown or distance not recorded.  This may occur with unaccompanied asylum seeking children or children missing from their agreed placement.  For reasons of confidentiality, distance and LA of placement is not recorded for some children including some children placed for adoption.
+[13]  Placement locality denotes whether or not the placement is within the geographical boundary of the responsible local authority.
+[14]  Figures exclude children whose LA of placement is not known.
+
+ADM2018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_started2014: Children who started to be looked after during the year ending 31 March 2014 [1]
+CLA_started2015: Children who started to be looked after during the year ending 31 March 2015 [1]
+CLA_started2016: Children who started to be looked after during the year ending 31 March 2016 [1]
+CLA_started2017: Children who started to be looked after during the year ending 31 March 2017 [1]
+CLA_started2018: Children who started to be looked after during the year ending 31 March 2018 [1]
+CLA_taken2018: Children who were taken into care during the year ending 31 March 2018 [2]
+CLA_taken2018_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 who were taken into care [2]
+SCLA_male: Male children who started to be looked after during the year ending 31 March 2018
+SCLA_female: Female children who started to be looked after during the year ending 31 March 2018
+SCLA_male_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 who were male
+SCLA_female_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 who were female
+SCLA_U1: Children who started to be looked after during the year ending 31 March 2018 aged under 1
+SCLA_1to4: Children who started to be looked after during the year ending 31 March 2018 aged 1 to 4
+SCLA_5to9: Children who started to be looked after during the year ending 31 March 2018 aged 5 to 9
+SCLA_10to15: Children who started to be looked after during the year ending 31 March 2018 aged 10 to 15
+SCLA_16over: Children who started to be looked after during the year ending 31 March 2018 aged 16 and over [3]
+SCLA_U1_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 aged under 1
+SCLA_1to4_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 aged 1 to 4
+SCLA_5to9_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 aged 5 to 9
+SCLA_10to15_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 aged 10 to 15
+SCLA_16over_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 aged 16 and over [3]
+SCLA_AbNeg: Children who started to be looked after during the year ending 31 March 2018 due to abuse or neglect
+SCLA_Cdisab: Children who started to be looked after during the year ending 31 March 2018 due to the child’s disability
+SCLA_ParIll: Children who started to be looked after during the year ending 31 March 2018 due to parental illness or disability
+SCLA_FAcSt: Children who started to be looked after during the year ending 31 March 2018 due to family in acute stress
+SCLA_FD: Children who started to be looked after during the year ending 31 March 2018 due to family dysfunction
+SCLA_SUB: Children who started to be looked after during the year ending 31 March 2018 due to socially unacceptable behaviour
+SCLA_LI: Children who started to be looked after during the year ending 31 March 2018 due to low income
+SCLA_AbsPar: Children who started to be looked after during the year ending 31 March 2018 due to absent parenting [3]
+SCLA_AbNeg_pc: Children who started to be looked after during the year ending 31 March 2018 due to abuse or neglect
+SCLA_Cdisab_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 due to the child’s disability
+SCLA_ParIll_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 due to parental illness or disability
+SCLA_FAcSt_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 due to family in acute stress
+SCLA_FD_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 due to family dysfunction
+SCLA_SUB_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 due to socially unacceptable behaviour
+SCLA_LI_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 due to low income
+SCLA_AbsPar_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 due to absent parenting [3]
+SCLA_ICO: Children who started to be looked after during the year ending 31 March 2018 under an interim care order
+SCLA_FCO: Children who started to be looked after during the year ending 31 March 2018 under a full care order
+SCLA_PlaceO: Children who started to be looked after during the year ending 31 March 2018 where a placement order has been granted [4]
+SCLA_S20: Children who started to be looked after during the year ending 31 March 2018 under section 20 [3]
+SCLA_UPP: Children who started to be looked after during the year ending 31 March 2018 under police protection
+SCLA_SEPO: Children who started to be looked after during the year ending 31 March 2018 subject to an emergency protection order
+SCLA_UCAO: Children who started to be looked after during the year ending 31 March 2018 under a child assessment order
+SCLA_ONCT: Children who started to be looked after during the year ending 31 March 2018 on remand or committed for trial
+SCLA_PACE: Children who started to be looked after during the year ending 31 March 2018 under the police and criminal evidence act
+SCLA_SORR: Children who started to be looked after during the year ending 31 March 2018 under a supervision order with residence requirement
+SCLA_ICO_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 under an interim care order
+SCLA_FCO_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 under a full care order
+SCLA_PlaceO_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 where a placement order has been granted [4]
+SCLA_S20_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 under section 20 [3]
+SCLA_UPP_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 under police protection
+SCLA_SEPO_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 subject to an emergency protection order
+SCLA_UCAO_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 under a child assessment order
+SCLA_ONCT_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 on remand or committed for trial
+SCLA_PACE_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 under the police and criminal evidence act
+SCLA_SORR_pc: Percentage of children who started to be looked after during the year ending 31 March 2018 under a supervision order with residence requirement
+
+[1]  Only the first occasion on which a child started to be looked after in the year has been counted.
+[2]  Children who were taken into care are children who started to be looked after under a care order, a police protection order, an emergency protection order or a child assessment order.
+[3]  For some local authorities, such as Kent, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+[4]  Placement orders came into force on 30 December 2005.
+
+
+CEA2018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_cease2014: Children who ceased to be looked after during the year ending 31 March 2014 [1]
+CLA_cease2015: Children who ceased to be looked after during the year ending 31 March 2015 [1]
+CLA_cease2016: Children who ceased to be looked after during the year ending 31 March 2016 [1]
+CLA_cease2017: Children who ceased to be looked after during the year ending 31 March 2017 [1]
+CLA_cease2018: Children who ceased to be looked after during the year ending 31 March 2018 [1]
+CEA_male: Male children who ceased to be looked after during the year ending 31 March 2018
+CEA_female: Female children who ceased to be looked after during the year ending 31 March 2018
+CEA_male_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 who were male
+CEA_female_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 who were female
+CEA_U1: Children who ceased to be looked after during the year ending 31 March 2018 aged under 1
+CEA_1to4: Children who ceased to be looked after during the year ending 31 March 2018 aged 1 to 4
+CEA_5to9: Children who ceased to be looked after during the year ending 31 March 2018 aged 5 to 9
+CEA_10to15: Children who ceased to be looked after during the year ending 31 March 2018 aged 10 to 15
+CEA_16: Children who ceased to be looked after during the year ending 31 March 2018 aged 16
+CEA_17: Children who ceased to be looked after during the year ending 31 March 2018 aged 17
+CEA_18over: Children who ceased to be looked after during the year ending 31 March 2018 aged 18 and over [2]
+CEA_U1_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 aged under 1
+CEA_1to4_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 aged 1 to 4
+CEA_5to9_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 aged 5 to 9
+CEA_10to15_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 aged 10 to 15
+CEA_16_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 aged 16
+CEA_17_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 aged 17
+CEA_18over_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 aged 18 and over [2]
+CEA_Adop1: Children who ceased to be looked after during the year ending 31 March 2018 due to adoption - application unopposed
+CEA_Adop2: Children who ceased to be looked after during the year ending 31 March 2018 due to adoption - consent dispensed with
+CEA_Died: Children who ceased to be looked after during the year ending 31 March 2018 as they have died
+CEA_Taken: Children who ceased to be looked after during the year ending 31 March 2018 - care taken by another LA [2]
+CEA_ParPlan: Children who ceased to be looked after during the year ending 31 March 2018 - returned home to live with parents or relatives as part of care planning process
+CEA_ParNPlan: Children who ceased to be looked after during the year ending 31 March 2018 - returned home to live with parents or relatives not as part of care planning process
+CEA_NoPar: Children who ceased to be looked after during the year ending 31 March 2018 - ceased to live with parents or relatives without parental responsibility
+CEA_CAO: Children who ceased to be looked after during the year ending 31 March 2018 - child arrangement order granted
+CEA_SGO1: Children who ceased to be looked after during the year ending 31 March 2018 - special guardianship order made to former foster carers
+CEA_SGO2: Children who ceased to be looked after during the year ending 31 March 2018 - special guardianship order made to carers other than former foster carers
+CEA_IndLiv1: Children who ceased to be looked after during the year ending 31 March 2018 - moved into independent living (with supportive accommodation) [2]
+CEA_IndLiv2: Children who ceased to be looked after during the year ending 31 March 2018 - moved into independent living (with no formalised support) [2]
+CEA_Residential: Children who ceased to be looked after during the year ending 31 March 2018 - transferred to residential care funded by adult social services
+CEA_Custody: Children who ceased to be looked after during the year ending 31 March 2018 - sentenced to custody
+CEA_RemEnd: Children who ceased to be looked after during the year ending 31 March 2018 - accommodation on remand ended
+CEA_AgeAssmt: Children who ceased to be looked after during the year ending 31 March 2018 - age assessment determined child was 18 or over [2]
+CEA_Abroad: Children who ceased to be looked after during the year ending 31 March 2018 - child moved abroad
+CEA_Other: Children who ceased to be looked after during the year ending 31 March 2018 - care ceased for any other reason [3]
+CEA_Adop_pc: Percentage of children who ceased to be looked after during the year ending 31 March 2018 due to adoption
+
+[1]  Only the last occasion on which a child ceased to be looked after in the year has been counted.
+[2]  For some local authorities, such as Kent, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+[3]  Over 60% of all children who were stated as ceasing due to other reasons ceased to be looked after aged 18 and over.
+
+
+CareLeavers17182018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CL_All_17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1, 2]
+CL_All_17: Care leavers in the year ending 31 March 2018 aged 17 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1, 2]
+CL_All_18: Care leavers in the year ending 31 March 2018 aged 18 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1, 2]
+CL_Act_EET17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are in education, employment or training
+CL_Act_EET17: Care leavers in the year ending 31 March 2018 aged 17 who are in education, employment or training
+CL_Act_EET18: Care leavers in the year ending 31 March 2018 aged 18 who are in education, employment or training
+CL_Act_HE17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE17: Care leavers in the year ending 31 March 2018 aged 17 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE18: Care leavers in the year ending 31 March 2018 aged 18 whose activity is higher education i.e. studies beyond A level
+CL_Act_OE17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 whose activity is education other than higher education
+CL_Act_OE17: Care leavers in the year ending 31 March 2018 aged 17 whose activity is education other than higher education
+CL_Act_OE18: Care leavers in the year ending 31 March 2018 aged 18 whose activity is education other than higher education
+CL_Act_TE17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 whose activity is training or employment
+CL_Act_TE17: Care leavers in the year ending 31 March 2018 aged 17 whose activity is training or employment
+CL_Act_TE18: Care leavers in the year ending 31 March 2018 aged 18 whose activity is training or employment
+CL_Act_NEET17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, employment or training
+CL_Act_NEET17: Care leavers in the year ending 31 March 2018 aged 17 who are not in education, employment or training
+CL_Act_NEET18: Care leavers in the year ending 31 March 2018 aged 18 who are not in education, employment or training
+CL_Act_NEET_ill17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill17: Care leavers in the year ending 31 March 2018 aged 17 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill18: Care leavers in the year ending 31 March 2018 aged 18 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_oth17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth17: Care leavers in the year ending 31 March 2018 aged 17 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth18: Care leavers in the year ending 31 March 2018 aged 18 who are not in education, training or employment due to other reasons
+CL_Act_NEET_preg17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg17: Care leavers in the year ending 31 March 2018 aged 17 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg18: Care leavers in the year ending 31 March 2018 aged 18 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NoInf17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 for whom local authority does not have activity information
+CL_Act_NoInf17: Care leavers in the year ending 31 March 2018 aged 17 for whom local authority does not have activity information
+CL_Act_NoInf18: Care leavers in the year ending 31 March 2018 aged 18 for whom local authority does not have activity information
+CL_Act_EET17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are in education, employment or training
+CL_Act_EET17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are in education, employment or training
+CL_Act_EET18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are in education, employment or training
+CL_Act_HE17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 whose activity is higher education i.e. studies beyond A level
+CL_Act_OE17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 whose activity is education other than higher education
+CL_Act_OE17_pc: Ca Percentage of care re leavers in the year ending 31 March 2018 aged 17 whose activity is education other than higher education
+CL_Act_OE18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 whose activity is education other than higher education
+CL_Act_TE17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 whose activity is training or employment
+CL_Act_TE17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 whose activity is training or employment
+CL_Act_TE18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 whose activity is training or employment
+CL_Act_NEET17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, employment or training
+CL_Act_NEET17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are not in education, employment or training
+CL_Act_NEET18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are not in education, employment or training
+CL_Act_NEET_ill17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_oth17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are not in education, training or employment due to other reasons
+CL_Act_NEET_preg17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NoInf17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 for whom local authority does not have activity information
+CL_Act_NoInf17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 for whom local authority does not have activity information
+CL_Act_NoInf18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 for whom local authority does not have activity information
+CL_Acc_Total_SUIT17&18: Care leavers in the year ending 31 March 2018 aged 17 to 18 in suitable accommodation calculations [3, 4]
+CL_Acc_Total_SUIT17: Care leavers in the year ending 31 March 2018 aged 17 in suitable accommodation calculations [3, 4]
+CL_Acc_Total_SUIT18: Care leavers in the year ending 31 March 2018 aged 18 in suitable accommodation calculations [3, 4]
+CL_Acc_SUIT17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 in suitable accommodation [3, 4]
+CL_Acc_SUIT17: Care leavers in the year ending 31 March 2018 aged 17 in suitable accommodation [3, 4]
+CL_Acc_SUIT18: Care leavers in the year ending 31 March 2018 aged 18 in suitable accommodation [3, 4]
+CL_Acc_NotSUIT17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 not in suitable accommodation [3, 4]
+CL_Acc_NotSUIT17: Care leavers in the year ending 31 March 2018 aged 17 not in suitable accommodation [3, 4]
+CL_Acc_NotSUIT18: Care leavers in the year ending 31 March 2018 aged 18 not in suitable accommodation [3, 4]
+CL_Acc_NoSUITInfo17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 for whom suitability of accommodation is not available [3, 5]
+CL_Acc_NoSUITInfo17: Care leavers in the year ending 31 March 2018 aged 17 for whom suitability of accommodation is not available [3, 5]
+CL_Acc_NoSUITInfo18: Care leavers in the year ending 31 March 2018 aged 18 for whom suitability of accommodation is not available [3, 5]
+CL_Acc_SUIT17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 in suitable accommodation [3, 4]
+CL_Acc_SUIT17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 in suitable accommodation [3, 4]
+CL_Acc_SUIT18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 in suitable accommodation [3, 4]
+CL_Acc_NotSUIT17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 not in suitable accommodation [3, 4]
+CL_Acc_NotSUIT17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 not in suitable accommodation [3, 4]
+CL_Acc_NotSUIT18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 not in suitable accommodation [3, 4]
+CL_Acc_NoSUITInfo17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 for whom suitability of accommodation is not available [3, 5]
+CL_Acc_NoSUITInfo17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 for whom suitability of accommodation is not available [3, 5]
+CL_Acc_NoSUITInfo18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 for whom suitability of accommodation is not available [3, 5]
+CL_Acc_P17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated with parents or relatives [6]
+CL_Acc_P17: Care leavers in the year ending 31 March 2018 aged 17 accommodated with parents or relatives [6]
+CL_Acc_P18: Care leavers in the year ending 31 March 2018 aged 18 accommodated with parents or relatives [6]
+CL_Acc_CH17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in community homes
+CL_Acc_CH17: Care leavers in the year ending 31 March 2018 aged 17 accommodated in community homes
+CL_Acc_CH18: Care leavers in the year ending 31 March 2018 aged 18 accommodated in community homes
+CL_Acc_SITA17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA17: Care leavers in the year ending 31 March 2018 aged 17 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA18: Care leavers in the year ending 31 March 2018 aged 18 accommodated in semi-independent transitional accommodation
+CL_Acc_SL17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in supported lodgings
+CL_Acc_SL17: Care leavers in the year ending 31 March 2018 aged 17 accommodated in supported lodgings
+CL_Acc_SL18: Care leavers in the year ending 31 March 2018 aged 18 accommodated in supported lodgings
+CL_Acc_GA17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who have gone abroad
+CL_Acc_GA17: Care leavers in the year ending 31 March 2018 aged 17 who have gone abroad
+CL_Acc_GA18: Care leavers in the year ending 31 March 2018 aged 18 who have gone abroad
+CL_Acc_Dep17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who have been deported
+CL_Acc_Dep17: Care leavers in the year ending 31 March 2018 aged 17 who have been deported
+CL_Acc_Dep18: Care leavers in the year ending 31 March 2018 aged 18 who have been deported
+CL_Acc_OL17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in ordinary lodgings
+CL_Acc_OL17: Care leavers in the year ending 31 March 2018 aged 17 accommodated in ordinary lodgings
+CL_Acc_OL18: Care leavers in the year ending 31 March 2018 aged 18 accommodated in ordinary lodgings
+CL_Acc_NK17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 with residence not known
+CL_Acc_NK17: Care leavers in the year ending 31 March 2018 aged 17 with residence not known
+CL_Acc_NK18: Care leavers in the year ending 31 March 2018 aged 18 with residence not known
+CL_Acc_NFA17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 with no fixed abode or homeless
+CL_Acc_NFA17: Care leavers in the year ending 31 March 2018 aged 17 with no fixed abode or homeless
+CL_Acc_NFA18: Care leavers in the year ending 31 March 2018 aged 18 with no fixed abode or homeless
+CL_Acc_F17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in foyers
+CL_Acc_F17: Care leavers in the year ending 31 March 2018 aged 17 accommodated in foyers
+CL_Acc_F18: Care leavers in the year ending 31 March 2018 aged 18 accommodated in foyers
+CL_Acc_IL17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in independent living
+CL_Acc_IL17: Care leavers in the year ending 31 March 2018 aged 17 accommodated in independent living
+CL_Acc_IL18: Care leavers in the year ending 31 March 2018 aged 18 accommodated in independent living
+CL_Acc_EA17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in emergency accommodation
+CL_Acc_EA17: Care leavers in the year ending 31 March 2018 aged 17 accommodated in emergency accommodation
+CL_Acc_EA18: Care leavers in the year ending 31 March 2018 aged 18 accommodated in emergency accommodation
+CL_Acc_BB17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 in bed and breakfast accommodation
+CL_Acc_BB17: Care leavers in the year ending 31 March 2018 aged 17 in bed and breakfast accommodation
+CL_Acc_BB18: Care leavers in the year ending 31 March 2018 aged 18 in bed and breakfast accommodation
+CL_Acc_Cust17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are in custody
+CL_Acc_Cust17: Care leavers in the year ending 31 March 2018 aged 17 who are in custody
+CL_Acc_Cust18: Care leavers in the year ending 31 March 2018 aged 18 who are in custody
+CL_Acc_FFC17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated with former foster carers
+CL_Acc_FFC17: Care leavers in the year ending 31 March 2018 aged 17 accommodated with former foster carers
+CL_Acc_FFC18: Care leavers in the year ending 31 March 2018 aged 18 accommodated with former foster carers
+CL_Acc_OTH17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 in other accommodation
+CL_Acc_OTH17: Care leavers in the year ending 31 March 2018 aged 17 in other accommodation
+CL_Acc_OTH18: Care leavers in the year ending 31 March 2018 aged 18 in other accommodation
+CL_Acc_NoInf17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 for whom local authority does not have accommodation information [7]
+CL_Acc_NoInf17: Care leavers in the year ending 31 March 2018 aged 17 for whom local authority does not have accommodation information [7]
+CL_Acc_NoInf18: Care leavers in the year ending 31 March 2018 aged 18 for whom local authority does not have accommodation information [7]
+CL_Acc_P17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated with parents or relatives [6]
+CL_Acc_P17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated with parents or relatives [6]
+CL_Acc_P18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated with parents or relatives [6]
+CL_Acc_CH17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in community homes
+CL_Acc_CH17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated in community homes
+CL_Acc_CH18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated in community homes
+CL_Acc_SITA17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated in semi-independent transitional accommodation
+CL_Acc_SL17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in supported lodgings
+CL_Acc_SL17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated in supported lodgings
+CL_Acc_SL18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated in supported lodgings
+CL_Acc_GA17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who have gone abroad
+CL_Acc_GA17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who have gone abroad
+CL_Acc_GA18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who have gone abroad
+CL_Acc_Dep17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who have been deported
+CL_Acc_Dep17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who have been deported
+CL_Acc_Dep18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who have been deported
+CL_Acc_OL17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in ordinary lodgings
+CL_Acc_OL17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated in ordinary lodgings
+CL_Acc_OL18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated in ordinary lodgings
+CL_Acc_NK17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 with residence not known
+CL_Acc_NK17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 with residence not known
+CL_Acc_NK18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 with residence not known
+CL_Acc_NFA17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 with no fixed abode or homeless
+CL_Acc_NFA17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 with no fixed abode or homeless
+CL_Acc_NFA18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 with no fixed abode or homeless
+CL_Acc_F17&18_pc: C Percentage of care are leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in foyers
+CL_Acc_F17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated in foyers
+CL_Acc_F18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated in foyers
+CL_Acc_IL17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in independent living
+CL_Acc_IL17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated in independent living
+CL_Acc_IL18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated in independent living
+CL_Acc_EA17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated in emergency accommodation
+CL_Acc_EA17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated in emergency accommodation
+CL_Acc_EA18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated in emergency accommodation
+CL_Acc_BB17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 in bed and breakfast accommodation
+CL_Acc_BB17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 in bed and breakfast accommodation
+CL_Acc_BB18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 in bed and breakfast accommodation
+CL_Acc_Cust17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are in custody
+CL_Acc_Cust17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are in custody
+CL_Acc_Cust18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are in custody
+CL_Acc_FFC17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 accommodated with former foster carers
+CL_Acc_FFC17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 accommodated with former foster carers
+CL_Acc_FFC18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 accommodated with former foster carers
+CL_Acc_OTH17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 in other accommodation
+CL_Acc_OTH17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 in other accommodation
+CL_Acc_OTH18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 in other accommodation
+CL_Acc_NoInf17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 for whom local authority does not have accommodation information [7]
+CL_Acc_NoInf17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 for whom local authority does not have accommodation information [7]
+CL_Acc_NoInf18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 for whom local authority does not have accommodation information [7]
+CL_InTouch_IT17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are in touch with the local authority
+CL_InTouch_IT17: Care leavers in the year ending 31 March 2018 aged 17 who are in touch with the local authority
+CL_InTouch_IT18: Care leavers in the year ending 31 March 2018 aged 18 who are in touch with the local authority
+CL_InTouch_Refu17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who refuse contact with the local authority
+CL_InTouch_Refu17: Care leavers in the year ending 31 March 2018 aged 17 who refuse contact with the local authority
+CL_InTouch_Refu18: Care leavers in the year ending 31 March 2018 aged 18 who refuse contact with the local authority
+CL_InTouch_NoServ17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who no longer require services
+CL_InTouch_NoServ17: Care leavers in the year ending 31 March 2018 aged 17 who no longer require services
+CL_InTouch_NoServ18: Care leavers in the year ending 31 March 2018 aged 18 who no longer require services
+CL_InTouch_Not17&18: Care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in touch with the local authority
+CL_InTouch_Not17: Care leavers in the year ending 31 March 2018 aged 17 who are not in touch with the local authority
+CL_InTouch_Not18: Care leavers in the year ending 31 March 2018 aged 18 who are not in touch with the local authority
+CL_InTouch_IT17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are in touch with the local authority
+CL_InTouch_IT17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are in touch with the local authority
+CL_InTouch_IT18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are in touch with the local authority
+CL_InTouch_Refu17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who refuse contact with the local authority
+CL_InTouch_Refu17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who refuse contact with the local authority
+CL_InTouch_Refu18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who refuse contact with the local authority
+CL_InTouch_NoServ17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who no longer require services
+CL_InTouch_NoServ17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who no longer require services
+CL_InTouch_NoServ18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who no longer require services
+CL_InTouch_Not17&18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 and 18 who are not in touch with the local authority
+CL_InTouch_Not17_pc: Percentage of care leavers in the year ending 31 March 2018 aged 17 who are not in touch with the local authority
+CL_InTouch_Not18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who are not in touch with the local authority
+CL_StayPut_18: Care leavers in the year ending 31 March 2018 aged 18 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_FFC_18: Care leavers in the year ending 31 March 2018 aged 18 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+CL_StayPut_FFC_18_pc: Percentage of care leavers in the year ending 31 March 2018 aged 18 who ceased to be looked after from a foster placement on their 18th birthday who are living with the former foster carers
+
+[1]  Figures exclude children who have died since leaving care and those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months.
+[2]  Information on 17 and 18 year old care leavers was collected for the first time in 2016.  Therefore this data has been published as experimental statistics and should be treated with caution.
+[3]  These figures also exclude young people who have gone abroad, been deported, or their residence is not known, as in these cases, the suitability of the accommodation will be unknown.
+[4]  Regulation 9(2) of the Care Leavers Regulations defines what is meant by ‘suitable accommodation’.
+[5]  Includes children whose accommodation is not known because either the local authority is not in touch, or the young person has refused contact or no longer requires services.
+[6]  With parents or relatives is likely to be an undercount.  If the young person’s former foster carer is a relative, they should be recorded as accommodated with their former foster carer.
+[7]  Includes young people whose accommodation is not known because either the local authority is not in touch, or the young person has refused contact or no longer requires services.
+
+
+CareLeavers_Act_InTouch19to212018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CL_All_19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_All_19: Care leavers in the year ending 31 March 2018 aged 19 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_All_20: Care leavers in the year ending 31 March 2018 aged 20 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_All_21: Care leavers in the year ending 31 March 2018 aged 21 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_Act_EET19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are in education, employment or training
+CL_Act_EET19: Care leavers in the year ending 31 March 2018 aged 19 who are in education, employment or training
+CL_Act_EET20: Care leavers in the year ending 31 March 2018 aged 20 who are in education, employment or training
+CL_Act_EET21: Care leavers in the year ending 31 March 2018 aged 21 who are in education, employment or training
+CL_Act_HE19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE19: Care leavers in the year ending 31 March 2018 aged 19 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE20: Care leavers in the year ending 31 March 2018 aged 20 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE21: Care leavers in the year ending 31 March 2018 aged 21 whose activity is higher education i.e. studies beyond A level
+CL_Act_OE19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 whose activity is education other than higher education
+CL_Act_OE19: Care leavers in the year ending 31 March 2018 aged 19 whose activity is education other than higher education
+CL_Act_OE20: Care leavers in the year ending 31 March 2018 aged 20 whose activity is education other than higher education
+CL_Act_OE21: Care leavers in the year ending 31 March 2018 aged 21 whose activity is education other than higher education
+CL_Act_TE19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 whose activity is training or employment
+CL_Act_TE19: Care leavers in the year ending 31 March 2018 aged 19 whose activity is training or employment
+CL_Act_TE20: Care leavers in the year ending 31 March 2018 aged 20 whose activity is training or employment
+CL_Act_TE21: Care leavers in the year ending 31 March 2018 aged 21 whose activity is training or employment
+CL_Act_NEET19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, employment or training
+CL_Act_NEET19: Care leavers in the year ending 31 March 2018 aged 19 who are not in education, employment or training
+CL_Act_NEET20: Care leavers in the year ending 31 March 2018 aged 20 who are not in education, employment or training
+CL_Act_NEET21: Care leavers in the year ending 31 March 2018 aged 21 who are not in education, employment or training
+CL_Act_NEET_ill19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill19: Care leavers in the year ending 31 March 2018 aged 19 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill20: Care leavers in the year ending 31 March 2018 aged 20 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill21: Care leavers in the year ending 31 March 2018 aged 21 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_oth19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth19: Care leavers in the year ending 31 March 2018 aged 19 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth20: Care leavers in the year ending 31 March 2018 aged 20 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth21: Care leavers in the year ending 31 March 2018 aged 21 who are not in education, training or employment due to other reasons
+CL_Act_NEET_preg19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg19: Care leavers in the year ending 31 March 2018 aged 19 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg20: Care leavers in the year ending 31 March 2018 aged 20 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg21: Care leavers in the year ending 31 March 2018 aged 21 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NoInf19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 for whom local authority does not have activity information
+CL_Act_NoInf19: Care leavers in the year ending 31 March 2018 aged 19 for whom local authority does not have activity information
+CL_Act_NoInf20: Care leavers in the year ending 31 March 2018 aged 20 for whom local authority does not have activity information
+CL_Act_NoInf21: Care leavers in the year ending 31 March 2018 aged 21 for whom local authority does not have activity information
+CL_Act_EET19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are in education, employment or training
+CL_Act_EET19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are in education, employment or training
+CL_Act_EET20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are in education, employment or training
+CL_Act_EET21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are in education, employment or training
+CL_Act_HE19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 whose activity is higher education i.e. studies beyond A level
+CL_Act_OE19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 whose activity is education other than higher education
+CL_Act_OE19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 whose activity is education other than higher education
+CL_Act_OE20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 whose activity is education other than higher education
+CL_Act_OE21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 whose activity is education other than higher education
+CL_Act_TE19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 whose activity is training or employment
+CL_Act_TE19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 whose activity is training or employment
+CL_Act_TE20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 whose activity is training or employment
+CL_Act_TE21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 whose activity is training or employment
+CL_Act_NEET19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, employment or training
+CL_Act_NEET19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are not in education, employment or training
+CL_Act_NEET20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are not in education, employment or training
+CL_Act_NEET21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are not in education, employment or training
+CL_Act_NEET_ill19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_oth19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are not in education, training or employment due to other reasons
+CL_Act_NEET_preg19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NoInf19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 for whom local authority does not have activity information
+CL_Act_NoInf19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 for whom local authority does not have activity information
+CL_Act_NoInf20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 for whom local authority does not have activity information
+CL_Act_NoInf21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 for whom local authority does not have activity information
+CL_InTouch_IT19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are in touch with the local authority
+CL_InTouch_IT19: Care leavers in the year ending 31 March 2018 aged 19 who are in touch with the local authority
+CL_InTouch_IT20: Care leavers in the year ending 31 March 2018 aged 20 who are in touch with the local authority
+CL_InTouch_IT21: Care leavers in the year ending 31 March 2018 aged 21 who are in touch with the local authority
+CL_InTouch_Refu19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who refuse contact with the local authority
+CL_InTouch_Refu19: Care leavers in the year ending 31 March 2018 aged 19 who refuse contact with the local authority
+CL_InTouch_Refu20: Care leavers in the year ending 31 March 2018 aged 20 who refuse contact with the local authority
+CL_InTouch_Refu21: Care leavers in the year ending 31 March 2018 aged 21 who refuse contact with the local authority
+CL_InTouch_NoServ19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who no longer require services
+CL_InTouch_NoServ19: Care leavers in the year ending 31 March 2018 aged 19 who no longer require services
+CL_InTouch_NoServ20: Care leavers in the year ending 31 March 2018 aged 20 who no longer require services
+CL_InTouch_NoServ21: Care leavers in the year ending 31 March 2018 aged 21 who no longer require services
+CL_InTouch_Not19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in touch with the local authority
+CL_InTouch_Not19: Care leavers in the year ending 31 March 2018 aged 19 who are not in touch with the local authority
+CL_InTouch_Not20: Care leavers in the year ending 31 March 2018 aged 20 who are not in touch with the local authority
+CL_InTouch_Not21: Care leavers in the year ending 31 March 2018 aged 21 who are not in touch with the local authority
+CL_InTouch_IT19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are in touch with the local authority
+CL_InTouch_IT19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are in touch with the local authority
+CL_InTouch_IT20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are in touch with the local authority
+CL_InTouch_IT21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are in touch with the local authority
+CL_InTouch_Refu19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who refuse contact with the local authority
+CL_InTouch_Refu19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who refuse contact with the local authority
+CL_InTouch_Refu20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who refuse contact with the local authority
+CL_InTouch_Refu21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who refuse contact with the local authority
+CL_InTouch_NoServ19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who no longer require services
+CL_InTouch_NoServ19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who no longer require services
+CL_InTouch_NoServ20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who no longer require services
+CL_InTouch_NoServ21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who no longer require services
+CL_InTouch_Not19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are not in touch with the local authority
+CL_InTouch_Not19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are not in touch with the local authority
+CL_InTouch_Not20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are not in touch with the local authority
+CL_InTouch_Not21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are not in touch with the local authority
+
+[1]  Figures exclude children who have died since leaving care and those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months.
+
+
+CareLeavers_Acc_StayPut19to212018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CL_All_19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_All_19: Care leavers in the year ending 31 March 2018 aged 19 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_All_20: Care leavers in the year ending 31 March 2018 aged 20 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_All_21: Care leavers in the year ending 31 March 2018 aged 21 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday [1]
+CL_Acc_Total_SUIT19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 in suitable accommodation calculations [2, 3]
+CL_Acc_Total_SUIT19: Care leavers in the year ending 31 March 2018 aged 19 in suitable accommodation calculations [2, 3]
+CL_Acc_Total_SUIT20: Care leavers in the year ending 31 March 2018 aged 20 in suitable accommodation calculations [2, 3]
+CL_Acc_Total_SUIT21: Care leavers in the year ending 31 March 2018 aged 21 in suitable accommodation calculations [2, 3]
+CL_Acc_SUIT19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 in suitable accommodation [2, 3]
+CL_Acc_SUIT19: Care leavers in the year ending 31 March 2018 aged 19 in suitable accommodation [2, 3]
+CL_Acc_SUIT20: Care leavers in the year ending 31 March 2018 aged 20 in suitable accommodation [2, 3]
+CL_Acc_SUIT21: Care leavers in the year ending 31 March 2018 aged 21 in suitable accommodation [2, 3]
+CL_Acc_NotSUIT19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 not in suitable accommodation [2, 3]
+CL_Acc_NotSUIT19: Care leavers in the year ending 31 March 2018 aged 19 not in suitable accommodation [2, 3]
+CL_Acc_NotSUIT20: Care leavers in the year ending 31 March 2018 aged 20 not in suitable accommodation [2, 3]
+CL_Acc_NotSUIT21: Care leavers in the year ending 31 March 2018 aged 21 not in suitable accommodation [2, 3]
+CL_Acc_NoSUITInfo19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_NoSUITInfo19: Care leavers in the year ending 31 March 2018 aged 19 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_NoSUITInfo20: Care leavers in the year ending 31 March 2018 aged 20 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_NoSUITInfo21: Care leavers in the year ending 31 March 2018 aged 21 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_SUIT19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 in suitable accommodation [2, 3]
+CL_Acc_SUIT19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 in suitable accommodation [2, 3]
+CL_Acc_SUIT20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 in suitable accommodation [2, 3]
+CL_Acc_SUIT21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 in suitable accommodation [2, 3]
+CL_Acc_NotSUIT19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 not in suitable accommodation [2, 3]
+CL_Acc_NotSUIT19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 not in suitable accommodation [2, 3]
+CL_Acc_NotSUIT20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 not in suitable accommodation [2, 3]
+CL_Acc_NotSUIT21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 not in suitable accommodation [2, 3]
+CL_Acc_NoSUITInfo19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_NoSUITInfo19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_NoSUITInfo20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_NoSUITInfo21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 for whom suitability of accommodation is not available [2, 4]
+CL_Acc_P19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 years old accommodated with parents or relatives [5]
+CL_Acc_P19: Care leavers in the year ending 31 March 2018 aged 19 accommodated with parents or relatives [5]
+CL_Acc_P20: Care leavers in the year ending 31 March 2018 aged 20 accommodated with parents or relatives [5]
+CL_Acc_P21: Care leavers in the year ending 31 March 2018 aged 21 accommodated with parents or relatives [5]
+CL_Acc_CH19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in community homes
+CL_Acc_CH19: Care leavers in the year ending 31 March 2018 aged 19 accommodated in community homes
+CL_Acc_CH20: Care leavers in the year ending 31 March 2018 aged 20 accommodated in community homes
+CL_Acc_CH21: Care leavers in the year ending 31 March 2018 aged 21 accommodated in community homes
+CL_Acc_SITA19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA19: Care leavers in the year ending 31 March 2018 aged 19 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA20: Care leavers in the year ending 31 March 2018 aged 20 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA21: Care leavers in the year ending 31 March 2018 aged 21 accommodated in semi-independent transitional accommodation
+CL_Acc_SL19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in supported lodgings
+CL_Acc_SL19: Care leavers in the year ending 31 March 2018 aged 19 accommodated in supported lodgings
+CL_Acc_SL20: Care leavers in the year ending 31 March 2018 aged 20 accommodated in supported lodgings
+CL_Acc_SL21: Care leavers in the year ending 31 March 2018 aged 21 accommodated in supported lodgings
+CL_Acc_GA19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who have gone abroad
+CL_Acc_GA19: Care leavers in the year ending 31 March 2018 aged 19 who have gone abroad
+CL_Acc_GA20: Care leavers in the year ending 31 March 2018 aged 20 who have gone abroad
+CL_Acc_GA21: Care leavers in the year ending 31 March 2018 aged 21 who have gone abroad
+CL_Acc_Dep19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who have been deported
+CL_Acc_Dep19: Care leavers in the year ending 31 March 2018 aged 19 who have been deported
+CL_Acc_Dep20: Care leavers in the year ending 31 March 2018 aged 20 who have been deported
+CL_Acc_Dep21: Care leavers in the year ending 31 March 2018 aged 21 who have been deported
+CL_Acc_OL19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in ordinary lodgings
+CL_Acc_OL19: Care leavers in the year ending 31 March 2018 aged 19 accommodated in ordinary lodgings
+CL_Acc_OL20: Care leavers in the year ending 31 March 2018 aged 20 accommodated in ordinary lodgings
+CL_Acc_OL21: Care leavers in the year ending 31 March 2018 aged 21 accommodated in ordinary lodgings
+CL_Acc_NK19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 with residence not known
+CL_Acc_NK19: Care leavers in the year ending 31 March 2018 aged 19 with residence not known
+CL_Acc_NK20: Care leavers in the year ending 31 March 2018 aged 20 with residence not known
+CL_Acc_NK21: Care leavers in the year ending 31 March 2018 aged 21 with residence not known
+CL_Acc_NFA19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 with no fixed abode or homeless
+CL_Acc_NFA19: Care leavers in the year ending 31 March 2018 aged 19 with no fixed abode or homeless
+CL_Acc_NFA20: Care leavers in the year ending 31 March 2018 aged 20 with no fixed abode or homeless
+CL_Acc_NFA21: Care leavers in the year ending 31 March 2018 aged 21 with no fixed abode or homeless
+CL_Acc_F19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in foyers
+CL_Acc_F19: Care leavers in the year ending 31 March 2018 aged 19 accommodated in foyers
+CL_Acc_F20: Care leavers in the year ending 31 March 2018 aged 20 accommodated in foyers
+CL_Acc_F21: Care leavers in the year ending 31 March 2018 aged 21 accommodated in foyers
+CL_Acc_IL19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in independent living
+CL_Acc_IL19: Care leavers in the year ending 31 March 2018 aged 19 accommodated in independent living
+CL_Acc_IL20: Care leavers in the year ending 31 March 2018 aged 20 accommodated in independent living
+CL_Acc_IL21: Care leavers in the year ending 31 March 2018 aged 21 accommodated in independent living
+CL_Acc_EA19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in emergency accommodation
+CL_Acc_EA19: Care leavers in the year ending 31 March 2018 aged 19 accommodated in emergency accommodation
+CL_Acc_EA20: Care leavers in the year ending 31 March 2018 aged 20 accommodated in emergency accommodation
+CL_Acc_EA21: Care leavers in the year ending 31 March 2018 aged 21 accommodated in emergency accommodation
+CL_Acc_BB19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 in bed and breakfast accommodation
+CL_Acc_BB19: Care leavers in the year ending 31 March 2018 aged 19 in bed and breakfast accommodation
+CL_Acc_BB20: Care leavers in the year ending 31 March 2018 aged 20 in bed and breakfast accommodation
+CL_Acc_BB21: Care leavers in the year ending 31 March 2018 aged 21 in bed and breakfast accommodation
+CL_Acc_Cust19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 who are in custody
+CL_Acc_Cust19: Care leavers in the year ending 31 March 2018 aged 19 who are in custody
+CL_Acc_Cust20: Care leavers in the year ending 31 March 2018 aged 20 who are in custody
+CL_Acc_Cust21: Care leavers in the year ending 31 March 2018 aged 21 who are in custody
+CL_Acc_FFC19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated with former foster carers
+CL_Acc_FFC19: Care leavers in the year ending 31 March 2018 aged 19 accommodated with former foster carers
+CL_Acc_FFC20: Care leavers in the year ending 31 March 2018 aged 20 accommodated with former foster carers
+CL_Acc_FFC21: Care leavers in the year ending 31 March 2018 aged 21 accommodated with former foster carers
+CL_Acc_OTH19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 in other accommodation
+CL_Acc_OTH19: Care leavers in the year ending 31 March 2018 aged 19 in other accommodation
+CL_Acc_OTH20: Care leavers in the year ending 31 March 2018 aged 20 in other accommodation
+CL_Acc_OTH21: Care leavers in the year ending 31 March 2018 aged 21 in other accommodation
+CL_Acc_NoInf19to21: Care leavers in the year ending 31 March 2018 aged 19 to 21 for whom local authority does not have accommodation information [6]
+CL_Acc_NoInf19: Care leavers in the year ending 31 March 2018 aged 19 for whom local authority does not have accommodation information [6]
+CL_Acc_NoInf20: Care leavers in the year ending 31 March 2018 aged 20 for whom local authority does not have accommodation information [6]
+CL_Acc_NoInf21: Care leavers in the year ending 31 March 2018 aged 21 for whom local authority does not have accommodation information [6]
+CL_Acc_P19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 years old accommodated with parents or relatives [5]
+CL_Acc_P19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated with parents or relatives [5]
+CL_Acc_P20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated with parents or relatives [5]
+CL_Acc_P21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated with parents or relatives [5]
+CL_Acc_CH19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in community homes
+CL_Acc_CH19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated in community homes
+CL_Acc_CH20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated in community homes
+CL_Acc_CH21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated in community homes
+CL_Acc_SITA19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated in semi-independent transitional accommodation
+CL_Acc_SL19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in supported lodgings
+CL_Acc_SL19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated in supported lodgings
+CL_Acc_SL20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated in supported lodgings
+CL_Acc_SL21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated in supported lodgings
+CL_Acc_GA19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who have gone abroad
+CL_Acc_GA19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who have gone abroad
+CL_Acc_GA20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who have gone abroad
+CL_Acc_GA21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who have gone abroad
+CL_Acc_Dep19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who have been deported
+CL_Acc_Dep19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who have been deported
+CL_Acc_Dep20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who have been deported
+CL_Acc_Dep21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who have been deported
+CL_Acc_OL19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in ordinary lodgings
+CL_Acc_OL19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated in ordinary lodgings
+CL_Acc_OL20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated in ordinary lodgings
+CL_Acc_OL21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated in ordinary lodgings
+CL_Acc_NK19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 with residence not known
+CL_Acc_NK19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 with residence not known
+CL_Acc_NK20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 with residence not known
+CL_Acc_NK21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 with residence not known
+CL_Acc_NFA19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 with no fixed abode or homeless
+CL_Acc_NFA19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 with no fixed abode or homeless
+CL_Acc_NFA20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 with no fixed abode or homeless
+CL_Acc_NFA21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 with no fixed abode or homeless
+CL_Acc_F19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in foyers
+CL_Acc_F19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated in foyers
+CL_Acc_F20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated in foyers
+CL_Acc_F21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated in foyers
+CL_Acc_IL19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in independent living
+CL_Acc_IL19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated in independent living
+CL_Acc_IL20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated in independent living
+CL_Acc_IL21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated in independent living
+CL_Acc_EA19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated in emergency accommodation
+CL_Acc_EA19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated in emergency accommodation
+CL_Acc_EA20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated in emergency accommodation
+CL_Acc_EA21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated in emergency accommodation
+CL_Acc_BB19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 in bed and breakfast accommodation
+CL_Acc_BB19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 in bed and breakfast accommodation
+CL_Acc_BB20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 in bed and breakfast accommodation
+CL_Acc_BB21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 in bed and breakfast accommodation
+CL_Acc_Cust19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 who are in custody
+CL_Acc_Cust19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who are in custody
+CL_Acc_Cust20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who are in custody
+CL_Acc_Cust21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 who are in custody
+CL_Acc_FFC19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 accommodated with former foster carers
+CL_Acc_FFC19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 accommodated with former foster carers
+CL_Acc_FFC20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 accommodated with former foster carers
+CL_Acc_FFC21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 accommodated with former foster carers
+CL_Acc_OTH19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 in other accommodation
+CL_Acc_OTH19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 in other accommodation
+CL_Acc_OTH20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 in other accommodation
+CL_Acc_OTH21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 in other accommodation
+CL_Acc_NoInf19to21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 to 21 for whom local authority does not have accommodation information [6]
+CL_Acc_NoInf19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 for whom local authority does not have accommodation information [6]
+CL_Acc_NoInf20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 for whom local authority does not have accommodation information [6]
+CL_Acc_NoInf21_pc: Percentage of care leavers in the year ending 31 March 2018 aged 21 for whom local authority does not have accommodation information [6]
+CL_StayPut_19&20: Care leavers in the year ending 31 March 2018 aged 19 and 20 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_19: Care leavers in the year ending 31 March 2018 aged 19 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_20: Care leavers in the year ending 31 March 2018 aged 20 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_FFC_19&20: Care leavers in the year ending 31 March 2018 aged 19 and 20 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+CL_StayPut_FFC_19: Care leavers in the year ending 31 March 2018 aged 19 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+CL_StayPut_FFC_20: Care leavers in the year ending 31 March 2018 aged 20 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+CL_StayPut_FFC_19&20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 and 20 who ceased to be looked after from a foster placement on their 18th birthday who are living with the former foster carers
+CL_StayPut_FFC_19_pc: Percentage of care leavers in the year ending 31 March 2018 aged 19 who ceased to be looked after from a foster placement on their 18th birthday who are living with the former foster carers
+CL_StayPut_FFC_20_pc: Percentage of care leavers in the year ending 31 March 2018 aged 20 who ceased to be looked after from a foster placement on their 18th birthday who are living with the former foster carers
+
+[1]  Figures exclude children who have died since leaving care and those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months.
+[2]  These figures also exclude young people who have gone abroad, been deported, or their residence is not known, as in these cases, the suitability of the accommodation will be unknown
+[3]  Regulation 9(2) of the Care Leavers Regulations defines what is meant by ‘suitable accommodation’.
+[4]  Includes children whose accommodation is not known because either the local authority is not in touch, or the young person has refused contact or no longer requires services.
+[5]  With parents or relatives is likely to be an undercount.  If the young person’s former foster carer is a relative, they should be recorded as accommodated with their former foster carer.
+[6]  Includes young people whose accommodation is not known because either the local authority is not in touch, or the young person has refused contact or no longer requires services.
+
+
+Missing2018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+Miss_Miss_DuringYear: Children looked after during the year ending 31 March 2018 who had a missing incident during the year [1, 2]
+Miss_Miss_DuringYear_pc: Percentage of children looked after during the year ending 31 March 2018 who had a missing incident during the year [1, 2]
+Miss_Miss_Incs: Number of missing incidents during the year for children looked after during the year ending 31 March 2018 [3]
+Miss_Miss_Incs_av: Average number of missing incidents during the year for children looked after during the year ending 31 March 2018 who went missing [3, 4]
+Miss_Miss_MoreOnce: Children looked after during the year ending 31 March 2018 who went missing more than once during the year [5]
+Miss_Miss_31Mar: Children looked after who were missing at 31 March 2018
+Miss_Away_DuringYear: Children looked after during the year ending 31 March 2018 who were away from placement without authorisation during the year [2, 6, 7]
+Miss_Away_DuringYear_pc: Percentage of children looked after during the year ending 31 March 2018 who were away from placement without authorisation during the year [2, 6, 7]
+Miss_Away_Incs: Number of away from placements without authorisation incidents during the year for children looked after during the year ending 31 March 2018 [3]
+Miss_Away_Incs_av: Average number of away from placements without authorisation incidents during the year for children looked after during the year ending 31 March 2018 who went away [3, 4]
+Miss_Away_MoreOnce: Children looked after during the year ending 31 March 2018 who were away from placement without authorisation more than once during the year [5]
+Miss_Away_31Mar: Children looked after who were away from placement without authorisation at 31 March 2018
+
+[1]  Missing is defined as a looked after child who is not at their placement or a place they are expected to be (e.g. school) and their whereabouts is not known.
+[2]  This is the fourth year these statistics have been collected in this way, and local authorities have reported some significant improvements in recording.  We will assess next year whether the figures are considered robust enough to be classed as national statistics, rather than experimental.
+[3]  Includes children who were missing or away from placement without authorisation at 1 April 2017, therefore carried over from previous years.
+[4]  The average number of missing or away from placement without authorisation incidents for each looked after child with at least one incident during the year.
+[5]  Children who had more than one missing or away from placement without authorisation incident which started during the year ending 31 March 2018.
+[6]  Away from placement without authorisation is defined as a looked after child whose whereabouts is known but who is not at their placement or place they are expected to be and the carer has concerns or the incident has been notified to the local authority or the police.
+[7]  In 2017 and 2018, some local authorities informed the department that they do not record incidents as ‘away without authorisation’ but instead report all incidents as ‘missing’ to maintain consistency with local police reporting.  We estimate this could mean an overestimate of missing incidents of up to 3% in 2017 and up to 8% in 2018.
+
+
+OC22018.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+OC2_12mths: Children looked after at 31 March 2018 for at least 12 months [1, 2]
+OC2_10to17: Children looked after at 31 March 2018 for at least 12 months aged 10 to 17 years [3]
+OC2_convicted: Children looked after at 31 March 2018 aged 10 to 17 years who were convicted or subject to youth cautions, or youth conditional cautions during the year [4]
+OC2_convicted_pc: Percentage of children looked after at 31 March 2018 aged 10 to 17 years who were convicted or subject to youth cautions, or youth conditional cautions during the year [4]
+OC2_submisuse: Children looked after at 31 March 2018 identified as having a substance misuse problem [2, 5]
+OC2_subint: Children looked after at 31 March 2018 received intervention for substance misuse [6]
+OC2_suboffint: Children looked after at 31 March 2018 offered intervention for substance misuse and refused [7]
+OC2_submisuse_pc: Percentage of children looked after at 31 March 2018 identified as having a substance misuse problem [5]
+OC2_subint_pc: Percentage of children looked after at 31 March 2018 identified as having a substance misuse problem who received an intervention [6]
+OC2_suboffint_pc: Percentage of children looked after at 31 March 2018 identified as having a substance misuse problem who were offered an intervention but refused it [7]
+OC2_immunisation: Children looked after at 31 March 2018 whose immunisations were up to date [8]
+OC2_teethcheck: Children looked after at 31 March 2018 who had their teeth checked [9]
+OC2_healthassmt: Children looked after at 31 March 2018 who had their annual health assessment [10]
+OC2_immunisation_pc: Percentage of children looked after at 31 March 2018 whose immunisations were up to date [8]
+OC2_teethcheck_pc: Percentage of children looked after at 31 March 2018 who had their teeth checked [9]
+OC2_healthassmt_pc: Percentage of children looked after at 31 March 2018 who had their annual health assessment [10]
+OC2_4andunder: Children looked after at 31 March 2018 for at least 12 months aged 4 and under [11]
+OC2_devassmt: Children looked after at 31 March 2018 aged 4 and under whose development assessments were up to date [11]
+OC2_devassmt_pc: Percentage of children looked after at 31 March 2018 aged 4 and under whose development assessments were up to date [11]
+OC2_5to16: Children looked after at 31 March 2018 for at least 12 months aged 5 to 16
+OC2_SDQ: Children looked after at 31 March 2018 aged 5 to 16 with an SDQ score [12]
+OC2_SDQ_pc: Percentage of children looked after at 31 March 2018  aged 5 to 16 with an SDQ score [12]
+OC2_SDQnormal: Children looked after at 31 March 2018 aged 5 to 16 whose SDQ score was normal [13]
+OC2_SDQborderline: Children looked after at 31 March 2018 aged 5 to 16 whose SDQ score was borderline [13]
+OC2_SDQconcern: Children looked after at 31 March 2018 aged 5 to 16 whose SDQ score was a cause for concern [13]
+OC2_SDQnormal_pc: Percentage of children looked after at 31 March 2018 aged 5 to 16 whose SDQ score was normal [13]
+OC2_SDQborderline_pc: Percentage of children looked after at 31 March 2018 aged 5 to 16 whose SDQ score was borderline [13]
+OC2_SDQconcern_pc: Percentage of children looked after at 31 March 2018 aged 5 to 16 whose SDQ score was a cause for concern [13]
+OC2_SDQaverage: Children looked after at 31 March 2018 aged 5 to 16 with an SDQ score - average SDQ score
+
+[1]  Children of all ages who have been continuously looked after for at least 12 months.
+[2]  Information on substance misuse is collected for children looked after continuously for at least 12 months as at 31 March.
+[3]  Offending data is collected for children aged 10 or over who have been looked after continuously for at least 12 months as at 31 March.
+[4]  This includes children who were convicted or subject to a final warning or reprimand under the Crime and Disorder Act 1998 during the year for an offence committed while being looked after.
+[5]  The term ‘drug’ is used to refer to any psychotropic substance, including illegal drugs, illicit use of prescription drugs and volatile substances.  Young people’s drug taking is often inextricably linked with the consumption of alcohol.  Therefore the term ‘substance’ refers to both drugs and alcohol but not tobacco.  Substance misuse is defined as ‘intoxication by (or regular excessive consumption and/or dependence on) psychoactive substances, leading to social, psychological, physical or legal problems’.  It includes problematic use of both legal and illegal drugs (including alcohol when used in combination with other substances).
+[6]  Children identified as having a substance misuse problem who received an intervention.
+[7]  Children identified as having a substance misuse problem who were offered an intervention but refused it.
+[8]  Immunisations were up to date by the end of 31 March 2018.  ‘Up to date’ means that by 31 March the child has had all of the immunisations that a child of their age should have received, according to the immunisations timetable reproduced by the Department of Health and Social Care which is available via the following link:
+http://www.nhs.uk/Planners/vaccinations/Pages/Vaccinationchecklist.aspx.
+[9]  Records whether the child had their teeth checked by a dentist during the year ending 31 March 2018.
+[10]  Records whether the child received their annual health assessment from a doctor or other suitably qualified professional during the year ending 31 March 2018.  Health Assessments must be carried out twice a year for those under 5 years of age.  Both of these assessments must be carried out in order for the Annual Assessment requirement to be satisfied for under 5s.  The assessment should be carried out once in every period of six months before the child’s fifth birthday.  This means that one assessment should be carried out in the first six months and one in the second six months.  For those aged 5 or over, a single annual assessment fulfils the requirement.
+[11]  Development assessment data is collected for children aged 4 and under at 31 March who were looked after continuously for at least 12 months.  This measures whether the child’s Health Surveillance or Health Promotion Checks were up-to-date.
+[12]  Children looked after continuously for at least 12 months and aged 5 to 16 for whom an SDQ score was received via the looked after children return (SSDA903).  An SDQ score is required of all children aged 4 to 16 on the date of the last assessment.  The date of assessment is not collected on the looked after children return and therefore this cohort has been restricted to age 5 to 16 as at 31 March.
+[13]  Scores have been banded in the following way: a score of under 14 is considered normal, 14 to 16 is borderline cause for concern and 17 or over is a cause for concern.
+

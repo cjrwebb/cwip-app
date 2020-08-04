@@ -5,8 +5,6 @@ server <- shinyServer(function(input, output, session){
 
 # Waiter ------------------------------------------------------------------
 
-
-
   # give time for wait screen to show
   Sys.sleep(1)
   waiter_hide()
@@ -41,6 +39,7 @@ server <- shinyServer(function(input, output, session){
                        "var_data_dash",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
+                       selected = csc_vars[5],
                        server = TRUE)
   
   # updateRadioButtons(session,
@@ -145,12 +144,14 @@ server <- shinyServer(function(input, output, session){
                        "var_sbs_trend_left",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
+                       selected = csc_vars[5],
                        server = TRUE)
   
   updateSelectizeInput(session, 
                        "var_sbs_trend_right",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
+                       selected = csc_vars[5],
                        server = TRUE)
 
   
@@ -193,12 +194,14 @@ server <- shinyServer(function(input, output, session){
                        "var_sbs_map_left",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
+                       selected = csc_vars[5],
                        server = TRUE)
   
   updateSelectizeInput(session, 
                        "var_sbs_map_right",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
+                       selected = csc_vars[5],
                        server = TRUE)
   
   

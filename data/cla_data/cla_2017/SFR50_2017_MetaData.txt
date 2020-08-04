@@ -1,0 +1,471 @@
+Meta Data Document
+Release of underlying data
+Children looked after in England including adoption: 2016 to 2017
+SFR 50/2017
+
+Overview
+
+This publication provides information about children looked after in England for the year ending 31 March 2017.  The figures are based on data collected annually through the Children Looked After return (also known as SSDA903) which is completed each spring by all local authorities in England.  Further details on which children are included in the data collection can be found in the children looked after return 2016-17 collection guide:
+https://www.gov.uk/government/publications/children-looked-after-return-2016-to-2017-guide.
+
+National totals are derived by summing data provided by each LA and then applying rounding and suppression.  The sum of each LA will not necessarily match national totals as a result.
+
+Regional totals are derived by summing data for each LA within that region and then applying rounding and suppression.  The sum of regional totals will not necessarily match the national total as a result.
+
+LA level data are data as returned by each LA and have been suppressed where necessary.
+
+Rounding and suppression: To ensure that no individual can be identified, we use conventions for the rounding and suppression of small numbers.  National and regional totals have been rounded to the nearest 10.
+
+For confidentiality purposes, numbers from one to five inclusive have been suppressed and replaced by a cross (x).  Where any number is shown as zero (0), the original figure submitted was zero (0).  It has been necessary to suppress other figures whenever it would be possible to calculate the value of a suppressed number by means of simple arithmetic.  The rule applied in these circumstances has been to suppress the next smallest data item.  Where data is not available it is reported as ‘..’.
+
+
+The Underlying Data Files
+File 1 Title: SFR50_CLA2017.csv (children looked after in the year ending 31 March 2017)
+File 2 Title: SFR50_ADM2017.csv (children who started to be looked after in the year ending 31 March 2017)
+File 3 Title: SFR50_CEA2017.csv (children who ceased to be looked after in the year ending 31 March 2017, including adoption)
+File 4 Title: SFR50_CareLeavers17182017.csv (children now aged 17 and 18 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday in the year ending 31 March 2017) 
+File 5 Title: SFR50_CareLeavers19to212017.csv (children now aged 19 to 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday in the year ending 31 March 2017)
+File 6 Title: SFR50_Missing2017.csv (children who were missing or away without authorisation from their agreed placement in the year ending 31 March 2017)
+File 7 Title: SFR50_OC22017.csv (outcomes for children who were looked after continuously for 12 months at 31 March 2017)
+
+Data usage notes – further information is available in the CLA guide published alongside the release:
+
+1: In order to allow users maximum flexibility to aggregate data to meet their own purposes, LA level data has been shown to the nearest whole number.
+
+2: The LA_order field can be used to display the data in all files to the published regional and local authority order.
+
+3: 2016 Offending data - The 2016 underlying data included children aged 10 and over, whereas in the SFR tables, children were included if they were aged 10 to 17 and there was a small difference between the tables and the underlying data (18 year olds).  In 2017, the underlying data has been amended to only include children aged 10 to 17.
+
+4: SFR50_2017_Missing2017.csv and SFR50_CareLeavers17182017.csv, and the 11 data items ‘CLA_RPC’ in the file SFR50_2017_CLA2017.csv are experimental statistics and users should be cautious interpreting the data.
+
+Annex A:
+
+SFR50_CLA2017.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_Mar2017: Children looked after at 31 March 2017
+CLA_2017: Children looked after during the year ending 31 March 2017
+CLA_stp2017: Children looked after during the year ending 31 March 2017 who were only looked after under a series of short term placements
+CLA_male: Male children looked after at 31 March 2017
+CLA_female: Female children looked after at 31 March 2017
+CLA_U1: Children looked after at 31 March 2017 aged under 1
+CLA_1to4: Children looked after at 31 March 2017 aged 1 to 4
+CLA_5to9: Children looked after at 31 March 2017 aged 5 to 9
+CLA_10to15: Children looked after at 31 March 2017 aged 10 to 15
+CLA_16over: Children looked after at 31 March 2017 aged 16 and over
+CLA_White: Children looked after at 31 March 2017 from a white ethnic background
+CLA_Mixed: Children looked after at 31 March 2017 from a mixed ethnic background
+CLA_Asian: Children looked after at 31 March 2017 from an Asian ethnic background
+CLA_Black: Children looked after at 31 March 2017 from a Black ethnic background
+CLA_EOTH: Children looked after at 31 March 2017 from any other ethnic background
+CLA_Oth: Children looked after at 31 March 2017 where ethnic background is not known
+CLA_Fost: Children looked after at 31 March 2017 in foster placements
+CLA_Adopt: Children looked after at 31 March 2017 placed for adoption
+CLA_Parent: Children looked after at 31 March 2017 placed with parents
+CLA_Ocom: Children looked after at 31 March 2017 placed in other placements within the community
+CLA_Secure: Children looked after at 31 March 2017 placed in secure units, children’s homes and hostels
+CLA_Ores: Children looked after at 31 March 2017 placed in other residential accommodation
+CLA_RSch: Children looked after at 31 March 2017 placed in residential schools
+CLA_OthPl: Children looked after at 31 March 2017 in other placements
+CLA_ICO: Children looked after at 31 March 2017 under an interim care order
+CLA_FCO: Children looked after at 31 March 2017 under a full care order
+CLA_FrAd: Children looked after at 31 March 2017 who are freed for adoption
+CLA_PlaceO: Children looked after at 31 March 2017 who have a placement order
+CLA_S20: Children looked after at 31 March 2017 under section 20
+CLA_CPG: Children looked after at 31 March 2017 under child protection grounds
+CLA_YJLS: Children looked after at 31 March 2017 under a youth justice legal status
+CLA_UASC: Children looked after at 31 March 2017 who were unaccompanied asylum seekers during the year
+CLA_OwnP: Children looked after at 31 March 2017 where placement is provided by the local authority’s own provision
+CLA_OthLA: Children looked after at 31 March 2017 under where placement is provided by another local authority
+CLA_OthPP: Children looked after at 31 March 2017 where placement is provided by other public provision
+CLA_Priv: Children looked after at 31 March 2017 where placement is provided by private provision
+CLA_Vol: Children looked after at 31 March 2017 where placement is provided by voluntary provision
+CLA_Par: Children looked after at 31 March 2017 where placement is provided by parents
+CLA_Nrep: Children looked after at 31 March 2017 where placement provider is not reported
+CLA_InBound: Children looked after at 31 March 2017 placed within the local authority boundary
+CLA_OutBound: Children looked after at 31 March 2017 placed outside of the local authority boundary
+CLA_InLA_LTE20: Children looked after at 31 March 2017 placed within the local authority boundary and within 20 miles of the child’s home
+CLA_OutLA_LTE20: Children looked after at 31 March 2017 placed outside of the local authority boundary and within 20 miles of the child’s home
+CLA_InLA_GT20: Children looked after at 31 March 2017 placed within the local authority boundary and over 20 miles from the child’s home
+CLA_OutLA_GT20: Children looked after at 31 March 2017 placed outside of the local authority boundary and over 20 miles from the child’s home
+CLA_InLA_NoInfo: Children looked after at 31 March 2017 placed within the local authority boundary where the distance from the child’s home is not known or not recorded
+CLA_OutLA_NoInfo: Children looked after at 31 March 2017 placed outside of the local authority boundary where the distance from the child’s home is not known or not recorded
+CLA_LAPl: Children looked after at 31 March 2017 who were the responsibility of all local authorities placed within the local authority boundary
+CLA_IntPl: Children looked after at 31 March 2017 who were the responsibility of the internal local authority placed internally within the local authority boundary
+CLA_ExtPl: Children looked after at 31 March 2017 who were the responsibility of an external local authority placed within the local authority boundary
+CLA_NetGain: Children looked after at 31 March 2017 – net gain of children by a local authority
+CLA_RPC_All_Place: Placements that ended during the year ending 31 March 2017
+CLA_RPC_CARPL: Placements that ended during the year ending 31 March 2017 due to a change to/implementation of care plan
+CLA_RPC_CLOSE: Placements that ended during the year ending 31 March 2017 due to resignation or closure of provision
+CLA_RPC_ALLEG: Placements that ended during the year ending 31 March 2017 due to allegation
+CLA_RPC_STAND: Placements that ended during the year ending 31 March 2017 due to standards of care concern
+CLA_RPC_APPRR: Placements that ended during the year ending 31 March 2017 due to removal of approval
+CLA_RPC_CREQB: Placements that ended during the year ending 31 March 2017 due to the carer requesting the placement end because of the child’s behaviour
+CLA_RPC_CREQO: Placements that ended during the year ending 31 March 2017 due to the carer requesting the placement end for other reasons
+CLA_RPC_CHILD: Placements that ended during the year ending 31 March 2017 due to the child requesting the placement end
+CLA_RPC_LAREQ: Placements that ended during the year ending 31 March 2017 due to the responsible area/authority requesting the placement end
+CLA_RPC_PLACE: Placements that ended during the year ending 31 March 2017 due to the change in the status of a placement only
+CLA_RPC_OTHER: Placements that ended during the year ending 31 March 2017 due to other reasons
+
+
+SFR50_ADM2017.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_started2017: Children who started to be looked after during the year ending 31 March 2017
+CLA_taken2017: Children who were taken into care during the year ending 31 March 2017
+SCLA_male: Male children who started to be looked after during the year ending 31 March 2017
+SCLA_female: Female children who started to be looked after during the year ending 31 March 2017
+SCLA_U1: Children who started to be looked after during the year ending 31 March 2017 aged under 1
+SCLA_1to4: Children who started to be looked after during the year ending 31 March 2017 aged 1 to 4
+SCLA_5to9: Children who started to be looked after during the year ending 31 March 2017 aged 5 to 9
+SCLA_10to15: Children who started to be looked after during the year ending 31 March 2017 aged 10 to 15
+SCLA_16over: Children who started to be looked after during the year ending 31 March 2017 aged 16 and over
+SCLA_AbNeg: Children who started to be looked after during the year ending 31 March 2017 due to abuse or neglect
+SCLA_Cdisab: Children who started to be looked after during the year ending 31 March 2017 due to the child’s disability
+SCLA_ParIll: Children who started to be looked after during the year ending 31 March 2017 due to parental illness or disability
+SCLA_FAcSt: Children who started to be looked after during the year ending 31 March 2017 due to family in acute stress
+SCLA_FD: Children who started to be looked after during the year ending 31 March 2017 due to family dysfunction
+SCLA_SUB: Children who started to be looked after during the year ending 31 March 2017 due to socially unacceptable behaviour
+SCLA_LI: Children who started to be looked after during the year ending 31 March 2017 due to low income
+SCLA_AbsPar: Children who started to be looked after during the year ending 31 March 2017 due to absent parenting
+SCLA_ICO: Children who started to be looked after during the year ending 31 March 2017 under an interim care order
+SCLA_FCO: Children who started to be looked after during the year ending 31 March 2017 under a full care order
+SCLA_PlaceO: Children who started to be looked after during the year ending 31 March 2017 where a placement order has been granted
+SCLA_S20: Children who started to be looked after during the year ending 31 March 2017 under section 20
+SCLA_UPP: Children who started to be looked after during the year ending 31 March 2017 under police protection
+SCLA_SEPO: Children who started to be looked after during the year ending 31 March 2017 subject to an emergency protection order
+SCLA_UCAO: Children who started to be looked after during the year ending 31 March 2017 under a child assessment order
+SCLA_ONCT: Children who started to be looked after during the year ending 31 March 2017 on remand or committed for trial
+SCLA_PACE: Children who started to be looked after during the year ending 31 March 2017 under the police and criminal evidence act
+SCLA_SORR: Children who started to be looked after during the year ending 31 March 2017 under a supervision order with residence requirement
+
+
+SFR50_CEA2017.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_cease2017: Children who ceased to be looked after during the year ending 31 March 2017
+CEA_male: Male children who ceased to be looked after during the year ending 31 March 2017
+CEA_female: Female children who ceased to be looked after during the year ending 31 March 2017
+CEA_U1: Children who ceased to be looked after during the year ending 31 March 2017 aged under 1
+CEA_1to4: Children who ceased to be looked after during the year ending 31 March 2017 aged 1 to 4
+CEA_5to9: Children who ceased to be looked after during the year ending 31 March 2017 aged 5 to 9
+CEA_10to15: Children who ceased to be looked after during the year ending 31 March 2017 aged 10 to 15
+CEA_16: Children who ceased to be looked after during the year ending 31 March 2017 aged 16
+CEA_17: Children who ceased to be looked after during the year ending 31 March 2017 aged 17
+CEA_18over: Children who ceased to be looked after during the year ending 31 March 2017 aged 18 and over
+CEA_Adop1: Children who ceased to be looked after during the year ending 31 March 2017 due to adoption - application unopposed
+CEA_Adop2: Children who ceased to be looked after during the year ending 31 March 2017 due to adoption - consent dispensed with
+CEA_Died: Children who ceased to be looked after during the year ending 31 March 2017 as they have died
+CEA_Taken: Children who ceased to be looked after during the year ending 31 March 2017 - care taken by another LA
+CEA_ParPlan: Children who ceased to be looked after during the year ending 31 March 2017 - returned home to live with parents or relatives as part of care planning process
+CEA_ParNPlan: Children who ceased to be looked after during the year ending 31 March 2017 - returned home to live with parents or relatives not as part of care planning process
+CEA_NoPar: Children who ceased to be looked after during the year ending 31 March 2017 - ceased to live with parents or relatives without parental responsibility
+CEA_CAO: Children who ceased to be looked after during the year ending 31 March 2017 - child arrangement order granted
+CEA_SGO1: Children who ceased to be looked after during the year ending 31 March 2017 - special guardianship order made to former foster carers
+CEA_SGO2: Children who ceased to be looked after during the year ending 31 March 2017 - special guardianship order made to carers other than former foster carers
+CEA_IndLiv1: Children who ceased to be looked after during the year ending 31 March 2017 - moved into independent living (with supportive accommodation)
+CEA_IndLiv2: Children who ceased to be looked after during the year ending 31 March 2017 - moved into independent living (with no formalised support)
+CEA_Residential: Children who ceased to be looked after during the year ending 31 March 2017 - transferred to residential care funded by adult social services
+CEA_Custody: Children who ceased to be looked after during the year ending 31 March 2017 - sentenced to custody
+CEA_RemEnd: Children who ceased to be looked after during the year ending 31 March 2017 - accommodation on remand ended
+CEA_AgeAssmt: Children who ceased to be looked after during the year ending 31 March 2017 - age assessment determined child was 18 or over
+CEA_Abroad: Children who ceased to be looked after during the year ending 31 March 2017 - child moved abroad
+CEA_Other: Children who ceased to be looked after during the year ending 31 March 2017 - care ceased for any other reason
+
+
+SFR50_CareLeavers17182017.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CL_All_17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+CL_All_17: Care leavers in the year ending 31 March 2017 aged 17 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+CL_All_18: Care leavers in the year ending 31 March 2017 aged 18 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+CL_Act_HE17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE17: Care leavers in the year ending 31 March 2017 aged 17 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE18: Care leavers in the year ending 31 March 2017 aged 18 whose activity is higher education i.e. studies beyond A level
+CL_Act_OE17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 whose activity is education other than higher education
+CL_Act_OE17: Care leavers in the year ending 31 March 2017 aged 17 whose activity is education other than higher education
+CL_Act_OE18: Care leavers in the year ending 31 March 2017 aged 18 whose activity is education other than higher education
+CL_Act_TE17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 whose activity is training or employment
+CL_Act_TE17: Care leavers in the year ending 31 March 2017 aged 17 whose activity is training or employment
+CL_Act_TE18: Care leavers in the year ending 31 March 2017 aged 18 whose activity is training or employment
+CL_Act_NEET_ill17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill17: Care leavers in the year ending 31 March 2017 aged 17 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill18: Care leavers in the year ending 31 March 2017 aged 18 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_oth17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth17: Care leavers in the year ending 31 March 2017 aged 17 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth18: Care leavers in the year ending 31 March 2017 aged 18 who are not in education, training or employment due to other reasons
+CL_Act_NEET_preg17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg17: Care leavers in the year ending 31 March 2017 aged 17 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg18: Care leavers in the year ending 31 March 2017 aged 18 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NoInf17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 for whom local authority does not have activity information
+CL_Act_NoInf17: Care leavers in the year ending 31 March 2017 aged 17 for whom local authority does not have activity information
+CL_Act_NoInf18: Care leavers in the year ending 31 March 2017 aged 18 for whom local authority does not have activity information
+CL_Acc_SUIT17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 in suitable accommodation
+CL_Acc_SUIT17: Care leavers in the year ending 31 March 2017 aged 17 in suitable accommodation
+CL_Acc_SUIT18: Care leavers in the year ending 31 March 2017 aged 18 in suitable accommodation
+CL_Acc_NotSUIT17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 not in suitable accommodation
+CL_Acc_NotSUIT17: Care leavers in the year ending 31 March 2017 aged 17 not in suitable accommodation
+CL_Acc_NotSUIT18: Care leavers in the year ending 31 March 2017 aged 18 not in suitable accommodation
+CL_Acc_NoSUITInfo17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 for whom suitability of accommodation is not available
+CL_Acc_NoSUITInfo17: Care leavers in the year ending 31 March 2017 aged 17 for whom suitability of accommodation is not available
+CL_Acc_NoSUITInfo18: Care leavers in the year ending 31 March 2017 aged 18 for whom suitability of accommodation is not available
+CL_Acc_P17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated with parents or relatives
+CL_Acc_P17: Care leavers in the year ending 31 March 2017 aged 17 accommodated with parents or relatives
+CL_Acc_P18: Care leavers in the year ending 31 March 2017 aged 18 accommodated with parents or relatives
+CL_Acc_CH17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated in community homes
+CL_Acc_CH17: Care leavers in the year ending 31 March 2017 aged 17 accommodated in community homes
+CL_Acc_CH18: Care leavers in the year ending 31 March 2017 aged 18 accommodated in community homes
+CL_Acc_SITA17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA17: Care leavers in the year ending 31 March 2017 aged 17 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA18: Care leavers in the year ending 31 March 2017 aged 18 accommodated in semi-independent transitional accommodation
+CL_Acc_SL17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated in supported lodgings
+CL_Acc_SL17: Care leavers in the year ending 31 March 2017 aged 17 accommodated in supported lodgings
+CL_Acc_SL18: Care leavers in the year ending 31 March 2017 aged 18 accommodated in supported lodgings
+CL_Acc_GA17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who have gone abroad
+CL_Acc_GA17: Care leavers in the year ending 31 March 2017 aged 17 who have gone abroad
+CL_Acc_GA18: Care leavers in the year ending 31 March 2017 aged 18 who have gone abroad
+CL_Acc_Dep17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who have been deported
+CL_Acc_Dep17: Care leavers in the year ending 31 March 2017 aged 17 who have been deported
+CL_Acc_Dep18: Care leavers in the year ending 31 March 2017 aged 18 who have been deported
+CL_Acc_OL17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated in ordinary lodgings
+CL_Acc_OL17: Care leavers in the year ending 31 March 2017 aged 17 accommodated in ordinary lodgings
+CL_Acc_OL18: Care leavers in the year ending 31 March 2017 aged 18 accommodated in ordinary lodgings
+CL_Acc_NK17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 with residence not known
+CL_Acc_NK17: Care leavers in the year ending 31 March 2017 aged 17 with residence not known
+CL_Acc_NK18: Care leavers in the year ending 31 March 2017 aged 18 with residence not known
+CL_Acc_NFA17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 with no fixed abode or homeless
+CL_Acc_NFA17: Care leavers in the year ending 31 March 2017 aged 17 with no fixed abode or homeless
+CL_Acc_NFA18: Care leavers in the year ending 31 March 2017 aged 18 with no fixed abode or homeless
+CL_Acc_F17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated in foyers
+CL_Acc_F17: Care leavers in the year ending 31 March 2017 aged 17 accommodated in foyers
+CL_Acc_F18: Care leavers in the year ending 31 March 2017 aged 18 accommodated in foyers
+CL_Acc_IL17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated in independent living
+CL_Acc_IL17: Care leavers in the year ending 31 March 2017 aged 17 accommodated in independent living
+CL_Acc_IL18: Care leavers in the year ending 31 March 2017 aged 18 accommodated in independent living
+CL_Acc_EA17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated in emergency accommodation
+CL_Acc_EA17: Care leavers in the year ending 31 March 2017 aged 17 accommodated in emergency accommodation
+CL_Acc_EA18: Care leavers in the year ending 31 March 2017 aged 18 accommodated in emergency accommodation
+CL_Acc_BB17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 in bed and breakfast accommodation
+CL_Acc_BB17: Care leavers in the year ending 31 March 2017 aged 17 in bed and breakfast accommodation
+CL_Acc_BB18: Care leavers in the year ending 31 March 2017 aged 18 in bed and breakfast accommodation
+CL_Acc_Cust17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who are in custody
+CL_Acc_Cust17: Care leavers in the year ending 31 March 2017 aged 17 who are in custody
+CL_Acc_Cust18: Care leavers in the year ending 31 March 2017 aged 18 who are in custody
+CL_Acc_FFC17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 accommodated with former foster carers
+CL_Acc_FFC17: Care leavers in the year ending 31 March 2017 aged 17 accommodated with former foster carers
+CL_Acc_FFC18: Care leavers in the year ending 31 March 2017 aged 18 accommodated with former foster carers
+CL_Acc_OTH17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 in other accommodation
+CL_Acc_OTH17: Care leavers in the year ending 31 March 2017 aged 17 in other accommodation
+CL_Acc_OTH18: Care leavers in the year ending 31 March 2017 aged 18 in other accommodation
+CL_Acc_NoInf17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 for whom local authority does not have accommodation information
+CL_Acc_NoInf17: Care leavers in the year ending 31 March 2017 aged 17 for whom local authority does not have accommodation information
+CL_Acc_NoInf18: Care leavers in the year ending 31 March 2017 aged 18 for whom local authority does not have accommodation information
+CL_InTouch_IT17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who are in touch with the local authority
+CL_InTouch_IT17: Care leavers in the year ending 31 March 2017 aged 17 who are in touch with the local authority
+CL_InTouch_IT18: Care leavers in the year ending 31 March 2017 aged 18 who are in touch with the local authority
+CL_InTouch_Refu17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who refuse contact with the local authority
+CL_InTouch_Refu17: Care leavers in the year ending 31 March 2017 aged 17 who refuse contact with the local authority
+CL_InTouch_Refu18: Care leavers in the year ending 31 March 2017 aged 18 who refuse contact with the local authority
+CL_InTouch_NoServ17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who no longer require services
+CL_InTouch_NoServ17: Care leavers in the year ending 31 March 2017 aged 17 who no longer require services
+CL_InTouch_NoServ18: Care leavers in the year ending 31 March 2017 aged 18 who no longer require services
+CL_InTouch_Not17&18: Care leavers in the year ending 31 March 2017 aged 17 and 18 who are not in touch with the local authority
+CL_InTouch_Not17: Care leavers in the year ending 31 March 2017 aged 17 who are not in touch with the local authority
+CL_InTouch_Not18: Care leavers in the year ending 31 March 2017 aged 18 who are not in touch with the local authority
+CL_StayPut_18: Care leavers in the year ending 31 March 2017 aged 18 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_FFC_18: Care leavers in the year ending 31 March 2017 aged 18 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+
+
+SFR50_CareLeavers19to212017.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CL_All_19to21: Care leavers in the year ending 31 March 2017aged 19 to 21 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+CL_All_19: Care leavers in the year ending 31 March 2017aged 19 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+CL_All_20: Care leavers in the year ending 31 March 2017aged 20 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+CL_All_21: Care leavers in the year ending 31 March 2017aged 21 who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+CL_Act_HE19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE19: Care leavers in the year ending 31 March 2017 aged 19 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE20: Care leavers in the year ending 31 March 2017 aged 20 whose activity is higher education i.e. studies beyond A level
+CL_Act_HE21: Care leavers in the year ending 31 March 2017 aged 21 whose activity is higher education i.e. studies beyond A level
+CL_Act_OE19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 whose activity is education other than higher education
+CL_Act_OE19: Care leavers in the year ending 31 March 2017 aged 19 whose activity is education other than higher education
+CL_Act_OE20: Care leavers in the year ending 31 March 2017 aged 20 whose activity is education other than higher education
+CL_Act_OE21: Care leavers in the year ending 31 March 2017 aged 21 whose activity is education other than higher education
+CL_Act_TE19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 whose activity is training or employment
+CL_Act_TE19: Care leavers in the year ending 31 March 2017 aged 19 whose activity is training or employment
+CL_Act_TE20: Care leavers in the year ending 31 March 2017 aged 20 whose activity is training or employment
+CL_Act_TE21: Care leavers in the year ending 31 March 2017 aged 21 whose activity is training or employment
+CL_Act_NEET_ill19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill19: Care leavers in the year ending 31 March 2017 aged 19 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill20: Care leavers in the year ending 31 March 2017 aged 20 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_ill21: Care leavers in the year ending 31 March 2017 aged 21 who are not in education, training or employment, due to illness or disability
+CL_Act_NEET_oth19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth19: Care leavers in the year ending 31 March 2017 aged 19 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth20: Care leavers in the year ending 31 March 2017 aged 20 who are not in education, training or employment due to other reasons
+CL_Act_NEET_oth21: Care leavers in the year ending 31 March 2017 aged 21 who are not in education, training or employment due to other reasons
+CL_Act_NEET_preg19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg19: Care leavers in the year ending 31 March 2017 aged 19 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg20: Care leavers in the year ending 31 March 2017 aged 20 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NEET_preg21: Care leavers in the year ending 31 March 2017 aged 21 who are not in education, training or employment due to pregnancy or parenting
+CL_Act_NoInf19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 for whom local authority does not have activity information
+CL_Act_NoInf19: Care leavers in the year ending 31 March 2017 aged 19 for whom local authority does not have activity information
+CL_Act_NoInf20: Care leavers in the year ending 31 March 2017 aged 20 for whom local authority does not have activity information
+CL_Act_NoInf21: Care leavers in the year ending 31 March 2017 aged 21 for whom local authority does not have activity information
+CL_Acc_SUIT19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 in suitable accommodation
+CL_Acc_SUIT19: Care leavers in the year ending 31 March 2017 aged 19 in suitable accommodation
+CL_Acc_SUIT20: Care leavers in the year ending 31 March 2017 aged 20 in suitable accommodation
+CL_Acc_SUIT21: Care leavers in the year ending 31 March 2017 aged 21 in suitable accommodation
+CL_Acc_NotSUIT19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 not in suitable accommodation
+CL_Acc_NotSUIT19: Care leavers in the year ending 31 March 2017 aged 19 not in suitable accommodation
+CL_Acc_NotSUIT20: Care leavers in the year ending 31 March 2017 aged 20 not in suitable accommodation
+CL_Acc_NotSUIT21: Care leavers in the year ending 31 March 2017 aged 21 not in suitable accommodation
+CL_Acc_NoSUITInfo19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 for whom suitability of accommodation is not available
+CL_Acc_NoSUITInfo19: Care leavers in the year ending 31 March 2017 aged 19 for whom suitability of accommodation is not available
+CL_Acc_NoSUITInfo20: Care leavers in the year ending 31 March 2017 aged 20 for whom suitability of accommodation is not available
+CL_Acc_NoSUITInfo21: Care leavers in the year ending 31 March 2017 aged 21 for whom suitability of accommodation is not available
+CL_Acc_P19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 years old accommodated with parents or relatives
+CL_Acc_P19: Care leavers in the year ending 31 March 2017 aged 19 accommodated with parents or relatives
+CL_Acc_P20: Care leavers in the year ending 31 March 2017 aged 20 accommodated with parents or relatives
+CL_Acc_P21: Care leavers in the year ending 31 March 2017 aged 21 accommodated with parents or relatives
+CL_Acc_CH19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated in community homes
+CL_Acc_CH19: Care leavers in the year ending 31 March 2017 aged 19 accommodated in community homes
+CL_Acc_CH20: Care leavers in the year ending 31 March 2017 aged 20 accommodated in community homes
+CL_Acc_CH21: Care leavers in the year ending 31 March 2017 aged 21 accommodated in community homes
+CL_Acc_SITA19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA19: Care leavers in the year ending 31 March 2017 aged 19 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA20: Care leavers in the year ending 31 March 2017 aged 20 accommodated in semi-independent transitional accommodation
+CL_Acc_SITA21: Care leavers in the year ending 31 March 2017 aged 21 accommodated in semi-independent transitional accommodation
+CL_Acc_SL19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated in supported lodgings
+CL_Acc_SL19: Care leavers in the year ending 31 March 2017 aged 19 accommodated in supported lodgings
+CL_Acc_SL20: Care leavers in the year ending 31 March 2017 aged 20 accommodated in supported lodgings
+CL_Acc_SL21: Care leavers in the year ending 31 March 2017 aged 21 accommodated in supported lodgings
+CL_Acc_GA19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who have gone abroad
+CL_Acc_GA19: Care leavers in the year ending 31 March 2017 aged 19 who have gone abroad
+CL_Acc_GA20: Care leavers in the year ending 31 March 2017 aged 20 who have gone abroad
+CL_Acc_GA21: Care leavers in the year ending 31 March 2017 aged 21 who have gone abroad
+CL_Acc_Dep19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who have been deported
+CL_Acc_Dep19: Care leavers in the year ending 31 March 2017 aged 19 who have been deported
+CL_Acc_Dep20: Care leavers in the year ending 31 March 2017 aged 20 who have been deported
+CL_Acc_Dep21: Care leavers in the year ending 31 March 2017 aged 21 who have been deported
+CL_Acc_OL19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated in ordinary lodgings
+CL_Acc_OL19: Care leavers in the year ending 31 March 2017 aged 19 accommodated in ordinary lodgings
+CL_Acc_OL20: Care leavers in the year ending 31 March 2017 aged 20 accommodated in ordinary lodgings
+CL_Acc_OL21: Care leavers in the year ending 31 March 2017 aged 21 accommodated in ordinary lodgings
+CL_Acc_NK19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 with residence not known
+CL_Acc_NK19: Care leavers in the year ending 31 March 2017 aged 19 with residence not known
+CL_Acc_NK20: Care leavers in the year ending 31 March 2017 aged 20 with residence not known
+CL_Acc_NK21: Care leavers in the year ending 31 March 2017 aged 21 with residence not known
+CL_Acc_NFA19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 with no fixed abode or homeless
+CL_Acc_NFA19: Care leavers in the year ending 31 March 2017 aged 19 with no fixed abode or homeless
+CL_Acc_NFA20: Care leavers in the year ending 31 March 2017 aged 20 with no fixed abode or homeless
+CL_Acc_NFA21: Care leavers in the year ending 31 March 2017 aged 21 with no fixed abode or homeless
+CL_Acc_F19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated in foyers
+CL_Acc_F19: Care leavers in the year ending 31 March 2017 aged 19 accommodated in foyers
+CL_Acc_F20: Care leavers in the year ending 31 March 2017 aged 20 accommodated in foyers
+CL_Acc_F21: Care leavers in the year ending 31 March 2017 aged 21 accommodated in foyers
+CL_Acc_IL19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated in independent living
+CL_Acc_IL19: Care leavers in the year ending 31 March 2017 aged 19 accommodated in independent living
+CL_Acc_IL20: Care leavers in the year ending 31 March 2017 aged 20 accommodated in independent living
+CL_Acc_IL21: Care leavers in the year ending 31 March 2017 aged 21 accommodated in independent living
+CL_Acc_EA19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated in emergency accommodation
+CL_Acc_EA19: Care leavers in the year ending 31 March 2017 aged 19 accommodated in emergency accommodation
+CL_Acc_EA20: Care leavers in the year ending 31 March 2017 aged 20 accommodated in emergency accommodation
+CL_Acc_EA21: Care leavers in the year ending 31 March 2017 aged 21 accommodated in emergency accommodation
+CL_Acc_BB19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 in bed and breakfast accommodation
+CL_Acc_BB19: Care leavers in the year ending 31 March 2017 aged 19 in bed and breakfast accommodation
+CL_Acc_BB20: Care leavers in the year ending 31 March 2017 aged 20 in bed and breakfast accommodation
+CL_Acc_BB21: Care leavers in the year ending 31 March 2017 aged 21 in bed and breakfast accommodation
+CL_Acc_Cust19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who are in custody
+CL_Acc_Cust19: Care leavers in the year ending 31 March 2017 aged 19 who are in custody
+CL_Acc_Cust20: Care leavers in the year ending 31 March 2017 aged 20 who are in custody
+CL_Acc_Cust21: Care leavers in the year ending 31 March 2017 aged 21 who are in custody
+CL_Acc_FFC19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 accommodated with former foster carers
+CL_Acc_FFC19: Care leavers in the year ending 31 March 2017 aged 19 accommodated with former foster carers
+CL_Acc_FFC20: Care leavers in the year ending 31 March 2017 aged 20 accommodated with former foster carers
+CL_Acc_FFC21: Care leavers in the year ending 31 March 2017 aged 21 accommodated with former foster carers
+CL_Acc_OTH19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 in other accommodation
+CL_Acc_OTH19: Care leavers in the year ending 31 March 2017 aged 19 in other accommodation
+CL_Acc_OTH20: Care leavers in the year ending 31 March 2017 aged 20 in other accommodation
+CL_Acc_OTH21: Care leavers in the year ending 31 March 2017 aged 21 in other accommodation
+CL_Acc_NoInf19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 for whom local authority does not have accommodation information
+CL_Acc_NoInf19: Care leavers in the year ending 31 March 2017 aged 19 for whom local authority does not have accommodation information
+CL_Acc_NoInf20: Care leavers in the year ending 31 March 2017 aged 20 for whom local authority does not have accommodation information
+CL_Acc_NoInf21: Care leavers in the year ending 31 March 2017 aged 21 for whom local authority does not have accommodation information
+CL_InTouch_IT19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who are in touch with the local authority
+CL_InTouch_IT19: Care leavers in the year ending 31 March 2017 aged 19 who are in touch with the local authority
+CL_InTouch_IT20: Care leavers in the year ending 31 March 2017 aged 20 who are in touch with the local authority
+CL_InTouch_IT21: Care leavers in the year ending 31 March 2017 aged 21 who are in touch with the local authority
+CL_InTouch_Refu19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who refuse contact with the local authority
+CL_InTouch_Refu19: Care leavers in the year ending 31 March 2017 aged 19 who refuse contact with the local authority
+CL_InTouch_Refu20: Care leavers in the year ending 31 March 2017 aged 20 who refuse contact with the local authority
+CL_InTouch_Refu21: Care leavers in the year ending 31 March 2017 aged 21 who refuse contact with the local authority
+CL_InTouch_NoServ19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who no longer require services
+CL_InTouch_NoServ19: Care leavers in the year ending 31 March 2017 aged 19 who no longer require services
+CL_InTouch_NoServ20: Care leavers in the year ending 31 March 2017 aged 20 who no longer require services
+CL_InTouch_NoServ21: Care leavers in the year ending 31 March 2017 aged 21 who no longer require services
+CL_InTouch_Not19to21: Care leavers in the year ending 31 March 2017 aged 19 to 21 who are not in touch with the local authority
+CL_InTouch_Not19: Care leavers in the year ending 31 March 2017 aged 19 who are not in touch with the local authority
+CL_InTouch_Not20: Care leavers in the year ending 31 March 2017 aged 20 who are not in touch with the local authority
+CL_InTouch_Not21: Care leavers in the year ending 31 March 2017 aged 21 who are not in touch with the local authority
+CL_StayPut_19&20: Care leavers in the year ending 31 March 2017 aged 19 and 20 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_19: Care leavers in the year ending 31 March 2017 aged 19 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_20: Care leavers in the year ending 31 March 2017 aged 20 who ceased to be looked after from a foster placement on their 18th birthday
+CL_StayPut_FFC_19&20: Care leavers in the year ending 31 March 2017 aged 19 and 20 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+CL_StayPut_FFC_19: Care leavers in the year ending 31 March 2017 aged 19 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+CL_StayPut_FFC_20: Care leavers in the year ending 31 March 2017 aged 20 who ceased to be looked after from a foster placement on their 18th birthday and are living with the former foster carers
+
+
+SFR50_Missing2017.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+Miss_Miss_DuringYear: Children looked after during the year ending 31 March 2017 who had a missing incident during the year
+Miss_Miss_Incs: Number of missing incidents during the year for children looked after during the year ending 31 March 2017
+Miss_Miss_MoreOnce: Children looked after during the year ending 31 March 2017 who went missing more than once during the year
+Miss_Miss_31Mar: Children looked after who were missing at 31 March 2017
+Miss_Away_DuringYear: Children looked after during the year ending 31 March 2017 who were away from placement without authorisation during the year
+Miss_Away_Incs: Number of away from placements without authorisation incidents during the year for children looked after during the year ending 31 March 2017
+Miss_Away_MoreOnce: Children looked after during the year ending 31 March 2017 who were away from placement without authorisation more than once during the year
+Miss_Away_31Mar: Children looked after who were away from placement without authorisation at 31 March 2017
+
+
+SFR50_OC22017.csv
+LA_order: Display data in published regional and local authority order
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+OC2_12mths: Children looked after at 31 March 2017 for at least 12 months
+OC2_10to17: Children looked after at 31 March 2017 for at least 12 months aged 10 to 17 years
+OC2_convicted: Children looked after at 31 March 2017 convicted or subject to a final warning or reprimand during the year aged 10 to 17 years
+OC2_submisuse: Children looked after at 31 March 2017 identified as having a substance misuse problem
+OC2_subint: Children looked after at 31 March 2017 received intervention for substance misuse
+OC2_suboffint: Children looked after at 31 March 2017 offered intervention for substance misuse and refused
+OC2_immunisation: Children looked after at 31 March 2017 whose immunisations were up to date
+OC2_teethcheck: Children looked after at 31 March 2017 who had their teeth checked
+OC2_healthassmt: Children looked after at 31 March 2017 who had their annual health assessment
+OC2_U5: Children looked after at 31 March 2017 for at least 12 months aged under 5 years
+OC2_devassmt: Children looked after at 31 March 2017 whose development assessments were up to date
+OC2_5to16: Children looked after at 31 March 2017 for at least 12 months aged 5 to 16
+OC2_SDQ: Children looked after at 31 March 2017 with an SDQ score aged 5 to 16
+OC2_SDQnormal: Children looked after at 31 March 2017 aged 5 to 16 whose SDQ score was normal
+OC2_SDQborderline: Children looked after at 31 March 2017 aged 5 to 16 whose SDQ score was borderline
+OC2_SDQconcern: Children looked after at 31 March 2017 aged 5 to 16 whose SDQ score was a cause for concern
+OC2_SDQaverage: Children looked after at 31 March 2017 aged 5 to 16 with an SDQ score - average SDQ score

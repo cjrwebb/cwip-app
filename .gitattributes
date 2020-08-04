@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.Rds filter=lfs diff=lfs merge=lfs -text
+*.RDS filter=lfs diff=lfs merge=lfs -text
