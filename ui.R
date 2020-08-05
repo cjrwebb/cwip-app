@@ -29,7 +29,8 @@ ui <- dashboardPage(title = paste("CWIP App", sep = ""),
       menuItem("Neighbourhood Overlap Maps", tabName = "biv_maps", icon = icon('layer-group')),
       menuItem("Neighbourhood Correlations", tabName = "corrs", icon = icon('chart-line')),
       menuItem("LA ANOVA", tabName = "anova", icon = icon('equals')),
-      menuItem("Neighbourhood Regression", tabName = "regress", icon = icon('project-diagram'))
+      menuItem("Neighbourhood Regression", tabName = "regress", icon = icon('project-diagram')),
+      menuItem("Discussion Board", tabName = "disc", icon = icon("comments"))
     )
   ),
   
@@ -565,8 +566,21 @@ tabItem(tabName = "hca",
                           )
                           
                         )
-                )
-                
+                ),
+
+
+# Discussion board tab ----------------------------------------------------
+
+
+                tabItem(tabName = "disc",
+                        fluidRow(
+                          HTML("<div style = 'padding: 0px 20%; font-size: 16px'>
+                               <h1>Discussion Board</h1>
+                               This discussion board is <b>not moderated</b>. If abused, the feature will be removed. It can be used to discuss how you have used the CWIP App, to share examples, ask questions, or to speak to other people interested in children's social services more generally.<br><br>"),
+                          tags$iframe(seamless = "seamless", src = "https://padlet.com/9e4keezwnh/aypa6rqzy8kbrxpr", height = 800, width = "100%"),
+                          HTML("</div>")
+                         )
+                        )
         
               
       ), # Close tabs
