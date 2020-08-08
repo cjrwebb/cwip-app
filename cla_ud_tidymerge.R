@@ -1,5 +1,7 @@
 # CLA Underlying Data Tidy and Merge Script
-
+library(tidyverse)
+library(fuzzyjoin)
+library(ggrepel)
 
 # Import varlists from meta documents -------------------------------------
 
@@ -3278,3 +3280,274 @@ csc_data_v2 <- csc_data %>%
 
 write_rds(csc_data_v2, path = "data/csc_data_v2.RDS")
 
+
+
+# Cathy data - FRG --------------------------------------------------------------
+
+sgo_orders <- read_csv("data/cla_data/cla_2019/CEA2019.csv", na = c("x", "c", "#VALUE!", "..", ".")) %>%
+  select(geog_n, geog_l, CEA_SGO_FFC_Rel_pc, CEA_SGO_Car_Rel_pc)
+
+
+sgo_orders_region1 <- sgo_orders %>%
+  filter(geog_l == "REGION", geog_n != "LONDON") %>%
+  arrange(CEA_SGO_FFC_Rel_pc) %>% 
+  mutate(
+    geog_n = as.factor(tools::toTitleCase(tolower(geog_n)))
+  ) %>%
+  mutate(
+    id = seq(1, 10, 1),
+    geog_n = fct_reorder(geog_n, CEA_SGO_FFC_Rel_pc)
+  ) 
+
+number_of_bar <- nrow(sgo_orders_region1)
+angle <-  90 - 360 * (sgo_orders_region1$id-0.5) / number_of_bar 
+sgo_orders_region1$hjust<-ifelse(angle < -90, 1, 0)
+sgo_orders_region1$angle<-ifelse(angle < -90, angle+180, angle)
+
+sgo_orders_region1 %>%
+  ggplot() +
+  geom_col(aes(x = id, y = CEA_SGO_FFC_Rel_pc), fill = "#15126F", col = "white") +
+  geom_text(aes(x = id, y = CEA_SGO_FFC_Rel_pc + 0.2 * CEA_SGO_FFC_Rel_pc, 
+                label = geog_n, angle = angle, hjust = hjust), size = 5, col = "#15126F",
+            position = "dodge") +
+  geom_text(aes(x = id, y = CEA_SGO_FFC_Rel_pc -2.3, label = paste0(CEA_SGO_FFC_Rel_pc, "%")), size = 5, col = "#19AAED") +
+  annotate("text", x = 1, y = -5, label = paste0("England\n", sgo_orders$CEA_SGO_FFC_Rel_pc[sgo_orders$geog_n == "ENGLAND"],"%"), size = 5, col = "#15126F") +
+  theme_minimal() +
+  ggeasy::easy_remove_axes() +
+  ylim(c(-5, 22)) +
+  coord_polar() +
+  ggtitle(str_wrap("On average, 8% of children ceasing to be 'looked after' in 2018/19 ended their time in care through a special guardianship order made to former foster carer(s) who were relatives or friends. This use of SGOs varied a lot across regions.\n\n Percentage of children ceasing to be looked after through an SGO made to former foster carer(s) who were relatives or friends:", 80)) +
+  theme(
+    plot.title = element_text(hjust = 0, size = 14, color = "#15126F"), panel.grid = element_blank()) &
+  plot_annotation(caption = "Data visualisation by Calum Webb @cjrwebb. Data from Department for Education Looked-after children statistics 2019.")
+
+
+sgo_orders$CEA_SGO_Car_Rel_pc
+
+sgo_orders_region2 <- sgo_orders %>%
+  filter(geog_l == "REGION", geog_n != "LONDON") %>%
+  arrange(CEA_SGO_Car_Rel_pc) %>% 
+  mutate(
+    geog_n = as.factor(tools::toTitleCase(tolower(geog_n)))
+  ) %>%
+  mutate(
+    id = seq(1, 10, 1),
+    geog_n = fct_reorder(geog_n, CEA_SGO_Car_Rel_pc)
+  ) 
+
+number_of_bar <- nrow(sgo_orders_region2)
+angle <-  90 - 360 * (sgo_orders_region2$id-0.5) / number_of_bar 
+sgo_orders_region2$hjust<-ifelse(angle < -90, 1, 0)
+sgo_orders_region2$angle<-ifelse(angle < -90, angle+180, angle)
+
+sgo_orders_region2 %>%
+  ggplot() +
+  geom_col(aes(x = id, y = CEA_SGO_Car_Rel_pc), fill = "#15126F", col = "white") +
+  geom_text(aes(x = id, y = CEA_SGO_Car_Rel_pc + 0.2 * CEA_SGO_Car_Rel_pc, 
+                label = geog_n, angle = angle, hjust = hjust), size = 5, col = "#15126F",
+            position = "dodge") +
+  geom_text(aes(x = id, y = 0.6*CEA_SGO_Car_Rel_pc, label = paste0(CEA_SGO_Car_Rel_pc, "%")), size = 5, col = "#19AAED") +
+  annotate("text", x = 1, y = -3, label = paste0("England\n", sgo_orders$CEA_SGO_Car_Rel_pc[sgo_orders$geog_n == "ENGLAND"],"%"), size = 5, col = "#15126F") +
+  theme_minimal() +
+  ggeasy::easy_remove_axes() +
+  ylim(c(-3, 8)) +
+  coord_polar() +
+  ggtitle(str_wrap("A further 4 per cent of children in England ceasing to be 'looked after' in 2018/19 ended their time in care through an SGO made to carer(s) other than former foster carer(s) who were or are relatives or friends. Percentage of children ceasing to be looked after through this kind of SGO by region:", 80)) +
+  theme(
+    plot.title = element_text(hjust = 0, size = 14, color = "#15126F"), panel.grid = element_blank()) &
+  plot_annotation(caption = "Data visualisation by Calum Webb @cjrwebb. Data from Department for Education Looked-after children statistics 2019.")
+
+
+
+sgo_orders_la1 <- sgo_orders %>%
+  filter(geog_l == "LA" & !is.na(CEA_SGO_FFC_Rel_pc)) %>%
+  arrange(CEA_SGO_FFC_Rel_pc) %>% 
+  mutate(
+    geog_n = as.factor(tools::toTitleCase(tolower(geog_n)))
+  ) %>%
+  mutate(
+    id = seq(1, nrow(.), 1),
+    geog_n = fct_reorder(geog_n, CEA_SGO_FFC_Rel_pc)
+  ) 
+
+number_of_bar <- nrow(sgo_orders_la1)
+angle <-  90 - 360 * (sgo_orders_la1$id-0.5) / number_of_bar 
+sgo_orders_la1$hjust<-ifelse(angle < -90, 1, 0)
+sgo_orders_la1$angle<-ifelse(angle < -90, angle+180, angle)
+
+sgo_orders_la1 %>%
+  ggplot() +
+  geom_col(aes(x = id, y = CEA_SGO_FFC_Rel_pc), fill = "#15126F", col = "white") +
+  geom_text(aes(x = id, y = CEA_SGO_FFC_Rel_pc + 0.2, 
+                label = paste0(geog_n, " ", CEA_SGO_FFC_Rel_pc, "%")), size = 1.8, col = "#15126F",
+            position = "dodge", hjust = 0) +
+  annotate("text", x = 70, y = -3, label = paste0("LA Avg.\n", round(mean(sgo_orders_la1$CEA_SGO_FFC_Rel_pc, na.rm = TRUE), 1),"%"), size = 5, col = "#15126F") +
+  theme_minimal() +
+  ggeasy::easy_remove_axes() +
+  ylim(c(-5, 30)) +
+  coord_flip() +
+  ggtitle(str_wrap("Many LAs had missing or censored data for the number of exits from care due to SGOs being made to former foster carer(s) who were relatives or friends, but for those with data, the average rate for an LA was 9.1 per cent of children that were no longer 'looked after' in 2018/19. These SGOs made up between 0 and 23 per cent of ceased looked after care depending on the local authority:", 95)) +
+  theme(
+    plot.title = element_text(hjust = 0, size = 14, color = "#15126F"), panel.grid = element_blank()) &
+  plot_annotation(caption = "Data visualisation by Calum Webb @cjrwebb. Data from Department for Education Looked-after children statistics 2019.")
+
+
+
+
+sgo_orders_la2 <- sgo_orders %>%
+  filter(geog_l == "LA" & !is.na(CEA_SGO_Car_Rel_pc)) %>%
+  arrange(CEA_SGO_Car_Rel_pc) %>% 
+  mutate(
+    geog_n = as.factor(tools::toTitleCase(tolower(geog_n)))
+  ) %>%
+  mutate(
+    id = seq(1, nrow(.), 1),
+    geog_n = fct_reorder(geog_n, CEA_SGO_Car_Rel_pc)
+  ) 
+
+number_of_bar <- nrow(sgo_orders_la2)
+angle <-  90 - 360 * (sgo_orders_la2$id-0.5) / number_of_bar 
+sgo_orders_la2$hjust<-ifelse(angle < -90, 1, 0)
+sgo_orders_la2$angle<-ifelse(angle < -90, angle+180, angle)
+
+sgo_orders_la2 %>%
+  ggplot() +
+  geom_col(aes(x = id, y = CEA_SGO_Car_Rel_pc), fill = "#15126F", col = "white") +
+  geom_text(aes(x = id, y = CEA_SGO_Car_Rel_pc + 0.2, 
+                label = paste0(geog_n, " ", CEA_SGO_Car_Rel_pc, "%")), size = 1.8, col = "#15126F",
+            position = "dodge", hjust = 0) +
+  annotate("text", x = 70, y = -3, label = paste0("LA Avg.\n", round(mean(sgo_orders_la2$CEA_SGO_Car_Rel_pc, na.rm = TRUE), 1),"%"), size = 5, col = "#15126F") +
+  theme_minimal() +
+  ggeasy::easy_remove_axes() +
+  ylim(c(-5, 30)) +
+  coord_flip() +
+  ggtitle(str_wrap("Again, many LAs had missing or censored data about the proportion of children looked after who had ceased to be 'looked after' because of an SGO made to a carer other than a foster carer who was a relative or friend in 2018/19. The average across local authorities was 4.9 per cent, but this ranged from 17 per cent in Middlesbrough to 0 per cent in 20 local authorities:", 95)) +
+  theme(
+    plot.title = element_text(hjust = 0, size = 14, color = "#15126F"), panel.grid = element_blank()) &
+  plot_annotation(caption = "Data visualisation by Calum Webb @cjrwebb. Data from Department for Education Looked-after children statistics 2019.")
+
+# Longitudinal data
+
+# 2015 - 2019
+
+
+foster_data <- tibble::tribble(
+  ~type, ~V2,    ~year2010,    ~year2011,    ~year2012,    ~year2013,    ~year2014,
+  "Foster placement inside Council boundary (not with relative or friend)",  NA,  24520,  25400,  26650,  26770,  27160,
+  "Foster placement inside Council boundary with relative or friend",  NA,   5330,   5380,   5300,   5150,   5200
+) %>% bind_rows(
+  tibble::tribble(
+    ~type, ~V2,    ~year2010,    ~year2011,    ~year2012,    ~year2013,    ~year2014,
+    "Foster placement outside Council boundary (not with relative or friend)",  NA,  14940,  15280,  15950,  16580,  16790,
+    "Foster placement outside Council boundary with relative or friend",  NA,   2090,   2110,   2130,   2090,   2100
+  )
+) %>%
+  select(-V2) %>%
+  pivot_longer(cols = year2010:year2014, values_to = "number", names_to = "year") %>%
+  mutate(year = as.double(str_remove_all(year, "year"))) %>%
+bind_rows(
+tibble::tribble(
+  ~type, ~V2,    ~year2015,    ~year2016,    ~year2017,    ~year2018,    ~year2019,
+  "Foster placement inside Council boundary (not with relative or friend)",  NA,  32300,  31920,  32980,  33860,  34330,
+  "Foster placement inside Council boundary with relative or friend",  NA,   5610,   5740,   6310,   6800,   7260
+) %>%
+  bind_rows(
+    tibble::tribble(
+      ~type, ~V2,    ~year2015,    ~year2016,    ~year2017,    ~year2018,    ~year2019,
+      "Foster placement outside Council boundary (not with relative or friend)",  NA,  19270,  19510,  20030,  20880,  21820,
+      "Foster placement outside Council boundary with relative or friend",  NA,   2310,   2380,   2530,   2930,   3190
+    )
+  ) %>%
+  select(-V2) %>%
+  pivot_longer(cols = year2015:year2019, values_to = "number", names_to = "year") %>%
+  mutate(year = as.double(str_remove_all(year, "year")))
+)
+
+
+foster_data <- foster_data %>%
+  group_by(year) %>%
+  mutate(total_fosters_year = sum(number)) %>%
+  ungroup() %>%
+  mutate(
+    percent_foster = round((number / total_fosters_year) * 100, 1)
+  ) %>%
+  arrange(type, year)
+
+
+foster_data %>%
+  mutate(within_outside = ifelse(str_detect(type, "outside"), "Outside Council Area", "Inside Council Area"),
+         placed_with_frrel = ifelse(str_detect(type, "not with"), "Not with friends/relatives", "With friends/relatives")) %>%
+  ggplot() +
+  geom_line(aes(group = placed_with_frrel, col = placed_with_frrel, x = year, y = percent_foster), size = 1.5) +
+  geom_label(aes(group = placed_with_frrel, col = placed_with_frrel, x = year, y = percent_foster, label = percent_foster), size = 5) +
+  annotate("text", x = 2014.5, y = 85, label = "Not placed with relatives/friends", col = "#15126F", size = 5) +
+  annotate("text", x = 2014.5, y = 70, label = "Placed with relatives/friends", col = "#297FB9", size = 5) +
+  facet_wrap(within_outside ~., ncol = 1) +
+  scale_x_continuous(breaks = seq(2010, 2019, 1)) +
+  scale_color_manual(values = c("#15126F", "#297FB9")) +
+  ylim(c(0,100)) +
+  ylab("Percentage of foster placements") +
+  xlab("Year ending") +
+  ggeasy::easy_remove_legend() +
+  theme_minimal() +
+  theme(
+    legend.position = "none", strip.text = element_text(colour = "white"),
+    strip.background = element_rect(fill = "#1F9DB9"),
+    text = element_text(color = "#15126F", size = 16),
+    
+  ) &
+  plot_annotation(caption = "Data visualisation by Calum Webb @cjrwebb. Data from Department for Education 'Looked-after children statistics'.")
+
+
+# end of quick FRG analysis -----------------------------------------------
+
+
+# try and match across CEA for years using fuzzy matching --------------------------------------
+
+# consistent variables in 2010-2017 that are not in 2017-2019
+
+# 106 variables
+complete_2010_2016 <- filter(varlist_2011, 
+       varname %in% varlist_2012$varname & 
+         varname %in% varlist_2013$varname &
+         varname %in% varlist_2014$varname &
+         varname %in% varlist_2015$varname &
+         varname %in% varlist_2016$varname) 
+
+# Which are not in complete 2010-2019 varlist - 42 vars including ceased
+complete_2010_2016_unmatched <- complete_2010_2016 %>% filter(!varname %in% complete_varlist$varname)
+
+# 361 variables between 2017 and 2019
+complete_2017_2019 <- filter(varlist_2017, 
+       varname %in% varlist_2018$varname & 
+         varname %in% varlist_2019$varname) 
+
+# 297 not in including ceased
+complete_2017_2019_unmatched <- complete_2017_2019 %>% filter(!varname %in% complete_varlist$varname)
+
+# Explore fuzzy matching descriptions 
+
+# Match by description variable (calculate distance), group by varname
+# and then return the highest matching distance
+fuzzy_matches_2010_2019 <- stringdist_join(complete_2010_2016_unmatched %>% 
+                                             mutate(full_string = paste(varname, description)), 
+                                           complete_2017_2019_unmatched %>% 
+                                             mutate(full_string = paste(varname, description)),
+                                            by = "full_string",
+                                            mode = "left",
+                                            ignore_case = TRUE,
+                                            method = "jw",
+                                            max_dist = 99,
+                                            distance_col = "dist") %>%
+                                            group_by(varname.x) %>%
+                                            select(-full_string.x, -full_string.y) %>%
+                                            top_n(1, -dist) %>%
+                                            arrange(dist)
+
+# Elbow plot to see if any distances seem very high
+fuzzy_matches_2010_2019 %>%
+  ggplot() +
+  geom_line(aes(x = rank(dist), y = dist)) +
+  geom_point(aes(x = rank(dist), y = dist)) +
+  geom_text_repel(aes(x = rank(dist), y = dist, 
+                      label = paste(varname.x, "-", varname.y)), size = 2)
