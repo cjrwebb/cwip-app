@@ -3551,3 +3551,504 @@ fuzzy_matches_2010_2019 %>%
   geom_point(aes(x = rank(dist), y = dist)) +
   geom_text_repel(aes(x = rank(dist), y = dist, 
                       label = paste(varname.x, "-", varname.y)), size = 2)
+
+
+# Manual checking of correct matches
+fuzzy_matches_2010_2019 <- fuzzy_matches_2010_2019 %>% add_column(valid = c(TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, TRUE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE))
+
+#view(fuzzy_matches_2010_2019)
+
+# Add a few manually:
+# CLA_cea16 = Over 16 CLA ceased = CLA_16over
+# CLA_ceaROG = CLA ceased residence order = can't find equivalent
+# CLA_Outbound = CLA placed outside LA boundary 31st Mar = needs to combine CLA_OutLA_LTE20 and CLA_OutLA_GT20
+# CLA_InBound = CLA placed inside LA boundary 31st March = can only be calculated manually by difference between (CLA_OutLA_LTE20 + CLA_OutLA_GT20) - CLA total 31st march
+
+fuzzy_matches_2010_2019_final <- fuzzy_matches_2010_2019 %>% 
+  filter(valid == TRUE) %>%
+  ungroup() %>%
+  add_row(varname.x = "CLA_cea16", 
+          description.x = "Children looked after at 31 March aged 16 and over", 
+          varname.y = "CEA_16", 
+          description.y = "Children looked after at 31 March aged 16",
+          valid = TRUE) %>%
+  add_row(varname.x = "CLA_cea16", 
+          description.x = "Children looked after at 31 March aged 16 and over", 
+          varname.y = "CEA_17", 
+          description.y = "Children looked after at 31 March aged 17",
+          valid = TRUE) %>%
+  add_row(varname.x = "CLA_cea16", 
+          description.x = "Children looked after at 31 March aged 16 and over", 
+          varname.y = "CEA_18over", 
+          description.y = "Children looked after at 31 March aged 18 and over",
+          valid = TRUE) %>%
+  add_row(varname.x = c("CLA_Outbound", "CLA_InBound"), 
+          description.x = c("Children looked after at 31 March 2011 placed outside of the LA boundary", "Children looked after at 31 March 2011 placed within LA boundary"), 
+          varname.y = c("CLA_Outbound", "CLA_InBound"), 
+          description.y = c("Children looked after at 31 March 2011 placed outside of the LA boundary", "Children looked after at 31 March 2011 placed within LA boundary"),
+          valid = c(TRUE, TRUE))
+
+# Create inbound and outbound variables by combining variables CLA_OutLA_LTE20 and CLA_OutLA_GT20 
+# in tidycla_2017, tidycla_2018 and tidycla_2019
+
+cla_inoutbound_2017 <- read_csv("data/cla_data/cla_2017/SFR50_CLA2017.csv", na = c("x", "c", "#VALUE!", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2017, CLA_ = CLA_2017) %>%
+  left_join(., read_csv("data/cla_data/cla_2017/SFR50_ADM2017.csv", na = c("x", "c", "#VALUE!", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2017) %>%
+  select(New_geog_code, geog_l, geog_c, geog_n, CLA_Mar, CLA_OutLA_LTE20, CLA_OutLA_GT20) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(
+    CLA_Outbound = CLA_OutLA_LTE20 + CLA_OutLA_GT20,
+    CLA_InBound = CLA_Mar - CLA_Outbound,
+    year = 2017
+  ) %>%
+  select(-CLA_OutLA_LTE20:-CLA_OutLA_GT20) %>%
+  mutate_at(vars(CLA_Outbound:CLA_InBound), list(pc = ~(./CLA_Mar)*100)) %>%
+  select(New_geog_code, geog_c, year, geog_n, everything()) %>%
+  select(-CLA_Mar) 
+
+
+cla_inoutbound_2018 <- read_csv("data/cla_data/cla_2018/CLA2018.csv", na = c("x", "c", "#VALUE!", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2018, CLA_ = CLA_2018) %>%
+  left_join(., read_csv("data/cla_data/cla_2018/ADM2018_amended.csv", na = c("x", "c", "#VALUE!", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2018) %>%
+  select(New_geog_code, geog_l, geog_c, geog_n, CLA_Mar, CLA_OutLA_LTE20, CLA_OutLA_GT20) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(
+    CLA_Outbound = CLA_OutLA_LTE20 + CLA_OutLA_GT20,
+    CLA_InBound = CLA_Mar - CLA_Outbound,
+    year = 2018
+  ) %>%
+  select(-CLA_OutLA_LTE20:-CLA_OutLA_GT20) %>%
+  mutate_at(vars(CLA_Outbound:CLA_InBound), list(pc = ~(./CLA_Mar)*100)) %>%
+  select(New_geog_code, geog_c, year, geog_n, everything()) %>%
+  select(-CLA_Mar) 
+
+cla_inoutbound_2019 <- read_csv("data/cla_data/cla_2019/CLA2019.csv", na = c("x", "c", "#VALUE!", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2019, CLA_ = CLA_2019) %>%
+  left_join(., read_csv("data/cla_data/cla_2019/ADM2019.csv", na = c("x", "c", "#VALUE!", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2019) %>%
+  select(New_geog_code, geog_l, geog_c, geog_n, CLA_Mar, CLA_OutLA_LTE20, CLA_OutLA_GT20) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(
+    CLA_Outbound = CLA_OutLA_LTE20 + CLA_OutLA_GT20,
+    CLA_InBound = CLA_Mar - CLA_Outbound,
+    year = 2019
+  ) %>%
+  select(-CLA_OutLA_LTE20:-CLA_OutLA_GT20) %>%
+  mutate_at(vars(CLA_Outbound:CLA_InBound), list(pc = ~(./CLA_Mar)*100)) %>%
+  select(New_geog_code, geog_c, year, geog_n, everything()) %>%
+  select(-CLA_Mar) 
+
+cla_inoutbound_2017_2019 <- bind_rows(cla_inoutbound_2017, cla_inoutbound_2018, cla_inoutbound_2019)
+
+# read in and select variables with unmatched names, then add names to match
+
+fuzzy_matches_2010_2019_final
+
+
+fuzzyextras_2011 <- read_csv("data/cla_data/cla_2011/SFR21_CLA.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2011, CLA_ = CLA_2011) %>%
+  select(-CLA_Adopt) %>%
+  left_join(., read_csv("data/cla_data/cla_2011/SFE21_ADM.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2011/SFR21_CEA.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2011) %>%
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", fuzzy_matches_2010_2019_final$varname.x))) %>%
+  mutate(CLA_InBound = CLA_Mar - CLA_Outbound) %>%
+  rowwise() %>%
+  mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+    mutate(
+      CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+      CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+      CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
+    ) %>%
+  ungroup() %>%
+  mutate_at(vars(CLA_cease16:CLA_ceataken, CLA_cea_sen_cust, CLA_ceaAdop, CLA_ceaAdop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_POG), list(SCLA_POG_pc = ~round((./CLA_started)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2011, .before = geog_c) %>%
+  select(everything(), sort(names(.)[7:48])) %>%
+  select(New_geog_code, year, geog_c, geog_n, CLA_OthPl, CLA_OthPl_pc, SCLA_POG, SCLA_POG_pc, CLA_cease, CLA_cea1, CLA_cea14, CLA_cea59, CLA_cea1015, CLA_cea16, CLA_cea1_pc, CLA_cea14_pc, CLA_cea59_pc, CLA_cea1015_pc, CLA_cea16_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) %>%
+  select(-CLA_cease16, -CLA_cease16_pc)
+
+
+fuzzyextras_2012 <- read_csv("data/cla_data/cla_2012/SFR20_CLA2012.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2012, CLA_ = CLA_2012) %>%
+  select(-CLA_Adopt) %>%
+  left_join(., read_csv("data/cla_data/cla_2012/SFR20_ADM2012.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2012/SFR_CEA2012.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2012) %>%
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", fuzzy_matches_2010_2019_final$varname.x))) %>%
+  mutate(CLA_InBound = CLA_Mar - CLA_Outbound) %>%
+  mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  rowwise() %>%
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
+  ) %>%
+  ungroup() %>%
+  mutate_at(vars(CLA_cease16:CLA_ceataken, CLA_cea_sen_cust, CLA_ceaAdop, CLA_ceaAdop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_POG), list(SCLA_POG_pc = ~round((./CLA_started)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2012, .before = geog_c) %>%
+  select(everything(), sort(names(.)[7:48])) %>%
+  select(New_geog_code, year, geog_c, geog_n, CLA_OthPl, CLA_OthPl_pc, SCLA_POG, SCLA_POG_pc, CLA_cease, CLA_cea1, CLA_cea14, CLA_cea59, CLA_cea1015, CLA_cea16, CLA_cea1_pc, CLA_cea14_pc, CLA_cea59_pc, CLA_cea1015_pc, CLA_cea16_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) %>%
+  select(-CLA_cease16, -CLA_cease16_pc)
+
+fuzzyextras_2013 <- read_csv("data/cla_data/cla_2013/SFR36_CLA2013.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2013, CLA_ = CLA_2013) %>%
+  select(-CLA_Adopt) %>%
+  left_join(., read_csv("data/cla_data/cla_2013/SFR36_ADM2013.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2013/SFR36_CEA2013.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2013) %>%
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", fuzzy_matches_2010_2019_final$varname.x))) %>%
+  mutate(CLA_InBound = CLA_Mar - CLA_Outbound) %>%
+  mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  rowwise() %>%
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
+  ) %>%
+  ungroup() %>%
+  mutate_at(vars(CLA_cease16:CLA_ceataken, CLA_cea_sen_cust, CLA_ceaAdop, CLA_ceaAdop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_POG), list(SCLA_POG_pc = ~round((./CLA_started)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2013, .before = geog_c) %>%
+  select(everything(), sort(names(.)[7:48])) %>%
+  select(New_geog_code, year, geog_c, geog_n, CLA_OthPl, CLA_OthPl_pc, SCLA_POG, SCLA_POG_pc, CLA_cease, CLA_cea1, CLA_cea14, CLA_cea59, CLA_cea1015, CLA_cea16, CLA_cea1_pc, CLA_cea14_pc, CLA_cea59_pc, CLA_cea1015_pc, CLA_cea16_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) %>%
+  select(-CLA_cease16, -CLA_cease16_pc)
+
+fuzzyextras_2014 <- read_csv("data/cla_data/cla_2014/SFR36_CLA2014.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2014, CLA_ = CLA_2014) %>%
+  select(-CLA_Adopt) %>% # gets rid of CLA_adopt in favour of CEA Adopt
+  left_join(., read_csv("data/cla_data/cla_2014/SFR36_ADM2014.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2014/SFR36_CEA2014.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2014) %>%
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", fuzzy_matches_2010_2019_final$varname.x))) %>%
+  mutate(CLA_InBound = CLA_Mar - CLA_Outbound) %>%
+  mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  rowwise() %>%
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
+  ) %>%
+  ungroup() %>%
+  mutate_at(vars(CLA_cease16:CLA_ceataken, CLA_cea_sen_cust, CLA_ceaAdop, CLA_ceaAdop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_POG), list(SCLA_POG_pc = ~round((./CLA_started)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2014, .before = geog_c) %>%
+  select(everything(), sort(names(.)[7:48])) %>%
+  select(New_geog_code, year, geog_c, geog_n, CLA_OthPl, CLA_OthPl_pc, SCLA_POG, SCLA_POG_pc, CLA_cease, CLA_cea1, CLA_cea14, CLA_cea59, CLA_cea1015, CLA_cea16, CLA_cea1_pc, CLA_cea14_pc, CLA_cea59_pc, CLA_cea1015_pc, CLA_cea16_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) %>%
+  select(-CLA_cease16, -CLA_cease16_pc)
+
+
+fuzzyextras_2015 <- read_csv("data/cla_data/cla_2015/SFR34_CLA2015.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2015, CLA_ = CLA_2015) %>%
+  select(-CLA_Adopt) %>%
+  left_join(., read_csv("data/cla_data/cla_2015/SFR34_ADM2015.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2015/SFR34_CEA2015.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2014) %>% # Weird error again that exists for 2015 data
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", fuzzy_matches_2010_2019_final$varname.x))) %>%
+  mutate(CLA_InBound = CLA_Mar - CLA_Outbound) %>%
+  mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  rowwise() %>%
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100, 
+  ) %>%
+  ungroup() %>%
+  mutate_at(vars(CLA_cea14:CLA_ceataken, CLA_cea_sen_cust, CLA_ceaAdop, CLA_ceaAdop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_POG), list(SCLA_POG_pc = ~round((./CLA_started)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2015, .before = geog_c) %>%
+  select(everything(), sort(names(.)[7:48])) %>%
+  select(New_geog_code, year, geog_c, geog_n, CLA_OthPl, CLA_OthPl_pc, SCLA_POG, SCLA_POG_pc, CLA_cease, CLA_cea1, CLA_cea14, CLA_cea59, CLA_cea1015, CLA_cea16, CLA_cea1_pc, CLA_cea14_pc, CLA_cea59_pc, CLA_cea1015_pc, CLA_cea16_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) 
+
+# from 2016 - need to combine CLA cease age 16 17 and 18 to get 16+
+# Other placement not actually in this file despite being in meta data
+fuzzyextras_2016 <- read_csv("data/cla_data/cla_2016/SFR41_CLA2016.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2016, CLA_ = CLA_2016) %>%
+  select(-CLA_Adopt) %>%
+  left_join(., read_csv("data/cla_data/cla_2016/SFR41_ADM2016.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2016/SFR41_CEA2016.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2016) %>% 
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", fuzzy_matches_2010_2019_final$varname.x))) %>%
+  mutate(CLA_InBound = CLA_Mar - CLA_Outbound) %>%
+  mutate_at(vars(CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  rowwise() %>%
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop1) & is.na(CEA_Adop2), NA, sum(CEA_Adop1, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CLA_ceaAdop1 / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100, 
+    CLA_cea16 = sum(CLA_cea16, CLA_cea17, CLA_cea18, na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  select(-CLA_cea17, -CLA_cea18) %>%
+  mutate_at(vars(CLA_cea14:CLA_ceataken, CLA_cea_sen_cust, CLA_ceaAdop1, CLA_ceaAdop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_POG), list(SCLA_POG_pc = ~round((./CLA_started)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2016, .before = geog_c) %>%
+  select(everything(), sort(names(.)[6:48])) %>%
+  select(New_geog_code, year, geog_c, geog_n, SCLA_POG, SCLA_POG_pc, CLA_cease, CLA_cea1, CLA_cea14, CLA_cea59, CLA_cea1015, CLA_cea16, CLA_cea1_pc, CLA_cea14_pc, CLA_cea59_pc, CLA_cea1015_pc, CLA_cea16_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) 
+
+
+fuzzyextras_2017 <- read_csv("data/cla_data/cla_2017/SFR50_CLA2017.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2017, CLA_ = CLA_2017) %>%
+  select(-CLA_Adopt) %>%
+  left_join(., read_csv("data/cla_data/cla_2017/SFR50_ADM2017.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2017/SFR50_CEA2017.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2017, CLA_cease = CLA_cease2017) %>% 
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", "CLA_cease", fuzzy_matches_2010_2019_final$varname.y))) %>%
+  mutate(CLA_InBound = CLA_Mar - CLA_Outbound) %>%
+  mutate_at(vars(CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  rowwise() %>%
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop1) & is.na(CEA_Adop2), NA, sum(CEA_Adop1, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CEA_Adop1 / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CEA_Adop2 / CLA_cea_adopt_all) * 100, 
+    CEA_16over = sum(CEA_16, CEA_17, CEA_18over, na.rm = TRUE)
+  )  %>%
+  select(-CEA_16, -CEA_17, -CEA_18over) %>%
+  ungroup() %>%
+  mutate_at(vars(CEA_1to4:CEA_Taken, CEA_16over, CEA_Custody, CEA_Adop1, CEA_Adop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_PlaceO), list(SCLA_PlaceO_pc = ~round((./CLA_started)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2017, .before = geog_c) %>%
+  select(everything(), sort(names(.)[6:45])) %>%
+  select(New_geog_code, year, geog_c, geog_n, SCLA_PlaceO, SCLA_PlaceO_pc, CLA_cease, CEA_U1, CEA_1to4, CEA_5to9, CEA_10to15, CEA_16over, CEA_U1_pc, CEA_1to4_pc, CEA_5to9_pc, CEA_10to15_pc, CEA_16over_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) 
+
+fuzzyextras_2018 <- read_csv("data/cla_data/cla_2018/CLA2018.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2018, CLA_ = CLA_2018) %>%
+  select(-CLA_Adopt, -CLA_Adopt_pc) %>%
+  left_join(., read_csv("data/cla_data/cla_2018/ADM2018_amended.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2018/CEA2018.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2018, CLA_cease = CLA_cease2018) %>% 
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", "CLA_cease", "CLA_InLA", "CLA_OutLA", fuzzy_matches_2010_2019_final$varname.y))) %>%
+  mutate(CLA_InBound = CLA_InLA,
+         CLA_Outbound = CLA_OutLA) %>%
+  select(-CLA_InLA, -CLA_OutLA, -CLA_Mar2014:-CLA_Mar2017, -CLA_started2014:-CLA_started2017, -CLA_cease2014:-CLA_cease2017, -CLA_InLA_LTE20:-CLA_OutLA_NoInfo_pc) %>% # remove waste vars
+  rowwise() %>%
+  select(-contains("_pc")) %>% # remove DfE % calculations for consistency
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop1) & is.na(CEA_Adop2), NA, sum(CEA_Adop1, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CEA_Adop1 / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CEA_Adop2 / CLA_cea_adopt_all) * 100, 
+    CEA_16over = sum(CEA_16, CEA_17, CEA_18over, na.rm = TRUE)
+  )  %>%
+  select(-CEA_16, -CEA_17, -CEA_18over) %>%
+  ungroup() %>%
+  mutate_at(vars(CEA_1to4:CEA_Taken, CEA_16over, CEA_Custody, CEA_Adop1, CEA_Adop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_PlaceO), list(SCLA_PlaceO_pc = ~round((./CLA_started)*100, 2))) %>%
+  mutate_at(vars(CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2018, .before = geog_c) %>%
+  select(everything(), sort(names(.)[6:41])) %>%
+  select(New_geog_code, year, geog_c, geog_n, SCLA_PlaceO, SCLA_PlaceO_pc, CLA_cease, CEA_U1, CEA_1to4, CEA_5to9, CEA_10to15, CEA_16over, CEA_U1_pc, CEA_1to4_pc, CEA_5to9_pc, CEA_10to15_pc, CEA_16over_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) 
+
+fuzzyextras_2019 <- read_csv("data/cla_data/cla_2019/CLA2019.csv", na = c("x", "c", "..")) %>%
+  rename(CLA_Mar = CLA_Mar2019, CLA_ = CLA_2019) %>%
+  select(-CLA_Adopt, -CLA_Adopt_pc) %>%
+  left_join(., read_csv("data/cla_data/cla_2019/ADM2019.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  left_join(., read_csv("data/cla_data/cla_2019/CEA2019.csv", na = c("x", "c", "..")), 
+            by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
+  rename(CLA_started = CLA_started2019, CLA_cease = CLA_cease2019) %>% 
+  select(contains(c("New_geog_code", "geog_l", "geog_c", "geog_n", "CLA_Mar", "CLA_started", "Adop", "CLA_cease", "CLA_InLA", "CLA_OutLA", fuzzy_matches_2010_2019_final$varname.y))) %>%
+  mutate(CLA_InBound = CLA_InLA,
+         CLA_Outbound = CLA_OutLA) %>%
+  select(-CLA_InLA, -CLA_OutLA, -CLA_Mar2015:-CLA_Mar2018, -CLA_started2015:-CLA_started2018, -CLA_cease2015:-CLA_cease2018, -CLA_InLA_LTE20:-CLA_OutLA_NoInfo_pc) %>% # remove waste vars
+  select(-contains("_pc")) %>% # remove DfE % calculations for consistency
+  rowwise() %>%
+  mutate(
+    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop1) & is.na(CEA_Adop2), NA, sum(CEA_Adop1, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_unopposed_pc = (CEA_Adop1 / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
+    CLA_cea_dispensedconsent_pc = (CEA_Adop2 / CLA_cea_adopt_all) * 100, 
+    CEA_16over = sum(CEA_16, CEA_17, CEA_18over, na.rm = TRUE)
+  )  %>%
+  select(-CEA_16, -CEA_17, -CEA_18over) %>%
+  ungroup() %>%
+  mutate_at(vars(CEA_1to4:CEA_Taken, CEA_16over, CEA_Custody, CEA_Adop1, CEA_Adop2, CLA_cea_adopt_all), list(pc = ~round((./CLA_cease)*100, 2))) %>%
+  mutate_at(vars(SCLA_PlaceO), list(SCLA_PlaceO_pc = ~round((./CLA_started)*100, 2))) %>%
+  mutate_at(vars(CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
+  filter(geog_l == "LA") %>%
+  select(-geog_l) %>%
+  mutate(year = 2019, .before = geog_c) %>%
+  select(everything(), sort(names(.)[6:41])) %>%
+  select(New_geog_code, year, geog_c, geog_n, SCLA_PlaceO, SCLA_PlaceO_pc, CLA_cease, CEA_U1, CEA_1to4, CEA_5to9, CEA_10to15, CEA_16over, CEA_U1_pc, CEA_1to4_pc, CEA_5to9_pc, CEA_10to15_pc, CEA_16over_pc, everything()) %>%
+  select(-CLA_Mar, -CLA_started) 
+
+
+# Make names equal
+# Add percentages
+fuzzy_matches_2010_2019_final <- fuzzy_matches_2010_2019_final %>%
+  mutate(description.x = str_remove_all(description.x, "20[0-9][0-9] "), description.y = str_remove_all(description.y, "20[0-9][0-9] "))
+
+fuzzy_matches_2010_2019_final$description.x
+fuzzy_matches_2010_2019_final$description.x[1:3] # unneeded
+fuzzy_matches_2010_2019_final$description.x[4:15] # descriptions for ceased
+fuzzy_matches_2010_2019_final$description.x[16:18] # unneeded
+fuzzy_matches_2010_2019_final$description.x[19:20] # descriptions for in and out of boundaries
+
+
+pc_varnames.x <- paste0(fuzzy_matches_2010_2019_final$varname.x, "_pc")
+
+pc_descriptions <- c(fuzzy_matches_2010_2019_final$description.x[1:3], # unneeded
+paste0(fuzzy_matches_2010_2019_final$description.x[4:15], " (% of all CLA ceased during year)"), # descriptions for ceased
+fuzzy_matches_2010_2019_final$description.x[16:18], # unneeded
+paste0(fuzzy_matches_2010_2019_final$description.x[19:20], " (% of all CLA at March 31st)")) # descriptions for in and out of boundaries
+
+pc_varnames.y <- paste0(fuzzy_matches_2010_2019_final$varname.y, "_pc")
+
+pc_addons <- tibble(varname.x = pc_varnames.x, description.x = pc_descriptions, varname.y = pc_varnames.y, description.y = pc_descriptions, dist = NA, valid = NA)
+
+fuzzy_matches_2010_2019_final <- bind_rows(fuzzy_matches_2010_2019_final, pc_addons)
+
+# Check and add any missing names
+
+all_unique_names <- unique(c(names(fuzzyextras_2011), names(fuzzyextras_2012), names(fuzzyextras_2013), names(fuzzyextras_2014), names(fuzzyextras_2015), names(fuzzyextras_2016), names(fuzzyextras_2017), names(fuzzyextras_2018), names(fuzzyextras_2019)))
+
+setdiff(all_unique_names, c(fuzzy_matches_2010_2019_final$varname.x, fuzzy_matches_2010_2019_final$varname.y))
+
+fuzzy_matches_2010_2019_final <- fuzzy_matches_2010_2019_final %>%
+  add_row(varname.x = "CLA_cea_adopt_all", description.x = "Number of children who ceased to be looked after because they were adopted (total)", varname.y = "CLA_cea_adopt_all", description.y = "Number of children who ceased to be looked after because they were adopted (total)") %>%
+  add_row(varname.x = "CLA_cea_adopt_all_pc", description.x = "Number of children who ceased to be looked after because they were adopted, total (% of all CLA ceased during year)", varname.y = "CLA_cea_adopt_all_pc", description.y = "Number of children who ceased to be looked after because they were adopted, total (% of all CLA ceased during year)") %>%
+  add_row(varname.x = "CLA_cea_unopposed_pc", description.x = "Percentage of children who ceased to be looked after because of adoption where the adoption application was unopposed", varname.y = "CLA_cea_unopposed_pc", description.y = "Percentage of children who ceased to be looked after because of adoption where the adoption application was unopposed") %>%
+  add_row(varname.x = "CLA_cea_dispensedconsent_pc", description.x = "Percentage of children who ceased to be looked after because of adoption where the adoption application where consent was dispensed with by the court", varname.y = "CLA_cea_dispensedconsent_pc", description.y = "Percentage of children who ceased to be looked after because of adoption where the adoption application where consent was dispensed with by the court") %>%
+  add_row(varname.x = "CLA_ceaAdop", description.x = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed", varname.y = "CEA_Adop1", description.y = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed") %>%
+  add_row(varname.x = "CLA_ceaAdop_pc", description.x = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed (% of all CLA ceased during year)", varname.y = "CEA_Adop1_pc", description.y = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed (% of all CLA ceased during year)") %>%
+  add_row(varname.x = "CLA_ceaAdop", description.x = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed", varname.y = "CLA_ceaAdop1", description.y = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed") %>%
+  add_row(varname.x = "CLA_ceaAdop_pc", description.x = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed (% of all CLA ceased during year)", varname.y = "CLA_ceaAdop1_pc", description.y = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed (% of all CLA ceased during year)") %>%
+  add_row(varname.x = "CLA_ceaAdop2", description.x = "Children who ceased to be looked after during the year ending 31 March 2011- consent dispensed with", varname.y = "CEA_Adop2", description.y = "Children who ceased to be looked after during the year ending 31 March 2011- consent dispensed with") %>%
+  add_row(varname.x = "CLA_ceaAdop2_pc", description.x = "Children who ceased to be looked after during the year ending 31 March 2011- consent dispensed with (% of all CLA ceased during year)", varname.y = "CEA_Adop2_pc", description.y = "Children who ceased to be looked after during the year ending 31 March 2011- consent dispensed with (% of all CLA ceased during year)") %>%
+  add_row(varname.x = "CEA_16over", description.x = "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over", varname.y = "CEA_16over", description.y = "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over") %>%
+  add_row(varname.x = "CEA_16over_pc", description.x = "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over (% of all CLA ceased during year)", varname.y = "CEA_16over_pc", description.y = "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over (% of all CLA ceased during year)") %>%
+  add_row(varname.x = "CLA_OthPl_pc", description.x = "Children looked after at 31 March in other placements (% of all CLA on March 31st) - Uses fuzzy matching between 2011-2016 and 2017-2019", varname.y = "CLA_OthPl_pc", description.y = "Children looked after at 31 March in other placements (% of all CLA on March 31st) - Uses fuzzy matching between 2011-2016 and 2017-2019")
+
+setdiff(all_unique_names, c(fuzzy_matches_2010_2019_final$varname.x, fuzzy_matches_2010_2019_final$varname.y))
+
+#fuzzy_matches_2010_2019_final %>% view(.)
+
+matches_lookup <- tibble(
+  varname = c(fuzzy_matches_2010_2019_final$varname.x, fuzzy_matches_2010_2019_final$varname.y),
+  description = paste(c(fuzzy_matches_2010_2019_final$description.x, fuzzy_matches_2010_2019_final$description.x), "- Uses fuzzy matching between 2011-2016 and 2017-2019")
+)
+
+
+# Convert to long format and merge years
+
+fuzzyextras_2011_long <- fuzzyextras_2011 %>% pivot_longer(CLA_OthPl:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2012_long <- fuzzyextras_2012 %>% pivot_longer(CLA_OthPl:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2013_long <- fuzzyextras_2013 %>% pivot_longer(CLA_OthPl:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2014_long <- fuzzyextras_2014 %>% pivot_longer(CLA_OthPl:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2015_long <- fuzzyextras_2015 %>% pivot_longer(CLA_OthPl:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2016_long <- fuzzyextras_2016 %>% pivot_longer(SCLA_POG:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2017_long <- fuzzyextras_2017 %>% pivot_longer(SCLA_PlaceO:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2018_long <- fuzzyextras_2018 %>% pivot_longer(SCLA_PlaceO:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+fuzzyextras_2019_long <- fuzzyextras_2019 %>% pivot_longer(SCLA_PlaceO:CLA_cea_adopt_all_pc, names_to = "varname", values_to = "value")
+
+fuzzyextras_full <- bind_rows(fuzzyextras_2011_long, fuzzyextras_2012_long, fuzzyextras_2013_long, fuzzyextras_2014_long, fuzzyextras_2015_long, fuzzyextras_2016_long, fuzzyextras_2017_long, fuzzyextras_2018_long, fuzzyextras_2019_long)
+
+
+# Add merged descriptions to disparate varnames (where descriptions are description.x)
+
+# Check visually and see if this looks right
+left_join(fuzzyextras_full, matches_lookup, by = "varname") %>%
+  .$description %>%
+  unique(.)
+
+# final corrections
+matches_lookup <- matches_lookup %>%
+  mutate(description = ifelse(varname == "CLA_OthPl_pc", "Children looked after at 31 March in other placements (% of all CLA on March 31st) - Uses fuzzy matching between 2011-2016 and 2017-2019", description)) %>%
+  mutate(description = ifelse(varname == "CLA_cea16_pc", "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over (% of all CLA ceased during year) - Uses fuzzy matching between 2011-2016 and 2017-2019", description)) %>%
+  mutate(description = ifelse(varname == "CLA_cea16", "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over - Uses fuzzy matching between 2011-2016 and 2017-2019", description))
+
+matches_lookup <- matches_lookup %>%
+  mutate(description = str_remove_all(description, "20[0-9][0-9] ")) %>%
+  mutate(description = str_replace_all(description, "consent dispensed with", "adoption - consent dispensed with"))
+
+
+# View(matches_lookup)
+
+fuzzyextras_full <- left_join(fuzzyextras_full, matches_lookup, by = "varname") 
+#View(fuzzyextras_full)
+
+# remove NaNs/Infs
+fuzzyextras_full <- fuzzyextras_full %>%
+  mutate(value = ifelse(is.nan(value), NA, value))
+
+
+# Looks okay. Add to data
+
+# rename cols to match for binding
+fuzzyextras_full <- fuzzyextras_full %>%
+  select(new_la_code = New_geog_code, la_name = geog_n, year = year, description = description, value = value)
+
+
+csc_data <- read_rds("data/csc_data_v2.RDS")
+
+csc_data
+
+csc_data_v3 <- bind_rows(csc_data, fuzzyextras_full)
+
+write_rds(csc_data_v3, path = "data/csc_data_v3.RDS")
+
+# issues with total adoptions in 2018 in London - a very large number of zeros? Not sure
+# if this is a true outlier or something related to the data 
+# Some comparisons are messed up by the data censoring
+# Add NA + NA = NA condition to sums, so sum NA + NA, na.rm != 0 but equals NA
+# Helps a bit, but still gives some percentages that add up to >100 
+
+
+# Add detailed 2017-2019 data from new UD ---------------------------------
+
+varlist_2017_2019 <-   filter(varlist_2017, 
+                              varname %in% varlist_2018$varname &
+                                varname %in% varlist_2019$varname) 
+
+# Filter out ones already included
+varlist_2017_2019 <- varlist_2017_2019 %>%
+  filter(!varname %in% complete_varlist$varname & !varname %in% matches_lookup$varname)
+
+

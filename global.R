@@ -70,7 +70,7 @@ Sys.setenv('MAPBOX_TOKEN' = mapbox_access_token)
 ### IMPORTANT! 
 lsoa_data_spatial <- read_rds("data/mog_datav4.Rds")
 labels_lsoa_data <- read_csv("data/lsoa_dataset_labelsv4.csv")
-csc_data <- read_rds("data/csc_data_v2.RDS") %>%
+csc_data <- read_rds("data/csc_data_v3.RDS") %>%
   mutate(value = ifelse(is.infinite(value), NA, value)) %>%
   filter(!la_name %in% c("City of London", "City Of London", "Isles of Scilly", "Isles Of Scilly"))
 la_sf <- read_rds("data/la_sf.RDS")
