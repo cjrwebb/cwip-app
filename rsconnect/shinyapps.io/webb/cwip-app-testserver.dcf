@@ -1,0 +1,12 @@
+name: cwip-app-testserver
+title: cwip-app-testserver
+username:
+account: webb
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2654018
+bundleId: 3492700
+url: https://webb.shinyapps.io/cwip-app-testserver/
+when: 1596958798.48832
+asMultiple: FALSE
+asStatic: FALSE

@@ -3666,7 +3666,7 @@ fuzzyextras_2011 <- read_csv("data/cla_data/cla_2011/SFR21_CLA.csv", na = c("x",
   rowwise() %>%
   mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
     mutate(
-      CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+      CLA_cea_adopt_all = ifelse(is.na(CLA_ceaAdop) & is.na(CLA_ceaAdop2), NA, sum(CLA_ceaAdop, CLA_ceaAdop2, na.rm = TRUE)), # All Ceasing through adoption
       CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
       CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
     ) %>%
@@ -3695,7 +3695,7 @@ fuzzyextras_2012 <- read_csv("data/cla_data/cla_2012/SFR20_CLA2012.csv", na = c(
   mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
   rowwise() %>%
   mutate(
-    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_adopt_all = ifelse(is.na(CLA_ceaAdop) & is.na(CLA_ceaAdop2), NA, sum(CLA_ceaAdop, CLA_ceaAdop2, na.rm = TRUE)), # All Ceasing through adoption
     CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
     CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
   ) %>%
@@ -3723,7 +3723,7 @@ fuzzyextras_2013 <- read_csv("data/cla_data/cla_2013/SFR36_CLA2013.csv", na = c(
   mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
   rowwise() %>%
   mutate(
-    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_adopt_all = ifelse(is.na(CLA_ceaAdop) & is.na(CLA_ceaAdop2), NA, sum(CLA_ceaAdop, CLA_ceaAdop2, na.rm = TRUE)), # All Ceasing through adoption
     CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
     CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
   ) %>%
@@ -3751,7 +3751,7 @@ fuzzyextras_2014 <- read_csv("data/cla_data/cla_2014/SFR36_CLA2014.csv", na = c(
   mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
   rowwise() %>%
   mutate(
-    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_adopt_all = ifelse(is.na(CLA_ceaAdop) & is.na(CLA_ceaAdop2), NA, sum(CLA_ceaAdop, CLA_ceaAdop2, na.rm = TRUE)), # All Ceasing through adoption
     CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
     CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100
   ) %>%
@@ -3780,7 +3780,7 @@ fuzzyextras_2015 <- read_csv("data/cla_data/cla_2015/SFR34_CLA2015.csv", na = c(
   mutate_at(vars(CLA_OthPl, CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
   rowwise() %>%
   mutate(
-    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop) & is.na(CEA_Adop2), NA, sum(CEA_Adop, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_adopt_all = ifelse(is.na(CLA_ceaAdop) & is.na(CLA_ceaAdop2), NA, sum(CLA_ceaAdop, CLA_ceaAdop2, na.rm = TRUE)), # All Ceasing through adoption
     CLA_cea_unopposed_pc = (CLA_ceaAdop / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
     CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100, 
   ) %>%
@@ -3809,7 +3809,7 @@ fuzzyextras_2016 <- read_csv("data/cla_data/cla_2016/SFR41_CLA2016.csv", na = c(
   mutate_at(vars(CLA_Outbound, CLA_InBound), list(pc = ~round((./CLA_Mar)*100, 2))) %>%
   rowwise() %>%
   mutate(
-    CLA_cea_adopt_all = ifelse(is.na(CEA_Adop1) & is.na(CEA_Adop2), NA, sum(CEA_Adop1, CEA_Adop2, na.rm = TRUE)), # All Ceasing through adoption
+    CLA_cea_adopt_all = ifelse(is.na(CLA_ceaAdop1) & is.na(CLA_ceaAdop2), NA, sum(CLA_ceaAdop1, CLA_ceaAdop2, na.rm = TRUE)), # All Ceasing through adoption
     CLA_cea_unopposed_pc = (CLA_ceaAdop1 / CLA_cea_adopt_all) * 100, # % ceasing through adoption that was unopposed
     CLA_cea_dispensedconsent_pc = (CLA_ceaAdop2 / CLA_cea_adopt_all) * 100, 
     CLA_cea16 = sum(CLA_cea16, CLA_cea17, CLA_cea18, na.rm = TRUE)
@@ -3955,7 +3955,7 @@ fuzzy_matches_2010_2019_final <- fuzzy_matches_2010_2019_final %>%
   add_row(varname.x = "CLA_cea_adopt_all", description.x = "Number of children who ceased to be looked after because they were adopted (total)", varname.y = "CLA_cea_adopt_all", description.y = "Number of children who ceased to be looked after because they were adopted (total)") %>%
   add_row(varname.x = "CLA_cea_adopt_all_pc", description.x = "Number of children who ceased to be looked after because they were adopted, total (% of all CLA ceased during year)", varname.y = "CLA_cea_adopt_all_pc", description.y = "Number of children who ceased to be looked after because they were adopted, total (% of all CLA ceased during year)") %>%
   add_row(varname.x = "CLA_cea_unopposed_pc", description.x = "Percentage of children who ceased to be looked after because of adoption where the adoption application was unopposed", varname.y = "CLA_cea_unopposed_pc", description.y = "Percentage of children who ceased to be looked after because of adoption where the adoption application was unopposed") %>%
-  add_row(varname.x = "CLA_cea_dispensedconsent_pc", description.x = "Percentage of children who ceased to be looked after because of adoption where the adoption application where consent was dispensed with by the court", varname.y = "CLA_cea_dispensedconsent_pc", description.y = "Percentage of children who ceased to be looked after because of adoption where the adoption application where consent was dispensed with by the court") %>%
+  add_row(varname.x = "CLA_cea_dispensedconsent_pc", description.x = "Percentage of children who ceased to be looked after because of adoption where consent was dispensed with by the court", varname.y = "CLA_cea_dispensedconsent_pc", description.y = "Percentage of children who ceased to be looked after because of adoption where consent was dispensed with by the court") %>%
   add_row(varname.x = "CLA_ceaAdop", description.x = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed", varname.y = "CEA_Adop1", description.y = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed") %>%
   add_row(varname.x = "CLA_ceaAdop_pc", description.x = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed (% of all CLA ceased during year)", varname.y = "CEA_Adop1_pc", description.y = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed (% of all CLA ceased during year)") %>%
   add_row(varname.x = "CLA_ceaAdop", description.x = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed", varname.y = "CLA_ceaAdop1", description.y = "Children who ceased to be looked after during the year ending 31 March 2011 due to adoption - application unopposed") %>%
@@ -3972,8 +3972,14 @@ setdiff(all_unique_names, c(fuzzy_matches_2010_2019_final$varname.x, fuzzy_match
 
 matches_lookup <- tibble(
   varname = c(fuzzy_matches_2010_2019_final$varname.x, fuzzy_matches_2010_2019_final$varname.y),
-  description = paste(c(fuzzy_matches_2010_2019_final$description.x, fuzzy_matches_2010_2019_final$description.x), "- Uses fuzzy matching between 2011-2016 and 2017-2019")
-)
+  description = paste(c(fuzzy_matches_2010_2019_final$description.x, fuzzy_matches_2010_2019_final$description.x))
+) %>%
+  mutate(description = str_remove_all(description, "2011-")) %>%
+  mutate(description = str_remove_all(description, "2011 ")) %>%
+  mutate(description = str_replace_all(description, "consent dispensed with", "adoption - consent dispensed with")) %>%
+  mutate(description = paste(description,  "- Uses fuzzy matching between 2011-2016 and 2017-2019"))
+
+
 
 
 # Convert to long format and merge years
@@ -4004,9 +4010,6 @@ matches_lookup <- matches_lookup %>%
   mutate(description = ifelse(varname == "CLA_cea16_pc", "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over (% of all CLA ceased during year) - Uses fuzzy matching between 2011-2016 and 2017-2019", description)) %>%
   mutate(description = ifelse(varname == "CLA_cea16", "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over - Uses fuzzy matching between 2011-2016 and 2017-2019", description))
 
-matches_lookup <- matches_lookup %>%
-  mutate(description = str_remove_all(description, "20[0-9][0-9] ")) %>%
-  mutate(description = str_replace_all(description, "consent dispensed with", "adoption - consent dispensed with"))
 
 
 # View(matches_lookup)
