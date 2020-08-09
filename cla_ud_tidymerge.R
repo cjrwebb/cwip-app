@@ -3615,15 +3615,15 @@ cla_inoutbound_2018 <- read_csv("data/cla_data/cla_2018/CLA2018.csv", na = c("x"
   left_join(., read_csv("data/cla_data/cla_2018/ADM2018_amended.csv", na = c("x", "c", "#VALUE!", "..")), 
             by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
   rename(CLA_started = CLA_started2018) %>%
-  select(New_geog_code, geog_l, geog_c, geog_n, CLA_Mar, CLA_OutLA_LTE20, CLA_OutLA_GT20) %>%
+  select(New_geog_code, geog_l, geog_c, geog_n, CLA_Mar, CLA_OutLA, CLA_InLA) %>%
   filter(geog_l == "LA") %>%
   select(-geog_l) %>%
   mutate(
-    CLA_Outbound = CLA_OutLA_LTE20 + CLA_OutLA_GT20,
-    CLA_InBound = CLA_Mar - CLA_Outbound,
+    CLA_Outbound = CLA_OutLA,
+    CLA_InBound = CLA_InLA,
     year = 2018
   ) %>%
-  select(-CLA_OutLA_LTE20:-CLA_OutLA_GT20) %>%
+  select(-CLA_OutLA:-CLA_InLA) %>%
   mutate_at(vars(CLA_Outbound:CLA_InBound), list(pc = ~(./CLA_Mar)*100)) %>%
   select(New_geog_code, geog_c, year, geog_n, everything()) %>%
   select(-CLA_Mar) 
@@ -3633,15 +3633,15 @@ cla_inoutbound_2019 <- read_csv("data/cla_data/cla_2019/CLA2019.csv", na = c("x"
   left_join(., read_csv("data/cla_data/cla_2019/ADM2019.csv", na = c("x", "c", "#VALUE!", "..")), 
             by = c("New_geog_code", "geog_l", "geog_c", "geog_n")) %>%
   rename(CLA_started = CLA_started2019) %>%
-  select(New_geog_code, geog_l, geog_c, geog_n, CLA_Mar, CLA_OutLA_LTE20, CLA_OutLA_GT20) %>%
+  select(New_geog_code, geog_l, geog_c, geog_n, CLA_Mar, CLA_OutLA, CLA_InLA) %>%
   filter(geog_l == "LA") %>%
   select(-geog_l) %>%
   mutate(
-    CLA_Outbound = CLA_OutLA_LTE20 + CLA_OutLA_GT20,
-    CLA_InBound = CLA_Mar - CLA_Outbound,
+    CLA_Outbound = CLA_OutLA,
+    CLA_InBound = CLA_InLA,
     year = 2019
   ) %>%
-  select(-CLA_OutLA_LTE20:-CLA_OutLA_GT20) %>%
+  select(-CLA_OutLA:-CLA_InLA) %>%
   mutate_at(vars(CLA_Outbound:CLA_InBound), list(pc = ~(./CLA_Mar)*100)) %>%
   select(New_geog_code, geog_c, year, geog_n, everything()) %>%
   select(-CLA_Mar) 
@@ -3996,6 +3996,13 @@ fuzzyextras_2019_long <- fuzzyextras_2019 %>% pivot_longer(SCLA_PlaceO:CLA_cea_a
 
 fuzzyextras_full <- bind_rows(fuzzyextras_2011_long, fuzzyextras_2012_long, fuzzyextras_2013_long, fuzzyextras_2014_long, fuzzyextras_2015_long, fuzzyextras_2016_long, fuzzyextras_2017_long, fuzzyextras_2018_long, fuzzyextras_2019_long)
 
+# Add 2017-2019 inbound outbound
+cla_inoutbound_2018_long <- cla_inoutbound_2018 %>% pivot_longer(CLA_Outbound:CLA_InBound_pc, names_to = "varname", values_to = "value")
+cla_inoutbound_2019_long <- cla_inoutbound_2019 %>% pivot_longer(CLA_Outbound:CLA_InBound_pc, names_to = "varname", values_to = "value")
+
+fuzzyextras_full <- bind_rows(fuzzyextras_full, cla_inoutbound_2018_long, cla_inoutbound_2019_long)
+
+
 
 # Add merged descriptions to disparate varnames (where descriptions are description.x)
 
@@ -4009,6 +4016,10 @@ matches_lookup <- matches_lookup %>%
   mutate(description = ifelse(varname == "CLA_OthPl_pc", "Children looked after at 31 March in other placements (% of all CLA on March 31st) - Uses fuzzy matching between 2011-2016 and 2017-2019", description)) %>%
   mutate(description = ifelse(varname == "CLA_cea16_pc", "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over (% of all CLA ceased during year) - Uses fuzzy matching between 2011-2016 and 2017-2019", description)) %>%
   mutate(description = ifelse(varname == "CLA_cea16", "Children who ceased to be looked after during the year ending 31 March 2019 aged 16 and over - Uses fuzzy matching between 2011-2016 and 2017-2019", description))
+
+# remove duplicates
+matches_lookup <- matches_lookup %>%
+  distinct(varname, .keep_all = TRUE)
 
 
 

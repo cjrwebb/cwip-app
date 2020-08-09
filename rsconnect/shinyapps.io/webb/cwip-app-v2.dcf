@@ -5,8 +5,8 @@ account: webb
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2630883
-bundleId: 3481287
+bundleId: 3492816
 url: https://webb.shinyapps.io/cwip-app-v2/
-when: 1596697251.17291
+when: 1596963426.06222
 asMultiple: FALSE
 asStatic: FALSE
