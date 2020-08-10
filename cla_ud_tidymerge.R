@@ -4048,6 +4048,24 @@ csc_data_v3 <- bind_rows(csc_data, fuzzyextras_full)
 
 write_rds(csc_data_v3, path = "data/csc_data_v3.RDS")
 
+csc_data <- read_rds(path = "data/csc_data_v3.RDS")
+
+# This fixes DfE typo for 10-15 in 2011
+csc_data %>%
+  mutate(
+    description = ifelse(str_detect(description, "aged 0 to 15"), str_replace(description, "aged 0 to 15", "aged 10 to 15"), description)
+  ) %>%
+  filter(str_detect(description, "0-17")) %>%
+  .$description %>%
+  unique(.)
+
+csc_data <- csc_data %>%
+  mutate(
+    description = ifelse(str_detect(description, "aged 0 to 15"), str_replace(description, "aged 0 to 15", "aged 10 to 15"), description)
+  ) 
+
+write_rds(csc_data, path = "data/csc_data_v3.RDS")
+
 # issues with total adoptions in 2018 in London - a very large number of zeros? Not sure
 # if this is a true outlier or something related to the data 
 # Some comparisons are messed up by the data censoring
