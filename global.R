@@ -41,9 +41,6 @@ dir.create('~/.fonts')
 file.copy("www/fa-solid-900.ttf", "~/.fonts")
 system('fc-cache -f ~/.fonts')
 
-
-
-
 install_fa_fonts() # For some reason FA5 glyphs still do not show on deployment
 
 # This tool is designed to map the data from many administrative sources
@@ -2932,5 +2929,8 @@ plot_ethnic_inequalities <- function(data, var, la_select = NULL, relative = FAL
 #   plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[3]) +
 #   plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[4]) +
 #   plot_layout(ncol = 3, nrow = 1) 
+
+
+
 
 
