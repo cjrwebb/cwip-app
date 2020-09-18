@@ -242,7 +242,7 @@ plots1_corr <- ggplot() +
   theme_minimal() +
   theme(text = element_text(family = "Arial Rounded MT Bold", size = 14),
         plot.title = element_markdown(family = "Arial Rounded MT Bold", size = 16)) &
-  plot_annotation(caption = "Analysis and data visualisation by Calum Webb, the University of Sheffield, on behalf of Children England.\nData from S251 returns, ONS population projections, DCLG & DfE. All figures adjusted for inflation. Correspondence measured with R-squared value.")
+  plot_annotation(caption = "Analysis and data visualisation by Calum Webb, the University of Sheffield, on behalf of Children England.\nData from S251 returns, ONS population projections, DCLG & DfE. All figures adjusted for inflation. Correspondence measured with R-squared value.\nCode & Data: github.com/cjrwebb/cwip-app")
 
 
 # LA examples: Blackpool and Wokingham
@@ -288,7 +288,7 @@ trend_la_2 <- ce_data %>%
 
 plots2_la <- trend_la_1 + trend_la_2 &
   plot_annotation(title = "This means that while it looks like <span style='color:#631A70'>high deprivation authorities like Birmingham</span> spend more per child, they actually end up with less<br>relative to the scale of underlying needs than, say, a <span style='color:#00AC4D'>low deprivation authority like Buckinghamshire</span>.<br>",
-                  caption = "Analysis and data visualisation by Calum Webb, the University of Sheffield, on behalf of Children England.\nData from S251 returns, ONS population projections, DCLG & DfE. All figures adjusted for inflation.",
+                  caption = "Analysis and data visualisation by Calum Webb, the University of Sheffield, on behalf of Children England.\nData from S251 returns, ONS population projections, DCLG & DfE. All figures adjusted for inflation. Code & Data: github.com/cjrwebb/cwip-app",
                   theme =   theme(
                                   plot.title = element_markdown(family = "Arial Rounded MT Bold", size = 16))
   )
@@ -333,7 +333,7 @@ quinplot2 <- ce_data %>%
 
 plots3_quin <- quinplot1 + quinplot2  &
   plot_annotation(title = "This pattern is consistent across local authorities. The <span style='color:#631A70'>most deprived 30 local authorities</span> have seen an enormous drop in their<br>spending power after adjusting for need, whereas the <span style='color:#7F7F7F'>middle deprived 30</span> have seen large fluctuations and the <span style='color:#00AC4D'>least deprived 30<br>local authorities</span> have seen an increase relative to underlying needs.<br>",
-                  caption = "Analysis and data visualisation by Calum Webb, the University of Sheffield, on behalf of Children England.\nData from S251 returns, ONS population projections, DCLG & DfE. All figures adjusted for inflation.",
+                  caption = "Analysis and data visualisation by Calum Webb, the University of Sheffield, on behalf of Children England.\nData from S251 returns, ONS population projections, DCLG & DfE. All figures adjusted for inflation. Code & Data: github.com/cjrwebb/cwip-app",
                   theme =   theme(
                                   plot.title = element_markdown(family = "Arial Rounded MT Bold", size = 16))
   )
@@ -347,3 +347,4 @@ plots3_quin <- quinplot1 + quinplot2  &
 ggsave(plot = plots1_corr, filename = "img/plots1_corr.png", device = "png", width = 10, height = 8)
 ggsave(plot = plots2_la, filename = "img/plots2_la.png", device = "png", width = 16, height = 8)
 ggsave(plot = plots3_quin, filename = "img/plots3_quin.png", device = "png", width = 16, height = 8)
+
