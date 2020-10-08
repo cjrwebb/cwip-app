@@ -58,7 +58,13 @@ ce_data <- ce_data %>%
   mutate(year = as.character(year))
 
 tot_spen_model <- glmmTMB(tot_exp_pc ~ scale(imd_sc) + send_pc_pop + I(tot_chil_pop/100) + (1 | year),
-                 data = ce_data)
+                          data = ce_data)
+
+# tot_spen_model <- glmmTMB(tot_exp_pc ~ I(imd_sc/10) + send_pc_pop + I(tot_chil_pop/100) + (1 | year),
+#                           data = ce_data %>% filter(imd_sc < 15.3))
+# 
+# tot_spen_model <- glmmTMB(tot_exp_pc ~ I(imd_sc/10) + send_pc_pop + I(tot_chil_pop/100) + (1 | year),
+#                  data = ce_data %>% filter(imd_sc > 29.8))
 
 summary(tot_spen_model)
 
@@ -348,3 +354,23 @@ ggsave(plot = plots1_corr, filename = "img/plots1_corr.png", device = "png", wid
 ggsave(plot = plots2_la, filename = "img/plots2_la.png", device = "png", width = 16, height = 8)
 ggsave(plot = plots3_quin, filename = "img/plots3_quin.png", device = "png", width = 16, height = 8)
 
+
+## Dissocaiation over time
+
+# 
+# for (i in 1:9) {
+#   lm(data = ce_data %>% filter(year == 2010+i), 
+#      formula = tot_exp_pc ~ scale(imd_sc) + send_pc_pop + I(tot_chil_pop/100)) %>%
+#     summary(.) %>%
+#     .$coefficients %>%
+#     print(.)
+# }
+# 
+# 
+# for (i in 1:9) {
+#   lm(data = ce_data %>% filter(year == 2010+i), 
+#      formula = ehfs_exp_pc ~ scale(imd_sc) + send_pc_pop + I(tot_chil_pop/100)) %>%
+#     summary(.) %>%
+#     .$coefficients %>%
+#     print(.)
+# }
