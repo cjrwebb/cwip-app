@@ -1,4 +1,5 @@
-
+# CWIP APP V2 Server
+# Remember to use reactive selectize inputs for large lists
 
 server <- shinyServer(function(input, output, session){
 

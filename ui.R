@@ -1,4 +1,4 @@
-# UI - Mapping Overlaps Gadget Education
+# UI - CWIP APP V2
 
 
 ui <- dashboardPage(title = paste("CWIP App", sep = ""), 

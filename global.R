@@ -1,5 +1,5 @@
 
-# Mapping Overlaps Gadget: Education GLOBAL FUNCTIONS ---------------------
+# CWIP APP V2 functions and data ---------------------
 
 # Packages
 # There are probably some functions and packages 
@@ -36,16 +36,17 @@ library(ggdendro)
 library(janitor)
 library(shinyWidgets)
 
+
+# Requireed for waffle plots but slows down initialisation
 dir.create('~/.fonts')
 # file.copy("www/fa-brands-400.ttf", "~/.fonts")
 file.copy("www/fa-solid-900.ttf", "~/.fonts")
 system('fc-cache -f ~/.fonts')
 
-install_fa_fonts() # For some reason FA5 glyphs still do not show on deployment
+install_fa_fonts() 
 
-# This tool is designed to map the data from many administrative sources
-# into univariate and bivariate maps, as well as to provide an interface 
-# for various basic statistical tests and linear models
+# This tool is designed to visualise numerous OGL3.0 public data 
+# about the child welfare system in England
 
 
 # Setup ---------------------------------------------------------------
@@ -2930,7 +2931,9 @@ plot_ethnic_inequalities <- function(data, var, la_select = NULL, relative = FAL
 #   plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[4]) +
 #   plot_layout(ncol = 3, nrow = 1) 
 
-
+# csc_data %>%
+#   filter(description %in% c(csc_vars[2], csc_vars[17], csc_vars[6], csc_vars[7], csc_vars[18])) %>%
+#   write_rds(., path="temp/csc_data_spend_imd.rds")
 
 
 
