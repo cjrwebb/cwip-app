@@ -1,0 +1,92 @@
+var_names,var_labels
+new_la_code,Upper tier local authority code
+time_period,Year of data measurement
+old_la_code,Old 3-digit local authority code
+la_name,Local authority name
+population_0_16,Population estimate for children (aged 0-16) in 1000s (NOMIS)
+anypoint_episodes,Number of children in need episodes at any point in the year (CIN Census)
+started_episodes,Number of children who started an episode in need in the year (CIN Census)
+at31_episodes,Number of children in need episodes on 31st March (CIN Census)
+any_cin_ep_rate_10000,"Rate of children in need episodes at any point in the year (Rate per 10,000 population) (CIN Census)"
+start_cin_ep_rate_10000,"Rate of children who started an episode in need in the year (Rate per 10,000 population) (CIN Census)"
+at31_cin_ep_rate_10000,"Rate of children in need episodes on 31st March (Rate per 10,000 population) (CIN Census)"
+at31_cla,Number of children looked after at 31st March (SSDA903)
+cla_start,Number of children starting to be looked after throughout the year (SSDA903)
+cla_cease,Number of children ceasing to be looked after throughout the year (SSDA903)
+at_31_cla_rate10000,"Rate of children looked after at 31st March (Rate per 10,000 population) (SSDA903)"
+cla_start_rate10000,"Rate of children starting to be looked after throughout the year (Rate per 10,000 population) (SSDA903)"
+cla_cease_rate10000,"Rate of children ceasing to be looked after throughout the year (Rate per 10,000 population) (SSDA903)"
+rel_pov_chil,Number of children in relative poverty (DWP)
+rel_pov_rate100,Percentage of children in relative poverty (rate per 100) (DWP)
+clif1116_pov_chil,Number of children in low income families (2011-2016 measure of poverty) (DWP)
+clif_11_16_cpov_rate,Rate of children in low income families (2011-2016 CLIF measure of poverty) (DWP)
+cpp_start,Number of children starting a Child Protection Plan (CIN Census)
+at31_cpp,Number of children on a Child Protection Plan on 31st March (CIN Census)
+cpp_start_rate10000,"Rate of children starting a Child Protection Plan (Rate per 10,000 population) (CIN Census)"
+at31_cpp_rate10000,"Rate of children on a Child Protection Plan on 31st March (Rate per 10,000 population) (CIN Census)"
+gspend_cla,Gross expenditure on children looked after in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_fss,Gross expenditure on family support services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_oth,Gross expenditure on other services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_saf,Gross expenditure on safeguarding in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_yps,Gross expenditure on services for young people in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_ss5,Gross expenditure on Sure Start and under 5s in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_yjs,Gross expenditure on youth justice services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_noncla_nonsg,"Gross expenditure on combined non-CLA, non-safeguarding services in £Millions (SPPI Adjusted to 2021 Prices) (S251 + Revenue Outturns)"
+sppi,"Services Provider Price Inflation Index (SPPI) - rebased to 2022, as a multiplicative factor"
+gspend_pc_cla,Percentage of total gross expenditure on children looked after
+gspend_pc_sg,Percentage of total gross expenditure on safeguarding
+gspend_pc_ncnsg,"Percentage of total gross expenditure on non-CLA, non-safeguarding"
+gspend_cla_pc,Gross expenditure on children looked after per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_fss_pc,Gross expenditure on family support services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_oth_pc,Gross expenditure on other services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_saf_pc,Gross expenditure on safeguarding per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_yps_pc,Gross expenditure on services for young people per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)
+gspend_ss5_pc,Gross expenditure on Sure Start and under 5s per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)
+gspend_yjs_pc,Gross expenditure on youth justice services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_noncla_nonsg_pc,"Gross expenditure on combined non-CLA, non-safeguarding services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)"
+gspend_cla_percla,Gross expenditure on children looked after per child looked after (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_saf_percpp,Gross expenditure on safeguarding per child on a child protection plan (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+n_households,Number of households
+tempacc_hh,Number of households in temporary accommodation (MHCLG Open Data)
+rej_not_hl,Number of homelessness applications rejected not homeless (MHCLG Open Data)
+hl_apps,Number of homelessness applications (MHCLG Open Data)
+rej_not_priority,Number of homelessness applications rejected not priority (MHCLG Open Data)
+acc_hl,Number of accepted homelessness applications (MHCLG Open Data)
+rej_int_hl,Number of homelessness applications rejected intentionally homeless (MHCLG Open Data)
+homeless_any,Number of homelessness applications any outcome (MHCLG Open Data)
+waitlist_n,Number of households on the waitlist for social housing (MHCLG Open Data)
+tempacc_hh_rate,"Rate of households in temporary accommodation per 10,000 households (MHCLG Open Data)"
+rej_not_hl_rate,"Rate of homelessness applications rejected not homeless per 10,000 households (MHCLG Open Data)"
+hl_apps_rate,"Rate of homelessness applications per 10,000 households (MHCLG Open Data)"
+rej_not_priority_rate,"Rate of homelessness applications rejected not priority per 10,000 households (MHCLG Open Data)"
+acc_hl_rate,"Rate of accepted homelessness applications per 10,000 households (MHCLG Open Data)"
+rej_int_hl_rate,"Rate of homelessness applications rejected intentionally homeless per 10,000 households (MHCLG Open Data)"
+homeless_any_rate,"Rate of homelessness applications any outcome per 10,000 households (MHCLG Open Data)"
+waitlist_n_rate,"Rate of households on the waitlist for social housing per 10,000 households (MHCLG Open Data)"
+imd19_imd,Indices of Multiple Deprivation Score (IMD 2019)
+imd19_income_dep,Income Deprivation Score (IMD 2019)
+imd19_employ_dep,Employment Deprivation Score (IMD 2019)
+imd19_edu_dep,Education Training and Skills Deprivation Score (IMD 2019)
+imd19_health_dep,Health Deprivation Score (IMD 2019)
+imd19_crime_dep,Crime Deprivation Score (IMD 2019)
+imd19_idaci,Income Deprivation Affecting Children Index Score (IMD 2019)
+imd15_imd,Indices of Multiple Deprivation Score (IMD 2015)
+imd15_income_dep,Income Deprivation Score (IMD 2015)
+imd15_employ_dep,Employment Deprivation Score (IMD 2015)
+imd15_edu_dep,Education Training and Skills Deprivation Score (IMD 2015)
+imd15_health_dep,Health Deprivation Score (IMD 2015)
+imd15_crime_dep,Crime Deprivation Score (IMD 2015)
+imd15_idaci,Income Deprivation Affecting Children Index Score (IMD 2015)
+median_gppa,Median household gross pay per annum estimate (ONS)
+mean_gppa,Mean household gross pay per annum estimate (ONS)
+njobs,Number of jobs (in 1000s) (ONS)
+cpih,Consumer Price Inflation including Housing (CPIH) (ONS)
+median_gppa_adj,Median household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)
+mean_gppa_adj,Mean household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)
+mm_ginc_ratio,Median to mean gross pay per annum ratio (indactor of skewness/inequality) (2022 prices) (ONS)
+n_lab,Number of years with Labour party local political control
+n_con,Number of years with Conservative party local political control
+n_ld,Number of years with Liberal Democrat local party political control
+n_ind,Number of years with independent local party political control
+n_noc,Number of years with no overall local party political control
+majority,Political party (or lack of) with more than 8 years political control between 2010-2022

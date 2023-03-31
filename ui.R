@@ -87,7 +87,7 @@ tabItem(tabName = "data_dash",
         ), 
         
         fluidRow(
-          column(12, sliderInput("year_range_data_dash", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "95%")),
+          column(12, sliderInput("year_range_data_dash", "Select a year range:", value = c(2010, 2022), min = 2010, max = 2022, sep = "", width = "95%")),
         ), 
         
         br(),
@@ -135,10 +135,10 @@ tabItem(tabName = "sbs_trends",
                  column(6, selectizeInput("la_select_sbs_trend_right", "Select one or more local authorities:", selected = NULL, choices = NULL, options = list(multiple = TRUE, maxOptions = 1000), multiple = TRUE,  width = "100%"))
                  ),
         fluidRow(
-          column(4, sliderInput("year_range_sbs_trend_left", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
+          column(4, sliderInput("year_range_sbs_trend_left", "Select a year range:", value = c(2010, 2022), min = 2010, max = 2022, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_trend_left", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
           column(1, align = "center", radioGroupButtons("inc_avg_sbs_trend_left", label = HTML("Show<br>Average?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = TRUE)),
-          column(4, sliderInput("year_range_sbs_trend_right", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
+          column(4, sliderInput("year_range_sbs_trend_right", "Select a year range:", value = c(2010, 2022), min = 2010, max = 2022, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_trend_right", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
           column(1, align = "center", radioGroupButtons("inc_avg_sbs_trend_right", label = HTML("Show<br>Average?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = TRUE))
         ),
@@ -163,10 +163,10 @@ tabItem(tabName = "sbs_maps",
                  column(6, selectizeInput("la_select_sbs_map_right", "Select one or more local authorities:", selected = NULL, choices = NULL, options = list(multiple = TRUE, maxOptions = 1000), multiple = TRUE,  width = "100%"))
         ),
         fluidRow(
-          column(4, sliderInput("year_range_sbs_map_left", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
+          column(4, sliderInput("year_range_sbs_map_left", "Select a year range:", value = c(2010, 2022), min = 2010, max = 2022, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_map_left", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
           column(1, align = "center", radioGroupButtons("cart_sbs_map_left", label = HTML("Make<br>Cartogram?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = FALSE)),
-          column(4, sliderInput("year_range_sbs_map_right", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
+          column(4, sliderInput("year_range_sbs_map_right", "Select a year range:", value = c(2010, 2022), min = 2010, max = 2022, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_map_right", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
           column(1, align = "center", radioGroupButtons("cart_sbs_map_right", label = HTML("Make<br>Cartogram?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = FALSE))
         ),
@@ -204,7 +204,7 @@ tabItem(tabName = "hca",
         column(3, 
                selectizeInput("la_select_hca", "Select one or more local authorities to highlight:", selected = NULL, choices = NULL, options = list(multiple = TRUE, maxOptions = 1000), multiple = TRUE,  width = "100%"),
                selectizeInput("var_hca", "Select variables to cluster on:", choices = NULL, selected = NULL, options = list(multiple = FALSE, maxOptions = 1000), multiple = TRUE, width = "100%"),
-               sliderInput("year_range_hca", "Select a year range to cluster within (if not a trend-HCA, the variable will be averaged across these years):", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%"),
+               sliderInput("year_range_hca", "Select a year range to cluster within (if not a trend-HCA, the variable will be averaged across these years):", value = c(2010, 2022), min = 2010, max = 2022, sep = "", width = "100%"),
                radioGroupButtons("trend_hca", label = "Cluster on trends? (If yes, clusters will be based on the average change per year in each variable):", choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = FALSE)
                ),
         column(9, plotOutput("plot_hca", width = "100%", height = "900px") %>% withSpinner(color="#0dc5c1", type = 8))

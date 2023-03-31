@@ -26,9 +26,9 @@ server <- shinyServer(function(input, output, session){
   
   updateSliderInput(session,
                     "year_range_data_dash",
-                    value = c(2011, 2019),
-                    min = 2011,
-                    max = 2019,
+                    value = c(2010, 2022),
+                    min = 2010,
+                    max = 2022,
                     step = 1)
   
   # updateRadioGroupButtons(session,
@@ -40,7 +40,7 @@ server <- shinyServer(function(input, output, session){
                        "var_data_dash",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
-                       selected = csc_vars[5],
+                       selected = csc_vars[1],
                        server = TRUE)
   
   # updateRadioButtons(session,
@@ -145,14 +145,14 @@ server <- shinyServer(function(input, output, session){
                        "var_sbs_trend_left",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
-                       selected = csc_vars[5],
+                       selected = csc_vars[1],
                        server = TRUE)
   
   updateSelectizeInput(session, 
                        "var_sbs_trend_right",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
-                       selected = csc_vars[5],
+                       selected = csc_vars[1],
                        server = TRUE)
 
   
@@ -195,14 +195,14 @@ server <- shinyServer(function(input, output, session){
                        "var_sbs_map_left",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
-                       selected = csc_vars[5],
+                       selected = csc_vars[1],
                        server = TRUE)
   
   updateSelectizeInput(session, 
                        "var_sbs_map_right",
                        choices = csc_vars,
                        options = list(maxOptions = 1000),
-                       selected = csc_vars[5],
+                       selected = csc_vars[1],
                        server = TRUE)
   
   
@@ -291,7 +291,7 @@ server <- shinyServer(function(input, output, session){
   updateSelectizeInput(session, 
                        "var_hca",
                        choices = csc_vars,
-                       selected = csc_vars[17],
+                       selected = csc_vars[1],
                        options = list(maxOptions = 1000),
                        server = TRUE)
   

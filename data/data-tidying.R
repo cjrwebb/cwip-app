@@ -1802,10 +1802,10 @@ cpp_10_12 <- cpp_10_22 %>%
 
 cpp_10_22 <- bind_rows(cpp_10_12, cpp_10_22 %>% filter(!is.na(new_la_code))) %>% arrange(time_period)
 
-length(unique(cpp_10_21$old_la_code))
-length(unique(cpp_10_21$new_la_code))
-length(unique(cpp_10_21$la_name)) # don't group/merge by la_name
-length(unique(cpp_10_21$time_period))
+length(unique(cpp_10_22$old_la_code))
+length(unique(cpp_10_22$new_la_code))
+length(unique(cpp_10_22$la_name)) # don't group/merge by la_name
+length(unique(cpp_10_22$time_period))
 
 # add to merged data
 anti_join(merged_data, cpp_10_22 %>% select(-la_name, -old_la_code), by = c("new_la_code", "time_period"))
@@ -2108,7 +2108,7 @@ s251_13 <- readxl::read_xls("data/s251/2012-13/SR54-2013Tables.xls", sheet = "Ta
   mutate(time_period = 2013, .before = old_la_code) %>%
   mutate(old_la_code = as.numeric(old_la_code))
 
-anti_join(s251_14_21, s251_13, by = c("old_la_code"))
+anti_join(s251_14_22, s251_13, by = c("old_la_code"))
 
 s251_13 <- s251_13 %>%
   mutate(
@@ -2164,7 +2164,7 @@ s251_12 <- readxl::read_xls("data/s251/2011-12/sfr07-2013v3.xls", sheet = "Table
   mutate_at(vars(gspend_yjs:gspend_noncla_nonsg), ~. * 1000) %>%
   mutate(time_period = 2012, .before = old_la_code) %>%
   mutate(old_la_code = as.numeric(old_la_code)) %>%
-  relocate(time_period, old_la_code, la_name, names(s251_13_21)[5:12])
+  relocate(time_period, old_la_code, la_name, names(s251_13_22)[5:12])
 
 anti_join(s251_13_22, s251_12, by = c("old_la_code"))
 
@@ -2228,7 +2228,7 @@ s251_11 <- readxl::read_xls("data/s251/2010-11/osr03-2012v3-3.xls", sheet = "Tab
   mutate_at(vars(gspend_yjs:gspend_noncla_nonsg), ~. * 1000) %>%
   mutate(time_period = 2011, .before = old_la_code) %>%
   mutate(old_la_code = as.numeric(old_la_code)) %>%
-  relocate(time_period, old_la_code, la_name, names(s251_13_21)[5:12])
+  relocate(time_period, old_la_code, la_name, names(s251_13_22)[5:12])
 
 
 anti_join(s251_12_22, s251_11, by = c("old_la_code"))
@@ -2572,7 +2572,7 @@ anti_join(s251_10_22, sppi, by = "time_period")
 s251_10_22 <- left_join(s251_10_22, sppi, by = "time_period")
 
 # Adjust spending for inflation
-s251_10_21 <- s251_10_21 %>%
+s251_10_22 <- s251_10_22 %>%
   mutate_at(vars(gspend_cla:gspend_noncla_nonsg), ~.*sppi)
 
 
@@ -4051,7 +4051,7 @@ var_labels <- c(
   "Year of data measurement",
   "Old 3-digit local authority code",
   "Local authority name", 
-  "Population estimate for children (aged 0-16) (NOMIS)",
+  "Population estimate for children (aged 0-16) in 1000s (NOMIS)",
   "Number of children in need episodes at any point in the year (CIN Census)",
   "Number of children who started an episode in need in the year (CIN Census)",
   "Number of children in need episodes on 31st March (CIN Census)",
@@ -4072,14 +4072,14 @@ var_labels <- c(
   "Number of children on a Child Protection Plan on 31st March (CIN Census)",
   "Rate of children starting a Child Protection Plan (Rate per 10,000 population) (CIN Census)",
   "Rate of children on a Child Protection Plan on 31st March (Rate per 10,000 population) (CIN Census)",
-  "Gross expenditure on children looked after (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on family support services (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on other services (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on safeguarding (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on services for young people (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on Sure Start and under 5s (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on youth justice services (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on non-CLA, non-safeguarding services (family support, services for young people, sure start and under 5s, and other) (SPPI Adjusted to 2021 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on children looked after in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on family support services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on other services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on safeguarding in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on services for young people in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on Sure Start and under 5s in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on youth justice services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on combined non-CLA, non-safeguarding services in £Millions (SPPI Adjusted to 2021 Prices) (S251 + Revenue Outturns)",
   "Services Provider Price Inflation Index (SPPI) - rebased to 2022, as a multiplicative factor",
   "Percentage of total gross expenditure on children looked after",
   "Percentage of total gross expenditure on safeguarding",
@@ -4091,7 +4091,7 @@ var_labels <- c(
   "Gross expenditure on services for young people per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)",
   "Gross expenditure on Sure Start and under 5s per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)",
   "Gross expenditure on youth justice services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on non-CLA, non-safeguarding services (family support, services for young people, sure start and under 5s, and other) per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on combined non-CLA, non-safeguarding services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
   "Gross expenditure on children looked after per child looked after (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
   "Gross expenditure on safeguarding per child on a child protection plan (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
   "Number of households",
@@ -4129,8 +4129,8 @@ var_labels <- c(
   "Mean household gross pay per annum estimate (ONS)",
   "Number of jobs (in 1000s) (ONS)",
   "Consumer Price Inflation including Housing (CPIH) (ONS)",
-  "Median household gross pay per annum estimate adjusted by CPIH (2022 prices) (ONS)",
-  "Mean household gross pay per annum estimate adjusted by CPIH (2022 prices) (ONS)",
+  "Median household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)",
+  "Mean household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)",
   "Median to mean gross pay per annum ratio (indactor of skewness/inequality) (2022 prices) (ONS)",
   "Number of years with Labour party local political control",
   "Number of years with Conservative party local political control",

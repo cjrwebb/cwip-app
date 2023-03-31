@@ -36,14 +36,35 @@ color: #fff;
 </div>
 
 <div class="parallax">
-    <h3 class="mytitle">Version 2.0</h3>
+    <h3 class="mytitle">Version 2.22</h3>
 </div>
 
 
 <!-- <div class="mycontent"> -->
 <p><br></p>
 <div style="padding: 0px 20%; font-size: 16px">
-<p>Last updated: 31.03.2023</p>
+<p>Last updated: 31.03.2023. Current longitudinal data between 2010 and
+2022.</p>
+<p><strong>Welcome to the CWIP App.</strong> The purpose of the CWIP App
+is to make it easier for the public to interrogate longitudinal and
+spatial data related to children’s services and society in general. It
+brings together a range of data sources, combines them together, and
+visualises them for the user. It includes data on children’s services
+expenditure, rates of intervention, poverty, average local authority
+households income, indices of deprivation, and more. It allows to you
+perform a range of statistical analyses, such as adjusting values for
+underlying deprivarion, performing cluster analysis, and generating some
+descriptive statistics.</p>
+<p>As with all online tools that merge and manipulate data, you should
+only use the CWIP App for reporting figures <strong>at your own
+risk</strong>. While I have tried to be <a href="https://github.com/cjrwebb/cwip-app/blob/master/data/data-tidying.R">as
+transparent as possible about all of the data sources and any
+transformations I have made</a>, there is always a risk that someone
+else would disagree with choices made around adjustments for inflation,
+population denominators, and the comparability over time of certain
+measures.</p>
+<hr />
+<p><strong>Feedback and citation</strong></p>
 <p>Please submit any feedback, questions, and bugs to
 <a href="mailto:c.j.webb@sheffield.ac.uk">c.j.webb@sheffield.ac.uk</a>,
 or <a href="https://github.com/cjrwebb/cwip-app">log an issue on
@@ -53,6 +74,8 @@ you’re reporting has already been submitted.</p>
 Child Welfare Inequalities Project App. www.cwip-app.co.uk</em>. Please
 email me with any details on how you have used the CWIP App, this way I
 can evidence its impact and justify future funding.</p>
+<hr />
+<p><strong>Background on CWIP</strong></p>
 <p>To read the full report about the findings from the Child Welfare
 Inequalities Project and other outputs, <a href="https://www.nuffieldfoundation.org/project/inequalities-in-child-welfare-intervention-rates">click
 here</a>. This report frames the theoretical and academic interpretation
@@ -61,25 +84,18 @@ reading the final report from Rick Hood, et al.’s Nuffield Foundation
 funded project: <a href="https://www.healthcare.ac.uk/wp-content/uploads/2020/04/System-conditions-and-inequalities_Full-report_Final_March-2020.pdf">“Identifying
 and understanding the link between system conditions and welfare
 inequalities in children’s social care services”</a>.</p>
-<p>The purpose of the CWIP App is to increase the accessibility of
-government data related to children’s services through consolidated data
-sets and web-based data visualisation, including for quite complex data
-processing and visualisation procedures. We think if more people,
-including people with lived experience and frontline practitioners who
-are usually excluded from discussions about trends and features in data,
-have better access to this data there can be better activism and
-accountability on behalf of children, families, and the social work
-profession. Click on one of the features on the left-hand side to start
-exploring data.</p>
-<p>All data has been sourced from public government data releases. Some
-data comes from my own archives of public government data, as the
-Department for Education frequently removes older data. Most data has
-been transformed, aggregated or disaggregated in some way, by me and
-where descriptions try to be as clear as possible and all data and code
-is made openly available for checking on github, you should use caution
-and double-check any rates, the most up-to-date data, and the internal
-calculations if using them to inform a critical decision. The full list
-of sources includes:</p>
+<hr />
+<p><strong>Data Sources</strong></p>
+<p>All data has been sourced from public government data releases. The
+<a href="https://github.com/cjrwebb/cwip-app">github repository</a>
+contains the full data tidying code which links directly to all of the
+source data, which includes details of the web source pages in each
+directory. Most data has been transformed, aggregated or disaggregated
+in some way, by me and where descriptions try to be as clear as
+possible. You should use caution and double-check any rates, make use of
+the most up-to-date data (including any revisions or non-provisional
+releases), and the internal calculations if using them to inform a
+critical decision. The full list of sources includes:</p>
 <ul>
 <li>Data from the Department for Education:
 <ul>
@@ -90,6 +106,8 @@ of sources includes:</p>
 <li>Data from the Office of National Statistics and Nomis (Census and
 Population estimates)</li>
 <li>Indices of Multiple Deprivation 2019 and 2015</li>
+<li>Earnings and hours worked estimates by place of residence (ONS)</li>
+<li>Revenue Outturns data</li>
 <li>2011 Census relating to Ethnicity</li>
 <li>Life Expectancy at Birth (2009-2013)</li>
 <li>Median House Price (2017 &amp; 2018)</li>
@@ -101,6 +119,11 @@ Population estimates)</li>
 <li>Scottish Indices of Multiple Deprivation &amp; Indicators 2020</li>
 <li>Scottish Census Data (2011)</li>
 </ul>
+<hr />
+<p><strong>Funding and Acknowledgements</strong></p>
+<p>The creation and maintenence of this app has been supported by grants
+from the ESRC (Impact Accelerator Account), the Nuffield Foundation, and
+the British Academy.</p>
 <p>It was only possible to create this app thanks to the people behind R
 Shiny, RStudio, as well as many other R package authors and the wider
 community. The code was written by me, and is not the highest quality,
@@ -108,6 +131,7 @@ as I am not a programmer/data scientist (and in many ways this is
 testament to how amazing R, Shiny, the tidyverse and the R community
 is). All code used to read data sources, calculate transformations,
 program the app, and the data itself is available on Github: <a href="https://github.com/cjrwebb/cwip-app">https://github.com/cjrwebb/cwip-app</a></p>
+<hr />
 <p><b>List of Issues (Current and Solved)</b></p>
 <details>
 <summary>
