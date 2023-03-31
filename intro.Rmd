@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the CWIP App"
-author: "Version 2.0: Open Beta"
+author: "Version 2.0"
 output:
   html_fragment:
      includes:
@@ -13,7 +13,9 @@ output:
 
 <div style = "padding: 0px 20%; font-size: 16px"> 
 
-The CWIP App is in beta. Please submit any feedback, questions, and bugs to <a href = "mailto:c.j.webb@sheffield.ac.uk">c.j.webb@sheffield.ac.uk</a>, or [log an issue on Github](https://github.com/cjrwebb/cwip-app). Please check the Issues section below to see if the issue you're reporting has already been submitted.
+Last updated: 31.03.2023
+
+Please submit any feedback, questions, and bugs to <a href = "mailto:c.j.webb@sheffield.ac.uk">c.j.webb@sheffield.ac.uk</a>, or [log an issue on Github](https://github.com/cjrwebb/cwip-app). Please check the Issues section below to see if the issue you're reporting has already been submitted.
 
 Please cite the CWIP App as *Webb, C. & Thomas, R. (2020). The Child Welfare Inequalities Project App. www.cwip-app.co.uk*. Please email me with any details on how you have used the CWIP App, this way I can evidence its impact and justify future funding.
 

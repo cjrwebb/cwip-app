@@ -1,0 +1,11 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,children_in_need,children_in_need_per_10000_children,child_protection_plans,child_protection_plans_per_10000_children,referrals,completed_assessments
+2013,Reporting year,National,E92000001,England,"378,030",330.9,"43,190",37.8,"593,470",x
+2014,Reporting year,National,E92000001,England,"395,480",343.7,48300,42,657780,u
+2015,Reporting year,National,E92000001,England,"390,130",336.6,49690,42.9,635620,"550,810"
+2016,Reporting year,National,E92000001,England,"393,910",337.3,50310,43.1,621470,571640
+2017,Reporting year,National,E92000001,England,"389,040",330.1,51080,43.3,646120,606910
+2018,Reporting year,National,E92000001,England,"404,710",341,53790,45.3,655630,631090
+2019,Reporting year,National,E92000001,England,"399,510",334.2,52260,43.7,650930,644730
+2020,Reporting year,National,E92000001,England,"389,260",323.7,51510,42.8,642980,665660
+2021,Reporting year,National,E92000001,England,"388,490",321.2,50010,41.4,597760,625960
+2022,Reporting year,National,E92000001,England,"404,310",334.3,50920,42.1,650270,645070

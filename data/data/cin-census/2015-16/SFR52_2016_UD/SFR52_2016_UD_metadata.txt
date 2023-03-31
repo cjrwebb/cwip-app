@@ -1,0 +1,271 @@
+Release of underlying data for SFR52/2016: “Characteristics of Children in Need: 2015 to 2016”
+
+Background:
+
+	This statistical first release (SFR) provides final figures on the numbers of children referred to and assessed by local authority social care services. It includes information on the numbers 
+	and characteristics of children in need and information on children who were the subject of a child protection plan for year ending 31st March 2016. A copy of the guidance notes for the 2015-16 
+	children in need data collection can be found at: https://www.gov.uk/government/collections/children-in-need-census
+
+The Underlying Data File:
+
+	Title: 		SFR52_2016_UD.csv
+
+	Coverage:  	Total for England provided for each variable
+			Total for each local authority in England 
+
+	Variable names:	A list of the headings used in the CSV file and the corresponding variable names are shown in Annex A.
+
+Methodology:
+
+	Data are returned from 152 local authorities in England. National totals are derived by summing data provided by each local authority. In a number of cases where data is missing for a local 
+	authority we have estimated the missing data. Detail on how this has been done is in Section 5 of "Methodology document: SFR52/2016". Local authority level data are data as returned by each 
+	local authority and have been suppressed where necessary. 
+
+Rounding and suppression: 
+
+	National figures have been rounded the nearest 10 as they include estimates for missing data. 
+	Any number between 1 and 5 inclusive (before rounding), or a percentage based on these, has been suppressed and have been replaced by an ‘x’. 
+	Secondary suppression has been carried out where necessary to preserve confidentiality.
+	Where any number is shown as zero (0), the original figure submitted was zero. 	
+	Where data were not submitted by a local authority ‘..’ has been used. 
+
+
+Annex A:
+
+geog_l:						Geography level
+geog_c:						Geography code
+new_la_code:					New local authority code
+geog_n:						Geography name
+
+
+CINThro1516:					Number of Children in Need throughout 2015-16
+CINStarting1516:				Number of Children starting an episode of need in 2015-16
+CINEnding1516:					Number of Children ending an episode of need in 2015-16
+CINAt310316:					Number of Children in Need at 31 March 2016
+CINThroRatePer10K:				Rate per 10,000 Children in Need throughout the year
+CINStartingRatePer10K:				Rate per 10,000 Children in Need episodes starting
+CINEndingRatePer10K:				Rate per 10,000 Children in Need episodes ending
+CINAt310316RatePer10K:				Rate per 10,000 Children in Need at end of year
+
+
+CINAt310316NoDisabled:				Number of disabled Children in Need at 31 March 2016
+%CINAt310316Disabled:				Percentage of Children in Need at 31 March 2016 who were disabled
+%CINAt310316AutismAsperger:			Percentage of disabled Children in Need at 31 March 2016 with Autism/Aspergers disability
+%CINAt310316Behaviour:				Percentage of disabled Children in Need at 31 March 2016 with Behaviour disability
+%CINAt310316Communication:			Percentage of disabled Children in Need at 31 March 2016 with Communication disability
+%CINAt310316Consciousness:			Percentage of disabled Children in Need at 31 March 2016 with Consciousness disability
+%CINAt310316HandFunction:			Percentage of disabled Children in Need at 31 March 2016 with Hand Function disability
+%CINAt310316Hearing:				Percentage of disabled Children in Need at 31 March 2016 with Hearing disability
+%CINAt310316Incontinence:			Percentage of disabled Children in Need at 31 March 2016 with Incontinence disability
+%CINAt310316Learning:				Percentage of disabled Children in Need at 31 March 2016 with Learning disability
+%CINAt310316Mobility:				Percentage of disabled Children in Need at 31 March 2016 with Mobility disability
+%CINAt310316PersonalCare:			Percentage of disabled Children in Need at 31 March 2016 with Personal Care disability
+%CINAt310316Vision:				Percentage of disabled Children in Need at 31 March 2016 with Vision disability
+%CINAt310316OtherDisability:			Percentage of disabled Children in Need at 31 March 2016 with Other disability
+
+
+CINAt310316APriNeedAbuse/Neglect:		Number of Children in Need at 31 March 2016 with Primary Need code Abuse or Neglect
+CINAt310316APriNeedChildDisability/Illness:	Number of Children in Need at 31 March 2016 with Primary Need code Child Disability or Family 
+CINAt310316APriNeedParentDisability/Illness:	Number of Children in Need at 31 March 2016 with Primary Need code Parent Disability or Illness
+CINAt310316APriNeedFamilyStress:		Number of Children in Need at 31 March 2016 with Primary Need code Family Stress
+CINAt310316APriNeedFamilyDysfunction:		Number of Children in Need at 31 March 2016 with Primary Need code Family Dysfunction
+CINAt310316APriNeedUnacceptableBehaviour:	Number of Children in Need at 31 March 2016 with Primary Need code Unacceptable Behaviour
+CINAt310316APriNeedLowInc:			Number of Children in Need at 31 March 2016 with Primary Need code Low Income
+CINAt310316APriNeedAbsentParent:		Number of Children in Need at 31 March 2016 with Primary Need code Absent Parenting
+CINAt310316APriNeedOther:			Number of Children in Need at 31 March 2016 with Primary Need code Missing/Unknown
+CINAt310316APriNeedNotStated:			Number of Children in Need at 31 March 2016 with Primary Need code Cases other than children in need
+
+
+CINAt310316OCDuration<3mths:			Children in Need at 31 March 2016 with under 3 months open case duration
+%CINAt310316OCDuration<3mths:			Percentage of Children in Need at 31 March 2016 with under 3 months open case duration
+CINAt310316OCDuration3-6mths:			Children in Need at 31 March 2016 with 3 months but less than 6 months open case duration
+%CINAt310316OCDuration3-6mths:			Percentage of Children in Need at 31 March 2016 with 3 months but less than 6 months open case duration
+CINAt310316OCDuration6mths-1yr:			Children in Need at 31 March 2016 with 6 months but less than 1 year open case duration
+%CINAt310316OCDuration6mths-1yr:		Percentage of Children in Need at 31 March 2016 with 6 months but less than 1 year open case duration
+CINAt310316OCDuration1-2yr:			Children in Need at 31 March 2016 with 1 year but less than 2 years open case duration
+%CINAt310316OCDuration1-2yr:			Percentage of Children in Need at 31 March 2016 with 1 year but less than 2 years open case duration
+CINAt310316OCDuration2+yrs:			Children in Need at 31 March 2016 with 2 or more years open case duration
+%CINAt310316OCDuration2+yrs:			Percentage of Children in Need at 31 March 2016 with 2 or more years open case duration
+
+
+CINEnding1516Duration<3mths:			Children ceasing an episode of need in year ending 31 March 2016 of under 3 months duration
+%CINEnding1516Duration<3mths:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 of under 3 months duration
+CINEnding1516Duration3-6mths: 			Children ceasing an episode of need in year ending 31 March 2016 of 3 months but less than 6 months duration
+%CINEnding1516Duration3-6mths:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 of 3 months but less than 6 months duration
+CINEnding1516Duration6mths-1yr:			Children ceasing an episode of need in year ending 31 March 2016 of 6 months but less than 1 year duration
+%CINEnding1516Duration6mths-1yr:		Percentage of Children ceasing an episode of need in year ending 31 March 2016 of 6 months but less than 1 year duration
+CINEnding1516Duration1-2yr:			Children ceasing an episode of need in year ending 31 March 2016 of 1 year but less than 2 years duration
+%CINEnding1516Duration1-2yr:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 of 1 year but less than 2 years duration
+CINEnding1516Duration2+yrs:			Children ceasing an episode of need in year ending 31 March 2016 of 2 or more years duration
+%CINEnding1516Duration2+yrs:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 of 2 or more years duration
+
+
+CINEnding1516RCmissing:				Number of Children ceasing an episode of need in year ending 31 March 2016 with unknown reason for closure
+%CINEnding1516RCmissing:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 with unknown reason for closure
+CINEnding1516RCAd:				Number of Children ceasing an episode of need in year ending 31 March 2016 with adopted reason for closure
+%CINEnding1516RCAd:				Percentage of Children ceasing an episode of need in year ending 31 March 2016 with adopted reason for closure
+CINEnding1516RCDied:				Number of Children ceasing an episode of need in year ending 31 March 2016 with died reason for closure
+%CINEnding1516RCDied:				Percentage of Children ceasing an episode of need in year ending 31 March 2016 with died reason for closure
+CINEnding1516ResidenceOrder:			Number of Children ceasing an episode of need in year ending 31 March 2016 with residence order reason for closure
+%CINEnding1516ResidenceOrder:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 with residence order reason for closure
+CINEnding1516SpecialGuardianship:		Number of Children ceasing an episode of need in year ending 31 March 2016 with special guardianship reason for closure
+%CINEnding1516SpecialGuardianship:		Percentage of Children ceasing an episode of need in year ending 31 March 2016 with special guardianship reason for closure
+CINEnding1516TransferToLA:			Number of Children ceasing an episode of need in year ending 31 March 2016 with transfer to LA reason for closure
+%CINEnding1516TransferToLA:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 with transfer to LA reason for closure
+CINEnding1516TransferToAdultServices:		Number of Children ceasing an episode of need in year ending 31 March 2016 with transfer to adult services reason for closure
+%CINEnding1516TransferToAdultServices:		Percentage of Children ceasing an episode of need in year ending 31 March 2016 with transfer to adult services reason for closure
+CINEnding1516OtherNotInNeed:			Number of Children ceasing an episode of need in year ending 31 March 2016 with not in need reason for closure
+%CINEnding1516OtherNotInNeed:			Percentage of Children ceasing an episode of need in year ending 31 March 2016 with not in need reason for closure
+
+
+Referrals1516:					Number of referrals in year ending 31 March 2016
+Referrals1516Rate:				Rate per 10,000 children - referrals in year ending 31 March 2016
+ReferralsWithin12mths1516:			Number of 2015-16 referrals within 12 months of a previous referral
+%ReferralsWithin12mths1516:			Percentage of 2015-16 referrals within 12 months of a previous referral
+ReferralsNFA1516:				Number of 2015-16 referrals resulting in no further action 
+%ReferralsNFA1516:				Percentage of 2015-16 referrals resulting in no further action 
+ReferralsANotInNeed1516:			Number of 2015-16 referrals resulting in the child not being in need
+%ReferralsANotInNeed1516:			Percentage of 2015-16 referrals resulting in the child not being in need
+
+
+Assessments1516:				Number of assessments completed during year ending 31 March 2016
+AssessmentRatePer10k1516: 			Rate per 10,000 children - assessments in year ending 31 March 2016
+AssessmentStartEndSameDay1516:			Assessments which start and end the same day year ending 31 March 2016
+Assessment1-10days1516:				Number of assessments completed within 1-10 working days during year ending 31 March 2016
+Assessment11-20days1516:			Number of assessments completed within 11-20 working days during year ending 31 March 2016
+Assessment21-30days1516:			Number of assessments completed within 21-30 working days during year ending 31 March 2016
+Assessment31-40days1516:			Number of assessments completed within 31-40 working days during year ending 31 March 2016
+Assessment41-45days1516:			Number of assessments completed within 41-45 working days during year ending 31 March 2016
+Assessment46-50days1516:			Number of assessments completed within 46-50 working days during year ending 31 March 2016
+Assessment51-60days1516:			Number of assessments completed within 51-60 working days during year ending 31 March 2016
+Assessment61+days1516:				Number of assessments completed within 61+ working days during year ending 31 March 2016
+Assessment25thPercentile1516:			Duration of assessments, 25th percentile 2015-16
+AssessmentMedian1516:				Duration of assessments, median value, 2015-16
+Assessment75thPercentile1516:			Duration of assessments, 75th percentile 2015-16
+
+
+Episodeswithfactors1516:			Number of episodes in 2015-16 with assessment factor information
+Factor1516Alcoholmisuse:			Factors identified at the end of assessment 2015-16 - Alcohol misuse
+Factor1516Drugmisuse:				Factors identified at the end of assessment 2015-16 - Drug misuse
+Factor1516Domesticviolence:			Factors identified at the end of assessment 2015-16 - Domestic violence
+Factor1516Mentalhealth:				Factors identified at the end of assessment 2015-16 - Mental health
+Factor1516Learningdisability:			Factors identified at the end of assessment 2015-16 - Learning disability
+Factor1516Physicaldisability:			Factors identified at the end of assessment 2015-16 - Physical disability
+Factor1516Youngcarer:				Factors identified at the end of assessment 2015-16 - Young carer
+Factor1516Privatelyfostered:			Factors identified at the end of assessment 2015-16 - Privately fostered
+Factor1516Unaccompaniedasylumseeker:		Factors identified at the end of assessment 2015-16 - Unaccompanied asylum seeker
+Factor1516Going/beingmissing:			Factors identified at the end of assessment 2015-16 - Going/being missing
+Factor1516Childsexualexploitation:		Factors identified at the end of assessment 2015-16 - Child sexual exploitation
+Factor1516Trafficking:				Factors identified at the end of assessment 2015-16 - Trafficking
+Factor1516Gangs:				Factors identified at the end of assessment 2015-16 - Gangs
+Factor1516Sociallyunacceptablebehaviour:	Factors identified at the end of assessment 2015-16 - Socially unacceptable behaviour
+Factor1516Self-harm:				Factors identified at the end of assessment 2015-16 - Self-harm
+Factor1516Neglect:				Factors identified at the end of assessment 2015-16 - Neglect
+Factor1516Emotionalabuse:			Factors identified at the end of assessment 2015-16 - Emotionalabuse
+Factor1516Physicalabuse:			Factors identified at the end of assessment 2015-16 - Physicalabuse
+Factor1516Sexualabuse:				Factors identified at the end of assessment 2015-16 - Sexualabuse
+Factor1516Other:				Factors identified at the end of assessment 2015-16 - Other
+
+
+S471516:					Number of children subject to Section 47 enquiries within 2015-16
+S47Rate1516:					Rate per 10,000 children - Children subject to Section 47 enquiries during year ending 31 March 2016
+ICPCin1516:					Number of children subject to an Initial Child Protection Conference during year ending 31 March 2016
+ICPCRate1516:					Rate per 10,000 children - Children subject to an Initial Child Protection Conference during year ending 31 March 2016
+ICPC0-10days1516:				Number of Initial Child Protection Conferences held within 0-10 days of Section 47 enquiry during year ending 31 March 2016
+ICPC11-15days1516:				Number of Initial Child Protection Conferences held within 11-15 days of Section 47 enquiry during year ending 31 March	2016
+ICPC16-20days1516:				Number of Initial Child Protection Conferences held within 16-20 days of Section 47 enquiry during year ending 31 March	2016
+ICPC21+days1516:				Number of Initial Child Protection Conferences held within 21+ days of Section 47 enquiry during year ending 31 March 2016
+ICPC25thPercentile1516:				Number of Initial Child Protection Conferences during year ending 31 March 2016, 25th percentile
+ICPCMedian1516:					Number of Initial Child Protection Conferences during year ending 31 March 2016, median value
+ICPC75thPercentile1516:				Number of Initial Child Protection Conferences during year ending 31 March 2016, 75th percentile
+
+
+Source1516Individual:				Number of referrals from individuals, year ending 31 March 2016
+Source1516Schools:				Number of referrals from schools, year ending 31 March 2016
+Source1516EducationServices:			Number of referrals from education services, year ending 31 March 2016
+Source1516HealthServices:			Number of referrals from health services, year ending 31 March 2016
+Source1516Housing:				Number of referrals from housing, year ending 31 March 2016
+Source1516LAServices:				Number of referrals from LA services, year ending 31 March 2016
+Source1516Police:				Number of referrals from the police, year ending 31 March 2016
+Source1516OtherLegal:				Number of referrals from other legal agencies, year ending 31 March 2016
+Source1516Other:				Number of referrals from other sources, year ending 31 March 2016
+Source1516Anonymous:				Number of referrals from anonymous sources, year ending 31 March 2016
+Source1516Unknown:				Number of referrals of reported unknown source, year ending 31 March 2016
+
+
+CPPStart1516:					Number of children who became the subject of a Child Protection plan during year ending 31 March 2016
+CPPStartRate1516:				Rate per 10,000 children - Number of children who became the subject of a Child Protection plan during year ending 31March 2016
+CPPCeased1516:					Number of children who ceased to be the subject of a Child Protection plan during year ending 31 March 2016
+CPPCeasedRate1516:				Rate per 10,000 children - Number of children who ceased to be the subject of a Child Protection plan during year ending 31 March 2016
+CPPAt310316:					Number of children who were the subject of a Child Protection plan at 31 March 2016
+CPPAt310316Rate:				Rate per 10,000 children - Number of children who were the subject of a Child Protection plan at 31 March 2016
+
+
+CPPStart1516InitialAbuseNeglect:		Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Initial Category of abuse Neglect
+CPPStart1516InitialAbusePhysical:		Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Initial Category of abuse Physical Abuse
+CPPStart1516InitialAbuseSexual:			Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Initial Category of abuse Sexual Abuse
+CPPStart1516InitialAbuseEmotional:		Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Initial Category of abuse Emotional Abuse
+CPPStart1516InitialAbuseMultiple:		Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Initial Category of abuse Multiple categories
+CPPStart1516LatestAbuseNeglect:			Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Latest Category of abuse Neglect
+CPPStart1516LatestAbusePhysical:		Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Latest Category of abuse Physical Abuse
+CPPStart1516LatestAbuseSexual:			Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Latest Category of abuse Sexual Abuse
+CPPStart1516LatestAbuseEmotional:		Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Latest Category of abuse Emotional Abuse
+CPPStart1516LatestAbuseMultiple:		Number of children who became the subject of a Child Protection plan during year ending 31 March 2016 - Latest Category of abuse Multiple categories
+
+
+CPPStart1516SecondTime:				Number of children who became the subject of a child protection plan during year ending 31 March 2016 for a second or subsequent time
+%CPPStart1516SecondTime:			Percentage of children who became the subject of a child protection plan during year ending 31 March 2016 for a second or subsequent time
+
+
+CPPat310316InitialAbuseNeglect:			Number of children who were the subject of a child protection plan at 31 March 2016 - Initial Category of abuse Neglect
+CPPat310316InitialAbusePhysical:		Number of children who were the subject of a child protection plan at 31 March 2016 - Initial Category of abuse Physical Abuse
+CPPat310316InitialAbuseSexual:			Number of children who were the subject of a child protection plan at 31 March 2016 - Initial Category of abuse Sexual Abuse
+CPPat310316InitialAbuseEmotional:		Number of children who were the subject of a child protection plan at 31 March 2016 - Initial Category of abuse Emotional Abuse
+CPPat310316InitialAbuseMultiple:		Number of children who were the subject of a child protection plan at 31 March 2016 - Initial Category of abuse Multiple categories
+CPPat310316LatestAbuseNeglect:			Number of children who were the subject of a child protection plan at 31 March 2016 - Latest Category of abuse Neglect
+CPPat310316LatestAbusePhysical:			Number of children who were the subject of a child protection plan at 31 March 2016 - Latest Category of abuse Physical Abuse
+CPPat310316LatestAbuseSexual:			Number of children who were the subject of a child protection plan at 31 March 2016 - Latest Category of abuse Sexual Abuse
+CPPat310316LatestAbuseEmotional:		Number of children who were the subject of a child protection plan at 31 March 2016 - Latest Category of abuse Emotional Abuse
+CPPat310316LatestAbuseMultiple:			Number of children who were the subject of a child protection plan at 31 March 2016 - Latest Category of abuse Multiple categories
+
+
+CPPAT310316Duration<3mths:			Child protection plans at 31 March 2016 lasting under 3 months
+%CPPAT310316Duration<3mths:			Percentage of child protection plans at 31 March 2016, lasting under 3 months
+CPPAT310316Duration3-6mths:			Child protection plans at 31 March 2016, lasting 3 to 6 months
+%CPPAT310316Duration3-6mths:			Percentage of child protection plans at 31 March 2016, lasting 3 to 6 months
+CPPAT310316Duration6mths-1yr:			Child protection plans at 31 March 2016, lasting 6 months to 1 year
+%CPPAT310316Duration6mths-1yr:			Percentage of child protection plans at 31 March 2016, lasting 6 months to 1 year
+CPPAT310316Duration1-2yrs:			Child protection plans at 31 March 2016, lasting 1 -2 years
+%CPPAT310316Duration1-2yrs:			Percentage of child protection plans at 31 March 2016, lasting 1 -2 years
+CPPAT310316Duration2+yrs:			Child protection plans at 31 March 2016, 2 or more years
+%CPPAT310316Duration2+yrs:			Percentage of child protection plans at 31 March 2016, lasting 2 or more years
+
+
+CPPat310316For3mths:				Number of Children who were the subject of a child protection plan at 31 March 2016 who were subject of a plan for 3 or more months
+CPPsReviewedinTimescales:			Number of child protection plans at 31 March 2016 who were subject of a plan for 3 or more months reviewed within the required timescales
+%CPPsReviewedinTimescales:			Percentage of child protection plans at 31 March 2016 who were subject of a plan for 3 or more months reviewed within the required timescales
+
+
+CPPCeased1516Duration<3mths:			Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is less than 3 months
+%CPPCeased1516Duration<3mths:			Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is less than 3 months
+CPPCeased1516Duration3-6mths:			Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 3 months but less than 6 months
+%CPPCeased1516Duration3-6mths:			Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 3 months but less than 6 months
+CPPCeased1516Duration6mths-1yr:			Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 6 months but less than 1 year
+%CPPCeased1516Duration6mths-1yr:		Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 6 months but less than 1 year
+CPPCeased1516Duration1-2yrs:			Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 1 year but less than 2 years
+%CPPCeased1516Duration1-2yrs:			Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 1 year but less than 2 years
+CPPCeased1516Duration2+yrs:			Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 2 or more years
+%CPPCeased1516Duration2+yrs:			Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2016 where length of time of plan is 2 years or more
+
+CPPCeased6mths1516:				Number of child protection plans ending in first 6mths of the year, 2015-16
+CPPCeased6mthsDuration3mths1516:		Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths,2015-16
+%CPPCeased6mthsDuration3mths1516:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, 2015-16
+CPPCeased6mthsDurationAnotherLA1516:		Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2015-16
+%CPPCeased6mthsDurationAnotherLA1516:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2015-16
+CPPCeased6mthsDuration36mths1516:		Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2015-16
+%CPPCeased6mthsDuration36mths1516:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2015-16
+CPPCeased6mthsDuration6mths1516:		Number of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2015-16
+%CPPCeased6mthsDuration6mths1516:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2015-16
+
+
+Mid2015Pop017:					Mid-2015 population estimates, rounded to the nearest 100. Source: Population Estimates Unit, ONS: Crown Copyright.

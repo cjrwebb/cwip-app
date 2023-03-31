@@ -1,0 +1,289 @@
+Release of underlying data for SFR61/2017: “Characteristics of Children in Need: 2016 to 2017”
+
+Background:
+
+	This statistical first release (SFR) provides final figures on the numbers of children referred to and assessed by local authority social care services. It includes information on the numbers 
+	and characteristics of children in need and information on children who were the subject of a child protection plan for year ending 31st March 2017. A copy of the guidance notes for the 2016-17 
+	children in need data collection can be found at: https://www.gov.uk/government/collections/children-in-need-census
+
+The Underlying Data File:
+
+	Title: 		SFR61_2017_UD.csv
+
+	Coverage:  	Total for England provided for each variable
+			Total for each local authority in England 
+
+	Variable names:	A list of the headings used in the CSV file and the corresponding variable names are shown in Annex A.
+
+Methodology:
+
+	Data are returned from 152 local authorities in England. National totals are derived by summing data provided by each local authority. Local authority level data are data as returned by each 
+	local authority and have been suppressed where necessary. 
+
+Rounding and suppression: 
+
+	National figures have been rounded the nearest 10. 
+	Any number between 1 and 5 inclusive (before rounding), or a percentage based on these, has been suppressed and have been replaced by an ‘x’. 
+	Secondary suppression has been carried out where necessary to preserve confidentiality.
+	Where any number is shown as zero (0), the original figure submitted was zero. 	
+	Where data were not submitted by a local authority ‘..’ has been used. 
+
+
+Annex A:
+
+geog_l:						Geography level
+geog_c:						Geography code
+new_la_code:					New local authority code
+geog_n:						Geography name
+
+
+CINEpisodesThro1617:				Number of episodes of Need at any point during 2016-17
+CINepisodesThroRatePer10K			Rate of episodes of need of at any point during 2016-17 per 10,000 children
+CINChildrenThro1617				Children with an episode of Need at any point during 2016-17
+CINchildrenThroRatePer10K                       Rate of children with an episode of need of at any point during 2016-17 per 10,000 children
+CINEpisodesStarting1617				Number of episodes of Need starting during 2016-17
+CINEpisodesStartingRatePer10K			Rate of episodes of need starting during 2016-17 per 10,000 children
+CINchildrenStarting1617				Children starting an episode of need during 2016-17
+CINchildrenStartingRatePer10K			Rate of children starting an episode of need during 2016-17 per 10,000 children
+CINEpisodesEnding1617				Number of episodes of Need ending during 2016-17
+CINEpisodesEnding				RatePer10KRate of episodes of need ending during 2016-17 per 10,000 children	
+CINChildrenEnding1617				Children ending an episode of need during 2016-17
+CINChildrenEndingRatePer10K			Rate of children ending an episode of need during 2016-17 per 10,000 children
+CINAt310317					Number of children in need episodes at 31 March
+CINAt310317RatePer10K				rate of children in need at 31 March per 10,000 children
+
+CINAt310317NoDisabled:				Number of Children in Need episodes at 31 March 2017 with a disability recorded
+%CINAt310317Disabled:				Percentage of Children in Need episodes at 31 March 2017 with a disability recorded
+%CINAt310317AutismAsperger:			Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Autism/Aspergers disability
+%CINAt310317Behaviour:				Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Behaviour disability
+%CINAt310317Communication:			Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Communication disability
+%CINAt310317Consciousness:			Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Consciousness disability
+%CINAt310317HandFunction:			Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Hand Function disability
+%CINAt310317Hearing:				Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Hearing disability
+%CINAt310317Incontinence:			Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Incontinence disability
+%CINAt310317Learning:				Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Learning disability
+%CINAt310317Mobility:				Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Mobility disability
+%CINAt310317PersonalCare:			Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Personal Care disability
+%CINAt310317Vision:				Percentage of Children in Need episodes at 31 March 2017 with disability recorded as with Vision disability
+%CINAt310317OtherDisability:			Percentage of Children in Need episodes at 31 March 2017 with disability recorded as Other disability
+
+
+CINAt310317APriNeedAbuse/Neglect:		Number of Children in Need episodes at 31 March 2017 with Primary Need code Abuse or Neglect
+CINAt310317APriNeedChildDisability/Illness:	Number of Children in Need episodes at 31 March 2017 with Primary Need code Child Disability or Family 
+CINAt310317APriNeedParentDisability/Illness:	Number of Children in Need episodes at 31 March 2017 with Primary Need code Parent Disability or Illness
+CINAt310317APriNeedFamilyStress:		Number of Children in Need episodes at 31 March 2017 with Primary Need code Family Stress
+CINAt310317APriNeedFamilyDysfunction:		Number of Children in Need episodes at 31 March 2017 with Primary Need code Family Dysfunction
+CINAt310317APriNeedUnacceptableBehaviour:	Number of Children in Need episodes at 31 March 2017 with Primary Need code Unacceptable Behaviour
+CINAt310317APriNeedLowInc:			Number of Children in Need episodes at 31 March 2017 with Primary Need code Low Income
+CINAt310317APriNeedAbsentParent:		Number of Children in Need episodes at 31 March 2017 with Primary Need code Absent Parenting
+CINAt310317APriNeedOther:			Number of Children in Need episodes at 31 March 2017 with Primary Need code Missing/Unknown
+CINAt310317APriNeedNotStated:			Number of Children in Need episodes at 31 March 2017 with Primary Need code Cases other than children in need
+
+
+CINAt310317OCDuration<3mths:			Children in Need episodes at 31 March 2017 with under 3 months open case duration
+%CINAt310317OCDuration<3mths:			Percentage of Children in Need episodes  at 31 March 2017 with under 3 months open case duration
+CINAt310317OCDuration3-6mths:			Children in Need episodes at 31 March 2017 with 3 months but less than 6 months open case duration
+%CINAt310317OCDuration3-6mths:			Percentage of Children in Need episodes at 31 March 2017 with 3 months but less than 6 months open case duration
+CINAt310317OCDuration6mths-1yr:			Children in Need episodes at 31 March 2017 with 6 months but less than 1 year open case duration
+%CINAt310317OCDuration6mths-1yr:		Percentage of Children in Need episodes episodes at 31 March 2017 with 6 months but less than 1 year open case duration
+CINAt310317OCDuration1-2yr:			Children in Need episodes at 31 March 2017 with 1 year but less than 2 years open case duration
+%CINAt310317OCDuration1-2yr:			Percentage of Children in Need episodes at 31 March 2017 with 1 year but less than 2 years open case duration
+CINAt310317OCDuration2+yrs:			Children in Need episodes at 31 March 2017 with 2 or more years open case duration
+%CINAt310317OCDuration2+yrs:			Percentage of Children in Need episodes at 31 March 2017 with 2 or more years open case duration
+
+
+CINEnding1617Duration<3mths:			Episodes of Need ending in year ending 31 March 2017 of under 3 months duration
+%CINEnding1617Duration<3mths:			Percentage of episodes of Need ending in year ending 31 March 2017 of under 3 months duration
+CINEnding1617Duration3-6mths: 			Episodes of Need ending in year ending 31 March 2017 of 3 months but less than 6 months duration
+%CINEnding1617Duration3-6mths:			Percentage of episodes of Need ending in year ending 31 March 2017 of 3 months but less than 6 months duration
+CINEnding1617Duration6mths-1yr:			Episodes of Need ending in year ending 31 March 2017 of 6 months but less than 1 year duration
+%CINEnding1617Duration6mths-1yr:		Percentage of episodes of Need ending in year ending 31 March 2017 of 6 months but less than 1 year duration
+CINEnding1617Duration1-2yr:			Episodes of Need ending in year ending 31 March 2017 of 1 year but less than 2 years duration
+%CINEnding1617Duration1-2yr:			Percentage of episodes of Need ending in year ending 31 March 2017 of 1 year but less than 2 years duration
+CINEnding1617Duration2+yrs:			Episodes of Need ending in year ending 31 March 2017 of 2 or more years duration
+%CINEnding1617Duration2+yrs:			Percentage of episodes of Need ending in year ending 31 March 2017 of 2 or more years duration
+
+
+CINEnding1617RCmissing:				Episodes of Need ending in year ending 31 March 2017 with unknown reason for closure
+%CINEnding1617RCmissing:			Percentage of episodes of Need ending in year ending 31 March 2017 with unknown reason for closure
+CINEnding1617RCAd:				Episodes of Need ending in year ending 31 March 2017 with adopted reason for closure
+%CINEnding1617RCAd:				Percentage of episodes of Need ending in year ending 31 March 2017 with adopted reason for closure
+CINEnding1617RCDied:				Episodes of Need ending in year ending 31 March 2017 with died reason for closure
+%CINEnding1617RCDied:				Percentage of episodes of Need ending in year ending 31 March 2017 with died reason for closure
+CINEnding1617ResidenceOrder:			Episodes of Need ending in year ending 31 March 2017 with residence order reason for closure
+%CINEnding1617ResidenceOrder:			Percentage of episodes of Need ending in year ending 31 March 2017 with residence order reason for closure
+CINEnding1617SpecialGuardianship:		Episodes of Need ending in year ending 31 March 2017 with special guardianship reason for closure
+%CINEnding1617SpecialGuardianship:		Percentage of episodes of Need ending in year ending 31 March 2017 with special guardianship reason for closure
+CINEnding1617TransferToLA:			Episodes of Need ending in year ending 31 March 2017 with transfer to LA reason for closure
+%CINEnding1617TransferToLA:			Percentage of episodes of Need ending in year ending 31 March 2017 with transfer to LA reason for closure
+CINEnding1617TransferToAdultServices:		Episodes of Need ending in year ending 31 March 2017 with transfer to adult services reason for closure
+%CINEnding1617TransferToAdultServices:		Percentage of episodes of Need ending in year ending 31 March 2017 with transfer to adult services reason for closure
+CINEnding1617OtherNotInNeed:			Episodes of Need ending in year ending 31 March 2017 with not in need reason for closure
+%CINEnding1617OtherNotInNeed:			Percentage of episodes of Need ending in year ending 31 March 2017 with not in need reason for closure
+
+
+Referrals1617:					Number of referrals in year ending 31 March 2017
+Referrals1617Rate:				Rate per 10,000 children - referrals in year ending 31 March 2017
+ReferralsWithin12mths1617:			Number of 2016-17 referrals within 12 months of a previous referral
+%ReferralsWithin12mths1617:			Percentage of 2016-17 referrals within 12 months of a previous referral
+ReferralsNFA1617:				Number of 2016-17 referrals resulting in no further action 
+%ReferralsNFA1617:				Percentage of 2016-17 referrals resulting in no further action 
+ReferralsANotInNeed1617:			Number of 2016-17 referrals resulting in the child not being in need
+%ReferralsANotInNeed1617:			Percentage of 2016-17 referrals resulting in the child not being in need
+ChildrenReferred1617				Number of children with a referral in year ending 31 March 2017
+ChildrenReferred1617Rate			Rate of children with a referral in year 2016-17, per 10,000 children
+ChildrenReferredWithin12mths1617		Number of children referred within 12 months of a previous referral
+
+Assessments1617:				Number of assessments completed during year ending 31 March 2017
+AssessmentRatePer10k1617: 			Rate per 10,000 children - assessments in year ending 31 March 2017
+AssessmentStartEndSameDay1617:			Assessments which start and end the same day year ending 31 March 2017
+Assessment1-10days1617:				Number of assessments completed within 1-10 working days during year ending 31 March 2017
+Assessment11-20days1617:			Number of assessments completed within 11-20 working days during year ending 31 March 2017
+Assessment21-30days1617:			Number of assessments completed within 21-30 working days during year ending 31 March 2017
+Assessment31-40days1617:			Number of assessments completed within 31-40 working days during year ending 31 March 2017
+Assessment41-45days1617:			Number of assessments completed within 41-45 working days during year ending 31 March 2017
+Assessment46-50days1617:			Number of assessments completed within 46-50 working days during year ending 31 March 2017
+Assessment51-60days1617:			Number of assessments completed within 51-60 working days during year ending 31 March 2017
+Assessment61+days1617:				Number of assessments completed within 61+ working days during year ending 31 March 2017
+Assessment25thPercentile1617:			Duration of assessments, 25th percentile 2016-17
+AssessmentMedian1617:				Duration of assessments, median value, 2016-17
+Assessment75thPercentile1617:			Duration of assessments, 75th percentile 2016-17
+
+
+Episodeswithfactors1617:			Number of episodes in 2016-17 with assessment factor information
+Factor1617Alcoholmisuse:			Factors identified at the end of assessment 2016-17 - Alcohol misuse
+Factor1617Drugmisuse:				Factors identified at the end of assessment 2016-17 - Drug misuse
+Factor1617Domesticviolence:			Factors identified at the end of assessment 2016-17 - Domestic violence
+Factor1617Mentalhealth:				Factors identified at the end of assessment 2016-17 - Mental health
+Factor1617Learningdisability:			Factors identified at the end of assessment 2016-17 - Learning disability
+Factor1617Physicaldisability:			Factors identified at the end of assessment 2016-17 - Physical disability
+Factor1617Youngcarer:				Factors identified at the end of assessment 2016-17 - Young carer
+Factor1617Privatelyfostered:			Factors identified at the end of assessment 2016-17 - Privately fostered
+Factor1617Unaccompaniedasylumseeker:		Factors identified at the end of assessment 2016-17 - Unaccompanied asylum seeker
+Factor1617Going/beingmissing:			Factors identified at the end of assessment 2016-17 - Going/being missing
+Factor1617Childsexualexploitation:		Factors identified at the end of assessment 2016-17 - Child sexual exploitation
+Factor1617Trafficking:				Factors identified at the end of assessment 2016-17 - Trafficking
+Factor1617Gangs:				Factors identified at the end of assessment 2016-17 - Gangs
+Factor1617Sociallyunacceptablebehaviour:	Factors identified at the end of assessment 2016-17 - Socially unacceptable behaviour
+Factor1617Self-harm:				Factors identified at the end of assessment 2016-17 - Self-harm
+Factor1617Neglect:				Factors identified at the end of assessment 2016-17 - Neglect
+Factor1617Emotionalabuse:			Factors identified at the end of assessment 2016-17 - Emotionalabuse
+Factor1617Physicalabuse:			Factors identified at the end of assessment 2016-17 - Physicalabuse
+Factor1617Sexualabuse:				Factors identified at the end of assessment 2016-17 - Sexualabuse
+Factor1617Other:				Factors identified at the end of assessment 2016-17 - Other
+
+
+S471617:					Number of Section 47 enquiries within 2016-17
+S47Rate1617:					Rate of Section 47 enquiries during year ending 31 March 2017 per 10,000 children
+S47Children1617					Number of children with section 47 enquiries within 2016-17
+S47ChildrenRate1617				Rate of children with section 47 enquiries in year 2016-17, per 10,000 children
+ICPCin1617:					Number of Initial Child Protection Conferences during year ending 31 March 2017
+ICPCRate1617:					Rate of Initial Child Protection Conference during year ending 31 March 2017, per 10,000 children
+ICPCChildrenin1617				Number of children with an Initial Child Protection Conference during year ending 31 March 2017
+ICPCChildrenRate1617				Rate of children with an initial Child Protection Conference during year ending 31 March 2017, per 10,000 children
+ICPC0-10days1617:				Number of Initial Child Protection Conferences held within 0-10 days of Section 47 enquiry during year ending 31 March 2017
+ICPC11-15days1617:				Number of Initial Child Protection Conferences held within 11-15 days of Section 47 enquiry during year ending 31 March	2017
+ICPC16-20days1617:				Number of Initial Child Protection Conferences held within 16-20 days of Section 47 enquiry during year ending 31 March	2017
+ICPC21+days1617:				Number of Initial Child Protection Conferences held within 21+ days of Section 47 enquiry during year ending 31 March 2017
+ICPC25thPercentile1617:				Number of Initial Child Protection Conferences during year ending 31 March 2017, 25th percentile
+ICPCMedian1617:					Number of Initial Child Protection Conferences during year ending 31 March 2017, median value
+ICPC75thPercentile1617:				Number of Initial Child Protection Conferences during year ending 31 March 2017, 75th percentile
+
+
+Source1617Individual:				Number of referrals from individuals, year ending 31 March 2017
+Source1617Schools:				Number of referrals from schools, year ending 31 March 2017
+Source1617EducationServices:			Number of referrals from education services, year ending 31 March 2017
+Source1617HealthServices:			Number of referrals from health services, year ending 31 March 2017
+Source1617Housing:				Number of referrals from housing, year ending 31 March 2017
+Source1617LAServices:				Number of referrals from LA services, year ending 31 March 2017
+Source1617Police:				Number of referrals from the police, year ending 31 March 2017
+Source1617OtherLegal:				Number of referrals from other legal agencies, year ending 31 March 2017
+Source1617Other:				Number of referrals from other sources, year ending 31 March 2017
+Source1617Anonymous:				Number of referrals from anonymous sources, year ending 31 March 2017
+Source1617Unknown:				Number of referrals of reported unknown source, year ending 31 March 2017
+
+
+CPPEpisodesStart1617				Number of child protection plans starting during the year 2016-17
+CPPEpisodesStartRate1617			Rate of child protection plans starting during the year 2016-17 per 10,000 children
+CPPStart1617:					Number of children who became the subject of a Child Protection plan during year ending 31 March 2017
+CPPStartRate1617:				Rate children who became the subject of a Child Protection plan during year ending 31 March 2017 per 10,000 children
+CPPEpisodesEnded1617				Number of Child Protection plans that ended during year ending 31 March 2017
+CPPendedRate1617:				Rate of Child Protection plan that ended during year 31 March 2017 per 10,000 children
+CPPChildrenEnded1617:				Number children that ended a Child Protection plan during year ending 31 March 2017
+CPPChildrenEndedRate1617			Rate children who ended a Child Protection plan during year ending 31 March 2017 per 10,000 children
+CPPEpisodeThru1617				Number of child protection plans at any point during the year 2016-17
+CPPEpisodesThruRate1617				Rate of child protection plans at any point during year 31 March 2017 per 10,000 children
+CPPChildrenthru1617				Number of children on a child protection plan at any point during the year 2016-17
+CPPChildrenthruRate1617				Rate of children on a child protection plan at any point during year 31 March 2017 per 10,000 children
+CPPAt310317:					Number of children who were the subject of a Child Protection plan at 31 March 2017
+CPPAt310317Rate:				Rate of children who were the subject of a Child Protection plan at 31 March 2017 per 10,000 children
+
+
+CPPStart1617InitialAbuseNeglect:		Number of child protection plans starting during year ending 31 March 2017 - Initial Category of abuse Neglect
+CPPStart1617InitialAbusePhysical:		Number of child protection plans starting during year ending 31 March 2017 - Initial Category of abuse Physical Abuse
+CPPStart1617InitialAbuseSexual:			Number of child protection plans starting during year ending 31 March 2017 - Initial Category of abuse Sexual Abuse
+CPPStart1617InitialAbuseEmotional:		Number of child protection plans starting during year ending 31 March 2017 - Initial Category of abuse Emotional Abuse
+CPPStart1617InitialAbuseMultiple:		Number of child protection plans starting during year ending 31 March 2017 - Initial Category of abuse Multiple categories
+CPPStart1617LatestAbuseNeglect:			Number of child protection plans starting during year ending 31 March 2017 - Latest Category of abuse Neglect
+CPPStart1617LatestAbusePhysical:		Number of child protection plans starting during year ending 31 March 2017 - Latest Category of abuse Physical Abuse
+CPPStart1617LatestAbuseSexual:			Number of child protection plans starting during year ending 31 March 2017 - Latest Category of abuse Sexual Abuse
+CPPStart1617LatestAbuseEmotional:		Number of child protection plans starting during year ending 31 March 2017 - Latest Category of abuse Emotional Abuse
+CPPStart1617LatestAbuseMultiple:		Number of child protection plans starting during year ending 31 March 2017 - Latest Category of abuse Multiple categories
+
+
+CPPStart1617SecondTime:				Number of children who became the subject of a child protection plan during year ending 31 March 2017 for a second or subsequent time
+%CPPStart1617SecondTime:			Percentage of children who became the subject of a child protection plan during year ending 31 March 2017 for a second or subsequent time
+
+
+CPPat310317InitialAbuseNeglect:			Number of children who were the subject of a child protection plan at 31 March 2017 - Initial Category of abuse Neglect
+CPPat310317InitialAbusePhysical:		Number of children who were the subject of a child protection plan at 31 March 2017 - Initial Category of abuse Physical Abuse
+CPPat310317InitialAbuseSexual:			Number of children who were the subject of a child protection plan at 31 March 2017 - Initial Category of abuse Sexual Abuse
+CPPat310317InitialAbuseEmotional:		Number of children who were the subject of a child protection plan at 31 March 2017 - Initial Category of abuse Emotional Abuse
+CPPat310317InitialAbuseMultiple:		Number of children who were the subject of a child protection plan at 31 March 2017 - Initial Category of abuse Multiple categories
+CPPat310317LatestAbuseNeglect:			Number of children who were the subject of a child protection plan at 31 March 2017 - Latest Category of abuse Neglect
+CPPat310317LatestAbusePhysical:			Number of children who were the subject of a child protection plan at 31 March 2017 - Latest Category of abuse Physical Abuse
+CPPat310317LatestAbuseSexual:			Number of children who were the subject of a child protection plan at 31 March 2017 - Latest Category of abuse Sexual Abuse
+CPPat310317LatestAbuseEmotional:		Number of children who were the subject of a child protection plan at 31 March 2017 - Latest Category of abuse Emotional Abuse
+CPPat310317LatestAbuseMultiple:			Number of children who were the subject of a child protection plan at 31 March 2017 - Latest Category of abuse Multiple categories
+
+
+CPPAT310317Duration<3mths:			Child protection plans at 31 March 2017 lasting under 3 months
+%CPPAT310317Duration<3mths:			Percentage of child protection plans at 31 March 2017, lasting under 3 months
+CPPAT310317Duration3-6mths:			Child protection plans at 31 March 2017, lasting 3 to 6 months
+%CPPAT310317Duration3-6mths:			Percentage of child protection plans at 31 March 2017, lasting 3 to 6 months
+CPPAT310317Duration6mths-1yr:			Child protection plans at 31 March 2017, lasting 6 months to 1 year
+%CPPAT310317Duration6mths-1yr:			Percentage of child protection plans at 31 March 2017, lasting 6 months to 1 year
+CPPAT310317Duration1-2yrs:			Child protection plans at 31 March 2017, lasting 1 -2 years
+%CPPAT310317Duration1-2yrs:			Percentage of child protection plans at 31 March 2017, lasting 1 -2 years
+CPPAT310317Duration2+yrs:			Child protection plans at 31 March 2017, 2 or more years
+%CPPAT310317Duration2+yrs:			Percentage of child protection plans at 31 March 2017, lasting 2 or more years
+
+
+CPPat310317For3mths:				Number of Children who were the subject of a child protection plan at 31 March 2017 who were subject of a plan for 3 or more months
+CPPsReviewedinTimescales:			Number of child protection plans at 31 March 2017 who were subject of a plan for 3 or more months reviewed within the required timescales
+%CPPsReviewedinTimescales:			Percentage of child protection plans at 31 March 2017 who were subject of a plan for 3 or more months reviewed within the required timescales
+
+
+CPPCeased1617Duration<3mths:			Number of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is less than 3 months
+%CPPCeased1617Duration<3mths:			Percentage of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is less than 3 months
+CPPCeased1617Duration3-6mths:			Number of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 3 months but less than 6 months
+%CPPCeased1617Duration3-6mths:			Percentage Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 3 months but less than 6 months
+CPPCeased1617Duration6mths-1yr:			Number of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 6 months but less than 1 year
+%CPPCeased1617Duration6mths-1yr:		Percentage of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 6 months but less than 1 year
+CPPCeased1617Duration1-2yrs:			Number of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 1 year but less than 2 years
+%CPPCeased1617Duration1-2yrs:			Percentage of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 1 year but less than 2 years
+CPPCeased1617Duration2+yrs:			Number of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 2 or more years
+%CPPCeased1617Duration2+yrs:			Percentage of Child Protection plans that ended during year ending 31 March 2017 where length of time of plan is 2 years or more
+
+CPPCeased6mths1617:				Number of child protection plans ending in first 6mths of the year, 2016-17
+CPPCeased6mthsDuration3mths1617:		Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths,2016-17
+%CPPCeased6mthsDuration3mths1617:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, 2016-17
+CPPCeased6mthsDurationAnotherLA1617:		Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2016-17
+%CPPCeased6mthsDurationAnotherLA1617:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2016-17
+CPPCeased6mthsDuration36mths1617:		Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2016-17
+%CPPCeased6mthsDuration36mths1617:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2016-17
+CPPCeased6mthsDuration6mths1617:		Number of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2016-17
+%CPPCeased6mthsDuration6mths1617:		Percentage of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2016-17
+
+
+Mid2016Pop017:					Mid-2016 population estimates, rounded to the nearest 100. Source: Population Estimates Unit, ONS: Crown Copyright.

@@ -1,0 +1,105 @@
+time_period,time_identifier,geographic_level,country_code,country_name,category,category_type,number,rate,percent
+2020,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,201000,167.2,z
+2020,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,177840,147.9,z
+2020,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,77470,64.4,z
+2020,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,76340,63.5,z
+2020,Reporting year,National,E92000001,England,CPP,CPP at 31 March,51510,42.8,z
+2020,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,35100,z,z
+2020,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,32110,z,91.5
+2020,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,66380,55.2,z
+2020,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,14540,z,21.9
+2020,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,66210,55.1,z
+2020,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,66970,55.7,z
+2020,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2400,z,3.6
+2020,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,66750,55.5,z
+2019,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,201170,168.3,z
+2019,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,179160,149.9,z
+2019,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,77440,64.8,z
+2019,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,76360,63.9,z
+2019,Reporting year,National,E92000001,England,CPP,CPP at 31 March,52260,43.7,z
+2019,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,35570,z,z
+2019,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,32640,z,91.8
+2019,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,66680,55.8,z
+2019,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,13860,z,20.8
+2019,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,66430,55.6,z
+2019,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,67910,56.8,z
+2019,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2270,z,3.3
+2019,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,67660,56.6,z
+2018,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,198090,166.9,z
+2018,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,177110,149.2,z
+2018,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,79470,67,z
+2018,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,78490,66.1,z
+2018,Reporting year,National,E92000001,England,CPP,CPP at 31 March,53790,45.3,z
+2018,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,37540,z,z
+2018,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,33980,z,90.5
+2018,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,68770,58,z
+2018,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,13900,z,20.2
+2018,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,68590,57.8,z
+2018,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,65920,55.6,z
+2018,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2250,z,3.4
+2018,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,65720,55.4,z
+2017,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,185680,157.6,z
+2017,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,167670,142.3,z
+2017,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,76930,65.3,z
+2017,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,75890,64.4,z
+2017,Reporting year,National,E92000001,England,CPP,CPP at 31 March,51080,43.3,z
+2017,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,34950,z,z
+2017,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,32210,z,92.1
+2017,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,66410,56.3,z
+2017,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,12420,z,18.7
+2017,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,66180,56.2,z
+2017,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,65420,55.5,z
+2017,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2230,z,3.4
+2017,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,65200,55.3,z
+2016,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,172510,147.7,z
+2016,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,156720,134.2,z
+2016,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,73050,62.6,z
+2016,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,72090,61.7,z
+2016,Reporting year,National,E92000001,England,CPP,CPP at 31 March,50310,43.1,z
+2016,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,34570,z,z
+2016,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,32360,z,93.6
+2016,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,63310,54.2,z
+2016,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,11350,z,17.9
+2016,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,63090,54,z
+2016,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,62750,53.7,z
+2016,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2410,z,3.8
+2016,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,62560,53.6,z
+2015,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,160490,138.5,z
+2015,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,146630,126.5,z
+2015,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,71410,61.6,z
+2015,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,70390,60.7,z
+2015,Reporting year,National,E92000001,England,CPP,CPP at 31 March,49690,42.9,z
+2015,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,34630,z,z
+2015,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,32520,z,93.9
+2015,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,62210,53.7,z
+2015,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,10310,z,16.6
+2015,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,61980,53.5,z
+2015,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,60400,52.1,z
+2015,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2250,z,3.7
+2015,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,60190,51.9,z
+2014,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,142710,124,z
+2014,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,132200,114.9,z
+2014,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,65190,56.7,z
+2014,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,64510,56.1,z
+2014,Reporting year,National,E92000001,England,CPP,CPP at 31 March,48300,42,z
+2014,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,33110,z,z
+2014,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,31280,z,94.5
+2014,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,59780,52,z
+2014,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,9450,z,15.8
+2014,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,59590,51.8,z
+2014,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,54380,47.3,z
+2014,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2450,z,4.5
+2014,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,54230,47.1,z
+2013,Reporting year,National,E92000001,England,Section 47,Section 47s in the year,127190,111.3,z
+2013,Reporting year,National,E92000001,England,Section 47,Children subject to a Section 47 in the year,117350,102.7,z
+2013,Reporting year,National,E92000001,England,ICPC,ICPCs in the year,60080,52.6,z
+2013,Reporting year,National,E92000001,England,ICPC,Children subject to an ICPC in the year,59280,51.9,z
+2013,Reporting year,National,E92000001,England,CPP,CPP at 31 March,43190,37.8,z
+2013,Reporting year,National,E92000001,England,CPP,Children subject to a CPP for 3 months or more,30860,z,z
+2013,Reporting year,National,E92000001,England,CPP,CPP for 3 months or more reviewed within timescales,29600,z,95.9
+2013,Reporting year,National,E92000001,England,CPP,CPPs starting in the year,52680,46.1,z
+2013,Reporting year,National,E92000001,England,CPP,CPPs starting which were a second or subsequent plan,7870,z,14.9
+2013,Reporting year,National,E92000001,England,CPP,Children starting CPPs in the year,52490,46,z
+2013,Reporting year,National,E92000001,England,CPP,CPPs ending in the year,52120,45.6,z
+2013,Reporting year,National,E92000001,England,CPP,CPPs ending that had lasted two years or more,2690,z,5.2
+2013,Reporting year,National,E92000001,England,CPP,Children ending CPPs in the year,51790,45.3,z

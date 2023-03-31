@@ -39,8 +39,8 @@ ui <- dashboardPage(title = paste("CWIP App", sep = ""),
 
 
   dashboardBody(
-    use_waiter(),
-    waiter_show_on_load(html = "", color = "#00AD92"),
+    # use_waiter(),
+    # waiter_show_on_load(html = "", color = "#00AD92"),
 
     
     tabItems(
@@ -137,10 +137,10 @@ tabItem(tabName = "sbs_trends",
         fluidRow(
           column(4, sliderInput("year_range_sbs_trend_left", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_trend_left", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
-          column(1, align = "center", radioGroupButtons("inc_avg_sbs_trend_left", label = "Show Average?", choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = TRUE)),
+          column(1, align = "center", radioGroupButtons("inc_avg_sbs_trend_left", label = HTML("Show<br>Average?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = TRUE)),
           column(4, sliderInput("year_range_sbs_trend_right", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_trend_right", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
-          column(1, align = "center", radioGroupButtons("inc_avg_sbs_trend_right", label = "Show Average?", choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = TRUE))
+          column(1, align = "center", radioGroupButtons("inc_avg_sbs_trend_right", label = HTML("Show<br>Average?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = TRUE))
         ),
         fluidRow(
           column(6, plotOutput("sbs_trend_plot_left", width = "100%", height = "600px") %>% withSpinner(color="#0dc5c1", type = 8)),
@@ -165,10 +165,10 @@ tabItem(tabName = "sbs_maps",
         fluidRow(
           column(4, sliderInput("year_range_sbs_map_left", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_map_left", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
-          column(1, align = "center", radioGroupButtons("cart_sbs_map_left", label = "Make Cartogram?", choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = FALSE)),
+          column(1, align = "center", radioGroupButtons("cart_sbs_map_left", label = HTML("Make<br>Cartogram?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = FALSE)),
           column(4, sliderInput("year_range_sbs_map_right", "Select a year range:", value = c(2011, 2019), min = 2011, max = 2019, sep = "", width = "100%")),
           column(1, align = "center", radioGroupButtons("adj_dep_sbs_map_right", "Adjust for deprivation?", choices = c("Yes", "No"), selected = "No")),
-          column(1, align = "center", radioGroupButtons("cart_sbs_map_right", label = "Make Cartogram?", choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = FALSE))
+          column(1, align = "center", radioGroupButtons("cart_sbs_map_right", label = HTML("Make<br>Cartogram?"), choiceNames = c("Yes", "No"), choiceValues = c(TRUE, FALSE), selected = FALSE))
         ),
         fluidRow(
           column(6, plotOutput("sbs_map_plot_left", width = "100%", height = "600px") %>% withSpinner(color="#0dc5c1", type = 8)),

@@ -1,0 +1,617 @@
+time_period,time_identifier,geographic_level,country_code,country_name,cla_group,periods_or_placements,age_on_ceasing,number,percentage
+2018,Reporting year,National,E92000001,England,Number of periods of care,1,1 to 4 years,5980,23
+2018,Reporting year,National,E92000001,England,Number of periods of care,1,10 to 15 years,3890,15
+2018,Reporting year,National,E92000001,England,Number of periods of care,1,16 to 17 years,2600,10
+2018,Reporting year,National,E92000001,England,Number of periods of care,1,18 years and over,7360,29
+2018,Reporting year,National,E92000001,England,Number of periods of care,1,5 to 9 years,3500,14
+2018,Reporting year,National,E92000001,England,Number of periods of care,1,Under 1 year,2250,9
+2018,Reporting year,National,E92000001,England,Number of periods of care,10 or more,1 to 4 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,10 or more,10 to 15 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,10 or more,16 to 17 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,10 or more,18 years and over,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,10 or more,5 to 9 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,2,1 to 4 years,470,14
+2018,Reporting year,National,E92000001,England,Number of periods of care,2,10 to 15 years,630,18
+2018,Reporting year,National,E92000001,England,Number of periods of care,2,16 to 17 years,500,14
+2018,Reporting year,National,E92000001,England,Number of periods of care,2,18 years and over,1380,40
+2018,Reporting year,National,E92000001,England,Number of periods of care,2,5 to 9 years,440,13
+2018,Reporting year,National,E92000001,England,Number of periods of care,2,Under 1 year,20,1
+2018,Reporting year,National,E92000001,England,Number of periods of care,3,1 to 4 years,20,3
+2018,Reporting year,National,E92000001,England,Number of periods of care,3,10 to 15 years,120,17
+2018,Reporting year,National,E92000001,England,Number of periods of care,3,16 to 17 years,150,22
+2018,Reporting year,National,E92000001,England,Number of periods of care,3,18 years and over,350,50
+2018,Reporting year,National,E92000001,England,Number of periods of care,3,5 to 9 years,50,7
+2018,Reporting year,National,E92000001,England,Number of periods of care,3,Under 1 year,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,4,1 to 4 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,4,10 to 15 years,50,27
+2018,Reporting year,National,E92000001,England,Number of periods of care,4,16 to 17 years,40,23
+2018,Reporting year,National,E92000001,England,Number of periods of care,4,18 years and over,80,45
+2018,Reporting year,National,E92000001,England,Number of periods of care,4,5 to 9 years,10,3
+2018,Reporting year,National,E92000001,England,Number of periods of care,4,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,5,1 to 4 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,5,10 to 15 years,20,17
+2018,Reporting year,National,E92000001,England,Number of periods of care,5,16 to 17 years,20,16
+2018,Reporting year,National,E92000001,England,Number of periods of care,5,18 years and over,60,61
+2018,Reporting year,National,E92000001,England,Number of periods of care,5,5 to 9 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,5,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,6,1 to 4 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,6,10 to 15 years,10,31
+2018,Reporting year,National,E92000001,England,Number of periods of care,6,16 to 17 years,10,22
+2018,Reporting year,National,E92000001,England,Number of periods of care,6,18 years and over,10,44
+2018,Reporting year,National,E92000001,England,Number of periods of care,6,5 to 9 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,6,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,7,1 to 4 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,7,10 to 15 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,7,16 to 17 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,7,18 years and over,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,7,5 to 9 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,7,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,8,1 to 4 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,8,10 to 15 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,8,16 to 17 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,8,18 years and over,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,8,5 to 9 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,8,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,9,1 to 4 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,9,10 to 15 years,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,9,16 to 17 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,9,18 years and over,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,9,5 to 9 years,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,9,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of periods of care,Total,1 to 4 years,6480,22
+2018,Reporting year,National,E92000001,England,Number of periods of care,Total,10 to 15 years,4720,16
+2018,Reporting year,National,E92000001,England,Number of periods of care,Total,16 to 17 years,3320,11
+2018,Reporting year,National,E92000001,England,Number of periods of care,Total,18 years and over,9260,31
+2018,Reporting year,National,E92000001,England,Number of periods of care,Total,5 to 9 years,4010,13
+2018,Reporting year,National,E92000001,England,Number of periods of care,Total,Under 1 year,2270,8
+2018,Reporting year,National,E92000001,England,Number of placements,1,1 to 4 years,2140,18
+2018,Reporting year,National,E92000001,England,Number of placements,1,10 to 15 years,2580,22
+2018,Reporting year,National,E92000001,England,Number of placements,1,16 to 17 years,1660,14
+2018,Reporting year,National,E92000001,England,Number of placements,1,18 years and over,2240,19
+2018,Reporting year,National,E92000001,England,Number of placements,1,5 to 9 years,1840,16
+2018,Reporting year,National,E92000001,England,Number of placements,1,Under 1 year,1190,10
+2018,Reporting year,National,E92000001,England,Number of placements,10 or more,1 to 4 years,c,c
+2018,Reporting year,National,E92000001,England,Number of placements,10 or more,10 to 15 years,30,3
+2018,Reporting year,National,E92000001,England,Number of placements,10 or more,16 to 17 years,80,8
+2018,Reporting year,National,E92000001,England,Number of placements,10 or more,18 years and over,890,89
+2018,Reporting year,National,E92000001,England,Number of placements,10 or more,5 to 9 years,c,c
+2018,Reporting year,National,E92000001,England,Number of placements,10 or more,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of placements,2,1 to 4 years,2340,31
+2018,Reporting year,National,E92000001,England,Number of placements,2,10 to 15 years,1020,13
+2018,Reporting year,National,E92000001,England,Number of placements,2,16 to 17 years,640,8
+2018,Reporting year,National,E92000001,England,Number of placements,2,18 years and over,1810,24
+2018,Reporting year,National,E92000001,England,Number of placements,2,5 to 9 years,1080,14
+2018,Reporting year,National,E92000001,England,Number of placements,2,Under 1 year,690,9
+2018,Reporting year,National,E92000001,England,Number of placements,3,1 to 4 years,1220,29
+2018,Reporting year,National,E92000001,England,Number of placements,3,10 to 15 years,490,12
+2018,Reporting year,National,E92000001,England,Number of placements,3,16 to 17 years,310,7
+2018,Reporting year,National,E92000001,England,Number of placements,3,18 years and over,1330,32
+2018,Reporting year,National,E92000001,England,Number of placements,3,5 to 9 years,550,13
+2018,Reporting year,National,E92000001,England,Number of placements,3,Under 1 year,300,7
+2018,Reporting year,National,E92000001,England,Number of placements,4,1 to 4 years,510,22
+2018,Reporting year,National,E92000001,England,Number of placements,4,10 to 15 years,250,11
+2018,Reporting year,National,E92000001,England,Number of placements,4,16 to 17 years,190,9
+2018,Reporting year,National,E92000001,England,Number of placements,4,18 years and over,920,41
+2018,Reporting year,National,E92000001,England,Number of placements,4,5 to 9 years,310,14
+2018,Reporting year,National,E92000001,England,Number of placements,4,Under 1 year,70,3
+2018,Reporting year,National,E92000001,England,Number of placements,5,1 to 4 years,180,14
+2018,Reporting year,National,E92000001,England,Number of placements,5,10 to 15 years,140,11
+2018,Reporting year,National,E92000001,England,Number of placements,5,16 to 17 years,150,12
+2018,Reporting year,National,E92000001,England,Number of placements,5,18 years and over,680,53
+2018,Reporting year,National,E92000001,England,Number of placements,5,5 to 9 years,120,10
+2018,Reporting year,National,E92000001,England,Number of placements,5,Under 1 year,20,1
+2018,Reporting year,National,E92000001,England,Number of placements,6,1 to 4 years,70,8
+2018,Reporting year,National,E92000001,England,Number of placements,6,10 to 15 years,90,11
+2018,Reporting year,National,E92000001,England,Number of placements,6,16 to 17 years,100,12
+2018,Reporting year,National,E92000001,England,Number of placements,6,18 years and over,520,62
+2018,Reporting year,National,E92000001,England,Number of placements,6,5 to 9 years,50,6
+2018,Reporting year,National,E92000001,England,Number of placements,6,Under 1 year,c,c
+2018,Reporting year,National,E92000001,England,Number of placements,7,1 to 4 years,20,4
+2018,Reporting year,National,E92000001,England,Number of placements,7,10 to 15 years,50,8
+2018,Reporting year,National,E92000001,England,Number of placements,7,16 to 17 years,90,16
+2018,Reporting year,National,E92000001,England,Number of placements,7,18 years and over,390,67
+2018,Reporting year,National,E92000001,England,Number of placements,7,5 to 9 years,30,6
+2018,Reporting year,National,E92000001,England,Number of placements,7,Under 1 year,c,c
+2018,Reporting year,National,E92000001,England,Number of placements,8,1 to 4 years,10,2
+2018,Reporting year,National,E92000001,England,Number of placements,8,10 to 15 years,50,12
+2018,Reporting year,National,E92000001,England,Number of placements,8,16 to 17 years,60,17
+2018,Reporting year,National,E92000001,England,Number of placements,8,18 years and over,240,66
+2018,Reporting year,National,E92000001,England,Number of placements,8,5 to 9 years,10,3
+2018,Reporting year,National,E92000001,England,Number of placements,8,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of placements,9,1 to 4 years,c,c
+2018,Reporting year,National,E92000001,England,Number of placements,9,10 to 15 years,20,6
+2018,Reporting year,National,E92000001,England,Number of placements,9,16 to 17 years,40,13
+2018,Reporting year,National,E92000001,England,Number of placements,9,18 years and over,240,80
+2018,Reporting year,National,E92000001,England,Number of placements,9,5 to 9 years,c,c
+2018,Reporting year,National,E92000001,England,Number of placements,9,Under 1 year,0,0
+2018,Reporting year,National,E92000001,England,Number of placements,Total,1 to 4 years,6480,22
+2018,Reporting year,National,E92000001,England,Number of placements,Total,10 to 15 years,4720,16
+2018,Reporting year,National,E92000001,England,Number of placements,Total,16 to 17 years,3320,11
+2018,Reporting year,National,E92000001,England,Number of placements,Total,18 years and over,9260,31
+2018,Reporting year,National,E92000001,England,Number of placements,Total,5 to 9 years,4010,13
+2018,Reporting year,National,E92000001,England,Number of placements,Total,Under 1 year,2270,8
+2019,Reporting year,National,E92000001,England,Number of periods of care,1,1 to 4 years,6110,24
+2019,Reporting year,National,E92000001,England,Number of periods of care,1,10 to 15 years,3610,14
+2019,Reporting year,National,E92000001,England,Number of periods of care,1,16 to 17 years,2400,9
+2019,Reporting year,National,E92000001,England,Number of periods of care,1,18 years and over,7620,30
+2019,Reporting year,National,E92000001,England,Number of periods of care,1,5 to 9 years,3430,14
+2019,Reporting year,National,E92000001,England,Number of periods of care,1,Under 1 year,2220,9
+2019,Reporting year,National,E92000001,England,Number of periods of care,10 or more,1 to 4 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,10 or more,10 to 15 years,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,10 or more,16 to 17 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,10 or more,18 years and over,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,10 or more,5 to 9 years,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,2,1 to 4 years,390,12
+2019,Reporting year,National,E92000001,England,Number of periods of care,2,10 to 15 years,590,18
+2019,Reporting year,National,E92000001,England,Number of periods of care,2,16 to 17 years,380,12
+2019,Reporting year,National,E92000001,England,Number of periods of care,2,18 years and over,1460,45
+2019,Reporting year,National,E92000001,England,Number of periods of care,2,5 to 9 years,380,12
+2019,Reporting year,National,E92000001,England,Number of periods of care,2,Under 1 year,20,1
+2019,Reporting year,National,E92000001,England,Number of periods of care,3,1 to 4 years,30,4
+2019,Reporting year,National,E92000001,England,Number of periods of care,3,10 to 15 years,120,18
+2019,Reporting year,National,E92000001,England,Number of periods of care,3,16 to 17 years,120,18
+2019,Reporting year,National,E92000001,England,Number of periods of care,3,18 years and over,370,55
+2019,Reporting year,National,E92000001,England,Number of periods of care,3,5 to 9 years,40,5
+2019,Reporting year,National,E92000001,England,Number of periods of care,3,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,4,1 to 4 years,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,4,10 to 15 years,20,14
+2019,Reporting year,National,E92000001,England,Number of periods of care,4,16 to 17 years,50,27
+2019,Reporting year,National,E92000001,England,Number of periods of care,4,18 years and over,80,50
+2019,Reporting year,National,E92000001,England,Number of periods of care,4,5 to 9 years,10,7
+2019,Reporting year,National,E92000001,England,Number of periods of care,4,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,5,1 to 4 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,5,10 to 15 years,10,11
+2019,Reporting year,National,E92000001,England,Number of periods of care,5,16 to 17 years,10,21
+2019,Reporting year,National,E92000001,England,Number of periods of care,5,18 years and over,40,62
+2019,Reporting year,National,E92000001,England,Number of periods of care,5,5 to 9 years,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,5,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,6,1 to 4 years,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,6,10 to 15 years,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,6,16 to 17 years,10,34
+2019,Reporting year,National,E92000001,England,Number of periods of care,6,18 years and over,10,34
+2019,Reporting year,National,E92000001,England,Number of periods of care,6,5 to 9 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,6,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,7,1 to 4 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,7,10 to 15 years,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,7,16 to 17 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,7,18 years and over,10,91
+2019,Reporting year,National,E92000001,England,Number of periods of care,7,5 to 9 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,7,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,8,1 to 4 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,8,10 to 15 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,8,16 to 17 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,8,18 years and over,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,8,5 to 9 years,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,8,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of periods of care,9,1 to 4 years,0,z
+2019,Reporting year,National,E92000001,England,Number of periods of care,9,10 to 15 years,0,z
+2019,Reporting year,National,E92000001,England,Number of periods of care,9,16 to 17 years,0,z
+2019,Reporting year,National,E92000001,England,Number of periods of care,9,18 years and over,0,z
+2019,Reporting year,National,E92000001,England,Number of periods of care,9,5 to 9 years,0,z
+2019,Reporting year,National,E92000001,England,Number of periods of care,9,Under 1 year,0,z
+2019,Reporting year,National,E92000001,England,Number of periods of care,Total,1 to 4 years,6530,22
+2019,Reporting year,National,E92000001,England,Number of periods of care,Total,10 to 15 years,4370,15
+2019,Reporting year,National,E92000001,England,Number of periods of care,Total,16 to 17 years,2960,10
+2019,Reporting year,National,E92000001,England,Number of periods of care,Total,18 years and over,9600,32
+2019,Reporting year,National,E92000001,England,Number of periods of care,Total,5 to 9 years,3870,13
+2019,Reporting year,National,E92000001,England,Number of periods of care,Total,Under 1 year,2240,8
+2019,Reporting year,National,E92000001,England,Number of placements,1,1 to 4 years,2040,19
+2019,Reporting year,National,E92000001,England,Number of placements,1,10 to 15 years,2270,21
+2019,Reporting year,National,E92000001,England,Number of placements,1,16 to 17 years,1560,14
+2019,Reporting year,National,E92000001,England,Number of placements,1,18 years and over,2230,20
+2019,Reporting year,National,E92000001,England,Number of placements,1,5 to 9 years,1760,16
+2019,Reporting year,National,E92000001,England,Number of placements,1,Under 1 year,1110,10
+2019,Reporting year,National,E92000001,England,Number of placements,10 or more,1 to 4 years,0,0
+2019,Reporting year,National,E92000001,England,Number of placements,10 or more,10 to 15 years,40,4
+2019,Reporting year,National,E92000001,England,Number of placements,10 or more,16 to 17 years,70,7
+2019,Reporting year,National,E92000001,England,Number of placements,10 or more,18 years and over,880,89
+2019,Reporting year,National,E92000001,England,Number of placements,10 or more,5 to 9 years,c,c
+2019,Reporting year,National,E92000001,England,Number of placements,10 or more,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of placements,2,1 to 4 years,2270,31
+2019,Reporting year,National,E92000001,England,Number of placements,2,10 to 15 years,990,13
+2019,Reporting year,National,E92000001,England,Number of placements,2,16 to 17 years,580,8
+2019,Reporting year,National,E92000001,England,Number of placements,2,18 years and over,1790,24
+2019,Reporting year,National,E92000001,England,Number of placements,2,5 to 9 years,1080,15
+2019,Reporting year,National,E92000001,England,Number of placements,2,Under 1 year,700,9
+2019,Reporting year,National,E92000001,England,Number of placements,3,1 to 4 years,1420,32
+2019,Reporting year,National,E92000001,England,Number of placements,3,10 to 15 years,520,12
+2019,Reporting year,National,E92000001,England,Number of placements,3,16 to 17 years,280,6
+2019,Reporting year,National,E92000001,England,Number of placements,3,18 years and over,1400,31
+2019,Reporting year,National,E92000001,England,Number of placements,3,5 to 9 years,520,12
+2019,Reporting year,National,E92000001,England,Number of placements,3,Under 1 year,320,7
+2019,Reporting year,National,E92000001,England,Number of placements,4,1 to 4 years,530,22
+2019,Reporting year,National,E92000001,England,Number of placements,4,10 to 15 years,260,11
+2019,Reporting year,National,E92000001,England,Number of placements,4,16 to 17 years,150,6
+2019,Reporting year,National,E92000001,England,Number of placements,4,18 years and over,1090,46
+2019,Reporting year,National,E92000001,England,Number of placements,4,5 to 9 years,280,12
+2019,Reporting year,National,E92000001,England,Number of placements,4,Under 1 year,90,4
+2019,Reporting year,National,E92000001,England,Number of placements,5,1 to 4 years,180,15
+2019,Reporting year,National,E92000001,England,Number of placements,5,10 to 15 years,150,12
+2019,Reporting year,National,E92000001,England,Number of placements,5,16 to 17 years,100,8
+2019,Reporting year,National,E92000001,England,Number of placements,5,18 years and over,650,53
+2019,Reporting year,National,E92000001,England,Number of placements,5,5 to 9 years,130,10
+2019,Reporting year,National,E92000001,England,Number of placements,5,Under 1 year,20,1
+2019,Reporting year,National,E92000001,England,Number of placements,6,1 to 4 years,70,7
+2019,Reporting year,National,E92000001,England,Number of placements,6,10 to 15 years,70,8
+2019,Reporting year,National,E92000001,England,Number of placements,6,16 to 17 years,120,14
+2019,Reporting year,National,E92000001,England,Number of placements,6,18 years and over,550,63
+2019,Reporting year,National,E92000001,England,Number of placements,6,5 to 9 years,60,7
+2019,Reporting year,National,E92000001,England,Number of placements,6,Under 1 year,c,c
+2019,Reporting year,National,E92000001,England,Number of placements,7,1 to 4 years,20,3
+2019,Reporting year,National,E92000001,England,Number of placements,7,10 to 15 years,50,8
+2019,Reporting year,National,E92000001,England,Number of placements,7,16 to 17 years,70,11
+2019,Reporting year,National,E92000001,England,Number of placements,7,18 years and over,450,75
+2019,Reporting year,National,E92000001,England,Number of placements,7,5 to 9 years,20,3
+2019,Reporting year,National,E92000001,England,Number of placements,7,Under 1 year,c,c
+2019,Reporting year,National,E92000001,England,Number of placements,8,1 to 4 years,10,2
+2019,Reporting year,National,E92000001,England,Number of placements,8,10 to 15 years,20,7
+2019,Reporting year,National,E92000001,England,Number of placements,8,16 to 17 years,20,6
+2019,Reporting year,National,E92000001,England,Number of placements,8,18 years and over,290,82
+2019,Reporting year,National,E92000001,England,Number of placements,8,5 to 9 years,10,3
+2019,Reporting year,National,E92000001,England,Number of placements,8,Under 1 year,0,0
+2019,Reporting year,National,E92000001,England,Number of placements,9,1 to 4 years,c,c
+2019,Reporting year,National,E92000001,England,Number of placements,9,10 to 15 years,20,5
+2019,Reporting year,National,E92000001,England,Number of placements,9,16 to 17 years,30,9
+2019,Reporting year,National,E92000001,England,Number of placements,9,18 years and over,270,84
+2019,Reporting year,National,E92000001,England,Number of placements,9,5 to 9 years,c,c
+2019,Reporting year,National,E92000001,England,Number of placements,9,Under 1 year,c,c
+2019,Reporting year,National,E92000001,England,Number of placements,Total,1 to 4 years,6530,22
+2019,Reporting year,National,E92000001,England,Number of placements,Total,10 to 15 years,4370,15
+2019,Reporting year,National,E92000001,England,Number of placements,Total,16 to 17 years,2960,10
+2019,Reporting year,National,E92000001,England,Number of placements,Total,18 years and over,9600,32
+2019,Reporting year,National,E92000001,England,Number of placements,Total,5 to 9 years,3870,13
+2019,Reporting year,National,E92000001,England,Number of placements,Total,Under 1 year,2240,8
+2020,Reporting year,National,E92000001,England,Number of periods of care,1,1 to 4 years,6160,24
+2020,Reporting year,National,E92000001,England,Number of periods of care,1,10 to 15 years,3640,14
+2020,Reporting year,National,E92000001,England,Number of periods of care,1,16 to 17 years,2250,9
+2020,Reporting year,National,E92000001,England,Number of periods of care,1,18 years and over,8530,33
+2020,Reporting year,National,E92000001,England,Number of periods of care,1,5 to 9 years,3050,12
+2020,Reporting year,National,E92000001,England,Number of periods of care,1,Under 1 year,2140,8
+2020,Reporting year,National,E92000001,England,Number of periods of care,10 or more,1 to 4 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,10 or more,10 to 15 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,10 or more,16 to 17 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,10 or more,18 years and over,10,71
+2020,Reporting year,National,E92000001,England,Number of periods of care,10 or more,5 to 9 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,2,1 to 4 years,360,12
+2020,Reporting year,National,E92000001,England,Number of periods of care,2,10 to 15 years,590,20
+2020,Reporting year,National,E92000001,England,Number of periods of care,2,16 to 17 years,390,13
+2020,Reporting year,National,E92000001,England,Number of periods of care,2,18 years and over,1290,43
+2020,Reporting year,National,E92000001,England,Number of periods of care,2,5 to 9 years,350,12
+2020,Reporting year,National,E92000001,England,Number of periods of care,2,Under 1 year,10,~
+2020,Reporting year,National,E92000001,England,Number of periods of care,3,1 to 4 years,30,4
+2020,Reporting year,National,E92000001,England,Number of periods of care,3,10 to 15 years,120,18
+2020,Reporting year,National,E92000001,England,Number of periods of care,3,16 to 17 years,130,20
+2020,Reporting year,National,E92000001,England,Number of periods of care,3,18 years and over,350,52
+2020,Reporting year,National,E92000001,England,Number of periods of care,3,5 to 9 years,40,5
+2020,Reporting year,National,E92000001,England,Number of periods of care,3,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,4,1 to 4 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,4,10 to 15 years,30,16
+2020,Reporting year,National,E92000001,England,Number of periods of care,4,16 to 17 years,30,20
+2020,Reporting year,National,E92000001,England,Number of periods of care,4,18 years and over,100,58
+2020,Reporting year,National,E92000001,England,Number of periods of care,4,5 to 9 years,10,3
+2020,Reporting year,National,E92000001,England,Number of periods of care,4,Under 1 year,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,5,1 to 4 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,5,10 to 15 years,10,16
+2020,Reporting year,National,E92000001,England,Number of periods of care,5,16 to 17 years,20,31
+2020,Reporting year,National,E92000001,England,Number of periods of care,5,18 years and over,30,53
+2020,Reporting year,National,E92000001,England,Number of periods of care,5,5 to 9 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,5,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,6,1 to 4 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,6,10 to 15 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,6,16 to 17 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,6,18 years and over,10,66
+2020,Reporting year,National,E92000001,England,Number of periods of care,6,5 to 9 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,6,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,7,1 to 4 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,7,10 to 15 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,7,16 to 17 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,7,18 years and over,10,76
+2020,Reporting year,National,E92000001,England,Number of periods of care,7,5 to 9 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,7,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,8,1 to 4 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,8,10 to 15 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,8,16 to 17 years,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,8,18 years and over,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,8,5 to 9 years,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,8,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of periods of care,9,1 to 4 years,0,z
+2020,Reporting year,National,E92000001,England,Number of periods of care,9,10 to 15 years,0,z
+2020,Reporting year,National,E92000001,England,Number of periods of care,9,16 to 17 years,0,z
+2020,Reporting year,National,E92000001,England,Number of periods of care,9,18 years and over,0,z
+2020,Reporting year,National,E92000001,England,Number of periods of care,9,5 to 9 years,0,z
+2020,Reporting year,National,E92000001,England,Number of periods of care,9,Under 1 year,0,z
+2020,Reporting year,National,E92000001,England,Number of periods of care,Total,1 to 4 years,6550,22
+2020,Reporting year,National,E92000001,England,Number of periods of care,Total,10 to 15 years,4390,15
+2020,Reporting year,National,E92000001,England,Number of periods of care,Total,16 to 17 years,2830,10
+2020,Reporting year,National,E92000001,England,Number of periods of care,Total,18 years and over,10330,35
+2020,Reporting year,National,E92000001,England,Number of periods of care,Total,5 to 9 years,3450,12
+2020,Reporting year,National,E92000001,England,Number of periods of care,Total,Under 1 year,2150,7
+2020,Reporting year,National,E92000001,England,Number of placements,1,1 to 4 years,1870,18
+2020,Reporting year,National,E92000001,England,Number of placements,1,10 to 15 years,2150,21
+2020,Reporting year,National,E92000001,England,Number of placements,1,16 to 17 years,1410,13
+2020,Reporting year,National,E92000001,England,Number of placements,1,18 years and over,2420,23
+2020,Reporting year,National,E92000001,England,Number of placements,1,5 to 9 years,1600,15
+2020,Reporting year,National,E92000001,England,Number of placements,1,Under 1 year,1050,10
+2020,Reporting year,National,E92000001,England,Number of placements,10 or more,1 to 4 years,c,c
+2020,Reporting year,National,E92000001,England,Number of placements,10 or more,10 to 15 years,30,3
+2020,Reporting year,National,E92000001,England,Number of placements,10 or more,16 to 17 years,90,9
+2020,Reporting year,National,E92000001,England,Number of placements,10 or more,18 years and over,810,86
+2020,Reporting year,National,E92000001,England,Number of placements,10 or more,5 to 9 years,10,1
+2020,Reporting year,National,E92000001,England,Number of placements,10 or more,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of placements,2,1 to 4 years,2260,30
+2020,Reporting year,National,E92000001,England,Number of placements,2,10 to 15 years,1060,14
+2020,Reporting year,National,E92000001,England,Number of placements,2,16 to 17 years,570,7
+2020,Reporting year,National,E92000001,England,Number of placements,2,18 years and over,2170,28
+2020,Reporting year,National,E92000001,England,Number of placements,2,5 to 9 years,920,12
+2020,Reporting year,National,E92000001,England,Number of placements,2,Under 1 year,680,9
+2020,Reporting year,National,E92000001,England,Number of placements,3,1 to 4 years,1440,32
+2020,Reporting year,National,E92000001,England,Number of placements,3,10 to 15 years,510,11
+2020,Reporting year,National,E92000001,England,Number of placements,3,16 to 17 years,320,7
+2020,Reporting year,National,E92000001,England,Number of placements,3,18 years and over,1460,32
+2020,Reporting year,National,E92000001,England,Number of placements,3,5 to 9 years,460,10
+2020,Reporting year,National,E92000001,England,Number of placements,3,Under 1 year,320,7
+2020,Reporting year,National,E92000001,England,Number of placements,4,1 to 4 years,620,25
+2020,Reporting year,National,E92000001,England,Number of placements,4,10 to 15 years,290,11
+2020,Reporting year,National,E92000001,England,Number of placements,4,16 to 17 years,160,6
+2020,Reporting year,National,E92000001,England,Number of placements,4,18 years and over,1110,44
+2020,Reporting year,National,E92000001,England,Number of placements,4,5 to 9 years,260,10
+2020,Reporting year,National,E92000001,England,Number of placements,4,Under 1 year,80,3
+2020,Reporting year,National,E92000001,England,Number of placements,5,1 to 4 years,240,17
+2020,Reporting year,National,E92000001,England,Number of placements,5,10 to 15 years,160,11
+2020,Reporting year,National,E92000001,England,Number of placements,5,16 to 17 years,100,7
+2020,Reporting year,National,E92000001,England,Number of placements,5,18 years and over,810,56
+2020,Reporting year,National,E92000001,England,Number of placements,5,5 to 9 years,120,8
+2020,Reporting year,National,E92000001,England,Number of placements,5,Under 1 year,20,1
+2020,Reporting year,National,E92000001,England,Number of placements,6,1 to 4 years,70,8
+2020,Reporting year,National,E92000001,England,Number of placements,6,10 to 15 years,100,11
+2020,Reporting year,National,E92000001,England,Number of placements,6,16 to 17 years,60,7
+2020,Reporting year,National,E92000001,England,Number of placements,6,18 years and over,610,69
+2020,Reporting year,National,E92000001,England,Number of placements,6,5 to 9 years,50,5
+2020,Reporting year,National,E92000001,England,Number of placements,6,Under 1 year,c,c
+2020,Reporting year,National,E92000001,England,Number of placements,7,1 to 4 years,30,5
+2020,Reporting year,National,E92000001,England,Number of placements,7,10 to 15 years,60,10
+2020,Reporting year,National,E92000001,England,Number of placements,7,16 to 17 years,70,12
+2020,Reporting year,National,E92000001,England,Number of placements,7,18 years and over,390,69
+2020,Reporting year,National,E92000001,England,Number of placements,7,5 to 9 years,30,5
+2020,Reporting year,National,E92000001,England,Number of placements,7,Under 1 year,c,c
+2020,Reporting year,National,E92000001,England,Number of placements,8,1 to 4 years,20,4
+2020,Reporting year,National,E92000001,England,Number of placements,8,10 to 15 years,30,7
+2020,Reporting year,National,E92000001,England,Number of placements,8,16 to 17 years,40,11
+2020,Reporting year,National,E92000001,England,Number of placements,8,18 years and over,270,76
+2020,Reporting year,National,E92000001,England,Number of placements,8,5 to 9 years,10,2
+2020,Reporting year,National,E92000001,England,Number of placements,8,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of placements,9,1 to 4 years,c,c
+2020,Reporting year,National,E92000001,England,Number of placements,9,10 to 15 years,20,5
+2020,Reporting year,National,E92000001,England,Number of placements,9,16 to 17 years,30,9
+2020,Reporting year,National,E92000001,England,Number of placements,9,18 years and over,280,83
+2020,Reporting year,National,E92000001,England,Number of placements,9,5 to 9 years,c,c
+2020,Reporting year,National,E92000001,England,Number of placements,9,Under 1 year,0,0
+2020,Reporting year,National,E92000001,England,Number of placements,Total,1 to 4 years,6550,22
+2020,Reporting year,National,E92000001,England,Number of placements,Total,10 to 15 years,4390,15
+2020,Reporting year,National,E92000001,England,Number of placements,Total,16 to 17 years,2830,10
+2020,Reporting year,National,E92000001,England,Number of placements,Total,18 years and over,10330,35
+2020,Reporting year,National,E92000001,England,Number of placements,Total,5 to 9 years,3450,12
+2020,Reporting year,National,E92000001,England,Number of placements,Total,Under 1 year,2150,7
+2021,Reporting year,National,E92000001,England,Number of periods of care,1,1 to 4 years,5670,23
+2021,Reporting year,National,E92000001,England,Number of periods of care,1,10 to 15 years,3150,13
+2021,Reporting year,National,E92000001,England,Number of periods of care,1,16 to 17 years,2070,8
+2021,Reporting year,National,E92000001,England,Number of periods of care,1,18 years and over,8920,37
+2021,Reporting year,National,E92000001,England,Number of periods of care,1,5 to 9 years,2940,12
+2021,Reporting year,National,E92000001,England,Number of periods of care,1,Under 1 year,1630,7
+2021,Reporting year,National,E92000001,England,Number of periods of care,10 or more,1 to 4 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,10 or more,10 to 15 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,10 or more,16 to 17 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,10 or more,18 years and over,10,71
+2021,Reporting year,National,E92000001,England,Number of periods of care,10 or more,5 to 9 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,2,1 to 4 years,280,10
+2021,Reporting year,National,E92000001,England,Number of periods of care,2,10 to 15 years,460,16
+2021,Reporting year,National,E92000001,England,Number of periods of care,2,16 to 17 years,340,12
+2021,Reporting year,National,E92000001,England,Number of periods of care,2,18 years and over,1430,50
+2021,Reporting year,National,E92000001,England,Number of periods of care,2,5 to 9 years,310,11
+2021,Reporting year,National,E92000001,England,Number of periods of care,2,Under 1 year,10,~
+2021,Reporting year,National,E92000001,England,Number of periods of care,3,1 to 4 years,20,4
+2021,Reporting year,National,E92000001,England,Number of periods of care,3,10 to 15 years,90,17
+2021,Reporting year,National,E92000001,England,Number of periods of care,3,16 to 17 years,80,15
+2021,Reporting year,National,E92000001,England,Number of periods of care,3,18 years and over,300,57
+2021,Reporting year,National,E92000001,England,Number of periods of care,3,5 to 9 years,40,7
+2021,Reporting year,National,E92000001,England,Number of periods of care,3,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,4,1 to 4 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,4,10 to 15 years,20,14
+2021,Reporting year,National,E92000001,England,Number of periods of care,4,16 to 17 years,40,21
+2021,Reporting year,National,E92000001,England,Number of periods of care,4,18 years and over,100,60
+2021,Reporting year,National,E92000001,England,Number of periods of care,4,5 to 9 years,10,5
+2021,Reporting year,National,E92000001,England,Number of periods of care,4,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,5,1 to 4 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,5,10 to 15 years,10,14
+2021,Reporting year,National,E92000001,England,Number of periods of care,5,16 to 17 years,10,18
+2021,Reporting year,National,E92000001,England,Number of periods of care,5,18 years and over,30,59
+2021,Reporting year,National,E92000001,England,Number of periods of care,5,5 to 9 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,5,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,6,1 to 4 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,6,10 to 15 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,6,16 to 17 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,6,18 years and over,10,52
+2021,Reporting year,National,E92000001,England,Number of periods of care,6,5 to 9 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,6,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,7,1 to 4 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,7,10 to 15 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,7,16 to 17 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,7,18 years and over,10,100
+2021,Reporting year,National,E92000001,England,Number of periods of care,7,5 to 9 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,7,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,8,1 to 4 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,8,10 to 15 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,8,16 to 17 years,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,8,18 years and over,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,8,5 to 9 years,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,8,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of periods of care,9,1 to 4 years,0,z
+2021,Reporting year,National,E92000001,England,Number of periods of care,9,10 to 15 years,0,z
+2021,Reporting year,National,E92000001,England,Number of periods of care,9,16 to 17 years,0,z
+2021,Reporting year,National,E92000001,England,Number of periods of care,9,18 years and over,0,z
+2021,Reporting year,National,E92000001,England,Number of periods of care,9,5 to 9 years,0,z
+2021,Reporting year,National,E92000001,England,Number of periods of care,9,Under 1 year,0,z
+2021,Reporting year,National,E92000001,England,Number of periods of care,Total,1 to 4 years,5980,21
+2021,Reporting year,National,E92000001,England,Number of periods of care,Total,10 to 15 years,3740,13
+2021,Reporting year,National,E92000001,England,Number of periods of care,Total,16 to 17 years,2540,9
+2021,Reporting year,National,E92000001,England,Number of periods of care,Total,18 years and over,10810,39
+2021,Reporting year,National,E92000001,England,Number of periods of care,Total,5 to 9 years,3300,12
+2021,Reporting year,National,E92000001,England,Number of periods of care,Total,Under 1 year,1640,6
+2021,Reporting year,National,E92000001,England,Number of placements,1,1 to 4 years,1690,18
+2021,Reporting year,National,E92000001,England,Number of placements,1,10 to 15 years,1830,19
+2021,Reporting year,National,E92000001,England,Number of placements,1,16 to 17 years,1210,13
+2021,Reporting year,National,E92000001,England,Number of placements,1,18 years and over,2460,26
+2021,Reporting year,National,E92000001,England,Number of placements,1,5 to 9 years,1450,15
+2021,Reporting year,National,E92000001,England,Number of placements,1,Under 1 year,820,9
+2021,Reporting year,National,E92000001,England,Number of placements,10 or more,1 to 4 years,c,c
+2021,Reporting year,National,E92000001,England,Number of placements,10 or more,10 to 15 years,30,2
+2021,Reporting year,National,E92000001,England,Number of placements,10 or more,16 to 17 years,60,5
+2021,Reporting year,National,E92000001,England,Number of placements,10 or more,18 years and over,970,91
+2021,Reporting year,National,E92000001,England,Number of placements,10 or more,5 to 9 years,10,1
+2021,Reporting year,National,E92000001,England,Number of placements,10 or more,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of placements,2,1 to 4 years,2020,29
+2021,Reporting year,National,E92000001,England,Number of placements,2,10 to 15 years,880,13
+2021,Reporting year,National,E92000001,England,Number of placements,2,16 to 17 years,530,8
+2021,Reporting year,National,E92000001,England,Number of placements,2,18 years and over,2200,31
+2021,Reporting year,National,E92000001,England,Number of placements,2,5 to 9 years,870,12
+2021,Reporting year,National,E92000001,England,Number of placements,2,Under 1 year,500,7
+2021,Reporting year,National,E92000001,England,Number of placements,3,1 to 4 years,1340,31
+2021,Reporting year,National,E92000001,England,Number of placements,3,10 to 15 years,450,10
+2021,Reporting year,National,E92000001,England,Number of placements,3,16 to 17 years,280,6
+2021,Reporting year,National,E92000001,England,Number of placements,3,18 years and over,1530,35
+2021,Reporting year,National,E92000001,England,Number of placements,3,5 to 9 years,530,12
+2021,Reporting year,National,E92000001,England,Number of placements,3,Under 1 year,240,5
+2021,Reporting year,National,E92000001,England,Number of placements,4,1 to 4 years,560,23
+2021,Reporting year,National,E92000001,England,Number of placements,4,10 to 15 years,260,10
+2021,Reporting year,National,E92000001,England,Number of placements,4,16 to 17 years,160,7
+2021,Reporting year,National,E92000001,England,Number of placements,4,18 years and over,1160,47
+2021,Reporting year,National,E92000001,England,Number of placements,4,5 to 9 years,250,10
+2021,Reporting year,National,E92000001,England,Number of placements,4,Under 1 year,80,3
+2021,Reporting year,National,E92000001,England,Number of placements,5,1 to 4 years,230,16
+2021,Reporting year,National,E92000001,England,Number of placements,5,10 to 15 years,120,8
+2021,Reporting year,National,E92000001,England,Number of placements,5,16 to 17 years,110,7
+2021,Reporting year,National,E92000001,England,Number of placements,5,18 years and over,850,60
+2021,Reporting year,National,E92000001,England,Number of placements,5,5 to 9 years,120,8
+2021,Reporting year,National,E92000001,England,Number of placements,5,Under 1 year,10,1
+2021,Reporting year,National,E92000001,England,Number of placements,6,1 to 4 years,90,10
+2021,Reporting year,National,E92000001,England,Number of placements,6,10 to 15 years,100,10
+2021,Reporting year,National,E92000001,England,Number of placements,6,16 to 17 years,90,9
+2021,Reporting year,National,E92000001,England,Number of placements,6,18 years and over,610,66
+2021,Reporting year,National,E92000001,England,Number of placements,6,5 to 9 years,40,5
+2021,Reporting year,National,E92000001,England,Number of placements,6,Under 1 year,c,c
+2021,Reporting year,National,E92000001,England,Number of placements,7,1 to 4 years,30,5
+2021,Reporting year,National,E92000001,England,Number of placements,7,10 to 15 years,40,6
+2021,Reporting year,National,E92000001,England,Number of placements,7,16 to 17 years,50,7
+2021,Reporting year,National,E92000001,England,Number of placements,7,18 years and over,520,78
+2021,Reporting year,National,E92000001,England,Number of placements,7,5 to 9 years,20,3
+2021,Reporting year,National,E92000001,England,Number of placements,7,Under 1 year,c,c
+2021,Reporting year,National,E92000001,England,Number of placements,8,1 to 4 years,10,3
+2021,Reporting year,National,E92000001,England,Number of placements,8,10 to 15 years,30,7
+2021,Reporting year,National,E92000001,England,Number of placements,8,16 to 17 years,30,8
+2021,Reporting year,National,E92000001,England,Number of placements,8,18 years and over,290,78
+2021,Reporting year,National,E92000001,England,Number of placements,8,5 to 9 years,10,4
+2021,Reporting year,National,E92000001,England,Number of placements,8,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of placements,9,1 to 4 years,c,c
+2021,Reporting year,National,E92000001,England,Number of placements,9,10 to 15 years,20,6
+2021,Reporting year,National,E92000001,England,Number of placements,9,16 to 17 years,20,9
+2021,Reporting year,National,E92000001,England,Number of placements,9,18 years and over,210,83
+2021,Reporting year,National,E92000001,England,Number of placements,9,5 to 9 years,c,c
+2021,Reporting year,National,E92000001,England,Number of placements,9,Under 1 year,0,0
+2021,Reporting year,National,E92000001,England,Number of placements,Total,1 to 4 years,5980,21
+2021,Reporting year,National,E92000001,England,Number of placements,Total,10 to 15 years,3740,13
+2021,Reporting year,National,E92000001,England,Number of placements,Total,16 to 17 years,2540,9
+2021,Reporting year,National,E92000001,England,Number of placements,Total,18 years and over,10810,39
+2021,Reporting year,National,E92000001,England,Number of placements,Total,5 to 9 years,3300,12
+2021,Reporting year,National,E92000001,England,Number of placements,Total,Under 1 year,1640,6
+2018,Reporting year,National,E92000001,England,Number of periods of care,1,Total,25590,85
+2018,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Total,10,~
+2018,Reporting year,National,E92000001,England,Number of periods of care,2,Total,3440,11
+2018,Reporting year,National,E92000001,England,Number of periods of care,3,Total,700,2
+2018,Reporting year,National,E92000001,England,Number of periods of care,4,Total,180,1
+2018,Reporting year,National,E92000001,England,Number of periods of care,5,Total,100,~
+2018,Reporting year,National,E92000001,England,Number of periods of care,6,Total,30,~
+2018,Reporting year,National,E92000001,England,Number of periods of care,7,Total,10,~
+2018,Reporting year,National,E92000001,England,Number of periods of care,8,Total,c,c
+2018,Reporting year,National,E92000001,England,Number of periods of care,9,Total,c,c
+2018,Reporting year,National,E92000001,England,Number of placements,1,Total,11650,39
+2018,Reporting year,National,E92000001,England,Number of placements,10 or more,Total,1000,3
+2018,Reporting year,National,E92000001,England,Number of placements,2,Total,7580,25
+2018,Reporting year,National,E92000001,England,Number of placements,3,Total,4190,14
+2018,Reporting year,National,E92000001,England,Number of placements,4,Total,2250,8
+2018,Reporting year,National,E92000001,England,Number of placements,5,Total,1290,4
+2018,Reporting year,National,E92000001,England,Number of placements,6,Total,830,3
+2018,Reporting year,National,E92000001,England,Number of placements,7,Total,590,2
+2018,Reporting year,National,E92000001,England,Number of placements,8,Total,370,1
+2018,Reporting year,National,E92000001,England,Number of placements,9,Total,300,1
+2019,Reporting year,National,E92000001,England,Number of periods of care,1,Total,25400,86
+2019,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Total,10,~
+2019,Reporting year,National,E92000001,England,Number of periods of care,2,Total,3220,11
+2019,Reporting year,National,E92000001,England,Number of periods of care,3,Total,670,2
+2019,Reporting year,National,E92000001,England,Number of periods of care,4,Total,170,1
+2019,Reporting year,National,E92000001,England,Number of periods of care,5,Total,60,~
+2019,Reporting year,National,E92000001,England,Number of periods of care,6,Total,20,~
+2019,Reporting year,National,E92000001,England,Number of periods of care,7,Total,10,~
+2019,Reporting year,National,E92000001,England,Number of periods of care,8,Total,c,c
+2019,Reporting year,National,E92000001,England,Number of periods of care,9,Total,0,0
+2019,Reporting year,National,E92000001,England,Number of placements,1,Total,10950,37
+2019,Reporting year,National,E92000001,England,Number of placements,10 or more,Total,990,3
+2019,Reporting year,National,E92000001,England,Number of placements,2,Total,7400,25
+2019,Reporting year,National,E92000001,England,Number of placements,3,Total,4450,15
+2019,Reporting year,National,E92000001,England,Number of placements,4,Total,2400,8
+2019,Reporting year,National,E92000001,England,Number of placements,5,Total,1220,4
+2019,Reporting year,National,E92000001,England,Number of placements,6,Total,870,3
+2019,Reporting year,National,E92000001,England,Number of placements,7,Total,610,2
+2019,Reporting year,National,E92000001,England,Number of placements,8,Total,350,1
+2019,Reporting year,National,E92000001,England,Number of placements,9,Total,320,1
+2020,Reporting year,National,E92000001,England,Number of periods of care,1,Total,25780,87
+2020,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Total,10,~
+2020,Reporting year,National,E92000001,England,Number of periods of care,2,Total,2990,10
+2020,Reporting year,National,E92000001,England,Number of periods of care,3,Total,660,2
+2020,Reporting year,National,E92000001,England,Number of periods of care,4,Total,170,1
+2020,Reporting year,National,E92000001,England,Number of periods of care,5,Total,60,~
+2020,Reporting year,National,E92000001,England,Number of periods of care,6,Total,10,~
+2020,Reporting year,National,E92000001,England,Number of periods of care,7,Total,10,~
+2020,Reporting year,National,E92000001,England,Number of periods of care,8,Total,c,c
+2020,Reporting year,National,E92000001,England,Number of periods of care,9,Total,0,0
+2020,Reporting year,National,E92000001,England,Number of placements,1,Total,10490,35
+2020,Reporting year,National,E92000001,England,Number of placements,10 or more,Total,950,3
+2020,Reporting year,National,E92000001,England,Number of placements,2,Total,7670,26
+2020,Reporting year,National,E92000001,England,Number of placements,3,Total,4510,15
+2020,Reporting year,National,E92000001,England,Number of placements,4,Total,2510,8
+2020,Reporting year,National,E92000001,England,Number of placements,5,Total,1440,5
+2020,Reporting year,National,E92000001,England,Number of placements,6,Total,880,3
+2020,Reporting year,National,E92000001,England,Number of placements,7,Total,570,2
+2020,Reporting year,National,E92000001,England,Number of placements,8,Total,360,1
+2020,Reporting year,National,E92000001,England,Number of placements,9,Total,330,1
+2021,Reporting year,National,E92000001,England,Number of periods of care,1,Total,24380,87
+2021,Reporting year,National,E92000001,England,Number of periods of care,10 or more,Total,10,~
+2021,Reporting year,National,E92000001,England,Number of periods of care,2,Total,2840,10
+2021,Reporting year,National,E92000001,England,Number of periods of care,3,Total,540,2
+2021,Reporting year,National,E92000001,England,Number of periods of care,4,Total,170,1
+2021,Reporting year,National,E92000001,England,Number of periods of care,5,Total,40,~
+2021,Reporting year,National,E92000001,England,Number of periods of care,6,Total,10,~
+2021,Reporting year,National,E92000001,England,Number of periods of care,7,Total,10,~
+2021,Reporting year,National,E92000001,England,Number of periods of care,8,Total,c,c
+2021,Reporting year,National,E92000001,England,Number of periods of care,9,Total,0,0
+2021,Reporting year,National,E92000001,England,Number of placements,1,Total,9460,34
+2021,Reporting year,National,E92000001,England,Number of placements,10 or more,Total,1070,4
+2021,Reporting year,National,E92000001,England,Number of placements,2,Total,6990,25
+2021,Reporting year,National,E92000001,England,Number of placements,3,Total,4360,16
+2021,Reporting year,National,E92000001,England,Number of placements,4,Total,2470,9
+2021,Reporting year,National,E92000001,England,Number of placements,5,Total,1440,5
+2021,Reporting year,National,E92000001,England,Number of placements,6,Total,930,3
+2021,Reporting year,National,E92000001,England,Number of placements,7,Total,660,2
+2021,Reporting year,National,E92000001,England,Number of placements,8,Total,370,1
+2021,Reporting year,National,E92000001,England,Number of placements,9,Total,260,1
+2018,Reporting year,National,E92000001,England,Number of periods of care,Total,Total,30050,100
+2018,Reporting year,National,E92000001,England,Number of placements,Total,Total,30050,100
+2019,Reporting year,National,E92000001,England,Number of periods of care,Total,Total,29570,100
+2019,Reporting year,National,E92000001,England,Number of placements,Total,Total,29570,100
+2020,Reporting year,National,E92000001,England,Number of periods of care,Total,Total,29710,100
+2020,Reporting year,National,E92000001,England,Number of placements,Total,Total,29710,100
+2021,Reporting year,National,E92000001,England,Number of periods of care,Total,Total,28010,100
+2021,Reporting year,National,E92000001,England,Number of placements,Total,Total,28010,100

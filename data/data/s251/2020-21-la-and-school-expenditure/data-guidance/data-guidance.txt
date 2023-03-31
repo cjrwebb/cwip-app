@@ -1,0 +1,188 @@
+LA and school expenditure
+2020-21 Financial Year
+
+Description
+
+This document describes the data included in the School Finance in England National Statistics release’s underlying data files. This data is released under the terms of the  Open Government License and is intended to meet at least 3 stars for  Open Data.
+
+The  methodology document should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+Coverage
+
+The Statistical Publication: ‘School Finance in England’ provides the latest information at national, regional and local level on the expenditure on schools, education and children's and young people's services by local authorities. Alongside the local authority spending, the release also provides a detailed breakdown of income and expenditure by schools, with aggregations to the local authority, regional and national level. The publication summarises the information that was collected via the summer 2021 Consistent Financial Reporting (CFR) and S251 Outturn collections . It supersedes the January 2021 data release.
+
+The CFR data will also be available at an individual school level via the Schools Financial Benchmarking website.
+
+This publication includes information on:
+
+- Local authority spending on schools and other education- time-series giving the detailed breakdown of spending split by school-phase and overall spending area (e.g. individual schools budget, expenditure on free school meals, SEN support etc).
+- Local authority spending on children's and young people's services- time-series giving the detailed breakdown of spending split by provision sector (e.g. own, private, voluntary) and spending area (e.g. sure start centres, family services, youth justice etc).
+- Schools' income and expenditure- time-series giving the detailed breakdown of schools income and expenditure by school phase and financial area (e.g. staff, estates and buildings, etc)
+- Schools' revenue balances- time-series giving the overall financial balance data for schools and overall numbers of schools in surplus and deficit.
+
+File formats and conventions
+
+The data files are provided in comma-separated values format, which is compatible with standard spreadsheet software such as Excel.
+
+The following symbols are used in the underlying data files as follows:
+
+: Not available - this information has not been collected or there are no estimates available at this level of aggregation.
+
+N/A Not available - this is normally where a statistic cannot be produced. For example where a denominator is not available to produce a percentage.
+
+z= not applicable. The 'z' symbol is only to be used when an observation is not applicable (e.g. in tables of employment where people under 16 cannot legally be employed).
+
+Data files
+
+LA maintained schools, all expenditure (National, Regional, LA levels) (£million)
+
+Filename: la_maintained_schools_expenditure_final.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2015-16 to 2020-21
+Content summary: This file contains expenditure data for local authority maintained schools collected via the Consistent Financial reporting data collection.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------------
+expenditure_£million     |  Expenditure (£ million)
+expenditure_description  |  Category of expenditure
+expenditure_per_pupil    |  Expenditure per pupil
+school_phase             |  Phase of education - Filter by school type
+
+Footnotes:
+
+1. There are a small number of local authorities with no LA maintained secondary schools, all are academies.
+
+
+LA maintained schools, all income (National, Regional, LA levels) (£million)
+
+Filename: la_maintained_schools_income_final.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2015-16 to 2020-21
+Content summary: This file contains income data for local authority maintained schools collected via the Consistent Financial reporting data collection.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  ------------------------------------------
+income_£million     |  Income (£ million)
+income_description  |  Category of income
+income_per_pupil    |  Income per pupil
+school_phase        |  Phase of education - Filter by school type
+
+Footnotes:
+
+1. There are a small number of local authorities with no LA maintained secondary schools, all are academies.
+
+
+LA maintained schools, revenue reserves, (National, Regional, LA levels) (£million)
+
+Filename: la_maintained_schools_revenue_reserve_final.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2015-16 to 2020-21
+Content summary: This file contains revenue reserves data for local authority maintained schools collected via the Consistent Financial reporting data collection.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                  |  Variable description
+---------------------------------------------  |  ----------------------------------------------------------------------
+average_revenue_balance                        |  Average revenue balance per school
+B01_million                                    |  Committed revenue balances (B01) (£ million)
+B02_million                                    |  Uncommitted revenue balances (B02) (£ million)
+B03_million                                    |  Devolved formula capital balance (B03) (£ million)
+B05_million                                    |  Other capital balances (B05) (£ million)
+B06_million                                    |  Community-focused school revenue balances (B06) (£ million)
+number_schools                                 |  Number of schools making a Consistent Financial Reporting (CFR) return
+number_schools_with_deficit                    |  Number of schools with a negative revenue balance
+number_schools_with_surplus                    |  Number of schools with a surplus revenue balance
+OB01_million                                   |  Opening pupil-focused revenue balance (OB01) (£ million)
+OB02_million                                   |  Opening community-focused revenue balance (OB02) (£ million)
+OB03_million                                   |  Opening capital balance (OB03)(£ million)
+PC_schools_with_deficit                        |  Percentage of schools with a negative revenue balance (deficit)
+PC_schools_with_surplus                        |  Percentage of schools with a surplus revenue balance
+revenue_balance_as_pc_total_income             |  Revenue balance as a percentage of total income
+school_over_threshold_av_per_school            |  Average surplus per school for schools over the threshold
+school_over_threshold_pc_surplus               |  Percentage of schools with a surplus over the threshold
+school_phase                                   |  Phase of education - Filter by school type
+school_surplus_over_threshold_million          |  Total surplus of schools over the threshold (£ million)
+schools_surplus_over_threshold                 |  Number of schools with a surplus over the threshold
+total_income_million                           |  Total income (£ million)
+total_revenue_balance_million                  |  Total revenue balance (£ million)
+total_revenue_reserve_schools_deficit_million  |  Total revenue balance of schools with a deficit (£ million)
+total_revenue_reserve_schools_surplus_million  |  Total revenue balance of schools with a surplus (£ million)
+
+Footnotes:
+
+1. There are a small number of local authorities with no LA maintained secondary schools, all are academies.
+2. Includes schools making a part year return as they converted to academies part way through the financial year 
+
+
+S251 Outturn - Children and Young People's Services (National, Regional, LA levels)
+
+Filename: s251outturn_cypservices.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2015-16 to 2020-21
+Content summary: This file contains details of expenditure on children's services, and young peoples services by local authorities collected via the Section 251 Outturn return.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                  |  Variable description
+-----------------------------  |  --------------------------------------------------------
+description_of_expenditure     |  Category of expenditure - Filter by expenditure category
+grants_inside_AEF              |  Grants inside of aggregate external finance (£ million)
+grants_outside_AEF             |  Grants outside of aggregate external finance (£ million)
+income                         |  Income (£ million)
+net_current_expenditure        |  Total net current expenditure (£ million)
+net_revenue_expenditure        |  Net revenue expenditure (£ million)
+other_public_sector_provision  |  Spend on other public sector provision (£ million)
+own_provision                  |  Spend on LAs own provision (£ million)
+per_capita_net_current_spend   |  Per capita net current expenditure (£)
+private_provision              |  Spend on private provision (£ million)
+total_expenditure              |  Total gross expenditure (£ million)
+voluntary_provision            |  Spend on voluntary provision (£ million)
+
+
+S251 Outturn - Schools and other education (National, Regional, LA levels)
+
+Filename: s251outturn_schools_education.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2015-16 to 2020-21
+Content summary: This file contains details of school expenditure and other education and community expenditure by local authorities collected via the Section 251 Outturn return.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                           |  Variable description
+--------------------------------------  |  --------------------------------------------------------
+category_of_expenditure                 |  Category of expenditure - Filter by expenditure category
+early_years_establishments              |  Spend on early years establishments (£ million)
+gross_expenditure                       |  Total gross expenditure (£ million)
+income                                  |  Income (£ million)
+net_expenditure                         |  Total net expenditure (£ million)
+net_per_capita_expenditure              |  Per pupil net expenditure (£)
+post_16                                 |  Spend on post 16 establishments (£ million)
+primary_schools                         |  Spend on primary schools (£ million)
+pupil_referral_units_and_alt_provision  |  Spend on pupil referall units and AP (£ million)
+secondary_schools                       |  Spend on secondary schools (£ million)
+sen_and_special_schools                 |  Spend on special schools (£ million)
+
+
+Summary data for headline figures
+
+Filename: overall_summary_data.csv
+Geographic levels: National
+Time period: 2015-16 to 2020-21
+Content summary: This file contains a summary of the headline, national level figures for this publication.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name           |  Variable description
+----------------------  |  -----------------------------------------------------------------------------------------------------------------------------------
+expenditure_la_schools  |  Expenditure by local authority maintained schools (billion)
+income_la_schools       |  Income of local authority maintained schools (billion)
+Indicator               |  School or local authority
+la_all                  |  Total expenditure by local authorities on schools, childrens and young peoples services and other education and community (billion)
+la_cyps                 |  Total expenditure by local authorities on childrens and young peoples services (billion)
+la_other                |  Total expenditure by local authorities on other education and community (billion)
+la_schools              |  Total expenditure by local authorities on schools (billion)
+pc_deficit              |  Percentage of local authority maintained schools in deficit

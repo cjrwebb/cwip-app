@@ -1,0 +1,811 @@
+﻿time_period,time_identifier,geographic_level,country_name,country_code,region_name,region_code,la_name,old_la_code,new_la_code,ReportGroup,Description,AllocatedDSGFunding,Plannedspend,Net
+201920,Financial year,National,England,E92000001,,,,,,DSG Funding Allocation,Central School Services,467.04136599,454.39512803,12.64623796
+201920,Financial year,National,England,E92000001,,,,,,DSG Funding Allocation,Early Years,3605.52522218,3513.74245574,91.78276644
+201920,Financial year,National,England,E92000001,,,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),5493.03899978,6086.6556114,-593.61661162
+201920,Financial year,National,England,E92000001,,,,,,DSG Funding Allocation,Schools (after academy recoupment),16113.04623146,15949.01106036,164.0351711
+201920,Financial year,National,England,E92000001,,,,,,DSG Funding Allocation,Total DSG,25678.65181941,26003.80425553,-325.15243612
+201920,Financial year,Regional,England,E92000001,North East,E12000001,,,,DSG Funding Allocation,Central School Services,21.60873176,20.81386825,0.79486351
+201920,Financial year,Regional,England,E92000001,North East,E12000001,,,,DSG Funding Allocation,Early Years,171.93727975,170.01928883,1.91799092
+201920,Financial year,Regional,England,E92000001,North East,E12000001,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),245.98438054,269.16965157,-23.18527103
+201920,Financial year,Regional,England,E92000001,North East,E12000001,,,,DSG Funding Allocation,Schools (after academy recoupment),766.10501913,764.03618977,2.06882936
+201920,Financial year,Regional,England,E92000001,North East,E12000001,,,,DSG Funding Allocation,Total DSG,1205.63541118,1224.03899842,-18.40358724
+201920,Financial year,Regional,England,E92000001,North West,E12000002,,,,DSG Funding Allocation,Central School Services,55.50752327,54.65526015,0.85226312
+201920,Financial year,Regional,England,E92000001,North West,E12000002,,,,DSG Funding Allocation,Early Years,495.04037188,449.35197753,45.68839435
+201920,Financial year,Regional,England,E92000001,North West,E12000002,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),733.58523901,797.61223399,-64.02699498
+201920,Financial year,Regional,England,E92000001,North West,E12000002,,,,DSG Funding Allocation,Schools (after academy recoupment),2982.61192369,2890.02670006,92.58522363
+201920,Financial year,Regional,England,E92000001,North West,E12000002,,,,DSG Funding Allocation,Total DSG,4266.74505785,4191.64617173,75.09888612
+201920,Financial year,Regional,England,E92000001,Yorkshire and the Humber,E12000003,,,,DSG Funding Allocation,Central School Services,43.05384796,40.87540499,2.17844297
+201920,Financial year,Regional,England,E92000001,Yorkshire and the Humber,E12000003,,,,DSG Funding Allocation,Early Years,351.63748338,342.05573263,9.58175075
+201920,Financial year,Regional,England,E92000001,Yorkshire and the Humber,E12000003,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),463.71339052,529.9685868,-66.25519628
+201920,Financial year,Regional,England,E92000001,Yorkshire and the Humber,E12000003,,,,DSG Funding Allocation,Schools (after academy recoupment),1413.59331667,1399.5794999,14.01381677
+201920,Financial year,Regional,England,E92000001,Yorkshire and the Humber,E12000003,,,,DSG Funding Allocation,Total DSG,2271.99803853,2312.47922432,-40.48118579
+201920,Financial year,Regional,England,E92000001,East Midlands,E12000004,,,,DSG Funding Allocation,Central School Services,44.85895114,45.69558965,-0.83663851
+201920,Financial year,Regional,England,E92000001,East Midlands,E12000004,,,,DSG Funding Allocation,Early Years,280.1592686,275.99336425,4.16590435
+201920,Financial year,Regional,England,E92000001,East Midlands,E12000004,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),418.88649292,465.14954785,-46.26305493
+201920,Financial year,Regional,England,E92000001,East Midlands,E12000004,,,,DSG Funding Allocation,Schools (after academy recoupment),991.92819873,980.26155272,11.66664601
+201920,Financial year,Regional,England,E92000001,East Midlands,E12000004,,,,DSG Funding Allocation,Total DSG,1735.83291139,1767.10005447,-31.26714308
+201920,Financial year,Regional,England,E92000001,West Midlands,E12000005,,,,DSG Funding Allocation,Central School Services,55.97447995,55.74639534,0.22808461
+201920,Financial year,Regional,England,E92000001,West Midlands,E12000005,,,,DSG Funding Allocation,Early Years,379.05250495,375.52521341,3.52729154
+201920,Financial year,Regional,England,E92000001,West Midlands,E12000005,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),564.48397591,571.0365206,-6.55254469
+201920,Financial year,Regional,England,E92000001,West Midlands,E12000005,,,,DSG Funding Allocation,Schools (after academy recoupment),1616.35797964,1611.08364344,5.2743362
+201920,Financial year,Regional,England,E92000001,West Midlands,E12000005,,,,DSG Funding Allocation,Total DSG,2615.86894045,2613.39177279,2.47716765999999
+201920,Financial year,Regional,England,E92000001,East of England,E12000006,,,,DSG Funding Allocation,Central School Services,49.687452,48.29158297,1.39586903
+201920,Financial year,Regional,England,E92000001,East of England,E12000006,,,,DSG Funding Allocation,Early Years,373.52432,368.34783668,5.17648332
+201920,Financial year,Regional,England,E92000001,East of England,E12000006,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),522.876056,567.47496991,-44.59891391
+201920,Financial year,Regional,England,E92000001,East of England,E12000006,,,,DSG Funding Allocation,Schools (after academy recoupment),1311.526004,1305.05937061,6.46663339
+201920,Financial year,Regional,England,E92000001,East of England,E12000006,,,,DSG Funding Allocation,Total DSG,2257.613832,2289.17376017,-31.55992817
+201920,Financial year,Regional,England,E92000001,South East,E12000008,,,,DSG Funding Allocation,Central School Services,70.93153686,66.09860763,4.83292923
+201920,Financial year,Regional,England,E92000001,South East,E12000008,,,,DSG Funding Allocation,Early Years,540.84875214,532.53099465,8.31775749
+201920,Financial year,Regional,England,E92000001,South East,E12000008,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),920.41831824,1059.33748256,-138.91916432
+201920,Financial year,Regional,England,E92000001,South East,E12000008,,,,DSG Funding Allocation,Schools (after academy recoupment),2652.9776145,2625.64628533,27.33132917
+201920,Financial year,Regional,England,E92000001,South East,E12000008,,,,DSG Funding Allocation,Total DSG,4185.17622174,4283.61337017,-98.43714843
+201920,Financial year,Regional,England,E92000001,South West,E12000009,,,,DSG Funding Allocation,Central School Services,41.58925945,40.71984538,0.86941407
+201920,Financial year,Regional,England,E92000001,South West,E12000009,,,,DSG Funding Allocation,Early Years,305.72564469,303.83564146,1.89000323
+201920,Financial year,Regional,England,E92000001,South West,E12000009,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),475.13473207,545.37799705,-70.24326498
+201920,Financial year,Regional,England,E92000001,South West,E12000009,,,,DSG Funding Allocation,Schools (after academy recoupment),1022.45106726,1014.77421099,7.67685627
+201920,Financial year,Regional,England,E92000001,South West,E12000009,,,,DSG Funding Allocation,Total DSG,1844.90070347,1904.70769488,-59.80699141
+201920,Financial year,Regional,England,E92000001,Inner London,E13000001,,,,DSG Funding Allocation,Central School Services,33.16972674,30.5877639,2.58196284
+201920,Financial year,Regional,England,E92000001,Inner London,E13000001,,,,DSG Funding Allocation,Early Years,295.79164382,291.89186271,3.89978111
+201920,Financial year,Regional,England,E92000001,Inner London,E13000001,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),460.34305808,516.95872189,-56.61566381
+201920,Financial year,Regional,England,E92000001,Inner London,E13000001,,,,DSG Funding Allocation,Schools (after academy recoupment),1491.76223697,1484.39373606,7.36850091
+201920,Financial year,Regional,England,E92000001,Inner London,E13000001,,,,DSG Funding Allocation,Total DSG,2281.06666561,2323.83208456,-42.76541895
+201920,Financial year,Regional,England,E92000001,Outer London,E13000002,,,,DSG Funding Allocation,Central School Services,50.65985686,50.91080977,-0.25095291
+201920,Financial year,Regional,England,E92000001,Outer London,E13000002,,,,DSG Funding Allocation,Early Years,411.80795297,404.19054359,7.61740938
+201920,Financial year,Regional,England,E92000001,Outer London,E13000002,,,,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),687.61335649,764.56989918,-76.95654269
+201920,Financial year,Regional,England,E92000001,Outer London,E13000002,,,,DSG Funding Allocation,Schools (after academy recoupment),1863.73287087,1874.14987148,-10.41700061
+201920,Financial year,Regional,England,E92000001,Outer London,E13000002,,,,DSG Funding Allocation,Total DSG,3013.81403719,3093.82112402,-80.00708683
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Hartlepool,805,E06000001,DSG Funding Allocation,Central School Services,0.91807541,0.55217837,0.36589704
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Hartlepool,805,E06000001,DSG Funding Allocation,Early Years,6.13843904,6.23406956,-0.09563052
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Hartlepool,805,E06000001,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),8.95589237,10.08985936,-1.13396699
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Hartlepool,805,E06000001,DSG Funding Allocation,Schools (after academy recoupment),32.12761469,31.83023629,0.2973784
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Hartlepool,805,E06000001,DSG Funding Allocation,Total DSG,48.14002151,48.70634358,-0.56632207
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Middlesbrough,806,E06000002,DSG Funding Allocation,Central School Services,1.136252,1.045304,0.090948
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Middlesbrough,806,E06000002,DSG Funding Allocation,Early Years,11.2043,11.203234,0.001066
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Middlesbrough,806,E06000002,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),17.93559,19.90206,-1.96647
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Middlesbrough,806,E06000002,DSG Funding Allocation,Schools (after academy recoupment),18.342291,17.267239,1.075052
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Middlesbrough,806,E06000002,DSG Funding Allocation,Total DSG,48.618433,49.417837,-0.799404
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Redcar and Cleveland,807,E06000003,DSG Funding Allocation,Central School Services,0.8574,0.8574,0
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Redcar and Cleveland,807,E06000003,DSG Funding Allocation,Early Years,7.64354,7.650925,-0.007385
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Redcar and Cleveland,807,E06000003,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),13.424705,16.100994,-2.676289
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Redcar and Cleveland,807,E06000003,DSG Funding Allocation,Schools (after academy recoupment),21.87606,21.460179,0.415881
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Redcar and Cleveland,807,E06000003,DSG Funding Allocation,Total DSG,43.801705,46.069498,-2.267793
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Stockton-on-Tees,808,E06000004,DSG Funding Allocation,Central School Services,0.876289,1.021589,-0.1453
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Stockton-on-Tees,808,E06000004,DSG Funding Allocation,Early Years,13.180343,12.904532,0.275811
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Stockton-on-Tees,808,E06000004,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.824208,20.529684,-3.705476
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Stockton-on-Tees,808,E06000004,DSG Funding Allocation,Schools (after academy recoupment),41.34916,39.674684,1.674476
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Stockton-on-Tees,808,E06000004,DSG Funding Allocation,Total DSG,72.23,74.130489,-1.900489
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Darlington,841,E06000005,DSG Funding Allocation,Central School Services,1.459432,1.359064,0.100368
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Darlington,841,E06000005,DSG Funding Allocation,Early Years,7.087952,7.011136,0.076816
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Darlington,841,E06000005,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),8.789198,11.207238,-2.41804
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Darlington,841,E06000005,DSG Funding Allocation,Schools (after academy recoupment),6.027156,5.561501,0.465655
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Darlington,841,E06000005,DSG Funding Allocation,Total DSG,23.363738,25.138939,-1.775201
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Durham,840,E06000047,DSG Funding Allocation,Central School Services,2.85617,2.84017,0.016
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Durham,840,E06000047,DSG Funding Allocation,Early Years,31.833236,31.928236,-0.095
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Durham,840,E06000047,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),48.522123,57.120123,-8.598
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Durham,840,E06000047,DSG Funding Allocation,Schools (after academy recoupment),197.750094,197.402527,0.347567
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Durham,840,E06000047,DSG Funding Allocation,Total DSG,280.961623,289.291056,-8.329433
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Northumberland,929,E06000057,DSG Funding Allocation,Central School Services,3.12761,3.241148,-0.113538
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Northumberland,929,E06000057,DSG Funding Allocation,Early Years,16.994411,17.175024,-0.180613
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Northumberland,929,E06000057,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),30.306708,24.666741,5.639967
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Northumberland,929,E06000057,DSG Funding Allocation,Schools (after academy recoupment),87.553423,92.140795,-4.587372
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Northumberland,929,E06000057,DSG Funding Allocation,Total DSG,137.982152,137.223708,0.758444
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Newcastle upon Tyne,391,E08000021,DSG Funding Allocation,Central School Services,1.632,1.420015,0.211985
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Newcastle upon Tyne,391,E08000021,DSG Funding Allocation,Early Years,20.972,20.44337417,0.52862583
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Newcastle upon Tyne,391,E08000021,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.765,25.42281441,2.34218559
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Newcastle upon Tyne,391,E08000021,DSG Funding Allocation,Schools (after academy recoupment),71.862,72.07279634,-0.21079634
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Newcastle upon Tyne,391,E08000021,DSG Funding Allocation,Total DSG,122.231,119.35899992,2.87200008
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,North Tyneside,392,E08000022,DSG Funding Allocation,Central School Services,2.343094,2.343094,0
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,North Tyneside,392,E08000022,DSG Funding Allocation,Early Years,13.487601,13.936987,-0.449386
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,North Tyneside,392,E08000022,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),20.030508,23.655832,-3.625324
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,North Tyneside,392,E08000022,DSG Funding Allocation,Schools (after academy recoupment),105.749791,105.682637,0.067154
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,North Tyneside,392,E08000022,DSG Funding Allocation,Total DSG,141.610994,145.61855,-4.007556
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,South Tyneside,393,E08000023,DSG Funding Allocation,Central School Services,3.398781,3.398781,0
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,South Tyneside,393,E08000023,DSG Funding Allocation,Early Years,10.132285,9.878327,0.253958
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,South Tyneside,393,E08000023,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.606307,18.427129,-1.820822
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,South Tyneside,393,E08000023,DSG Funding Allocation,Schools (after academy recoupment),63.291222,63.225299,0.065923
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,South Tyneside,393,E08000023,DSG Funding Allocation,Total DSG,93.428595,94.929536,-1.500941
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Sunderland,394,E08000024,DSG Funding Allocation,Central School Services,1.27505,1.25596019,0.01908981
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Sunderland,394,E08000024,DSG Funding Allocation,Early Years,19.227526,18.57194505,0.65558095
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Sunderland,394,E08000024,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),17.205452,20.74302114,-3.53756914
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Sunderland,394,E08000024,DSG Funding Allocation,Schools (after academy recoupment),53.152972,51.97862258,1.17434942
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Sunderland,394,E08000024,DSG Funding Allocation,Total DSG,90.861,92.54954896,-1.68854896
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Gateshead,390,E08000037,DSG Funding Allocation,Central School Services,1.72857835,1.47916469,0.24941366
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Gateshead,390,E08000037,DSG Funding Allocation,Early Years,14.03564671,13.08149905,0.95414766
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Gateshead,390,E08000037,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),19.61868917,21.30415566,-1.68546649
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Gateshead,390,E08000037,DSG Funding Allocation,Schools (after academy recoupment),67.02323544,65.73967356,1.28356188
+201920,Financial year,Local authority,England,E92000001,North East,E12000001,Gateshead,390,E08000037,DSG Funding Allocation,Total DSG,102.40614967,101.60449296,0.80165671
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Halton,876,E06000006,DSG Funding Allocation,Central School Services,0.667546,0.817451,-0.149905
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Halton,876,E06000006,DSG Funding Allocation,Early Years,9.951247,9.59194,0.359307
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Halton,876,E06000006,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),13.858523,15.251281,-1.392758
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Halton,876,E06000006,DSG Funding Allocation,Schools (after academy recoupment),51.229594,50.257337,0.972257
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Halton,876,E06000006,DSG Funding Allocation,Total DSG,75.70691,75.918009,-0.211099
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Warrington,877,E06000007,DSG Funding Allocation,Central School Services,0.88546,0.88382767,0.00163233
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Warrington,877,E06000007,DSG Funding Allocation,Early Years,13.956515,13.22796697,0.72854803
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Warrington,877,E06000007,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),18.16898,19.42792445,-1.25894445
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Warrington,877,E06000007,DSG Funding Allocation,Schools (after academy recoupment),69.396045,69.396045,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Warrington,877,E06000007,DSG Funding Allocation,Total DSG,102.407,102.93576409,-0.52876409
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackburn with Darwen,889,E06000008,DSG Funding Allocation,Central School Services,2.630571,3.341956,-0.711385
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackburn with Darwen,889,E06000008,DSG Funding Allocation,Early Years,11.34708,11.452017,-0.104937
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackburn with Darwen,889,E06000008,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),18.442962,20.567437,-2.124475
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackburn with Darwen,889,E06000008,DSG Funding Allocation,Schools (after academy recoupment),67.74992,67.101802,0.648118
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackburn with Darwen,889,E06000008,DSG Funding Allocation,Total DSG,100.170533,102.463212,-2.292679
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackpool,890,E06000009,DSG Funding Allocation,Central School Services,1.606139,1.573659,0.03248
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackpool,890,E06000009,DSG Funding Allocation,Early Years,8.583321,8.614957,-0.031636
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackpool,890,E06000009,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.166116,19.249225,-3.083109
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackpool,890,E06000009,DSG Funding Allocation,Schools (after academy recoupment),19.459637,19.04399,0.415647
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Blackpool,890,E06000009,DSG Funding Allocation,Total DSG,45.815213,48.481831,-2.666618
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire East,895,E06000049,DSG Funding Allocation,Central School Services,2.98853686,2.92853686,0.06
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire East,895,E06000049,DSG Funding Allocation,Early Years,21.77872485,21.06072485,0.718
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire East,895,E06000049,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),31.77967851,36.83367851,-5.054
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire East,895,E06000049,DSG Funding Allocation,Schools (after academy recoupment),74.04895267,73.92895267,0.12
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire East,895,E06000049,DSG Funding Allocation,Total DSG,130.59589289,134.75189289,-4.156
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire West and Chester,896,E06000050,DSG Funding Allocation,Central School Services,3.02782715,3.04944708,-0.02161993
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire West and Chester,896,E06000050,DSG Funding Allocation,Early Years,20.885873,20.50314966,0.38272334
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire West and Chester,896,E06000050,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),36.605215,37.94524514,-1.34003014
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire West and Chester,896,E06000050,DSG Funding Allocation,Schools (after academy recoupment),141.54633763,141.60109258,-0.05475495
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cheshire West and Chester,896,E06000050,DSG Funding Allocation,Total DSG,202.06525278,203.09893446,-1.03368168
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bolton,350,E08000001,DSG Funding Allocation,Central School Services,1.895,1.909087,-0.014087
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bolton,350,E08000001,DSG Funding Allocation,Early Years,21.493,21.329009,0.163991
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bolton,350,E08000001,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),28.452,36.07389,-7.62189
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bolton,350,E08000001,DSG Funding Allocation,Schools (after academy recoupment),119.158,116.887537,2.270463
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bolton,350,E08000001,DSG Funding Allocation,Total DSG,170.998,176.199523,-5.201523
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bury,351,E08000002,DSG Funding Allocation,Central School Services,0.771,0.73204891,0.03895109
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bury,351,E08000002,DSG Funding Allocation,Early Years,13.31144,13.27781292,0.03362708
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bury,351,E08000002,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.107,33.31754681,-6.21054681
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bury,351,E08000002,DSG Funding Allocation,Schools (after academy recoupment),93.64830795,92.92132681,0.72698114
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Bury,351,E08000002,DSG Funding Allocation,Total DSG,134.83774795,140.24873545,-5.4109875
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Manchester,352,E08000003,DSG Funding Allocation,Central School Services,3.65755328,4.37018568,-0.7126324
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Manchester,352,E08000003,DSG Funding Allocation,Early Years,41.11338958,40.4398558,0.67353378
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Manchester,352,E08000003,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),68.67492616,75.0209158,-6.34598964
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Manchester,352,E08000003,DSG Funding Allocation,Schools (after academy recoupment),198.57545913,196.47181398,2.10364515
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Manchester,352,E08000003,DSG Funding Allocation,Total DSG,312.02132815,316.30277126,-4.28144311
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Oldham,353,E08000004,DSG Funding Allocation,Central School Services,2.998528,0,2.998528
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Oldham,353,E08000004,DSG Funding Allocation,Early Years,18.575251,0,18.575251
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Oldham,353,E08000004,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),24.207784,0,24.207784
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Oldham,353,E08000004,DSG Funding Allocation,Schools (after academy recoupment),98.586267,0,98.586267
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Oldham,353,E08000004,DSG Funding Allocation,Total DSG,144.36783,0,144.36783
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Rochdale,354,E08000005,DSG Funding Allocation,Central School Services,1.202,0.949546,0.252454
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Rochdale,354,E08000005,DSG Funding Allocation,Early Years,17.11,16.655993,0.454007
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Rochdale,354,E08000005,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),23.301601,27.411784,-4.110183
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Rochdale,354,E08000005,DSG Funding Allocation,Schools (after academy recoupment),128.952,129.084732,-0.132732
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Rochdale,354,E08000005,DSG Funding Allocation,Total DSG,170.565601,174.102055,-3.536454
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Salford,355,E08000006,DSG Funding Allocation,Central School Services,2.78117938,2.93502271,-0.15384333
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Salford,355,E08000006,DSG Funding Allocation,Early Years,19.18849304,0.58822689,18.60026615
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Salford,355,E08000006,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),28.01625117,35.12365965,-7.10740848
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Salford,355,E08000006,DSG Funding Allocation,Schools (after academy recoupment),107.72641227,125.76320661,-18.03679434
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Salford,355,E08000006,DSG Funding Allocation,Total DSG,157.71233586,164.41011586,-6.69778
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Stockport,356,E08000007,DSG Funding Allocation,Central School Services,1.96,1.866397,0.093603
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Stockport,356,E08000007,DSG Funding Allocation,Early Years,20.968,20.581264,0.386736
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Stockport,356,E08000007,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),29.873,33.398981,-3.525981
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Stockport,356,E08000007,DSG Funding Allocation,Schools (after academy recoupment),128.797,128.167337,0.629663
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Stockport,356,E08000007,DSG Funding Allocation,Total DSG,181.598,184.013979,-2.415979
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Tameside,357,E08000008,DSG Funding Allocation,Central School Services,0.925298,0.925298,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Tameside,357,E08000008,DSG Funding Allocation,Early Years,16.479392,16.228432,0.25096
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Tameside,357,E08000008,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),19.320042,23.88849,-4.568448
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Tameside,357,E08000008,DSG Funding Allocation,Schools (after academy recoupment),86.21,86.095623,0.114377
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Tameside,357,E08000008,DSG Funding Allocation,Total DSG,122.934732,127.137843,-4.203111
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Trafford,358,E08000009,DSG Funding Allocation,Central School Services,1.546054,1.448372,0.097682
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Trafford,358,E08000009,DSG Funding Allocation,Early Years,17.505794,17.547492,-0.041698
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Trafford,358,E08000009,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),22.661446,22.791974,-0.130528
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Trafford,358,E08000009,DSG Funding Allocation,Schools (after academy recoupment),92.271324,91.607009,0.664315
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Trafford,358,E08000009,DSG Funding Allocation,Total DSG,133.984618,133.394847,0.589771
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wigan,359,E08000010,DSG Funding Allocation,Central School Services,0.651653,0.62176704,0.02988596
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wigan,359,E08000010,DSG Funding Allocation,Early Years,20.32516231,20.45345131,-0.128289
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wigan,359,E08000010,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.1958576,30.40531518,-3.20945758
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wigan,359,E08000010,DSG Funding Allocation,Schools (after academy recoupment),140.52714216,139.06056467,1.46657749
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wigan,359,E08000010,DSG Funding Allocation,Total DSG,188.69981507,190.5410982,-1.84128313
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Knowsley,340,E08000011,DSG Funding Allocation,Central School Services,1.010935,1.010935,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Knowsley,340,E08000011,DSG Funding Allocation,Early Years,12.310689,11.814362,0.496327
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Knowsley,340,E08000011,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),19.622517,21.585467,-1.96295
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Knowsley,340,E08000011,DSG Funding Allocation,Schools (after academy recoupment),54.94971,55.218919,-0.269209
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Knowsley,340,E08000011,DSG Funding Allocation,Total DSG,87.893851,89.629683,-1.735832
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Liverpool,341,E08000012,DSG Funding Allocation,Central School Services,7.537866,7.537866,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Liverpool,341,E08000012,DSG Funding Allocation,Early Years,34.438887,34.438887,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Liverpool,341,E08000012,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),48.340058,48.340058,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Liverpool,341,E08000012,DSG Funding Allocation,Schools (after academy recoupment),234.781281,234.781281,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Liverpool,341,E08000012,DSG Funding Allocation,Total DSG,325.098092,325.098092,0
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,St Helens,342,E08000013,DSG Funding Allocation,Central School Services,1.605,1.459075,0.145925
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,St Helens,342,E08000013,DSG Funding Allocation,Early Years,11.361,11.484424,-0.123424
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,St Helens,342,E08000013,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),21.346,24.08428,-2.73828
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,St Helens,342,E08000013,DSG Funding Allocation,Schools (after academy recoupment),79.232,79.244317,-0.012317
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,St Helens,342,E08000013,DSG Funding Allocation,Total DSG,113.544,116.272096,-2.728096
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Sefton,343,E08000014,DSG Funding Allocation,Central School Services,1.270518,1.1497,0.120818
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Sefton,343,E08000014,DSG Funding Allocation,Early Years,16.930786,16.563497,0.367289
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Sefton,343,E08000014,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.507086,32.980949,-5.473863
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Sefton,343,E08000014,DSG Funding Allocation,Schools (after academy recoupment),102.782007,101.951446,0.830561
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Sefton,343,E08000014,DSG Funding Allocation,Total DSG,148.490397,152.645592,-4.155195
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wirral,344,E08000015,DSG Funding Allocation,Central School Services,2.295012,3.424724,-1.129712
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wirral,344,E08000015,DSG Funding Allocation,Early Years,21.182907,20.673561,0.509346
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wirral,344,E08000015,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),34.435023,38.106854,-3.671831
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wirral,344,E08000015,DSG Funding Allocation,Schools (after academy recoupment),104.952315,105.41911038,-0.46679538
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Wirral,344,E08000015,DSG Funding Allocation,Total DSG,162.865257,167.62424938,-4.75899238
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cumbria,909,E10000006,DSG Funding Allocation,Central School Services,5.0018466,4.4832442,0.5186024
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cumbria,909,E10000006,DSG Funding Allocation,Early Years,27.1774201,25.75321313,1.42420697
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cumbria,909,E10000006,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),39.49617257,44.98436645,-5.48819388
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cumbria,909,E10000006,DSG Funding Allocation,Schools (after academy recoupment),178.57721188,178.18050736,0.39670452
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Cumbria,909,E10000006,DSG Funding Allocation,Total DSG,250.25265115,253.40133114,-3.14867999
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Lancashire,888,E10000017,DSG Funding Allocation,Central School Services,6.592,7.237114,-0.645114
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Lancashire,888,E10000017,DSG Funding Allocation,Early Years,79.066,77.071741,1.994259
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Lancashire,888,E10000017,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),109.007,120.822912,-11.815912
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Lancashire,888,E10000017,DSG Funding Allocation,Schools (after academy recoupment),609.455,607.84275,1.61225
+201920,Financial year,Local authority,England,E92000001,North West,E12000002,Lancashire,888,E10000017,DSG Funding Allocation,Total DSG,804.12,812.974517,-8.854517
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kingston-upon-Hull,810,E06000010,DSG Funding Allocation,Central School Services,2.879572,2.68702325,0.19254875
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kingston-upon-Hull,810,E06000010,DSG Funding Allocation,Early Years,17.822626,17.423,0.399626
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kingston-upon-Hull,810,E06000010,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),23.573484,26.261753,-2.688269
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kingston-upon-Hull,810,E06000010,DSG Funding Allocation,Schools (after academy recoupment),7.49872,6.76244275,0.73627725
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kingston-upon-Hull,810,E06000010,DSG Funding Allocation,Total DSG,51.774402,53.134219,-1.359817
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,East Riding of Yorkshire,811,E06000011,DSG Funding Allocation,Central School Services,2.082332,2.217821,-0.135489
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,East Riding of Yorkshire,811,E06000011,DSG Funding Allocation,Early Years,17.82885,17.781383,0.047467
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,East Riding of Yorkshire,811,E06000011,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),22.782095,26.244538,-3.462443
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,East Riding of Yorkshire,811,E06000011,DSG Funding Allocation,Schools (after academy recoupment),111.22568,111.067972,0.157708
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,East Riding of Yorkshire,811,E06000011,DSG Funding Allocation,Total DSG,153.918957,157.311714,-3.392757
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North East Lincolnshire,812,E06000012,DSG Funding Allocation,Central School Services,1.416398,1.374903,0.041495
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North East Lincolnshire,812,E06000012,DSG Funding Allocation,Early Years,10.305492,10.274199,0.031293
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North East Lincolnshire,812,E06000012,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),12.758652,14.251905,-1.493253
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North East Lincolnshire,812,E06000012,DSG Funding Allocation,Schools (after academy recoupment),7.950999,7.425147,0.525852
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North East Lincolnshire,812,E06000012,DSG Funding Allocation,Total DSG,32.431541,33.326154,-0.894613
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Lincolnshire,813,E06000013,DSG Funding Allocation,Central School Services,1.114,1.062364,0.051636
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Lincolnshire,813,E06000013,DSG Funding Allocation,Early Years,9.405,8.783205,0.621795
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Lincolnshire,813,E06000013,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.364,16.481214,-0.117214
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Lincolnshire,813,E06000013,DSG Funding Allocation,Schools (after academy recoupment),55.052,55.027186,0.024814
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Lincolnshire,813,E06000013,DSG Funding Allocation,Total DSG,81.935,81.353969,0.581031
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,York,816,E06000014,DSG Funding Allocation,Central School Services,3.663,3.194641,0.468359
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,York,816,E06000014,DSG Funding Allocation,Early Years,10.841,10.526771,0.314229
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,York,816,E06000014,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.112,21.106184,-4.994184
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,York,816,E06000014,DSG Funding Allocation,Schools (after academy recoupment),38.78,38.293518,0.486482
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,York,816,E06000014,DSG Funding Allocation,Total DSG,69.396,73.121114,-3.725114
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Barnsley,370,E08000016,DSG Funding Allocation,Central School Services,1.876,1.876,0
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Barnsley,370,E08000016,DSG Funding Allocation,Early Years,15.482909,14.668917,0.813992
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Barnsley,370,E08000016,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),15.295,23.648275,-8.353275
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Barnsley,370,E08000016,DSG Funding Allocation,Schools (after academy recoupment),52.138,49.822987,2.315013
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Barnsley,370,E08000016,DSG Funding Allocation,Total DSG,84.791909,90.016179,-5.22427
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Doncaster,371,E08000017,DSG Funding Allocation,Central School Services,1.587,1.587,0
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Doncaster,371,E08000017,DSG Funding Allocation,Early Years,19.7,19.767012,-0.067012
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Doncaster,371,E08000017,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),28.458,34.016785,-5.558785
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Doncaster,371,E08000017,DSG Funding Allocation,Schools (after academy recoupment),44.869,44.770773,0.098227
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Doncaster,371,E08000017,DSG Funding Allocation,Total DSG,94.614,100.14157,-5.52757
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Rotherham,372,E08000018,DSG Funding Allocation,Central School Services,1.112421,1.067625,0.044796
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Rotherham,372,E08000018,DSG Funding Allocation,Early Years,17.47717,17.302854,0.174316
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Rotherham,372,E08000018,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),25.873594,33.881884,-8.00829
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Rotherham,372,E08000018,DSG Funding Allocation,Schools (after academy recoupment),39.995269,36.98401,3.011259
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Rotherham,372,E08000018,DSG Funding Allocation,Total DSG,84.458454,89.236373,-4.777919
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Sheffield,373,E08000019,DSG Funding Allocation,Central School Services,8.052074,7.73113,0.320944
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Sheffield,373,E08000019,DSG Funding Allocation,Early Years,34.852398,33.940105,0.912293
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Sheffield,373,E08000019,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),54.010313,58.62337,-4.613057
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Sheffield,373,E08000019,DSG Funding Allocation,Schools (after academy recoupment),105.499111,104.090518,1.408593
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Sheffield,373,E08000019,DSG Funding Allocation,Total DSG,202.413896,204.385123,-1.971227
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Bradford,380,E08000032,DSG Funding Allocation,Central School Services,2.92736796,2.52841274,0.39895522
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Bradford,380,E08000032,DSG Funding Allocation,Early Years,43.71256138,42.23767663,1.47488475
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Bradford,380,E08000032,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),58.10008452,54.9301468,3.16993772
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Bradford,380,E08000032,DSG Funding Allocation,Schools (after academy recoupment),160.60384967,159.93870115,0.66514852
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Bradford,380,E08000032,DSG Funding Allocation,Total DSG,265.34386353,259.63493732,5.70892621
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Calderdale,381,E08000033,DSG Funding Allocation,Central School Services,2.780439,2.780439,0
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Calderdale,381,E08000033,DSG Funding Allocation,Early Years,13.988,12.045,1.943
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Calderdale,381,E08000033,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),17.792,17.49,0.302
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Calderdale,381,E08000033,DSG Funding Allocation,Schools (after academy recoupment),58.843,57.836,1.007
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Calderdale,381,E08000033,DSG Funding Allocation,Total DSG,93.403439,90.151439,3.252
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kirklees,382,E08000034,DSG Funding Allocation,Central School Services,2.301658,2.618258,-0.3166
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kirklees,382,E08000034,DSG Funding Allocation,Early Years,28.133723,27.151523,0.9822
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kirklees,382,E08000034,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),31.481531,44.358331,-12.8768
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kirklees,382,E08000034,DSG Funding Allocation,Schools (after academy recoupment),174.356049,176.540449,-2.1844
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Kirklees,382,E08000034,DSG Funding Allocation,Total DSG,236.272961,250.668561,-14.3956
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Leeds,383,E08000035,DSG Funding Allocation,Central School Services,5.325,4.540428,0.784572
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Leeds,383,E08000035,DSG Funding Allocation,Early Years,58.759,58.146979,0.612021
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Leeds,383,E08000035,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),64.771333,74.447782,-9.676449
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Leeds,383,E08000035,DSG Funding Allocation,Schools (after academy recoupment),300.46,298.645159,1.814841
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Leeds,383,E08000035,DSG Funding Allocation,Total DSG,429.315333,435.780348,-6.465015
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Wakefield,384,E08000036,DSG Funding Allocation,Central School Services,1.684586,1.452755,0.231831
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Wakefield,384,E08000036,DSG Funding Allocation,Early Years,22.045754,21.80528,0.240474
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Wakefield,384,E08000036,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),29.224021,31.445449,-2.221428
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Wakefield,384,E08000036,DSG Funding Allocation,Schools (after academy recoupment),61.500639,61.044867,0.455772
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,Wakefield,384,E08000036,DSG Funding Allocation,Total DSG,114.455,115.748351,-1.293351
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Yorkshire,815,E10000023,DSG Funding Allocation,Central School Services,4.252,4.156605,0.095395
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Yorkshire,815,E10000023,DSG Funding Allocation,Early Years,31.283,30.201828,1.081172
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Yorkshire,815,E10000023,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),47.117283,52.78097,-5.663687
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Yorkshire,815,E10000023,DSG Funding Allocation,Schools (after academy recoupment),194.821,191.32977,3.49123
+201920,Financial year,Local authority,England,E92000001,Yorkshire and the Humber,E12000003,North Yorkshire,815,E10000023,DSG Funding Allocation,Total DSG,277.473283,278.469173,-0.99589
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derby,831,E06000015,DSG Funding Allocation,Central School Services,3.955754,4.044258,-0.088504
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derby,831,E06000015,DSG Funding Allocation,Early Years,19.7376,19.12345,0.61415
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derby,831,E06000015,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),31.594964,34.477907,-2.882943
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derby,831,E06000015,DSG Funding Allocation,Schools (after academy recoupment),55.496321,53.392779,2.103542
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derby,831,E06000015,DSG Funding Allocation,Total DSG,110.784639,111.038394,-0.253755
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicester,856,E06000016,DSG Funding Allocation,Central School Services,1.90531211,1.90531211,0
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicester,856,E06000016,DSG Funding Allocation,Early Years,23.88731874,22.72658807,1.16073067
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicester,856,E06000016,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),47.32164857,53.94750411,-6.62585554
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicester,856,E06000016,DSG Funding Allocation,Schools (after academy recoupment),144.39250718,141.560551,2.83195618
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicester,856,E06000016,DSG Funding Allocation,Total DSG,217.5067866,220.13995529,-2.63316869
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Rutland,857,E06000017,DSG Funding Allocation,Central School Services,0.163,0.147432,0.015568
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Rutland,857,E06000017,DSG Funding Allocation,Early Years,1.872,1.878761,-0.006761
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Rutland,857,E06000017,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),3.691,3.991697,-0.300697
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Rutland,857,E06000017,DSG Funding Allocation,Schools (after academy recoupment),1.784,1.765472,0.018528
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Rutland,857,E06000017,DSG Funding Allocation,Total DSG,7.51,7.783362,-0.273362
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottingham,892,E06000018,DSG Funding Allocation,Central School Services,7.079242,7.161132,-0.08189
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottingham,892,E06000018,DSG Funding Allocation,Early Years,22.086194,20.858028,1.228166
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottingham,892,E06000018,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),28.517052,30.284163,-1.767111
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottingham,892,E06000018,DSG Funding Allocation,Schools (after academy recoupment),52.114916,50.962848,1.152068
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottingham,892,E06000018,DSG Funding Allocation,Total DSG,109.797404,109.266171,0.531233
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derbyshire,830,E10000007,DSG Funding Allocation,Central School Services,4.592771,4.58906219,0.00370881
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derbyshire,830,E10000007,DSG Funding Allocation,Early Years,40.969218,41.37473554,-0.40551754
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derbyshire,830,E10000007,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),61.157471,66.57987551,-5.42240451
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derbyshire,830,E10000007,DSG Funding Allocation,Schools (after academy recoupment),252.24254,251.89148776,0.35105224
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Derbyshire,830,E10000007,DSG Funding Allocation,Total DSG,358.962,364.435161,-5.473161
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicestershire,855,E10000018,DSG Funding Allocation,Central School Services,3.483309,3.425649,0.05766
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicestershire,855,E10000018,DSG Funding Allocation,Early Years,34.858566,35.537602,-0.679036
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicestershire,855,E10000018,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),58.749562,65.7395,-6.989938
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicestershire,855,E10000018,DSG Funding Allocation,Schools (after academy recoupment),76.992636,75.140636,1.852
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Leicestershire,855,E10000018,DSG Funding Allocation,Total DSG,174.084073,179.843387,-5.759314
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Lincolnshire,925,E10000019,DSG Funding Allocation,Central School Services,5.81534763,7.1406652,-1.32531757
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Lincolnshire,925,E10000019,DSG Funding Allocation,Early Years,41.44643644,40.42838481,1.01805163
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Lincolnshire,925,E10000019,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),70.01947139,80.73917759,-10.7197062
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Lincolnshire,925,E10000019,DSG Funding Allocation,Schools (after academy recoupment),131.21784711,132.02170198,-0.80385487
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Lincolnshire,925,E10000019,DSG Funding Allocation,Total DSG,248.49910257,260.32992958,-11.83082701
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Northamptonshire,928,E10000021,DSG Funding Allocation,Central School Services,11.0957744,10.850461,0.2453134
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Northamptonshire,928,E10000021,DSG Funding Allocation,Early Years,45.88207342,44.818626,1.06344742
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Northamptonshire,928,E10000021,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),56.17357796,63.5859956,-7.41241764
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Northamptonshire,928,E10000021,DSG Funding Allocation,Schools (after academy recoupment),102.55369944,102.554801,-0.00110156
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Northamptonshire,928,E10000021,DSG Funding Allocation,Total DSG,215.70512522,221.8098836,-6.10475838
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottinghamshire,891,E10000024,DSG Funding Allocation,Central School Services,6.768441,6.43161815,0.33682285
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottinghamshire,891,E10000024,DSG Funding Allocation,Early Years,49.419862,49.24718883,0.17267317
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottinghamshire,891,E10000024,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),61.661746,65.80372804,-4.14198204
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottinghamshire,891,E10000024,DSG Funding Allocation,Schools (after academy recoupment),175.133732,170.97127598,4.16245602
+201920,Financial year,Local authority,England,E92000001,East Midlands,E12000004,Nottinghamshire,891,E10000024,DSG Funding Allocation,Total DSG,292.983781,292.453811,0.529969999999999
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Herefordshire,884,E06000019,DSG Funding Allocation,Central School Services,0.692815,0.555854,0.136961
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Herefordshire,884,E06000019,DSG Funding Allocation,Early Years,9.004392,9.224177,-0.219785
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Herefordshire,884,E06000019,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),13.063099,14.615281,-1.552182
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Herefordshire,884,E06000019,DSG Funding Allocation,Schools (after academy recoupment),56.819316,56.795316,0.024
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Herefordshire,884,E06000019,DSG Funding Allocation,Total DSG,79.579622,81.190628,-1.611006
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Telford and Wrekin,894,E06000020,DSG Funding Allocation,Central School Services,1.075324,0.920152,0.155172
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Telford and Wrekin,894,E06000020,DSG Funding Allocation,Early Years,12.239855,11.591199,0.648656
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Telford and Wrekin,894,E06000020,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),19.891707,21.745015,-1.853308
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Telford and Wrekin,894,E06000020,DSG Funding Allocation,Schools (after academy recoupment),62.934598,62.277525,0.657073
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Telford and Wrekin,894,E06000020,DSG Funding Allocation,Total DSG,96.141484,96.533891,-0.392407
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Stoke-on-Trent,861,E06000021,DSG Funding Allocation,Central School Services,5.409,4.23420785,1.17479215
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Stoke-on-Trent,861,E06000021,DSG Funding Allocation,Early Years,17.748174,16.88666116,0.86151284
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Stoke-on-Trent,861,E06000021,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.754,37.01642561,-9.26242561
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Stoke-on-Trent,861,E06000021,DSG Funding Allocation,Schools (after academy recoupment),30.597,30.34768037,0.24931963
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Stoke-on-Trent,861,E06000021,DSG Funding Allocation,Total DSG,81.508174,88.48497499,-6.97680099
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Shropshire,893,E06000051,DSG Funding Allocation,Central School Services,3.19048,3.2122547,-0.0217747
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Shropshire,893,E06000051,DSG Funding Allocation,Early Years,15.56462,16.12294972,-0.55832972
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Shropshire,893,E06000051,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),21.32432558,22.45150024,-1.12717466
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Shropshire,893,E06000051,DSG Funding Allocation,Schools (after academy recoupment),58.1110351,57.77165853,0.33937657
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Shropshire,893,E06000051,DSG Funding Allocation,Total DSG,98.19046068,99.55836319,-1.36790251
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Birmingham,330,E08000025,DSG Funding Allocation,Central School Services,18.0397751,17.73010941,0.30966569
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Birmingham,330,E08000025,DSG Funding Allocation,Early Years,89.75369338,90.88518586,-1.13149248
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Birmingham,330,E08000025,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),135.46721364,133.48741672,1.97979692
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Birmingham,330,E08000025,DSG Funding Allocation,Schools (after academy recoupment),393.32445312,394.26604221,-0.94158909
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Birmingham,330,E08000025,DSG Funding Allocation,Total DSG,636.58513524,636.3687542,0.21638104
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Coventry,331,E08000026,DSG Funding Allocation,Central School Services,3.66172877,4.87843609,-1.21670732
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Coventry,331,E08000026,DSG Funding Allocation,Early Years,21.80212957,21.57458432,0.22754525
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Coventry,331,E08000026,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),34.55167269,35.57842678,-1.02675409
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Coventry,331,E08000026,DSG Funding Allocation,Schools (after academy recoupment),96.75841428,97.5284024,-0.76998812
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Coventry,331,E08000026,DSG Funding Allocation,Total DSG,156.77394531,159.55984959,-2.78590428
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Dudley,332,E08000027,DSG Funding Allocation,Central School Services,1.987914,1.661709,0.326205
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Dudley,332,E08000027,DSG Funding Allocation,Early Years,17.948283,17.353524,0.594759
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Dudley,332,E08000027,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),30.457896,37.067062,-6.609166
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Dudley,332,E08000027,DSG Funding Allocation,Schools (after academy recoupment),96.154907,96.154907,0
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Dudley,332,E08000027,DSG Funding Allocation,Total DSG,146.549,152.237202,-5.688202
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Sandwell,333,E08000028,DSG Funding Allocation,Central School Services,2.00825608,2.00919529,-0.00093921
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Sandwell,333,E08000028,DSG Funding Allocation,Early Years,23.932726,23.31787535,0.61485065
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Sandwell,333,E08000028,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),41.091717,41.50264725,-0.41093025
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Sandwell,333,E08000028,DSG Funding Allocation,Schools (after academy recoupment),152.85271314,152.26725393,0.58545921
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Sandwell,333,E08000028,DSG Funding Allocation,Total DSG,219.88541222,219.09697182,0.7884404
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Solihull,334,E08000029,DSG Funding Allocation,Central School Services,2.544105,2.544105,0
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Solihull,334,E08000029,DSG Funding Allocation,Early Years,14.765625,14.667625,0.098
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Solihull,334,E08000029,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),25.358648,31.397648,-6.039
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Solihull,334,E08000029,DSG Funding Allocation,Schools (after academy recoupment),66.595028,66.588028,0.007
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Solihull,334,E08000029,DSG Funding Allocation,Total DSG,109.263406,115.197406,-5.934
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Walsall,335,E08000030,DSG Funding Allocation,Central School Services,1.375432,1.350679,0.024753
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Walsall,335,E08000030,DSG Funding Allocation,Early Years,21.220731,20.947287,0.273444
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Walsall,335,E08000030,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),31.384998,35.679467,-4.294469
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Walsall,335,E08000030,DSG Funding Allocation,Schools (after academy recoupment),102.401143,102.440311,-0.039168
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Walsall,335,E08000030,DSG Funding Allocation,Total DSG,156.382304,160.417744,-4.03544
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Wolverhampton,336,E08000031,DSG Funding Allocation,Central School Services,2.033,1.994216,0.038784
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Wolverhampton,336,E08000031,DSG Funding Allocation,Early Years,18.133,17.994065,0.138935
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Wolverhampton,336,E08000031,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),29.971,31.262043,-1.291043
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Wolverhampton,336,E08000031,DSG Funding Allocation,Schools (after academy recoupment),64.995,64.0944,0.9006
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Wolverhampton,336,E08000031,DSG Funding Allocation,Total DSG,115.132,115.344724,-0.212724
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Staffordshire,860,E10000028,DSG Funding Allocation,Central School Services,5.759,6.6985,-0.9395
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Staffordshire,860,E10000028,DSG Funding Allocation,Early Years,49.167,49.0356,0.1314
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Staffordshire,860,E10000028,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),60.076,66.9785,-6.9025
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Staffordshire,860,E10000028,DSG Funding Allocation,Schools (after academy recoupment),172.908,168.8378,4.0702
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Staffordshire,860,E10000028,DSG Funding Allocation,Total DSG,287.91,291.5504,-3.6404
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Warwickshire,937,E10000031,DSG Funding Allocation,Central School Services,4.404673,4.164,0.240673
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Warwickshire,937,E10000031,DSG Funding Allocation,Early Years,32.533796,30.686,1.847796
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Warwickshire,937,E10000031,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),50.555611,57.899,-7.343389
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Warwickshire,937,E10000031,DSG Funding Allocation,Schools (after academy recoupment),136.102053,135.91,0.192053
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Warwickshire,937,E10000031,DSG Funding Allocation,Total DSG,223.596133,228.659,-5.062867
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Worcestershire,885,E10000034,DSG Funding Allocation,Central School Services,3.792977,3.792977,0
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Worcestershire,885,E10000034,DSG Funding Allocation,Early Years,35.23848,35.23848,0
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Worcestershire,885,E10000034,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),43.536088,4.356088,39.18
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Worcestershire,885,E10000034,DSG Funding Allocation,Schools (after academy recoupment),125.804319,125.804319,0
+201920,Financial year,Local authority,England,E92000001,West Midlands,E12000005,Worcestershire,885,E10000034,DSG Funding Allocation,Total DSG,208.371864,169.191864,39.18
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Peterborough,874,E06000031,DSG Funding Allocation,Central School Services,1.488745,1.686715,-0.19797
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Peterborough,874,E06000031,DSG Funding Allocation,Early Years,17.556477,17.83332,-0.276843
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Peterborough,874,E06000031,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.536833,27.719068,-0.182235
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Peterborough,874,E06000031,DSG Funding Allocation,Schools (after academy recoupment),44.545262,44.467876,0.077386
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Peterborough,874,E06000031,DSG Funding Allocation,Total DSG,91.127317,91.706979,-0.579662
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Luton,821,E06000032,DSG Funding Allocation,Central School Services,1.456221,1.456,0.000221
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Luton,821,E06000032,DSG Funding Allocation,Early Years,18.149885,18.218,-0.068115
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Luton,821,E06000032,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),28.119728,28.544,-0.424272
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Luton,821,E06000032,DSG Funding Allocation,Schools (after academy recoupment),102.889055,102.889055,0
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Luton,821,E06000032,DSG Funding Allocation,Total DSG,150.614889,151.107055,-0.492166
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Southend-on-Sea,882,E06000033,DSG Funding Allocation,Central School Services,1.747728,1.7134,0.034328
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Southend-on-Sea,882,E06000033,DSG Funding Allocation,Early Years,10.175443,10.12297,0.052473
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Southend-on-Sea,882,E06000033,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),12.414313,11.656789,0.757524
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Southend-on-Sea,882,E06000033,DSG Funding Allocation,Schools (after academy recoupment),22.652516,22.593715,0.058801
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Southend-on-Sea,882,E06000033,DSG Funding Allocation,Total DSG,46.99,46.086874,0.903126
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Thurrock,883,E06000034,DSG Funding Allocation,Central School Services,2.072905,1.889634,0.183271
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Thurrock,883,E06000034,DSG Funding Allocation,Early Years,12.209125,12.114572,0.094553
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Thurrock,883,E06000034,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),18.026416,20.029132,-2.002716
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Thurrock,883,E06000034,DSG Funding Allocation,Schools (after academy recoupment),10.873604,8.470712,2.402892
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Thurrock,883,E06000034,DSG Funding Allocation,Total DSG,43.18205,42.50405,0.678
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Bedford Borough,822,E06000055,DSG Funding Allocation,Central School Services,3.423653,3.36393697,0.05971603
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Bedford Borough,822,E06000055,DSG Funding Allocation,Early Years,11.315279,11.69808668,-0.38280768
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Bedford Borough,822,E06000055,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),17.147486,17.84278091,-0.69529491
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Bedford Borough,822,E06000055,DSG Funding Allocation,Schools (after academy recoupment),44.136,44.48019361,-0.34419361
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Bedford Borough,822,E06000055,DSG Funding Allocation,Total DSG,76.022418,77.38499817,-1.36258017
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Central Bedfordshire,823,E06000056,DSG Funding Allocation,Central School Services,1.274057,1.11882,0.155237
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Central Bedfordshire,823,E06000056,DSG Funding Allocation,Early Years,16.478102,16.04296,0.435142
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Central Bedfordshire,823,E06000056,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),24.293585,25.633157,-1.339572
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Central Bedfordshire,823,E06000056,DSG Funding Allocation,Schools (after academy recoupment),64.128057,63.554539,0.573518
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Central Bedfordshire,823,E06000056,DSG Funding Allocation,Total DSG,106.173801,106.349476,-0.175675
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Cambridgeshire,873,E10000003,DSG Funding Allocation,Central School Services,8.110379,8.110379,0
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Cambridgeshire,873,E10000003,DSG Funding Allocation,Early Years,37.286704,37.286704,0
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Cambridgeshire,873,E10000003,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),57.501325,57.501325,0
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Cambridgeshire,873,E10000003,DSG Funding Allocation,Schools (after academy recoupment),118.109136,118.109136,0
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Cambridgeshire,873,E10000003,DSG Funding Allocation,Total DSG,221.007544,221.007544,0
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Essex,881,E10000012,DSG Funding Allocation,Central School Services,12.189304,10.283048,1.906256
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Essex,881,E10000012,DSG Funding Allocation,Early Years,81.938246,78.768465,3.169781
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Essex,881,E10000012,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),114.016076,121.432373,-7.416297
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Essex,881,E10000012,DSG Funding Allocation,Schools (after academy recoupment),259.27574,259.27574,0
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Essex,881,E10000012,DSG Funding Allocation,Total DSG,467.419366,469.759626,-2.34026
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Hertfordshire,919,E10000015,DSG Funding Allocation,Central School Services,5.727245,6.879254,-1.152009
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Hertfordshire,919,E10000015,DSG Funding Allocation,Early Years,90.169355,88.276704,1.892651
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Hertfordshire,919,E10000015,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),105.765656,111.176772,-5.411116
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Hertfordshire,919,E10000015,DSG Funding Allocation,Schools (after academy recoupment),378.603963,383.240107,-4.636144
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Hertfordshire,919,E10000015,DSG Funding Allocation,Total DSG,580.266219,589.572837,-9.306618
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Norfolk,926,E10000020,DSG Funding Allocation,Central School Services,3.358215,3.289586,0.068629
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Norfolk,926,E10000020,DSG Funding Allocation,Early Years,42.230704,41.431545,0.799159
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Norfolk,926,E10000020,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),70.604638,87.901605,-17.296967
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Norfolk,926,E10000020,DSG Funding Allocation,Schools (after academy recoupment),151.109671,142.701066,8.408605
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Norfolk,926,E10000020,DSG Funding Allocation,Total DSG,267.303228,275.323802,-8.020574
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Suffolk,935,E10000029,DSG Funding Allocation,Central School Services,8.839,8.50081,0.33819
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Suffolk,935,E10000029,DSG Funding Allocation,Early Years,36.015,36.55451,-0.53951
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Suffolk,935,E10000029,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),47.45,58.037968,-10.587968
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Suffolk,935,E10000029,DSG Funding Allocation,Schools (after academy recoupment),115.203,115.277231,-0.074231
+201920,Financial year,Local authority,England,E92000001,East of England,E12000006,Suffolk,935,E10000029,DSG Funding Allocation,Total DSG,207.507,218.370519,-10.863519
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Medway,887,E06000035,DSG Funding Allocation,Central School Services,0.7434,0.92675,-0.18335
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Medway,887,E06000035,DSG Funding Allocation,Early Years,17.2236,17.040206,0.183394
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Medway,887,E06000035,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),26.288,31.504974,-5.216974
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Medway,887,E06000035,DSG Funding Allocation,Schools (after academy recoupment),38.94,39.08855,-0.14855
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Medway,887,E06000035,DSG Funding Allocation,Total DSG,83.195,88.56048,-5.36548
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Bracknell Forest,867,E06000036,DSG Funding Allocation,Central School Services,1.030137,0.99769364,0.03244336
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Bracknell Forest,867,E06000036,DSG Funding Allocation,Early Years,7.455646,7.06268474,0.39296126
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Bracknell Forest,867,E06000036,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),15.717892,18.75723223,-3.03934023
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Bracknell Forest,867,E06000036,DSG Funding Allocation,Schools (after academy recoupment),47.660483,47.31193739,0.34854561
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Bracknell Forest,867,E06000036,DSG Funding Allocation,Total DSG,71.864158,74.129548,-2.26539
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Berkshire,869,E06000037,DSG Funding Allocation,Central School Services,0.97622595,1.04315914,-0.06693319
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Berkshire,869,E06000037,DSG Funding Allocation,Early Years,9.49112737,9.95165088,-0.46052351
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Berkshire,869,E06000037,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),18.6439,23.46519972,-4.82129972
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Berkshire,869,E06000037,DSG Funding Allocation,Schools (after academy recoupment),63.60185659,63.31743631,0.28442028
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Berkshire,869,E06000037,DSG Funding Allocation,Total DSG,92.71310991,97.77744605,-5.06433614
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Reading,870,E06000038,DSG Funding Allocation,Central School Services,1.33,1.290736,0.039264
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Reading,870,E06000038,DSG Funding Allocation,Early Years,12.407,12.462005,-0.055005
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Reading,870,E06000038,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),17.875,18.167357,-0.292357
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Reading,870,E06000038,DSG Funding Allocation,Schools (after academy recoupment),44.671,44.59388,0.07712
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Reading,870,E06000038,DSG Funding Allocation,Total DSG,76.283,76.513978,-0.230978
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Slough,871,E06000039,DSG Funding Allocation,Central School Services,0.65365013,0.897743,-0.24409287
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Slough,871,E06000039,DSG Funding Allocation,Early Years,14.16639568,14.27539568,-0.109
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Slough,871,E06000039,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.49822071,21.563696,-5.06547529
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Slough,871,E06000039,DSG Funding Allocation,Schools (after academy recoupment),35.70128436,35.70128436,0
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Slough,871,E06000039,DSG Funding Allocation,Total DSG,67.01955088,72.43811904,-5.41856816
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Windsor and Maidenhead,868,E06000040,DSG Funding Allocation,Central School Services,1.13284,0.982577,0.150263
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Windsor and Maidenhead,868,E06000040,DSG Funding Allocation,Early Years,9.606379,9.164006,0.442373
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Windsor and Maidenhead,868,E06000040,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),18.42018,19.530792,-1.110612
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Windsor and Maidenhead,868,E06000040,DSG Funding Allocation,Schools (after academy recoupment),34.8365,34.56064,0.27586
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Windsor and Maidenhead,868,E06000040,DSG Funding Allocation,Total DSG,63.995899,64.238015,-0.242116
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Wokingham,872,E06000041,DSG Funding Allocation,Central School Services,0.946,0.946,0
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Wokingham,872,E06000041,DSG Funding Allocation,Early Years,10.611,10.611,0
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Wokingham,872,E06000041,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),17.86,19.651,-1.791
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Wokingham,872,E06000041,DSG Funding Allocation,Schools (after academy recoupment),53.414,53.407,0.007
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Wokingham,872,E06000041,DSG Funding Allocation,Total DSG,82.831,84.615,-1.784
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Milton Keynes,826,E06000042,DSG Funding Allocation,Central School Services,1.465715,1.46124,0.004475
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Milton Keynes,826,E06000042,DSG Funding Allocation,Early Years,21.292799,21.469056,-0.176257
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Milton Keynes,826,E06000042,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),36.929091,37.480698,-0.551607
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Milton Keynes,826,E06000042,DSG Funding Allocation,Schools (after academy recoupment),82.462318,82.349122,0.113196
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Milton Keynes,826,E06000042,DSG Funding Allocation,Total DSG,142.149923,142.760116,-0.610193
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Brighton and Hove,846,E06000043,DSG Funding Allocation,Central School Services,2.627,1.313792,1.313208
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Brighton and Hove,846,E06000043,DSG Funding Allocation,Early Years,15.422,15.538161,-0.116161
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Brighton and Hove,846,E06000043,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),25.293,25.412127,-0.119127
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Brighton and Hove,846,E06000043,DSG Funding Allocation,Schools (after academy recoupment),120.463,121.641122,-1.178122
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Brighton and Hove,846,E06000043,DSG Funding Allocation,Total DSG,163.805,163.905202,-0.100202
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Portsmouth,851,E06000044,DSG Funding Allocation,Central School Services,0.825483,0.818528,0.006955
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Portsmouth,851,E06000044,DSG Funding Allocation,Early Years,14.175471,13.937778,0.237693
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Portsmouth,851,E06000044,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.058323,17.080427,-1.022104
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Portsmouth,851,E06000044,DSG Funding Allocation,Schools (after academy recoupment),39.13067,38.634703,0.495967
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Portsmouth,851,E06000044,DSG Funding Allocation,Total DSG,70.189947,70.471436,-0.281489
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Southampton,852,E06000045,DSG Funding Allocation,Central School Services,2.04627403,1.02282529,1.02344874
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Southampton,852,E06000045,DSG Funding Allocation,Early Years,16.55172511,16.98999723,-0.43827212
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Southampton,852,E06000045,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),21.50543016,29.11406379,-7.60863363
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Southampton,852,E06000045,DSG Funding Allocation,Schools (after academy recoupment),86.41590553,86.69992107,-0.28401554
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Southampton,852,E06000045,DSG Funding Allocation,Total DSG,126.51933483,133.82680738,-7.30747255
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Isle of Wight,921,E06000046,DSG Funding Allocation,Central School Services,0.619,0.591701,0.027299
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Isle of Wight,921,E06000046,DSG Funding Allocation,Early Years,6.782,6.281769,0.500231
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Isle of Wight,921,E06000046,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),14.093323,16.155736,-2.062413
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Isle of Wight,921,E06000046,DSG Funding Allocation,Schools (after academy recoupment),53.034945,52.539582,0.495363
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Isle of Wight,921,E06000046,DSG Funding Allocation,Total DSG,74.529268,75.568788,-1.03952
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Buckinghamshire,825,E10000002,DSG Funding Allocation,Central School Services,7.425362,5.48239581,1.94296619
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Buckinghamshire,825,E10000002,DSG Funding Allocation,Early Years,31.559328,30.59424414,0.96508386
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Buckinghamshire,825,E10000002,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),75.05622,81.71176775,-6.65554775
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Buckinghamshire,825,E10000002,DSG Funding Allocation,Schools (after academy recoupment),165.391499,165.4889152,-0.0974162
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Buckinghamshire,825,E10000002,DSG Funding Allocation,Total DSG,279.432409,283.2773229,-3.8449139
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,East Sussex,845,E10000011,DSG Funding Allocation,Central School Services,8.166532,8.149328,0.017204
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,East Sussex,845,E10000011,DSG Funding Allocation,Early Years,25.709456,24.557288,1.152168
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,East Sussex,845,E10000011,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),40.731348,39.131084,1.600264
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,East Sussex,845,E10000011,DSG Funding Allocation,Schools (after academy recoupment),150.722903,150.519603,0.2033
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,East Sussex,845,E10000011,DSG Funding Allocation,Total DSG,225.330239,222.357303,2.972936
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Hampshire,850,E10000014,DSG Funding Allocation,Central School Services,8.275,7.835765,0.439235
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Hampshire,850,E10000014,DSG Funding Allocation,Early Years,80.558,79.624663,0.933337
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Hampshire,850,E10000014,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),107.205667,126.130675,-18.925008
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Hampshire,850,E10000014,DSG Funding Allocation,Schools (after academy recoupment),570.389,563.781974,6.607026
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Hampshire,850,E10000014,DSG Funding Allocation,Total DSG,766.427667,777.373077,-10.94541
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Kent,886,E10000016,DSG Funding Allocation,Central School Services,13.69241675,13.69241675,0
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Kent,886,E10000016,DSG Funding Allocation,Early Years,85.49683198,84.83483198,0.662
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Kent,886,E10000016,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),192.24028437,222.27433907,-30.0340547
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Kent,886,E10000016,DSG Funding Allocation,Schools (after academy recoupment),393.23631402,378.868917,14.36739702
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Kent,886,E10000016,DSG Funding Allocation,Total DSG,684.66584712,699.6705048,-15.00465768
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Oxfordshire,931,E10000025,DSG Funding Allocation,Central School Services,4.117452,4.026483,0.090969
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Oxfordshire,931,E10000025,DSG Funding Allocation,Early Years,37.9618,37.223304,0.738496
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Oxfordshire,931,E10000025,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),51.487178,64.571722,-13.084544
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Oxfordshire,931,E10000025,DSG Funding Allocation,Schools (after academy recoupment),115.633387,114.019323,1.614064
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Oxfordshire,931,E10000025,DSG Funding Allocation,Total DSG,209.199817,219.840832,-10.641015
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Surrey,936,E10000030,DSG Funding Allocation,Central School Services,6.234682,6.321107,-0.086425
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Surrey,936,E10000030,DSG Funding Allocation,Early Years,74.670898,71.975659,2.695239
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Surrey,936,E10000030,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),130.978935,164.905266,-33.926331
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Surrey,936,E10000030,DSG Funding Allocation,Schools (after academy recoupment),265.389737,260.609563,4.780174
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,Surrey,936,E10000030,DSG Funding Allocation,Total DSG,477.274252,503.811595,-26.537343
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Sussex,938,E10000032,DSG Funding Allocation,Central School Services,8.624367,8.298367,0.326
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Sussex,938,E10000032,DSG Funding Allocation,Early Years,49.707295,48.937295,0.77
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Sussex,938,E10000032,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),77.536326,82.729326,-5.193
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Sussex,938,E10000032,DSG Funding Allocation,Schools (after academy recoupment),291.882812,292.512812,-0.63
+201920,Financial year,Local authority,England,E92000001,South East,E12000008,West Sussex,938,E10000032,DSG Funding Allocation,Total DSG,427.7508,432.4778,-4.727
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bath and North East Somerset,800,E06000022,DSG Funding Allocation,Central School Services,1.1401541,0.74872523,0.39142887
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bath and North East Somerset,800,E06000022,DSG Funding Allocation,Early Years,10.1502702,10.17852656,-0.02825636
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bath and North East Somerset,800,E06000022,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),18.08479007,20.83839852,-2.75360845
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bath and North East Somerset,800,E06000022,DSG Funding Allocation,Schools (after academy recoupment),17.68402391,16.98030697,0.70371694
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bath and North East Somerset,800,E06000022,DSG Funding Allocation,Total DSG,47.05923828,48.74595728,-1.686719
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bristol City of,801,E06000023,DSG Funding Allocation,Central School Services,2.89473328,2.32909,0.56564328
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bristol City of,801,E06000023,DSG Funding Allocation,Early Years,36.87639211,37.90682216,-1.03043005
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bristol City of,801,E06000023,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),44.37050217,50.87639343,-6.50589126
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bristol City of,801,E06000023,DSG Funding Allocation,Schools (after academy recoupment),81.9183657,79.69559169,2.22277401
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Bristol City of,801,E06000023,DSG Funding Allocation,Total DSG,166.05999326,170.80789728,-4.74790402
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,North Somerset,802,E06000024,DSG Funding Allocation,Central School Services,2.115,1.93151993,0.18348007
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,North Somerset,802,E06000024,DSG Funding Allocation,Early Years,11.296,11.29623565,-0.00023565
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,North Somerset,802,E06000024,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),20.493,24.03141071,-3.53841071
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,North Somerset,802,E06000024,DSG Funding Allocation,Schools (after academy recoupment),13.658,11.7744909,1.8835091
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,North Somerset,802,E06000024,DSG Funding Allocation,Total DSG,47.562,49.03365719,-1.47165719
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,South Gloucestershire,803,E06000025,DSG Funding Allocation,Central School Services,4.175,4.129031,0.045969
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,South Gloucestershire,803,E06000025,DSG Funding Allocation,Early Years,16.37,16.354565,0.015435
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,South Gloucestershire,803,E06000025,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.095,30.341929,-3.246929
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,South Gloucestershire,803,E06000025,DSG Funding Allocation,Schools (after academy recoupment),85.482,82.296475,3.185525
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,South Gloucestershire,803,E06000025,DSG Funding Allocation,Total DSG,133.122,133.122,-8.67361737988404E-17
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Plymouth,879,E06000026,DSG Funding Allocation,Central School Services,3.70936,2.4659117,1.2434483
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Plymouth,879,E06000026,DSG Funding Allocation,Early Years,17.036652,16.87704282,0.15960918
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Plymouth,879,E06000026,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),24.089103,26.65295052,-2.56384752
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Plymouth,879,E06000026,DSG Funding Allocation,Schools (after academy recoupment),24.986554,24.88924019,0.09731381
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Plymouth,879,E06000026,DSG Funding Allocation,Total DSG,69.821669,70.88514523,-1.06347623
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Torbay,880,E06000027,DSG Funding Allocation,Central School Services,1.31,1.31,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Torbay,880,E06000027,DSG Funding Allocation,Early Years,7.28,7.002513,0.277487
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Torbay,880,E06000027,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),12.582,13.981943,-1.399943
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Torbay,880,E06000027,DSG Funding Allocation,Schools (after academy recoupment),18.28,18.28,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Torbay,880,E06000027,DSG Funding Allocation,Total DSG,39.452,40.574456,-1.122456
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Swindon,866,E06000030,DSG Funding Allocation,Central School Services,0.985637,0.985637,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Swindon,866,E06000030,DSG Funding Allocation,Early Years,15.05494,15.17365466,-0.11871466
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Swindon,866,E06000030,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),24.868564,26.57981817,-1.71125417
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Swindon,866,E06000030,DSG Funding Allocation,Schools (after academy recoupment),35.3988,35.55633174,-0.15753174
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Swindon,866,E06000030,DSG Funding Allocation,Total DSG,76.307941,78.29544157,-1.98750057
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Cornwall,908,E06000052,DSG Funding Allocation,Central School Services,4.222734,6.50326,-2.280526
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Cornwall,908,E06000052,DSG Funding Allocation,Early Years,28.611045,27.559583,1.051462
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Cornwall,908,E06000052,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),31.590873,37.32967,-5.738797
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Cornwall,908,E06000052,DSG Funding Allocation,Schools (after academy recoupment),65.066392,65.02556356,0.04082844
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Cornwall,908,E06000052,DSG Funding Allocation,Total DSG,129.491044,136.41807656,-6.92703256
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Isles of Scilly,420,E06000053,DSG Funding Allocation,Central School Services,0.0114508,0.0114508,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Isles of Scilly,420,E06000053,DSG Funding Allocation,Early Years,0.03124783,0.03124783,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Isles of Scilly,420,E06000053,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),0.22962106,0.22962106,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Isles of Scilly,420,E06000053,DSG Funding Allocation,Schools (after academy recoupment),0.1032118,0.1032118,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Isles of Scilly,420,E06000053,DSG Funding Allocation,Total DSG,0.37553149,0.37553149,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Wiltshire,865,E06000054,DSG Funding Allocation,Central School Services,2.57034327,2.89680552,-0.32646225
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Wiltshire,865,E06000054,DSG Funding Allocation,Early Years,26.40985355,27.6869462,-1.27709265
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Wiltshire,865,E06000054,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),39.66101877,47.1288281,-7.46780933
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Wiltshire,865,E06000054,DSG Funding Allocation,Schools (after academy recoupment),109.92617085,109.92617085,0
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Wiltshire,865,E06000054,DSG Funding Allocation,Total DSG,178.56738644,187.63875067,-9.07136423
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,"Bournemouth Christchurch and ",839,E06000058,DSG Funding Allocation,Central School Services,2.062205,1.88743417,0.17477083
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,"Bournemouth Christchurch and ",839,E06000058,DSG Funding Allocation,Early Years,20.764067,20.25721515,0.50685185
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,"Bournemouth Christchurch and ",839,E06000058,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),33.990103,40.68553354,-6.69543054
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,"Bournemouth Christchurch and ",839,E06000058,DSG Funding Allocation,Schools (after academy recoupment),30.643625,28.45724996,2.18637504
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,"Bournemouth Christchurch and ",839,E06000058,DSG Funding Allocation,Total DSG,87.46,91.28743282,-3.82743282
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Dorset,838,E06000059,DSG Funding Allocation,Central School Services,1.900585,1.73951903,0.16106597
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Dorset,838,E06000059,DSG Funding Allocation,Early Years,15.980686,16.88646643,-0.90578043
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Dorset,838,E06000059,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),32.797289,36.952537,-4.155248
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Dorset,838,E06000059,DSG Funding Allocation,Schools (after academy recoupment),92.23261,94.59217433,-2.35956433
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Dorset,838,E06000059,DSG Funding Allocation,Total DSG,142.91117,150.17069679,-7.25952679
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Devon,878,E10000008,DSG Funding Allocation,Central School Services,3.638,3.854817,-0.216817
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Devon,878,E10000008,DSG Funding Allocation,Early Years,37.962,36.514837,1.447163
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Devon,878,E10000008,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),64.064333,82.380275,-18.315942
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Devon,878,E10000008,DSG Funding Allocation,Schools (after academy recoupment),163.194,162.664779,0.529221
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Devon,878,E10000008,DSG Funding Allocation,Total DSG,268.858333,285.414708,-16.556375
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Gloucestershire,916,E10000013,DSG Funding Allocation,Central School Services,2.558857,2.569067,-0.01021
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Gloucestershire,916,E10000013,DSG Funding Allocation,Early Years,33.558591,31.982793,1.575798
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Gloucestershire,916,E10000013,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),53.779635,59.620968,-5.841333
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Gloucestershire,916,E10000013,DSG Funding Allocation,Schools (after academy recoupment),165.496314,165.370397,0.125917
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Gloucestershire,916,E10000013,DSG Funding Allocation,Total DSG,255.393397,259.543225,-4.149828
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Somerset,933,E10000027,DSG Funding Allocation,Central School Services,8.2952,7.357577,0.937623
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Somerset,933,E10000027,DSG Funding Allocation,Early Years,28.3439,28.127193,0.216707
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Somerset,933,E10000027,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),47.4389,47.747721,-0.308821
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Somerset,933,E10000027,DSG Funding Allocation,Schools (after academy recoupment),118.381,119.162228,-0.781228
+201920,Financial year,Local authority,England,E92000001,South West,E12000009,Somerset,933,E10000027,DSG Funding Allocation,Total DSG,202.459,202.394719,0.0642809999999999
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,City of London,201,E09000001,DSG Funding Allocation,Central School Services,0.21967,0.09104569,0.12862431
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,City of London,201,E09000001,DSG Funding Allocation,Early Years,0.55,0.52077437,0.02922563
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,City of London,201,E09000001,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),0.5,0.457191,0.042809
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,City of London,201,E09000001,DSG Funding Allocation,Schools (after academy recoupment),1.962379,1.962379,0
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,City of London,201,E09000001,DSG Funding Allocation,Total DSG,3.232049,3.03139006,0.20065894
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Camden,202,E09000007,DSG Funding Allocation,Central School Services,1.429568,0.383,1.046568
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Camden,202,E09000007,DSG Funding Allocation,Early Years,17.744384,17.23370457,0.51067943
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Camden,202,E09000007,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),34.217996,35.29205747,-1.07406147
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Camden,202,E09000007,DSG Funding Allocation,Schools (after academy recoupment),108.135652,108.135652,0
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Camden,202,E09000007,DSG Funding Allocation,Total DSG,161.5276,161.04441404,0.48318596
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hackney,204,E09000012,DSG Funding Allocation,Central School Services,2.060963,2.076361,-0.015398
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hackney,204,E09000012,DSG Funding Allocation,Early Years,29.343067,29.142321,0.200746
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hackney,204,E09000012,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),42.696869,48.840263,-6.143394
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hackney,204,E09000012,DSG Funding Allocation,Schools (after academy recoupment),135.92941,139.534394,-3.604984
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hackney,204,E09000012,DSG Funding Allocation,Total DSG,210.030309,219.593339,-9.56303
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hammersmith and Fulham,205,E09000013,DSG Funding Allocation,Central School Services,4.41454848,4.06532897,0.34921951
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hammersmith and Fulham,205,E09000013,DSG Funding Allocation,Early Years,15.81681455,15.5232791,0.29353545
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hammersmith and Fulham,205,E09000013,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),19.54619878,26.72964369,-7.18344491
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hammersmith and Fulham,205,E09000013,DSG Funding Allocation,Schools (after academy recoupment),39.23741909,38.178922,1.05849709
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Hammersmith and Fulham,205,E09000013,DSG Funding Allocation,Total DSG,79.0149809,84.49717376,-5.48219286
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Haringey,309,E09000014,DSG Funding Allocation,Central School Services,3.026035,3.026035,0
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Haringey,309,E09000014,DSG Funding Allocation,Early Years,20.0894,20.19691895,-0.10751895
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Haringey,309,E09000014,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),33.774194,40.73275264,-6.95855864
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Haringey,309,E09000014,DSG Funding Allocation,Schools (after academy recoupment),129.930364,128.21140261,1.71896139
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Haringey,309,E09000014,DSG Funding Allocation,Total DSG,186.819993,192.1671092,-5.3471162
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Islington,206,E09000019,DSG Funding Allocation,Central School Services,1.80481542,1.76026842,0.044547
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Islington,206,E09000019,DSG Funding Allocation,Early Years,19.87914345,20.22077505,-0.3416316
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Islington,206,E09000019,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),27.00321759,27.85931759,-0.8561
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Islington,206,E09000019,DSG Funding Allocation,Schools (after academy recoupment),100.08499637,100.09998537,-0.014989
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Islington,206,E09000019,DSG Funding Allocation,Total DSG,148.77217283,149.94034643,-1.1681736
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Kensington and Chelsea,207,E09000020,DSG Funding Allocation,Central School Services,0.97587536,0.991,-0.01512464
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Kensington and Chelsea,207,E09000020,DSG Funding Allocation,Early Years,12.02815616,11.101,0.92715616
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Kensington and Chelsea,207,E09000020,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),15.34887493,17.006,-1.65712507
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Kensington and Chelsea,207,E09000020,DSG Funding Allocation,Schools (after academy recoupment),42.60960549,42.504,0.10560549
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Kensington and Chelsea,207,E09000020,DSG Funding Allocation,Total DSG,70.96251194,71.602,-0.63948806
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lambeth,208,E09000022,DSG Funding Allocation,Central School Services,1.042,2.1295,-1.0875
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lambeth,208,E09000022,DSG Funding Allocation,Early Years,29.781,27.81896442,1.96203558
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lambeth,208,E09000022,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),39.614,39.85760927,-0.24360927
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lambeth,208,E09000022,DSG Funding Allocation,Schools (after academy recoupment),141.648,141.25171434,0.39628566
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lambeth,208,E09000022,DSG Funding Allocation,Total DSG,212.085,211.05778803,1.02721197
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lewisham,209,E09000023,DSG Funding Allocation,Central School Services,5.42,5.42,0
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lewisham,209,E09000023,DSG Funding Allocation,Early Years,24.526,23.34565856,1.18034144
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lewisham,209,E09000023,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),50.89833333,51.52801383,-0.6296805
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lewisham,209,E09000023,DSG Funding Allocation,Schools (after academy recoupment),178.1759,178.1759,0
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Lewisham,209,E09000023,DSG Funding Allocation,Total DSG,259.02023333,258.46957239,0.55066094
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Newham,316,E09000025,DSG Funding Allocation,Central School Services,1.95573945,1.86004361,0.09569584
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Newham,316,E09000025,DSG Funding Allocation,Early Years,28.66993773,28.45683932,0.21309841
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Newham,316,E09000025,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),43.62446038,54.97245781,-11.34799743
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Newham,316,E09000025,DSG Funding Allocation,Schools (after academy recoupment),162.63653812,160.33809887,2.29843925
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Newham,316,E09000025,DSG Funding Allocation,Total DSG,236.88667568,245.62743961,-8.74076393
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Southwark,210,E09000028,DSG Funding Allocation,Central School Services,1.683257,1.551164,0.132093
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Southwark,210,E09000028,DSG Funding Allocation,Early Years,26.747129,26.805181,-0.058052
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Southwark,210,E09000028,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),42.383209,52.987704,-10.604495
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Southwark,210,E09000028,DSG Funding Allocation,Schools (after academy recoupment),122.731886,119.212461,3.519425
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Southwark,210,E09000028,DSG Funding Allocation,Total DSG,193.545481,200.55651,-7.011029
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Tower Hamlets,211,E09000030,DSG Funding Allocation,Central School Services,4.810723,2.45348518,2.35723782
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Tower Hamlets,211,E09000030,DSG Funding Allocation,Early Years,29.6169094,30.89274384,-1.27583444
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Tower Hamlets,211,E09000030,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),46.40403372,55.67479675,-9.27076303
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Tower Hamlets,211,E09000030,DSG Funding Allocation,Schools (after academy recoupment),198.13291094,196.45162025,1.68129069
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Tower Hamlets,211,E09000030,DSG Funding Allocation,Total DSG,278.96457706,285.47264602,-6.50806896
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Wandsworth,212,E09000032,DSG Funding Allocation,Central School Services,3.24053203,3.24053203,0
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Wandsworth,212,E09000032,DSG Funding Allocation,Early Years,26.36270253,26.36270253,0
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Wandsworth,212,E09000032,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),40.66567135,41.69991484,-1.03424349
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Wandsworth,212,E09000032,DSG Funding Allocation,Schools (after academy recoupment),86.01817596,85.21420662,0.80396934
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Wandsworth,212,E09000032,DSG Funding Allocation,Total DSG,156.28708187,156.51735602,-0.23027415
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Westminster,213,E09000033,DSG Funding Allocation,Central School Services,1.086,1.54,-0.454
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Westminster,213,E09000033,DSG Funding Allocation,Early Years,14.637,14.271,0.366
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Westminster,213,E09000033,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),23.666,23.321,0.345
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Westminster,213,E09000033,DSG Funding Allocation,Schools (after academy recoupment),44.529,45.123,-0.594
+201920,Financial year,Local authority,England,E92000001,Inner London,E13000001,Westminster,213,E09000033,DSG Funding Allocation,Total DSG,83.918,84.255,-0.337
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barking and Dagenham,301,E09000002,DSG Funding Allocation,Central School Services,2.57464722,2.44564727,0.12899995
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barking and Dagenham,301,E09000002,DSG Funding Allocation,Early Years,22.22992365,22.5338556,-0.30393195
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barking and Dagenham,301,E09000002,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),28.71440321,31.26000084,-2.54559763
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barking and Dagenham,301,E09000002,DSG Funding Allocation,Schools (after academy recoupment),168.01992887,175.45090769,-7.43097882
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barking and Dagenham,301,E09000002,DSG Funding Allocation,Total DSG,221.53890295,231.6904114,-10.15150845
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barnet,302,E09000003,DSG Funding Allocation,Central School Services,2.18260674,2.19699433,-0.01438759
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barnet,302,E09000003,DSG Funding Allocation,Early Years,28.92777394,28.54509433,0.38267961
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barnet,302,E09000003,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),45.16013053,47.23668984,-2.07655931
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barnet,302,E09000003,DSG Funding Allocation,Schools (after academy recoupment),143.17578743,141.13162182,2.04416561
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Barnet,302,E09000003,DSG Funding Allocation,Total DSG,219.44629864,219.11040032,0.33589832
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bexley,303,E09000004,DSG Funding Allocation,Central School Services,2.0346109,2.00214702,0.03246388
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bexley,303,E09000004,DSG Funding Allocation,Early Years,16.24510826,16.39759839,-0.15249013
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bexley,303,E09000004,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),24.72631021,31.59879051,-6.8724803
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bexley,303,E09000004,DSG Funding Allocation,Schools (after academy recoupment),27.21887596,25.89143696,1.327439
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bexley,303,E09000004,DSG Funding Allocation,Total DSG,70.22490533,75.88997288,-5.66506755
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Brent,304,E09000005,DSG Funding Allocation,Central School Services,2.3741284,2.95412804,-0.57999964
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Brent,304,E09000005,DSG Funding Allocation,Early Years,22.59283281,23.50442908,-0.91159627
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Brent,304,E09000005,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),49.13897441,52.47126719,-3.33229278
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Brent,304,E09000005,DSG Funding Allocation,Schools (after academy recoupment),116.35331551,122.64981235,-6.29649684
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Brent,304,E09000005,DSG Funding Allocation,Total DSG,190.45925113,201.57963666,-11.12038553
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bromley,305,E09000006,DSG Funding Allocation,Central School Services,1.93846,1.745437,0.193023
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bromley,305,E09000006,DSG Funding Allocation,Early Years,22.181056,20.905633,1.275423
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bromley,305,E09000006,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),40.370322,43.634351,-3.264029
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bromley,305,E09000006,DSG Funding Allocation,Schools (after academy recoupment),9.565162,9.977978,-0.412816
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Bromley,305,E09000006,DSG Funding Allocation,Total DSG,74.055,76.263399,-2.208399
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Croydon,306,E09000008,DSG Funding Allocation,Central School Services,6.117487,6.117489,-2E-06
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Croydon,306,E09000008,DSG Funding Allocation,Early Years,29.183031,29.166152,0.016879
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Croydon,306,E09000008,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),56.935082,62.36803,-5.432948
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Croydon,306,E09000008,DSG Funding Allocation,Schools (after academy recoupment),73.96783,73.915324,0.052506
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Croydon,306,E09000008,DSG Funding Allocation,Total DSG,166.20343,171.566995,-5.363565
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Ealing,307,E09000009,DSG Funding Allocation,Central School Services,3.2357798,3.235693,8.68E-05
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Ealing,307,E09000009,DSG Funding Allocation,Early Years,27.8454305,26.551431,1.2939995
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Ealing,307,E09000009,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),53.82178365,56.21907235,-2.3972887
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Ealing,307,E09000009,DSG Funding Allocation,Schools (after academy recoupment),177.41922252,176.31602012,1.1032024
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Ealing,307,E09000009,DSG Funding Allocation,Total DSG,262.32221647,262.32221647,-4.44089209850063E-16
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Enfield,308,E09000010,DSG Funding Allocation,Central School Services,2.925009,2.726825,0.198184
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Enfield,308,E09000010,DSG Funding Allocation,Early Years,25.431441,24.987176,0.444265
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Enfield,308,E09000010,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),45.201903,53.523376,-8.321473
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Enfield,308,E09000010,DSG Funding Allocation,Schools (after academy recoupment),128.05425,126.51540671,1.53884329
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Enfield,308,E09000010,DSG Funding Allocation,Total DSG,201.612603,207.75278371,-6.14018071
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Greenwich,203,E09000011,DSG Funding Allocation,Central School Services,6.18497,6.17497,0.01
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Greenwich,203,E09000011,DSG Funding Allocation,Early Years,27.853132,25.26900593,2.58412607
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Greenwich,203,E09000011,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),40.91595,41.75944074,-0.84349074
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Greenwich,203,E09000011,DSG Funding Allocation,Schools (after academy recoupment),134.306366,131.56446567,2.74190033
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Greenwich,203,E09000011,DSG Funding Allocation,Total DSG,209.260418,204.76788234,4.49253566
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Harrow,310,E09000015,DSG Funding Allocation,Central School Services,1.22511336,1.222773,0.00234036
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Harrow,310,E09000015,DSG Funding Allocation,Early Years,18.21053925,17.63771988,0.57281937
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Harrow,310,E09000015,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),30.52229838,33.89275978,-3.3704614
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Harrow,310,E09000015,DSG Funding Allocation,Schools (after academy recoupment),78.0539057,77.86440072,0.18950498
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Harrow,310,E09000015,DSG Funding Allocation,Total DSG,128.01185669,130.61765338,-2.60579669
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Havering,311,E09000016,DSG Funding Allocation,Central School Services,1.576,1.22576235,0.35023765
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Havering,311,E09000016,DSG Funding Allocation,Early Years,18.981,19.3495709,-0.3685709
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Havering,311,E09000016,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),21.547,26.23640156,-4.68940156
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Havering,311,E09000016,DSG Funding Allocation,Schools (after academy recoupment),72.652,72.23569971,0.41630029
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Havering,311,E09000016,DSG Funding Allocation,Total DSG,114.756,119.04743452,-4.29143452
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hillingdon,312,E09000017,DSG Funding Allocation,Central School Services,2.818482,3.492486,-0.674004
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hillingdon,312,E09000017,DSG Funding Allocation,Early Years,25.342914,25.074036,0.268878
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hillingdon,312,E09000017,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),32.19604,41.956308,-9.760268
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hillingdon,312,E09000017,DSG Funding Allocation,Schools (after academy recoupment),92.549232,88.619096,3.930136
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hillingdon,312,E09000017,DSG Funding Allocation,Total DSG,152.906668,159.141926,-6.235258
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hounslow,313,E09000018,DSG Funding Allocation,Central School Services,1.404629,1.404629,0
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hounslow,313,E09000018,DSG Funding Allocation,Early Years,22.00847418,22.00847418,0
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hounslow,313,E09000018,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),45.83272434,52.96424486,-7.13152052
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hounslow,313,E09000018,DSG Funding Allocation,Schools (after academy recoupment),102.14416832,102.14416832,0
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Hounslow,313,E09000018,DSG Funding Allocation,Total DSG,171.38999584,178.52151636,-7.13152052
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Kingston Upon Thames,314,E09000021,DSG Funding Allocation,Central School Services,1.10715826,1.05419758,0.05296068
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Kingston Upon Thames,314,E09000021,DSG Funding Allocation,Early Years,13.08321271,12.30926646,0.77394625
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Kingston Upon Thames,314,E09000021,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),16.38817626,22.75612568,-6.36794942
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Kingston Upon Thames,314,E09000021,DSG Funding Allocation,Schools (after academy recoupment),49.26935422,48.90808467,0.36126955
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Kingston Upon Thames,314,E09000021,DSG Funding Allocation,Total DSG,79.84790145,85.02767439,-5.17977294
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Merton,315,E09000024,DSG Funding Allocation,Central School Services,1.041,1.06188,-0.02088
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Merton,315,E09000024,DSG Funding Allocation,Early Years,16.147,15.900187,0.246813
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Merton,315,E09000024,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),32.813,32.033601,0.779399
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Merton,315,E09000024,DSG Funding Allocation,Schools (after academy recoupment),97.989,108.835332,-10.846332
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Merton,315,E09000024,DSG Funding Allocation,Total DSG,147.99,157.831,-9.841
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Redbridge,317,E09000026,DSG Funding Allocation,Central School Services,7.65822118,7.64268418,0.015537
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Redbridge,317,E09000026,DSG Funding Allocation,Early Years,23.27749114,23.27749114,0
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Redbridge,317,E09000026,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),40.710142,42.45564204,-1.74550004
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Redbridge,317,E09000026,DSG Funding Allocation,Schools (after academy recoupment),167.14639096,165.625436,1.52095496
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Redbridge,317,E09000026,DSG Funding Allocation,Total DSG,238.79224528,239.00125336,-0.20900808
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Richmond Upon Thames,318,E09000027,DSG Funding Allocation,Central School Services,0.922674,0.767107,0.155567
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Richmond Upon Thames,318,E09000027,DSG Funding Allocation,Early Years,14.81242453,13.82334094,0.98908359
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Richmond Upon Thames,318,E09000027,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),22.0724065,27.69642021,-5.62401371
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Richmond Upon Thames,318,E09000027,DSG Funding Allocation,Schools (after academy recoupment),70.82134438,70.223049,0.59829538
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Richmond Upon Thames,318,E09000027,DSG Funding Allocation,Total DSG,108.62884941,112.50991715,-3.88106774
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Sutton,319,E09000029,DSG Funding Allocation,Central School Services,1.827,1.92808,-0.10108
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Sutton,319,E09000029,DSG Funding Allocation,Early Years,14.965863,14.556265,0.409598
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Sutton,319,E09000029,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),31.745,32.829741,-1.084741
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Sutton,319,E09000029,DSG Funding Allocation,Schools (after academy recoupment),48.587,48.153282,0.433718
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Sutton,319,E09000029,DSG Funding Allocation,Total DSG,97.124863,97.467368,-0.342505
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Waltham Forest,320,E09000031,DSG Funding Allocation,Central School Services,1.51188,1.51188,0
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Waltham Forest,320,E09000031,DSG Funding Allocation,Early Years,22.489305,22.39381676,0.09548824
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Waltham Forest,320,E09000031,DSG Funding Allocation,High Needs (after deductions for academy and post school high needs place funding),28.80171,31.67763658,-2.87592658
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Waltham Forest,320,E09000031,DSG Funding Allocation,Schools (after academy recoupment),106.439737,108.12834974,-1.68861274
+201920,Financial year,Local authority,England,E92000001,Outer London,E13000002,Waltham Forest,320,E09000031,DSG Funding Allocation,Total DSG,159.242632,163.71168308,-4.46905108

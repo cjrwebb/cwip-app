@@ -1,0 +1,880 @@
+Characteristics of children in need
+2021 Reporting Year
+
+Description
+
+Children in need statistics provide information on:
+
+- children in need of social care services;
+- children referred to social care services;
+- assessments undertaken, primary need at assessment and factors identified at the end of assessment;
+- section 47 enquiries (carried out by a local authority if they suspect a child is suffering, or likely to suffer, significant harm) and initial child protection conferences;
+- children who were the subject of a child protection plan.
+
+Coverage
+
+Data is collected by the Department for Education in the annual Children in need Census from all local authorities in England.
+
+Data for Hackney local authority is not available for the year ending 31 March 2021.
+
+File formats and conventions
+
+Confidentiality
+
+0 indicates the original figure submitted was zero.
+
+Any number between 1 and 5 inclusive has been suppressed and replaced by ‘c’.  Secondary suppression has been applied where necessary, to preserve confidentiality.
+
+The letter ‘z’ indicates data is not applicable.
+
+The symbol ‘:’ indicates that data is not available. This may be because a local authority was unable to return a particular data item in the children in need census; changes to the data collected in the census; or data is not available because of concerns regarding quality.
+
+The symbols used are in accordance with the latest Government Statistical Service (GSS) guidance.
+
+Rounding
+
+England and regional totals are rounded to the nearest 10 and therefore totals may not equal the sum of their component parts.
+
+Percentages are rounded to one decimal place, therefore component parts may not sum to 100.
+
+Rates per 10,000 children aged under 18 years are rounded to one decimal place. Rates are calculated using ONS mid-year population estimates for children aged 0 to 17 years in England.
+
+Data files
+
+A1 National time series of children in need, referrals and assessments, England 2013 to 2021
+
+Filename: a1_cin_referrals_assessments_2013_to_2021.csv
+Geographic levels: National
+Time period: 2013 to 2021
+Content summary: Children in need, episodes of need, referrals and assessments completed by children's social care services.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+-------------  |  --------------------------------------------
+category_type  |  Category type
+number         |  Number
+percent        |  Percentage
+rate           |  Rate per 10,000 children aged under 18 years
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+2. If a child has more than one referral in a reporting year, then each referral is counted.
+3. A child can have more than one episode of need throughout the year, but episodes should not overlap. 
+
+
+A2 National time series of section 47s, initial child protection conferences and child protection plans, England 2013 to 2021
+
+Filename: a2_section47_icpc_cpp_2013_to_2021.csv
+Geographic levels: National
+Time period: 2013 to 2021
+Content summary: Section 47 enquiries, initial child protection conferences and child protection plans.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+-------------  |  -------------------------------------------
+category_type  |  Category type
+number         |  Number
+percent        |  Percentage
+rate           |  Rate per 10000 children aged under 18 years
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+
+
+A3 National times series of children in need by gender, age and primary need, England 2018 to 2021
+
+Filename: a3_cin_primary_need_by_age_gender_2018_to_2021.csv
+Geographic levels: National
+Time period: 2018 to 2021
+Content summary: Children in need by gender, age and primary need.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                       |  Variable description
+----------------------------------  |  --------------------------------------
+characteristic                      |  Characteristic
+CIN_At31                            |  Children in Need at 31st March
+N0_Not_stated                       |  N0 - Not stated
+N1_Abuse_or_neglect                 |  N1 - Abuse or neglect
+N2_Childs_disability_or_illness     |  N2 - Child's disability or illness
+N3_Parents_disability_or_illness    |  N3 - Parent's disability or illness
+N4_Family_in_acute_stress           |  N4 - Family in acute stress
+N5_Family_dysfunction               |  N5 - Family dysfunction
+N6_Socially_unacceptable_behaviour  |  N6 - Socially unacceptable behaviour
+N7_Low_income                       |  N7 - Low income
+N8_Absent_parenting                 |  N8 - Absent parenting
+N9_Cases_other_than_CIN             |  N9 - Cases other than children In need
+
+
+A4 National time series of children in need by ethnicity and age and gender, England 2018 to 2021
+
+Filename: a4_cin_by_ethnicity_and_age_gender_2018_to_2021.csv
+Geographic levels: National
+Time period: 2018 to 2021
+Content summary: Children in need by gender, age and ethnicity.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                     |  Variable description
+--------------------------------  |  ------------------------------
+characteristic                    |  Characteristic
+CIN_At31                          |  Children in Need at 31st March
+Ethnicity_Asian_or_Asian_British  |  Asian or Asian British
+Ethnicity_Black_or_Black_British  |  Black or Black British
+Ethnicity_Mixed                   |  Mixed
+Ethnicity_White                   |  White
+Known_ethnicity                   |  Known ethnicity
+Other_ethnic_group                |  Other ethnic group
+
+Footnotes:
+
+1. White comprises white British, white Irish, traveller of Irish heritage, any other white background and Gypsy/Roma.
+2. Mixed comprises white and black Caribbean, white and black African, white and Asian, any other mixed background. 
+3. Asian or Asian British comprises Indian, Pakistani, Bangladeshi, Chinese and any other Asian background.
+4. Black or black British comprises Caribbean, African or any other black background.
+
+
+A5 National time series of child protection plans by initial category of abuse and gender, age and ethnicity, England 2018 to 2021
+
+Filename: a5_cpp_initial_category_of_abuse_by_gender_age_ethnicity_2018_to_2021.csv
+Geographic levels: National
+Time period: 2018 to 2021
+Content summary: Children who were the subject of a child protection plan at 31 March by initial category of abuse by gender, age and ethnicity.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------
+characteristic           |  Characteristic
+characteristic_type      |  Characteristic type
+CPP_At31                 |  Child Protection Plans at 31st March
+Emotional_Abuse_Initial  |  Emotional Abuse
+Multiple_Initial         |  Multiple
+Neglect_Initial          |  Neglect
+Physical_Abuse_Initial   |  Physical Abuse
+Sexual_Abuse_Initial     |  Sexual Abuse
+
+Footnotes:
+
+1. White comprises white British, white Irish, traveller of Irish heritage, any other white background and Gypsy/Roma.
+2. Mixed comprises white and black Caribbean, white and black African, white and Asian, any other mixed background. 
+3. Asian or Asian British comprises Indian, Pakistani, Bangladeshi, Chinese and any other Asian background.
+4. Black or black British comprises Caribbean, African or any other black background.
+
+
+A6 National time series of child protection plans by initial category of abuse, England 2013 to 2021
+
+Filename: a6_cpp_initial_category_of_abuse_2013_to_2021.csv
+Geographic levels: National
+Time period: 2013 to 2021
+Content summary: Children who were the subject of a child protection plan at 31 March by initial category of abuse.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------
+CPP_At31                 |  Child Protection Plans at 31st March
+Emotional_abuse_Initial  |  Emotional Abuse
+Multiple_Initial         |  Multiple
+Neglect_Initial          |  Neglect
+Physical_abuse_Initial   |  Physical Abuse
+Sexual_abuse_Initial     |  Sexual Abuse
+
+
+A7 National time series of children in need by gender, age and ethnicity, England 2015 to 2021
+
+Filename: a7_cin_by_age_gender_ethnicity_2015_to_2021.csv
+Geographic levels: National
+Time period: 2015 to 2021
+Content summary: Children in need by gender, age and ethnicity.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -------------------
+characteristic_type  |  Characteristic type
+number               |  Number
+percent              |  Percentage
+
+Footnotes:
+
+1. White comprises white British, white Irish, traveller of Irish heritage, any other white background and Gypsy/Roma.
+2. Mixed comprises white and black Caribbean, white and black African, white and Asian, any other mixed background. 
+3. Asian or Asian British comprises Indian, Pakistani, Bangladeshi, Chinese and any other Asian background.
+4. Black or black British comprises Caribbean, African or any other black background.
+
+
+B1 Children in need and episodes of need by local authority, England 2013 to 2021
+
+Filename: b1_children_in_need_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Children in need episodes at any point during the year, episodes starting and ending in the year and children in need at 31 March.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name             |  Variable description
+------------------------  |  ------------------------------------------------------------------------------------------------------------------------------------
+Anypoint_child            |  Children with an episode of need at any point during the year
+Anypoint_child_rate       |  Rate of children with an episode of need at any point during the year per 10000 children aged under 18 years
+Anypoint_episodes         |  Episodes of need at any point during the year
+Anypoint_episodes_rate    |  Rate of episodes of need at any point during the year per 10000 children aged under 18 years
+At31_episodes             |  Children in need at 31 March
+At31_episodes_rate        |  Rate of children in need at 31 March per 10000 children aged under 18 years
+Awaiting_assessment       |  Children in need at 31 March who are awaiting assessment or do not require an assessment
+Awaiting_assessment_rate  |  Rate of children in need at 31 March who are awaiting assessment or do not require assessment per 10000 children aged under 18 years
+Ended_child               |  Children ending an episode of need in the year
+Ended_child_rate          |  Rate of children ending an episode of need in the year per 10000 children aged under 18 years
+Ended_episodes            |  Episodes of need ending in the year
+Ended_episodes_rate       |  Rate of episodes ending in the year per 10000 children aged under 18 years
+Started_child             |  Children starting an episode of need in the year
+Started_child_rate        |  Rate of children starting an episode of need in the year per 10000 children aged under 18 years
+Started_episodes          |  Episodes of need starting in the year
+Started_episodes_rate     |  Rate of episodes of need starting in the year per 10000 children aged under 18 years
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+2. A child can have more than one episode of need throughout the year, but episodes should not overlap. 
+3. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+B2 Children in need at 31 March by recorded disability and local authority, England 2013 to 2021
+
+Filename: b2_children_in_need_recorded_disability_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Children in need by disability.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                              |  Variable description
+-----------------------------------------  |  ---------------------------------------------------------------------
+At31_episodes                              |  Number of children in need at 31 March
+At31_episodes_disability_recorded          |  Number of children in need at 31 March with a disability recorded
+At31_episodes_disability_recorded_percent  |  Percentage of children in need at 31 March with a disability recorded
+Autism_percent                             |  Autism/Asperger Syndrome
+Behaviour_percent                          |  Behaviour
+Communication_percent                      |  Communication
+Consciousness_percent                      |  Consciousness
+Hand_Function_percent                      |  Hand Function
+Hearing_percent                            |  Hearing
+Incontinence_percent                       |  Incontinence
+Learning_Difficulties_percent              |  Learning
+Mobility_percent                           |  Mobility
+Other_percent                              |  Other Disability
+Personal_care_percent                      |  Personal Care
+Vision_percent                             |  Vision
+
+Footnotes:
+
+1. The Disability Discrimination Act defines a disabled person as a person with a "physical or mental impairment which has a substantial and long term adverse effect on his ability to carry out normal day to day activities". The condition must have lasted or be likely to last at least 12 months to be classed as a disability.  
+2. A child may have more than one disability recorded, therefore the disability category percentages may not sum to 100.
+3. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+B3 Children in need at 31 March by primary need and local authority, England 2013 to 2021
+
+Filename: b3_cin_primary_need_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Children in need by primary need at assessment.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                       |  Variable description
+----------------------------------  |  --------------------------------------
+At31_episodes                       |  Number of children in need at 31 March
+N0_Not_stated                       |  N0 - Not stated
+N1_Abuse_or_neglect                 |  N1 - Abuse or neglect
+N2_Childs_disability_or_illness     |  N2 - Child's disability or illness
+N3_Parents_disability_or_illness    |  N3 - Parent's disability or illness
+N4_Family_in_acute_stress           |  N4 - Family in acute stress
+N5_Family_dysfunction               |  N5 - Family dysfunction
+N6_Socially_unacceptable_behaviour  |  N6 - Socially unacceptable behaviour
+N7_Low_income                       |  N7 - Low income
+N8_Absent_parenting                 |  N8 - Absent parenting
+N9_Cases_other_than_CIN             |  N9 - Cases other than children in need
+
+Footnotes:
+
+1. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+B4 Children in need at 31 March by duration of episode and local authority, England 2013 to 2021
+
+Filename: b4_children_in_need_duration_of_open_episode_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Children in need by duration of episode of need.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                |  Variable description
+-------------------------------------------  |  ------------------------------------------------------------------
+1_year_less_than_2_years                     |  1 year but less than 2 years - number
+1_year_less_than_2_years_percent             |  1 year but less than 2 years - percentage
+2years+                                      |  2 years and over - number
+2years+_percent                              |  2 years and over - percentage
+3_months_or_less                             |  3 months or less - number
+3_months_or_less_percent                     |  3 months or less - percentage
+At31_episodes                                |  Number of children in need at 31 March
+more_than_3_months_6_months                  |  More than 3 months but less than or equal to 6 months - number
+more_than_3_months_6_months_percent          |  More than 3 months but less than or equal to 6 months - percentage
+more_than_6_months_less_than_1_year          |  More than 6 months but less than 1 year - number
+more_than_6_months_less_than_1_year_percent  |  More than 6 months but less than 1 year - percentage
+
+Footnotes:
+
+1. The duration of episodes open at 31 March is calculated as the difference between 31 March of the reporting year and the referral date.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+B5 Duration of episodes of need ending in the  year to 31 March by local authority, England 2013 to 2021
+
+Filename: b5_children_in_need_duration_of_ended_episode_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Episodes of need ending during the year by duration of episode of need.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                |  Variable description
+-------------------------------------------  |  ------------------------------------------------------------------
+1_year_less_than_2_years                     |  1 year but less than 2 years - number
+1_year_less_than_2_years_percent             |  1 year but less than 2 years - percentage
+2years+                                      |  2 years and over - number
+2years+_percent                              |  2 years and over - percentage
+3_months_or_less                             |  3 months or less - number
+3_months_or_less_percent                     |  3 months or less - percentage
+Ended_episodes                               |  Number of episodes ending during the year to 31 March
+more_than_3_months_6_months                  |  More than 3 months but less than or equal to 6 months - number
+more_than_3_months_6_months_percent          |  More than 3 months but less than or equal to 6 months - percentage
+more_than_6_months_less_than_1_year          |  More than 6 months but less than 1 year - number
+more_than_6_months_less_than_1_year_percent  |  More than 6 months but less than 1 year - percentage
+
+Footnotes:
+
+1. The duration of episode of need ending in the year is calculated as the difference between the referral date and closure date.  
+2. A child can have more than one episode of need throughout the year, but episodes should not overlap. 
+3. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+B6 Episodes of need ending in the year to 31 March  by reason for closure and local authority, England 2013 to 2021
+
+Filename: b6_children_in_need_reason_for_closure_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Episodes of need ending during the year by reason for case closure.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                 |  Variable description
+--------------------------------------------  |  --------------------------------------------------------
+Ended_episodes                                |  Number of episodes of need ending in the year
+RC1_Adopted                                   |  RC1 - Adopted - Number
+RC1_Adopted_percent                           |  RC1 - Adopted - Percentage
+RC2_Died                                      |  RC2 - Died - Number
+RC2_Died_percent                              |  RC2 - Died -Percentage
+RC3_Residence_Order                           |  RC3 - Residence Order - Number
+RC3_Residence_Order_percent                   |  RC3 - Residence Order - Percentage
+RC4_Special_Guardianship_Order                |  RC4 - Special Guardianship Order - Number
+RC4_Special_Guardianship_Order_percent        |  RC4 - Special Guardianship Order - Percentage
+RC5_Transfer_to_another_LA                    |  RC5 - Transfer to another LA - Number
+RC5_Transfer_to_another_LA_percent            |  RC5 - Transfer to another LA - Percentage
+RC6_Transfer_to_Adult_Social_Service          |  RC6 - Transfer to Adult Social Services - Number
+RC6_Transfer_to_Adult_Social_Service_percent  |  RC6 - Transfer to Adult Social Services - Percentage
+RC7_Other                                     |  RC7 - 'Other' incl. Child no longer in need - Number
+RC7_Other_percent                             |  RC7 - 'Other' incl. Child no longer in need - Percentage
+unknown                                       |  Unknown - Number
+unknown_percent                               |  Unknown - Percentage
+
+Footnotes:
+
+1. Unknown includes episodes ending during the year where reason for closure was not known and episodes closed after an assessment where no further action was taken.
+2. A child can have more than one episode of need throughout the year, but episodes should not overlap. 
+3. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+C1 Referrals and re-referrals to children's social care services by local authority, England 2013 to 2021
+
+Filename: c1_children_in_need_referrals_and_rereferrals_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Referrals to children's social care services, referrals  within 12 months of a previous referral, referrals which resulted in no further action and referrals which were assessed and resulted in no further action.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name               |  Variable description
+--------------------------  |  ------------------------------------------------------------------------------------------
+No_Further_Action           |  Referrals which resulted in no further action
+No_Further_Action_percent   |  Referrals which resulted in no further action (%)
+Not_in_Need                 |  Referrals which resulted in an assessment and the child was assessed not to be in need
+Not_in_Need_percent         |  Referrals which resulted in an assessment and the child was assessed not to be in need (%)
+Re_referrals                |  Re-referrals within 12 months of a previous referral
+Re_referrals_child          |  Number of children with a referral within 12 months of a previous referral
+Re_referrals_child_percent  |  Number of children with a referral within 12 months of a previous referral (%)
+Re_referrals_percent        |  Re-referrals within 12 months of a previous referral (%)
+Referrals                   |  Referrals in the year
+Referrals_child             |  Number of children with a referral in the year
+Referrals_child_rate        |  Rate of children referred per 10000 children aged under 18 years
+Referrals_rate              |  Rate of referrals in the year per 10000 children aged under 18 years
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+2. There is significant variation between local authorities in the number of referrals which resulted in no further action without an assessment taking place. This variation is a result of differences in local reporting practices.
+3. There is significant variation between local authorities in the number of referrals which resulted in assessment where the child was assessed as not in need and no further action was taken after the assessment. This variation is a result of differences in local reporting practices.
+4. If a child has more than one referral in a reporting year, then each referral is counted.
+5. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+C2 Completed assessments by duration of assessment and local authority, England 2014 to 2021
+
+Filename: c2_children_in_need_assessments_duration_2014_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2014 to 2021
+Content summary: Assessments completed by children's social care services by duration of assessment.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name               |  Variable description
+--------------------------  |  -------------------------------------------
+1-10_days                   |  1 to 10 days
+11-20_days                  |  11 to 20 days
+21-30_days                  |  21 to 30 days
+25th_Percentile_days        |  25th percentile (days)
+31-40_days                  |  31 to 40 days
+41-45_days                  |  41 to 45 days
+46-50_days                  |  46 to 50 days
+51-60_days                  |  51 to 60 days
+61+_days                    |  61 days and over
+75th_Percentile_days        |  75th percentile (days)
+Assessments_completed       |  Number of assessments in the year
+Assessments_completed_rate  |  Rate per 10000 children aged under 18 years
+Median_days                 |  Median (days)
+Same_day                    |  Started and finished the same day
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+3. The duration of an assessment is calculated as the time in working days between the assessment start date and the assessment end date.
+
+
+C3 Factors identified at the end of assessment by local authority, England 2018 to 2021
+
+Filename: c3_children_in_need_factors_identified_at_end_of_assessment_2018_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2018 to 2021
+Content summary: Factors identified at the end of assessment.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                    |  Variable description
+-------------------------------  |  -----------------------------------------------------------
+Alcohol_Misuse_child             |  Alcohol misuse: concerns about child
+Alcohol_Misuse_parent            |  Alcohol misuse: concerns about parent
+Alcohol_Misuse_person            |  Alcohol misuse: concerns about other person
+Child_sexual_exploitation        |  Child sexual exploitation
+Domestic_Violence_child          |  Domestic violence: concerns child is victim
+Domestic_Violence_parent         |  Domestic violence: concerns parent is victim
+Domestic_Violence_person         |  Domestic violence: concerns other person is victim
+Drug_Misuse_child                |  Drug misuse: concerns about child
+Drug_Misuse_parent               |  Drug misuse: concerns about parent
+Drug_Misuse_person               |  Drug misuse: concerns about other person
+Emotional_Abuse                  |  Emotional abuse
+Episodes_with_assessment_factor  |  Number of episodes with assessment factor information
+Faith_linked_abuse               |  Abuse linked to faith or belief
+Female_Genital_Mutilation        |  Female Genital Mutilation
+Gangs                            |  Gangs
+Going_missing                    |  Going/being missing
+Learning_Disability_child        |  Learning disability: concerns about child
+Learning_Disability_parent       |  Learning disability: concerns about parent
+Learning_Disability_person       |  Learning disability: concerns about other person
+Mental_Health_child              |  Mental health: concerns about child
+Mental_Health_parent             |  Mental health: concerns about parent
+Mental_Health_person             |  Mental health: concerns about other person
+Neglect                          |  Neglect
+Other                            |  Other factors
+Physical_Abuse_adult_on_child    |  Physical abuse: adult on child
+Physical_Abuse_child_on_child    |  Physical abuse: child on child
+Physical_Abuse_unknown           |  Physical abuse
+Physical_Disability_child        |  Physical disability or illness: concerns about child
+Physical_Disability_parent       |  Physical disability or illness: concerns about parent
+Physical_Disability_person       |  Physical disability or illness: concerns about other person
+Privately_fostered               |  Privately fostered
+Self_harm                        |  Self-harm
+Sexual_Abuse_adult_on_child      |  Sexual abuse: adult on child
+Sexual_Abuse_child_on_child      |  Sexual abuse: child on child
+Sexual_Abuse_unknown             |  Sexual abuse
+Socially_unacceptable_behaviour  |  Socially unacceptable behaviour
+Trafficking                      |  Trafficking
+Unaccompanied_asylum_seeker      |  Unaccompanied asylum seeker
+Young_Carer                      |  Young carer
+
+Footnotes:
+
+1. Figures exclude the category ‘no factors identified’. This category is only used for cases which are closed following assessments resulting in no further action
+2. An assessment may have more than one factor recorded.
+3. Information on child on child and adult on child physical and sexual abuse was collected and reported on for the first time in 2021 and so should be treated with some caution. Previously physical abuse and sexual abuse was collected and reported on (irrespective of whether it was child on child or adult on child) and some local authorities provided information on the old basis only, or a mixture of the old and new basis, in 2021. The old physical and sexual abuse categories have therefore been included in the 2021 data to provide a more complete account of this category of assessment.
+4. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+C4 Section 47s and Initial Child Protection Conferences by local authority, England 2013 to 2021
+
+Filename: c4_children_in_need_section_47s_and_icpcs_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Section 47 enquiries and initial child protection conferences.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name             |  Variable description
+------------------------  |  ------------------------------------------------------------------------------------
+Duration_0-10_days        |  Duration between start of Section 47 enquiry and ICPC (0-10 working days)
+Duration_11-15_days       |  Duration between start of Section 47 enquiry and ICPC (11-15 working days)
+Duration_16-20_days       |  Duration between start of Section 47 enquiry and ICPC (16-20 working days)
+Duration_21+_days         |  Duration between start of Section 47 enquiry and ICPC (21+ working days)
+Duration_25th_Percentile  |  Duration between start of Section 47 enquiry and ICPC (25th percentile working days)
+Duration_75th_Percentile  |  Duration between start of Section 47 enquiry and ICPC (75th percentile working days)
+Duration_median           |  Duration between start of Section 47 enquiry and ICPC (Median working days)
+ICPC                      |  Number of ICPCs
+ICPC_child                |  Number of children undergoing an ICPC
+ICPC_child_rate           |  Rate of children undergoing an ICPC per 10000 children aged under 18 years
+ICPC_rate                 |  Rate of ICPCs per 10000 children aged under 18 years
+Section47                 |  Number of Section 47s
+Section47_child           |  Number of children undergoing a Section 47
+Section47_child_rate      |  Rate of children undergoing a Section 47 per 10000 children aged under 18 years
+Section47_rate            |  Rate of Section 47s per 10000 children aged under 18 years
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+2. The duration between start of a section 47 enquiry and initial child protection conference is calculated as the time in working days between the start of section 47 and the date of the initial child protection conference. For cases transferred in from another local authority, the duration is calculated as time in working days between the referral date and the date of the initial child protection conference.
+3. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+C5 Referrals to children's social care services by source of referral, England 2014 to 2021
+
+Filename: c5_children_in_need_referrals_by_source_2014_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2014 to 2021
+Content summary: Referrals to children's social care services by source of referral.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  -------------------
+Anonymous           |  Anonymous
+Education_Services  |  Education services
+Health_Services     |  Health services
+Housing             |  Housing
+Individual          |  Individual
+LA_Services         |  LA services
+Other               |  Other
+Other_legal_agency  |  Other legal agency
+Police              |  Police
+Referrals           |  Number of referrals
+Schools             |  Schools
+Unknown             |  Unknown
+
+Footnotes:
+
+1. 'Individual' includes referrals from family members, relatives, carers, acquaintances and self-referrals.
+2. 'Health services' includes referral from GPs, health visitors, school nurses, other primary health services, A&E and other health services.
+3. 'LA services' includes referrals from social care, other internal local authority services and external local authority services.	
+4. If a child has more than one referral in a reporting year, then each referral is counted.
+5. The source of referral is recorded for each new referral. Where there is more than one referral for the same child on the same day, the first referral should be recorded.
+6. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+C6 Referrals to children's social care services by month and local authority, England 2013 to 2021
+
+Filename: c6_children_in_need_referrals_by_month_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Referrals to children's social care services by month of the year.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+---------  |  -------------------------------------
+April      |  April
+August     |  August
+December   |  December
+February   |  February
+January    |  January
+July       |  July
+June       |  June
+March      |  March
+May        |  May
+November   |  November
+October    |  October
+Referrals  |  Total number of referrals in the year
+September  |  September
+
+Footnotes:
+
+1. If a child has more than one referral in a reporting year, then each referral is counted.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D1 Child Protection Plans by local authority, England 2013 to 2021
+
+Filename: d1_child_protection_plans_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Child protection plans starting, ending and at any point during the year and children subject to a child protection plan at 31 March.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  -----------------------------------------------------------------------------------------------------------
+CPP_anypoint             |  Number of child protection plans at any point in the year
+CPP_anypoint_rate        |  Rate of child protection plans taking place at any point in the year per 10000 children aged under 18 years
+CPP_At31                 |  Number of child protection plans at 31 March
+CPP_At31_rate            |  Rate of child protection plans at 31 March per 10000 children aged under 18 years
+CPP_child_anypoint       |  Number of children on child protection plans at any point in the year
+CPP_child_anypoint_rate  |  Rate of children on child protection plans at any point in the year per 10000 children aged under 18 years
+CPP_child_end            |  Number of children ending child protection plans in the year
+CPP_child_end_rate       |  Rate of children ending child protection plans in the year per 10000 children aged under 18 years
+CPP_child_start          |  Number of children starting child protection plans in the year
+CPP_child_start_rate     |  Rate of children starting child protection plans in the year per 10000 children aged under 18 years
+CPP_end                  |  Number of child protection plans ending in the year
+CPP_end_rate             |  Rate of child protection plans ending in the year per 10000 children aged under 18 years
+CPP_start                |  Number of child protection plans starting in the year
+CPP_start_rate           |  Rate of child protection plans starting in the year per 10000 children aged under 18 years
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D2 Child Protection Plans starting in the year by category of abuse and local authority, England 2013 to 2021
+
+Filename: d2_cpps_starting_by_category_of_abuse_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Child protection plans starting during the year by initial and latest category of abuse.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name      |  Variable description
+-----------------  |  ---------------------------------------------------------
+CPP_start          |  Number of child protection plans starting during the year
+Emotional_Initial  |  Initial: Emotional abuse
+Emotional_Latest   |  Latest: Emotional abuse
+Multiple_Initial   |  Initial: Multiple
+Multiple_Latest    |  Latest: Multiple
+Neglect_Initial    |  Initial: Neglect
+Neglect_Latest     |  Latest: Neglect
+Physical_Initial   |  Initial: Physical abuse
+Physical_Latest    |  Latest: Physical abuse
+Sexual_Initial     |  Initial: Sexual abuse
+Sexual_Latest      |  Latest: Sexual abuse
+
+Footnotes:
+
+1. 'Multiple' refers to instances where there is more than one main category of abuse. Children included in this category are not included in any other category of abuse, therefore a child is counted only once.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D3 Child Protection Plans starting during year which were a second or subsequent plan, by local authority, England 2013 to 2021
+
+Filename: d3_cpps_subsequent_plan_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Child protection plans starting in the year and child protection plans which are a second or subsequent plan.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name           |  Variable description
+----------------------  |  -------------------------------------------------------------------------------
+CPP_start               |  Number of child protection plans starting during the year
+CPP_subsequent          |  Number of child protection plans which were a second or subsequent plan
+CPP_subsequent_percent  |  Percentage of child protection plans which were a second or subsequent plan (%)
+
+Footnotes:
+
+1. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D4 Child Protection Plans at 31 March by category of abuse and local authority, England 2013 to 2021
+
+Filename: d4_cpps_at31march_by_category_of_abuse_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Children who were the subject of a child protection plan at 31 March by initial and latest category of abuse.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name      |  Variable description
+-----------------  |  ------------------------------------------------------------------------------
+CPP_At31           |  Number of children who were the subject of a child protection plan at 31 March
+Emotional_Initial  |  Initial: Emotional abuse
+Emotional_Latest   |  Latest: Emotional abuse
+Multiple_Initial   |  Initial: Multiple
+Multiple_Latest    |  Latest: Multiple
+Neglect_Initial    |  Initial: Neglect
+Neglect_Latest     |  Latest: Neglect
+Physical_Initial   |  Initial: Physical abuse
+Physical_Latest    |  Latest: Physical abuse
+Sexual_Initial     |  Initial: Sexual abuse
+Sexual_Latest      |  Latest: Sexual abuse
+
+Footnotes:
+
+1. 'Multiple' refers to instances where there is more than one main category of abuse. Children included in this category are not included in any other category of abuse, therefore a child is counted only once.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D5 Child Protection Plans at 31 March by duration and local authority, England 2013 to 2021
+
+Filename: d5_cpps_at31march_by_duration_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Children who were the subject of a child protection plan at 31 March by duration of the plan.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                |  Variable description
+-------------------------------------------  |  -------------------------------------------------------------
+1_year_less_than_2_years                     |  1 year but less than 2 years
+1_year_less_than_2_years_percent             |  1 year but less than 2 years (%)
+2_years_or_more                              |  2 years and over
+2_years_or_more_percent                      |  2 years and over (%)
+3_months_or_less                             |  3 months or less
+3_months_or_less_percent                     |  3 months or less (%)
+CPP_At31                                     |  Number of children who were the subject of a plan at 31 March
+more_than_3_months_6_months                  |  More than 3 months but less than or equal to 6 months
+more_than_3_months_6_months_percent          |  More than 3 months but less than or equal to 6 months (%)
+more_than_6_months_less_than_1_year          |  More than 6 months but less than 1 year
+more_than_6_months_less_than_1_year_percent  |  More than 6 months but less than 1 year (%)
+
+Footnotes:
+
+1. The duration of a child protection plan at 31 March is calculated as the time between the child protection plan start date and 31 March of the reporting year.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D6 Child Protection Plans reviewed within timescales by local authority, England 2013 to 2021
+
+Filename: d6_cpps_reviewed_within_timescales_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Children who were the subject of a child protection plan at 31 March that had been on a plan for at least three months and had reviews carried out within the required timescales.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                       |  Variable description
+----------------------------------  |  --------------------------------------------------------------------------------------------------------------------------------
+CPP_At31_3Months                    |  Children who were the subject of a child protection plan at 31 March and who had been the subject of a plan for 3 or more months
+Reviewed_within_timescales          |  Number reviewed within the required timescales
+Reviewed_within_timescales_percent  |  Percentage reviewed within the required timescales (%)
+
+Footnotes:
+
+1. Statutory guidance states that a child should have a review of their child protection plan within the first three months of being the subject of the plan, and then subsequently at intervals of not more than six months.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D7 Child Protection Plans ending during the year to 31 March by duration and local authority, England 2013 to 2021
+
+Filename: d7_cpps_ending_by_duration_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Child protection plans ending during the year by duration of the plan.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                |  Variable description
+-------------------------------------------  |  -----------------------------------------------------------
+1_year_less_than_2_years                     |  1 year but less than 2 years
+1_year_less_than_2_years_percent             |  1 year but less than 2 years (%)
+2_years_or_more                              |  2 years and over
+2_years_or_more_percent                      |  2 years and over (%)
+3_months_or_less                             |  3 months or less
+3_months_or_less_percent                     |  3 months or less (%)
+CPP_End                                      |  Number of child protection plans that ended during the year
+more_than_3_months_6_months                  |  More than 3 months but less than or equal to 6 months
+more_than_3_months_6_months_percent          |  More than 3 months but less than or equal to 6 months (%)
+more_than_6_months_less_than_1_year          |  More than 6 months but less than 1 year
+more_than_6_months_less_than_1_year_percent  |  More than 6 months but less than 1 year (%)
+
+Footnotes:
+
+1. The duration of a child protection plan which ended during the year to 31 March is calculated as the time between the child protection plan start date and end date.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+D8 Child protection plans ending during the first six months of the year by duration child remained in need and local authority, England 2013 to 2021
+
+Filename: d8_cpps_ending_in_first_6months_by_duration_2013_to_2021.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2021
+Content summary: Child protection plans ending during the first six months of the year by duration of the plan.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                        |  Variable description
+-----------------------------------  |  --------------------------------------------------------------------------------------------
+3_months_or_less                     |  Less than or equal to 3 months
+3_months_or_less_percent             |  Less than or equal to 3 months (%)
+3_months_or_less_transfer            |  Transferred to another local authority
+3_months_or_less_transfer_percent    |  Transferred to another local authority (%)
+CPP_End_first_6months                |  Number of child protection plans that ended during the first 6 months of the collection year
+more_than_3_months_6_months          |  More than 3 months but less than or equal to 6 months
+more_than_3_months_6_months_percent  |  More than 3 months but less than or equal to 6 months (%)
+more_than_6_months                   |  More than 6 months
+more_than_6_months_percent           |  More than 6 months (%)
+
+Footnotes:
+
+1. The duration of a child protection plan which ended during the first 6 months of the year ending 31 March is calculated as the time between the child protection plan start date and end date.
+2. Data for the year ending 31 March 2021 is not available for Hackney local authority, therefore 2020 data for Hackney has been included in the 2021 national totals and regional totals for inner London and London. Refer to the methodology section for more information.
+
+
+Headline Figures
+
+Filename: headline_figures.csv
+Geographic levels: National
+Time period: 2021-22
+Content summary: Children in need, referrals, assessments and child protection plans.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                               |  Variable description
+------------------------------------------  |  ---------------------------------------------------
+child_protection_plans                      |  Child protection plans
+child_protection_plans_per_10,000_children  |  Child protection plans per 10,000 children
+children_in_need                            |  Children in need
+children_in_need_per_10,000_children        |  Children in need per 10,000 children
+completed_assessments                       |  Completed assessments
+factor_identified                           |  Concerns about domestic violence towards the parent
+referrals                                   |  Referrals
+
+Footnotes:
+
+1. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+2. If a child has more than one referral in a reporting year, then each referral is counted.
+
+
+ONS mid-year population estimates
+
+Filename: ons_mid-year_population_estimates.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2012 to 2020
+Content summary: ONS population estimates for children aged 0 to 17 (age at mid-year).
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  ------------------------------
+age_group            |  Age group
+population_estimate  |  Population estimate (mid-year)

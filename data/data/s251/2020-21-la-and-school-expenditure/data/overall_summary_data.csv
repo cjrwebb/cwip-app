@@ -1,0 +1,13 @@
+﻿time_period,time_identifier,geographic_level,country_name,country_code,region_name,region_code,la_name,old_la_code,new_la_code,Indicator,expenditure_la_schools,income_la_schools,pc_deficit,la_schools,la_cyps,la_other,la_all
+201516,Financial year,National,England,E92000001,,,,,,LA maintained schools ,27.10947,27.76893,6,:,,:,
+201617,Financial year,National,England,E92000001,,,,,,LA maintained schools ,26.36603,26.6509,9.1,:,,:,
+201718,Financial year,National,England,E92000001,,,,,,LA maintained schools ,24.56265,25.09738,10.2,:,,:,
+201819,Financial year,National,England,E92000001,,,,,,LA maintained schools ,23.89184,23.97572,9.9,:,,:,
+201920,Financial year,National,England,E92000001,,,,,,LA maintained schools ,23.73909,23.71372,12,:,,:,
+202021,Financial year,National,England,E92000001,,,,,,LA maintained schools ,23.11825,23.76249,8.4,:,,:,
+201516,Financial year,National,England,E92000001,,,,,,Local authorities,:,:,:,29.06596078,9.01231738,2.97104945,41.04932761
+201617,Financial year,National,England,E92000001,,,,,,Local authorities,:,:,:,28.14015841,9.15839864,2.99768155,40.2962386
+201718,Financial year,National,England,E92000001,,,,,,Local authorities,:,:,:,27.42874364,9.41900797,2.76839529,39.6161469
+201819,Financial year,National,England,E92000001,,,,,,Local authorities,:,:,:,27.01952157,9.85490985,2.91976308,39.7941945
+201920,Financial year,National,England,E92000001,,,,,,Local authorities,:,:,:,26.71789741,10.53079258,3.0801633,40.32885329
+202021,Financial year,National,England,E92000001,,,,,,Local authorities,:,:,:,27.444015,11.06126018,3.01094947,41.51622465

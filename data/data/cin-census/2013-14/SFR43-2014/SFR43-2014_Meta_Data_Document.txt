@@ -1,0 +1,278 @@
+
+Meta Data Document
+Release of underlying data
+“Characteristics of Children in Need, 2013-14, SFR43-2014”
+Background
+This statistical release provides final figures on the numbers of children referred to and assessed by local authority social care services. It includes information on the numbers and characteristics of children in need and information on children who were the subject of a child protection plan for year ending March 2014. 
+A copy of the guidance notes for the 2013-14 Children in Need data collection can be found at: https://www.gov.uk/government/collections/children-in-need-census
+The Underlying Data File
+Title: SFR43-2014.csv
+File Headers:   See Annex A for a list of codes and headers
+Coverage:  	Total for England provided for each variable
+Total for each local authority in England 
+Variable names – A list of the headings used in the CSV file and the corresponding variable names are shown in Annex A.
+Methodology
+Data are returned from 152 local authorities in England.
+National totals are derived by summing data provided by each local authority. In a number of cases where data is missing for a local authority we have estimated the missing data. Detail on how this has been done is in Section 5.1 of 'SFR43/2014 Methodology document’
+Local authority level data are data as returned by each local authority and have been suppressed where necessary. 
+Data Quality Indicator (DCI) values: '3' denotes high confidence, '2' denotes medium confidence, '1' denotes low confidence, '..' denotes no data was supplied/published, ‘P’ denotes a local authority trialling pilot arrangements for assessments and '.' denotes not applicable. Further details on the construction of the indicator are in section 4 of the document ‘SFR43/2014 Data quality and uses’.
+Rounding and suppression: National and regional figures have been rounded to the nearest 100 or the nearest 10 as they include estimates for missing data. Any numbers between 1 and 5 inclusive (before rounding) have been suppressed and have been replaced by an ‘x’. Secondary suppression may be required in some cases. Where any number is shown as zero (0), the original figure submitted was zero. Where data were not submitted by a local authority ‘..’ has been used. 
+
+Annex A
+geog_l:	Geography level
+geog_c:	Geography code
+new_la_code:	New local authority code
+geog_n:	Geography name
+
+CINThro1314:	Number of Children in Need throughout 2013-14
+CINStarting1314:	Number of Children starting an episode of need in 2013-14
+CINEnding1314:	Number of Children ending an episode of need in 2013-14
+CINAt310314:	Number of Children in Need at 31 March 2014
+CINThroRatePer10K:	Rate per 10,000 Children in Need throughout the year
+CINStartingRatePer10K:	Rate per 10,000 Children in Need episodes starting
+CINEndingRatePer10K:	Rate per 10,000 Children in Need episodes ending
+CINAt310314RatePer10K:	Rate per 10,000 Children in Need at end of year
+CINThro1314DCI:	Data Confidence Indicator - Children in Need throughout 2013-14
+CINStarting1314DCI:	Data Confidence Indicator - Children starting an episode of need in 2013-14
+CINEnding1314DCI:	Data Confidence Indicator - Children ending and episode of need in 2013-14
+CINAt310314DCI:	Data Confidence Indicator - Children in Need at 31 March 2014
+
+CINAt310314NoDisabled:	Number of disabled Children in Need at 31 March 2014
+%CINAt310314Disabled:	Percentage of Children in Need at 31 March 2014 who were disabled
+%CINAt310314AutismAsperger:	Percentage of disabled Children in Need at 31 March 2014 with Autism/Aspergers disability
+%CINAt310314Behaviour:	Percentage of disabled Children in Need at 31 March 2014 with Behaviour disability
+%CINAt310314Communication:	Percentage of disabled Children in Need at 31 March 2014 with Communication disability
+%CINAt310314Consciousness:	Percentage of disabled Children in Need at 31 March 2014 with Consciousness disability
+%CINAt310314HandFunction:	Percentage of disabled Children in Need at 31 March 2014 with Hand Function disability
+%CINAt310314Hearing:	Percentage of disabled Children in Need at 31 March 2014 with Hearing disability
+%CINAt310314Incontinence:	Percentage of disabled Children in Need at 31 March 2014 with Incontinence disability
+%CINAt310314Learning:	Percentage of disabled Children in Need at 31 March 2014 with Learning disability
+%CINAt310314Mobility:	Percentage of disabled Children in Need at 31 March 2014 with Mobility disability
+%CINAt310314PersonalCare:	Percentage of disabled Children in Need at 31 March 2014 with Personal Care disability
+%CINAt310314Vision:	Percentage of disabled Children in Need at 31 March 2014 with Vision disability
+%CINAt310314OtherDisability:	Percentage of disabled Children in Need at 31 March 2014 with Other disability
+CINAt310314DisabilitiesDCI:	Data Confidence Indicator - Disability
+
+CINAt310314IAPriNeedAbuse/Neglect:	Number of Children in Need at 31 March 2014 with Primary Need code Abuse or Neglect
+CINAt310314IAPriNeedChildDisability/Illness:	Number of Children in Need at 31 March 2014 with Primary Need code Child Disability or Family 
+CINAt310314IAPriNeedParentDisability/Illness:	Number of Children in Need at 31 March 2014 with Primary Need code Parent Disability or Illness
+CINAt310314IAPriNeedFamilyStress:	Number of Children in Need at 31 March 2014 with Primary Need code Family Stress
+CINAt310314IAPriNeedFamilyDysfunction:	Number of Children in Need at 31 March 2014 with Primary Need code Family Dysfunction
+CINAt310314IAPriNeedUnacceptableBehaviour:	Number of Children in Need at 31 March 2014 with Primary Need code Unacceptable Behaviour
+CINAt310314IAPriNeedLowInc:	Number of Children in Need at 31 March 2014 with Primary Need code Low Income
+CINAt310314IAPriNeedAbsentParent:	Number of Children in Need at 31 March 2014 with Primary Need code Absent Parenting
+CINAt310314PriNeedOther:	Number of Children in Need at 31 March 2014 with Primary Need code Missing/Unknown
+CINAt310314IAPriNeedNotStated:	Number of Children in Need at 31 March 2014 with Primary Need code Cases other than children in need
+CINAt310314PrimaryNeedDCI:	Data Confidence Indicator - Primary Need code.
+
+CINAt310314OCDuration<3mths:	Children in Need at 31 March 2014 with under 3 months open case duration
+%CINAt310314OCDuration<3mths:	Percentage of Children in Need at 31 March 2014 with under 3 months open case duration
+CINAt310314OCDuration3-6mths:	Children in Need at 31 March 2014 with 3 months but less than 6 months open case duration
+%CINAt310314OCDuration3-6mths:	Percentage of Children in Need at 31 March 2014 with 3 months but less than 6 months open case duration
+CINAt310314OCDuration6mths-1yr:	Children in Need at 31 March 2014 with 6 months but less than 1 year open case duration
+%CINAt310314OCDuration6mths-1yr:	Percentage of Children in Need at 31 March 2014 with 6 months but less than 1 year open case duration
+CINAt310314OCDuration1-2yr:	Children in Need at 31 March 2014 with 1 year but less than 2 years open case duration
+%CINAt310314OCDuration1-2yr:	Percentage of Children in Need at 31 March 2014 with 1 year but less than 2 years open case duration
+CINAt310314OCDuration2+yrs:	Children in Need at 31 March 2014 with 2 or more years open case duration
+%CINAt310314OCDuration2+yrs:	Percentage of Children in Need at 31 March 2014 with 2 or more years open case duration
+CINAt310314OCDurationDCI:	Data Confidence Indicator - Duration of open case at 31 March 2014
+
+CINEnding1314Duration<3mths:	Children ceasing an episode of need in year ending 31 March 2014 of under 3 months duration
+%CINEnding1314Duration<3mths:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 of under 3 months duration
+CINEnding1314Duration3-6mths: 	Children ceasing an episode of need in year ending 31 March 2014 of 3 months but less than 6 months duration
+%CINEnding1314Duration3-6mths:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 of 3 months but less than 6 months duration
+CINEnding1314Duration6mths-1yr:	Children ceasing an episode of need in year ending 31 March 2014 of 6 months but less than 1 year duration
+%CINEnding1314Duration6mths-1yr:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 of 6 months but less than 1 year duration
+CINEnding1314Duration1-2yr:	Children ceasing an episode of need in year ending 31 March 2014 of 1 year but less than 2 years duration
+%CINEnding1314Duration1-2yr:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 of 1 year but less than 2 years duration
+CINEnding1314Duration2+yrs:	Children ceasing an episode of need in year ending 31 March 2014 of 2 or more years duration
+%CINEnding1314Duration2+yrs:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 of 2 or more years duration
+CINEnding1314DurationDCI:	Data Confidence Indicator - open case duration
+
+CINEnding1314RCmissing:	Number of Children ceasing an episode of need in year ending 31 March 2014 with unknown reason for closure
+%CINEnding1314RCmissing_A:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with unknown reason for closure
+CINEnding1314RCAd:	Number of Children ceasing an episode of need in year ending 31 March 2014 with adopted reason for closure
+%CINEnding1314RCAd:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with adopted reason for closure
+CINEnding1314RCDied:	Number of Children ceasing an episode of need in year ending 31 March 2014 with died reason for closure
+%CINEnding1314RCDied:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with died reason for closure
+CINEnding1314ResidenceOrder:	Number of Children ceasing an episode of need in year ending 31 March 2014 with residence order reason for closure
+%CINEnding1314ResidenceOrder:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with residence order reason for closure
+CINEnding1314SpecialGuardianship:	Number of Children ceasing an episode of need in year ending 31 March 2014 with special guardianship reason for closure
+%CINEnding1314SpecialGuardianship:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with special guardianship reason for closure
+CINEnding1314TransferToLA:	Number of Children ceasing an episode of need in year ending 31 March 2014 with transfer to LA reason for closure
+%CINEnding1314TransferToLA:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with transfer to LA reason for closure
+CINEnding1314TransferToAdultServices:	Number of Children ceasing an episode of need in year ending 31 March 2014 with transfer to adult services reason for closure
+%CINEnding1314TransferToAdultServices:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with transfer to adult services reason for closure
+CINEnding1314OtherNotInNeed:	Number of Children ceasing an episode of need in year ending 31 March 2014 with not in need reason for closure
+%CINEnding1314OtherNotInNeed:	Percentage of Children ceasing an episode of need in year ending 31 March 2014 with not in need reason for closure
+CINEnding1314RCDCI:	Data Confidence Indicator - Children ceasing an episode of need by closure reason
+
+Referrals1314:	Number of referrals in year ending 31 March 2014
+Referrals1314Rate:	Rate per 10,000 children - referrals in year ending 31 March 2014
+ReferralsWithin12mths1314:	Number of 2013-14 referrals within 12 months of a previous referral
+%ReferralsWithin12mths1314:	Percentage of 2013-14 referrals within 12 months of a previous referral
+ReferralsNFA1314:	Number of 2013-14 referrals resulting in no further action 
+%ReferralsNFA1314:	Percentage of 2013-14 referrals resulting in no further action 
+ReferralsIANotInNeed1314:	Number of 2013-14 referrals resulting in the child not being in need
+%ReferralsIANotInNeed1314:	Percentage of 2013-14 referrals resulting in the child not being in need
+Referrals1314DCI:	Data Confidence Indicator – Number of referrals in year ending 31 March 2014
+Rereferrals1314DCI:	Data Confidence Indicator – Rereferrals 2013-14
+
+IAs1314:	Initial Assessments completed during year ending 31 March 2014
+IAsStartEndSameDay1314:	Initial Assessments which start and end the same day year ending 31 March 2014
+IAs1-5days1314:	Initial Assessments completed in 1-5 days year ending 31 March 2014
+IAs6-10days1314:	Initial Assessments completed in 6-10 days year ending 31 March 2014
+IAs11-15days1314:	Initial Assessments completed in 11-15 days year ending 31 March 2014
+IAs16-20days1314:	Initial Assessments completed in 16-20 days year ending 31 March 2014
+IAs21+days1314:	Initial Assessments completed in 21+ days year ending 31 March 2014
+IAs25thpercentile1314:	Duration of initial assessments, 25th percentile
+IAsMedian1314:	Duration of initial assessments, median value
+IAs75thpercentile1314:	Duration of initial assessments, 75th percentile
+IAs1314DCI:     Data Confidence Indicator - Initial Assessments completed 
+IAsDuration1314DCI:     Data Confidence Indicator - Initial Assessments duration
+
+CAs1314:	Number of Core Assessments completed during year ending 31 March 2014
+CAs0-10days1314:	Number of Core Assessments completed within 0-10 working days during year ending 31 March 2014
+CAs11-20days1314:	Number of Core Assessments completed within 11-20 working days during year ending 31 March 2014
+CAs21-30days1314:	Number of Core Assessments completed within 21-30 working days during year ending 31 March 2014
+CAs31-35days1314:	Number of Core Assessments completed within 31-35 working days during year ending 31 March 2014
+CAs36-40days1314:	Number of Core Assessments completed within 36-40 working days during year ending 31 March 2014
+CAs41-50days1314:	Number of Core Assessments completed within 41-50 working days during year ending 31 March 2014
+CAs51-60days1314:	Number of Core Assessments completed within 51-60 working days during year ending 31 March 2014
+CAs61+days1314:	Number of Core Assessments completed within 61+ working days during year ending 31 March 2014
+CAs25thPercentile1314:	Duration of Core Assessments, 25th percentile 2013-14
+CAsMedian1314:	Duration of Core Assessments, median value, 2013-14
+CAs75thPercentile1314:	Duration of Core Assessments, 75th percentile 2013-14
+CAs1314DCI:	Data Confidence Indicator - Core Assessments completed within the year, 2013-14
+CAsDuration1314DCI:	Data Confidence Indicator - Core Assessments duration, 2013-14
+
+SAs1314:	Number of Continuous Assessments completed during year ending 31 March 2014
+SAsStartEndSameDay1314:	Continuous Assessments which start and end the same day year ending 31 March 2014
+SAs1-10days1314:	Number of Continuous Assessments completed within 1-10 working days during year ending 31 March 2014
+SAs11-20days1314:	Number of Continuous Assessments completed within 11-20 working days during year ending 31 March 2014
+SAs21-30days1314:	Number of Continuous Assessments completed within 21-30 working days during year ending 31 March 2014
+SAs31-40days1314:	Number of Continuous Assessments completed within 31-40 working days during year ending 31 March 2014
+SAs41-45days1314:	Number of Continuous Assessments completed within 41-45 working days during year ending 31 March 2014
+SAs46-50days1314:	Number of Continuous Assessments completed within 46-50 working days during year ending 31 March 2014
+SAs51-60days1314:	Number of Continuous Assessments completed within 51-60 working days during year ending 31 March 2014
+SAs61+days1314:	Number of Continuous Assessments completed within 61+ working days during year ending 31 March 2014
+SAs25thPercentile1314:	Duration of Continuous Assessments, 25th percentile 2013-14
+SAsMedian1314:	Duration of Continuous Assessments, median value, 2013-14
+SAs75thPercentile1314:	Duration of Continuous Assessments, 75th percentile 2013-14
+SAs1314DCI:	Data Confidence Indicator - Continuous Assessments completed within the year, 2013-14
+SAsDuration1314DCI:	Data Confidence Indicator - Continuous Assessments duration, 2013-14
+
+S471314:	Number of children subject to Section 47 enquiries within 2013-14
+S47Rate1314:	Rate per 10,000 children - Children subject to Section 47 enquiries during year ending 31 March 2014
+ICPCin1314:	Number of children subject to an Initial Child Protection Conference during year ending 31 March 2014
+ICPCRate1314:	Rate per 10,000 children - Children subject to to an Initial Child Protection Conference during year ending 31 March 2014
+ICPC0-10days1314:	Number of Initial Child Protection Conferences held within 0-10 days of Section 47 enquiry during year ending 31 March 2014
+ICPC11-15days1314:	Number of Initial Child Protection Conferences held within 11-15 days of Section 47 enquiry during year ending 31 March 2014
+ICPC16-20days1314:	Number of Initial Child Protection Conferences held within 16-20 days of Section 47 enquiry during year ending 31 March 2014
+ICPC21+days1314:	Number of Initial Child Protection Conferences held within 21+ days of Section 47 enquiry during year ending 31 March 2014
+ICPC25thPercentile1314:	Number of Initial Child Protection Conferences during year ending 31 March 2014, 25th percentile
+ICPCMedian1314:	Number of Initial Child Protection Conferences during year ending 31 March 2014, median value
+ICPC75thPercentile1314:	Number of Initial Child Protection Conferences during year ending 31 March 2014, 75th percentile
+S471314DCI:	Data Confidence Indicator - Section 47, 201314 
+ICPC1314DCI:	Data Confidence Indicator - Initial Child Protection Conferences, 2013-14
+ICPCDuration1314DCI:	Data Confidence Indicator - Initial Child Protection Conferences duration, 2013-14
+
+ReferralsReportingSource1314:	Number of referrals during year ending 31 March 2014 where a source of referral was reported
+Source1314Individual:	Number of referrals from individuals, year ending 31 March 2014
+Source1314Schools:	Number of referrals from schools, year ending 31 March 2014
+Source1314EducationServices:	Number of referrals from education services, year ending 31 March 2014
+Source1314HealthServices:	Number of referrals from health services, year ending 31 March 2014
+Source1314Housing:	Number of referrals from housing, year ending 31 March 2014
+Source1314LAServices:	Number of referrals from LA services, year ending 31 March 2014
+Source1314Police:	Number of referrals from the police, year ending 31 March 2014
+Source1314OtherLegal:	Number of referrals from other legal agencies, year ending 31 March 2014
+Source1314Other:	Number of referrals from other sources, year ending 31 March 2014
+Source1314Anonymous:	Number of referrals from anonymous sources, year ending 31 March 2014
+Source1314Unknown:	Number of referrals of reported unknown source, year ending 31 March 2014
+ReferralSource1314DCI:	Data Confidence Indicator - Source of referral
+
+CPPStart1314:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014
+CPPStartRate1314:	Rate per 10,000 children - Number of children who became the subject of a Child Protection plan during year ending 31 March 2014
+CPPCeased1314:	Number of children who ceased to be the subject of a Child Protection plan during year ending 31 March 2014
+CPPCeasedRate1314:	Rate per 10,000 children - Number of children who ceased to be the subject of a Child Protection plan during year ending 31 March 2014
+CPPAt310314:	Number of children who were the subject of a Child Protection plan at 31 March 2014
+CPPAt310314Rate:	Rate per 10,000 children - Number of children who were the subject of a Child Protection plan at 31 March 2014
+CPPStart1314DCI:	Data Confidence Indicator - Number of children who became the subject of a Child Protection plan during year ending 31 March 2014
+CPPCeased1314DCI:	Data Confidence Indicator - Number of children who ceased to be the subject of a Child Protection plan during year ending 31 March 2014
+CPPAt310314DCI:	Data Confidence Indicator - Number of children who were the subject of a Child Protection plan at 31 March 2014
+
+CPPStart1314InitialAbuseNeglect:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Initial Category of abuse Neglect
+CPPStart1314InitialAbusePhysical:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Initial Category of abuse Physical Abuse
+CPPStart1314InitialAbuseSexual:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Initial Category of abuse Sexual Abuse
+CPPStart1314InitialAbuseEmotional:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Initial Category of abuse Emotional Abuse
+CPPStart1314InitialAbuseMultiple:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Initial Category of abuse Multiple categories
+CPPStart1314LatestAbuseNeglect:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Latest Category of abuse Neglect
+CPPStart1314LatestAbusePhysical:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Latest Category of abuse Physical Abuse
+CPPStart1314LatestAbuseSexual:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Latest Category of abuse Sexual Abuse
+CPPStart1314LatestAbuseEmotional:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Latest Category of abuse Emotional Abuse
+CPPStart1314LatestAbuseMultiple:	Number of children who became the subject of a Child Protection plan during year ending 31 March 2014 - Latest Category of abuse Multiple categories
+CPPStart1314AbuseDCI:	Data Confidence Indicator - Category of abuse for children who became the subject of a Child Protection plan during year ending 31 March 2014
+
+CPPStart1314SecondTime:	Number of children who became the subject of a child protection plan during year ending 31 March 2014 for a second or subsequent time
+CPPStart1314SecondTime_A:	Percentage of children who became the subject of a child protection plan during year ending 31 March 2014 for a second or subsequent time
+CPPStart1314SecondTimeDCI:	Data Confidence Indicator - Number of children who became the subject of a child protection plan during year ending 31 March 2014 for a second or subsequent time
+
+CPPat310314InitialAbuseNeglect:	Number of children who were the subject of a child protection plan at 31 March 2014 - Initial Category of abuse Neglect
+CPPat310314InitialAbusePhysical:	Number of children who were the subject of a child protection plan at 31 March 2014 - Initial Category of abuse Physical Abuse
+CPPat310314InitialAbuseSexual:	Number of children who were the subject of a child protection plan at 31 March 2014 - Initial Category of abuse Sexual Abuse
+CPPat310314InitialAbuseEmotional:	Number of children who were the subject of a child protection plan at 31 March 2014 - Initial Category of abuse Emotional Abuse
+CPPat310314InitialAbuseMultiple:	Number of children who were the subject of a child protection plan at 31 March 2014 - Initial Category of abuse Multiple categories
+CPPat310314LatestAbuseNeglect:	Number of children who were the subject of a child protection plan at 31 March 2014 - Latest Category of abuse Neglect
+CPPat310314LatestAbusePhysical:	Number of children who were the subject of a child protection plan at 31 March 2014 - Latest Category of abuse Physical Abuse
+CPPat310314LatestAbuseSexual:	Number of children who were the subject of a child protection plan at 31 March 2014 - Latest Category of abuse Sexual Abuse
+CPPat310314LatestAbuseEmotional:	Number of children who were the subject of a child protection plan at 31 March 2014 - Latest Category of abuse Emotional Abuse
+CPPat310314LatestAbuseMultiple:	Number of children who were the subject of a child protection plan at 31 March 2014 - Latest Category of abuse Multiple categories
+CPPat31031AbuseDCI:	Data Confidence Indicator - Category of abuse for children who were the subject of a child protection plan at 31 March 2014
+
+CPPAT310314Duration<3mths:	Child protection plans at 31 March 2014 lasting under 3 months
+%CPPAT310314Duration<3mths:	Percentage of child protection plans at 31 March 2014, lasting under 3 months
+CPPAT310314Duration3-6mths:	Child protection plans at 31 March 2014, lasting 3 to 6 months
+%CPPAT310314Duration3-6mths:	Percentage of child protection plans at 31 March 2014, lasting 3 to 6 months
+CPPAT310314Duration6mths-1yr:	Child protection plans at 31 March 2014, lasting 6 months to 1 year
+%CPPAT310314Duration6mths-1yr:	Percentage of child protection plans at 31 March 2014, lasting 6 months to 1 year
+CPPAT310314Duration1-2yrs:	Child protection plans at 31 March 2014, lasting 1 -2 years
+%CPPAT310314Duration1-2yrs:	Percentage of child protection plans at 31 March 2014, lasting 1 -2 years
+CPPAT310314Duration2+yrs:	Child protection plans at 31 March 2014, 2 or more years
+%CPPAT310314Duration2+yrs:	Percentage of child protection plans at 31 March 2014, lasting 2 or more years
+CPPAT310314DurationDCI:	Data Confidence Indicator – Duration of child protection plans at 31 March 2014
+
+CPPat310314For3mths:	Number of Children who were the subject of a child protection plan at 31 March 2014 who were subject of a plan for 3 or more months
+CPPsReviewedinTimescales:	Number of child protection plans at 31 March 2014 who were subject of a plan for 3 or more months reviewed within the required timescales
+%CPPsReviewedinTimescales:	Percentage of child protection plans at 31 March 2014 who were subject of a plan for 3 or more months reviewed within the required timescales
+CPPReviewedinTimescalesDCI:	Data Confidence Indicator - Number of child protection plans at 31 March 2014 who were subject of a plan for 3 or more months 
+
+CPPCeased1314Duration<3mths:	Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is less than 3 months
+%CPPCeased1314Duration<3mths:	Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is less than 3 months
+CPPCeased1314Duration3-6mths:	Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 3 months but less than 6 months
+%CPPCeased1314Duration3-6mths:	Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 3 months but less than 6 months
+CPPCeased1314Duration6mths-1yr:	Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 6 months but less than 1 year
+%CPPCeased1314Duration6mths-1yr:	Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 6 months but less than 1 year
+CPPCeased1314Duration1-2yrs:	Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 1 year but less than 2 years
+%CPPCeased1314Duration1-2yrs:	Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 1 year but less than 2 years
+CPPCeased1314Duration2+yrs:	Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 2 or more years
+%CPPCeased1314Duration2+yrs:	Percentage of children who ceased to be the subject of a child protection plan during year ending 31 March 2014 where length of time of plan is 2 years or more
+CPPCeased1314DurationDCI:	Data Confidence Indicator - Length of time of plan for Number of children who ceased to be the subject of a child protection plan during year ending 31 March 2014
+
+CPPCeased6mths1314:	Number of child protection plans ending in first 6mths of the year, 2013-14
+CPPCeased6mthsDuration3mths1314:	Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, 2013-14
+%CPPCeased6mthsDuration3mths1314:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, 2013-14
+CPPCeased6mthsDurationAnotherLA1314:	Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2013-14
+%CPPCeased6mthsDurationAnotherLA1314:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2013-14
+CPPCeased6mthsDuration36mths1314:	Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2013-14
+%CPPCeased6mthsDuration36mths1314:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2013-14
+CPPCeased6mthsDuration6mths1314:	Number of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2013-14
+%CPPCeased6mthsDuration6mths1314:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2013-14
+CPPCeased6mthsDuration1314DCI:	Data Confidence Indicator - Number of child protection plans ending in first 6mths of the year, by duration of CIN episode
+
+CPPduring201314:	Number of children who were the subject of a child protection plan at some point in the year ending 31 March 2014
+SeenInAccordanceWithPlan1314:	Number of children who were the subject of a child protection plan at some point in the year ending 31 March 2014 who were seen in accordance with the timescales specified in the plan
+%SeenInAccordanceWithPlan1314:	Percentage of children who were the subject of a child protection plan at some point in the year ending 31 March 2014 who were seen in accordance with the timescales specified in the plan
+SeenInAccordanceWithPlan1314DCI:	Data Confidence Indicator - Seen in accordance with the timescales specified in the plan
+
+
+Mid2013Pop017:	Mid-2013 population estimates, rounded to the nearest 100. Source: Population Estimates Unit, ONS: Crown Copyright.

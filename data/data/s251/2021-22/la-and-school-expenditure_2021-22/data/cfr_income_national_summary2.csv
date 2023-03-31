@@ -1,0 +1,1387 @@
+﻿time_period,time_identifier,geographic_level,country_name,country_code,school_phase,income_type,income_description,income,income_per_pupil
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA Pre16 (I01),21512.53,4343
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA VIthForm (I02),681.01,5244
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total funds delegated by LA (I01 & I02),22193.53,4480
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,SEN funding (I03),1465.59,296
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funding minority ethnic pupils (I04),25.67,5
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil premium (I05),1611.69,325
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other government grants (I06),123.51,25
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other grants payments (I07),204.33,41
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from lettings (I08a),x,x
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from facilities services (I08b),x,x
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Total income from lettings facilities services (I08ab),639.04,129
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from catering (I09),272.19,55
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts supply teacher insurance claims (I10),89.2,18
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts other  insurance claims (I11),31.06,6
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income contributions visits etc (I12),185.94,38
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Donations and/or private funds (I13),173.68,35
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil focussed extended school funding (I15),15.72,3
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Community focussed school funding (I16),95.43,19
+201516,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Community focused facilities income (I17),79.12,16
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other additional grants (I18d),563.22,114
+201516,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total additional grant (I18 total),563.22,114
+201516,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital income (CI01),187.84,38
+201516,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital voluntary private income (CI03),17.19,3
+201516,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital direct revenue financing(CI04),180.12,36
+201516,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total grant funding,26298.7,5309
+201516,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total direct grants,22521.38,4546
+201516,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total community grants,658.65,133
+201516,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total targetted grants,3118.67,630
+201516,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total self generated income,831.19,168
+201516,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total income,27563.97,5564
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA Pre16 (I01),187.6,7526
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Total funds delegated by LA (I01 & I02),187.6,7526
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,SEN funding (I03),6.5,261
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Funding minority ethnic pupils (I04),low,low
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil premium (I05),1.61,65
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Other government grants (I06),5.21,209
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Other grants payments (I07),8.85,355
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from lettings (I08a),x,x
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from facilities services (I08b),x,x
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Total income from lettings facilities services (I08ab),31.06,1246
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from catering (I09),1.2,48
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts supply teacher insurance claims (I10),0.78,31
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts other  insurance claims (I11),0.67,27
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Income contributions visits etc (I12),2.92,117
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Donations and/or private funds (I13),2.69,108
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil focussed extended school funding (I15),1.74,70
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Community focussed school funding (I16),19.27,773
+201516,Financial year,National,England,E92000001,Nursery,Self generated funding,Community focused facilities income (I17),12.63,507
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Other additional grants (I18d),0.72,29
+201516,Financial year,National,England,E92000001,Nursery,Grant funding,Total additional grant (I18 total),0.72,29
+201516,Financial year,National,England,E92000001,Nursery,Capital funding,Capital income (CI01),3.07,123
+201516,Financial year,National,England,E92000001,Nursery,Capital funding,Capital voluntary private income (CI03),0.09,3
+201516,Financial year,National,England,E92000001,Nursery,Capital funding,Capital direct revenue financing(CI04),1.2,48
+201516,Financial year,National,England,E92000001,Nursery,Total income,Total grant funding,231.49,9288
+201516,Financial year,National,England,E92000001,Nursery,Total income,Total direct grants,201.66,8091
+201516,Financial year,National,England,E92000001,Nursery,Total income,Total community grants,19.98,802
+201516,Financial year,National,England,E92000001,Nursery,Total income,Total targetted grants,9.85,395
+201516,Financial year,National,England,E92000001,Nursery,Total income,Total self generated income,20.88,838
+201516,Financial year,National,England,E92000001,Nursery,Total income,Total income,282.05,11316
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA Pre16 (I01),14784.85,4013
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Total funds delegated by LA (I01 & I02),14784.85,4013
+201516,Financial year,National,England,E92000001,Primary,Grant funding,SEN funding (I03),415.08,113
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Funding minority ethnic pupils (I04),21.98,6
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Pupil premium (I05),1238.72,336
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Other government grants (I06),72.36,20
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Other grants payments (I07),108.1,29
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Income from lettings (I08a),x,x
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Income from facilities services (I08b),x,x
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Total income from lettings facilities services (I08ab),374.59,102
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Income from catering (I09),186.31,51
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts supply teacher insurance claims (I10),69.33,19
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts other  insurance claims (I11),22.09,6
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Income contributions visits etc (I12),133.64,36
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Donations and/or private funds (I13),114.37,31
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Pupil focussed extended school funding (I15),12.53,3
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Community focussed school funding (I16),67.52,18
+201516,Financial year,National,England,E92000001,Primary,Self generated funding,Community focused facilities income (I17),55.09,15
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Other additional grants (I18d),550.64,149
+201516,Financial year,National,England,E92000001,Primary,Grant funding,Total additional grant (I18 total),550.64,149
+201516,Financial year,National,England,E92000001,Primary,Capital funding,Capital income (CI01),123.84,34
+201516,Financial year,National,England,E92000001,Primary,Capital funding,Capital voluntary private income (CI03),11.19,3
+201516,Financial year,National,England,E92000001,Primary,Capital funding,Capital direct revenue financing(CI04),131.76,36
+201516,Financial year,National,England,E92000001,Primary,Total income,Total grant funding,17271.78,4688
+201516,Financial year,National,England,E92000001,Primary,Total income,Total direct grants,14965.31,4062
+201516,Financial year,National,England,E92000001,Primary,Total income,Total community grants,618.15,168
+201516,Financial year,National,England,E92000001,Primary,Total income,Total targetted grants,1688.32,458
+201516,Financial year,National,England,E92000001,Primary,Total income,Total self generated income,580.83,158
+201516,Financial year,National,England,E92000001,Primary,Total income,Total income,18081.67,4908
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA Pre16 (I01),242.06,12564
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA VIthForm (I02),0.51,2698
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Total funds delegated by LA (I01 & I02),242.57,12590
+201516,Financial year,National,England,E92000001,PRU,Grant funding,SEN funding (I03),123.6,6415
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Funding minority ethnic pupils (I04),low,low
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Pupil premium (I05),8.79,456
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Other government grants (I06),1.85,96
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Other grants payments (I07),18.08,938
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Income from lettings (I08a),x,x
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Income from facilities services (I08b),x,x
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Total income from lettings facilities services (I08ab),26.92,1397
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Income from catering (I09),0.46,24
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts supply teacher insurance claims (I10),0.99,51
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts other  insurance claims (I11),0.39,20
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Income contributions visits etc (I12),0.01,1
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Donations and/or private funds (I13),0.51,27
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Pupil focussed extended school funding (I15),0.06,3
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Community focussed school funding (I16),0.83,43
+201516,Financial year,National,England,E92000001,PRU,Self generated funding,Community focused facilities income (I17),0.12,6
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Other additional grants (I18d),0.43,22
+201516,Financial year,National,England,E92000001,PRU,Grant funding,Total additional grant (I18 total),0.43,22
+201516,Financial year,National,England,E92000001,PRU,Capital funding,Capital income (CI01),1.91,99
+201516,Financial year,National,England,E92000001,PRU,Capital funding,Capital voluntary private income (CI03),0.01,1
+201516,Financial year,National,England,E92000001,PRU,Capital funding,Capital direct revenue financing(CI04),3.09,160
+201516,Financial year,National,England,E92000001,PRU,Total income,Total grant funding,396.21,20565
+201516,Financial year,National,England,E92000001,PRU,Total income,Total direct grants,262.5,13625
+201516,Financial year,National,England,E92000001,PRU,Total income,Total community grants,1.26,66
+201516,Financial year,National,England,E92000001,PRU,Total income,Total targetted grants,132.45,6875
+201516,Financial year,National,England,E92000001,PRU,Total income,Total self generated income,2.48,129
+201516,Financial year,National,England,E92000001,PRU,Total income,Total income,422.16,21911
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA Pre16 (I01),5353.91,4699
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA VIthForm (I02),609.2,5111
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Total funds delegated by LA (I01 & I02),5963.11,5234
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,SEN funding (I03),120.65,106
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Funding minority ethnic pupils (I04),3.06,3
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil premium (I05),316.96,278
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Other government grants (I06),30.85,27
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Other grants payments (I07),49.74,44
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from lettings (I08a),x,x
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from facilities services (I08b),x,x
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Total income from lettings facilities services (I08ab),145.24,127
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from catering (I09),77.04,68
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts supply teacher insurance claims (I10),10.66,9
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts other  insurance claims (I11),3.2,3
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Income contributions visits etc (I12),47.1,41
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Donations and/or private funds (I13),44.03,39
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil focussed extended school funding (I15),0.6,1
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Community focussed school funding (I16),6.37,6
+201516,Financial year,National,England,E92000001,Secondary,Self generated funding,Community focused facilities income (I17),7.93,7
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Other additional grants (I18d),3.79,3
+201516,Financial year,National,England,E92000001,Secondary,Grant funding,Total additional grant (I18 total),3.79,3
+201516,Financial year,National,England,E92000001,Secondary,Capital funding,Capital income (CI01),48.48,43
+201516,Financial year,National,England,E92000001,Secondary,Capital funding,Capital voluntary private income (CI03),3.79,3
+201516,Financial year,National,England,E92000001,Secondary,Capital funding,Capital direct revenue financing(CI04),29.04,25
+201516,Financial year,National,England,E92000001,Secondary,Total income,Total grant funding,6495.14,5701
+201516,Financial year,National,England,E92000001,Secondary,Total income,Total direct grants,6043.7,5305
+201516,Financial year,National,England,E92000001,Secondary,Total income,Total community grants,10.15,9
+201516,Financial year,National,England,E92000001,Secondary,Total income,Total targetted grants,441.28,387
+201516,Financial year,National,England,E92000001,Secondary,Total income,Total self generated income,189.95,167
+201516,Financial year,National,England,E92000001,Secondary,Total income,Total income,6792.77,5962
+201516,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA Pre16 (I01),944.12,10979
+201516,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA VIthForm (I02),71.3,6801
+201516,Financial year,National,England,E92000001,Special,Grant funding,Total funds delegated by LA (I01 & I02),1015.42,11808
+201516,Financial year,National,England,E92000001,Special,Grant funding,SEN funding (I03),799.75,9300
+201516,Financial year,National,England,E92000001,Special,Grant funding,Funding minority ethnic pupils (I04),0.63,7
+201516,Financial year,National,England,E92000001,Special,Grant funding,Pupil premium (I05),45.6,530
+201516,Financial year,National,England,E92000001,Special,Grant funding,Other government grants (I06),13.23,154
+201516,Financial year,National,England,E92000001,Special,Grant funding,Other grants payments (I07),19.56,227
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Income from lettings (I08a),x,x
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Income from facilities services (I08b),x,x
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Total income from lettings facilities services (I08ab),61.22,712
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Income from catering (I09),7.18,83
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Receipts supply teacher insurance claims (I10),7.44,87
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Receipts other  insurance claims (I11),4.72,55
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Income contributions visits etc (I12),2.27,26
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Donations and/or private funds (I13),12.09,141
+201516,Financial year,National,England,E92000001,Special,Grant funding,Pupil focussed extended school funding (I15),0.79,9
+201516,Financial year,National,England,E92000001,Special,Grant funding,Community focussed school funding (I16),1.45,17
+201516,Financial year,National,England,E92000001,Special,Self generated funding,Community focused facilities income (I17),3.35,39
+201516,Financial year,National,England,E92000001,Special,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201516,Financial year,National,England,E92000001,Special,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201516,Financial year,National,England,E92000001,Special,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201516,Financial year,National,England,E92000001,Special,Grant funding,Other additional grants (I18d),7.65,89
+201516,Financial year,National,England,E92000001,Special,Grant funding,Total additional grant (I18 total),7.65,89
+201516,Financial year,National,England,E92000001,Special,Capital funding,Capital income (CI01),10.54,123
+201516,Financial year,National,England,E92000001,Special,Capital funding,Capital voluntary private income (CI03),2.11,25
+201516,Financial year,National,England,E92000001,Special,Capital funding,Capital direct revenue financing(CI04),15.03,175
+201516,Financial year,National,England,E92000001,Special,Total income,Total grant funding,1904.08,22141
+201516,Financial year,National,England,E92000001,Special,Total income,Total direct grants,1048.2,12189
+201516,Financial year,National,England,E92000001,Special,Total income,Total community grants,9.1,106
+201516,Financial year,National,England,E92000001,Special,Total income,Total targetted grants,846.77,9847
+201516,Financial year,National,England,E92000001,Special,Total income,Total self generated income,37.05,431
+201516,Financial year,National,England,E92000001,Special,Total income,Total income,1985.32,23086
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA Pre16 (I01),20580.57,4291
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA VIthForm (I02),605.16,4925
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total funds delegated by LA (I01 & I02),21185.74,4417
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,SEN funding (I03),1470.45,307
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funding minority ethnic pupils (I04),25.23,5
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil premium (I05),1481.78,309
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other government grants (I06),109.97,23
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other grants payments (I07),191.14,40
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from lettings (I08a),x,x
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from facilities services (I08b),x,x
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Total income from lettings facilities services (I08ab),662.18,138
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from catering (I09),284.34,59
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts supply teacher insurance claims (I10),88.02,18
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts other  insurance claims (I11),37.2,8
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income contributions visits etc (I12),190.46,40
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Donations and/or private funds (I13),171.71,36
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil focussed extended school funding (I15),15.48,3
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Community focussed school funding (I16),73.55,15
+201617,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Community focused facilities income (I17),91.05,19
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other additional grants (I18d),572.6,119
+201617,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total additional grant (I18 total),572.6,119
+201617,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital income (CI01),160.58,33
+201617,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital voluntary private income (CI03),18.08,4
+201617,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital direct revenue financing(CI04),127.09,26
+201617,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total grant funding,25125.94,5239
+201617,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total direct grants,21486.85,4480
+201617,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total community grants,646.15,135
+201617,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total targetted grants,2992.94,624
+201617,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total self generated income,862.78,180
+201617,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total income,26494.43,5524
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA Pre16 (I01),189.41,7339
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Total funds delegated by LA (I01 & I02),189.41,7339
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,SEN funding (I03),9.01,349
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Funding minority ethnic pupils (I04),low,low
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil premium (I05),2.18,85
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Other government grants (I06),4.6,178
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Other grants payments (I07),7.52,291
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from lettings (I08a),x,x
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from facilities services (I08b),x,x
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Total income from lettings facilities services (I08ab),32.9,1275
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from catering (I09),1.16,45
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts supply teacher insurance claims (I10),0.85,33
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts other  insurance claims (I11),0.86,33
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Income contributions visits etc (I12),2.72,105
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Donations and/or private funds (I13),1.88,73
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil focussed extended school funding (I15),1.07,41
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Community focussed school funding (I16),15.57,603
+201617,Financial year,National,England,E92000001,Nursery,Self generated funding,Community focused facilities income (I17),11.36,440
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Other additional grants (I18d),0.02,1
+201617,Financial year,National,England,E92000001,Nursery,Grant funding,Total additional grant (I18 total),0.02,1
+201617,Financial year,National,England,E92000001,Nursery,Capital funding,Capital income (CI01),2.23,86
+201617,Financial year,National,England,E92000001,Nursery,Capital funding,Capital voluntary private income (CI03),0.15,6
+201617,Financial year,National,England,E92000001,Nursery,Capital funding,Capital direct revenue financing(CI04),1.13,44
+201617,Financial year,National,England,E92000001,Nursery,Total income,Total grant funding,229.37,8888
+201617,Financial year,National,England,E92000001,Nursery,Total income,Total direct grants,201.52,7809
+201617,Financial year,National,England,E92000001,Nursery,Total income,Total community grants,15.59,604
+201617,Financial year,National,England,E92000001,Nursery,Total income,Total targetted grants,12.26,475
+201617,Financial year,National,England,E92000001,Nursery,Total income,Total self generated income,18.82,729
+201617,Financial year,National,England,E92000001,Nursery,Total income,Total income,280.23,10859
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA Pre16 (I01),14299.34,3968
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Total funds delegated by LA (I01 & I02),14299.34,3968
+201617,Financial year,National,England,E92000001,Primary,Grant funding,SEN funding (I03),434.01,120
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Funding minority ethnic pupils (I04),21.11,6
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Pupil premium (I05),1147.39,318
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Other government grants (I06),62.22,17
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Other grants payments (I07),99.29,28
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Income from lettings (I08a),x,x
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Income from facilities services (I08b),x,x
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Total income from lettings facilities services (I08ab),402.01,112
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Income from catering (I09),196,54
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts supply teacher insurance claims (I10),70.53,20
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts other  insurance claims (I11),26.44,7
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Income contributions visits etc (I12),140.49,39
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Donations and/or private funds (I13),117.3,33
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Pupil focussed extended school funding (I15),13.27,4
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Community focussed school funding (I16),52.6,15
+201617,Financial year,National,England,E92000001,Primary,Self generated funding,Community focused facilities income (I17),65.78,18
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Other additional grants (I18d),560.01,155
+201617,Financial year,National,England,E92000001,Primary,Grant funding,Total additional grant (I18 total),560.01,155
+201617,Financial year,National,England,E92000001,Primary,Capital funding,Capital income (CI01),104.54,29
+201617,Financial year,National,England,E92000001,Primary,Capital funding,Capital voluntary private income (CI03),10.05,3
+201617,Financial year,National,England,E92000001,Primary,Capital funding,Capital direct revenue financing(CI04),93.88,26
+201617,Financial year,National,England,E92000001,Primary,Total income,Total grant funding,16689.24,4631
+201617,Financial year,National,England,E92000001,Primary,Total income,Total direct grants,14460.85,4013
+201617,Financial year,National,England,E92000001,Primary,Total income,Total community grants,612.61,170
+201617,Financial year,National,England,E92000001,Primary,Total income,Total targetted grants,1615.78,448
+201617,Financial year,National,England,E92000001,Primary,Total income,Total self generated income,616.54,171
+201617,Financial year,National,England,E92000001,Primary,Total income,Total income,17602.41,4885
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA Pre16 (I01),240.92,13184
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA VIthForm (I02),0.55,2732
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Total funds delegated by LA (I01 & I02),241.47,13215
+201617,Financial year,National,England,E92000001,PRU,Grant funding,SEN funding (I03),113.6,6217
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Funding minority ethnic pupils (I04),low,low
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Pupil premium (I05),8.76,480
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Other government grants (I06),2.23,122
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Other grants payments (I07),17.54,960
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Income from lettings (I08a),x,x
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Income from facilities services (I08b),x,x
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Total income from lettings facilities services (I08ab),30.75,1683
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Income from catering (I09),0.81,44
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts supply teacher insurance claims (I10),0.96,52
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts other  insurance claims (I11),0.44,24
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Income contributions visits etc (I12),0.05,3
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Donations and/or private funds (I13),0.39,21
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Pupil focussed extended school funding (I15),low,low
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Community focussed school funding (I16),1.02,56
+201617,Financial year,National,England,E92000001,PRU,Self generated funding,Community focused facilities income (I17),0.26,14
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Other additional grants (I18d),0.79,43
+201617,Financial year,National,England,E92000001,PRU,Grant funding,Total additional grant (I18 total),0.79,43
+201617,Financial year,National,England,E92000001,PRU,Capital funding,Capital income (CI01),2.47,135
+201617,Financial year,National,England,E92000001,PRU,Capital funding,Capital voluntary private income (CI03),0.04,2
+201617,Financial year,National,England,E92000001,PRU,Capital funding,Capital direct revenue financing(CI04),2.03,111
+201617,Financial year,National,England,E92000001,PRU,Total income,Total grant funding,385.43,21093
+201617,Financial year,National,England,E92000001,PRU,Total income,Total direct grants,261.25,14297
+201617,Financial year,National,England,E92000001,PRU,Total income,Total community grants,1.81,99
+201617,Financial year,National,England,E92000001,PRU,Total income,Total targetted grants,122.37,6697
+201617,Financial year,National,England,E92000001,PRU,Total income,Total self generated income,2.9,159
+201617,Financial year,National,England,E92000001,PRU,Total income,Total income,416.99,22820
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA Pre16 (I01),4935.33,4643
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA VIthForm (I02),532.85,4752
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Total funds delegated by LA (I01 & I02),5468.18,5145
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,SEN funding (I03),116.38,109
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Funding minority ethnic pupils (I04),4.12,4
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil premium (I05),279.04,263
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Other government grants (I06),27.56,26
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Other grants payments (I07),45.17,42
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from lettings (I08a),x,x
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from facilities services (I08b),x,x
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Total income from lettings facilities services (I08ab),138.82,131
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from catering (I09),77.41,73
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts supply teacher insurance claims (I10),8.9,8
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts other  insurance claims (I11),4.02,4
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Income contributions visits etc (I12),44.93,42
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Donations and/or private funds (I13),40.62,38
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil focussed extended school funding (I15),0.31,0
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Community focussed school funding (I16),2.75,3
+201617,Financial year,National,England,E92000001,Secondary,Self generated funding,Community focused facilities income (I17),10.93,10
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Other additional grants (I18d),4.15,4
+201617,Financial year,National,England,E92000001,Secondary,Grant funding,Total additional grant (I18 total),4.15,4
+201617,Financial year,National,England,E92000001,Secondary,Capital funding,Capital income (CI01),40.89,38
+201617,Financial year,National,England,E92000001,Secondary,Capital funding,Capital voluntary private income (CI03),6.02,6
+201617,Financial year,National,England,E92000001,Secondary,Capital funding,Capital direct revenue financing(CI04),18.64,18
+201617,Financial year,National,England,E92000001,Secondary,Total income,Total grant funding,5947.66,5596
+201617,Financial year,National,England,E92000001,Secondary,Total income,Total direct grants,5540.91,5213
+201617,Financial year,National,England,E92000001,Secondary,Total income,Total community grants,6.9,6
+201617,Financial year,National,England,E92000001,Secondary,Total income,Total targetted grants,399.85,376
+201617,Financial year,National,England,E92000001,Secondary,Total income,Total self generated income,186.81,176
+201617,Financial year,National,England,E92000001,Secondary,Total income,Total income,6238.72,5870
+201617,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA Pre16 (I01),915.57,10682
+201617,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA VIthForm (I02),71.76,6818
+201617,Financial year,National,England,E92000001,Special,Grant funding,Total funds delegated by LA (I01 & I02),987.33,11519
+201617,Financial year,National,England,E92000001,Special,Grant funding,SEN funding (I03),797.44,9304
+201617,Financial year,National,England,E92000001,Special,Grant funding,Funding minority ethnic pupils (I04),0.01,0
+201617,Financial year,National,England,E92000001,Special,Grant funding,Pupil premium (I05),44.4,518
+201617,Financial year,National,England,E92000001,Special,Grant funding,Other government grants (I06),13.35,156
+201617,Financial year,National,England,E92000001,Special,Grant funding,Other grants payments (I07),21.63,252
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Income from lettings (I08a),x,x
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Income from facilities services (I08b),x,x
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Total income from lettings facilities services (I08ab),57.7,673
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Income from catering (I09),8.97,105
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Receipts supply teacher insurance claims (I10),6.78,79
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Receipts other  insurance claims (I11),5.44,63
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Income contributions visits etc (I12),2.28,27
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Donations and/or private funds (I13),11.52,134
+201617,Financial year,National,England,E92000001,Special,Grant funding,Pupil focussed extended school funding (I15),0.84,10
+201617,Financial year,National,England,E92000001,Special,Grant funding,Community focussed school funding (I16),1.61,19
+201617,Financial year,National,England,E92000001,Special,Self generated funding,Community focused facilities income (I17),2.72,32
+201617,Financial year,National,England,E92000001,Special,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201617,Financial year,National,England,E92000001,Special,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201617,Financial year,National,England,E92000001,Special,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201617,Financial year,National,England,E92000001,Special,Grant funding,Other additional grants (I18d),7.62,89
+201617,Financial year,National,England,E92000001,Special,Grant funding,Total additional grant (I18 total),7.62,89
+201617,Financial year,National,England,E92000001,Special,Capital funding,Capital income (CI01),10.45,122
+201617,Financial year,National,England,E92000001,Special,Capital funding,Capital voluntary private income (CI03),1.82,21
+201617,Financial year,National,England,E92000001,Special,Capital funding,Capital direct revenue financing(CI04),11.41,133
+201617,Financial year,National,England,E92000001,Special,Total income,Total grant funding,1874.23,21867
+201617,Financial year,National,England,E92000001,Special,Total income,Total direct grants,1022.31,11927
+201617,Financial year,National,England,E92000001,Special,Total income,Total community grants,9.24,108
+201617,Financial year,National,England,E92000001,Special,Total income,Total targetted grants,842.68,9832
+201617,Financial year,National,England,E92000001,Special,Total income,Total self generated income,37.71,440
+201617,Financial year,National,England,E92000001,Special,Total income,Total income,1956.07,22821
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA Pre16 (I01),19294.22,4284
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA VIthForm (I02),528.9,5615
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total funds delegated by LA (I01 & I02),19823.12,4401
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,SEN funding (I03),1490.25,331
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funding minority ethnic pupils (I04),21.98,5
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil premium (I05),1345.71,299
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other government grants (I06),105.63,23
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other grants payments (I07),163.81,36
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from lettings (I08a),x,x
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from facilities services (I08b),x,x
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Total income from lettings facilities services (I08ab),638.5,142
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from catering (I09),267.06,59
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts supply teacher insurance claims (I10),78.25,17
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts other  insurance claims (I11),30.95,7
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income contributions visits etc (I12),190.59,42
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Donations and/or private funds (I13),168.43,37
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil focussed extended school funding (I15),14.31,3
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Community focussed school funding (I16),72.23,16
+201718,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Community focused facilities income (I17),77.44,17
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other additional grants (I18d),609.13,135
+201718,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total additional grant (I18 total),609.13,135
+201718,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital income (CI01),146.01,32
+201718,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital voluntary private income (CI03),19,4
+201718,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital direct revenue financing(CI04),93.74,21
+201718,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total grant funding,23646.17,5250
+201718,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total direct grants,20092.57,4461
+201718,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total community grants,681.36,151
+201718,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total targetted grants,2872.25,638
+201718,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total self generated income,812.72,180
+201718,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total income,24988.36,5548
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA Pre16 (I01),194.41,6904
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Total funds delegated by LA (I01 & I02),194.41,6904
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,SEN funding (I03),10.75,382
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Funding minority ethnic pupils (I04),low,low
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil premium (I05),1.34,48
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Other government grants (I06),5.19,184
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Other grants payments (I07),7.66,272
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from lettings (I08a),x,x
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from facilities services (I08b),x,x
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Total income from lettings facilities services (I08ab),31.54,1120
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from catering (I09),1.23,44
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts supply teacher insurance claims (I10),0.68,24
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts other  insurance claims (I11),0.68,24
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Income contributions visits etc (I12),2.76,98
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Donations and/or private funds (I13),2.66,95
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil focussed extended school funding (I15),1,35
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Community focussed school funding (I16),13.98,496
+201718,Financial year,National,England,E92000001,Nursery,Self generated funding,Community focused facilities income (I17),7.76,275
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Other additional grants (I18d),0.02,1
+201718,Financial year,National,England,E92000001,Nursery,Grant funding,Total additional grant (I18 total),0.02,1
+201718,Financial year,National,England,E92000001,Nursery,Capital funding,Capital income (CI01),2.91,103
+201718,Financial year,National,England,E92000001,Nursery,Capital funding,Capital voluntary private income (CI03),0.1,3
+201718,Financial year,National,England,E92000001,Nursery,Capital funding,Capital direct revenue financing(CI04),0.91,32
+201718,Financial year,National,England,E92000001,Nursery,Total income,Total grant funding,234.33,8321
+201718,Financial year,National,England,E92000001,Nursery,Total income,Total direct grants,207.26,7360
+201718,Financial year,National,England,E92000001,Nursery,Total income,Total community grants,14,497
+201718,Financial year,National,England,E92000001,Nursery,Total income,Total targetted grants,13.08,464
+201718,Financial year,National,England,E92000001,Nursery,Total income,Total self generated income,15.77,560
+201718,Financial year,National,England,E92000001,Nursery,Total income,Total income,280.7,9968
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA Pre16 (I01),13532.32,3978
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA VIthForm (I02),0.23,454
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Total funds delegated by LA (I01 & I02),13532.55,3978
+201718,Financial year,National,England,E92000001,Primary,Grant funding,SEN funding (I03),434.34,128
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Funding minority ethnic pupils (I04),18.35,5
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Pupil premium (I05),1043.58,307
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Other government grants (I06),59.52,17
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Other grants payments (I07),82.1,24
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Income from lettings (I08a),x,x
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Income from facilities services (I08b),x,x
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Total income from lettings facilities services (I08ab),394.51,116
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Income from catering (I09),186.01,55
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts supply teacher insurance claims (I10),62.84,18
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts other  insurance claims (I11),22.04,6
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Income contributions visits etc (I12),141.53,42
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Donations and/or private funds (I13),117.6,35
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Pupil focussed extended school funding (I15),12.05,4
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Community focussed school funding (I16),53.78,16
+201718,Financial year,National,England,E92000001,Primary,Self generated funding,Community focused facilities income (I17),57.3,17
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Other additional grants (I18d),596.1,175
+201718,Financial year,National,England,E92000001,Primary,Grant funding,Total additional grant (I18 total),596.1,175
+201718,Financial year,National,England,E92000001,Primary,Capital funding,Capital income (CI01),98.46,29
+201718,Financial year,National,England,E92000001,Primary,Capital funding,Capital voluntary private income (CI03),10.66,3
+201718,Financial year,National,England,E92000001,Primary,Capital funding,Capital direct revenue financing(CI04),66.24,19
+201718,Financial year,National,England,E92000001,Primary,Total income,Total grant funding,15832.37,4654
+201718,Financial year,National,England,E92000001,Primary,Total income,Total direct grants,13674.17,4020
+201718,Financial year,National,England,E92000001,Primary,Total income,Total community grants,649.89,191
+201718,Financial year,National,England,E92000001,Primary,Total income,Total targetted grants,1508.32,443
+201718,Financial year,National,England,E92000001,Primary,Total income,Total self generated income,587.33,173
+201718,Financial year,National,England,E92000001,Primary,Total income,Total income,16739.67,4921
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA Pre16 (I01),218.63,11140
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA VIthForm (I02),0.57,3332
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Total funds delegated by LA (I01 & I02),219.2,11169
+201718,Financial year,National,England,E92000001,PRU,Grant funding,SEN funding (I03),122.82,6259
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Funding minority ethnic pupils (I04),low,low
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Pupil premium (I05),8.42,429
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Other government grants (I06),2.45,125
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Other grants payments (I07),11.66,594
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Income from lettings (I08a),x,x
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Income from facilities services (I08b),x,x
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Total income from lettings facilities services (I08ab),30.55,1557
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Income from catering (I09),0.62,32
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts supply teacher insurance claims (I10),0.9,46
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts other  insurance claims (I11),0.5,25
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Income contributions visits etc (I12),0.02,1
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Donations and/or private funds (I13),0.59,30
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Pupil focussed extended school funding (I15),0.15,8
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Community focussed school funding (I16),0.12,6
+201718,Financial year,National,England,E92000001,PRU,Self generated funding,Community focused facilities income (I17),1.1,56
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Other additional grants (I18d),0.62,31
+201718,Financial year,National,England,E92000001,PRU,Grant funding,Total additional grant (I18 total),0.62,31
+201718,Financial year,National,England,E92000001,PRU,Capital funding,Capital income (CI01),2.25,115
+201718,Financial year,National,England,E92000001,PRU,Capital funding,Capital voluntary private income (CI03),0.23,12
+201718,Financial year,National,England,E92000001,PRU,Capital funding,Capital direct revenue financing(CI04),2.4,122
+201718,Financial year,National,England,E92000001,PRU,Total income,Total grant funding,365.44,18621
+201718,Financial year,National,England,E92000001,PRU,Total income,Total direct grants,233.31,11888
+201718,Financial year,National,England,E92000001,PRU,Total income,Total community grants,0.74,37
+201718,Financial year,National,England,E92000001,PRU,Total income,Total targetted grants,131.39,6695
+201718,Financial year,National,England,E92000001,PRU,Total income,Total self generated income,3.73,190
+201718,Financial year,National,England,E92000001,PRU,Total income,Total income,397.22,20240
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA Pre16 (I01),4468.6,4603
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA VIthForm (I02),465.04,5287
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Total funds delegated by LA (I01 & I02),4933.64,5082
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,SEN funding (I03),108.68,112
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Funding minority ethnic pupils (I04),3.06,3
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil premium (I05),249.53,257
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Other government grants (I06),24.84,26
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Other grants payments (I07),41.68,43
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from lettings (I08a),x,x
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from facilities services (I08b),x,x
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Total income from lettings facilities services (I08ab),125.48,129
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from catering (I09),71.52,74
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts supply teacher insurance claims (I10),7.73,8
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts other  insurance claims (I11),2.58,3
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Income contributions visits etc (I12),43.95,45
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Donations and/or private funds (I13),37.96,39
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil focussed extended school funding (I15),0.25,0
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Community focussed school funding (I16),3.27,3
+201718,Financial year,National,England,E92000001,Secondary,Self generated funding,Community focused facilities income (I17),9.41,10
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Other additional grants (I18d),3.44,4
+201718,Financial year,National,England,E92000001,Secondary,Grant funding,Total additional grant (I18 total),3.44,4
+201718,Financial year,National,England,E92000001,Secondary,Capital funding,Capital income (CI01),31.84,33
+201718,Financial year,National,England,E92000001,Secondary,Capital funding,Capital voluntary private income (CI03),5.8,6
+201718,Financial year,National,England,E92000001,Secondary,Capital funding,Capital direct revenue financing(CI04),14.09,15
+201718,Financial year,National,England,E92000001,Secondary,Total income,Total grant funding,5368.39,5530
+201718,Financial year,National,England,E92000001,Secondary,Total income,Total direct grants,5000.15,5151
+201718,Financial year,National,England,E92000001,Secondary,Total income,Total community grants,6.71,7
+201718,Financial year,National,England,E92000001,Secondary,Total income,Total targetted grants,361.52,372
+201718,Financial year,National,England,E92000001,Secondary,Total income,Total self generated income,173.15,178
+201718,Financial year,National,England,E92000001,Secondary,Total income,Total income,5646.8,5817
+201718,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA Pre16 (I01),880.26,10487
+201718,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA VIthForm (I02),63.06,11361
+201718,Financial year,National,England,E92000001,Special,Grant funding,Total funds delegated by LA (I01 & I02),943.32,11238
+201718,Financial year,National,England,E92000001,Special,Grant funding,SEN funding (I03),813.66,9694
+201718,Financial year,National,England,E92000001,Special,Grant funding,Funding minority ethnic pupils (I04),0.56,7
+201718,Financial year,National,England,E92000001,Special,Grant funding,Pupil premium (I05),42.85,511
+201718,Financial year,National,England,E92000001,Special,Grant funding,Other government grants (I06),13.64,163
+201718,Financial year,National,England,E92000001,Special,Grant funding,Other grants payments (I07),20.71,247
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Income from lettings (I08a),x,x
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Income from facilities services (I08b),x,x
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Total income from lettings facilities services (I08ab),56.42,672
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Income from catering (I09),7.67,91
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Receipts supply teacher insurance claims (I10),6.1,73
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Receipts other  insurance claims (I11),5.15,61
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Income contributions visits etc (I12),2.33,28
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Donations and/or private funds (I13),9.63,115
+201718,Financial year,National,England,E92000001,Special,Grant funding,Pupil focussed extended school funding (I15),0.87,10
+201718,Financial year,National,England,E92000001,Special,Grant funding,Community focussed school funding (I16),1.08,13
+201718,Financial year,National,England,E92000001,Special,Self generated funding,Community focused facilities income (I17),1.86,22
+201718,Financial year,National,England,E92000001,Special,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201718,Financial year,National,England,E92000001,Special,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201718,Financial year,National,England,E92000001,Special,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201718,Financial year,National,England,E92000001,Special,Grant funding,Other additional grants (I18d),8.95,107
+201718,Financial year,National,England,E92000001,Special,Grant funding,Total additional grant (I18 total),8.95,107
+201718,Financial year,National,England,E92000001,Special,Capital funding,Capital income (CI01),10.55,126
+201718,Financial year,National,England,E92000001,Special,Capital funding,Capital voluntary private income (CI03),2.21,26
+201718,Financial year,National,England,E92000001,Special,Capital funding,Capital direct revenue financing(CI04),10.1,120
+201718,Financial year,National,England,E92000001,Special,Total income,Total grant funding,1845.64,21988
+201718,Financial year,National,England,E92000001,Special,Total income,Total direct grants,977.68,11648
+201718,Financial year,National,England,E92000001,Special,Total income,Total community grants,10.03,119
+201718,Financial year,National,England,E92000001,Special,Total income,Total targetted grants,857.94,10221
+201718,Financial year,National,England,E92000001,Special,Total income,Total self generated income,32.74,390
+201718,Financial year,National,England,E92000001,Special,Total income,Total income,1923.98,22921
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA Pre16 (I01),18349.08,4402
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA VIthForm (I02),472.79,4794
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total funds delegated by LA (I01 & I02),18821.87,4516
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,SEN funding (I03),1485.15,356
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funding minority ethnic pupils (I04),21.41,5
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil premium (I05),1221.79,293
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other government grants (I06),103.68,25
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other grants payments (I07),151.27,36
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from lettings (I08a),x,x
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from facilities services (I08b),x,x
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Total income from lettings facilities services (I08ab),644.44,155
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from catering (I09),263.12,63
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts supply teacher insurance claims (I10),74.29,18
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts other  insurance claims (I11),28.2,7
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income contributions visits etc (I12),194.08,47
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Donations and/or private funds (I13),160.73,39
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil focussed extended school funding (I15),15.17,4
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Community focussed school funding (I16),60.19,14
+201819,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Community focused facilities income (I17),68.77,16
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other additional grants (I18d),661.56,159
+201819,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total additional grant (I18 total),661.56,159
+201819,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital income (CI01),271.83,65
+201819,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital voluntary private income (CI03),13.2,3
+201819,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital direct revenue financing(CI04),83.4,20
+201819,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total grant funding,22542.1,5408
+201819,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total direct grants,19076.83,4577
+201819,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total community grants,721.75,173
+201819,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total targetted grants,2743.52,658
+201819,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total self generated income,789.19,189
+201819,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total income,23882.22,5730
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA Pre16 (I01),204.18,7227
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Total funds delegated by LA (I01 & I02),204.18,7227
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,SEN funding (I03),11.52,408
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Funding minority ethnic pupils (I04),low,low
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil premium (I05),1.27,45
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Other government grants (I06),5.08,180
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Other grants payments (I07),6.87,243
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from lettings (I08a),x,x
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from facilities services (I08b),x,x
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Total income from lettings facilities services (I08ab),31.12,1101
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from catering (I09),1.66,59
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts supply teacher insurance claims (I10),0.61,22
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts other  insurance claims (I11),0.71,25
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Income contributions visits etc (I12),2.89,102
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Donations and/or private funds (I13),1.96,69
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil focussed extended school funding (I15),1.06,37
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Community focussed school funding (I16),10.65,377
+201819,Financial year,National,England,E92000001,Nursery,Self generated funding,Community focused facilities income (I17),7.1,251
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Other additional grants (I18d),0.1,3
+201819,Financial year,National,England,E92000001,Nursery,Grant funding,Total additional grant (I18 total),0.1,3
+201819,Financial year,National,England,E92000001,Nursery,Capital funding,Capital income (CI01),4.36,154
+201819,Financial year,National,England,E92000001,Nursery,Capital funding,Capital voluntary private income (CI03),0.09,3
+201819,Financial year,National,England,E92000001,Nursery,Capital funding,Capital direct revenue financing(CI04),0.72,25
+201819,Financial year,National,England,E92000001,Nursery,Total income,Total grant funding,240.74,8521
+201819,Financial year,National,England,E92000001,Nursery,Total income,Total direct grants,216.14,7651
+201819,Financial year,National,England,E92000001,Nursery,Total income,Total community grants,10.75,381
+201819,Financial year,National,England,E92000001,Nursery,Total income,Total targetted grants,13.85,490
+201819,Financial year,National,England,E92000001,Nursery,Total income,Total self generated income,14.92,528
+201819,Financial year,National,England,E92000001,Nursery,Total income,Total income,286.11,10127
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA Pre16 (I01),12942.66,4103
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Total funds delegated by LA (I01 & I02),12942.66,4103
+201819,Financial year,National,England,E92000001,Primary,Grant funding,SEN funding (I03),436.69,138
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Funding minority ethnic pupils (I04),18.5,6
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Pupil premium (I05),947.12,300
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Other government grants (I06),53.48,17
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Other grants payments (I07),78.71,25
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Income from lettings (I08a),x,x
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Income from facilities services (I08b),x,x
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Total income from lettings facilities services (I08ab),414.36,131
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Income from catering (I09),181.77,58
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts supply teacher insurance claims (I10),59.19,19
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts other  insurance claims (I11),19.92,6
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Income contributions visits etc (I12),144.67,46
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Donations and/or private funds (I13),115.8,37
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Pupil focussed extended school funding (I15),12.45,4
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Community focussed school funding (I16),44.6,14
+201819,Financial year,National,England,E92000001,Primary,Self generated funding,Community focused facilities income (I17),51.3,16
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Other additional grants (I18d),639.25,203
+201819,Financial year,National,England,E92000001,Primary,Grant funding,Total additional grant (I18 total),639.25,203
+201819,Financial year,National,England,E92000001,Primary,Capital funding,Capital income (CI01),190.48,60
+201819,Financial year,National,England,E92000001,Primary,Capital funding,Capital voluntary private income (CI03),8.34,3
+201819,Financial year,National,England,E92000001,Primary,Capital funding,Capital direct revenue financing(CI04),59.46,19
+201819,Financial year,National,England,E92000001,Primary,Total income,Total grant funding,15173.48,4810
+201819,Financial year,National,England,E92000001,Primary,Total income,Total direct grants,13074.85,4144
+201819,Financial year,National,England,E92000001,Primary,Total income,Total community grants,683.86,217
+201819,Financial year,National,England,E92000001,Primary,Total income,Total targetted grants,1414.77,448
+201819,Financial year,National,England,E92000001,Primary,Total income,Total self generated income,572.66,182
+201819,Financial year,National,England,E92000001,Primary,Total income,Total income,16096.35,5102
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA Pre16 (I01),226.99,13561
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA VIthForm (I02),0.24,1882
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Total funds delegated by LA (I01 & I02),227.23,13576
+201819,Financial year,National,England,E92000001,PRU,Grant funding,SEN funding (I03),110.24,6586
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Funding minority ethnic pupils (I04),low,low
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Pupil premium (I05),8.8,526
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Other government grants (I06),2.47,148
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Other grants payments (I07),12.32,736
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Income from lettings (I08a),x,x
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Income from facilities services (I08b),x,x
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Total income from lettings facilities services (I08ab),27.48,1642
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Income from catering (I09),0.22,13
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts supply teacher insurance claims (I10),0.98,59
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts other  insurance claims (I11),0.45,27
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Income contributions visits etc (I12),0.03,2
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Donations and/or private funds (I13),0.33,20
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Pupil focussed extended school funding (I15),low,low
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Community focussed school funding (I16),0.14,9
+201819,Financial year,National,England,E92000001,PRU,Self generated funding,Community focused facilities income (I17),0.89,53
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Other additional grants (I18d),1.02,61
+201819,Financial year,National,England,E92000001,PRU,Grant funding,Total additional grant (I18 total),1.02,61
+201819,Financial year,National,England,E92000001,PRU,Capital funding,Capital income (CI01),2.92,175
+201819,Financial year,National,England,E92000001,PRU,Capital funding,Capital voluntary private income (CI03),0.02,1
+201819,Financial year,National,England,E92000001,PRU,Capital funding,Capital direct revenue financing(CI04),1.35,80
+201819,Financial year,National,England,E92000001,PRU,Total income,Total grant funding,362.23,21641
+201819,Financial year,National,England,E92000001,PRU,Total income,Total direct grants,242.02,14459
+201819,Financial year,National,England,E92000001,PRU,Total income,Total community grants,1.17,70
+201819,Financial year,National,England,E92000001,PRU,Total income,Total targetted grants,119.05,7113
+201819,Financial year,National,England,E92000001,PRU,Total income,Total self generated income,2.89,173
+201819,Financial year,National,England,E92000001,PRU,Total income,Total income,390.95,23357
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA Pre16 (I01),4131.58,4669
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA VIthForm (I02),411.23,4636
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Total funds delegated by LA (I01 & I02),4542.81,5133
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,SEN funding (I03),100.83,114
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Funding minority ethnic pupils (I04),2.86,3
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil premium (I05),221.75,251
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Other government grants (I06),26.85,30
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Other grants payments (I07),34.25,39
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from lettings (I08a),x,x
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from facilities services (I08b),x,x
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Total income from lettings facilities services (I08ab),117.14,132
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from catering (I09),71.95,81
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts supply teacher insurance claims (I10),7.83,9
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts other  insurance claims (I11),2.46,3
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Income contributions visits etc (I12),43.71,49
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Donations and/or private funds (I13),33.49,38
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil focussed extended school funding (I15),0.58,1
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Community focussed school funding (I16),3.74,4
+201819,Financial year,National,England,E92000001,Secondary,Self generated funding,Community focused facilities income (I17),7.78,9
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Other additional grants (I18d),9.32,11
+201819,Financial year,National,England,E92000001,Secondary,Grant funding,Total additional grant (I18 total),9.32,11
+201819,Financial year,National,England,E92000001,Secondary,Capital funding,Capital income (CI01),56.66,64
+201819,Financial year,National,England,E92000001,Secondary,Capital funding,Capital voluntary private income (CI03),3.36,4
+201819,Financial year,National,England,E92000001,Secondary,Capital funding,Capital direct revenue financing(CI04),13.55,15
+201819,Financial year,National,England,E92000001,Secondary,Total income,Total grant funding,4942.99,5586
+201819,Financial year,National,England,E92000001,Secondary,Total income,Total direct grants,4603.9,5202
+201819,Financial year,National,England,E92000001,Secondary,Total income,Total community grants,13.07,15
+201819,Financial year,National,England,E92000001,Secondary,Total income,Total targetted grants,326.02,368
+201819,Financial year,National,England,E92000001,Secondary,Total income,Total self generated income,167.22,189
+201819,Financial year,National,England,E92000001,Secondary,Total income,Total income,5210.24,5888
+201819,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA Pre16 (I01),843.67,10109
+201819,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA VIthForm (I02),61.33,6271
+201819,Financial year,National,England,E92000001,Special,Grant funding,Total funds delegated by LA (I01 & I02),905,10844
+201819,Financial year,National,England,E92000001,Special,Grant funding,SEN funding (I03),825.86,9896
+201819,Financial year,National,England,E92000001,Special,Grant funding,Funding minority ethnic pupils (I04),0.06,1
+201819,Financial year,National,England,E92000001,Special,Grant funding,Pupil premium (I05),42.84,513
+201819,Financial year,National,England,E92000001,Special,Grant funding,Other government grants (I06),15.79,189
+201819,Financial year,National,England,E92000001,Special,Grant funding,Other grants payments (I07),19.13,229
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Income from lettings (I08a),x,x
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Income from facilities services (I08b),x,x
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Total income from lettings facilities services (I08ab),54.34,651
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Income from catering (I09),7.53,90
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Receipts supply teacher insurance claims (I10),5.68,68
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Receipts other  insurance claims (I11),4.66,56
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Income contributions visits etc (I12),2.78,33
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Donations and/or private funds (I13),9.15,110
+201819,Financial year,National,England,E92000001,Special,Grant funding,Pupil focussed extended school funding (I15),1.07,13
+201819,Financial year,National,England,E92000001,Special,Grant funding,Community focussed school funding (I16),1.04,13
+201819,Financial year,National,England,E92000001,Special,Self generated funding,Community focused facilities income (I17),1.69,20
+201819,Financial year,National,England,E92000001,Special,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201819,Financial year,National,England,E92000001,Special,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201819,Financial year,National,England,E92000001,Special,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201819,Financial year,National,England,E92000001,Special,Grant funding,Other additional grants (I18d),11.86,142
+201819,Financial year,National,England,E92000001,Special,Grant funding,Total additional grant (I18 total),11.86,142
+201819,Financial year,National,England,E92000001,Special,Capital funding,Capital income (CI01),17.4,209
+201819,Financial year,National,England,E92000001,Special,Capital funding,Capital voluntary private income (CI03),1.39,17
+201819,Financial year,National,England,E92000001,Special,Capital funding,Capital direct revenue financing(CI04),8.33,100
+201819,Financial year,National,England,E92000001,Special,Total income,Total grant funding,1822.66,21839
+201819,Financial year,National,England,E92000001,Special,Total income,Total direct grants,939.92,11262
+201819,Financial year,National,England,E92000001,Special,Total income,Total community grants,12.91,155
+201819,Financial year,National,England,E92000001,Special,Total income,Total targetted grants,869.83,10422
+201819,Financial year,National,England,E92000001,Special,Total income,Total self generated income,31.5,377
+201819,Financial year,National,England,E92000001,Special,Total income,Total income,1898.57,22749
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA Pre16 (I01),18255.2,4648
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA VIthForm (I02),415.62,4579
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total funds delegated by LA (I01 & I02),18670.82,4754
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,SEN funding (I03),1530.78,390
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funding minority ethnic pupils (I04),15.9,4
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil premium (I05),1147.18,292
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other government grants (I06),105.9,27
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other grants payments (I07),147.09,37
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from lettings (I08a),151.74,39
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from facilities services (I08b),494.32,126
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Total income from lettings facilities services (I08ab),646.07,164
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from catering (I09),241.11,61
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts supply teacher insurance claims (I10),72.57,18
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts other  insurance claims (I11),27.14,7
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income contributions visits etc (I12),190.5,49
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Donations and/or private funds (I13),153.94,39
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil focussed extended school funding (I15),13.58,3
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Community focussed school funding (I16),52.41,13
+201920,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Community focused facilities income (I17),66.88,17
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other additional grants (I18d),634.13,161
+201920,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total additional grant (I18 total),634.13,161
+201920,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital income (CI01),131.13,33
+201920,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital voluntary private income (CI03),16.73,4
+201920,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital direct revenue financing(CI04),70.31,18
+201920,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total grant funding,22317.79,5682
+201920,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total direct grants,18923.8,4818
+201920,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total community grants,686.54,175
+201920,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total targetted grants,2707.44,689
+201920,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total self generated income,1398.2,356
+201920,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total income,23638.55,6019
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA Pre16 (I01),206.89,7295
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Total funds delegated by LA (I01 & I02),206.89,7295
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,SEN funding (I03),12.44,439
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Funding minority ethnic pupils (I04),low,low
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil premium (I05),0.92,32
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Other government grants (I06),4.77,168
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Other grants payments (I07),6.42,226
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from lettings (I08a),5.29,187
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from facilities services (I08b),24.5,864
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Total income from lettings facilities services (I08ab),29.79,1050
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from catering (I09),1.52,54
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts supply teacher insurance claims (I10),0.65,23
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts other  insurance claims (I11),0.78,28
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Income contributions visits etc (I12),2.72,96
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Donations and/or private funds (I13),1.61,57
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil focussed extended school funding (I15),2.2,78
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Community focussed school funding (I16),8.17,288
+201920,Financial year,National,England,E92000001,Nursery,Self generated funding,Community focused facilities income (I17),6.3,222
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Other additional grants (I18d),0.09,3
+201920,Financial year,National,England,E92000001,Nursery,Grant funding,Total additional grant (I18 total),0.09,3
+201920,Financial year,National,England,E92000001,Nursery,Capital funding,Capital income (CI01),2.34,83
+201920,Financial year,National,England,E92000001,Nursery,Capital funding,Capital voluntary private income (CI03),0.17,6
+201920,Financial year,National,England,E92000001,Nursery,Capital funding,Capital direct revenue financing(CI04),0.57,20
+201920,Financial year,National,England,E92000001,Nursery,Total income,Total grant funding,241.91,8530
+201920,Financial year,National,England,E92000001,Nursery,Total income,Total direct grants,218.08,7689
+201920,Financial year,National,England,E92000001,Nursery,Total income,Total community grants,8.27,292
+201920,Financial year,National,England,E92000001,Nursery,Total income,Total targetted grants,15.56,549
+201920,Financial year,National,England,E92000001,Nursery,Total income,Total self generated income,43.38,1530
+201920,Financial year,National,England,E92000001,Nursery,Total income,Total income,284.74,10040
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA Pre16 (I01),12872.41,4317
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Total funds delegated by LA (I01 & I02),12872.41,4317
+201920,Financial year,National,England,E92000001,Primary,Grant funding,SEN funding (I03),455.66,153
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Funding minority ethnic pupils (I04),14.2,5
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Pupil premium (I05),889.25,298
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Other government grants (I06),49.74,17
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Other grants payments (I07),75.74,25
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Income from lettings (I08a),99.39,33
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Income from facilities services (I08b),324,109
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Total income from lettings facilities services (I08ab),423.39,142
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Income from catering (I09),165.84,56
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts supply teacher insurance claims (I10),58.29,20
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts other  insurance claims (I11),18.69,6
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Income contributions visits etc (I12),141.83,48
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Donations and/or private funds (I13),112.76,38
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Pupil focussed extended school funding (I15),9.94,3
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Community focussed school funding (I16),40.29,14
+201920,Financial year,National,England,E92000001,Primary,Self generated funding,Community focused facilities income (I17),51.91,17
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Other additional grants (I18d),604.42,203
+201920,Financial year,National,England,E92000001,Primary,Grant funding,Total additional grant (I18 total),604.42,203
+201920,Financial year,National,England,E92000001,Primary,Capital funding,Capital income (CI01),89.85,30
+201920,Financial year,National,England,E92000001,Primary,Capital funding,Capital voluntary private income (CI03),9.87,3
+201920,Financial year,National,England,E92000001,Primary,Capital funding,Capital direct revenue financing(CI04),48.47,16
+201920,Financial year,National,England,E92000001,Primary,Total income,Total grant funding,15011.65,5035
+201920,Financial year,National,England,E92000001,Primary,Total income,Total direct grants,12997.89,4359
+201920,Financial year,National,England,E92000001,Primary,Total income,Total community grants,644.71,216
+201920,Financial year,National,England,E92000001,Primary,Total income,Total targetted grants,1369.05,459
+201920,Financial year,National,England,E92000001,Primary,Total income,Total self generated income,972.71,326
+201920,Financial year,National,England,E92000001,Primary,Total income,Total income,15932.08,5343
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA Pre16 (I01),212.54,13813
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA VIthForm (I02),0.18,1658
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Total funds delegated by LA (I01 & I02),212.72,13825
+201920,Financial year,National,England,E92000001,PRU,Grant funding,SEN funding (I03),117.94,7665
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Funding minority ethnic pupils (I04),low,low
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Pupil premium (I05),8.32,541
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Other government grants (I06),2.54,165
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Other grants payments (I07),12.1,786
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Income from lettings (I08a),2.98,194
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Income from facilities services (I08b),24.81,1612
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Total income from lettings facilities services (I08ab),27.79,1806
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Income from catering (I09),0.2,13
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts supply teacher insurance claims (I10),0.84,54
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts other  insurance claims (I11),0.54,35
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Income contributions visits etc (I12),0.02,1
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Donations and/or private funds (I13),0.19,12
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Pupil focussed extended school funding (I15),0.03,2
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Community focussed school funding (I16),0.11,7
+201920,Financial year,National,England,E92000001,PRU,Self generated funding,Community focused facilities income (I17),0.86,56
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Other additional grants (I18d),1.24,80
+201920,Financial year,National,England,E92000001,PRU,Grant funding,Total additional grant (I18 total),1.24,80
+201920,Financial year,National,England,E92000001,PRU,Capital funding,Capital income (CI01),1.66,108
+201920,Financial year,National,England,E92000001,PRU,Capital funding,Capital voluntary private income (CI03),0.03,2
+201920,Financial year,National,England,E92000001,PRU,Capital funding,Capital direct revenue financing(CI04),0.94,61
+201920,Financial year,National,England,E92000001,PRU,Total income,Total grant funding,355.01,23072
+201920,Financial year,National,England,E92000001,PRU,Total income,Total direct grants,227.36,14776
+201920,Financial year,National,England,E92000001,PRU,Total income,Total community grants,1.35,88
+201920,Financial year,National,England,E92000001,PRU,Total income,Total targetted grants,126.29,8208
+201920,Financial year,National,England,E92000001,PRU,Total income,Total self generated income,30.44,1978
+201920,Financial year,National,England,E92000001,PRU,Total income,Total income,384.05,24959
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA Pre16 (I01),4070.35,4971
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA VIthForm (I02),373.17,4591
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Total funds delegated by LA (I01 & I02),4443.51,5427
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,SEN funding (I03),100.21,122
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Funding minority ethnic pupils (I04),1.7,2
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil premium (I05),205.42,251
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Other government grants (I06),31.86,39
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Other grants payments (I07),33.2,41
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from lettings (I08a),35.28,43
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from facilities services (I08b),76.24,93
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Total income from lettings facilities services (I08ab),111.52,136
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from catering (I09),66.09,81
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts supply teacher insurance claims (I10),6.95,8
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts other  insurance claims (I11),2.57,3
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Income contributions visits etc (I12),42.79,52
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Donations and/or private funds (I13),31.03,38
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil focussed extended school funding (I15),0.42,1
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Community focussed school funding (I16),2.8,3
+201920,Financial year,National,England,E92000001,Secondary,Self generated funding,Community focused facilities income (I17),6.39,8
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Other additional grants (I18d),15.32,19
+201920,Financial year,National,England,E92000001,Secondary,Grant funding,Total additional grant (I18 total),15.32,19
+201920,Financial year,National,England,E92000001,Secondary,Capital funding,Capital income (CI01),28.43,35
+201920,Financial year,National,England,E92000001,Secondary,Capital funding,Capital voluntary private income (CI03),3.96,5
+201920,Financial year,National,England,E92000001,Secondary,Capital funding,Capital direct revenue financing(CI04),11.83,14
+201920,Financial year,National,England,E92000001,Secondary,Total income,Total grant funding,4834.44,5904
+201920,Financial year,National,England,E92000001,Secondary,Total income,Total direct grants,4508.57,5506
+201920,Financial year,National,England,E92000001,Secondary,Total income,Total community grants,18.13,22
+201920,Financial year,National,England,E92000001,Secondary,Total income,Total targetted grants,307.74,376
+201920,Financial year,National,England,E92000001,Secondary,Total income,Total self generated income,267.33,326
+201920,Financial year,National,England,E92000001,Secondary,Total income,Total income,5087.63,6213
+201920,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA Pre16 (I01),893.01,10720
+201920,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA VIthForm (I02),42.27,4515
+201920,Financial year,National,England,E92000001,Special,Grant funding,Total funds delegated by LA (I01 & I02),935.28,11228
+201920,Financial year,National,England,E92000001,Special,Grant funding,SEN funding (I03),844.52,10138
+201920,Financial year,National,England,E92000001,Special,Grant funding,Funding minority ethnic pupils (I04),low,low
+201920,Financial year,National,England,E92000001,Special,Grant funding,Pupil premium (I05),43.28,520
+201920,Financial year,National,England,E92000001,Special,Grant funding,Other government grants (I06),16.99,204
+201920,Financial year,National,England,E92000001,Special,Grant funding,Other grants payments (I07),19.63,236
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Income from lettings (I08a),8.8,106
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Income from facilities services (I08b),44.78,538
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Total income from lettings facilities services (I08ab),53.58,643
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Income from catering (I09),7.46,90
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Receipts supply teacher insurance claims (I10),5.84,70
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Receipts other  insurance claims (I11),4.55,55
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Income contributions visits etc (I12),3.14,38
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Donations and/or private funds (I13),8.35,100
+201920,Financial year,National,England,E92000001,Special,Grant funding,Pupil focussed extended school funding (I15),0.99,12
+201920,Financial year,National,England,E92000001,Special,Grant funding,Community focussed school funding (I16),1.03,12
+201920,Financial year,National,England,E92000001,Special,Self generated funding,Community focused facilities income (I17),1.42,17
+201920,Financial year,National,England,E92000001,Special,Grant funding,Coronavirus Job Retention Scheme (I18a),x,x
+201920,Financial year,National,England,E92000001,Special,Grant funding,Exceptional costs grant COVID-19 (I18b),x,x
+201920,Financial year,National,England,E92000001,Special,Grant funding,Income COVID-19 catch up package (I18c),x,x
+201920,Financial year,National,England,E92000001,Special,Grant funding,Other additional grants (I18d),13.05,157
+201920,Financial year,National,England,E92000001,Special,Grant funding,Total additional grant (I18 total),13.05,157
+201920,Financial year,National,England,E92000001,Special,Capital funding,Capital income (CI01),8.84,106
+201920,Financial year,National,England,E92000001,Special,Capital funding,Capital voluntary private income (CI03),2.7,32
+201920,Financial year,National,England,E92000001,Special,Capital funding,Capital direct revenue financing(CI04),8.5,102
+201920,Financial year,National,England,E92000001,Special,Total income,Total grant funding,1874.77,22506
+201920,Financial year,National,England,E92000001,Special,Total income,Total direct grants,971.9,11667
+201920,Financial year,National,England,E92000001,Special,Total income,Total community grants,14.08,169
+201920,Financial year,National,England,E92000001,Special,Total income,Total targetted grants,888.79,10670
+201920,Financial year,National,England,E92000001,Special,Total income,Total self generated income,84.34,1012
+201920,Financial year,National,England,E92000001,Special,Total income,Total income,1950.06,23410
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA Pre16 (I01),18660.3,4955
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA VIthForm (I02),415.89,4520
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total funds delegated by LA (I01 & I02),19076.19,5066
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,SEN funding (I03),1627.14,432
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funding minority ethnic pupils (I04),16.8,4
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil premium (I05),1112.33,295
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other government grants (I06),83.16,22
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other grants payments (I07),130.22,35
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from lettings (I08a),62.13,16
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from facilities services (I08b),315.97,84
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Total income from lettings facilities services (I08ab),378.1,100
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from catering (I09),94.1,25
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts supply teacher insurance claims (I10),56.91,15
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts other  insurance claims (I11),25.9,7
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income contributions visits etc (I12),39.13,10
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Donations and/or private funds (I13),95.63,25
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil focussed extended school funding (I15),14.93,4
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Community focussed school funding (I16),45.29,12
+202021,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Community focused facilities income (I17),38.06,10
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Coronavirus Job Retention Scheme (I18a),20.79,6
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Exceptional costs grant COVID-19 (I18b),71.96,19
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Income COVID-19 catch up package (I18c),174.43,46
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other additional grants (I18d),661.39,176
+202021,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total additional grant (I18 total),928.58,247
+202021,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital income (CI01),130.24,35
+202021,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital voluntary private income (CI03),13.15,3
+202021,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital direct revenue financing(CI04),83.45,22
+202021,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total grant funding,23034.65,6117
+202021,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total direct grants,19289.58,5122
+202021,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total community grants,973.87,259
+202021,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total targetted grants,2771.21,736
+202021,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total self generated income,727.84,193
+202021,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total income,23666.03,6284
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA Pre16 (I01),207.92,8091
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Total funds delegated by LA (I01 & I02),207.92,8091
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,SEN funding (I03),12.86,500
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Funding minority ethnic pupils (I04),low,low
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil premium (I05),0.65,25
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Other government grants (I06),4.77,186
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Other grants payments (I07),5.23,204
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from lettings (I08a),2.82,110
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from facilities services (I08b),18.38,715
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Total income from lettings facilities services (I08ab),21.2,825
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from catering (I09),0.78,30
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts supply teacher insurance claims (I10),0.49,19
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts other  insurance claims (I11),0.6,24
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Income contributions visits etc (I12),1.46,57
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Donations and/or private funds (I13),1.51,59
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil focussed extended school funding (I15),1.46,57
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Community focussed school funding (I16),7.01,273
+202021,Financial year,National,England,E92000001,Nursery,Self generated funding,Community focused facilities income (I17),3.99,155
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Coronavirus Job Retention Scheme (I18a),1.58,62
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Exceptional costs grant COVID-19 (I18b),0.39,15
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Income COVID-19 catch up package (I18c),0.09,4
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Other additional grants (I18d),0.59,23
+202021,Financial year,National,England,E92000001,Nursery,Grant funding,Total additional grant (I18 total),2.65,103
+202021,Financial year,National,England,E92000001,Nursery,Capital funding,Capital income (CI01),2.15,84
+202021,Financial year,National,England,E92000001,Nursery,Capital funding,Capital voluntary private income (CI03),0.03,1
+202021,Financial year,National,England,E92000001,Nursery,Capital funding,Capital direct revenue financing(CI04),0.42,17
+202021,Financial year,National,England,E92000001,Nursery,Total income,Total grant funding,242.56,9439
+202021,Financial year,National,England,E92000001,Nursery,Total income,Total direct grants,217.92,8480
+202021,Financial year,National,England,E92000001,Nursery,Total income,Total community grants,9.67,376
+202021,Financial year,National,England,E92000001,Nursery,Total income,Total targetted grants,14.98,583
+202021,Financial year,National,England,E92000001,Nursery,Total income,Total self generated income,30.02,1168
+202021,Financial year,National,England,E92000001,Nursery,Total income,Total income,271.85,10578
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA Pre16 (I01),13147.61,4604
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Total funds delegated by LA (I01 & I02),13147.61,4604
+202021,Financial year,National,England,E92000001,Primary,Grant funding,SEN funding (I03),502.64,176
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Funding minority ethnic pupils (I04),15.21,5
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Pupil premium (I05),866.97,304
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Other government grants (I06),38.52,13
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Other grants payments (I07),64.85,23
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Income from lettings (I08a),42.79,15
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Income from facilities services (I08b),185.32,65
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Total income from lettings facilities services (I08ab),228.11,80
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Income from catering (I09),66.73,23
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts supply teacher insurance claims (I10),47.53,17
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts other  insurance claims (I11),18.36,6
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Income contributions visits etc (I12),21.95,8
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Donations and/or private funds (I13),67.42,24
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Pupil focussed extended school funding (I15),10.51,4
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Community focussed school funding (I16),35.62,12
+202021,Financial year,National,England,E92000001,Primary,Self generated funding,Community focused facilities income (I17),28.27,10
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Coronavirus Job Retention Scheme (I18a),15.27,5
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Exceptional costs grant COVID-19 (I18b),52.56,18
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Income COVID-19 catch up package (I18c),129.11,45
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Other additional grants (I18d),619.82,217
+202021,Financial year,National,England,E92000001,Primary,Grant funding,Total additional grant (I18 total),816.76,286
+202021,Financial year,National,England,E92000001,Primary,Capital funding,Capital income (CI01),75.08,26
+202021,Financial year,National,England,E92000001,Primary,Capital funding,Capital voluntary private income (CI03),5.67,2
+202021,Financial year,National,England,E92000001,Primary,Capital funding,Capital direct revenue financing(CI04),50.95,18
+202021,Financial year,National,England,E92000001,Primary,Total income,Total grant funding,15498.7,5428
+202021,Financial year,National,England,E92000001,Primary,Total income,Total direct grants,13250.98,4641
+202021,Financial year,National,England,E92000001,Primary,Total income,Total community grants,852.38,299
+202021,Financial year,National,England,E92000001,Primary,Total income,Total targetted grants,1395.34,489
+202021,Financial year,National,England,E92000001,Primary,Total income,Total self generated income,478.38,168
+202021,Financial year,National,England,E92000001,Primary,Total income,Total income,15919.81,5575
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA Pre16 (I01),206.41,16395
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA VIthForm (I02),0.09,671
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Total funds delegated by LA (I01 & I02),206.5,16402
+202021,Financial year,National,England,E92000001,PRU,Grant funding,SEN funding (I03),118.58,9419
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Funding minority ethnic pupils (I04),low,low
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Pupil premium (I05),7.51,597
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Other government grants (I06),2.62,208
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Other grants payments (I07),12.53,995
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Income from lettings (I08a),1.75,139
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Income from facilities services (I08b),19.55,1553
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Total income from lettings facilities services (I08ab),21.3,1692
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Income from catering (I09),0.07,5
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts supply teacher insurance claims (I10),0.55,44
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts other  insurance claims (I11),0.48,38
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Income contributions visits etc (I12),0.1,8
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Donations and/or private funds (I13),0.45,36
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Pupil focussed extended school funding (I15),low,low
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Community focussed school funding (I16),0.22,17
+202021,Financial year,National,England,E92000001,PRU,Self generated funding,Community focused facilities income (I17),0.97,77
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Coronavirus Job Retention Scheme (I18a),0.06,5
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Exceptional costs grant COVID-19 (I18b),0.83,66
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Income COVID-19 catch up package (I18c),2.08,166
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Other additional grants (I18d),1.68,134
+202021,Financial year,National,England,E92000001,PRU,Grant funding,Total additional grant (I18 total),4.66,370
+202021,Financial year,National,England,E92000001,PRU,Capital funding,Capital income (CI01),1.37,109
+202021,Financial year,National,England,E92000001,PRU,Capital funding,Capital voluntary private income (CI03),low,low
+202021,Financial year,National,England,E92000001,PRU,Capital funding,Capital direct revenue financing(CI04),1.11,88
+202021,Financial year,National,England,E92000001,PRU,Total income,Total grant funding,352.62,28008
+202021,Financial year,National,England,E92000001,PRU,Total income,Total direct grants,221.65,17605
+202021,Financial year,National,England,E92000001,PRU,Total income,Total community grants,4.88,387
+202021,Financial year,National,England,E92000001,PRU,Total income,Total targetted grants,126.1,10016
+202021,Financial year,National,England,E92000001,PRU,Total income,Total self generated income,23.92,1900
+202021,Financial year,National,England,E92000001,PRU,Total income,Total income,375.25,29805
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA Pre16 (I01),4154.08,5275
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA VIthForm (I02),381.2,4645
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Total funds delegated by LA (I01 & I02),4535.28,5759
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,SEN funding (I03),110.05,140
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Funding minority ethnic pupils (I04),1.54,2
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil premium (I05),194.15,247
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Other government grants (I06),20.68,26
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Other grants payments (I07),28.98,37
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from lettings (I08a),11.59,15
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from facilities services (I08b),53.68,68
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Total income from lettings facilities services (I08ab),65.27,83
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from catering (I09),22.01,28
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts supply teacher insurance claims (I10),4.59,6
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts other  insurance claims (I11),3.08,4
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Income contributions visits etc (I12),14.49,18
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Donations and/or private funds (I13),19.83,25
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil focussed extended school funding (I15),0.35,0
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Community focussed school funding (I16),1.99,3
+202021,Financial year,National,England,E92000001,Secondary,Self generated funding,Community focused facilities income (I17),3.33,4
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Coronavirus Job Retention Scheme (I18a),3.56,5
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Exceptional costs grant COVID-19 (I18b),13.49,17
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Income COVID-19 catch up package (I18c),31.71,40
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Other additional grants (I18d),25.58,32
+202021,Financial year,National,England,E92000001,Secondary,Grant funding,Total additional grant (I18 total),74.33,94
+202021,Financial year,National,England,E92000001,Secondary,Capital funding,Capital income (CI01),43.42,55
+202021,Financial year,National,England,E92000001,Secondary,Capital funding,Capital voluntary private income (CI03),4.77,6
+202021,Financial year,National,England,E92000001,Secondary,Capital funding,Capital direct revenue financing(CI04),16.97,22
+202021,Financial year,National,England,E92000001,Secondary,Total income,Total grant funding,4967.36,6307
+202021,Financial year,National,England,E92000001,Secondary,Total income,Total direct grants,4584.94,5822
+202021,Financial year,National,England,E92000001,Secondary,Total income,Total community grants,76.32,97
+202021,Financial year,National,England,E92000001,Secondary,Total income,Total targetted grants,306.09,389
+202021,Financial year,National,England,E92000001,Secondary,Total income,Total self generated income,132.6,168
+202021,Financial year,National,England,E92000001,Secondary,Total income,Total income,5077.91,6448
+202021,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA Pre16 (I01),944.29,11165
+202021,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA VIthForm (I02),34.6,3526
+202021,Financial year,National,England,E92000001,Special,Grant funding,Total funds delegated by LA (I01 & I02),978.89,11575
+202021,Financial year,National,England,E92000001,Special,Grant funding,SEN funding (I03),883.01,10441
+202021,Financial year,National,England,E92000001,Special,Grant funding,Funding minority ethnic pupils (I04),0.05,1
+202021,Financial year,National,England,E92000001,Special,Grant funding,Pupil premium (I05),43.04,509
+202021,Financial year,National,England,E92000001,Special,Grant funding,Other government grants (I06),16.56,196
+202021,Financial year,National,England,E92000001,Special,Grant funding,Other grants payments (I07),18.63,220
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Income from lettings (I08a),3.19,38
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Income from facilities services (I08b),39.03,462
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Total income from lettings facilities services (I08ab),42.22,499
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Income from catering (I09),4.51,53
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Receipts supply teacher insurance claims (I10),3.75,44
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Receipts other  insurance claims (I11),3.38,40
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Income contributions visits etc (I12),1.14,14
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Donations and/or private funds (I13),6.42,76
+202021,Financial year,National,England,E92000001,Special,Grant funding,Pupil focussed extended school funding (I15),2.61,31
+202021,Financial year,National,England,E92000001,Special,Grant funding,Community focussed school funding (I16),0.46,5
+202021,Financial year,National,England,E92000001,Special,Self generated funding,Community focused facilities income (I17),1.5,18
+202021,Financial year,National,England,E92000001,Special,Grant funding,Coronavirus Job Retention Scheme (I18a),0.32,4
+202021,Financial year,National,England,E92000001,Special,Grant funding,Exceptional costs grant COVID-19 (I18b),4.69,55
+202021,Financial year,National,England,E92000001,Special,Grant funding,Income COVID-19 catch up package (I18c),11.43,135
+202021,Financial year,National,England,E92000001,Special,Grant funding,Other additional grants (I18d),13.73,162
+202021,Financial year,National,England,E92000001,Special,Grant funding,Total additional grant (I18 total),30.17,357
+202021,Financial year,National,England,E92000001,Special,Capital funding,Capital income (CI01),8.23,97
+202021,Financial year,National,England,E92000001,Special,Capital funding,Capital voluntary private income (CI03),2.68,32
+202021,Financial year,National,England,E92000001,Special,Capital funding,Capital direct revenue financing(CI04),13.99,165
+202021,Financial year,National,England,E92000001,Special,Total income,Total grant funding,1973.41,23334
+202021,Financial year,National,England,E92000001,Special,Total income,Total direct grants,1014.08,11991
+202021,Financial year,National,England,E92000001,Special,Total income,Total community grants,30.63,362
+202021,Financial year,National,England,E92000001,Special,Total income,Total targetted grants,928.7,10981
+202021,Financial year,National,England,E92000001,Special,Total income,Total self generated income,62.91,744
+202021,Financial year,National,England,E92000001,Special,Total income,Total income,2021.21,23899
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA Pre16 (I01),18605.31,5103
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funds delegated by LA VIthForm (I02),443.61,4822
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total funds delegated by LA (I01 & I02),19048.92,5224
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,SEN funding (I03),1730.83,475
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Funding minority ethnic pupils (I04),16.72,5
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil premium (I05),1096.96,301
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other government grants (I06),83.52,23
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other grants payments (I07),141.13,39
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from lettings (I08a),135.33,37
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from facilities services (I08b),409.87,112
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Total income from lettings facilities services (I08ab),545.2,150
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income from catering (I09),207.17,57
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts supply teacher insurance claims (I10),69.13,19
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Receipts other  insurance claims (I11),30.32,8
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Income contributions visits etc (I12),119.21,33
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Donations and/or private funds (I13),118.6,33
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Pupil focussed extended school funding (I15),16.88,5
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Community focussed school funding (I16),46.77,13
+202122,Financial year,National,England,E92000001,All LA maintained schools,Self generated funding,Community focused facilities income (I17),54.52,15
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Coronavirus Job Retention Scheme (I18a),19.81,5
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Exceptional costs grant COVID-19 (I18b),66.1,18
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Income COVID-19 catch up package (I18c),237.95,65
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Other additional grants (I18d),561.04,154
+202122,Financial year,National,England,E92000001,All LA maintained schools,Grant funding,Total additional grant (I18 total),884.9,243
+202122,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital income (CI01),116.61,32
+202122,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital voluntary private income (CI03),17.32,5
+202122,Financial year,National,England,E92000001,All LA maintained schools,Capital funding,Capital direct revenue financing(CI04),98.71,27
+202122,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total grant funding,23066.63,6326
+202122,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total direct grants,19273.56,5286
+202122,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total community grants,931.67,256
+202122,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total targetted grants,2861.4,785
+202122,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total self generated income,1144.15,314
+202122,Financial year,National,England,E92000001,All LA maintained schools,Total income,Total income,24095.65,6609
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA Pre16 (I01),200.87,7669
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Total funds delegated by LA (I01 & I02),200.87,7669
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,SEN funding (I03),14.79,565
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Funding minority ethnic pupils (I04),low,low
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil premium (I05),0.71,27
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Other government grants (I06),3.51,134
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Other grants payments (I07),4.77,182
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from lettings (I08a),5.61,214
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from facilities services (I08b),23.94,914
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Total income from lettings facilities services (I08ab),29.55,1128
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Income from catering (I09),1.58,60
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts supply teacher insurance claims (I10),0.55,21
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Receipts other  insurance claims (I11),0.78,30
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Income contributions visits etc (I12),3.35,128
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Donations and/or private funds (I13),1.58,60
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Pupil focussed extended school funding (I15),1.18,45
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Community focussed school funding (I16),7.69,294
+202122,Financial year,National,England,E92000001,Nursery,Self generated funding,Community focused facilities income (I17),4.85,185
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Coronavirus Job Retention Scheme (I18a),0.18,7
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Exceptional costs grant COVID-19 (I18b),0.23,9
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Income COVID-19 catch up package (I18c),0.03,1
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Other additional grants (I18d),0.19,7
+202122,Financial year,National,England,E92000001,Nursery,Grant funding,Total additional grant (I18 total),0.62,24
+202122,Financial year,National,England,E92000001,Nursery,Capital funding,Capital income (CI01),2.03,78
+202122,Financial year,National,England,E92000001,Nursery,Capital funding,Capital voluntary private income (CI03),0.11,4
+202122,Financial year,National,England,E92000001,Nursery,Capital funding,Capital direct revenue financing(CI04),0.4,15
+202122,Financial year,National,England,E92000001,Nursery,Total income,Total grant funding,234.14,8939
+202122,Financial year,National,England,E92000001,Nursery,Total income,Total direct grants,209.15,7985
+202122,Financial year,National,England,E92000001,Nursery,Total income,Total community grants,8.31,317
+202122,Financial year,National,England,E92000001,Nursery,Total income,Total targetted grants,16.69,637
+202122,Financial year,National,England,E92000001,Nursery,Total income,Total self generated income,42.23,1612
+202122,Financial year,National,England,E92000001,Nursery,Total income,Total income,275.96,10536
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA Pre16 (I01),13120.68,4748
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Funds delegated by LA VIthForm (I02),low,low
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Total funds delegated by LA (I01 & I02),13120.68,4748
+202122,Financial year,National,England,E92000001,Primary,Grant funding,SEN funding (I03),548.05,198
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Funding minority ethnic pupils (I04),15.26,6
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Pupil premium (I05),858.06,311
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Other government grants (I06),41.06,15
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Other grants payments (I07),75.21,27
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Income from lettings (I08a),88.84,32
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Income from facilities services (I08b),272.54,99
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Total income from lettings facilities services (I08ab),361.38,131
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Income from catering (I09),141.55,51
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts supply teacher insurance claims (I10),57.94,21
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Receipts other  insurance claims (I11),21.56,8
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Income contributions visits etc (I12),97.52,35
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Donations and/or private funds (I13),82.29,30
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Pupil focussed extended school funding (I15),14.23,5
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Community focussed school funding (I16),36.35,13
+202122,Financial year,National,England,E92000001,Primary,Self generated funding,Community focused facilities income (I17),43.68,16
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Coronavirus Job Retention Scheme (I18a),17.47,6
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Exceptional costs grant COVID-19 (I18b),26.85,10
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Income COVID-19 catch up package (I18c),159.96,58
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Other additional grants (I18d),532.52,193
+202122,Financial year,National,England,E92000001,Primary,Grant funding,Total additional grant (I18 total),736.8,267
+202122,Financial year,National,England,E92000001,Primary,Capital funding,Capital income (CI01),79.05,29
+202122,Financial year,National,England,E92000001,Primary,Capital funding,Capital voluntary private income (CI03),7.45,3
+202122,Financial year,National,England,E92000001,Primary,Capital funding,Capital direct revenue financing(CI04),56.07,20
+202122,Financial year,National,England,E92000001,Primary,Total income,Total grant funding,15445.71,5590
+202122,Financial year,National,England,E92000001,Primary,Total income,Total direct grants,13236.95,4790
+202122,Financial year,National,England,E92000001,Primary,Total income,Total community grants,773.15,280
+202122,Financial year,National,England,E92000001,Primary,Total income,Total targetted grants,1435.6,520
+202122,Financial year,National,England,E92000001,Primary,Total income,Total self generated income,805.92,292
+202122,Financial year,National,England,E92000001,Primary,Total income,Total income,16186.91,5858
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA Pre16 (I01),212.97,16546
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Funds delegated by LA VIthForm (I02),0.33,2280
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Total funds delegated by LA (I01 & I02),213.3,16572
+202122,Financial year,National,England,E92000001,PRU,Grant funding,SEN funding (I03),113.37,8808
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Funding minority ethnic pupils (I04),low,low
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Pupil premium (I05),6.37,495
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Other government grants (I06),3.07,239
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Other grants payments (I07),12.2,948
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Income from lettings (I08a),3.36,261
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Income from facilities services (I08b),20.79,1616
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Total income from lettings facilities services (I08ab),24.15,1877
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Income from catering (I09),0.24,19
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts supply teacher insurance claims (I10),0.64,49
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Receipts other  insurance claims (I11),0.45,35
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Income contributions visits etc (I12),0.01,1
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Donations and/or private funds (I13),0.22,17
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Pupil focussed extended school funding (I15),0.08,6
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Community focussed school funding (I16),0.14,11
+202122,Financial year,National,England,E92000001,PRU,Self generated funding,Community focused facilities income (I17),0.78,60
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Coronavirus Job Retention Scheme (I18a),0.09,7
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Exceptional costs grant COVID-19 (I18b),2.84,221
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Income COVID-19 catch up package (I18c),3.19,248
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Other additional grants (I18d),1.74,135
+202122,Financial year,National,England,E92000001,PRU,Grant funding,Total additional grant (I18 total),7.87,611
+202122,Financial year,National,England,E92000001,PRU,Capital funding,Capital income (CI01),1.84,143
+202122,Financial year,National,England,E92000001,PRU,Capital funding,Capital voluntary private income (CI03),0.1,7
+202122,Financial year,National,England,E92000001,PRU,Capital funding,Capital direct revenue financing(CI04),1.65,128
+202122,Financial year,National,England,E92000001,PRU,Total income,Total grant funding,356.4,27690
+202122,Financial year,National,England,E92000001,PRU,Total income,Total direct grants,228.57,17758
+202122,Financial year,National,England,E92000001,PRU,Total income,Total community grants,8.01,622
+202122,Financial year,National,England,E92000001,PRU,Total income,Total targetted grants,119.82,9309
+202122,Financial year,National,England,E92000001,PRU,Total income,Total self generated income,26.49,2058
+202122,Financial year,National,England,E92000001,PRU,Total income,Total income,381.19,29616
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA Pre16 (I01),4093.34,5399
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Funds delegated by LA VIthForm (I02),405.45,4954
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Total funds delegated by LA (I01 & I02),4498.79,5934
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,SEN funding (I03),118.66,157
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Funding minority ethnic pupils (I04),1.43,2
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil premium (I05),188.33,248
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Other government grants (I06),19.79,26
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Other grants payments (I07),29.26,39
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from lettings (I08a),27.2,36
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from facilities services (I08b),55.94,74
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Total income from lettings facilities services (I08ab),83.14,110
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Income from catering (I09),54.41,72
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts supply teacher insurance claims (I10),5.28,7
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Receipts other  insurance claims (I11),3.09,4
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Income contributions visits etc (I12),16.9,22
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Donations and/or private funds (I13),26.89,35
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Pupil focussed extended school funding (I15),0.66,1
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Community focussed school funding (I16),1.58,2
+202122,Financial year,National,England,E92000001,Secondary,Self generated funding,Community focused facilities income (I17),3.64,5
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Coronavirus Job Retention Scheme (I18a),1.11,1
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Exceptional costs grant COVID-19 (I18b),26.97,36
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Income COVID-19 catch up package (I18c),55.47,73
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Other additional grants (I18d),14.48,19
+202122,Financial year,National,England,E92000001,Secondary,Grant funding,Total additional grant (I18 total),98.03,129
+202122,Financial year,National,England,E92000001,Secondary,Capital funding,Capital income (CI01),23.54,31
+202122,Financial year,National,England,E92000001,Secondary,Capital funding,Capital voluntary private income (CI03),8.58,11
+202122,Financial year,National,England,E92000001,Secondary,Capital funding,Capital direct revenue financing(CI04),25.21,33
+202122,Financial year,National,England,E92000001,Secondary,Total income,Total grant funding,4956.53,6538
+202122,Financial year,National,England,E92000001,Secondary,Total income,Total direct grants,4547.84,5999
+202122,Financial year,National,England,E92000001,Secondary,Total income,Total community grants,99.61,131
+202122,Financial year,National,England,E92000001,Secondary,Total income,Total targetted grants,309.08,408
+202122,Financial year,National,England,E92000001,Secondary,Total income,Total self generated income,193.34,255
+202122,Financial year,National,England,E92000001,Secondary,Total income,Total income,5118.09,6751
+202122,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA Pre16 (I01),977.45,11403
+202122,Financial year,National,England,E92000001,Special,Grant funding,Funds delegated by LA VIthForm (I02),37.83,3782
+202122,Financial year,National,England,E92000001,Special,Grant funding,Total funds delegated by LA (I01 & I02),1015.28,11845
+202122,Financial year,National,England,E92000001,Special,Grant funding,SEN funding (I03),935.96,10919
+202122,Financial year,National,England,E92000001,Special,Grant funding,Funding minority ethnic pupils (I04),0.03,0
+202122,Financial year,National,England,E92000001,Special,Grant funding,Pupil premium (I05),43.49,507
+202122,Financial year,National,England,E92000001,Special,Grant funding,Other government grants (I06),16.08,188
+202122,Financial year,National,England,E92000001,Special,Grant funding,Other grants payments (I07),19.69,230
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Income from lettings (I08a),10.33,120
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Income from facilities services (I08b),36.65,428
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Total income from lettings facilities services (I08ab),46.97,548
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Income from catering (I09),9.39,110
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Receipts supply teacher insurance claims (I10),4.72,55
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Receipts other  insurance claims (I11),4.45,52
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Income contributions visits etc (I12),1.44,17
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Donations and/or private funds (I13),7.61,89
+202122,Financial year,National,England,E92000001,Special,Grant funding,Pupil focussed extended school funding (I15),0.73,9
+202122,Financial year,National,England,E92000001,Special,Grant funding,Community focussed school funding (I16),1.01,12
+202122,Financial year,National,England,E92000001,Special,Self generated funding,Community focused facilities income (I17),1.58,18
+202122,Financial year,National,England,E92000001,Special,Grant funding,Coronavirus Job Retention Scheme (I18a),0.96,11
+202122,Financial year,National,England,E92000001,Special,Grant funding,Exceptional costs grant COVID-19 (I18b),9.21,107
+202122,Financial year,National,England,E92000001,Special,Grant funding,Income COVID-19 catch up package (I18c),19.3,225
+202122,Financial year,National,England,E92000001,Special,Grant funding,Other additional grants (I18d),12.12,141
+202122,Financial year,National,England,E92000001,Special,Grant funding,Total additional grant (I18 total),41.59,485
+202122,Financial year,National,England,E92000001,Special,Capital funding,Capital income (CI01),10.14,118
+202122,Financial year,National,England,E92000001,Special,Capital funding,Capital voluntary private income (CI03),1.08,13
+202122,Financial year,National,England,E92000001,Special,Capital funding,Capital direct revenue financing(CI04),15.38,179
+202122,Financial year,National,England,E92000001,Special,Total income,Total grant funding,2073.85,24194
+202122,Financial year,National,England,E92000001,Special,Total income,Total direct grants,1051.05,12262
+202122,Financial year,National,England,E92000001,Special,Total income,Total community grants,42.59,497
+202122,Financial year,National,England,E92000001,Special,Total income,Total targetted grants,980.21,11435
+202122,Financial year,National,England,E92000001,Special,Total income,Total self generated income,76.17,889
+202122,Financial year,National,England,E92000001,Special,Total income,Total income,2133.51,24890

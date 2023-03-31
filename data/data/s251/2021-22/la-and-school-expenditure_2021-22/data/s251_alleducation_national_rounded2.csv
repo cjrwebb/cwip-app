@@ -1,0 +1,553 @@
+﻿time_period,time_identifier,geographic_level,country_name,country_code,main_category,category_of_expenditure,early_years_establishments,primary_schools,secondary_schools,sen_and_special_schools,pupil_referral_units_and_alt_provision,post_16,gross_expenditure,income,net_expenditure,net_per_capita_expenditure
+201516,Financial year,National,England,E92000001,Schools,1.1.3 Support to UPEG and bilingual learners,x,24.03,6.13,x,x,x,30.16,5.55,24.62,5
+201516,Financial year,National,England,E92000001,Schools,1.2.4 Additional high needs targeted funding for mainstream schools and academies,0.15,28.39,17.24,x,x,x,45.78,0.16,45.62,4
+201516,Financial year,National,England,E92000001,Schools,1.1.1 Contingencies,x,35.44,18.62,x,x,x,54.06,3.09,50.97,9
+201516,Financial year,National,England,E92000001,Schools,1.2.3 Top-up and other funding – non-maintained and independent providers,9.4,73.71,117.95,576.05,12.09,150.75,939.95,16.72,923.23,71
+201516,Financial year,National,England,E92000001,Other education and community,"2.1.2 SEN administration, assessment and coordination and monitoring",x,x,x,x,x,x,131.89,17.35,114.53,14
+201516,Financial year,National,England,E92000001,Other education and community,"2.1.3 Independent Advice and Support Services (Parent partnership), guidance and information",x,x,x,x,x,x,18.97,2.85,16.12,2
+201516,Financial year,National,England,E92000001,Schools,1.2.1 Top-up funding – maintained schools,18.53,414.42,156.73,858.54,139.06,x,1587.29,34.72,1552.57,120
+201516,Financial year,National,England,E92000001,Schools,"1.2.2 Top-up funding – academies, free schools and colleges",1.73,85.53,150.04,182.46,25.52,120.26,565.53,4.53,561,43
+201516,Financial year,National,England,E92000001,Other education and community,2.1.5 Home to school transport (pre 16): mainstream home to school transport expenditure,1.47,108.26,243.81,2.98,5.54,x,363.28,20.06,343.22,42
+201516,Financial year,National,England,E92000001,Schools,"1.0.1 Individual Schools Budget, after academy recoupment",2463.25,14156.07,5989.48,918.15,195.28,x,23722.23,0,23722.23,4404
+201516,Financial year,National,England,E92000001,Schools,"1.2.10 PFI/ BSF costs at special schools, AP/ PRUs and Post 16 institutions only",x,x,x,7.63,0.09,x,7.72,1.81,5.91,0
+201516,Financial year,National,England,E92000001,Schools,1.1.2 Behaviour support services,x,26.99,4.14,x,x,x,31.12,1.82,29.3,5
+201516,Financial year,National,England,E92000001,Schools,1.1.4 Free school meals eligibility,x,3.34,1.15,x,x,x,4.49,0.23,4.25,1
+201516,Financial year,National,England,E92000001,Schools,1.1.5 Insurance,x,8.91,3.47,x,x,x,12.38,0.01,12.37,2
+201516,Financial year,National,England,E92000001,Schools,1.1.6 Museum and Library services,x,2.84,0.08,x,x,x,2.92,0.14,2.78,1
+201516,Financial year,National,England,E92000001,Schools,1.1.7 Licences/subscriptions,x,6.79,2.42,x,x,x,9.21,0.48,8.74,2
+201516,Financial year,National,England,E92000001,Schools,1.1.8 Staff costs – supply cover excluding cover for facility time,x,23.84,6.92,x,x,x,30.76,0.39,30.37,6
+201516,Financial year,National,England,E92000001,Schools,1.1.9 Staff costs – supply cover for facility time,x,8.81,3.84,x,x,x,12.65,1.2,11.45,2
+201516,Financial year,National,England,E92000001,Schools,1.2.5 SEN support service,57.87,204.75,115.54,73.06,3.62,2.29,457.13,17.53,439.6,34
+201516,Financial year,National,England,E92000001,Schools,1.2.6 Hospital education services,x,x,x,16.96,24.36,x,41.32,0.41,40.91,3
+201516,Financial year,National,England,E92000001,Schools,1.2.7 Other alternative provision services,1.07,22.92,32.8,7.81,87.13,1.82,153.55,5.41,148.14,11
+201516,Financial year,National,England,E92000001,Schools,1.2.8 Support for inclusion,11.1,64.66,39.33,36.15,3.77,2.5,157.5,6.77,150.73,12
+201516,Financial year,National,England,E92000001,Schools,1.2.9 Special schools and PRUs in financial difficulty,x,x,x,3.12,0.7,x,3.83,0,3.83,0
+201516,Financial year,National,England,E92000001,Schools,1.2.11 Direct payments (SEN and disability),0.25,0.73,0.25,3.01,0.02,0.01,4.28,0.36,3.91,0
+201516,Financial year,National,England,E92000001,Schools,1.2.12 Carbon reduction commitment allowances (PRUs),x,x,x,x,0.1,x,0.1,0,0.1,0
+201516,Financial year,National,England,E92000001,Schools,1.2.13 Therapies and other health related services,x,x,x,x,x,x,12.23,3.16,9.07,1
+201516,Financial year,National,England,E92000001,Schools,1.3.1 Central expenditure on early years entitlement,206.29,x,x,x,x,x,206.29,6.15,200.14,17
+201516,Financial year,National,England,E92000001,Schools,1.4.1 Contribution to combined expenditure,11.18,99.05,58.34,5.04,2.62,x,176.23,9.11,167.12,21
+201516,Financial year,National,England,E92000001,Schools,1.4.2 School admissions,1.21,42.74,23.71,0.88,0.14,x,68.68,2.58,66.1,8
+201516,Financial year,National,England,E92000001,Schools,1.4.3 Servicing of schools forums,0.25,2.58,1.49,0.18,0.02,x,4.52,low,4.52,1
+201516,Financial year,National,England,E92000001,Schools,1.4.4 Termination of employment costs,0.68,16.52,14.33,1.17,0.12,x,32.81,0.36,32.45,4
+201516,Financial year,National,England,E92000001,Schools,1.4.5 Falling Rolls Fund,low,1.62,5.53,0.02,0.04,x,7.21,0,7.21,1
+201516,Financial year,National,England,E92000001,Schools,1.4.6 Capital expenditure from revenue (CERA),11.01,40.02,41.41,16.12,0.41,x,108.96,8.32,100.64,12
+201516,Financial year,National,England,E92000001,Schools,1.4.7 Prudential borrowing costs,0.13,11.51,13.28,5.71,0.03,x,30.66,0,30.66,4
+201516,Financial year,National,England,E92000001,Schools,1.4.8 Fees to independent schools without SEN,0,2.04,5.47,0.6,0.5,x,8.62,0,8.62,1
+201516,Financial year,National,England,E92000001,Schools,1.4.9 Equal pay - back pay,0.11,3.85,2.61,0.22,low,x,6.8,0,6.8,1
+201516,Financial year,National,England,E92000001,Schools,1.4.10 Pupil growth (includes infant class sizes for years prior to 2018-19),0.35,148.1,25.38,1.92,0.18,x,175.92,0.24,175.68,22
+201516,Financial year,National,England,E92000001,Schools,1.4.11 SEN transport,0.03,3.25,2.21,20.83,1.32,0.11,27.76,0,27.76,3
+201516,Financial year,National,England,E92000001,Schools,1.4.12 Exceptions agreed by Secretary of State,0.31,7.75,5.54,0.03,low,0,13.64,0,13.64,2
+201516,Financial year,National,England,E92000001,Schools,1.4.14 Other Items,0.74,34.2,19.91,0.62,0.19,x,55.73,x,55.33,7
+201516,Financial year,National,England,E92000001,Schools,1.7.1 Other Specific Grants,1.9,220.8,38.25,4.63,0.2,2.41,268.19,266.72,1.48,0
+201516,Financial year,National,England,E92000001,Schools,1.8.1 TOTAL SCHOOLS EXPENDITURE (after academy recoupment),2797.55,15826.19,6923.6,2740.91,497.5,280.21,29065.96,395.22,28670.74,z
+201516,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1 Dedicated Schools Grant for year,x,x,x,x,x,x,27116.28,x,x,z
+201516,Financial year,National,England,E92000001,Dedicated schools grant,1.9.2 Dedicated Schools Grant brought forward from previous year,x,x,x,x,x,x,1234.58,x,x,z
+201516,Financial year,National,England,E92000001,Dedicated schools grant,1.9.3 Dedicated Schools Grant carried forward to next year,x,x,x,x,x,x,584.08,x,x,z
+201516,Financial year,National,England,E92000001,Dedicated schools grant,1.9.4 Grant for maintained school 6th forms,x,x,x,x,x,x,705.89,x,x,z
+201516,Financial year,National,England,E92000001,Dedicated schools grant,1.9.5 Local Authority additional contribution,x,x,x,x,x,x,24.69,x,x,z
+201516,Financial year,National,England,E92000001,Dedicated schools grant,1.9.6 Total funding supporting the Schools Budget,x,x,x,x,x,x,29081.44,x,x,z
+201516,Financial year,National,England,E92000001,Other education and community,2.0.1 Central support services,x,x,x,x,x,x,186.78,149.89,36.89,7
+201516,Financial year,National,England,E92000001,Other education and community,2.0.2 Education welfare service,x,x,x,x,x,x,73.31,16.48,56.84,11
+201516,Financial year,National,England,E92000001,Other education and community,2.0.3 School improvement,x,x,x,x,x,x,227.79,75.35,152.44,28
+201516,Financial year,National,England,E92000001,Other education and community,2.0.4 Asset management - education,x,x,x,x,x,x,60.36,10.86,49.5,9
+201516,Financial year,National,England,E92000001,Other education and community,2.0.5 Statutory/ Regulatory duties - education,x,x,x,x,x,x,297.15,78.9,218.25,41
+201516,Financial year,National,England,E92000001,Other education and community,2.0.6 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,23.34,0.78,22.56,4
+201516,Financial year,National,England,E92000001,Other education and community,2.0.7 Monitoring national curriculum assessment,x,x,x,x,x,x,5.17,0.73,4.44,1
+201516,Financial year,National,England,E92000001,Other education and community,2.1.1 Educational psychology service,x,x,x,x,x,x,127.49,20.96,106.53,13
+201516,Financial year,National,England,E92000001,Other education and community,2.1.4 Home to school transport (pre 16): SEN transport expenditure,4.56,70.21,66.58,418.08,18.37,x,584.55,15.84,568.71,70
+201516,Financial year,National,England,E92000001,Other education and community,2.1.6 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 16-18),x,x,x,x,x,58.86,58.86,2.08,56.79,7
+201516,Financial year,National,England,E92000001,Other education and community,2.1.7 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 19-25),x,x,x,x,x,19.65,19.65,0.39,19.26,2
+201516,Financial year,National,England,E92000001,Other education and community,2.1.8 Home to post-16 provision transport: mainstream home to post-16 transport expenditure,x,x,x,x,x,31.04,31.04,11.93,19.11,2
+201516,Financial year,National,England,E92000001,Other education and community,2.1.9 Supply of school places,x,x,x,x,x,x,29.71,5.45,24.26,3
+201516,Financial year,National,England,E92000001,Other education and community,2.3.1 Young peoples learning and development,x,x,46.34,3.31,1.91,x,51.56,22.59,28.96,4
+201516,Financial year,National,England,E92000001,Other education and community,2.3.2 Adult and Community learning,x,x,x,x,x,x,337.45,284.6,52.85,6
+201516,Financial year,National,England,E92000001,Other education and community,2.3.3 Pension costs,x,x,x,x,x,x,271.25,17.57,253.68,31
+201516,Financial year,National,England,E92000001,Other education and community,2.3.4 Joint use arrangements,x,x,x,x,x,x,7.87,4.67,3.2,0
+201516,Financial year,National,England,E92000001,Other education and community,2.3.5 Insurance,x,x,x,x,x,x,7.4,2.85,4.55,1
+201516,Financial year,National,England,E92000001,Other education and community,2.4.1 Other Specific Grant,x,x,x,x,x,x,43.94,44.82,-0.88,z
+201516,Financial year,National,England,E92000001,Other education and community,2.5.1 Capital Expenditure (excluding CERA),24.03,1260.16,489.51,175.29,14.74,x,1963.74,802.56,1161.18,143
+201516,Financial year,National,England,E92000001,Other education and community,2.4.3 Total Other education and community expenditure,x,x,x,x,x,x,2971.05,810.18,2160.87,401
+201617,Financial year,National,England,E92000001,Schools,"1.2.10 PFI/ BSF costs at special schools, AP/ PRUs and Post 16 institutions only",x,x,x,9.12,0.05,x,9.17,1.54,7.62,1
+201617,Financial year,National,England,E92000001,Other education and community,"2.1.2 SEN administration, assessment and coordination and monitoring",x,x,x,x,x,x,153.66,30.06,123.6,15
+201617,Financial year,National,England,E92000001,Schools,"1.2.2 Top-up funding – academies, free schools and colleges",1.44,108.2,150.5,242.72,42.23,149.03,694.12,3.67,690.46,53
+201617,Financial year,National,England,E92000001,Schools,1.2.3 Top-up and other funding – non-maintained and independent providers,11.3,67.73,77.1,650.16,37.17,173.64,1017.11,13.21,1003.89,77
+201617,Financial year,National,England,E92000001,Schools,1.1.3 Support to UPEG and bilingual learners,x,20.47,5.24,x,x,x,25.71,3.76,21.95,5
+201617,Financial year,National,England,E92000001,Schools,"1.0.1 Individual Schools Budget, after academy recoupment",2517.97,13739.48,5374.97,878.75,186.04,x,22697.21,x,22697.21,4713
+201617,Financial year,National,England,E92000001,Other education and community,"2.1.3 Independent Advice and Support Services (Parent partnership), guidance and information",x,x,x,x,x,x,23.5,2.58,20.92,3
+201617,Financial year,National,England,E92000001,Schools,1.1.1 Contingencies,x,30.74,13.23,x,x,x,43.97,2.07,41.9,9
+201617,Financial year,National,England,E92000001,Schools,1.2.1 Top-up funding – maintained schools,19.43,409.1,162.84,859.08,126.95,x,1577.4,25.05,1552.35,119
+201617,Financial year,National,England,E92000001,Other education and community,2.1.5 Home to school transport (pre 16): mainstream home to school transport expenditure,1.54,93.5,247.27,3.45,5.29,x,352.41,19.02,333.38,40
+201617,Financial year,National,England,E92000001,Schools,1.2.4 Additional high needs targeted funding for mainstream schools and academies,1.01,45.72,21.06,x,x,x,67.78,0.52,67.26,5
+201617,Financial year,National,England,E92000001,Schools,1.1.2 Behaviour support services,x,25.33,4.25,x,x,x,29.58,2,27.57,6
+201617,Financial year,National,England,E92000001,Schools,1.1.4 Free school meals eligibility,x,3.04,1.11,x,x,x,4.14,0.22,3.92,1
+201617,Financial year,National,England,E92000001,Schools,1.1.5 Insurance,x,8.47,3.01,x,x,x,11.48,0.08,11.39,2
+201617,Financial year,National,England,E92000001,Schools,1.1.6 Museum and Library services,x,2.54,0.16,x,x,x,2.7,0.14,2.56,1
+201617,Financial year,National,England,E92000001,Schools,1.1.7 Licences/subscriptions,x,6.03,2.36,x,x,x,8.38,0.11,8.27,2
+201617,Financial year,National,England,E92000001,Schools,1.1.8 Staff costs – supply cover excluding cover for facility time,x,25.57,7.11,x,x,x,32.68,1.68,31,6
+201617,Financial year,National,England,E92000001,Schools,1.1.9 Staff costs – supply cover for facility time,x,8.91,3.98,x,x,x,12.89,1.34,11.56,2
+201617,Financial year,National,England,E92000001,Schools,1.2.5 SEN support service,58.07,193.83,117.93,90.83,5.28,3.03,468.97,18.82,450.15,34
+201617,Financial year,National,England,E92000001,Schools,1.2.6 Hospital education services,x,x,x,18.68,26.02,x,44.7,0.38,44.32,3
+201617,Financial year,National,England,E92000001,Schools,1.2.7 Other alternative provision services,0.93,23.27,32.88,10.45,81.92,0.93,150.39,5.84,144.54,11
+201617,Financial year,National,England,E92000001,Schools,1.2.8 Support for inclusion,11.7,72.73,41.98,33.17,6.61,0.66,166.84,5.44,161.4,12
+201617,Financial year,National,England,E92000001,Schools,1.2.9 Special schools and PRUs in financial difficulty,x,x,x,3.35,0.44,x,3.79,0,3.79,0
+201617,Financial year,National,England,E92000001,Schools,1.2.11 Direct payments (SEN and disability),0.09,0.98,0.53,2.44,0.62,0.06,4.73,0.4,4.33,0
+201617,Financial year,National,England,E92000001,Schools,1.2.12 Carbon reduction commitment allowances (PRUs),x,x,x,x,0.1,x,0.1,0,0.1,0
+201617,Financial year,National,England,E92000001,Schools,1.2.13 Therapies and other health related services,x,x,x,x,x,x,15.97,5.14,10.83,1
+201617,Financial year,National,England,E92000001,Schools,1.3.1 Central expenditure on early years entitlement,201.84,x,x,x,x,x,201.84,4.29,197.56,17
+201617,Financial year,National,England,E92000001,Schools,1.4.1 Contribution to combined expenditure,9.41,89.65,53.41,6.88,1.29,x,160.63,6.91,153.72,19
+201617,Financial year,National,England,E92000001,Schools,1.4.2 School admissions,1.12,41.4,25.2,1.1,0.2,x,69.01,1.55,67.46,8
+201617,Financial year,National,England,E92000001,Schools,1.4.3 Servicing of schools forums,0.2,2.3,1.37,0.17,0.02,x,4.07,0.01,4.06,0
+201617,Financial year,National,England,E92000001,Schools,1.4.4 Termination of employment costs,0.56,18.32,14.44,0.93,0.29,x,34.54,0.47,34.07,4
+201617,Financial year,National,England,E92000001,Schools,1.4.5 Falling Rolls Fund,0,1.61,5.19,0.01,0,x,6.8,0,6.8,1
+201617,Financial year,National,England,E92000001,Schools,1.4.6 Capital expenditure from revenue (CERA),2.73,31.89,33.15,9.72,0.3,x,77.8,9.37,68.43,8
+201617,Financial year,National,England,E92000001,Schools,1.4.7 Prudential borrowing costs,0.08,12.28,12.94,5.74,0.01,x,31.04,0.02,31.02,4
+201617,Financial year,National,England,E92000001,Schools,1.4.8 Fees to independent schools without SEN,0.03,3.94,4.47,0.37,0.28,x,9.09,0,9.09,1
+201617,Financial year,National,England,E92000001,Schools,1.4.9 Equal pay - back pay,0.1,3.86,1.58,0.47,0.07,x,6.08,0,6.08,1
+201617,Financial year,National,England,E92000001,Schools,1.4.10 Pupil growth (includes infant class sizes for years prior to 2018-19),0.67,136.85,29.25,1.64,0.04,x,168.44,0.25,168.2,20
+201617,Financial year,National,England,E92000001,Schools,1.4.11 SEN transport,0.03,3.96,2.72,17.74,2.73,0.11,27.28,0,27.28,3
+201617,Financial year,National,England,E92000001,Schools,1.4.12 Exceptions agreed by Secretary of State,0.3,3.73,1.15,2.01,low,0,7.2,0.43,6.77,1
+201617,Financial year,National,England,E92000001,Schools,1.4.14 Other Items,1.3,23.46,14.79,0.9,0.18,x,40.67,x,39.69,5
+201617,Financial year,National,England,E92000001,Schools,1.7.1 Other Specific Grants,0.26,208.93,8.82,2.34,0.08,1.41,221.83,214.69,7.15,1
+201617,Financial year,National,England,E92000001,Schools,1.8.1 TOTAL SCHOOLS EXPENDITURE (after academy recoupment),2840.56,15374.31,6228.72,2848.75,518.89,328.93,28140.16,325.23,27814.93,z
+201617,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1 Dedicated Schools Grant for year,x,x,x,x,x,x,26991.92,x,x,z
+201617,Financial year,National,England,E92000001,Dedicated schools grant,1.9.4 Grant for maintained school 6th forms,x,x,x,x,x,x,620.82,x,x,z
+201617,Financial year,National,England,E92000001,Dedicated schools grant,1.9.5 Local Authority additional contribution,x,x,x,x,x,x,33.07,x,x,z
+201617,Financial year,National,England,E92000001,Dedicated schools grant,1.9.6 Total funding supporting the Schools Budget,x,x,x,x,x,x,28262.57,x,x,z
+201617,Financial year,National,England,E92000001,Other education and community,2.0.1 Central support services,x,x,x,x,x,x,171.09,131.63,39.46,8
+201617,Financial year,National,England,E92000001,Other education and community,2.0.2 Education welfare service,x,x,x,x,x,x,69.37,14.35,55.02,11
+201617,Financial year,National,England,E92000001,Other education and community,2.0.3 School improvement,x,x,x,x,x,x,221.51,87.17,134.34,28
+201617,Financial year,National,England,E92000001,Other education and community,2.0.4 Asset management - education,x,x,x,x,x,x,54.14,10.86,43.28,9
+201617,Financial year,National,England,E92000001,Other education and community,2.0.5 Statutory/ Regulatory duties - education,x,x,x,x,x,x,323.97,109.2,214.77,45
+201617,Financial year,National,England,E92000001,Other education and community,2.0.6 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,23.2,0.82,22.38,5
+201617,Financial year,National,England,E92000001,Other education and community,2.0.7 Monitoring national curriculum assessment,x,x,x,x,x,x,5.1,0.59,4.51,1
+201617,Financial year,National,England,E92000001,Other education and community,2.1.1 Educational psychology service,x,x,x,x,x,x,126.66,22.19,104.47,13
+201617,Financial year,National,England,E92000001,Other education and community,2.1.4 Home to school transport (pre 16): SEN transport expenditure,4.99,64.47,78.06,466.57,22.6,x,643.22,15.33,627.9,76
+201617,Financial year,National,England,E92000001,Other education and community,2.1.6 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 16-18),x,x,x,x,x,62.87,62.87,2.49,60.38,7
+201617,Financial year,National,England,E92000001,Other education and community,2.1.7 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 19-25),x,x,x,x,x,25.77,25.77,0.51,25.25,3
+201617,Financial year,National,England,E92000001,Other education and community,2.1.8 Home to post-16 provision transport: mainstream home to post-16 transport expenditure,x,x,x,x,x,30.18,30.18,13.49,16.69,2
+201617,Financial year,National,England,E92000001,Other education and community,2.1.9 Supply of school places,x,x,x,x,x,x,28.67,6.99,21.67,3
+201617,Financial year,National,England,E92000001,Other education and community,2.3.1 Young peoples learning and development,x,x,43.03,4.73,3.04,x,50.8,17.99,32.81,4
+201617,Financial year,National,England,E92000001,Other education and community,2.3.2 Adult and Community learning,x,x,x,x,x,x,295.54,253.34,42.2,5
+201617,Financial year,National,England,E92000001,Other education and community,2.3.3 Pension costs,x,x,x,x,x,x,266.22,18.08,248.14,30
+201617,Financial year,National,England,E92000001,Other education and community,2.3.4 Joint use arrangements,x,x,x,x,x,x,8.24,5.9,2.33,0
+201617,Financial year,National,England,E92000001,Other education and community,2.3.5 Insurance,x,x,x,x,x,x,6.75,2.73,4.02,0
+201617,Financial year,National,England,E92000001,Other education and community,2.4.1 Other Specific Grant,x,x,x,x,x,x,32.63,39.95,-7.32,z
+201617,Financial year,National,England,E92000001,Other education and community,2.5.1 Capital Expenditure (excluding CERA),43.65,995.8,443.04,699.34,20.36,x,2202.2,699.65,1502.55,182
+201617,Financial year,National,England,E92000001,Other education and community,2.4.2 Capital Expenditure from Revenue (CERA) (Non-schools budget functions),x,x,x,x,x,x,6.23,0.66,5.57,z
+201617,Financial year,National,England,E92000001,Other education and community,2.4.3 Total Other education and community expenditure,x,x,x,x,x,x,2997.68,811.07,2186.62,454
+201718,Financial year,National,England,E92000001,Schools,"1.0.1 Individual Schools Budget, after academy recoupment",3039.11,12855.26,4882.45,842.1,188.39,0,21807.31,x,21807.31,4780
+201718,Financial year,National,England,E92000001,Schools,1.2.3 Top-up and other funding – non-maintained and independent providers,5.62,6.4,10.79,920.55,19.17,158.18,1120.72,18.81,1101.9,84
+201718,Financial year,National,England,E92000001,Other education and community,2.1.5 Home to school transport (pre 16): mainstream home to school transport expenditure,1.66,92.03,230.71,14.54,6.84,x,345.88,19.44,326.44,39
+201718,Financial year,National,England,E92000001,Schools,1.1.1 Contingencies,x,29.36,16.09,x,x,x,45.45,1.44,44.01,10
+201718,Financial year,National,England,E92000001,Schools,1.1.3 Support to UPEG and bilingual learners,x,17.23,3.82,x,x,x,21.05,2.75,18.3,4
+201718,Financial year,National,England,E92000001,Schools,1.2.4 Additional high needs targeted funding for mainstream schools and academies,1.09,39.9,16.59,x,x,x,57.57,0.51,57.06,4
+201718,Financial year,National,England,E92000001,Schools,1.2.1 Top-up funding – maintained schools,15.33,427.41,144.46,897.15,122.36,x,1606.69,37.44,1569.26,120
+201718,Financial year,National,England,E92000001,Other education and community,"2.1.2 SEN administration, assessment and coordination and monitoring",x,x,x,x,x,x,163.92,34.46,129.46,16
+201718,Financial year,National,England,E92000001,Schools,"1.2.10 PFI/ BSF costs at special schools, AP/ PRUs and Post 16 institutions only",x,x,x,9.91,0.12,0,10.03,1.54,8.48,1
+201718,Financial year,National,England,E92000001,Other education and community,"2.1.3 Independent Advice and Support Services (Parent partnership), guidance and information",x,x,x,x,x,x,19.03,2.85,16.18,2
+201718,Financial year,National,England,E92000001,Schools,"1.2.2 Top-up funding – academies, free schools and colleges",1.98,150.07,180.19,309.42,56.26,160.93,858.85,5.76,853.09,65
+201718,Financial year,National,England,E92000001,Schools,1.1.2 Behaviour support services,x,21.13,2.91,x,x,x,24.04,2.05,21.99,5
+201718,Financial year,National,England,E92000001,Schools,1.1.4 Free school meals eligibility,x,2.78,0.83,x,x,x,3.61,0.38,3.22,1
+201718,Financial year,National,England,E92000001,Schools,1.1.5 Insurance,x,7.56,2.4,x,x,x,9.96,0,9.96,2
+201718,Financial year,National,England,E92000001,Schools,1.1.6 Museum and Library services,x,2.49,0.07,x,x,x,2.56,0.14,2.42,1
+201718,Financial year,National,England,E92000001,Schools,1.1.7 Licences/subscriptions,x,5.72,1.44,x,x,x,7.16,0.73,6.43,1
+201718,Financial year,National,England,E92000001,Schools,1.1.8 Staff costs – supply cover excluding cover for facility time,x,23.45,5.82,x,x,x,29.27,0.79,28.48,6
+201718,Financial year,National,England,E92000001,Schools,1.1.9 Staff costs – supply cover for facility time,x,9.59,4.29,x,x,x,13.88,1.67,12.21,3
+201718,Financial year,National,England,E92000001,Schools,1.1.10 School improvement,x,8.7,2.49,x,x,x,11.19,0.84,10.35,2
+201718,Financial year,National,England,E92000001,Schools,1.2.5 SEN support service,56.12,194.23,115.14,80.05,7.68,2.83,456.05,18.93,437.12,33
+201718,Financial year,National,England,E92000001,Schools,1.2.6 Hospital education services,x,x,x,20.83,23.88,x,44.71,0.75,43.96,3
+201718,Financial year,National,England,E92000001,Schools,1.2.7 Other alternative provision services,1.17,28.49,33.41,7.77,81.02,1.03,152.89,7.63,145.26,11
+201718,Financial year,National,England,E92000001,Schools,1.2.8 Support for inclusion,9.93,68.72,43.2,34.23,4.53,0.57,161.18,5.46,155.72,12
+201718,Financial year,National,England,E92000001,Schools,1.2.9 Special schools and PRUs in financial difficulty,x,x,x,2.27,0.53,x,2.8,0.21,2.59,0
+201718,Financial year,National,England,E92000001,Schools,1.2.11 Direct payments (SEN and disability),low,0.15,0.15,6.08,0.48,0.03,6.89,0.43,6.46,0
+201718,Financial year,National,England,E92000001,Schools,1.2.12 Carbon reduction commitment allowances (PRUs),x,x,x,x,0.07,x,0.07,0,0.07,0
+201718,Financial year,National,England,E92000001,Schools,1.2.13 Therapies and other health related services,0.55,9.53,5.57,10.1,0.19,0.06,26,2.64,23.36,2
+201718,Financial year,National,England,E92000001,Schools,1.3.1 Central expenditure on early years entitlement,154.51,x,x,x,x,x,154.51,2.61,151.9,13
+201718,Financial year,National,England,E92000001,Schools,1.4.1 Contribution to combined expenditure,9.59,76.64,43.87,5.71,1.47,x,137.28,6.51,130.77,16
+201718,Financial year,National,England,E92000001,Schools,1.4.2 School admissions,1.2,42.62,24.34,1.13,0.08,x,69.38,1.84,67.54,8
+201718,Financial year,National,England,E92000001,Schools,1.4.3 Servicing of schools forums,0.18,2.43,1.48,0.15,0.02,x,4.25,0.04,4.21,1
+201718,Financial year,National,England,E92000001,Schools,1.4.4 Termination of employment costs,0.61,16.38,12.25,0.71,0.06,x,30.01,0.93,29.08,3
+201718,Financial year,National,England,E92000001,Schools,1.4.5 Falling Rolls Fund,0,1.96,4.68,0,0,x,6.64,0,6.64,1
+201718,Financial year,National,England,E92000001,Schools,1.4.6 Capital expenditure from revenue (CERA),1.14,11.63,19.24,3.78,0.03,x,35.82,7.49,28.33,3
+201718,Financial year,National,England,E92000001,Schools,1.4.7 Prudential borrowing costs,0.34,17.89,11.79,5.22,0.02,x,35.26,0.06,35.21,4
+201718,Financial year,National,England,E92000001,Schools,1.4.8 Fees to independent schools without SEN,0.06,0.62,1.94,0.45,0.58,x,3.67,0,3.67,0
+201718,Financial year,National,England,E92000001,Schools,1.4.9 Equal pay - back pay,0.05,2.57,1.34,0.2,low,x,4.16,0,4.16,0
+201718,Financial year,National,England,E92000001,Schools,1.4.10 Pupil growth (includes infant class sizes for years prior to 2018-19),0.65,122.77,41.49,0.87,0.03,x,165.82,0.09,165.73,20
+201718,Financial year,National,England,E92000001,Schools,1.4.11 SEN transport,0.03,2.41,2.43,19.24,1.01,0.8,25.92,low,25.92,3
+201718,Financial year,National,England,E92000001,Schools,1.4.12 Exceptions agreed by Secretary of State,0.19,2.25,4.95,low,0,0,7.39,0.43,6.96,1
+201718,Financial year,National,England,E92000001,Schools,1.4.14 Other Items,0.75,26.07,14.94,0.8,0.21,x,42.8,x,42.68,5
+201718,Financial year,National,England,E92000001,Schools,1.5.1 Education welfare service (funded within schools budget),x,x,x,x,x,x,30.6,1.6,29,3
+201718,Financial year,National,England,E92000001,Schools,1.5.2 Asset management (funded within schools budget),x,x,x,x,x,x,16.51,0.3,16.21,2
+201718,Financial year,National,England,E92000001,Schools,1.5.3 Statutory/ Regulatory duties (funded within schools budget),x,x,x,x,x,x,70.36,2.51,67.85,8
+201718,Financial year,National,England,E92000001,Schools,1.6.1 Central support services,x,x,x,x,x,x,2.79,0.62,2.17,0
+201718,Financial year,National,England,E92000001,Schools,1.6.2 Education welfare service,x,x,x,x,x,x,3,0.09,2.9,0
+201718,Financial year,National,England,E92000001,Schools,1.6.3 Asset Management (funded through maintained schools budget),x,x,x,x,x,x,5.4,0.24,5.16,1
+201718,Financial year,National,England,E92000001,Schools,1.6.4 Statutory/ Regulatory duties (funded through maintained schools budget),x,x,x,x,x,x,16.07,3.32,12.75,2
+201718,Financial year,National,England,E92000001,Schools,1.6.5 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,6.33,0.19,6.15,1
+201718,Financial year,National,England,E92000001,Schools,1.6.6 Monitoring national curriculum assessment,x,x,x,x,x,x,0.73,0.18,0.55,0
+201718,Financial year,National,England,E92000001,Schools,1.7.1 Other Specific Grants,0.27,61.82,8.8,1.28,0.1,1.85,74.11,72.33,1.78,0
+201718,Financial year,National,England,E92000001,Schools,1.8.1 TOTAL SCHOOLS EXPENDITURE (after academy recoupment),3300.49,14296.23,5665.64,3179.99,508.28,326.33,27428.74,212.41,27216.33,z
+201718,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1 Dedicated Schools Grant for year,x,x,x,x,x,x,26463.32,x,x,z
+201718,Financial year,National,England,E92000001,Dedicated schools grant,1.9.2 Dedicated Schools Grant brought forward from previous year,x,x,x,x,x,x,323.69,x,x,z
+201718,Financial year,National,England,E92000001,Dedicated schools grant,1.9.3 Dedicated Schools Grant carried forward to next year,x,x,x,x,x,x,143.87,x,x,z
+201718,Financial year,National,England,E92000001,Dedicated schools grant,1.9.4 Grant for maintained school 6th forms,x,x,x,x,x,x,538.64,x,x,z
+201718,Financial year,National,England,E92000001,Dedicated schools grant,1.9.5 Local Authority additional contribution,x,x,x,x,x,x,34.67,x,x,z
+201718,Financial year,National,England,E92000001,Dedicated schools grant,1.9.6 Total funding supporting the Schools Budget,x,x,x,x,x,x,27216.45,x,x,z
+201718,Financial year,National,England,E92000001,Other education and community,2.0.1 Central support services,x,x,x,x,x,x,173.25,122.44,50.81,11
+201718,Financial year,National,England,E92000001,Other education and community,2.0.2 Education welfare service,x,x,x,x,x,x,45.87,15.93,29.94,7
+201718,Financial year,National,England,E92000001,Other education and community,2.0.3 School improvement,x,x,x,x,x,x,155.13,60.58,94.55,21
+201718,Financial year,National,England,E92000001,Other education and community,2.0.4 Asset management - education,x,x,x,x,x,x,37.29,9.68,27.61,6
+201718,Financial year,National,England,E92000001,Other education and community,2.0.5 Statutory/ Regulatory duties - education,x,x,x,x,x,x,197.93,54.38,143.56,31
+201718,Financial year,National,England,E92000001,Other education and community,2.0.6 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,16.4,0.49,15.91,3
+201718,Financial year,National,England,E92000001,Other education and community,2.0.7 Monitoring national curriculum assessment,x,x,x,x,x,x,3.98,0.47,3.51,1
+201718,Financial year,National,England,E92000001,Other education and community,2.1.1 Educational psychology service,x,x,x,x,x,x,125.77,26.74,99.03,12
+201718,Financial year,National,England,E92000001,Other education and community,2.1.4 Home to school transport (pre 16): SEN transport expenditure,7.72,94.91,96.84,445.68,17.21,x,662.36,13.94,648.42,78
+201718,Financial year,National,England,E92000001,Other education and community,2.1.6 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 16-18),x,x,x,x,x,74.12,74.12,2.8,71.31,9
+201718,Financial year,National,England,E92000001,Other education and community,2.1.7 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 19-25),x,x,x,x,x,32.44,32.44,0.69,31.74,4
+201718,Financial year,National,England,E92000001,Other education and community,2.1.8 Home to post-16 provision transport: mainstream home to post-16 transport expenditure,x,x,x,x,x,25.12,25.12,9.01,16.11,2
+201718,Financial year,National,England,E92000001,Other education and community,2.1.9 Supply of school places,x,x,x,x,x,x,27.85,9.88,17.96,2
+201718,Financial year,National,England,E92000001,Other education and community,2.2.1 Other spend not funded from the Schools Budget,x,x,x,x,x,x,7.27,4.18,3.09,0
+201718,Financial year,National,England,E92000001,Other education and community,2.3.1 Young peoples learning and development,x,x,47.56,2.83,0.77,x,51.17,24.82,26.35,3
+201718,Financial year,National,England,E92000001,Other education and community,2.3.2 Adult and Community learning,x,x,x,x,x,x,287.83,253.26,34.58,4
+201718,Financial year,National,England,E92000001,Other education and community,2.3.3 Pension costs,x,x,x,x,x,x,259.84,15.83,244.02,29
+201718,Financial year,National,England,E92000001,Other education and community,2.3.4 Joint use arrangements,x,x,x,x,x,x,7.48,5.7,1.78,0
+201718,Financial year,National,England,E92000001,Other education and community,2.3.5 Insurance,x,x,x,x,x,x,5.58,1.13,4.46,1
+201718,Financial year,National,England,E92000001,Other education and community,2.4.1 Other Specific Grant,x,x,x,x,x,x,39.43,44.12,-4.69,z
+201718,Financial year,National,England,E92000001,Other education and community,2.5.1 Capital Expenditure (excluding CERA),41.74,1112.95,405.06,173.35,22.73,x,1755.82,451.16,1304.66,156
+201718,Financial year,National,England,E92000001,Other education and community,2.4.2 Capital Expenditure from Revenue (CERA) (Non-schools budget functions),x,x,x,x,x,x,3.46,0.99,2.47,z
+201718,Financial year,National,England,E92000001,Other education and community,2.4.3 Total Other education and community expenditure,x,x,x,x,x,x,2768.4,733.78,2034.61,446
+201819,Financial year,National,England,E92000001,Schools,1.1.1 Contingencies,x,22.8,8.25,x,x,x,31.05,2.37,28.67,7
+201819,Financial year,National,England,E92000001,Schools,1.1.3 Support to UPEG and bilingual learners,x,13.28,2.24,x,x,x,15.52,1.03,14.49,3
+201819,Financial year,National,England,E92000001,Schools,1.2.3 Top-up and other funding – non-maintained and independent providers,7.43,55.99,47.15,880.64,46.11,175.59,1212.91,14.37,1198.53,91
+201819,Financial year,National,England,E92000001,Schools,1.2.1 Top-up funding – maintained schools,12.81,446.94,149.69,878.19,146.17,x,1633.8,25.61,1608.19,121
+201819,Financial year,National,England,E92000001,Schools,"1.2.10 PFI/ BSF costs at special schools, AP/ PRUs and Post 16 institutions only",x,x,x,11.87,0.2,0.46,12.53,3.77,8.77,1
+201819,Financial year,National,England,E92000001,Schools,1.2.4 Additional high needs targeted funding for mainstream schools and academies,1.51,42.85,14.78,x,x,x,59.15,0.09,59.06,4
+201819,Financial year,National,England,E92000001,Schools,"1.0.1 Individual Schools Budget, after academy recoupment",3373.28,12066.65,4645.26,x,x,x,20085.18,x,20085.18,4732
+201819,Financial year,National,England,E92000001,Other education and community,2.1.5 Home to school transport (pre 16): mainstream home to school transport expenditure,1.57,100.27,248.07,6.52,8.68,x,365.1,20.34,344.77,40
+201819,Financial year,National,England,E92000001,Other education and community,"2.1.2 SEN administration, assessment and coordination and monitoring",x,x,x,x,x,x,170.55,26.45,144.1,17
+201819,Financial year,National,England,E92000001,Schools,"1.2.2 Top-up funding – academies, free schools and colleges",2.95,202.74,211.86,360.78,68.34,190.2,1036.87,5.79,1031.08,78
+201819,Financial year,National,England,E92000001,Other education and community,"2.1.3 Independent Advice and Support Services (Parent partnership), guidance and information",x,x,x,x,x,x,20.05,3.93,16.12,2
+201819,Financial year,National,England,E92000001,Schools,1.0.2 High needs place funding within Individual Schools Budget,x,72.29,36.68,800.8,174.66,x,1084.44,x,1084.44,255
+201819,Financial year,National,England,E92000001,Schools,1.1.2 Behaviour support services,x,17.15,3.32,x,x,x,20.47,2.06,18.4,4
+201819,Financial year,National,England,E92000001,Schools,1.1.4 Free school meals eligibility,x,2.39,0.75,x,x,x,3.14,0.21,2.93,1
+201819,Financial year,National,England,E92000001,Schools,1.1.5 Insurance,x,6.55,2.66,x,x,x,9.21,0,9.21,2
+201819,Financial year,National,England,E92000001,Schools,1.1.6 Museum and Library services,x,1.72,0.03,x,x,x,1.75,0.13,1.62,0
+201819,Financial year,National,England,E92000001,Schools,1.1.7 Licences/subscriptions,x,4.99,1.07,x,x,x,6.05,0.38,5.67,1
+201819,Financial year,National,England,E92000001,Schools,1.1.8 Staff costs – supply cover excluding cover for facility time,x,21.86,5.26,x,x,x,27.13,0.48,26.65,6
+201819,Financial year,National,England,E92000001,Schools,1.1.9 Staff costs – supply cover for facility time,x,9.77,3.84,x,x,x,13.61,1.67,11.94,3
+201819,Financial year,National,England,E92000001,Schools,1.1.10 School improvement,x,8.54,1.68,x,x,x,10.22,0.1,10.12,2
+201819,Financial year,National,England,E92000001,Schools,1.2.5 SEN support service,55.18,197.06,107.58,87.05,6.38,4.08,457.33,17.33,440,33
+201819,Financial year,National,England,E92000001,Schools,1.2.6 Hospital education services,x,x,x,23.61,18.73,x,42.34,0.4,41.94,3
+201819,Financial year,National,England,E92000001,Schools,1.2.7 Other alternative provision services,1.63,28.62,36.06,5.56,85.74,1.6,159.2,8.22,150.98,11
+201819,Financial year,National,England,E92000001,Schools,1.2.8 Support for inclusion,10.38,72.18,37.66,27.73,7.63,0.57,156.15,6.69,149.46,11
+201819,Financial year,National,England,E92000001,Schools,1.2.9 Special schools and PRUs in financial difficulty,x,x,x,2.37,0.55,x,2.92,0,2.92,0
+201819,Financial year,National,England,E92000001,Schools,1.2.11 Direct payments (SEN and disability),low,0.12,0.05,8.72,1.57,0.03,10.49,0.14,10.35,1
+201819,Financial year,National,England,E92000001,Schools,1.2.12 Carbon reduction commitment allowances (PRUs),x,x,x,x,0.02,x,0.02,0,0.02,0
+201819,Financial year,National,England,E92000001,Schools,1.2.13 Therapies and other health related services,1.43,11.62,5.36,10.61,0.53,0.19,29.73,1.62,28.11,2
+201819,Financial year,National,England,E92000001,Schools,1.3.1 Central expenditure on early years entitlement,135.81,x,x,x,x,x,135.81,3.41,132.4,11
+201819,Financial year,National,England,E92000001,Schools,1.4.1 Contribution to combined expenditure,10.94,70.24,39.86,4.51,1.52,x,127.07,3.22,123.85,14
+201819,Financial year,National,England,E92000001,Schools,1.4.2 School admissions,1.54,42.54,24.88,0.94,0.27,x,70.17,2.47,67.7,8
+201819,Financial year,National,England,E92000001,Schools,1.4.3 Servicing of schools forums,0.22,2.21,1.4,0.22,0.06,x,4.11,0.07,4.04,0
+201819,Financial year,National,England,E92000001,Schools,1.4.4 Termination of employment costs,0.5,16.04,10.16,0.89,0.05,x,27.64,0.27,27.36,3
+201819,Financial year,National,England,E92000001,Schools,1.4.5 Falling Rolls Fund,0,1.83,4.51,0,0,x,6.34,0,6.34,1
+201819,Financial year,National,England,E92000001,Schools,1.4.6 Capital expenditure from revenue (CERA),0.27,8.17,13.17,5.7,2.98,x,30.29,8.47,21.81,3
+201819,Financial year,National,England,E92000001,Schools,1.4.7 Prudential borrowing costs,0.12,12.6,8.32,5.65,0.02,x,26.71,0.06,26.65,3
+201819,Financial year,National,England,E92000001,Schools,1.4.8 Fees to independent schools without SEN,0.01,1.5,3.67,0.69,0.65,x,6.53,0,6.53,1
+201819,Financial year,National,England,E92000001,Schools,1.4.9 Equal pay - back pay,0.06,2.5,1.2,0.25,low,x,4.02,0,4.02,0
+201819,Financial year,National,England,E92000001,Schools,1.4.10 Pupil growth (includes infant class sizes for years prior to 2018-19),1.08,99.32,50.44,1.49,0.09,x,152.43,0.44,151.98,18
+201819,Financial year,National,England,E92000001,Schools,1.4.11 SEN transport,0.05,3.6,2.55,17.38,1.7,0.42,25.69,0,25.69,3
+201819,Financial year,National,England,E92000001,Schools,1.4.12 Exceptions agreed by Secretary of State,low,2.28,2.89,1,0,0,6.17,0.43,5.74,1
+201819,Financial year,National,England,E92000001,Schools,1.4.13 Infant class sizes,x,8.64,x,x,x,0,8.97,0,8.97,1
+201819,Financial year,National,England,E92000001,Schools,1.4.14 Other Items,1,22.66,13.83,1.18,0.31,x,39.11,x,39.11,5
+201819,Financial year,National,England,E92000001,Schools,1.5.1 Education welfare service (funded within schools budget),x,x,x,x,x,x,32.49,2.27,30.22,4
+201819,Financial year,National,England,E92000001,Schools,1.5.2 Asset management (funded within schools budget),x,x,x,x,x,x,19.7,0.36,19.34,2
+201819,Financial year,National,England,E92000001,Schools,1.5.3 Statutory/ Regulatory duties (funded within schools budget),x,x,x,x,x,x,71.15,0.57,70.58,8
+201819,Financial year,National,England,E92000001,Schools,1.6.1 Central support services,x,x,x,x,x,x,4.44,2.13,2.31,0
+201819,Financial year,National,England,E92000001,Schools,1.6.2 Education welfare service,x,x,x,x,x,x,2.62,0.11,2.51,0
+201819,Financial year,National,England,E92000001,Schools,1.6.3 Asset Management (funded through maintained schools budget),x,x,x,x,x,x,3.66,0.06,3.61,0
+201819,Financial year,National,England,E92000001,Schools,1.6.4 Statutory/ Regulatory duties (funded through maintained schools budget),x,x,x,x,x,x,18.79,1.51,17.28,2
+201819,Financial year,National,England,E92000001,Schools,1.6.5 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,9.74,0.16,9.57,1
+201819,Financial year,National,England,E92000001,Schools,1.6.6 Monitoring national curriculum assessment,x,x,x,x,x,x,0.81,0.05,0.76,0
+201819,Financial year,National,England,E92000001,Schools,1.7.1 Other Specific Grants,0.24,52.81,6.65,2.22,0.54,1.39,63.85,62.52,1.34,0
+201819,Financial year,National,England,E92000001,Schools,1.8.1 TOTAL SCHOOLS EXPENDITURE (after academy recoupment),3618.52,13653.02,5504.95,3140.12,564.83,374.68,27019.52,181.05,26838.47,z
+201819,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1 Dedicated Schools Grant for year,x,x,x,x,x,x,26233.27,x,x,z
+201819,Financial year,National,England,E92000001,Dedicated schools grant,1.9.2 Dedicated Schools Grant brought forward from previous year,x,x,x,x,x,x,140.96,x,x,z
+201819,Financial year,National,England,E92000001,Dedicated schools grant,1.9.3 Dedicated Schools Grant carried forward to next year,x,x,x,x,x,x,-6.66,x,x,z
+201819,Financial year,National,England,E92000001,Dedicated schools grant,1.9.4 Grant for maintained school 6th forms,x,x,x,x,x,x,413.25,x,x,z
+201819,Financial year,National,England,E92000001,Dedicated schools grant,1.9.5 Local Authority additional contribution,x,x,x,x,x,x,61.11,x,x,z
+201819,Financial year,National,England,E92000001,Dedicated schools grant,1.9.6 Total funding supporting the Schools Budget,x,x,x,x,x,x,26841.94,x,x,z
+201819,Financial year,National,England,E92000001,Other education and community,2.0.1 Central support services,x,x,x,x,x,x,167.11,132.76,34.35,8
+201819,Financial year,National,England,E92000001,Other education and community,2.0.2 Education welfare service,x,x,x,x,x,x,46.59,21.09,25.51,6
+201819,Financial year,National,England,E92000001,Other education and community,2.0.3 School improvement,x,x,x,x,x,x,158.38,80.02,78.36,18
+201819,Financial year,National,England,E92000001,Other education and community,2.0.4 Asset management - education,x,x,x,x,x,x,36.18,11.34,24.84,6
+201819,Financial year,National,England,E92000001,Other education and community,2.0.5 Statutory/ Regulatory duties - education,x,x,x,x,x,x,201.58,56.99,144.58,34
+201819,Financial year,National,England,E92000001,Other education and community,2.0.6 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,19.63,0.65,18.98,4
+201819,Financial year,National,England,E92000001,Other education and community,2.0.7 Monitoring national curriculum assessment,x,x,x,x,x,x,4.86,1.11,3.75,1
+201819,Financial year,National,England,E92000001,Other education and community,2.1.1 Educational psychology service,x,x,x,x,x,x,138.75,32.44,106.31,12
+201819,Financial year,National,England,E92000001,Other education and community,2.1.4 Home to school transport (pre 16): SEN transport expenditure,6.01,101.14,93.01,502.73,23.95,x,726.83,12.46,714.37,83
+201819,Financial year,National,England,E92000001,Other education and community,2.1.6 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 16-18),x,x,3.88,10.41,0.33,69.22,83.84,2.72,81.12,9
+201819,Financial year,National,England,E92000001,Other education and community,2.1.7 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 19-25),x,x,0.86,3.15,1.82,36.94,42.77,0.65,42.12,5
+201819,Financial year,National,England,E92000001,Other education and community,2.1.8 Home to post-16 provision transport: mainstream home to post-16 transport expenditure,x,x,1.32,0.01,0.01,21.72,23.07,8.16,14.91,2
+201819,Financial year,National,England,E92000001,Other education and community,2.1.9 Supply of school places,x,x,x,x,x,x,31.81,14.73,17.08,2
+201819,Financial year,National,England,E92000001,Other education and community,2.2.1 Other spend not funded from the Schools Budget,x,x,x,x,x,x,16.92,4.19,12.73,1
+201819,Financial year,National,England,E92000001,Other education and community,2.3.1 Young peoples learning and development,x,x,48.33,2.52,1.66,x,52.51,20.88,31.63,4
+201819,Financial year,National,England,E92000001,Other education and community,2.3.2 Adult and Community learning,x,x,x,x,x,x,304.06,258.36,45.69,5
+201819,Financial year,National,England,E92000001,Other education and community,2.3.3 Pension costs,x,x,x,x,x,x,257.33,15.02,242.32,28
+201819,Financial year,National,England,E92000001,Other education and community,2.3.4 Joint use arrangements,x,x,x,x,x,x,6.19,4.54,1.65,0
+201819,Financial year,National,England,E92000001,Other education and community,2.3.5 Insurance,x,x,x,x,x,x,4.2,0.01,4.19,0
+201819,Financial year,National,England,E92000001,Other education and community,2.4.1 Other Specific Grant,x,x,x,x,x,x,30.06,30.7,-0.64,z
+201819,Financial year,National,England,E92000001,Other education and community,2.5.1 Capital Expenditure (excluding CERA),24.98,729.93,432.92,114.48,11.91,x,1314.21,406.5,907.71,106
+201819,Financial year,National,England,E92000001,Other education and community,2.4.2 Capital Expenditure from Revenue (CERA) (Non-schools budget functions),x,x,x,x,x,x,11.41,2.91,8.49,z
+201819,Financial year,National,England,E92000001,Other education and community,2.4.3 Total Other education and community expenditure,x,x,x,x,x,x,2919.76,762.45,2157.32,508
+201920,Financial year,National,England,E92000001,Schools,1.2.3 Top-up and other funding – non-maintained and independent providers,9.53,34.51,50.32,1030.75,47.88,204.4,1377.38,15.82,1361.57,102
+201920,Financial year,National,England,E92000001,Schools,"1.2.10 PFI/ BSF costs at special schools, AP/ PRUs and Post 16 institutions only",x,x,x,12.24,0.17,0.47,12.88,3.89,9,1
+201920,Financial year,National,England,E92000001,Schools,"1.2.2 Top-up funding – academies, free schools and colleges",3.79,239.37,247.2,452.32,68.07,214.57,1225.32,6.82,1218.5,91
+201920,Financial year,National,England,E92000001,Schools,1.1.3 Support to UPEG and bilingual learners,x,10.05,1.76,x,x,x,11.81,0.44,11.37,3
+201920,Financial year,National,England,E92000001,Other education and community,"2.1.3 Independent Advice and Support Services (Parent partnership), guidance and information",x,x,x,x,x,x,22.86,4.6,18.25,2
+201920,Financial year,National,England,E92000001,Schools,1.2.1 Top-up funding – maintained schools,13.98,439.8,132.54,956.75,133.17,0.36,1676.61,22.35,1654.25,124
+201920,Financial year,National,England,E92000001,Schools,1.1.1 Contingencies,x,20.04,7.93,x,x,x,27.97,0.38,27.59,7
+201920,Financial year,National,England,E92000001,Schools,1.2.4 Additional high needs targeted funding for mainstream schools and academies,1.71,36.66,15.59,x,x,x,53.96,0.1,53.86,4
+201920,Financial year,National,England,E92000001,Schools,"1.0.1 Individual Schools Budget, after academy recoupment",3432.61,11689.68,4329.17,x,x,x,19451.45,x,19451.45,4872
+201920,Financial year,National,England,E92000001,Other education and community,2.1.5 Home to school transport (pre 16): mainstream home to school transport expenditure,4.83,101.12,250.1,7.88,7.77,x,371.7,19.03,352.66,41
+201920,Financial year,National,England,E92000001,Other education and community,"2.1.2 SEN administration, assessment and coordination and monitoring",x,x,x,x,x,x,200.88,27.73,173.15,20
+201920,Financial year,National,England,E92000001,Schools,1.0.2 High needs place funding within Individual Schools Budget,4.63,70.48,28.25,786.45,169.36,x,1059.17,x,1059.17,265
+201920,Financial year,National,England,E92000001,Schools,1.1.2 Behaviour support services,x,15.56,2.79,x,x,x,18.34,1.92,16.42,4
+201920,Financial year,National,England,E92000001,Schools,1.1.4 Free school meals eligibility,x,2.1,0.58,x,x,x,2.67,0.21,2.46,1
+201920,Financial year,National,England,E92000001,Schools,1.1.5 Insurance,x,6.81,2.32,x,x,x,9.14,0,9.14,2
+201920,Financial year,National,England,E92000001,Schools,1.1.6 Museum and Library services,x,1.71,0.02,x,x,x,1.73,0.13,1.6,0
+201920,Financial year,National,England,E92000001,Schools,1.1.7 Licences/subscriptions,x,5.35,1.06,x,x,x,6.41,0.16,6.25,2
+201920,Financial year,National,England,E92000001,Schools,1.1.8 Staff costs – supply cover excluding cover for facility time,x,20.84,4.37,x,x,x,25.2,0.55,24.65,6
+201920,Financial year,National,England,E92000001,Schools,1.1.9 Staff costs – supply cover for facility time,x,8.08,3.25,x,x,x,11.33,1.42,9.91,2
+201920,Financial year,National,England,E92000001,Schools,1.1.10 School improvement,x,8.34,1.25,x,x,x,9.59,0.03,9.56,2
+201920,Financial year,National,England,E92000001,Schools,1.2.5 SEN support service,50.63,201.95,120.01,82.38,7.82,4.1,466.88,13.87,453,34
+201920,Financial year,National,England,E92000001,Schools,1.2.6 Hospital education services,x,x,x,22.62,25.06,x,47.69,1.08,46.61,3
+201920,Financial year,National,England,E92000001,Schools,1.2.7 Other alternative provision services,1.79,28,38,4.57,110.01,1.95,184.31,8.9,175.41,13
+201920,Financial year,National,England,E92000001,Schools,1.2.8 Support for inclusion,8.81,68.07,41.01,23.79,6.52,0.5,148.68,5.87,142.82,11
+201920,Financial year,National,England,E92000001,Schools,1.2.9 Special schools and PRUs in financial difficulty,x,x,x,2.12,0.55,x,2.67,0,2.67,0
+201920,Financial year,National,England,E92000001,Schools,1.2.11 Direct payments (SEN and disability),0.03,1.04,2.04,8.99,2.43,0.18,14.73,0.08,14.65,1
+201920,Financial year,National,England,E92000001,Schools,1.2.12 Carbon reduction commitment allowances (PRUs),x,x,x,x,0,x,0,0,0,0
+201920,Financial year,National,England,E92000001,Schools,1.2.13 Therapies and other health related services,2.03,11.93,7,13.4,0.64,0.06,35.07,3.19,31.88,2
+201920,Financial year,National,England,E92000001,Schools,1.3.1 Central expenditure on early years entitlement,129.21,x,x,x,x,x,129.21,1.89,127.31,11
+201920,Financial year,National,England,E92000001,Schools,1.4.1 Contribution to combined expenditure,9.56,60.81,37.51,7.02,2.7,x,117.6,4.57,113.03,13
+201920,Financial year,National,England,E92000001,Schools,1.4.2 School admissions,1.41,41.64,25.49,1.14,0.36,x,70.03,1.77,68.26,8
+201920,Financial year,National,England,E92000001,Schools,1.4.3 Servicing of schools forums,0.19,2.19,1.41,0.22,0.06,x,4.07,0.09,3.97,0
+201920,Financial year,National,England,E92000001,Schools,1.4.4 Termination of employment costs,0.43,14.53,9.91,1.18,0.06,x,26.11,0.24,25.87,3
+201920,Financial year,National,England,E92000001,Schools,1.4.5 Falling Rolls Fund,0,2.71,3.17,0,0,x,5.88,0,5.88,1
+201920,Financial year,National,England,E92000001,Schools,1.4.6 Capital expenditure from revenue (CERA),0.39,5.77,12.74,1.38,2.73,x,23.01,8.07,14.94,2
+201920,Financial year,National,England,E92000001,Schools,1.4.7 Prudential borrowing costs,0.14,12.3,8.14,6.18,0.02,x,26.78,0,26.78,3
+201920,Financial year,National,England,E92000001,Schools,1.4.8 Fees to independent schools without SEN,0.03,1.41,2.15,0.7,0.21,x,4.5,0,4.5,1
+201920,Financial year,National,England,E92000001,Schools,1.4.9 Equal pay - back pay,0.04,0.96,0.38,0.05,low,x,1.43,0,1.43,0
+201920,Financial year,National,England,E92000001,Schools,1.4.10 Pupil growth (includes infant class sizes for years prior to 2018-19),0.38,81.73,62.25,2.27,0.44,x,147.07,0.19,146.89,17
+201920,Financial year,National,England,E92000001,Schools,1.4.11 SEN transport,0.18,3.38,2.48,15.54,0.75,0.27,22.6,0,22.6,3
+201920,Financial year,National,England,E92000001,Schools,1.4.12 Exceptions agreed by Secretary of State,low,low,0.36,6.25,0,0,6.61,0,6.61,1
+201920,Financial year,National,England,E92000001,Schools,1.4.13 Infant class sizes,x,8.96,x,x,x,x,8.96,0,8.96,1
+201920,Financial year,National,England,E92000001,Schools,1.4.14 Other Items,1.6,23.95,14.9,1.3,0.41,x,42.23,x,42.23,5
+201920,Financial year,National,England,E92000001,Schools,1.5.1 Education welfare service (funded within schools budget),x,x,x,x,x,x,32.08,1.63,30.45,4
+201920,Financial year,National,England,E92000001,Schools,1.5.2 Asset management (funded within schools budget),x,x,x,x,x,x,18.91,0.06,18.85,2
+201920,Financial year,National,England,E92000001,Schools,1.5.3 Statutory/ Regulatory duties (funded within schools budget),x,x,x,x,x,x,74.19,0.97,73.22,8
+201920,Financial year,National,England,E92000001,Schools,1.6.1 Central support services,x,x,x,x,x,x,5.19,0.63,4.56,1
+201920,Financial year,National,England,E92000001,Schools,1.6.2 Education welfare service,x,x,x,x,x,x,2.53,0.25,2.28,0
+201920,Financial year,National,England,E92000001,Schools,1.6.3 Asset Management (funded through maintained schools budget),x,x,x,x,x,x,4.13,0.16,3.97,0
+201920,Financial year,National,England,E92000001,Schools,1.6.4 Statutory/ Regulatory duties (funded through maintained schools budget),x,x,x,x,x,x,18.42,0.8,17.62,2
+201920,Financial year,National,England,E92000001,Schools,1.6.5 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,7.14,0.12,7.02,1
+201920,Financial year,National,England,E92000001,Schools,1.6.6 Monitoring national curriculum assessment,x,x,x,x,x,x,0.83,0.05,0.78,0
+201920,Financial year,National,England,E92000001,Schools,1.7.1 Other Specific Grants,0.48,29.95,5.14,1.47,0.3,0.05,37.38,37.38,0,0
+201920,Financial year,National,England,E92000001,Schools,1.8.1 TOTAL SCHOOLS EXPENDITURE (after academy recoupment),3673.57,13210.65,5222.47,3441.07,579.73,426.98,26717.9,146.1,26571.8,z
+201920,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1 Dedicated Schools Grant for year,x,x,x,x,x,x,25692.09,x,x,z
+201920,Financial year,National,England,E92000001,Dedicated schools grant,1.9.2 Dedicated Schools Grant brought forward from previous year,x,x,x,x,x,x,0.67,x,x,z
+201920,Financial year,National,England,E92000001,Dedicated schools grant,1.9.3 Dedicated Schools Grant carried forward to next year,x,x,x,x,x,x,482.97,x,x,z
+201920,Financial year,National,England,E92000001,Dedicated schools grant,1.9.4 Grant for maintained school 6th forms,x,x,x,x,x,x,373.4,x,x,z
+201920,Financial year,National,England,E92000001,Dedicated schools grant,1.9.5 Local Authority additional contribution,x,x,x,x,x,x,28.69,x,x,z
+201920,Financial year,National,England,E92000001,Dedicated schools grant,1.9.6 Total funding supporting the Schools Budget,x,x,x,x,x,x,26577.81,x,x,z
+201920,Financial year,National,England,E92000001,Other education and community,2.0.1 Central support services,x,x,x,x,x,x,147.22,112.01,35.21,9
+201920,Financial year,National,England,E92000001,Other education and community,2.0.2 Education welfare service,x,x,x,x,x,x,49.14,22.95,26.19,7
+201920,Financial year,National,England,E92000001,Other education and community,2.0.3 School improvement,x,x,x,x,x,x,162.48,88.21,74.26,19
+201920,Financial year,National,England,E92000001,Other education and community,2.0.4 Asset management - education,x,x,x,x,x,x,41.89,9.53,32.36,8
+201920,Financial year,National,England,E92000001,Other education and community,2.0.5 Statutory/ Regulatory duties - education,x,x,x,x,x,x,199.36,51.98,147.38,37
+201920,Financial year,National,England,E92000001,Other education and community,2.0.6 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,18.41,0.47,17.94,4
+201920,Financial year,National,England,E92000001,Other education and community,2.0.7 Monitoring national curriculum assessment,x,x,x,x,x,x,4.71,1.06,3.65,1
+201920,Financial year,National,England,E92000001,Other education and community,2.1.1 Educational psychology service,x,x,x,x,x,x,142.22,30.23,111.99,13
+201920,Financial year,National,England,E92000001,Other education and community,2.1.4 Home to school transport (pre 16): SEN transport expenditure,8.29,116.18,105.47,566.87,26.16,x,822.97,13.51,809.47,93
+201920,Financial year,National,England,E92000001,Other education and community,2.1.6 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 16-18),x,x,4.43,16.38,1.31,68.65,90.76,2.49,88.27,10
+201920,Financial year,National,England,E92000001,Other education and community,2.1.7 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 19-25),x,x,0.07,5.01,0.39,31.45,36.93,0.88,36.05,4
+201920,Financial year,National,England,E92000001,Other education and community,2.1.8 Home to post-16 provision transport: mainstream home to post-16 transport expenditure,x,x,1.18,0.01,0.01,22,23.19,9.57,13.63,2
+201920,Financial year,National,England,E92000001,Other education and community,2.1.9 Supply of school places,x,x,x,x,x,x,28.13,11.85,16.29,2
+201920,Financial year,National,England,E92000001,Other education and community,2.2.1 Other spend not funded from the Schools Budget,x,x,x,x,x,x,20.17,7.09,13.09,2
+201920,Financial year,National,England,E92000001,Other education and community,2.3.1 Young peoples learning and development,x,x,44.11,5.6,3.12,x,52.83,19.96,32.88,4
+201920,Financial year,National,England,E92000001,Other education and community,2.3.2 Adult and Community learning,x,x,x,x,x,x,310.67,267.34,43.33,5
+201920,Financial year,National,England,E92000001,Other education and community,2.3.3 Pension costs,x,x,x,x,x,x,246.52,13.98,232.54,27
+201920,Financial year,National,England,E92000001,Other education and community,2.3.4 Joint use arrangements,x,x,x,x,x,x,10.56,6.18,4.38,1
+201920,Financial year,National,England,E92000001,Other education and community,2.3.5 Insurance,x,x,x,x,x,x,3.78,0.03,3.75,0
+201920,Financial year,National,England,E92000001,Other education and community,2.4.1 Other Specific Grant,x,x,x,x,x,x,41.66,41.66,0,z
+201920,Financial year,National,England,E92000001,Other education and community,2.5.1 Capital Expenditure (excluding CERA),10.74,600.79,425.68,149.73,14.93,x,1201.88,348.36,853.51,98
+201920,Financial year,National,England,E92000001,Other education and community,2.4.2 Capital Expenditure from Revenue (CERA) (Non-schools budget functions),x,x,x,x,x,x,31.13,12.65,18.47,z
+201920,Financial year,National,England,E92000001,Other education and community,2.4.3 Total Other education and community expenditure,x,x,x,x,x,x,3080.16,774.97,2305.19,577
+202021,Financial year,National,England,E92000001,Schools,1.2.3 Top-up and other funding – non-maintained and independent providers,11.22,46.59,89.07,1133.67,58.66,209,1548.21,18.15,1530.05,114
+202021,Financial year,National,England,E92000001,Schools,"1.0.1 Individual Schools Budget, after academy recoupment",3490.97,11942.73,4254.55,x,x,x,19688.26,x,19688.26,5160
+202021,Financial year,National,England,E92000001,Schools,1.1.1 Contingencies,x,18.32,5.19,x,x,x,23.51,1.11,22.41,6
+202021,Financial year,National,England,E92000001,Schools,1.2.1 Top-up funding – maintained schools,13.46,494.06,132.76,1023.06,128.5,x,1791.85,22.81,1769.03,132
+202021,Financial year,National,England,E92000001,Schools,"1.2.10 PFI/ BSF costs at special schools, AP/ PRUs and Post 16 institutions only",x,x,x,12.02,0.18,0.49,12.69,2.22,10.46,1
+202021,Financial year,National,England,E92000001,Other education and community,"2.1.2 SEN administration, assessment and coordination and monitoring",x,x,x,x,x,x,210.91,17.32,193.59,22
+202021,Financial year,National,England,E92000001,Schools,1.2.4 Additional high needs targeted funding for mainstream schools and academies,1.03,35.62,13.73,x,x,x,50.37,0,50.37,4
+202021,Financial year,National,England,E92000001,Other education and community,"2.1.3 Independent Advice and Support Services (Parent partnership), guidance and information",x,x,x,x,x,x,21.18,3.11,18.07,2
+202021,Financial year,National,England,E92000001,Schools,1.1.3 Support to UPEG and bilingual learners,x,8.95,1.49,x,x,x,10.45,0.35,10.1,3
+202021,Financial year,National,England,E92000001,Other education and community,2.1.5 Home to school transport (pre 16): mainstream home to school transport expenditure,2.48,102.39,252.25,6.35,6.66,x,370.13,25.63,344.5,39
+202021,Financial year,National,England,E92000001,Schools,"1.2.2 Top-up funding – academies, free schools and colleges",4.15,264.08,281.32,585.84,70.41,249.79,1455.59,7.95,1447.63,108
+202021,Financial year,National,England,E92000001,Schools,1.0.2 High needs place funding within Individual Schools Budget,8.44,65.41,26.58,811.8,164.8,x,1077.03,x,1077.03,282
+202021,Financial year,National,England,E92000001,Schools,1.1.2 Behaviour support services,x,13.76,1.85,x,x,x,15.62,0.79,14.83,4
+202021,Financial year,National,England,E92000001,Schools,1.1.4 Free school meals eligibility,x,1.94,0.53,x,x,x,2.47,0.25,2.22,1
+202021,Financial year,National,England,E92000001,Schools,1.1.5 Insurance,x,6.96,1.97,x,x,x,8.93,0,8.93,2
+202021,Financial year,National,England,E92000001,Schools,1.1.6 Museum and Library services,x,1.38,low,x,x,x,1.39,0,1.39,0
+202021,Financial year,National,England,E92000001,Schools,1.1.7 Licences/subscriptions,x,2.8,0.71,x,x,x,3.5,0.17,3.34,1
+202021,Financial year,National,England,E92000001,Schools,1.1.8 Staff costs – supply cover excluding cover for facility time,x,21.81,3.97,x,x,x,25.78,1.29,24.49,6
+202021,Financial year,National,England,E92000001,Schools,1.1.9 Staff costs – supply cover for facility time,x,8.18,3.52,x,x,x,11.7,1.42,10.28,3
+202021,Financial year,National,England,E92000001,Schools,1.1.10 School improvement,x,7.24,1.32,x,x,x,8.56,low,8.55,2
+202021,Financial year,National,England,E92000001,Schools,1.2.5 SEN support service,52.08,199.16,120.29,82.59,4.9,5.36,464.38,16.83,447.55,33
+202021,Financial year,National,England,E92000001,Schools,1.2.6 Hospital education services,x,x,x,18.27,28.81,x,47.08,0.48,46.6,3
+202021,Financial year,National,England,E92000001,Schools,1.2.7 Other alternative provision services,2.69,29.58,36.93,2.56,114.62,0.74,187.11,6.58,180.53,14
+202021,Financial year,National,England,E92000001,Schools,1.2.8 Support for inclusion,9.4,66.03,37.44,20.66,5.78,2.5,141.82,7.15,134.67,10
+202021,Financial year,National,England,E92000001,Schools,1.2.9 Special schools and PRUs in financial difficulty,x,x,x,0.68,0.81,x,1.49,0,1.49,0
+202021,Financial year,National,England,E92000001,Schools,1.2.11 Direct payments (SEN and disability),0.09,2.07,1.92,7.61,4.43,0.35,16.48,0.25,16.24,1
+202021,Financial year,National,England,E92000001,Schools,1.2.12 Carbon reduction commitment allowances (PRUs),x,x,x,x,0,x,0,0,0,0
+202021,Financial year,National,England,E92000001,Schools,1.2.13 Therapies and other health related services,2.21,20.68,10.21,19.15,2.04,1.03,55.32,2.75,52.56,4
+202021,Financial year,National,England,E92000001,Schools,1.3.1 Central expenditure on early years entitlement,133.29,x,x,x,x,x,133.29,1.52,131.77,11
+202021,Financial year,National,England,E92000001,Schools,1.4.1 Contribution to combined expenditure,8.12,55.87,31.28,3.17,1.48,x,99.93,3.19,96.74,11
+202021,Financial year,National,England,E92000001,Schools,1.4.2 School admissions,1.72,41.16,25.05,1.23,0.38,x,69.53,1.62,67.91,8
+202021,Financial year,National,England,E92000001,Schools,1.4.3 Servicing of schools forums,0.19,2.09,1.34,0.18,0.06,x,3.86,0.13,3.73,0
+202021,Financial year,National,England,E92000001,Schools,1.4.4 Termination of employment costs,0.47,14.24,9.92,1.24,0.05,x,25.93,0.18,25.75,3
+202021,Financial year,National,England,E92000001,Schools,1.4.5 Falling Rolls Fund,0,4.52,2.82,0,0,x,7.34,0,7.34,1
+202021,Financial year,National,England,E92000001,Schools,1.4.6 Capital expenditure from revenue (CERA),0.09,3.06,4.34,2.89,0.02,x,10.41,1.75,8.66,1
+202021,Financial year,National,England,E92000001,Schools,1.4.7 Prudential borrowing costs,0.14,11.48,7.93,5.84,0.02,x,25.41,0,25.41,3
+202021,Financial year,National,England,E92000001,Schools,1.4.8 Fees to independent schools without SEN,0.02,1.45,1.83,0.54,0.26,x,4.09,0,4.09,0
+202021,Financial year,National,England,E92000001,Schools,1.4.9 Equal pay - back pay,0.04,0.95,0.38,0.18,low,x,1.56,0,1.56,0
+202021,Financial year,National,England,E92000001,Schools,1.4.10 Pupil growth (includes infant class sizes for years prior to 2018-19),0.66,72.48,66.55,2.24,0.09,x,142.01,0.11,141.9,16
+202021,Financial year,National,England,E92000001,Schools,1.4.11 SEN transport,0.16,2.96,2.06,13.32,1.47,0.15,20.11,0,20.11,2
+202021,Financial year,National,England,E92000001,Schools,1.4.12 Exceptions agreed by Secretary of State,low,low,0.36,low,0,0,0.36,0,0.36,0
+202021,Financial year,National,England,E92000001,Schools,1.4.13 Infant class sizes,x,10.06,x,x,x,x,10.06,0,10.06,1
+202021,Financial year,National,England,E92000001,Schools,1.4.14 Other Items,1.62,23.56,14.33,1.21,0.32,x,41.06,x,41.06,5
+202021,Financial year,National,England,E92000001,Schools,1.5.1 Education welfare service (funded within schools budget),x,x,x,x,x,x,37.08,0.62,36.45,4
+202021,Financial year,National,England,E92000001,Schools,1.5.2 Asset management (funded within schools budget),x,x,x,x,x,x,17.92,0.02,17.9,2
+202021,Financial year,National,England,E92000001,Schools,1.5.3 Statutory/ Regulatory duties (funded within schools budget),x,x,x,x,x,x,78.65,0.67,77.98,9
+202021,Financial year,National,England,E92000001,Schools,1.6.1 Central support services,x,x,x,x,x,x,4.23,0.06,4.18,0
+202021,Financial year,National,England,E92000001,Schools,1.6.2 Education welfare service,x,x,x,x,x,x,1.95,0.03,1.92,0
+202021,Financial year,National,England,E92000001,Schools,1.6.3 Asset Management (funded through maintained schools budget),x,x,x,x,x,x,4.31,0.02,4.29,0
+202021,Financial year,National,England,E92000001,Schools,1.6.4 Statutory/ Regulatory duties (funded through maintained schools budget),x,x,x,x,x,x,17.07,0.38,16.69,2
+202021,Financial year,National,England,E92000001,Schools,1.6.5 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,4.39,0.03,4.36,0
+202021,Financial year,National,England,E92000001,Schools,1.6.6 Monitoring national curriculum assessment,x,x,x,x,x,x,0.77,0.01,0.76,0
+202021,Financial year,National,England,E92000001,Schools,1.7.1 Other Specific Grants,0.11,29.43,1.42,1.47,0.66,0.05,33.13,33.13,0,0
+202021,Financial year,National,England,E92000001,Schools,1.8.1 TOTAL SCHOOLS EXPENDITURE (after academy recoupment),3742.37,13530.68,5194.96,3751.41,588.73,469.5,27444.01,134.02,27309.99,z
+202021,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1 Dedicated Schools Grant for year,x,x,x,x,x,x,26574.57,x,x,z
+202021,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1a Dedicated Schools Grant in year adjustments,x,x,x,x,x,x,32.97,x,x,z
+202021,Financial year,National,England,E92000001,Dedicated schools grant,1.9.2 Dedicated Schools Grant brought forward from previous year,x,x,x,x,x,x,-486.63,x,x,z
+202021,Financial year,National,England,E92000001,Dedicated schools grant,1.9.3 Dedicated Schools Grant carried forward to next year,x,x,x,x,x,x,800.87,x,x,z
+202021,Financial year,National,England,E92000001,Dedicated schools grant,1.9.4 Grant for maintained school 6th forms,x,x,x,x,x,x,381.8,x,x,z
+202021,Financial year,National,England,E92000001,Dedicated schools grant,1.9.5 Local Authority additional contribution,x,x,x,x,x,x,4.58,x,x,z
+202021,Financial year,National,England,E92000001,Dedicated schools grant,1.9.6 Total funding supporting the Schools Budget,x,x,x,x,x,x,27308.16,x,x,z
+202021,Financial year,National,England,E92000001,Other education and community,2.0.1 Central support services,x,x,x,x,x,x,141.59,84.57,57.01,15
+202021,Financial year,National,England,E92000001,Other education and community,2.0.2 Education welfare service,x,x,x,x,x,x,49.37,10.91,38.46,10
+202021,Financial year,National,England,E92000001,Other education and community,2.0.3 School improvement,x,x,x,x,x,x,153.99,68.74,85.25,22
+202021,Financial year,National,England,E92000001,Other education and community,2.0.4 Asset management - education,x,x,x,x,x,x,35.5,9.14,26.36,7
+202021,Financial year,National,England,E92000001,Other education and community,2.0.5 Statutory/ Regulatory duties - education,x,x,x,x,x,x,198.38,37.6,160.78,42
+202021,Financial year,National,England,E92000001,Other education and community,2.0.6 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,11.36,0.45,10.91,3
+202021,Financial year,National,England,E92000001,Other education and community,2.0.7 Monitoring national curriculum assessment,x,x,x,x,x,x,2.9,0.48,2.42,1
+202021,Financial year,National,England,E92000001,Other education and community,2.1.1 Educational psychology service,x,x,x,x,x,x,151.39,27.57,123.82,14
+202021,Financial year,National,England,E92000001,Other education and community,2.1.4 Home to school transport (pre 16): SEN transport expenditure,5.7,109.69,96.73,589.1,27.99,x,829.21,20.36,808.85,92
+202021,Financial year,National,England,E92000001,Other education and community,2.1.6 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 16-18),x,x,2.9,21.72,1.63,66.32,92.57,3.36,89.2,10
+202021,Financial year,National,England,E92000001,Other education and community,2.1.7 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 19-25),x,x,0.52,6.14,0.51,30.42,37.59,1.48,36.11,4
+202021,Financial year,National,England,E92000001,Other education and community,2.1.8 Home to post-16 provision transport: mainstream home to post-16 transport expenditure,x,x,1.27,0.03,0.06,20.2,21.56,6.72,14.84,2
+202021,Financial year,National,England,E92000001,Other education and community,2.1.9 Supply of school places,x,x,x,x,x,x,29.41,11.77,17.64,2
+202021,Financial year,National,England,E92000001,Other education and community,2.2.1 Other spend not funded from the Schools Budget,x,x,x,x,x,x,14.45,2.47,11.98,1
+202021,Financial year,National,England,E92000001,Other education and community,2.3.1 Young peoples learning and development,x,x,39.19,5.26,2.84,x,47.29,21.97,25.32,3
+202021,Financial year,National,England,E92000001,Other education and community,2.3.2 Adult and Community learning,x,x,x,x,x,x,283.02,251.91,31.11,4
+202021,Financial year,National,England,E92000001,Other education and community,2.3.3 Pension costs,x,x,x,x,x,x,245.29,14.35,230.94,26
+202021,Financial year,National,England,E92000001,Other education and community,2.3.4 Joint use arrangements,x,x,x,x,x,x,3.88,2.26,1.62,0
+202021,Financial year,National,England,E92000001,Other education and community,2.3.5 Insurance,x,x,x,x,x,x,3.47,0.03,3.44,0
+202021,Financial year,National,England,E92000001,Other education and community,2.4.1 Other Specific Grant,x,x,x,x,x,x,39.51,39.51,0,z
+202021,Financial year,National,England,E92000001,Other education and community,2.5.1 Capital Expenditure (excluding CERA),8.76,522.25,426.89,171.24,12.5,x,1141.64,252.18,889.46,102
+202021,Financial year,National,England,E92000001,Other education and community,2.4.2 Capital Expenditure from Revenue (CERA) (Non-schools budget functions),x,x,x,x,x,x,17.02,10.3,6.73,z
+202021,Financial year,National,England,E92000001,Other education and community,2.4.3 Total Other education and community expenditure,x,x,x,x,x,x,3010.95,671.99,2338.96,613
+202122,Financial year,National,England,E92000001,Schools,"1.2.2 Top-up funding – academies, free schools and colleges",5.06,318.62,339.44,687.9,80.63,284.15,1715.81,8.21,1707.6,127
+202122,Financial year,National,England,E92000001,Schools,1.1.1 Contingencies,x,18.26,4.3,x,x,x,22.56,0.28,22.28,6
+202122,Financial year,National,England,E92000001,Schools,1.1.3 Support to UPEG and bilingual learners,x,9.45,1.82,x,x,x,11.27,0.67,10.6,3
+202122,Financial year,National,England,E92000001,Schools,1.2.3 Top-up and other funding – non-maintained and independent providers,13.36,56.79,67.93,1343.53,74.41,226.61,1782.63,16.37,1766.26,132
+202122,Financial year,National,England,E92000001,Other education and community,"2.1.2 SEN administration, assessment and coordination and monitoring",x,x,x,x,x,x,250.45,19.89,230.56,26
+202122,Financial year,National,England,E92000001,Other education and community,"2.1.3 Independent Advice and Support Services (Parent partnership), guidance and information",x,x,x,x,x,x,24.34,2.77,21.56,2
+202122,Financial year,National,England,E92000001,Schools,1.2.1 Top-up funding – maintained schools,17.97,539.8,144.89,1190.29,123.59,x,2016.54,21.5,1995.03,149
+202122,Financial year,National,England,E92000001,Schools,1.2.4 Additional high needs targeted funding for mainstream schools and academies,1.13,36.19,14.75,x,x,x,52.08,0.22,51.86,4
+202122,Financial year,National,England,E92000001,Schools,"1.0.1 Individual Schools Budget, after academy recoupment",3407.47,12438.14,4384.15,x,x,x,20229.76,x,20229.76,5454
+202122,Financial year,National,England,E92000001,Other education and community,2.1.5 Home to school transport (pre 16): mainstream home to school transport expenditure,1.66,109.72,275.94,5.32,9.93,x,402.57,31.31,371.26,42
+202122,Financial year,National,England,E92000001,Schools,"1.2.10 PFI/ BSF costs at special schools, AP/ PRUs and Post 16 institutions only",x,x,x,11.91,0.35,1.02,13.29,3.77,9.52,1
+202122,Financial year,National,England,E92000001,Schools,1.0.2 High needs place funding within Individual Schools Budget,6.94,67.03,28.29,848.45,160.38,x,1111.1,x,1111.1,300
+202122,Financial year,National,England,E92000001,Schools,1.1.2 Behaviour support services,x,12.12,1.01,x,x,x,13.14,0.31,12.83,3
+202122,Financial year,National,England,E92000001,Schools,1.1.4 Free school meals eligibility,x,2.77,0.78,x,x,x,3.55,0.58,2.98,1
+202122,Financial year,National,England,E92000001,Schools,1.1.5 Insurance,x,5.32,1.87,x,x,x,7.18,0,7.18,2
+202122,Financial year,National,England,E92000001,Schools,1.1.6 Museum and Library services,x,1.38,low,x,x,x,1.38,0,1.38,0
+202122,Financial year,National,England,E92000001,Schools,1.1.7 Licences/subscriptions,x,2.73,0.61,x,x,x,3.34,0.16,3.17,1
+202122,Financial year,National,England,E92000001,Schools,1.1.8 Staff costs – supply cover excluding cover for facility time,x,22.26,4.11,x,x,x,26.36,1.28,25.08,7
+202122,Financial year,National,England,E92000001,Schools,1.1.9 Staff costs – supply cover for facility time,x,7.54,3.37,x,x,x,10.91,1.65,9.26,2
+202122,Financial year,National,England,E92000001,Schools,1.1.10 School improvement,x,7.76,1.61,x,x,x,9.37,0.01,9.36,3
+202122,Financial year,National,England,E92000001,Schools,1.2.5 SEN support service,57.43,212.98,124.57,79.91,6.66,12.55,494.1,15.48,478.62,36
+202122,Financial year,National,England,E92000001,Schools,1.2.6 Hospital education services,x,x,x,19.72,27.16,x,46.87,0.37,46.5,3
+202122,Financial year,National,England,E92000001,Schools,1.2.7 Other alternative provision services,2.4,28.02,36.93,2.65,129.7,0.83,200.53,8.65,191.89,14
+202122,Financial year,National,England,E92000001,Schools,1.2.8 Support for inclusion,10.45,70.83,44.06,24,6.64,0.94,156.92,6.09,150.83,11
+202122,Financial year,National,England,E92000001,Schools,1.2.9 Special schools and PRUs in financial difficulty,x,x,x,3.69,0.51,x,4.2,0,4.2,0
+202122,Financial year,National,England,E92000001,Schools,1.2.11 Direct payments (SEN and disability),0.05,2.84,1.93,14.25,6.01,0.69,25.78,0.14,25.64,2
+202122,Financial year,National,England,E92000001,Schools,1.2.12 Carbon reduction commitment allowances (PRUs),x,x,x,x,0,x,0,0,0,0
+202122,Financial year,National,England,E92000001,Schools,1.2.13 Therapies and other health related services,1.34,22.62,14.38,18.08,3.95,1.41,61.8,2.43,59.37,4
+202122,Financial year,National,England,E92000001,Schools,1.3.1 Central expenditure on early years entitlement,131.43,x,x,x,x,x,131.43,2.34,129.09,11
+202122,Financial year,National,England,E92000001,Schools,1.4.1 Contribution to combined expenditure,7.22,45.19,25.53,3.02,1.57,x,82.53,2.9,79.62,9
+202122,Financial year,National,England,E92000001,Schools,1.4.2 School admissions,1.5,42.6,26.18,1.12,0.38,x,71.78,1.73,70.06,8
+202122,Financial year,National,England,E92000001,Schools,1.4.3 Servicing of schools forums,0.17,2.37,1.42,0.17,0.06,x,4.2,0.13,4.06,0
+202122,Financial year,National,England,E92000001,Schools,1.4.4 Termination of employment costs,0.59,15.59,11.11,0.8,0.19,x,28.28,0.23,28.05,3
+202122,Financial year,National,England,E92000001,Schools,1.4.5 Falling Rolls Fund,0.12,4.4,2.22,0,0,x,6.74,0,6.74,1
+202122,Financial year,National,England,E92000001,Schools,1.4.6 Capital expenditure from revenue (CERA),0.03,3.79,2.89,1.23,0.02,x,7.96,1.76,6.2,1
+202122,Financial year,National,England,E92000001,Schools,1.4.7 Prudential borrowing costs,0.12,12.58,9.3,5.58,0.04,x,27.61,0,27.61,3
+202122,Financial year,National,England,E92000001,Schools,1.4.8 Fees to independent schools without SEN,0.14,1.74,2.45,low,0.29,x,4.62,0,4.62,1
+202122,Financial year,National,England,E92000001,Schools,1.4.9 Equal pay - back pay,0.02,0.94,0.42,0.06,low,x,1.44,0,1.44,0
+202122,Financial year,National,England,E92000001,Schools,1.4.10 Pupil growth (includes infant class sizes for years prior to 2018-19),0.88,60.82,67.11,2.67,0.06,x,131.54,0.29,131.25,15
+202122,Financial year,National,England,E92000001,Schools,1.4.11 SEN transport,0.05,2.61,1.91,13.91,1.2,0.14,19.82,0,19.82,2
+202122,Financial year,National,England,E92000001,Schools,1.4.12 Exceptions agreed by Secretary of State,0.46,0.03,0.03,0.74,0.29,0,1.56,0,1.56,0
+202122,Financial year,National,England,E92000001,Schools,1.4.13 Infant class sizes,x,8.35,x,x,x,x,8.35,0,8.35,1
+202122,Financial year,National,England,E92000001,Schools,1.4.14 Other Items,2.08,30.42,18.85,2.01,0.56,x,54.76,x,54.76,6
+202122,Financial year,National,England,E92000001,Schools,1.5.1 Education welfare service (funded within schools budget),x,x,x,x,x,x,37.36,0.79,36.57,4
+202122,Financial year,National,England,E92000001,Schools,1.5.2 Asset management (funded within schools budget),x,x,x,x,x,x,17.56,low,17.56,2
+202122,Financial year,National,England,E92000001,Schools,1.5.3 Statutory/ Regulatory duties (funded within schools budget),x,x,x,x,x,x,74.74,0.55,74.19,8
+202122,Financial year,National,England,E92000001,Schools,1.6.1 Central support services,x,x,x,x,x,x,6.98,0.31,6.68,1
+202122,Financial year,National,England,E92000001,Schools,1.6.2 Education welfare service,x,x,x,x,x,x,2.49,0,2.49,0
+202122,Financial year,National,England,E92000001,Schools,1.6.3 Asset Management (funded through maintained schools budget),x,x,x,x,x,x,5.8,0.01,5.78,1
+202122,Financial year,National,England,E92000001,Schools,1.6.4 Statutory/ Regulatory duties (funded through maintained schools budget),x,x,x,x,x,x,15.81,0.57,15.24,2
+202122,Financial year,National,England,E92000001,Schools,1.6.5 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,2.84,0.02,2.82,0
+202122,Financial year,National,England,E92000001,Schools,1.6.6 Monitoring national curriculum assessment,x,x,x,x,x,x,0.95,0,0.95,0
+202122,Financial year,National,England,E92000001,Schools,1.7.1 Other Specific Grants,0.3,11.79,1.04,0.58,0.08,low,13.8,13.8,0,0
+202122,Financial year,National,England,E92000001,Schools,1.8.1 TOTAL SCHOOLS EXPENDITURE (after academy recoupment),3668.7,14126.7,5391.3,4276.27,624.73,529.2,28781.41,113.58,28667.83,z
+202122,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1 Dedicated Schools Grant for year,x,x,x,x,x,x,27757.88,x,x,z
+202122,Financial year,National,England,E92000001,Dedicated schools grant,1.9.1a Dedicated Schools Grant in year adjustments,x,x,x,x,x,x,127.38,x,x,z
+202122,Financial year,National,England,E92000001,Dedicated schools grant,1.9.2 Dedicated Schools Grant brought forward from previous year,x,x,x,x,x,x,-793.56,x,x,z
+202122,Financial year,National,England,E92000001,Dedicated schools grant,1.9.3 Dedicated Schools Grant carried forward to next year,x,x,x,x,x,x,1152.57,x,x,z
+202122,Financial year,National,England,E92000001,Dedicated schools grant,1.9.4 Grant for maintained school 6th forms,x,x,x,x,x,x,399.9,x,x,z
+202122,Financial year,National,England,E92000001,Dedicated schools grant,1.9.5 Local Authority additional contribution,x,x,x,x,x,x,22.04,x,x,z
+202122,Financial year,National,England,E92000001,Dedicated schools grant,1.9.6 Total funding supporting the Schools Budget,x,x,x,x,x,x,28666.21,x,x,z
+202122,Financial year,National,England,E92000001,Other education and community,2.0.1 Central support services,x,x,x,x,x,x,147.93,95.25,52.68,14
+202122,Financial year,National,England,E92000001,Other education and community,2.0.2 Education welfare service,x,x,x,x,x,x,49.63,12.62,37.02,10
+202122,Financial year,National,England,E92000001,Other education and community,2.0.3 School improvement,x,x,x,x,x,x,139.64,68.79,70.85,19
+202122,Financial year,National,England,E92000001,Other education and community,2.0.4 Asset management - education,x,x,x,x,x,x,47.54,12.73,34.8,9
+202122,Financial year,National,England,E92000001,Other education and community,2.0.5 Statutory/ Regulatory duties - education,x,x,x,x,x,x,217.35,58.94,158.41,43
+202122,Financial year,National,England,E92000001,Other education and community,2.0.6 Premature retirement cost/ Redundancy costs (new provisions),x,x,x,x,x,x,15.95,0.77,15.18,4
+202122,Financial year,National,England,E92000001,Other education and community,2.0.7 Monitoring national curriculum assessment,x,x,x,x,x,x,3.25,0.6,2.65,1
+202122,Financial year,National,England,E92000001,Other education and community,2.1.1 Educational psychology service,x,x,x,x,x,x,166.34,31.07,135.27,15
+202122,Financial year,National,England,E92000001,Other education and community,2.1.4 Home to school transport (pre 16): SEN transport expenditure,11.31,127.75,119.9,716.46,31.6,x,1007.03,28.37,978.66,111
+202122,Financial year,National,England,E92000001,Other education and community,2.1.6 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 16-18),x,x,6.63,28.99,2.31,77.15,115.09,3.67,111.42,13
+202122,Financial year,National,England,E92000001,Other education and community,2.1.7 Home to post-16 provision: SEN/ LLDD transport expenditure (aged 19-25),x,x,0.24,6.11,0.4,33.49,40.24,1.22,39.02,4
+202122,Financial year,National,England,E92000001,Other education and community,2.1.8 Home to post-16 provision transport: mainstream home to post-16 transport expenditure,x,x,1.69,0.05,0.03,21.48,23.26,7.31,15.95,2
+202122,Financial year,National,England,E92000001,Other education and community,2.1.9 Supply of school places,x,x,x,x,x,x,29.87,12.13,17.74,2
+202122,Financial year,National,England,E92000001,Other education and community,2.2.1 Other spend not funded from the Schools Budget,x,x,x,x,x,x,121,92.14,28.86,3
+202122,Financial year,National,England,E92000001,Other education and community,2.3.1 Young peoples learning and development,x,x,38.67,2.96,1.31,4.55,47.49,23.98,23.51,3
+202122,Financial year,National,England,E92000001,Other education and community,2.3.2 Adult and Community learning,x,x,x,x,x,x,303.89,262.97,40.92,5
+202122,Financial year,National,England,E92000001,Other education and community,2.3.3 Pension costs,x,x,x,x,x,x,236.64,13.98,222.66,25
+202122,Financial year,National,England,E92000001,Other education and community,2.3.4 Joint use arrangements,x,x,x,x,x,x,3.53,1.78,1.75,0
+202122,Financial year,National,England,E92000001,Other education and community,2.3.5 Insurance,x,x,x,x,x,x,3.39,low,3.39,0
+202122,Financial year,National,England,E92000001,Other education and community,2.4.1 Other Specific Grant,x,x,x,x,x,x,48.12,48.12,0,z
+202122,Financial year,National,England,E92000001,Other education and community,2.5.1 Capital Expenditure (excluding CERA),10,548.15,407.13,200.18,21.23,x,1186.7,242.69,944,108
+202122,Financial year,National,England,E92000001,Other education and community,2.4.2 Capital Expenditure from Revenue (CERA) (Non-schools budget functions),x,x,x,x,x,x,14.09,2.33,11.76,z
+202122,Financial year,National,England,E92000001,Other education and community,2.4.3 Total Other education and community expenditure,x,x,x,x,x,x,3458.63,832.74,2625.89,708

@@ -1,0 +1,267 @@
+﻿time_period,time_identifier,geographic_level,country_name,country_code,category_of_expenditure,description_of_expenditure,own_provision,private_provision,other_public_sector_provision,voluntary_provision,total_expenditure,income,net_current_expenditure,grants_inside_AEF,grants_outside_AEF,net_revenue_expenditure,per_capita_net_current_spend
+201516,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.1 Spend on individual Sure Start Childrens Centres,393.79,55.73,22.18,76.79,548.49,80.86,467.63,5.29,0.76,461.58,40
+201516,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.2 Spend for services delivered through Sure Start Childrens Centres,60.02,14.25,12.01,15.32,101.61,10.24,91.37,0.02,low,91.35,8
+201516,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.3 Spend on management costs relating to Sure Start Childrens Centres,40.32,0.11,0.14,0.04,40.6,2.29,38.31,0.55,0.02,37.75,3
+201516,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.4 Other spend on children under 5,139.92,5.29,0.96,7.08,153.25,22.94,130.32,2.62,0.04,127.65,11
+201516,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.5 Total Sure Start childrens centres and other spend on children under 5,634.05,75.38,35.29,99.23,843.95,116.32,727.63,8.48,0.82,718.33,63
+201516,Financial year,National,England,E92000001,Children looked after,3.1.1 Residential care,342.4,696.81,24.2,39.79,1103.2,65.8,1037.4,6.12,0.54,1030.74,89
+201516,Financial year,National,England,E92000001,Children looked after,3.1.2a Fostering services (excluding fees and allowances for LA foster carers),x,x,x,x,x,x,x,x,x,x,x
+201516,Financial year,National,England,E92000001,Children looked after,3.1.2b Fostering services (fees and allowances for LA foster carers),x,x,x,x,x,x,x,x,x,x,x
+201516,Financial year,National,England,E92000001,Children looked after,3.1.2 Total Fostering services,845.47,649.55,21.16,51.41,1567.59,40.02,1527.57,26.48,1.25,1499.85,132
+201516,Financial year,National,England,E92000001,Children looked after,3.1.3 Adoption services,266.4,27.52,14.99,7.04,315.95,33.8,282.16,14.13,3.21,264.82,24
+201516,Financial year,National,England,E92000001,Children looked after,3.1.4 Special guardianship support,184.13,17.61,0.94,1.86,204.53,0.44,204.09,0.04,0,204.04,18
+201516,Financial year,National,England,E92000001,Children looked after,3.1.5 Other children looked after services,122.96,82.75,11,12.37,229.08,16.25,212.83,19.83,0.59,192.41,18
+201516,Financial year,National,England,E92000001,Children looked after,3.1.6 Short breaks (respite) for looked after disabled children,31.71,5,1.15,4.88,42.75,2.11,40.63,0.1,0.1,40.43,4
+201516,Financial year,National,England,E92000001,Children looked after,3.1.7 Children placed with family and friends,78.13,8.05,0.7,1.97,88.85,0.59,88.26,0.06,0,88.2,8
+201516,Financial year,National,England,E92000001,Children looked after,3.1.8 Education of looked after children,37.38,1.04,1.1,0.06,39.58,6.6,32.98,3.27,1.13,28.57,3
+201516,Financial year,National,England,E92000001,Children looked after,3.1.9 Leaving care support services,195.76,73.76,5.35,17.22,292.09,9.99,282.1,11.06,0.62,270.43,24
+201516,Financial year,National,England,E92000001,Children looked after,3.1.10 Asylum seeker services children,34.28,19.68,1.57,2.43,57.96,4.43,53.53,22.53,6.18,24.81,5
+201516,Financial year,National,England,E92000001,Children looked after,3.1.11 Total Children Looked After,2138.6,1581.78,82.16,139.04,3941.59,180.04,3761.55,103.63,13.63,3644.3,324
+201516,Financial year,National,England,E92000001,Other children and family services,3.2.1 Other children and families services,80.17,8.66,8.36,5.73,102.93,13.1,89.83,3.43,0.07,86.34,8
+201516,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.1 Social work (including LA functions in relation to child protection),1854.93,32.8,23.79,4.02,1915.54,47.39,1868.15,28.02,2.2,1837.93,161
+201516,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.2 Commissioning and Childrens Services Strategy,241.21,10.63,10.28,3.49,265.62,25.84,239.78,3.46,0.12,236.2,21
+201516,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.3 Local Safeguarding Children Board,41.8,1.33,1.34,1.21,45.68,17.97,27.71,0.36,0.15,27.2,2
+201516,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.4 Total Safeguarding Children and Young Peoples Services,2137.94,44.77,35.41,8.72,2226.84,91.2,2135.64,31.84,2.47,2101.33,184
+201516,Financial year,National,England,E92000001,Family support services,3.4.1 Direct payments,64.84,31.28,0.54,1,97.66,7.45,90.21,0,0,90.21,8
+201516,Financial year,National,England,E92000001,Family support services,3.4.2 Short breaks (respite) for disabled children,146.48,31.28,13.93,34.32,226.01,21.37,204.64,1.32,0.04,203.28,18
+201516,Financial year,National,England,E92000001,Family support services,3.4.3 Other support for disabled children,34.66,3.52,0.45,1.89,40.53,3.12,37.4,0.75,low,36.66,3
+201516,Financial year,National,England,E92000001,Family support services,3.4.4 Targeted family support,534.24,28.4,32.17,39.04,633.85,83.8,550.05,110.48,8.44,431.13,47
+201516,Financial year,National,England,E92000001,Family support services,3.4.5 Universal family support,64.41,2.43,0.2,8.87,75.91,14.92,60.98,1.15,1.75,58.09,5
+201516,Financial year,National,England,E92000001,Family support services,3.4.6 Total Family Support Services,844.63,96.9,47.29,85.12,1073.94,130.66,943.28,113.69,10.23,819.36,81
+201516,Financial year,National,England,E92000001,Services for young people,3.5.1 Universal services for young people,234.77,15.28,5,17.37,272.42,35.73,236.69,2.29,1.07,233.33,20
+201516,Financial year,National,England,E92000001,Services for young people,3.5.2 Targeted services for young people,211.45,19.17,3.08,21.87,255.56,30.09,225.47,4.34,2.75,218.38,19
+201516,Financial year,National,England,E92000001,Services for young people,3.5.3 Total Services for young people,446.22,34.45,8.07,39.24,527.98,65.82,462.16,6.63,3.82,451.71,40
+201516,Financial year,National,England,E92000001,Services for young people,"8a.1 Substance misuse services (Drugs, Alcohol and Volatile substances) (included in 3.5.1 and 3.5.2 above)",x,x,x,x,13.94,x,x,x,x,x,0
+201516,Financial year,National,England,E92000001,Services for young people,8a.2 Teenage pregnancy services (included in 3.5.1 and 3.5.2 above),x,x,x,x,5.93,x,x,x,x,x,0
+201516,Financial year,National,England,E92000001,Youth justice,3.6.1 Youth justice,x,x,x,x,295.07,123.41,171.67,x,x,x,15
+201516,Financial year,National,England,E92000001,Capital expenditure,4.0.1 Capital Expenditure from Revenue (CERA) (Childrens and young people services),x,x,x,x,125.69,8.05,117.65,x,x,x,10
+201516,Financial year,National,England,E92000001,Total,5.0.2 Total Children and Young Peoples Services Expenditure (excluding CERA),x,x,x,x,9012.32,x,8291.76,x,x,x,715
+201516,Financial year,National,England,E92000001,Total,5.0.3 Total Children and Young Peoples Services Expenditure (including CERA),x,x,x,x,9138.01,x,8409.41,x,x,x,725
+201617,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.1 Spend on individual Sure Start Childrens Centres,356.97,42.48,22.43,78.22,500.1,52.09,448.01,10.92,17.14,419.96,38
+201617,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.2 Spend for services delivered through Sure Start Childrens Centres,45.69,15.89,13.25,5.56,80.39,6.69,73.7,2.75,0.01,70.95,6
+201617,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.3 Spend on management costs relating to Sure Start Childrens Centres,41.93,0.28,0.09,0.03,42.34,3.22,39.12,0.48,0.03,38.61,3
+201617,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.4 Other spend on children under 5,139.49,4.09,0.44,7.5,151.52,24.76,126.76,4.9,0.71,121.14,11
+201617,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.5 Total Sure Start childrens centres and other spend on children under 5,584.08,62.74,36.22,91.31,774.35,86.76,687.59,19.04,17.89,650.66,59
+201617,Financial year,National,England,E92000001,Children looked after,3.1.1 Residential care,379.42,753.94,24.48,42.64,1200.48,69.98,1130.5,6.29,1.61,1122.6,96
+201617,Financial year,National,England,E92000001,Children looked after,3.1.2a Fostering services (excluding fees and allowances for LA foster carers),x,x,x,x,x,x,x,x,x,x,x
+201617,Financial year,National,England,E92000001,Children looked after,3.1.2b Fostering services (fees and allowances for LA foster carers),x,x,x,x,x,x,x,x,x,x,x
+201617,Financial year,National,England,E92000001,Children looked after,3.1.2 Total Fostering services,859.74,664.87,23.6,50.98,1599.19,49.92,1549.27,32.14,0.88,1516.24,132
+201617,Financial year,National,England,E92000001,Children looked after,3.1.3 Adoption services,267.34,34.7,15.77,8.06,325.86,44.87,280.99,21.17,5.85,253.97,24
+201617,Financial year,National,England,E92000001,Children looked after,3.1.4 Special guardianship support,206.83,16.55,0.98,4.19,228.55,0.2,228.36,low,0.06,228.3,19
+201617,Financial year,National,England,E92000001,Children looked after,3.1.5 Other children looked after services,127.48,82.99,11.58,12.1,234.15,23.16,210.99,20.35,1.13,189.5,18
+201617,Financial year,National,England,E92000001,Children looked after,3.1.6 Short breaks (respite) for looked after disabled children,30.48,5.63,1.66,1.61,39.39,2.33,37.06,0.1,0,36.96,3
+201617,Financial year,National,England,E92000001,Children looked after,3.1.7 Children placed with family and friends,89.41,7.94,0.78,3.6,101.73,0.79,100.95,0.06,0.08,100.8,9
+201617,Financial year,National,England,E92000001,Children looked after,3.1.8 Education of looked after children,41.73,1.26,1.42,0.03,44.44,9.5,34.95,3.58,0.04,31.33,3
+201617,Financial year,National,England,E92000001,Children looked after,3.1.9 Leaving care support services,201.77,95.64,6.6,15.67,319.69,17.86,301.83,16.55,0.97,284.3,26
+201617,Financial year,National,England,E92000001,Children looked after,3.1.10 Asylum seeker services children,36.72,22.24,0.98,3.29,63.23,5.62,57.61,30.34,7.27,20.01,5
+201617,Financial year,National,England,E92000001,Children looked after,3.1.11 Total Children Looked After,2240.92,1685.76,87.85,142.18,4156.7,224.21,3932.49,130.58,17.9,3784.01,335
+201617,Financial year,National,England,E92000001,Other children and family services,3.2.1 Other children and families services,68.62,9.64,3.44,5.47,87.18,6.15,81.03,5.71,0.04,75.28,7
+201617,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.1 Social work (including LA functions in relation to child protection),1954.59,55.37,23.35,2.98,2036.29,55.26,1981.03,24.21,2.85,1953.97,169
+201617,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.2 Commissioning and Childrens Services Strategy,222.97,17.11,8.2,3,251.28,29.4,221.88,2.45,0.09,219.33,19
+201617,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.3 Local Safeguarding Children Board,42.2,2.06,1.19,1.25,46.71,18.21,28.5,0.54,0.04,27.92,2
+201617,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.4 Total Safeguarding Children and Young Peoples Services,2219.76,74.55,32.74,7.23,2334.27,102.86,2231.4,27.2,2.98,2201.22,190
+201617,Financial year,National,England,E92000001,Family support services,3.4.1 Direct payments,64.9,31.38,1.32,1.3,98.9,7.42,91.48,0.11,0,91.37,8
+201617,Financial year,National,England,E92000001,Family support services,3.4.2 Short breaks (respite) for disabled children,139.26,32.81,10.49,35.06,217.62,20.25,197.37,0.66,0.2,196.51,17
+201617,Financial year,National,England,E92000001,Family support services,3.4.3 Other support for disabled children,30.44,5.21,1.54,1.14,38.33,1.8,36.54,0.82,0.05,35.67,3
+201617,Financial year,National,England,E92000001,Family support services,3.4.4 Targeted family support,555.91,30.77,28.78,33.19,648.65,89.53,559.12,102.68,5.2,451.23,48
+201617,Financial year,National,England,E92000001,Family support services,3.4.5 Universal family support,72.38,2.13,0.16,8.97,83.64,18.45,65.19,1.98,0,63.21,6
+201617,Financial year,National,England,E92000001,Family support services,3.4.6 Total Family Support Services,862.89,102.29,42.3,79.66,1087.14,137.44,949.7,106.26,5.46,837.98,81
+201617,Financial year,National,England,E92000001,Services for young people,3.5.1 Universal services for young people,183.83,8.19,7.39,15.94,215.36,30,185.35,5.02,0.37,179.96,16
+201617,Financial year,National,England,E92000001,Services for young people,3.5.2 Targeted services for young people,196.17,15.47,6.75,13.79,232.18,29.96,202.22,5.19,1.54,195.49,17
+201617,Financial year,National,England,E92000001,Services for young people,3.5.3 Total Services for young people,380,23.65,14.14,29.73,447.53,59.96,387.57,10.21,1.92,375.44,33
+201617,Financial year,National,England,E92000001,Services for young people,"8a.1 Substance misuse services (Drugs, Alcohol and Volatile substances) (included in 3.5.1 and 3.5.2 above)",x,x,x,x,11.01,x,x,x,x,x,0
+201617,Financial year,National,England,E92000001,Services for young people,8a.2 Teenage pregnancy services (included in 3.5.1 and 3.5.2 above),x,x,x,x,4.7,x,x,x,x,x,0
+201617,Financial year,National,England,E92000001,Youth justice,3.6.1 Youth justice,x,x,x,x,271.23,118.58,152.65,x,x,x,13
+201617,Financial year,National,England,E92000001,Capital expenditure,4.0.1 Capital Expenditure from Revenue (CERA) (Childrens and young people services),x,x,x,x,20.91,1.65,19.26,x,x,x,2
+201617,Financial year,National,England,E92000001,Total,5.0.2 Total Children and Young Peoples Services Expenditure (excluding CERA),x,x,x,x,9158.4,x,8422.43,x,x,x,718
+201617,Financial year,National,England,E92000001,Total,5.0.3 Total Children and Young Peoples Services Expenditure (including CERA),x,x,x,x,9179.31,x,8441.69,x,x,x,719
+201718,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.1 Spend on individual Sure Start Childrens Centres,302.37,31.14,14.4,69.62,417.53,51.02,366.51,27.32,0.27,338.93,31
+201718,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.2 Spend for services delivered through Sure Start Childrens Centres,40.69,27.48,2.32,7.59,78.08,7.12,70.95,1.09,0.13,69.74,6
+201718,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.3 Spend on management costs relating to Sure Start Childrens Centres,36.23,0.2,0.08,0.22,36.73,2.78,33.95,0.24,0.06,33.65,3
+201718,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.4 Other spend on children under 5,124.62,3.09,0.52,4.2,132.44,25.08,107.36,2.66,0.95,103.75,9
+201718,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.5 Total Sure Start childrens centres and other spend on children under 5,503.91,61.91,17.32,81.63,664.78,86,578.78,31.31,1.4,546.07,49
+201718,Financial year,National,England,E92000001,Children looked after,3.1.1 Residential care,410.66,926,12.59,34.58,1383.84,76.72,1307.11,17.51,0.7,1288.9,111
+201718,Financial year,National,England,E92000001,Children looked after,3.1.2a Fostering services (excluding fees and allowances for LA foster carers),x,x,x,x,x,x,x,x,x,x,x
+201718,Financial year,National,England,E92000001,Children looked after,3.1.2b Fostering services (fees and allowances for LA foster carers),x,x,x,x,x,x,x,x,x,x,x
+201718,Financial year,National,England,E92000001,Children looked after,3.1.2 Total Fostering services,862.76,718.29,10.52,58.5,1650.07,38.84,1611.23,26.83,1.36,1583.05,136
+201718,Financial year,National,England,E92000001,Children looked after,3.1.3 Adoption services,253.73,31.77,15.91,7.5,308.9,35.5,273.4,13.72,1.47,258.22,23
+201718,Financial year,National,England,E92000001,Children looked after,3.1.4 Special guardianship support,226.1,22.36,1.68,5.55,255.69,0.56,255.14,low,0,255.13,22
+201718,Financial year,National,England,E92000001,Children looked after,3.1.5 Other children looked after services,146.3,100.39,9.28,12.16,268.13,17.73,250.41,14.58,0.41,235.42,21
+201718,Financial year,National,England,E92000001,Children looked after,3.1.6 Short breaks (respite) for looked after disabled children,32.16,6,1.44,3.39,43,2.91,40.09,0.34,0.1,39.64,3
+201718,Financial year,National,England,E92000001,Children looked after,3.1.7 Children placed with family and friends,85.84,8.42,0.5,3.73,98.48,1.05,97.43,0.07,0,97.36,8
+201718,Financial year,National,England,E92000001,Children looked after,3.1.8 Education of looked after children,39.07,3.38,1.99,0.13,44.57,8.48,36.1,7.43,0.04,28.62,3
+201718,Financial year,National,England,E92000001,Children looked after,3.1.9 Leaving care support services,244.61,115.77,4.98,13.62,378.98,19.08,359.91,21.67,1.89,336.34,30
+201718,Financial year,National,England,E92000001,Children looked after,3.1.10 Asylum seeker services children,58.15,43.03,1.43,2.32,104.92,13.79,91.14,60.88,8.32,21.94,8
+201718,Financial year,National,England,E92000001,Children looked after,3.1.11 Total Children Looked After,2359.38,1975.41,60.31,141.49,4536.59,214.64,4321.95,163.04,14.28,4144.62,366
+201718,Financial year,National,England,E92000001,Other children and family services,3.2.1 Other children and families services,68.06,16.63,6.24,4.03,94.96,7.99,86.97,1.16,0.2,85.62,7
+201718,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.1 Social work (including LA functions in relation to child protection),1994.99,61.92,7.93,4.79,2069.63,64.22,2005.41,15.39,1.47,1988.55,170
+201718,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.2 Commissioning and Childrens Services Strategy,208.46,16.43,5.47,1.44,231.8,21.83,209.97,6.01,1.26,202.7,18
+201718,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.3 Local Safeguarding Children Board,42.75,1.2,1.33,0.1,45.37,17.52,27.85,0.68,low,27.17,2
+201718,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.4 Total Safeguarding Children and Young Peoples Services,2246.2,79.54,14.73,6.33,2346.8,103.57,2243.23,22.07,2.74,2218.42,190
+201718,Financial year,National,England,E92000001,Family support services,3.4.1 Direct payments,71.9,33.63,1.13,3.16,109.82,9.37,100.45,0.09,0,100.37,8
+201718,Financial year,National,England,E92000001,Family support services,3.4.2 Short breaks (respite) for disabled children,139.38,36.58,9.19,27.45,212.61,18.48,194.13,0.47,0.02,193.64,16
+201718,Financial year,National,England,E92000001,Family support services,3.4.3 Other support for disabled children,26.51,5.32,2.04,2.18,36.06,2.73,33.33,0.02,0,33.31,3
+201718,Financial year,National,England,E92000001,Family support services,3.4.4 Targeted family support,557.31,36.36,35.84,33.47,662.99,92.76,570.23,108.5,9.06,452.67,48
+201718,Financial year,National,England,E92000001,Family support services,3.4.5 Universal family support,62.3,3.23,0.19,1.14,66.85,5.85,61,2.26,0.07,58.68,5
+201718,Financial year,National,England,E92000001,Family support services,3.4.6 Total Family Support Services,857.4,115.14,48.39,67.4,1088.33,129.19,959.14,111.33,9.15,838.67,81
+201718,Financial year,National,England,E92000001,Services for young people,3.5.1 Universal services for young people,153.85,10.66,4.92,11.24,180.67,25.16,155.51,4.78,0.1,150.63,13
+201718,Financial year,National,England,E92000001,Services for young people,3.5.2 Targeted services for young people,196.78,7.44,9.63,21.4,235.26,38.4,196.86,8.56,8.97,179.33,17
+201718,Financial year,National,England,E92000001,Services for young people,3.5.3 Total Services for young people,350.64,18.1,14.55,32.64,415.93,63.56,352.36,13.34,9.06,329.96,30
+201718,Financial year,National,England,E92000001,Services for young people,"8a.1 Substance misuse services (Drugs, Alcohol and Volatile substances) (included in 3.5.1 and 3.5.2 above)",x,x,x,x,10.93,x,x,x,x,x,0
+201718,Financial year,National,England,E92000001,Services for young people,8a.2 Teenage pregnancy services (included in 3.5.1 and 3.5.2 above),x,x,x,x,4.41,x,x,x,x,x,0
+201718,Financial year,National,England,E92000001,Youth justice,3.6.1 Youth justice,x,x,x,x,271.62,121.86,149.76,x,x,x,13
+201718,Financial year,National,England,E92000001,Capital expenditure,4.0.1 Capital Expenditure from Revenue (CERA) (Childrens and young people services),x,x,x,x,78.74,14.93,63.81,x,x,x,5
+201718,Financial year,National,England,E92000001,Total,5.0.2 Total Children and Young Peoples Services Expenditure (excluding CERA),x,x,x,x,9419.01,x,8692.19,x,x,x,735
+201718,Financial year,National,England,E92000001,Total,5.0.3 Total Children and Young Peoples Services Expenditure (including CERA),x,x,x,x,9497.75,x,8756,x,x,x,741
+201819,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.1 Spend on individual Sure Start Childrens Centres,268.02,32.13,21.49,71.59,393.24,58.62,334.62,6.22,1.04,327.36,28
+201819,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.2 Spend for services delivered through Sure Start Childrens Centres,39.59,15.68,6.29,5.88,67.44,5.87,61.57,1.54,3.66,56.37,5
+201819,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.3 Spend on management costs relating to Sure Start Childrens Centres,31.92,0.14,0.4,0.01,32.47,4.35,28.12,0.25,0.3,27.57,2
+201819,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.4 Other spend on children under 5,91.61,3.56,0.54,2.78,98.49,14.74,83.75,3.82,0.44,79.49,7
+201819,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.5 Total Sure Start childrens centres and other spend on children under 5,431.14,51.51,28.72,80.26,591.64,83.58,508.06,11.83,5.43,490.8,42
+201819,Financial year,National,England,E92000001,Children looked after,3.1.1 Residential care,389.87,991.28,69.19,29.57,1479.9,82.88,1397.03,6.55,11.22,1379.26,117
+201819,Financial year,National,England,E92000001,Children looked after,3.1.2a Fostering services (excluding fees and allowances for LA foster carers),314.79,607.6,55.47,26.61,1004.47,14.02,990.45,13.5,3.31,973.64,83
+201819,Financial year,National,England,E92000001,Children looked after,3.1.2b Fostering services (fees and allowances for LA foster carers),534.89,126.18,19.04,17.65,697.76,9.54,688.22,8.55,5.37,674.3,58
+201819,Financial year,National,England,E92000001,Children looked after,3.1.2 Total fostering services,849.67,733.79,74.51,44.27,1702.23,23.56,1678.67,22.06,8.68,1647.94,140
+201819,Financial year,National,England,E92000001,Children looked after,3.1.3 Adoption services,252.38,35.89,35.75,5.75,329.78,46.61,283.16,12.4,4.3,266.47,24
+201819,Financial year,National,England,E92000001,Children looked after,3.1.4 Special guardianship support,237.62,34.94,9.49,4.86,286.91,0.9,286.01,0.03,1.87,284.12,24
+201819,Financial year,National,England,E92000001,Children looked after,3.1.5 Other children looked after services,153.25,128.74,11.13,8.43,301.55,19.96,281.6,18.4,1.54,261.65,24
+201819,Financial year,National,England,E92000001,Children looked after,3.1.6 Short breaks (respite) for looked after disabled children,35.9,7.13,1.21,1.7,45.95,2.04,43.91,0.22,0.14,43.54,4
+201819,Financial year,National,England,E92000001,Children looked after,3.1.7 Children placed with family and friends,89.12,6.19,2.27,4.05,101.62,0.63,100.99,0.01,1.46,99.52,8
+201819,Financial year,National,England,E92000001,Children looked after,3.1.8 Education of looked after children,40.32,4.93,1.49,0.02,46.75,9.24,37.51,12.62,0.31,24.58,3
+201819,Financial year,National,England,E92000001,Children looked after,3.1.9 Leaving care support services,256.81,146.05,14.73,11.48,429.06,17.52,411.54,32.98,5.8,372.75,34
+201819,Financial year,National,England,E92000001,Children looked after,3.1.10 Asylum seeker services children,83.75,65.55,7.13,1.24,157.66,19.56,138.1,82.82,13.14,42.14,12
+201819,Financial year,National,England,E92000001,Children looked after,3.1.11 Total Children Looked After,2388.68,2154.48,226.88,111.37,4881.42,222.91,4658.51,188.09,48.47,4421.96,389
+201819,Financial year,National,England,E92000001,Other children and family services,3.2.1 Other children and families services,79.01,19.1,9.25,4.75,112.11,10.97,101.14,7.94,2.18,91.02,8
+201819,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.1 Social work (including LA functions in relation to child protection),1992.05,68.13,90.27,6.1,2156.55,55.02,2101.53,30.38,23.66,2047.49,176
+201819,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.2 Commissioning and Childrens Services Strategy,209.65,11.53,17.3,2.02,240.5,26.99,213.51,4.4,7.36,201.75,18
+201819,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.3 Local Safeguarding Children Board,38.45,1.89,3.83,0.09,44.26,17.69,26.57,1.08,0.21,25.29,2
+201819,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.4 Total Safeguarding Children and Young Peoples Services,2240.14,81.55,111.4,8.22,2441.31,99.69,2341.61,35.85,31.24,2274.52,196
+201819,Financial year,National,England,E92000001,Family support services,3.4.1 Direct payments,74.45,33.99,2.99,3.88,115.32,9.74,105.58,0.05,0.59,104.94,9
+201819,Financial year,National,England,E92000001,Family support services,3.4.2 Short breaks (respite) for disabled children,129.47,39.97,8.78,32.86,211.09,19.55,191.54,1.27,1.9,188.37,16
+201819,Financial year,National,England,E92000001,Family support services,3.4.3 Other support for disabled children,29.68,8.88,3.87,2.62,45.05,2.28,42.77,low,1.27,41.5,4
+201819,Financial year,National,England,E92000001,Family support services,3.4.4 Targeted family support,579.49,35.65,61.13,38.81,715.09,96.92,618.17,114.81,14.96,488.4,52
+201819,Financial year,National,England,E92000001,Family support services,3.4.5 Universal family support,63.53,2,1.36,0.95,67.84,5.5,62.34,4.06,0.47,57.81,5
+201819,Financial year,National,England,E92000001,Family support services,3.4.6 Total Family Support Services,876.63,120.5,78.14,79.11,1154.38,133.99,1020.39,120.19,19.18,881.01,85
+201819,Financial year,National,England,E92000001,Services for young people,3.5.1 Universal services for young people,136.64,13.36,4.68,12.7,167.39,25.11,142.28,4.25,2.17,135.86,12
+201819,Financial year,National,England,E92000001,Services for young people,3.5.2 Targeted services for young people,203.09,6.21,6.02,15.21,230.53,37.73,192.8,6.54,10.07,176.19,16
+201819,Financial year,National,England,E92000001,Services for young people,3.5.3 Total Services for young people,339.73,19.57,10.7,27.91,397.92,62.84,335.08,10.79,12.24,312.05,28
+201819,Financial year,National,England,E92000001,Services for young people,"8a.1 Substance misuse services (Drugs, Alcohol and Volatile substances) (included in 3.5.1 and 3.5.2 above)",x,x,x,x,10.95,x,x,x,x,x,0
+201819,Financial year,National,England,E92000001,Services for young people,8a.2 Teenage pregnancy services (included in 3.5.1 and 3.5.2 above),x,x,x,x,3.23,x,x,x,x,x,0
+201819,Financial year,National,England,E92000001,Youth justice,3.6.1 Youth justice,x,x,x,x,276.13,123.07,153.06,x,x,x,13
+201819,Financial year,National,England,E92000001,Capital expenditure,4.0.1 Capital Expenditure from Revenue (CERA) (Childrens and young people services),x,x,x,x,23.15,5.64,17.51,x,x,x,1
+201819,Financial year,National,England,E92000001,Total,5.0.2 Total Children and Young Peoples Services Expenditure (excluding CERA),x,x,x,x,9854.91,x,9117.86,x,x,x,762
+201819,Financial year,National,England,E92000001,Total,5.0.3 Total Children and Young Peoples Services Expenditure (including CERA),x,x,x,x,9878.06,x,9135.37,x,x,x,764
+201920,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.1 Spend on individual Sure Start Childrens Centres,252.85,35.95,18.11,62.25,369.17,61.41,307.76,7.37,10.97,289.41,25
+201920,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.2 Spend for services delivered through Sure Start Childrens Centres,42.39,11.16,4.21,6.17,63.93,4.5,59.43,2.62,1.72,55.08,5
+201920,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.3 Spend on management costs relating to Sure Start Childrens Centres,30.77,0.21,0.14,low,31.12,5.26,25.86,1.14,0.18,24.54,2
+201920,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.4 Other spend on children under 5,81.67,2.48,5.38,3.65,93.17,16.59,76.58,4.73,0.57,71.28,6
+201920,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.5 Total Sure Start childrens centres and other spend on children under 5,407.69,49.79,27.84,72.08,557.39,87.76,469.63,15.87,13.45,440.31,39
+201920,Financial year,National,England,E92000001,Children looked after,3.1.1 Residential care,396.38,1127.71,54.52,30.37,1608.97,91.94,1517.03,17.43,13.29,1486.31,126
+201920,Financial year,National,England,E92000001,Children looked after,3.1.2a Fostering services (excluding fees and allowances for LA foster carers),300.68,693.44,36.79,25.41,1056.32,20.1,1036.22,16.59,5.34,1014.3,86
+201920,Financial year,National,England,E92000001,Children looked after,3.1.2b Fostering services (fees and allowances for LA foster carers),565.41,143.75,19.82,14.21,743.19,7.63,735.56,6.4,5.51,723.66,61
+201920,Financial year,National,England,E92000001,Children looked after,3.1.2 Total fostering services,866.09,837.18,56.61,39.62,1799.51,27.72,1771.78,22.98,10.85,1737.95,147
+201920,Financial year,National,England,E92000001,Children looked after,3.1.3 Adoption services,245.26,32.2,42.3,5.63,325.37,48.06,277.32,11.05,3.08,263.19,23
+201920,Financial year,National,England,E92000001,Children looked after,3.1.4 Special guardianship support,273.96,29.81,8.53,4.74,317.05,2.44,314.6,0.61,2.08,311.91,26
+201920,Financial year,National,England,E92000001,Children looked after,3.1.5 Other children looked after services,159.04,166.33,10.84,6.77,342.99,29.76,313.23,18.36,1.15,293.72,26
+201920,Financial year,National,England,E92000001,Children looked after,3.1.6 Short breaks (respite) for looked after disabled children,36.89,12.65,0.44,1.87,51.84,2.68,49.16,0.9,0.14,48.12,4
+201920,Financial year,National,England,E92000001,Children looked after,3.1.7 Children placed with family and friends,109.32,10.05,2.52,2.56,124.45,1.07,123.38,0.18,1.59,121.6,10
+201920,Financial year,National,England,E92000001,Children looked after,3.1.8 Education of looked after children,48.53,4.26,2.11,0.01,54.92,11.16,43.76,14.77,0.72,28.27,4
+201920,Financial year,National,England,E92000001,Children looked after,3.1.9 Leaving care support services,272.22,171.87,9.41,12.53,466.02,28.01,438.02,42.58,7.1,388.34,36
+201920,Financial year,National,England,E92000001,Children looked after,3.1.10 Asylum seeker services children,98.7,79.14,7.69,1.41,186.94,37.38,149.56,111.09,13.13,25.35,12
+201920,Financial year,National,England,E92000001,Children looked after,3.1.11 Total Children Looked After,2506.39,2471.2,194.97,105.51,5278.06,280.23,4997.83,239.95,53.12,4704.76,414
+201920,Financial year,National,England,E92000001,Other children and family services,3.2.1 Other children and families services,108.57,18.88,9.5,5.82,142.78,20.74,122.05,6.2,4.39,111.45,10
+201920,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.1 Social work (including LA functions in relation to child protection),2160.54,78.87,76.27,5.39,2321.06,79.55,2241.52,34.59,23.41,2183.51,186
+201920,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.2 Commissioning and Childrens Services Strategy,210.44,10.8,90.2,1.59,313.03,107.71,205.31,5.41,9.19,190.71,17
+201920,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.3 Local Safeguarding Children Board,38.68,1.41,2.63,0.08,42.8,18.26,24.54,0.61,0.3,23.63,2
+201920,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.4 Total Safeguarding Children and Young Peoples Services,2409.66,91.08,169.09,7.06,2676.89,205.52,2471.37,40.62,32.9,2397.85,205
+201920,Financial year,National,England,E92000001,Family support services,3.4.1 Direct payments,84.16,38.88,3.03,1.18,127.24,11.74,115.5,0.16,0.36,114.98,10
+201920,Financial year,National,England,E92000001,Family support services,3.4.2 Short breaks (respite) for disabled children,145.75,38.74,6.68,31.31,222.48,22.22,200.26,1.45,2.2,196.61,17
+201920,Financial year,National,England,E92000001,Family support services,3.4.3 Other support for disabled children,34.36,12.98,2.44,1.5,51.27,4.79,46.48,0.08,0.95,45.45,4
+201920,Financial year,National,England,E92000001,Family support services,3.4.4 Targeted family support,622.82,47.01,53.67,17.01,740.51,104.96,635.55,104.47,20.66,510.41,53
+201920,Financial year,National,England,E92000001,Family support services,3.4.5 Universal family support,65.7,5.8,0.93,0.56,72.99,4.97,68.02,3.49,0.26,64.27,6
+201920,Financial year,National,England,E92000001,Family support services,3.4.6 Total Family Support Services,952.8,143.42,66.73,51.55,1214.5,148.69,1065.81,109.65,24.43,931.73,88
+201920,Financial year,National,England,E92000001,Services for young people,3.5.1 Universal services for young people,125.34,15,5.8,9.88,156.02,23.28,132.74,3.59,2.04,127.11,11
+201920,Financial year,National,England,E92000001,Services for young people,3.5.2 Targeted services for young people,188.16,8.93,6.68,12.33,216.1,38.5,177.6,7.97,12.6,157.03,15
+201920,Financial year,National,England,E92000001,Services for young people,3.5.3 Total Services for young people,313.51,23.93,12.48,22.2,372.12,61.78,310.34,11.56,14.65,284.14,26
+201920,Financial year,National,England,E92000001,Services for young people,"8a.1 Substance misuse services (Drugs, Alcohol and Volatile substances) (included in 3.5.1 and 3.5.2 above)",x,x,x,x,8.72,x,x,x,x,x,0
+201920,Financial year,National,England,E92000001,Services for young people,8a.2 Teenage pregnancy services (included in 3.5.1 and 3.5.2 above),x,x,x,x,2.59,x,x,x,x,x,0
+201920,Financial year,National,England,E92000001,Youth justice,3.6.1 Youth justice,x,x,x,x,289.04,134.48,154.56,x,x,x,13
+201920,Financial year,National,England,E92000001,Capital expenditure,4.0.1 Capital Expenditure from Revenue (CERA) (Childrens and young people services),x,x,x,x,26.7,2.46,24.24,x,x,x,2
+201920,Financial year,National,England,E92000001,Total,5.0.2 Total Children and Young Peoples Services Expenditure (excluding CERA),x,x,x,x,10530.79,x,9591.59,x,x,x,794
+201920,Financial year,National,England,E92000001,Total,5.0.3 Total Children and Young Peoples Services Expenditure (including CERA),x,x,x,x,10557.49,x,9615.83,x,x,x,796
+202021,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.1 Spend on individual Sure Start Childrens Centres,251.73,23.9,10.14,50.08,335.85,43.09,292.76,8.43,0.62,283.71,24
+202021,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.2 Spend for services delivered through Sure Start Childrens Centres,37.57,7.16,1.72,6.57,53.01,3.9,49.11,2.66,0.03,46.42,4
+202021,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.3 Spend on management costs relating to Sure Start Childrens Centres,26.17,0.32,low,0.02,26.52,2.53,23.99,0.56,0.04,23.39,2
+202021,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.4 Other spend on children under 5,83.6,3,4.79,3.89,95.28,14.89,80.39,2.87,1.19,76.34,7
+202021,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.5 Total Sure Start childrens centres and other spend on children under 5,399.07,34.38,16.64,60.57,510.66,64.41,446.25,14.51,1.88,429.86,37
+202021,Financial year,National,England,E92000001,Children looked after,3.1.1 Residential care,406.67,1327.82,73.64,28.5,1836.62,107.07,1729.55,35.64,10.76,1683.15,143
+202021,Financial year,National,England,E92000001,Children looked after,3.1.2a Fostering services (excluding fees and allowances for LA foster carers),305.07,723.97,44.56,32.9,1106.51,18.42,1088.09,22.96,0.47,1064.66,90
+202021,Financial year,National,England,E92000001,Children looked after,3.1.2b Fostering services (fees and allowances for LA foster carers),566.59,138.68,14.04,9.56,728.87,13.32,715.55,13.19,0.32,702.03,59
+202021,Financial year,National,England,E92000001,Children looked after,3.1.2 Total fostering services,871.66,862.65,58.6,42.46,1835.38,31.74,1803.63,36.15,0.79,1766.7,149
+202021,Financial year,National,England,E92000001,Children looked after,3.1.3 Adoption services,247.85,36.02,46.39,6.48,336.74,52.86,283.88,13.81,2.28,267.8,23
+202021,Financial year,National,England,E92000001,Children looked after,3.1.4 Special guardianship support,297.97,39.31,6.57,6.28,350.13,3.77,346.37,3.4,0.01,342.96,29
+202021,Financial year,National,England,E92000001,Children looked after,3.1.5 Other children looked after services,157.18,185.89,11.13,5.75,359.94,28.73,331.21,24.51,0.92,305.78,27
+202021,Financial year,National,England,E92000001,Children looked after,3.1.6 Short breaks (respite) for looked after disabled children,27.07,7.88,0.47,0.81,36.22,2.37,33.86,0.86,0.1,32.89,3
+202021,Financial year,National,England,E92000001,Children looked after,3.1.7 Children placed with family and friends,113.27,12.55,2.5,5.16,133.48,0.77,132.71,0.2,0.28,132.23,11
+202021,Financial year,National,England,E92000001,Children looked after,3.1.8 Education of looked after children,51.22,3.88,2.67,0.02,57.79,11.58,46.21,14,3.69,28.52,4
+202021,Financial year,National,England,E92000001,Children looked after,3.1.9 Leaving care support services,311.73,191.94,12.02,10.52,526.21,34.47,491.74,61.67,6.86,423.21,41
+202021,Financial year,National,England,E92000001,Children looked after,3.1.10 Asylum seeker services children,100.33,75.46,4.11,1.14,181.04,51.8,129.25,112.98,28.38,-12.11,11
+202021,Financial year,National,England,E92000001,Children looked after,3.1.11 Total Children Looked After,2584.96,2743.4,218.1,107.12,5653.57,325.16,5328.41,303.23,54.06,4971.12,439
+202021,Financial year,National,England,E92000001,Other children and family services,3.2.1 Other children and families services,84.35,17.39,3.7,5.24,110.67,11.43,99.24,14.98,0.02,84.23,8
+202021,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.1 Social work (including LA functions in relation to child protection),2365.02,88.13,69.92,4.18,2527.25,97.24,2430.01,39.94,13.81,2376.27,200
+202021,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.2 Commissioning and Childrens Services Strategy,244.87,19.02,12.92,2.25,279.05,31.05,248,2.69,0.83,244.48,20
+202021,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.3 Local Safeguarding Children Board,37.06,1.8,2.62,low,41.48,16.32,25.16,0.59,0.2,24.37,2
+202021,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.4 Total Safeguarding Children and Young Peoples Services,2646.95,108.95,85.45,6.43,2847.79,144.61,2703.17,43.22,14.84,2645.12,223
+202021,Financial year,National,England,E92000001,Family support services,3.4.1 Direct payments,88.95,43.11,3.36,1.24,136.66,12.14,124.52,0.14,0.01,124.37,10
+202021,Financial year,National,England,E92000001,Family support services,3.4.2 Short breaks (respite) for disabled children,135.66,48.16,10.78,17.81,212.41,23.74,188.67,1.33,0.07,187.27,16
+202021,Financial year,National,England,E92000001,Family support services,3.4.3 Other support for disabled children,46.15,18.79,1.41,0.6,66.96,6,60.96,0.28,0.01,60.67,5
+202021,Financial year,National,England,E92000001,Family support services,3.4.4 Targeted family support,644.28,63.31,45.21,18.45,771.25,107.45,663.8,122.17,11.79,529.84,55
+202021,Financial year,National,England,E92000001,Family support services,3.4.5 Universal family support,78.08,6.46,0.81,0.1,85.45,9.11,76.34,4.64,0.01,71.69,6
+202021,Financial year,National,England,E92000001,Family support services,3.4.6 Total Family Support Services,993.12,179.84,61.56,38.2,1272.72,158.44,1114.28,128.55,11.89,973.84,92
+202021,Financial year,National,England,E92000001,Services for young people,3.5.1 Universal services for young people,119.22,14.07,6.43,13.78,153.51,19.8,133.71,4.9,0.07,128.73,11
+202021,Financial year,National,England,E92000001,Services for young people,3.5.2 Targeted services for young people,197.33,13.96,4.96,9.61,225.87,36.2,189.67,14.82,2.75,172.1,16
+202021,Financial year,National,England,E92000001,Services for young people,3.5.3 Total Services for young people,316.56,28.03,11.4,23.39,379.38,55.99,323.38,19.73,2.82,300.83,27
+202021,Financial year,National,England,E92000001,Services for young people,"8a.1 Substance misuse services (Drugs, Alcohol and Volatile substances) (included in 3.5.1 and 3.5.2 above)",x,x,x,x,7.91,x,x,x,x,x,0
+202021,Financial year,National,England,E92000001,Services for young people,8a.2 Teenage pregnancy services (included in 3.5.1 and 3.5.2 above),x,x,x,x,2.67,x,x,x,x,x,0
+202021,Financial year,National,England,E92000001,Youth justice,3.6.1 Youth justice,x,x,x,x,286.48,135.33,151.15,x,x,x,12
+202021,Financial year,National,England,E92000001,Capital expenditure,4.0.1 Capital Expenditure from Revenue (CERA) (Childrens and young people services),x,x,x,x,16.61,2.39,14.22,x,x,x,1
+202021,Financial year,National,England,E92000001,Total,5.0.2 Total Children and Young Peoples Services Expenditure (excluding CERA),x,x,x,x,11061.26,x,10165.88,x,x,x,838
+202021,Financial year,National,England,E92000001,Total,5.0.3 Total Children and Young Peoples Services Expenditure (including CERA),x,x,x,x,11077.87,x,10180.1,x,x,x,839
+202122,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.1 Spend on individual Sure Start Childrens Centres,243.01,12.2,7.74,54.18,317.13,45.41,271.72,6.62,0.02,265.08,22
+202122,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.2 Spend for services delivered through Sure Start Childrens Centres,36.16,6.06,9.73,6.28,58.23,4.69,53.54,2.13,0.04,51.37,4
+202122,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.3 Spend on management costs relating to Sure Start Childrens Centres,27.31,0.28,0.03,0.01,27.64,2.13,25.5,0.36,0.13,25.02,2
+202122,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.4 Other spend on children under 5,86.89,3.48,9.14,2.73,102.23,25.71,76.52,2.43,0.84,73.25,6
+202122,Financial year,National,England,E92000001,Sure Start and children aged under 5,3.0.5 Total Sure Start childrens centres and other spend on children under 5,393.37,22.03,26.63,63.2,505.23,77.94,427.29,11.53,1.03,414.73,35
+202122,Financial year,National,England,E92000001,Children looked after,3.1.1 Residential care,509.41,1475.03,65.95,33.24,2083.63,143.02,1940.61,41.17,3.57,1895.87,159
+202122,Financial year,National,England,E92000001,Children looked after,3.1.2a Fostering services (excluding fees and allowances for LA foster carers),353.63,718.81,40.5,25.05,1137.99,14.96,1123.04,22.9,0.55,1099.59,92
+202122,Financial year,National,England,E92000001,Children looked after,3.1.2b Fostering services (fees and allowances for LA foster carers),585.95,131.99,18.82,7.97,744.73,15.15,729.58,10.38,0.45,718.75,60
+202122,Financial year,National,England,E92000001,Children looked after,3.1.2 Total fostering services,939.58,850.8,59.32,33.02,1882.73,30.1,1852.62,33.28,1,1818.35,152
+202122,Financial year,National,England,E92000001,Children looked after,3.1.3 Adoption services,252.04,33.55,45.77,5.85,337.22,54.66,282.55,12.57,2.16,267.82,23
+202122,Financial year,National,England,E92000001,Children looked after,3.1.4 Special guardianship support,325.93,39.37,8.75,7.39,381.44,0.77,380.66,3.57,0.04,377.05,31
+202122,Financial year,National,England,E92000001,Children looked after,3.1.5 Other children looked after services,193.87,217.71,15.57,5.57,432.71,25.79,406.93,32.45,0.62,373.85,33
+202122,Financial year,National,England,E92000001,Children looked after,3.1.6 Short breaks (respite) for looked after disabled children,34.24,8.65,0.12,0.97,43.98,2.56,41.42,0.68,0.05,40.68,3
+202122,Financial year,National,England,E92000001,Children looked after,3.1.7 Children placed with family and friends,117.43,15.4,3.43,4.95,141.22,4.41,136.8,0.08,0.16,136.56,11
+202122,Financial year,National,England,E92000001,Children looked after,3.1.8 Education of looked after children,55.58,5.07,2.91,low,63.56,15.06,48.49,14.61,2.85,31.03,4
+202122,Financial year,National,England,E92000001,Children looked after,3.1.9 Leaving care support services,342.66,201.7,15.72,10.08,570.15,31.84,538.31,63.6,13.91,460.79,44
+202122,Financial year,National,England,E92000001,Children looked after,3.1.10 Asylum seeker services children,111.02,73.88,4.92,0.96,190.79,43.86,146.93,123.06,24.56,-0.7,12
+202122,Financial year,National,England,E92000001,Children looked after,3.1.11 Total Children Looked After,2881.76,2921.17,222.45,102.03,6127.41,352.08,5775.33,325.09,48.93,5401.31,474
+202122,Financial year,National,England,E92000001,Other children and family services,3.2.1 Other children and families services,91.18,18.15,5.77,4.09,119.19,17,102.2,6.36,1.73,94.11,8
+202122,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.1 Social work (including LA functions in relation to child protection),2452.11,91.61,83.24,5.01,2631.98,80.54,2551.44,51.42,12.5,2487.52,209
+202122,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.2 Commissioning and Childrens Services Strategy,273.36,17.99,7.88,1.84,301.07,33.72,267.35,10.16,0.26,256.92,22
+202122,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.3 Local Safeguarding Children Board,37.82,2.16,4.63,0.03,44.64,16.8,27.83,0.53,0.24,27.07,2
+202122,Financial year,National,England,E92000001,Safeguarding children and young peoples services,3.3.4 Total Safeguarding Children and Young Peoples Services,2763.29,111.76,95.75,6.87,2977.68,131.06,2846.62,62.11,13,2771.51,234
+202122,Financial year,National,England,E92000001,Family support services,3.4.1 Direct payments,96.84,42.74,4.64,2.09,146.31,13.05,133.27,0.1,0.01,133.16,11
+202122,Financial year,National,England,E92000001,Family support services,3.4.2 Short breaks (respite) for disabled children,148.12,45.58,14.56,18.02,226.29,26.51,199.78,1.06,0.4,198.32,16
+202122,Financial year,National,England,E92000001,Family support services,3.4.3 Other support for disabled children,48.9,9.21,2.48,0.56,61.15,6.52,54.63,0.05,0,54.58,4
+202122,Financial year,National,England,E92000001,Family support services,3.4.4 Targeted family support,753.81,73,54.6,21.73,903.14,126.51,776.63,179.8,18.09,578.75,64
+202122,Financial year,National,England,E92000001,Family support services,3.4.5 Universal family support,88.31,9.15,3.51,4.23,105.21,13.15,92.05,13.72,0.91,77.43,8
+202122,Financial year,National,England,E92000001,Family support services,3.4.6 Total Family Support Services,1135.99,179.69,79.79,46.63,1442.11,185.74,1256.37,194.73,19.41,1042.24,103
+202122,Financial year,National,England,E92000001,Services for young people,3.5.1 Universal services for young people,136.51,18.23,2.61,11.03,168.38,34.75,133.63,12.71,1.06,119.86,11
+202122,Financial year,National,England,E92000001,Services for young people,3.5.2 Targeted services for young people,210.16,16.6,7.27,6.13,240.16,32.82,207.34,20.47,5.77,181.09,17
+202122,Financial year,National,England,E92000001,Services for young people,3.5.3 Total Services for young people,346.67,34.83,9.88,17.15,408.54,67.57,340.97,33.19,6.83,300.95,28
+202122,Financial year,National,England,E92000001,Services for young people,"8a.1 Substance misuse services (Drugs, Alcohol and Volatile substances) (included in 3.5.1 and 3.5.2 above)",x,x,x,x,7.84,x,x,x,x,x,0
+202122,Financial year,National,England,E92000001,Services for young people,8a.2 Teenage pregnancy services (included in 3.5.1 and 3.5.2 above),x,x,x,x,1.87,x,x,x,x,x,0
+202122,Financial year,National,England,E92000001,Youth justice,3.6.1 Youth justice,x,x,x,x,305.13,149.85,155.29,x,x,x,13
+202122,Financial year,National,England,E92000001,Capital expenditure,4.0.1 Capital Expenditure from Revenue (CERA) (Childrens and young people services),x,x,x,x,12.19,3,9.18,x,x,x,1
+202122,Financial year,National,England,E92000001,Total,5.0.2 Total Children and Young Peoples Services Expenditure (excluding CERA),x,x,x,x,11885.29,x,10904.06,x,x,x,895
+202122,Financial year,National,England,E92000001,Total,5.0.3 Total Children and Young Peoples Services Expenditure (including CERA),x,x,x,x,11897.48,x,10913.25,x,x,x,895

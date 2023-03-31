@@ -6,12 +6,12 @@ server <- shinyServer(function(input, output, session){
 
 # Waiter ------------------------------------------------------------------
 
-  # give time for wait screen to show
-  Sys.sleep(1)
-  waiter_hide()
-  waiter_show(html = spin_rotate(), color = "#00AD92")
-  Sys.sleep(2) # give time for wait screen to show
-  waiter_hide()
+  # # give time for wait screen to show
+  # Sys.sleep(1)
+  # waiter_hide()
+  # waiter_show(html = spin_rotate(), color = "#00AD92")
+  # Sys.sleep(2) # give time for wait screen to show
+  #waiter_hide()
 
 
 # Quick loading reactive select inputs ------------------------------------
@@ -226,9 +226,11 @@ server <- shinyServer(function(input, output, session){
   output$sbs_map_plot_left <- renderCachedPlot({
     
     
-    if (seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1) == seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1)) 
-        {set_global_scales_left <- FALSE} else {set_global_scales_left <- TRUE}
+    # if (seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1) == seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1)) 
+    #     {set_global_scales_left = FALSE} else {set_global_scales_left = TRUE}
     
+    set_global_scales_left <- ifelse(paste(seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1), collapse = ",") == paste(seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1), collapse = ","),
+                                      yes = FALSE, no = TRUE)
     
     plot_csc_map(geo_data = la_sf, centroid_data = la_sf_centroids, data = csc_data, 
                  var = input$var_sbs_map_left, 
@@ -241,8 +243,11 @@ server <- shinyServer(function(input, output, session){
   
   output$sbs_map_plot_right <- renderCachedPlot({
     
-    if (seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1) == seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1)) 
-    {set_global_scales_right <- FALSE} else {set_global_scales_right <- TRUE}
+    # if (seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1) == seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1)) 
+    # {set_global_scales_right = FALSE} else {set_global_scales_right = TRUE}
+    
+    set_global_scales_right <- ifelse(paste(seq(input$year_range_sbs_map_left[1], input$year_range_sbs_map_left[2], 1), collapse = ",") == paste(seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1), collapse = ","),
+                                     yes = FALSE, no = TRUE)
     
     plot_csc_map(geo_data = la_sf, centroid_data = la_sf_centroids, data = csc_data, var = input$var_sbs_map_right, 
                  year_range = seq(input$year_range_sbs_map_right[1], input$year_range_sbs_map_right[2], 1), 

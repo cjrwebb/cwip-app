@@ -1,0 +1,8 @@
+﻿time_period,time_identifier,geographic_level,country_name,country_code,total_income_billion,total_income_PP,total_expenditure_billion,total_expenditure_PP,number_school_surplus,pc_schools_surplus,number_schools_deficit,pc_schools_deficit,total_schools_gross_expenditre_by_la,total_schools_income_by_la,total_schools_net_expenditure_by_la,total_other_education_gross_expenditre_by_la,total_other_education_income_by_la,total_other_education_net_expenditure_by_la,total_childrens_services_gross_expenditre_by_la,total_childrens_services_income_by_la,total_childrens_services_net_expenditure_by_la
+201516,Financial year,National,England,E92000001,27.6,5573.4,26.9,5440.1,15621,93.1,1000,6,29.1,0.4,28.7,3,0.8,2.2,9.1,0.7,8.4
+201617,Financial year,National,England,E92000001,26.5,5537,26.2,5477.5,14498,90,1461,9.1,28.1,0.3,27.8,3,0.8,2.2,9.2,0.7,8.4
+201718,Financial year,National,England,E92000001,25,5547.8,24.5,5429.1,13336,88.6,1532,10.2,27.4,0.2,27.2,2.8,0.7,2,9.5,0.7,8.8
+201819,Financial year,National,England,E92000001,23.9,5729.6,23.8,5709.5,12459,89.3,1376,9.9,27,0.2,26.8,2.9,0.8,2.2,9.9,0.7,9.1
+201920,Financial year,National,England,E92000001,23.6,6018.6,23.7,6024.5,11493,87.3,1575,12,26.7,0.1,26.6,3.1,0.8,2.3,10.6,0.9,9.6
+202021,Financial year,National,England,E92000001,23.7,6284.4,23,6113.4,11531,91.1,1059,8.4,27.4,0.1,27.3,3,0.7,2.3,11.1,0.9,10.2
+202122,Financial year,National,England,E92000001,24.1,6608.5,23.9,6564,11077,90.6,1075,8.8,28.8,0.1,28.7,3.5,0.8,2.6,11.9,1,10.9

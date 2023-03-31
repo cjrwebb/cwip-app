@@ -8,7 +8,6 @@
 library(shiny)
 library(tidyverse)
 library(plotly)
-library(shiny)
 library(shinydashboard)
 library(htmlwidgets)
 library(sf)
@@ -29,21 +28,38 @@ library(ggrepel)
 library(tidymodels)
 library(patchwork)
 library(shadowtext)
-library(waffle)
+library(ggwaffle)
 library(egg)
 library(cowplot)
 library(ggdendro)
 library(janitor)
 library(shinyWidgets)
+library(emojifont)
+load.fontawesome()
+
+
+gg_title_size = 28
+geom_text_size = 7
+axis_text_size = 16
+axis_title_size = 24
+annotation_text_size = 20
+
+theme_set(
+  theme(panel.grid = element_blank(), panel.border = element_blank(),
+        plot.title = element_text(face = "bold", size = gg_title_size), 
+        axis.title = element_text(size = axis_title_size),
+        axis.text = element_text(size = axis_text_size))
+)
+
 
 
 # Requireed for waffle plots but slows down initialisation
-dir.create('~/.fonts')
+#dir.create('~/.fonts')
 # file.copy("www/fa-brands-400.ttf", "~/.fonts")
-file.copy("www/fa-solid-900.ttf", "~/.fonts")
-system('fc-cache -f ~/.fonts')
+#file.copy("www/fa-solid-900.ttf", "~/.fonts")
+#system('fc-cache -f ~/.fonts')
 
-install_fa_fonts() 
+#install_fa_fonts() 
 
 # This tool is designed to visualise numerous OGL3.0 public data 
 # about the child welfare system in England
@@ -72,9 +88,13 @@ csc_data <- read_rds("data/csc_data_v3.RDS") %>%
   mutate(value = ifelse(is.infinite(value), NA, value)) %>%
   filter(!la_name %in% c("City of London", "City Of London", "Isles of Scilly", "Isles Of Scilly"))
 la_sf <- read_rds("data/la_sf.RDS")
+st_crs(la_sf) <- 4326
 la_sf_centroids <- read_rds("data/la_sf_centroids.RDS")
+st_crs(la_sf_centroids) <- 4326
 la_sf_cart <- read_rds("data/la_sf_cart.RDS")
+st_crs(la_sf_cart) <- 4326
 la_sf_centroids_cart <- read_rds("data/la_sf_centroids_cart.RDS")
+st_crs(la_sf_centroids_cart) <- 4326
 csc_ethnicity_data <- read_rds("data/csc_ethnicity_data.RDS")
 
 csc_vars <- unique(csc_data$description)
@@ -363,7 +383,7 @@ draw_red_scale <- function(data, x, la) {
     
     ggplot() +
       geom_tile(data = red_scale, mapping = aes(x = !!x, y = y, fill = fill, alpha = 0.75)) +
-      geom_text(data = red_scale, aes(x = !!x, y = y, label = tertile_vals)) +
+      geom_text(data = red_scale, aes(x = !!x, y = y, label = tertile_vals), size = geom_text_size) +
       scale_fill_identity() +
       labs(x = paste("Higher", as_string(x_st), "\u2192"), y = "") +
       theme_minimal() +
@@ -425,7 +445,7 @@ draw_blue_scale <- function(data, x, la) {
   ggplot() +
     geom_tile(data = red_scale,
               mapping = aes(x = !!x, y = y, fill = fill, alpha = 0.75)) +
-    geom_text(data = red_scale, aes(x = !!x, y = y,label = tertile_vals)) +
+    geom_text(data = red_scale, aes(x = !!x, y = y,label = tertile_vals), size = geom_text_size) +
     scale_fill_identity() +
     labs(x = paste("Higher", as_string(x_st), "\u2192"), y = "") +
     theme_minimal() +
@@ -658,7 +678,7 @@ draw_univariate_legend  <- function(data, x, nbins, la) {
         x = bin_low_high,
         y = y,
         label = range
-      )) +
+      ), size = geom_text_size) +
     labs(x = paste("Higher", as_string(x_st), "\u2192"),
          y = "") +
     theme_minimal(
@@ -972,7 +992,7 @@ plot_corr <- function(data, x, y, la) {
   data <- data %>% filter(LA_name %in% la)
   
   data %>% ggplot() +
-    geom_point(aes(x = !!x, y = !!y, col = !!y), size = 3) +
+    geom_point(aes(x = !!x, y = !!y, col = !!y), size = 5) +
     geom_smooth(aes(x = !!x, y = !!y), method = "lm", alpha = 0.3,
                 col = "black") +
     ylab(str_wrap(y_label, 60)) +
@@ -980,7 +1000,7 @@ plot_corr <- function(data, x, y, la) {
     theme_minimal() +
     scale_color_viridis_c() +
     theme(legend.position = "none",
-          text = element_text(size = 16))
+          text = element_text(size = gg_title_size))
   
   
 }
@@ -1048,7 +1068,7 @@ plot_anova <- function(data, x, la) {
                  alpha = 0.2, size = 1.5) +
     xlab(str_wrap(x_label, 60)) +
     theme_minimal() +
-    theme(text = element_text(size = 16)) 
+    theme(text = element_text(size = gg_title_size)) 
   
   
 }
@@ -1301,7 +1321,11 @@ partial_regress <- function(data, x, y, la) {
                                  grid = TRUE,
                                  show.x.title = FALSE,
                                  colors = "eight",
-                                 dot.alpha = 0.2)
+                                 dot.alpha = 0.2) +
+    theme(plot.title = element_text(face = "bold", size = gg_title_size), 
+          axis.title = element_text(size = axis_title_size),
+          axis.text = element_text(size = axis_text_size), 
+          strip.text = element_text(size = axis_text_size))
   
 }
 
@@ -1397,7 +1421,7 @@ if (adj_dep == "No") {
         geom_line(aes(group = la_name, x = year, y = value), alpha = 0.1) +
         geom_line(data = . %>% filter(la_name %in% la_select),
                   aes(group = la_name, x = year, y = value, col = la_name), size = 1.5) +
-        geom_label(data = . %>% filter(la_name %in% la_select), size = 3.5,
+        geom_label(data = . %>% filter(la_name %in% la_select), size = geom_text_size,
                    aes(group = la_name, x = year, y = value, col = la_name, label = round(value, 2))) +
         scale_colour_brewer(palette = "Dark2") +
         scale_x_continuous(breaks = seq(min(data %>% filter(year %in% year_range) %>% .$year, na.rm = TRUE), 
@@ -1406,13 +1430,16 @@ if (adj_dep == "No") {
         # Add legend with ggrepel
         geom_text_repel(data = . %>% filter(year == max(year_range) & la_name %in% la_select),
                         aes(x = year + (max(unique(data$year) - min(unique(data$year))))/6, y = value, label = la_name, col = la_name),
-                        segment.alpha = 0, direction = "y", fontface = "bold") +
+                        segment.alpha = 0, direction = "y", fontface = "bold", size = geom_text_size) +
         xlab("Year Ending") +
         ylab(str_wrap(var, 80)) +
         ggtitle(str_wrap(var, width = 80)) +
         theme_minimal() +
         theme(legend.position = "top",
-              plot.title = element_text(face = "bold")) +
+              plot.title = element_text(face = "bold", size = gg_title_size), 
+              axis.title = element_text(size = axis_title_size),
+              axis.text = element_text(size = axis_text_size)
+              ) +
         ggeasy::easy_remove_legend() +
         theme(panel.grid = element_blank())
       
@@ -1436,12 +1463,12 @@ if (adj_dep == "No") {
         geom_line(aes(group = la_name, x = year, y = value), alpha = 0.1) +
         geom_line(data = . %>% filter(la_name %in% la_select & la_name != "England Average"),
                   aes(group = la_name, x = year, y = value, col = la_name), size = 1.5) +
-        geom_label(data = . %>% filter(la_name %in% la_select & la_name != "England Average"), size = 3.5,
+        geom_label(data = . %>% filter(la_name %in% la_select & la_name != "England Average"), size = geom_text_size,
                    aes(group = la_name, x = year, y = value, col = la_name, label = round(value, 2))) +
         geom_line(data = . %>% filter(la_name == avg_select),
                   aes(group = la_name, x = year, y = value), size = 1.5, col = "#00A174") +
-        geom_label(data = . %>% filter(la_name == avg_select), size = 3.5,
-                   aes(group = la_name, x = year, y = value, label = round(value, 2)), col = "#00A174") +
+        geom_label(data = . %>% filter(la_name == avg_select), size = geom_text_size,
+                   aes(group = la_name, x = year, y = value, label = round(value, 2)), col = "#00A174", size = geom_text_size) +
         scale_colour_manual(values = brewer.pal(8, "Dark2")[2:9]) +
         scale_x_continuous(breaks = seq(min(data %>% filter(year %in% year_range) %>% .$year, na.rm = TRUE), 
                                         max(data %>% filter(year %in% year_range) %>% .$year, na.rm = TRUE), 1)) +
@@ -1449,17 +1476,19 @@ if (adj_dep == "No") {
         # Add legend with ggrepel
         geom_text_repel(data = . %>% filter(year == max(year_range) & la_name %in% la_select & la_name != "England Average"),
                         aes(x = year + (max(unique(data$year) - min(unique(data$year))))/6, y = value, label = la_name, col = la_name),
-                        segment.alpha = 0, direction = "y", fontface = "bold") +
+                        segment.alpha = 0, direction = "y", fontface = "bold", size = geom_text_size) +
         geom_text_repel(data = . %>% filter(year == max(year_range) & la_name ==  avg_select),
                         aes(x = year + (max(unique(data$year) - min(unique(data$year))))/6, y = value, label = la_name),
-                        segment.alpha = 0, direction = "y", fontface = "bold", col = "#00A174") +
+                        segment.alpha = 0, direction = "y", fontface = "bold", col = "#00A174", size = geom_text_size) +
         xlab("Year Ending") +
         ylab(str_wrap(var, 80)) +
         ggtitle(str_wrap(var, width = 80)) +
         theme_minimal() +
         ggeasy::easy_remove_legend() +
         theme(panel.grid = element_blank(),
-              plot.title = element_text(face = "bold"))
+              plot.title = element_text(face = "bold", size = gg_title_size), 
+              axis.title = element_text(size = axis_title_size),
+              axis.text = element_text(size = axis_text_size))
       
       return(cst_plot)
       
@@ -1508,7 +1537,7 @@ if (adj_dep == "No") {
           geom_line(aes(group = la_name, x = year, y = value_adj), alpha = 0.1) +
           geom_line(data = . %>% filter(la_name %in%  avg_select),
                     aes(group = la_name, x = year, y = value_adj, col = la_name), size = 1.5) +
-          geom_label(data = . %>% filter(la_name %in%  avg_select), size = 3.5,
+          geom_label(data = . %>% filter(la_name %in%  avg_select), size = geom_text_size,
                      aes(group = la_name, x = year, y = value_adj, col = la_name, label = round(value_adj, 2))) +
           scale_colour_brewer(palette = "Dark2") +
           scale_x_continuous(breaks = seq(min(data %>% filter(year %in% year_range) %>% .$year, na.rm = TRUE), 
@@ -1517,7 +1546,7 @@ if (adj_dep == "No") {
           # Add legend with ggrepel
           geom_text_repel(data = . %>% filter(year == max(year_range) & la_name %in%  avg_select),
                           aes(x = year + (max(unique(data$year) - min(unique(data$year))))/6, y = value_adj, label = la_name, col = la_name),
-                          segment.alpha = 0, direction = "y", fontface = "bold") +
+                          segment.alpha = 0, direction = "y", fontface = "bold", size = geom_text_size) +
           xlab("Year Ending") +
           ylab(str_wrap(var, 80)) +
           ggtitle(str_wrap(paste("Predicted", var, "(If all LAs had average Deprivation)"), width = 80)) +
@@ -1525,7 +1554,9 @@ if (adj_dep == "No") {
           theme(legend.position = "top") +
           ggeasy::easy_remove_legend() +
           theme(panel.grid = element_blank(),
-                plot.title = element_text(face = "bold"))
+                plot.title = element_text(face = "bold", size = gg_title_size), 
+                axis.title = element_text(size = axis_title_size),
+                axis.text = element_text(size = axis_text_size))
         
         
       
@@ -1574,11 +1605,11 @@ if (adj_dep == "No") {
           geom_line(aes(group = la_name, x = year, y = value_adj), alpha = 0.1) +
           geom_line(data = . %>% filter(la_name %in% la_select & la_name != "England Average"),
                     aes(group = la_name, x = year, y = value_adj, col = la_name), size = 1.5) +
-          geom_label(data = . %>% filter(la_name %in% la_select & la_name != "England Average"), size = 3.5,
+          geom_label(data = . %>% filter(la_name %in% la_select & la_name != "England Average"), size = geom_text_size,
                      aes(group = la_name, x = year, y = value_adj, col = la_name, label = round(value_adj, 2))) +
           geom_line(data = . %>% filter(la_name ==  avg_select),
                     aes(group = la_name, x = year, y = value_adj), size = 1.5, col = "#00A174") +
-          geom_label(data = . %>% filter(la_name ==  avg_select), size = 3.5,
+          geom_label(data = . %>% filter(la_name ==  avg_select), size = geom_text_size,
                      aes(group = la_name, x = year, y = value_adj, label = round(value_adj, 2)), col = "#00A174") +
           scale_colour_manual(values = brewer.pal(8, "Dark2")[2:9]) +
           scale_x_continuous(breaks = seq(min(data %>% filter(year %in% year_range) %>% .$year, na.rm = TRUE), 
@@ -1587,17 +1618,19 @@ if (adj_dep == "No") {
           # Add legend with ggrepel
           geom_text_repel(data = . %>% filter(year == max(year_range) & la_name %in% la_select & la_name != "England Average"),
                           aes(x = year + (max(unique(data$year) - min(unique(data$year))))/6, y = value_adj, label = la_name, col = la_name),
-                          segment.alpha = 0, direction = "y", fontface = "bold") +
+                          segment.alpha = 0, direction = "y", fontface = "bold", size = geom_text_size) +
           geom_text_repel(data = . %>% filter(year == max(year_range) & la_name ==  avg_select),
                           aes(x = year + (max(unique(data$year) - min(unique(data$year))))/6, y = value_adj, label = la_name),
-                          segment.alpha = 0, direction = "y", fontface = "bold", col = "#00A174") +
+                          segment.alpha = 0, direction = "y", fontface = "bold", col = "#00A174", size = geom_text_size) +
           xlab("Year Ending") +
           ylab(str_wrap(var, 80)) +
           ggtitle(str_wrap(paste("Predicted", var, "(If all LAs had average Deprivation)"), width = 80)) +
           theme_minimal() +
           ggeasy::easy_remove_legend() +
           theme(panel.grid = element_blank(),
-                plot.title = element_text(face = "bold"))
+                plot.title = element_text(face = "bold", size = gg_title_size), 
+                axis.title = element_text(size = axis_title_size),
+                axis.text = element_text(size = axis_text_size))
         
         return(cst_plot)
         
@@ -1719,10 +1752,10 @@ plot_csctrend_diff <- function(data, var, year_range = NULL, adj_dep = "No", la_
         geom_bar(aes(y = mult_diff, x = year, fill = la_name), 
                  stat = "identity", position = "dodge") +
         geom_shadowtext(aes(y = mult_diff - ((mult_diff-1) * 0.5), x = year, label = round(mult_diff, 2), group = la_name), 
-                  position = position_dodge(width = 0.9), col = "white", size = 3.5) +
+                  position = position_dodge(width = 0.9), col = "white", size = geom_text_size) +
         geom_text(aes(y = mult_diff + ifelse(mult_diff > 1, 0.1, -0.05), 
                       x = year, label = la_name, group = la_name, col = la_name,
-                      angle = ifelse(mult_diff > 1, 90, -90)),
+                      angle = ifelse(mult_diff > 1, 90, -90), size = geom_text_size),
                   hjust = 0,
                   position = position_dodge(width = 0.9), size = 3.5, fontface = "bold") +
         scale_colour_manual(values = brewer.pal(8, "Dark2")[2:9]) +
@@ -1812,10 +1845,10 @@ plot_csctrend_diff <- function(data, var, year_range = NULL, adj_dep = "No", la_
         geom_bar(aes(y = mult_diff, x = year, fill = la_name), 
                  stat = "identity", position = "dodge") +
         geom_shadowtext(aes(y = mult_diff - ((mult_diff-1) * 0.5), x = year, label = round(mult_diff, 2), group = la_name), 
-                        position = position_dodge(width = 0.9), col = "white", size = 3.5) +
+                        position = position_dodge(width = 0.9), col = "white", size = geom_text_size) +
         geom_text(aes(y = mult_diff + ifelse(mult_diff > 1, 0.1, -0.05), 
                       x = year, label = la_name, group = la_name, col = la_name,
-                      angle = ifelse(mult_diff > 1, 90, -90)),
+                      angle = ifelse(mult_diff > 1, 90, -90), size = geom_text_size),
                   hjust = 0,
                   position = position_dodge(width = 0.9), size = 3.5, fontface = "bold") +
         scale_colour_manual(values = brewer.pal(8, "Dark2")[2:9]) +
@@ -1942,7 +1975,7 @@ plot_csc_points <- function(data, var, year_range = NULL, la_select = NULL) {
     ggplot() +
     geom_point(aes(x = imd, y = value, col = imd), alpha = 0.2) +
     geom_point(data = . %>% filter(la_name %in% la_select), aes(x = imd, y = value, col = imd)) +
-    geom_text_repel(data = . %>% filter(la_name %in% la_select), aes(x = imd, y = value, label = la_name), nudge_x = 3, nudge_y = 3, min.segment.length = 0.0001, force = 3, hjust = 0) +
+    geom_text_repel(data = . %>% filter(la_name %in% la_select), aes(x = imd, y = value, label = la_name), nudge_x = 3, nudge_y = 3, min.segment.length = 0.0001, force = 3, hjust = 0, size = geom_text_size) +
     ggtitle(str_wrap(paste("Relationship between", var, "and Deprivation (Large outliers removed)"), 70)) +
     ylab(str_wrap(var, 50)) +
     xlab("Indices of Multiple Deprivation Score (Higher = More Deprived)") +
@@ -2181,13 +2214,13 @@ plot_csc_map <- function(geo_data, centroid_data, data, var, year_range = NULL,
     geom_sf(aes(fill = mean_val), size = 0.1, col = "white") +
     # points south west
     geom_text_repel(data = centroid_data %>% filter(long < mean(long, na.rm = TRUE) & lat < mean(lat, na.rm = TRUE))  %>% filter(ctyua19nm %in% la_select), 
-                    aes(x = long, y = lat, label = ctyua19nm), nudge_x = -8, segment.size = 0.2) +
+                    aes(x = long, y = lat, label = ctyua19nm), nudge_x = -2, segment.size = 0.2, size = geom_text_size) +
     # points south east
     geom_text_repel(data = centroid_data %>% filter(long > mean(long, na.rm = TRUE) & lat < mean(lat, na.rm = TRUE))  %>% filter(ctyua19nm %in% la_select), 
-                    aes(x = long, y = lat, label = ctyua19nm), nudge_x = 8, segment.size = 0.2) +
+                    aes(x = long, y = lat, label = ctyua19nm), nudge_x = 2, segment.size = 0.2, size = geom_text_size) +
     # points north
     geom_text_repel(data = centroid_data %>% filter(lat > mean(lat, na.rm = TRUE))  %>% filter(ctyua19nm %in% la_select), 
-                    aes(x = long, y = lat, label = ctyua19nm), nudge_x = 8, segment.size = 0.2) +
+                    aes(x = long, y = lat, label = ctyua19nm), nudge_x = 2, segment.size = 0.2, size = geom_text_size) +
     ggtitle(str_wrap(ifelse(adj_dep == "No", 
                             ifelse(make_cart == FALSE, var, paste(var, "- Boundaries adjusted for Child Population Size")), 
                             paste("Predicted", var, "(If all LAs had Average Deprivation)", ifelse(make_cart == FALSE, "", "- Boundaries adjusted for Child Population Size"))), 
@@ -2198,7 +2231,7 @@ plot_csc_map <- function(geo_data, centroid_data, data, var, year_range = NULL,
     theme(plot.background = element_blank(),
           panel.grid = element_blank(),
           axis.ticks = element_blank(),
-          plot.title = element_text(hjust = 0.5, face = "bold"),
+          plot.title = element_text(hjust = 0.5, face = "bold", size = gg_title_size),
           legend.position = c(.8, .95), legend.direction = "horizontal")  
   
   lon_plot <- data %>% 
@@ -2207,7 +2240,7 @@ plot_csc_map <- function(geo_data, centroid_data, data, var, year_range = NULL,
     geom_sf(data = . %>% filter(Region %in% c("Inner London", "Outer London")), 
             aes(fill = mean_val), size = 0.1, col = "white") +
     geom_text_repel(data = centroid_data %>% filter(Region %in% c("Inner London", "Outer London"))  %>% filter(ctyua19nm %in% la_select), 
-                    aes(x = long, y = lat, label = ctyua19nm), nudge_y = -6, segment.size = 0.2, force = 2) +
+                    aes(x = long, y = lat, label = ctyua19nm), nudge_y = -2, segment.size = 0.2, force = 2, size = geom_text_size) +
     scale_fill_distiller("London Scale", palette = "BuGn", type = "seq", limits = c(scale_lim_min, scale_lim_max), direction = 1) +
     theme_minimal() +
     ggeasy::easy_remove_axes() +
@@ -2237,7 +2270,7 @@ plot_csc_map <- function(geo_data, centroid_data, data, var, year_range = NULL,
       # geom_text_repel(data = la_sf_centroids_cart %>% filter(lat > mean(lat, na.rm = TRUE))  %>% filter(ctyua19nm %in% la_select),
       #                 aes(x = long, y = lat, label = ctyua19nm), segment.size = 0.2) +
       geom_sf_text(data = la_sf_centroids_cart %>% filter(ctyua19nm %in% la_select),
-                   aes(label = ctyua19nm), segment.size = 0.2, nudge_x = 0.1, hjust = 0) +
+                   aes(label = ctyua19nm), segment.size = 0.2, nudge_x = 0.1, hjust = 0, size = geom_text_size) +
       geom_sf(data = la_sf_centroids_cart %>% filter(ctyua19nm %in% la_select),
                       size = 0.5) +
       ggtitle(str_wrap(ifelse(adj_dep == "No", 
@@ -2250,7 +2283,7 @@ plot_csc_map <- function(geo_data, centroid_data, data, var, year_range = NULL,
       theme(plot.background = element_blank(),
             panel.grid = element_blank(),
             axis.ticks = element_blank(),
-            plot.title = element_text(hjust = 0.5, face = "bold"),
+            plot.title = element_text(hjust = 0.5, face = "bold", size = gg_title_size),
             legend.position = c(.8, .95), legend.direction = "horizontal")  
     
     
@@ -2344,6 +2377,7 @@ patchwork_maps <- function(data, var, la_select = NULL, year_range1, year_range2
 # Quite slow but works
 
 
+# old
 spending_waffles <- function(data, year_range = NULL, la_select = NULL) {
   
   exp_cla_pc_data <- data %>% 
@@ -2366,21 +2400,16 @@ spending_waffles <- function(data, year_range = NULL, la_select = NULL) {
                                      description == csc_vars[6] ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
       group_by(year, description) %>%
       summarise(value = mean(value, na.rm = TRUE)) %>%
-      mutate(value = value/10) %>%
+      mutate(value = value/10,
+             label = "fa-money-bill-wave") %>%
       ggplot() +
-      geom_pictogram(aes(label = description, col = description, values = value), 
+      geom_text(aes(label = label, family = 'fontawesome-webfont', 
+                    col = description, values = value), 
                      flip = TRUE, make_proportional = FALSE, size = 4,
                      n_rows = 5) +
       scale_color_manual(
         name = NULL,
         values = c("#1B9E77", "#D95F02", "#7570B3"),
-        labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                   "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                   "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-      ) +
-      scale_label_pictogram(
-        name = NULL,
-        values = c("money-bill-wave", "money-bill-wave", "money-bill-wave"),
         labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                    "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
                    "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
@@ -2418,21 +2447,16 @@ spending_waffles <- function(data, year_range = NULL, la_select = NULL) {
                                        description == csc_vars[7] ~ "£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                                        description == csc_vars[6] ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
         filter(la_name %in% la_select) %>%
-        mutate(value = value/10) %>%
+        mutate(value = value/10,
+               label = "fa-money-bill-wave") %>%
         ggplot() +
-        geom_pictogram(aes(label = description, col = description, values = value), 
-                       flip = TRUE, make_proportional = FALSE, size = 4,
-                       n_rows = 5) +
+        geom_text(aes(label = label, family = 'fontawesome-webfont', 
+                      col = description, values = value), 
+                  flip = TRUE, make_proportional = FALSE, size = 4,
+                  n_rows = 5) +
         scale_color_manual(
           name = NULL,
           values = c("#1B9E77", "#D95F02", "#7570B3"),
-          labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                     "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                     "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-        ) +
-        scale_label_pictogram(
-          name = NULL,
-          values = c("money-bill-wave", "money-bill-wave", "money-bill-wave"),
           labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                      "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
                      "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
@@ -2466,21 +2490,16 @@ spending_waffles <- function(data, year_range = NULL, la_select = NULL) {
                                        description == csc_vars[7] ~ "£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                                        description == csc_vars[6] ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
         filter(la_name %in% la_select) %>%
-        mutate(value = value/10) %>%
+        mutate(value = value/10,
+               label = "fa-money-bill-wave") %>%
         ggplot() +
-        geom_pictogram(aes(label = description, col = description, values = value), 
-                       flip = TRUE, make_proportional = FALSE, size = 6/length(la_select),
-                       n_rows = 5) +
+        geom_text(aes(label = label, family = 'fontawesome-webfont', 
+                      col = description, values = value), 
+                  flip = TRUE, make_proportional = FALSE, size = 4,
+                  n_rows = 5) +
         scale_color_manual(
           name = NULL,
           values = c("#1B9E77", "#D95F02", "#7570B3"),
-          labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                     "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                     "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-        ) +
-        scale_label_pictogram(
-          name = NULL,
-          values = c("money-bill-wave", "money-bill-wave", "money-bill-wave"),
           labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                      "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
                      "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
@@ -2508,6 +2527,81 @@ spending_waffles <- function(data, year_range = NULL, la_select = NULL) {
 }
   
 }
+# 
+# csc_data %>%
+#   filter(description %in% c(csc_vars[2], csc_vars[17]))
+# 
+# exp_cla_pc_data <- csc_data %>% 
+#   filter(description %in% c(csc_vars[2], csc_vars[17])) %>%
+#   pivot_wider(names_from = description, values_from = value) %>%
+#   rename(exp_cla = 4, pop = 5) %>%
+#   mutate(exp_cla_pc = (exp_cla * 100000) / pop) %>%
+#   pivot_longer(cols = exp_cla:exp_cla_pc, names_to = "description") %>%
+#   filter(description == "exp_cla_pc")
+# 
+# waff_dat <- csc_data %>% 
+#   add_row(exp_cla_pc_data) %>%
+#   filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
+#   mutate(description = case_when(description == "exp_cla_pc" ~ "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
+#                                  description == csc_vars[7] ~ "£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
+#                                  description == csc_vars[6] ~ "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
+#   group_by(year, description) %>%
+#   summarise(value = mean(value, na.rm = TRUE)) %>%
+#   mutate(value = value/20,
+#          label = "fa-money-bill-wave")
+# 
+# 
+# waff_dat_combined <- waff_dat %>%
+#   filter(year == 2011) %>%
+#   mutate(value = round(value)) %>%
+#   uncount(value) %>%
+#   ungroup() %>%
+#   waffle_iron(aes_d(group = description)) %>%
+#   mutate(label = fontawesome("fa-money"),
+#          year = 2011)
+# 
+# for (i in 2012:2019) {
+# 
+#   waff_dat_i <- waff_dat %>%
+#     filter(year == i) %>%
+#     mutate(value = round(value)) %>%
+#     uncount(value) %>%
+#     ungroup() %>%
+#     waffle_iron(aes_d(group = description)) %>%
+#     mutate(label = fontawesome("fa-money"),
+#            year = i)
+#   
+#   waff_dat_combined <- bind_rows(waff_dat_combined, waff_dat_i)
+#   
+# }
+# 
+# 
+# waff_dat_combined %>% 
+#   ggplot(aes(x, y, colour = group)) + 
+#   geom_text(aes(label=label), family='fontawesome-webfont', size=3) +
+#   coord_equal() + 
+#   scale_color_manual(
+#     name = NULL,
+#     values = c("#1B9E77", "#D95F02", "#7570B3"),
+#     labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
+#                "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
+#                "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
+#   ) +
+#   facet_grid(~year) +
+#   #coord_equal() +
+#   labs(title = "Spending per Child on Different Services (England LA Average)") +
+#   theme_minimal() +
+#   theme(plot.background = element_blank(),
+#         panel.grid = element_blank(),
+#         axis.ticks = element_blank(),
+#         plot.title = element_text(hjust = 0.5, face = "bold"),
+#         legend.text = element_text(hjust = 0, vjust = 1)) +
+#   ggeasy::easy_text_size(size = 12) +
+#   ggeasy::easy_remove_legend_title() +
+#   ggeasy::easy_remove_axes() +
+#   theme(legend.position = "top") +
+#   guides(col = guide_legend(ncol=1, nrow=3, byrow=TRUE)) 
+
 
 spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
   
@@ -2523,7 +2617,7 @@ spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
   
   if (is.null(la_select)) {
     
-    data %>% 
+    waff_dat <- data %>% 
       add_row(exp_cla_pc_data) %>%
       filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
       mutate(description = case_when(description == "exp_cla_pc" ~ "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
@@ -2531,126 +2625,162 @@ spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
                                      description == csc_vars[6] ~ "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
       group_by(year, description) %>%
       summarise(value = mean(value, na.rm = TRUE)) %>%
-      mutate(value = value/20) %>%
-      ggplot() +
-      geom_pictogram(aes(label = description, col = description, values = value), 
-                     flip = TRUE, make_proportional = FALSE, size = 6,
-                     n_rows = 5) +
+      mutate(value = value/20,
+             label = "fa-money-bill-wave")
+    
+    waff_dat_combined <- waff_dat %>%
+      filter(year == 2011) %>%
+      mutate(value = round(value)) %>%
+      uncount(value) %>%
+      ungroup() %>%
+      waffle_iron(aes_d(group = description), rows = 15) %>%
+      mutate(label = fontawesome("fa-money"),
+             year = 2011)
+    
+    for (i in 2012:2019) {
+      
+      waff_dat_i <- waff_dat %>%
+        filter(year == i) %>%
+        mutate(value = round(value)) %>%
+        uncount(value) %>%
+        ungroup() %>%
+        waffle_iron(aes_d(group = description), rows = 15) %>%
+        mutate(label = fontawesome("fa-money"),
+               year = i)
+      
+      waff_dat_combined <- bind_rows(waff_dat_combined, waff_dat_i)
+      
+    }
+    
+    waff_plot <- waff_dat_combined %>% 
+      ggplot(aes(x, y, colour = group)) + 
+      geom_text(aes(label=label), family='fontawesome-webfont', size=12,
+                key_glyph = "rect") +
       scale_color_manual(
         name = NULL,
         values = c("#1B9E77", "#D95F02", "#7570B3"),
         labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                    "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
                    "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-      ) +
-      scale_label_pictogram(
-        name = NULL,
-        values = c("money-bill", "money-bill", "money-bill"),
-        labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                   "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                   "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-      ) +
-      # max is 3650 which equals 10 * 5 * 71
-      # ylim(c(0, 71)) +
+        ) +
       facet_grid(~year) +
-     # ylim(c(0, 37)) +
-      coord_equal() +
+      coord_equal(1) +
       labs(title = "Spending per Child on Different Services (England LA Average)") +
       theme_minimal() +
+      xlim(c(0, max(waff_dat_combined$x) + 1)) +
       theme(plot.background = element_blank(),
             panel.grid = element_blank(),
             axis.ticks = element_blank(),
             plot.title = element_text(hjust = 0.5, face = "bold"),
-            legend.text = element_text(hjust = 0, vjust = 1)) +
-      ggeasy::easy_text_size(size = 12) +
+            legend.text = element_text(hjust = 0.5, vjust = 0.5)) +
+      ggeasy::easy_text_size(size = 20) +
       ggeasy::easy_remove_legend_title() +
       ggeasy::easy_remove_axes() +
-      theme(legend.position = "top") +
+      theme(legend.position = "top",
+            legend.text=element_text(size=14)) +
       guides(col = guide_legend(ncol=1, nrow=3, byrow=TRUE)) 
     
     
-    # waff_plot <- set_panel_size(waff_plot, width = unit(1.5, "in"), height = unit(3.5, "in"))
-    # 
-    # grid.arrange(waff_plot)
+    #waff_plot <- set_panel_size(waff_plot, width = unit(1.5, "in"), height = unit(3.5, "in"))
+    
+    waff_plot
     
   } else {
     
     if (length(la_select) == 1) {
       
-     data %>% 
+      waff_dat <- data %>% 
         add_row(exp_cla_pc_data) %>%
         filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
         mutate(description = case_when(description == "exp_cla_pc" ~ "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
                                        description == csc_vars[7] ~ "£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                                        description == csc_vars[6] ~ "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
         filter(la_name %in% la_select) %>%
-        mutate(value = value/20) %>%
-        ggplot() +
-        geom_pictogram(aes(label = description, col = description, values = value), 
-                       flip = TRUE, make_proportional = FALSE, size = 6,
-                       n_rows = 5) +
+        group_by(year, description) %>%
+        summarise(value = mean(value, na.rm = TRUE)) %>%
+        mutate(value = value/20,
+               label = "fa-money-bill-wave")
+      
+      waff_dat_combined <- waff_dat %>%
+        filter(year == 2011) %>%
+        mutate(value = round(value)) %>%
+        uncount(value) %>%
+        ungroup() %>%
+        waffle_iron(aes_d(group = description), rows = 15) %>%
+        mutate(label = fontawesome("fa-money"),
+               year = 2011)
+      
+      for (i in 2012:2019) {
+        
+        waff_dat_i <- waff_dat %>%
+          filter(year == i) %>%
+          mutate(value = round(value)) %>%
+          uncount(value) %>%
+          ungroup() %>%
+          waffle_iron(aes_d(group = description), rows = 15) %>%
+          mutate(label = fontawesome("fa-money"),
+                 year = i)
+        
+        waff_dat_combined <- bind_rows(waff_dat_combined, waff_dat_i)
+        
+      }
+      
+      waff_plot <- waff_dat_combined %>% 
+        ggplot(aes(x, y, colour = group)) + 
+        geom_text(aes(label=label), family='fontawesome-webfont', size=12,
+                  key_glyph = "rect") +
         scale_color_manual(
           name = NULL,
           values = c("#1B9E77", "#D95F02", "#7570B3"),
           labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
                      "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                     "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-        ) +
-        scale_label_pictogram(
-          name = NULL,
-          values = c("money-bill", "money-bill", "money-bill"),
-          labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                     "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                     "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
+                     "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)"),
+          guide = guide_legend(label.hjust = 0.5)
         ) +
         facet_grid(~year) +
-       # ylim(c(0, 37)) +
-        coord_equal() +
-        labs(title = paste0("Spending per Child on Different Services ", "(", la_select, ")")) +
+        coord_equal(1) +
+        labs(title = paste("Spending per Child on Different Services - ", la_select)) +
         theme_minimal() +
+        xlim(c(0, max(waff_dat_combined$x) + 1)) +
         theme(plot.background = element_blank(),
               panel.grid = element_blank(),
               axis.ticks = element_blank(),
               plot.title = element_text(hjust = 0.5, face = "bold"),
-              legend.text = element_text(hjust = 0, vjust = 1)) +
-        ggeasy::easy_text_size(size = 12) +
+              legend.text = element_text(hjust = 0.5, vjust = 0.5)) +
+        ggeasy::easy_text_size(size = 20) +
         ggeasy::easy_remove_legend_title() +
         ggeasy::easy_remove_axes() +
-        theme(legend.position = "top") +
+        theme(legend.position = "top",
+              legend.text=element_text(size=14)) +
         guides(col = guide_legend(ncol=1, nrow=3, byrow=TRUE)) 
       
-      # 
-      # waff_plot <- set_panel_size(waff_plot, width = unit(1.5, "in"), height = unit(5.5, "in"))
-      # 
-      # grid.arrange(waff_plot)
+      
+      #waff_plot <- set_panel_size(waff_plot, width = unit(1.5, "in"), height = unit(3.5, "in"))
+      
+      waff_plot
       
     } else {
       
       data %>% 
         add_row(exp_cla_pc_data) %>%
         filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
-        mutate(description = case_when(description == "exp_cla_pc" ~ "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                                       description == csc_vars[7] ~ "£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                                       description == csc_vars[6] ~ "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
+        mutate(description = case_when(description == "exp_cla_pc" ~ "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
+                                       description == csc_vars[7] ~ "£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
+                                       description == csc_vars[6] ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
         filter(la_name %in% la_select) %>%
-        mutate(value = value/20) %>%
+        mutate(value = value/20,
+               label = "fa-money-bill-wave") %>%
         ggplot() +
-        geom_pictogram(aes(label = description, col = description, values = value), 
-                       flip = TRUE, make_proportional = FALSE, size = 5/length(la_select),
-                       n_rows = 5) +
+        geom_text(aes(label = label, family = 'fontawesome-webfont', 
+                      col = description, values = value), 
+                  flip = TRUE, make_proportional = FALSE, size = 4,
+                  n_rows = 5) +
         scale_color_manual(
           name = NULL,
           values = c("#1B9E77", "#D95F02", "#7570B3"),
-          labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                     "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                     "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-        ) +
-        scale_label_pictogram(
-          name = NULL,
-          values = c("money-bill-wave", "money-bill-wave", "money-bill-wave"),
-          labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-                     "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-                     "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
+          labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
+                     "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
+                     "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
         ) +
         facet_grid(la_name ~ year) +
         coord_equal() +
@@ -2766,8 +2896,8 @@ plot_csc_hca <- function(data, var_list, la_select = NULL, year_range = 2011:201
       select(-new_la_code, -la_name) %>%
       as.data.frame(hclust_data)
     
-    
-    # print(arrange(hclust_data %>% mutate(id = row_number()), early_help_family_support_non_sg_non_cla_expenditure_per_child_aged_0_17_per_child_in_2019_prices))
+    # 
+    # print(hclust_data %>% mutate(rownum = row_number()) %>% arrange(children_looked_after_rate_per_10_000))
     # print(as.data.frame(name_row_lookup))
     
     
@@ -2805,7 +2935,7 @@ plot_csc_hca <- function(data, var_list, la_select = NULL, year_range = 2011:201
               inherit.aes = FALSE, size = 1.5, col = "#00947c") +
     geom_text(data = csc_dendro$labels,
               aes(x = x, y= log(y+1), label = paste("    ", label, "     "), hjust = hjust),
-              inherit.aes = FALSE, size = 3,
+              inherit.aes = FALSE, size = geom_text_size-2,
               angle = csc_dendro$labels$angle) +
     labs(caption = str_wrap(paste("Local Authority clustered by similarity using HCA by", paste(var_list, collapse = ", "), ". Length of line connecting two local authorities is equal to their similarity across these dimensions, where shorter equals more similar. Dots equal LAs selected by user.", 
                                   paste("Years ending:", year_range[1]), "-", paste(year_range[length(year_range)]), ifelse(trend_hca == FALSE, "", "Clustered by linear trend over year range.")), 120)) +
@@ -2824,9 +2954,11 @@ plot_csc_hca <- function(data, var_list, la_select = NULL, year_range = 2011:201
         panel.background = element_rect(fill = "transparent"),
         plot.background = element_rect(fill = "transparent"),
         axis.text = element_blank(),
-        axis.ticks = element_blank(),
+        axis.ticks = element_blank()
         # plot.margin = unit(c(-1.75, -1.75, -1.75, -2.25),"cm")
-      ) 
+      ) +
+    theme_void() +
+    theme(plot.caption = element_text(size = annotation_text_size, hjust = 1))
   
   
   
@@ -2876,26 +3008,30 @@ plot_ethnic_inequalities <- function(data, var, la_select = NULL, relative = FAL
       geom_text(aes(y = value, x = reorder(as.factor(LA), -value), 
                     label = ifelse(value > 0, paste(" ", LA, round(value, 2)), paste(LA, round(value, 2), "   ")), hjust = ifelse(value-1 > 0, 0, 1), 
                     fontface = ifelse(LA %in% c("England LA Average", la_select), "bold", "plain")), 
-                stat = "identity", vjust = 0.4, size = 4) +
+                stat = "identity", vjust = 0.4, size = geom_text_size-1) +
       scale_fill_distiller("", palette = "BuGn", type = "seq", direction = 1) +
       theme_minimal() +
       easy_remove_y_axis() +
       easy_remove_legend() +
       ylab("") +
       ggtitle(str_wrap(var, 80)) +
-      theme(panel.grid = element_blank(),
-            plot.title = element_text(hjust = 0.5, face = "bold")) +
       #scale_y_continuous(trans = shift_trans(1), limits = c(-1* (1.5*max(data$value)), 1.5*max(data$value))) +
       scale_y_continuous(trans = "log10", limits = c(0.05, 2.5*max(data$value))) +
+      theme(panel.grid = element_blank(),
+            plot.title = element_text(hjust = 0.5, face = "bold", size = gg_title_size),
+            axis.title = element_text(size = axis_title_size),
+            axis.text = element_text(size = axis_text_size)
+            ) +
       coord_flip() &
-      plot_annotation(caption = str_wrap("Based on estimated 0-17 Ethnic Group Population Size and Children in Need Statistics. Missing and zero data usually indicates censored rates (due to small numbers of interventions).", 80))
+      plot_annotation(caption = str_wrap("Based on estimated 0-17 Ethnic Group Population Size and Children in Need Statistics. Missing and zero data usually indicates censored rates (due to small numbers of interventions).", 80)) &
+      theme(plot.caption = element_text(size = annotation_text_size, hjust = 1))
 
   } else {
   
   data %>%
     ggplot() +
     geom_bar(aes(y = value, x = reorder(as.factor(LA), -value), fill = value), stat = "identity") +
-    geom_text(aes(y = value, x = reorder(as.factor(LA), -value), label = paste(" ", LA, round(value, 1)), fontface = ifelse(LA %in% c("England LA Average", la_select), "bold", "plain")), stat = "identity", hjust = 0, vjust = 0.4, size = 4) +
+    geom_text(aes(y = value, x = reorder(as.factor(LA), -value), label = paste(" ", LA, round(value, 1)), fontface = ifelse(LA %in% c("England LA Average", la_select), "bold", "plain")), stat = "identity", hjust = 0, vjust = 0.4, size = geom_text_size) +
     scale_fill_distiller("", palette = "BuGn", type = "seq", direction = 1) +
     ylim(c(0, 1.2*max(data$value))) +
     theme_minimal() +
@@ -2904,9 +3040,13 @@ plot_ethnic_inequalities <- function(data, var, la_select = NULL, relative = FAL
     ylab("") +
     ggtitle(str_wrap(var, 80)) +
     theme(panel.grid = element_blank(),
-          plot.title = element_text(hjust = 0.5, face = "bold")) +
+          plot.title = element_text(hjust = 0.5, face = "bold", size = gg_title_size),
+          axis.title = element_text(size = axis_title_size),
+          axis.text = element_text(size = axis_text_size),
+          plot.caption = element_text(size = annotation_text_size)) +
     coord_flip() &
-    plot_annotation(caption = str_wrap("Based on estimated 0-17 Ethnic Group Population Size and Children in Need Statistics. Missing and zero data usually indicates censored rates (due to small numbers of interventions).", 80))
+    plot_annotation(caption = str_wrap("Based on estimated 0-17 Ethnic Group Population Size and Children in Need Statistics. Missing and zero data usually indicates censored rates (due to small numbers of interventions).", 80)) &
+    theme(plot.caption = element_text(size = annotation_text_size, hjust = 1))
   
   }    
     
@@ -2935,5 +3075,46 @@ plot_ethnic_inequalities <- function(data, var, la_select = NULL, relative = FAL
 #   filter(description %in% c(csc_vars[2], csc_vars[17], csc_vars[6], csc_vars[7], csc_vars[18])) %>%
 #   write_rds(., path="temp/csc_data_spend_imd.rds")
 
+# Total CSC spending on looked after in 2019
 
+# csc_data %>% filter(description == csc_vars[2] & year == 2019) %>%
+#   summarise(value = sum(value, na.rm = TRUE))
 
+# Danica
+# 
+# csc_vars
+# 
+# 
+# read_rds("data/csc_data_v3.RDS") %>%
+#   mutate(value = ifelse(is.infinite(value), NA, value)) %>%
+#   filter(description %in% c(csc_vars[104], csc_vars[8], csc_vars[7], csc_vars[6],
+#                             csc_vars[18], csc_vars[17], csc_vars[167], csc_vars[174], 
+#                             csc_vars[175], csc_vars[176], csc_vars[177], csc_vars[178], 
+#                             csc_vars[180], csc_vars[184], csc_vars[194], csc_vars[197])) %>%
+#   pivot_wider(values_from = value, names_from = description) %>%
+#   names(.) %>%
+#   view(.)
+# 
+# read_rds("data/csc_data_v3.RDS") %>%
+#   mutate(value = ifelse(is.infinite(value), NA, value),
+#          la_name = case_when(la_name == "Kingston Upon Hull, City of" ~ "Kingston upon Hull City of",
+#                              la_name == "Bristol, City of" ~ "Bristol City of",
+#                              la_name == "Bedford Borough" ~ "Bedford",
+#                              TRUE ~ la_name
+#                              ),
+#          new_la_code = ifelse(new_la_code == "E06000057", "E06000048", ifelse(new_la_code == "E08000037", "E08000020", new_la_code))) %>%
+#   filter(description %in% c(csc_vars[104], csc_vars[8], csc_vars[7], csc_vars[6],
+#                             csc_vars[18], csc_vars[17], csc_vars[167], csc_vars[174], csc_vars[175],
+#                             csc_vars[176], csc_vars[177], csc_vars[178], csc_vars[180],
+#                             csc_vars[184], csc_vars[194], csc_vars[197])) %>%
+#   pivot_wider(values_from = value, names_from = description) %>%
+#   clean_names() %>%
+#   rename(sg_exp_pc = 4, eh_exp_pc = 5, cla_exp_pc = 6, 
+#          child_pop = 7, imd_score = 8, total_cla = 9, 
+#          cla_male_percent = 10, cla_white_percent = 11, 
+#          cla_mh_percent = 12, cla_asian_percent = 13,
+#          cla_black_percent = 14, cla_other_percent = 15, cla_foster_percent = 16,
+#          cla_su_resi_percent = 17, cla_laprov_percent = 18, cla_privprov_percent = 19
+#          ) %>%
+#   filter(year > 2015) %>%
+#   write_csv(., "/Users/calumwebb/Library/Mobile Documents/com~apple~CloudDocs/r/danica_placement_data/cwip_app_data.csv")

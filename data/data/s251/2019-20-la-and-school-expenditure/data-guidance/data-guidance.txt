@@ -1,0 +1,198 @@
+LA and school expenditure
+2019-20 Financial Year
+
+Description
+
+This document describes the data included in the School Finance in England National Statistics release’s underlying data files. This data is released under the terms of the  Open Government License and is intended to meet at least 3 stars for  Open Data.
+
+The  methodology document should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+Coverage
+
+The Statistical Publication: ‘School Finance in England’ provides the latest information at national, regional and local level on the expenditure on schools, education and children's and young people's services by local authorities. Alongside the local authority spending, the release also provides a detailed breakdown of income and expenditure by schools, with aggregations to the local authority, regional and national level. The publication summarises the information that was collected via the October 2020 Consistent Financial Reporting (CFR) and S251 collections (with collection of both being delayed due to Covid-19). It supersedes the 2019 data release, which was provided as an Excel spreadsheet ( LA_and_school_expenditure_2018-19_Tables.xlsx).
+
+The release is being made in two stages, with the S251 data (spending by local authorities) being released on 21st January 2021 and the CFR data (schools finances) being released on 11th February 2021. The CFR data will also be available at an individual school level via the Schools Financial Benchmarking website.
+
+This publication includes information on:
+
+- Local authority spending on schools and other education- time-series giving the detailed breakdown of spending split by school-phase and overall spending area (e.g. individual schools budget, expenditure on free school meals, SEN support etc).
+- Local authority spending on children's and young people's services- time-series giving the detailed breakdown of spending split by provision sector (e.g. own, private, voluntary) and spending area (e.g. sure start centres, family services, youth justice etc).
+- Schools' income and expenditure- time-series giving the detailed breakdown of schools income and expenditure by school phase and financial area (e.g. staff, estates and buildings, etc)
+- Schools' revenue balances- time-series giving the overall financial balance data for schools and overall numbers of schools in surplus and deficit.
+
+File formats and conventions
+
+The data files are provided in comma-separated values format, which is compatible with standard spreadsheet software such as Excel.
+
+The following symbols are used in the underlying data files as follows:
+
+: Not available - this information has not been collected or there are no estimates available at this level of aggregation.
+
+N/A Not available - this is normally where a statistic cannot be produced. For example where a denominator is not available to produce a percentage.
+
+z= not applicable. The 'z' symbol is only to be used when an observation is not applicable (e.g. in tables of employment where people under 16 cannot legally be employed).
+
+Data files
+
+CFR School Income and Expenditure (National, Regional, LA levels))
+
+Filename: cfr_incomeexp_v2.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2014-15 to 2019-20
+Content summary: Income and expenditure of LA maintained schools
+
+Variable names and descriptions for this file are provided below:
+
+Variable name     |  Variable description
+----------------  |  ------------------
+Category          |  Financial category
+Description       |  Financial entry
+ReportGroup       |  Income/Expenditure
+school_phase      |  School phase
+Value             |  Total
+ValueFY_perpupil  |  Per pupil
+
+Footnotes:
+
+1. There are a small number of local authorities with no LA maintained secondary schools, all are academies. 
+
+
+CFR School Revenue Balances (National, Regional, LA Levels))
+
+Filename: cfr_revenuebalance_v2.3.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2014-15 to 2019-20
+Content summary: Revenue balances of LA maintained schools
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  --------------------------------------------------------
+average_revenue_balance  |  Average revenue balance
+AveValueOverThresh       |  Average value of surplus over surplus threshold
+B01                      |  Committed revenue balance (B01)
+B02                      |  Uncommitted revenue balance (B02)
+B06                      |  Community focussed extended school revenue balance (B06)
+number_schools           |  Number of schools
+NumOverThresh            |  Number of schools over surplus threshold
+perc_BalanceofIncome     |  Revenue balance as percentage of total income
+PercOverThresh           |  Percentage of schools over surplus threshold
+PercSchools              |  Percentage of schools
+revenue_state            |  Revenue state
+school_phase             |  Phase
+total_income             |  Total Income
+total_revenue_balance    |  Total revenue balance
+ValueOverThresh          |  Total value of surplus over surplus threshold
+
+Footnotes:
+
+1. There are a small number of local authorities with no LA maintained secondary schools, are all academies.
+
+
+S251 Children and Young People's Services (National, Regional, LA levels)
+
+Filename: s251_table-a1_cyps_ees_201420_v3.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2014-15 to 2019-20
+Content summary: Spending by local authorities on Children's and Young People's Services
+
+Variable names and descriptions for this file are provided below:
+
+Variable name             |  Variable description
+------------------------  |  ---------------------------------------------------------------
+Capita                    |  Capita
+Description               |  Description - Choose the funding lines you are interested in
+GovGrantsInsideAEF        |  Government Grants Inside AEF
+GovGrantsOutsideAEF       |  Government Grants Outside AEF
+Income                    |  Income
+LEANetRevenueExpenditure  |  Net Revenue Expenditure
+NetCurrentExpenditure     |  Net Current Expenditure
+NetExpPCapita             |  Net Current Expenditure per Capita
+OtherPublic               |  Other Public
+OwnProvision              |  Own Provision
+PrivateProvision          |  Private Provision
+ReportGroup               |  Report group - Choose the reporting group you are interested in
+TotalExpenditure          |  Total Expenditure
+Voluntary                 |  Voluntary
+
+Footnotes:
+
+1. Before using this data, please check the methodology section for important information such as definitions, limitations and caveats.
+
+
+S251 Dedicated Schools Grant Table 2019-20
+
+Filename: s251_dedicatedschoolsgrant_ees_201920_v1a.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2019-20
+Content summary: Financial breakdown of dedicated schools grant funding
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  ------------------------------------------------------------
+AllocatedDSGFunding  |  Allocated DSG Funding
+Description          |  Description - Choose the funding lines you are interested in
+Net                  |  Net
+Plannedspend         |  Planned spend
+
+Footnotes:
+
+1. Before using this data, please check the methodology section for important information such as definitions, limitations and caveats.
+
+
+S251 Schools Expenditure (National, Regional, LA levels)
+
+Filename: s251_table-a_schexp_ees_201420_v3d.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2014-15 to 2019-20
+Content summary: Spending by local authorities on schools and other education and community services
+
+Variable names and descriptions for this file are provided below:
+
+Variable name      |  Variable description
+-----------------  |  ---------------------------------------------------------------
+APPru              |  Alternative Provision PRU
+Description        |  Description - Choose the funding lines you are interested in
+EarlyYears         |  Early years
+Gross              |  Gross
+Income             |  Income
+MaintainedSchools  |  Maintained Schools Count
+Net                |  Net
+NetpPupil          |  Net per Pupil
+PostSchool         |  Post-school
+Primary            |  Primary
+PupilCount         |  Pupil Count
+ReportGroup        |  Report Group - Choose the reporting group you are interested in
+Secondary          |  Secondary
+SenSpecial         |  SEN Special
+
+Footnotes:
+
+1. Before using this data, please check the methodology section for important information such as definitions, limitations and caveats.
+
+
+S251 Summary Data
+
+Filename: cfr-s251_highlightssummary_v1.2.csv
+Geographic levels: Local Authority; National; Regional
+Time period: 2014-15 to 2019-20
+Content summary: Combined overview of gross and net spending by local authorities on schools, other education and children's and young people's services.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  --------------------------------------
+cyps_spend          |  Children and young people's services
+Description         |  Description
+GrossExpend         |  Gross expenditure by schools
+GrossExpendpPupil   |  Gross expenditure by schools per pupil
+NetExpend           |  Net expenditure by schools
+NetExpendpPupil     |  Net expenditure by schools per pupil
+OtherEdComm         |  Other education and community
+ReportGroup         |  Report Group
+school_expenditure  |  School expenditure
+
+Footnotes:
+
+1. Before using this data, please check the methodology section for important information such as definitions, limitations and caveats.

@@ -1,0 +1,284 @@
+
+Meta Data Document
+Release of underlying data
+“Children In Need in England, including their characteristics and further information on children who were the subject of a child protection plan (2009-10 Children in Need census, Final), OSR28-2010
+
+
+Background
+
+This release of Experimental Statistics provides final figures on the numbers of children referred to and assessed by Local Authority Social Care Services. It includes information on the numbers and characteristics of children in need and information on children who were the subject of a child protection plan for year ending March 2010.  This updates provisional information published in OSR24/2010 on 30 September 2010, as well as providing breakdowns of figures by new characteristics data for age, gender, ethnicity, disability, primary need, category of abuse, and reason for closure.
+
+A copy of the guidance notes for the 2009-10 Children in Need data collection can be found at:
+
+http://www.education.gov.uk/researchandstatistics/statisticalreturns/cincensus
+
+The Underlying Data File
+
+Title: OSR28-2010.csv
+File Headers:   See Annex A for a list of codes and headers
+Coverage:  	Total for England provided for each variable
+	        Total for each LA in England 
+
+Variable names – A list of the headings used in the CSV file and the corresponding variable names are shown at Annex A.
+
+Methodology
+
+Data are returned form 152 LAs in England.
+
+National totals are derived by summing data provided by each LA. In a number of cases where data is missing for a LA we have estimated the missing data. Detail on how this has been done is in paragraph 26 of the publication technical notes.
+
+Due to the estimation required for missing data from individual LAs, no GOR totals have been totalled.
+
+LA level data are data as returned by each LA and have been suppressed where necessary. 
+
+Not all LAs had suitable data available. In some cases they provided aggregate figures, these are highlighted in the DCI columns by an 'A'. Footnotes to describe the individual situations for the LAs are in the publication tables.
+
+Data Quality Indicator (DCI) values: '3' denotes high confidence, '2' denotes medium confidence, '1' denotes low confidence, 'A' denotes aggregate information was supplied by the Local Authority and '..' denotes no data was supplied/published. Further details on the construction of the indicator are in the publication technical notes, paragraphs 20 to 25.
+
+
+Rounding and Suppression: National figures have been rounded to the nearest 100 as they include estimates for missing data. Any numbers between 1 and 5 inclusive (before rounding) have been suppressed and have been replaced by an ‘x’. Where there is a percentage reported and the difference between the numerator and denominator is between 1 and 5, the numerator and the denominator have been suppressed and replaced by a ‘x’. Where any number is shown as zero (0), the original figure submitted was zero. Where data were not submitted by a Local Authority ‘..’ has been used. 
+
+Annex A
+
+geog_l:     Geography Level
+geog_c:     Geography Code
+geog_n:     Geography Name
+CINThro0910:     Number of Children in Need throughout 2009-10
+CINStarting0910:     Number of Children starting an episode of need in 2009-10
+CINEnding0910:     Number of Children ending an episode of need in 2009-10
+CINAt310310:     Number of Children in Need at 31st March 2010
+CINRatePer10K:     Rate per 10,000 Children in Need
+CINThro0910DCI:     Data Confidence Indicator - Children in Need throughout 2009-10
+CINStarting0910DCI:     Data Confidence Indicator - Children starting an episode of need in 2009-10
+CINEnding0910DCI:     Data Confidence Indicator - Children ending and episode of need in 2009-10
+CINAt310310DCI:     Data Confidence Indicator - Children in Need at 31st March 2010
+CINAt310310UnbornUnknown:     Number of Children in Need at 31st March 2010 unborn or unknown gender
+CINAt310310MaleUnder1:     Number of Children in Need at 31st March 2010 Male under 1 year old.
+CINAt310310Male1-4yrs:     Number of Children in Need at 31st March 2010 male 1-4 years old
+CINAt310310Male5-9yrs:     Number of Children in Need at 31st March 2010 male 5-9 years old
+CINAt310310Male10-15yrs:     Number of Children in Need at 31st March 2010 male 10-15 years old
+CINAt310310Male16+yrs:     Number of Children in Need at 31st March 2010 male over 16 years
+CINAt310310TotalMales:     Number of Children in Need at 31st March 2010 total males
+CINAt310310FemaleUnder1:     Number of Children in Need at 31st March 2010 female under 1 year old.
+CINAt310310Female1-4yrs:     Number of Children in Need at 31st March 2010 female 1-4 years old
+CINAt310310Female5-9yrs:     Number of Children in Need at 31st March 2010 female 5-9 years old
+CINAt310310Female10-15yrs:     Number of Children in Need at 31st March 2010 female 10-15 years old
+CINAt310310Female16+yrs:     Number of Children in Need at 31st March 2010 female over 16 years
+CINAt310310TotalFemales:     Number of Children in Need at 31st March 2010 total females
+CINat310310AgeDCI:     Data Confidence Indicator - Age at 31st March 2010
+CIN310310GenderDCI:     Data Confidence Indicator - Gender at 31st March 2010
+CINEnding0910RCmissing:     Number of Children ceasing an episode of need in 2009-10 with unknown reason for closure
+%CINEnding0910RCmissing:     Percentage of Children ceasing an episode of need in 2009-10 with unknown reason for closure
+CINEnding0910RCAd:     Number of Children ceasing an episode of need in 2009-10 with adopted reason for closure
+%CINEnding0910RCAd:     Percentage of Children ceasing an episode of need in 2009-10 with adopted reason for closure
+CINEnding0910RCDied:     Number of Children ceasing an episode of need in 2009-10 with died reason for closure
+%CINEnding0910RCDied:     Percentage of Children ceasing an episode of need in 2009-10 with died reason for closure
+CINEnding0910ResidenceOrder:     Number of Children ceasing an episode of need in 2009-10 with residence order reason for closure
+%CINEnding0910ResidenceOrder:     Percentage of Children ceasing an episode of need in 2009-10 with residence order reason for closure
+CinEnding0910SpecialGuardianship:     Number of Children ceasing an episode of need in 2009-10 with special guardianship reason for closure
+%CINEnding0910SpecialGuardianship:     Percentage of Children ceasing an episode of need in 2009-10 with special guardianship reason for closure
+CINEnding0910TransferToLA:     Number of Children ceasing an episode of need in 2009-10 with transfer to LA reason for closure
+%CINEnding0910TransferToLA:     Percentage of Children ceasing an episode of need in 2009-10 with transfer to LA reason for closure
+CINEnding0910TransferToAdultServices:     Number of Children ceasing an episode of need in 2009-10 with transfer to adult services reason for closure
+%CINEnding0910TransferToAdultServices:     Percentage of Children ceasing an episode of need in 2009-10 with transfer to adult services reason for closure
+CINEnding0910Other/NotInNeed:     Number of Children ceasing an episode of need in 2009-10 with not in need reason for closure
+%CINEnding0910Other/NotInNeed:     Percentage of Children ceasing an episode of need in 2009-10 with not in need reason for closure
+CINEnding0910RCDCI:     Data Confidence Indicator - Children ceasing an episode of need by closure reason
+CINAt310310EthnicityMissing:     Number of Children in Need at 31st March 2010 with missing ethnicity
+CINAt310310White:     Number of White Children in Need at 31st March 2010
+CINAt310310Mixed:     Number of Mixed race Children in Need at 31st March 2010
+CINAt310310AsianOrAsianBritish:     Number of Asian or Asian British Children in Need at 31st March 2010
+CINAt310310BlackorBlackBritish:     Number of Black or Black British Children in Need at 31st March 2010
+CINAt310310Other:     Number of Other ethnicity Children in Need at 31st March 2010
+CINAt310310Refused/NotObtained:     Number of Children in Need at 31st March with Refused/Not Obtained ethnicity
+CINAt310310EthnicityDCI:     Data Confidence Indicator - Ethnicity
+CINAt310310NoOfDisabilities:     Disabled Children in Need at 31st March 2010
+CINAt310310DisabilitiesMissing:     Children in Need at 31st March 2010 with missing disability
+CINAt310310DisabilitiesUnborn:     Children in Need at 31st March 2010 with unborn disability
+CINAt310310Autism/Asperger:     Children in Need at 31st March 2010 with Autism/Aspergers disability
+CINAt310310Behaviour:     Children in Need at 31st March 2010 with Behaviour disability
+CINAt310310Communication:     Children in Need at 31st March 2010 with Communication disability
+CINAt310310Consciousness:     Children in Need at 31st March 2010 with Consciousness disability
+CINAt310310HandFunction:     Children in Need at 31st March 2010 with Hand Function disability
+CINAt310310Hearing:     Children in Need at 31st March 2010 with Hearing disability
+CINAt310310Incontinence:     Children in Need at 31st March 2010 with Incontinence disability
+CINAt310310Learning:     Children in Need at 31st March 2010 with Learning disability
+CINAt310310Mobility:     Children in Need at 31st March 2010 with Mobility disability
+CINAt310310PersonalCare:     Children in Need at 31st March 2010 with Personal Care disability
+CINAt310310Vision:     Children in Need at 31st March 2010 with Vision disability
+CINAt310310OtherDisability:     Children in Need at 31st March 2010 with Other disability
+CINAt310310None:     Children in Need at 31st March 2010 with None disability
+CINAt310310DisabilitiesDCI:     Data Confidence Indicator - Disability
+CINAt310310PrimaryNeedMissingUnknown:     Number of Children in Need at 31st March 2010 with Primary Need code Missing/Unknown
+CINAt310310IAPriNeedAbuse/Neglect:     Number of Children in Need at 31st March 2010 with Primary Need code Abuse or Neglect
+CINAt310310IAPriNeedChildDisability/Illness:     Number of Children in Need at 31st March 2010 with Primary Need code Child Disability or Family 
+CINAt310310IAPriNeedParentDisability/Illness:     Number of Children in Need at 31st March 2010 with Primary Need code Parent Disability or Illness
+CINAt310310IAPRiNeedFamilyStress:     Number of Children in Need at 31st March 2010 with Primary Need code Family Stress
+CINAt310310IAPriNeedFamilyDysfunction:     Number of Children in Need at 31st March 2010 with Primary Need code Family Dysfunction
+CINAt310310IAPriNeedUnacceptableBehaviour:     Number of Children in Need at 31st March 2010 with Primary Need code Unacceptable Behaviour
+CINAt310310IAPriNeedLowInc:     Number of Children in Need at 31st March 2010 with Primary Need code Low Income
+CINAt310310IAPriNeedAbsentParent:     Number of Children in Need at 31st March 2010 with Primary Need code Absent Parenting
+CINAt310310PriNeedOther:     Number of Children in Need at 31st March 2010 with Primary Need code Missing/Unknown
+CINAt310310IAPriNeedNotStated:     Number of Children in Need at 31st March 2010 with Primary Need code Cases other than children in need
+CINAt310310PrimaryNeedDCI:     Data Confidence Indicator - Primary Need code.
+CINAt310310OCs:     Number of Children in Need at 31st March 2010 with open case status
+CINAt310310OCMissing/unknown:     Number of Children in Need at 31st March 2010 with Missing open case status
+CINAt310310LookedAfterChild:     Number of Children in Need at 31st March 2010 with Looked After Child open case status
+CINAt310310ResidenceOrder:     Number of Children in Need at 31st March 2010 with Residence Order open case status
+CINAt310310SpecialGuardian:     Number of Children in Need at 31st March 2010 with Special Guardian open case status
+CINAt310310TransitionPlan:     Number of Children in Need at 31st March 2010 with Transition Plan open case status
+CINAt310310CaredRelative:     Number of Children in Need at 31st March 2010 with Cared for by relative open case status
+CINAt310310PrivateFostered:     Number of Children in Need at 31st March 2010 with Private Fostered open case status
+CINAt310310YoungCarer:     Number of Children in Need at 31st March 2010 with Young Carer open case status
+CINAt310310OvernightChild'sHome:     Number of Children in Need at 31st March 2010 with Overnight in Childs Home open case status
+CINAt310310OvernightCarer'sHome:     Number of Children in Need at 31st March 2010 with Overnight in a Carers Home open case status
+CINAt310310OvernightAnotherSett:     Number of Children in Need at 31st March 2010 with Overnight in another setting open case status
+CINAt310310DaycareChild'sHome:     Number of Children in Need at 31st March 2010 with Day Care in Childs Home open case status
+CINAt310310DaycareCarer'sHome:     Number of Children in Need at 31st March 2010 with Day Care in Carers Home open case status
+CINAt310310DaycareAnotherSett:     Number of Children in Need at 31st March 2010 with Day Care in another Setting open case status
+CINAt310310Befriending:     Number of Children in Need at 31st March 2010 with Befriending Service open case status
+CINAt310310ChildDirectPayments:     Number of Children in Need at 31st March 2010 with Child Receiving Direct Payments open case status
+CINAt310310CarerDirectPayments:     Number of Children in Need at 31st March 2010 with Carer Receiving Direct Payments open case status
+CINAt310310OtherOpenCase:     Number of Children in Need at 31st March 2010 with Other open case status
+CINAt310310OCsDCI:     Data Confidence Indicator - Open Case Status
+CINEnding0910DurationUnknown:     Children ceasing an episode of need in 2010 with unknown duration
+CINEnding0910Duration0-4wks:     Children ceasing an episode of need in 2010 of upto 4 weeks duration
+CINEnding0910Duration4-12wks:     Children ceasing an episode of need in 2010 of 4 to 12 weeks duration
+CINEnding0910Duration12-26wks:     Children ceasing an episode of need in 2010 of 12 - 16 weeks duration
+CINEnding0910Duration26wks-1yr:     Children ceasing an episode of need in 2010 of 26 weeks to 1 year duration
+CINEnding0910Duration1-2yrs:     Children ceasing an episode of need in 2010 of 1 to 2 years duration
+CINEnding0910Duration2-3yrs:     Children ceasing an episode of need in 2010 of 2 to 3 years duration
+CINEnding0910Duration3+yrs:     Children ceasing an episode of need in 2010 of over 3 years duration
+CINEnding0910Duration1+yrs:     Children ceasing an episode of need in 2010 of over 1 years duration
+CINEnding0910DurationDCI:     Data Confidence Indicator - open case duration
+CINAt310310OCDurationUnknown:     Children in Need at 31st March 2010 with unknown open case duration
+CINAt310310OCDuration0-4wks:     Children in Need at 31st March 2010 with 0 - 4 weeks open case duration
+CINAt310310OCDuration4-12wks:     Children in Need at 31st March 2010 with 4 - 12 weeks open case duration
+CINAt310310OCDuration12-26wks:     Children in Need at 31st March 2010 with 12 - 26 weeks open case duration
+CINAt310310OCDuration26wks-1yr:     Children in Need at 31st March 2010 with 26 weeks to 1 year open case duration
+CINAt310310OCDuration1-2yrs:     Children in Need at 31st March 2010 with 1 to 2 years open case duration
+CINAt310310OCDuration2-3yrs:     Children in Need at 31st March 2010 with 2 - 3 years open case duration
+CINAt310310OCDuration3+yrs:     Children in Need at 31st March 2010 with over 3 years open case duration
+CINAt310310OCDuration1+yrs:     Children in Need at 31st March 2010 with over 1 years open case duration
+CINAt310310OCDurationDCI:     Data Confidence Indicator - Duration of open case at 31st March 2010
+Referrals0910:     Number of referrals in 2009-10
+Referrals0910Rate:     Rate of referrals in 2009-10
+IAs0910:     Initial Assessments completed during 2009-10
+IAs0910Rate:     Rate of Initial Assessments completed during 2009-10
+IAs%OfReferrals0910:     Initial Assessments as a percentage of referrals in 2009-10
+IAsWithin7wd0910:     Initial Assessments completed within 7 working days during 2009-10
+%IAsWithin7wd0910:     Rate of Initial Assessments completed within 7 working days during 2009-10
+IAsWithin10wd0910:     Initial Assessments completed within 10 working days during 2009-10
+%IAsWithin10wd0910:     Rate of Initial Assessments completed within 10 working days during 2009-10
+IAs%OfReferrals0910DCI:     Data Confidence Indicator - Initial Assessments as a percentage of referrals
+IAs0910DCI:     Data Confidence Indicator - Initial Assessments completed 
+IAsWithin7wd0910DCI:     Data Confidence Indicator - Initial Assessments completed within 7 working days
+ChildrenReferredIn0910:     Number of Children referred in 2009-10
+ChildrenReferredIn0910MoreThanOnce:     Number of Children referred more than once in 2009-10
+%ChildrenReferredIn0910MoreThanOnce:     Percentage of Children referred more than once in 2009-10
+ChildrenReferredIn0910MoreThanOnceDCI:     Data Confidence indicator - Children referred more than once
+CAs0910:     Number of Core Assessments completed in 2009-10
+CAsWithin35wd0910:     Number of Core Assessments completed within 35 working days in 2009-10
+%CAsWithin35wd0910:     Percentage of Core Assessments completed within 35 working days in 2009-10
+CAs0910DCI:     Data Confidence Indicator - Core Assessments completed within the year
+CAsWithin35wd0910DCI:     Date Confidence Indicator - Core Assessments completed within 35 working days
+S47in0910:     Number of children subject to Section 47 enquiries within 2009-10
+ICPCin0910:     Number of children subject to an Initial Child Protection Conference in 2009-10
+ICPC15daysofS470910:     Number of Initial Child Protection Conferences held within 15 days of Section 47 enquiry in 2009-10
+%ICPC15daysofS470910:     Percentage of Initial Child Protection Conferences held within 15 days of Section 47 enquiry in 2009-10
+S47in0910DCI:     Data Confidence Indicator - Section 47 
+ICPCin0910DCI:     Data Confidence Indicator - Initial Child Protection Conferences
+ICPC15daysofS470910DCI:     Data Confidence Indicator - Initial Child Protection Conferences within 15 days of S47
+CPPIn0910:     Number of children who became the subject of a Child Protection plan during 2009-10
+CPPCeased0910:     Number of children who ceased to be the subject of a Child Protection plan during 2009-11
+CPPAt310310:     Number of children who were the subject of a Child Protection plan at 31 March 2010
+CPPAt310310RatePer10k:     Rate of children who were the subject of a Child Protection plan at 31 March 2010
+CPPIn0910DCI:     Data Confidence Indicator - Number of children who became the subject of a Child Protection plan during 2009-10
+CPPCeased0910DCI:     Data Confidence Indicator - Number of children who ceased to be the subject of a Child Protection plan during 2009-11
+CPPAt310310DCI:     Data Confidence Indicator - Number of children who were the subject of a Child Protection plan at 31 March 2010
+CPPin0910InitialAbuseNeglect:     Number of children who became the subject of a Child Protection plan during 2009-10 - Initial Category of abuse Neglect
+CPPin0910InitialAbusePhysical:     Number of children who became the subject of a Child Protection plan during 2009-10 - Initial Category of abuse Physical Abuse
+CPPin0910InitialAbuseSexual:     Number of children who became the subject of a Child Protection plan during 2009-10 - Initial Category of abuse Sexual Abuse
+CPPin0910InitialAbuseEmotional:     Number of children who became the subject of a Child Protection plan during 2009-10 - Initial Category of abuse Emotional Abuse
+CPPin0910InitialAbuseMultiple:     Number of children who became the subject of a Child Protection plan during 2009-10 - Initial Category of abuse Multiple categories
+CPPin0910InitialAbuseMissing:     Number of children who became the subject of a Child Protection plan during 2009-10 - Initial Category of abuse Missing
+CPPin0910LatestAbuseNeglect:     Number of children who became the subject of a Child Protection plan during 2009-10 - Latest Category of abuse Neglect
+CPPin0910LatestAbusePhysical:     Number of children who became the subject of a Child Protection plan during 2009-10 - Latest Category of abuse Physical Abuse
+CPPin0910LatestAbuseSexual:     Number of children who became the subject of a Child Protection plan during 2009-10 - Latest Category of abuse Sexual Abuse
+CPPin0910LatestAbuseEmotional:     Number of children who became the subject of a Child Protection plan during 2009-10 - Latest Category of abuse Emotional Abuse
+CPPin0910LatestAbuseMultiple:     Number of children who became the subject of a Child Protection plan during 2009-10 - Latest Category of abuse Multiple categories
+CPPin0910LatestAbuseMissing:     Number of children who became the subject of a Child Protection plan during 2009-10 - Latest Category of abuse Missing
+CPPin0910InitialDCI:     Data Confidence Indicator - Initial Category of abuse for children who became the subject of a Child Protection plan during 2009-10
+CPPin0910LatestDCI:     Data Confidence Indicator - Latest Category of abuse for children who became the subject of a Child Protection plan during 2009-10
+CPPat310310InitialAbuseNeglect:     Number of children who were the subject of a child protection plan at 31 March 2010 - Initial Category of abuse Neglect
+CPPat310310InitialAbusePhysical:     Number of children who were the subject of a child protection plan at 31 March 2010 - Initial Category of abuse Physical Abuse
+CPPat310310InitialAbuseSexual:     Number of children who were the subject of a child protection plan at 31 March 2010 - Initial Category of abuse Sexual Abuse
+CPPat310310InitialAbuseEmotional:     Number of children who were the subject of a child protection plan at 31 March 2010 - Initial Category of abuse Emotional Abuse
+CPPat310310InitialAbuseMultiple:     Number of children who were the subject of a child protection plan at 31 March 2010 - Initial Category of abuse Multiple categories
+CPPat310310InitialAbuseMissing:     Number of children who were the subject of a child protection plan at 31 March 2010 - Initial Category of abuse Missing
+CPPat310310LatestAbuseNeglect:     Number of children who were the subject of a child protection plan at 31 March 2010 - Latest Category of abuse Neglect
+CPPat310310LatestAbusePhysical:     Number of children who were the subject of a child protection plan at 31 March 2010 - Latest Category of abuse Physical Abuse
+CPPat310310LatestAbuseSexual:     Number of children who were the subject of a child protection plan at 31 March 2010 - Latest Category of abuse Sexual Abuse
+CPPat310310LatestAbuseEmotional:     Number of children who were the subject of a child protection plan at 31 March 2010 - Latest Category of abuse Emotional Abuse
+CPPat310310LatestAbuseMultiple:     Number of children who were the subject of a child protection plan at 31 March 2010 - Latest Category of abuse Multiple categories
+CPPat310310LatestAbuseMissing:     Number of children who were the subject of a child protection plan at 31 March 2010 - Latest Category of abuse Missing
+CPPat310310InitialDCI:     Data Confidence Indicator - Initial Category of abuse for children who were the subject of a child protection plan at 31 March 2010
+CPPat310310LatestDCI:     Data Confidence Indicator - Latest Category of abuse for children who were the subject of a child protection plan at 31 March 2010
+CPPat310310UnknownGender:     Number of children who were the subject of a child protection plan at 31 March 2010 - Unknown Gender
+CPPat310310Male<1yr:     Number of children who were the subject of a child protection plan at 31 March 2010 - male, age under 1
+CPPat310310Male1-4yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - male, age 1 to 4
+CPPat310310Male5-9yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - male, age 5 to 9
+CPPat310310Male10-15yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - male, age 10 to 15
+CPPat310310Male16+yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - male, age 16 and over
+CPPat310310TotalMales:     Number of children who were the subject of a child protection plan at 31 March 2010 - Total males
+CPPat310310Female<1yr:     Number of children who were the subject of a child protection plan at 31 March 2010 - female, age under 1
+CPPat310310Female1-4yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - female, age 1 to 4
+CPPat310310Female5-9yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - female, age 5 to 9
+CPPat310310Female10-15yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - female, age 10 to 15
+CPPat310310Female16+yrs:     Number of children who were the subject of a child protection plan at 31 March 2010 - female, age 16 and over
+CPPat310310TotalFemales:     Number of children who were the subject of a child protection plan at 31 March 2010 - Total females
+CPPat310310AgeDCI:     Data Confidence Indicator - Age for Number of children who were the subject of a child protection plan at 31 March 2010
+CPPat310310GenderDCI:     Data Confidence Indicator - Gender for Number of children who were the subject of a child protection plan at 31 March 2011
+CPPAt310310EthnicityMissing:     Number of Children who were the subject of a child protection plan at 31 March 2010 whose ethnicity is missing
+CPPAt310310White:     Number of Children who were the subject of a child protection plan at 31 March 2010 whose ethnicity is white
+CPPAt310310Mixed:     Number of Children who were the subject of a child protection plan at 31 March 2010 whose ethnicity is Mixed
+CPPAt310310AsianOrAsianBritish:     Number of Children who were the subject of a child protection plan at 31 March 2010 whose ethnicity is Asian/Asian British
+CPPAt310310BlackorBlackBritish:     Number of Children who were the subject of a child protection plan at 31 March 2010 whose ethnicity is Black/Black British
+CPPAt310310OtherEthnicity:     Number of Children who were the subject of a child protection plan at 31 March 2010 whose ethnicity is Other
+CPPAt310310EthnicityRefusedNO:     Number of Children who were the subject of a child protection plan at 31 March 2010 whose ethnicity is Refused or Not Obtained
+CPPAt310310EthnicityDCI:     Data Confidence Indicator - Ethnicity for Children who were the subject of a child protection plan at 31 March 2010
+CPPin0910UnknownGender:     Number of children who became the subject of a child protection plan during 0910 whose gender is unknown
+CPPin0910Male<1yr:     Number of children who became the subject of a child protection plan during 0910 - male, age under 1
+CPPin0910Male1-4yrs:     Number of children who became the subject of a child protection plan during 0910 - male, age 1 to 4
+CPPin0910Male5-9yrs:     Number of children who became the subject of a child protection plan during 0910 - male, age 5 to 9
+CPPin0910Male10-15yrs:     Number of children who became the subject of a child protection plan during 0910 - male, age 10 to 15
+CPPin0910Male16+yrs:     Number of children who became the subject of a child protection plan during 0910 - male, age 16 and over
+CPPin0910TotalMales:     Number of children who became the subject of a child protection plan during 0910 - Total males
+CPPin0910Female<1yr:     Number of children who became the subject of a child protection plan during 0910 - female, age under 1
+CPPin0910Female1-4yrs:     Number of children who became the subject of a child protection plan during 0910 - female, age 1 to 4
+CPPin0910Female5-9yrs:     Number of children who became the subject of a child protection plan during 0910 - female, age 5 to 9
+CPPin0910Female10-15yrs:     Number of children who became the subject of a child protection plan during 0910 - female, age 10 to 15
+CPPin0910Female16+yrs:     Number of children who became the subject of a child protection plan during 0910 - female, age 16 and over
+CPPin0910TotalFemales:     Number of children who became the subject of a child protection plan during 0910 - Total females
+CPPin0910AgeDCI:     Data Confidence Indicator - Age for Number of children who became the subject of a child protection plan during 0910
+CPPin0910GenderDCI:     Data Confidence Indicator - Gender for Number of children who became the subject of a child protection plan during 0910
+CPPin0910SecondTime:     Number of children who became the subject of a child protection plan during 0910 for a second or subsequent time
+%CPPin0910SecondTime:     Percentage of children who became the subject of a child protection plan during 0910 for a second or subsequent time
+CPPin0910SecondTimeDCI:     Data Confidence Indicator - Number of children who became the subject of a child protection plan during 0910 for a second or subsequent time
+CPPCeased0910Duration<3mths:     Number of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is less than 3 months
+%CPPCeased0910Duration<3mths:     Percentage of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is less than 3 months
+CPPCeased0910Duration3-6mths:     Number of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is 3 to 6 months
+%CPPCeased0910Duration3-6mths:     Percentage of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is 3 to 6 months
+CPPCeased0910Duration6mnths-1yr:     Number of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is 6 months to 1 year
+%CPPCeased0910Duration6mnths-1yr:     Percentage of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is 6 months to 1 year
+CPPCeased0910Duration1-2yrs:     Number of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is 1 to 2 years
+%CPPCeased0910Duration1-2yrs:     Percentage of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is 1 to 2 years
+CPPCeased0910Duration2+yrs:     Number of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is over 2 years
+%CPPCeased0910Duration2+yrs:     Percentage of children who ceased to be the subject of a child protection plan during 0910 where length of time of plan is over 2 years
+CPPCeased0910DurationDCI:     Data Confidence Indicator - Length of time of plan for Number of children who ceased to be the subject of a child protection plan during 0910 
+CPPat310310For3+mths:     Number of Children who were the subject of a child protection plan at 31 March 2010 who were subject of a plan for 3 or more months
+CPPsReviewedinTimescales:     Number of child protection plans at 31 March 2010 who were subject of a plan for 3 or more months reviewed within the required timescales
+%CPPsReviewedinTimescales:     Percentage of child protection plans at 31 March 2010 who were subject of a plan for 3 or more months reviewed within the required timescales
+CPPReviewedinTimescalesDCI:     Data Confidence Indicator - Number of child protection plans at 31 March 2010 who were subject of a plan for 3 or more months 
+Mid2009Pop0-17:     Mid-2009 population estimates, rounded to the nearest 100. Source: Population Estimates Unit, ONS: Crown Copyright.
+

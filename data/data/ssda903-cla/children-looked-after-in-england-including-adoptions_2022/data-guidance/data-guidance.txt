@@ -1,0 +1,1212 @@
+Children looked after in England including adoptions
+2022 Reporting year
+
+Description
+
+This document describes the data included in the ‘Children looked after in England including adoptions: 2021 to 2022’ National Statistics release’s underlying data files. This data is released under the terms of the  Open Government License and is intended to meet at least three stars for  Open Data.
+
+The methodology document for this subject should be referenced alongside this release. It provides information on the data sources, their coverage and quality and how the data is produced.
+
+A guide for the 2022 data collection provides further information on the data collected.
+
+Coverage
+
+This data is based upon information collected in the SSDA903 (CLA) data collection. It is a child level dataset collected from local authorities in England annually. The data includes information on:
+
+- children looked after on 31 March in each year, including unaccompanied asylum seeking children
+- children looked after at any time
+- children who started to be looked after
+- children who ceased to be looked after
+- children looked after who were adopted
+- care leavers now aged 17, 18, 19, 20 and 21 years old
+- children who went missing or away from placement without authorisation
+
+ The longitudinal nature of the collection means historical information can be amended each year, so we update all time series figures published in each release.  Unless otherwise stated, numbers and percentage exclude children looked after under an agreed  series of short term placements.
+
+Users of the data should consider the following:
+
+- for some local authorities, for example Kent or Croydon, the figures may be impacted by large numbers of unaccompanied asylum-seeking children and their distinctive characteristics
+- from April 2019 the three local authorities ‘Dorset’, ‘Bournemouth’ and ‘Poole’ reorganised into  two local authorities ‘Bournemouth, Christchurch and Poole’ and ‘Dorset’. As part of this, a small number of children formerly looked after in the Christchurch area of Dorset were transferred to the new authority ‘Bournemouth, Christchurch and Poole’
+- from April 2021 Northamptonshire split into two local authorities, ‘North Northamptonshire’ and ‘West Northamptonshire’
+- Information on children who are missing or who are away from their placement without authorisation are published as Official Statistics. Users should refer to the methodology guide when using this data and should be cautious interpreting any figures across years or between local authorities due to differing practices. Hackney did not provide any missing or away without authorisation data in 2021
+
+File formats and conventions
+
+Rounding and suppression
+
+National and regional figures have been rounded to the nearest 10.  Local authority figures are unrounded.
+
+Where any number is shown as zero, the original figure submitted was zero.
+
+The following symbols have been used in the release:
+
+- ‘c’ to protect confidentiality. Secondary suppression may have been applied
+- ‘z’ for not applicable
+- ‘x’ for not available
+- ‘k’ used for a value that would round to zero but is not zero, for example where a percentage is <0.5%
+
+For percentages:
+
+- where the numerator or denominator is small then the figure is replaced by ‘c’
+- they may not sum to 100% due to rounding
+- they are rounded to whole numbers
+
+Also in the release:
+
+- the average duration for adoptions (formerly table E2) are rounded to the nearest month
+- the average number of missing or away without authorisation incidents (formerly in table G1) have been rounded to one decimal place.
+
+Data files
+
+CLA who were adopted - number, gender and legal status of adopters - NATIONAL
+
+Filename: number_and_legal_status_of_adopters.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after who were adopted during the years ending 31 March by number of adopters, legal status of adopters and by gender of adopters.
+
+Data formerly in table E3.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+----------  |  --------------
+measure     |  Characteristic
+number      |  Number
+percentage  |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. The Royal Assent to the Marriage (Same Sex Couples) Act in July 2013 allowed same sex marriages to be performed from summer 2014. Different sex civil partnerships were allowed from December 2019.
+
+
+Children for whom the local authority has made the decision that the child should be placed for adoption - NATIONAL
+
+Filename: national_children_la_made_the_decision_that_they_should_be_placed_for_adoption.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Information on children for whom the local authority has made the decision that the child should be placed for adoption.
+
+Data formerly in E4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Children for whom the LA has made the decision the child should be placed for adoption includes children who have been placed for adoption or adopted or who are waiting to be placed for adoption on 31 March each year, however the decision to adopt may have been made in an earlier years.
+3. Children who have ceased to be looked after without being adopted - information is based on the year this outcome occurred, however the decision that the child should be placed for adoption may have been made in a previous year. 
+4. Relates to adoption decisions. Small numbers of children may be adopted without a formal adoption decision or may have an initial decision reversed before a new decision and adoption placement, so this figure may not be equal to other adoption figures reported in this release.
+
+
+CLA on 31 March by characteristics - NATIONAL
+
+Filename: national_cla_on_31_march_by_characteristics.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after on 31 March each year, by gender, age group (on 31 March), primary need, ethnicity, legal status, motherhood status, placement type (on 31 March) and number of placements during the year (placement stability).
+
+Data formerly in table A1 and A2.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. FFA relates to Fostering for Adoption. Foster placements 'not FFA or concurrent planning' include children in long term foster placements. 
+3. 'Youth Justice legal statuses' refers to children: remanded to LA accommodation or youth detention accommodation under the Legal Aid, Sentencing and Punishment of Offenders Act 2012; placed in LA accommodation under the Police and Criminal Evidence Act 1984; or, sentenced to a youth rehabilitation order with residence or intensive fostering requirement under the Criminal Justice and Immigration Act 2008 (as amended).
+4. In 2022 there were 13 secure units in England, therefore most placements will inevitably be outside the council boundary.
+5. Percentages for all mothers aged 12 or over looked after on 31 March are the number of looked after mothers aged 12 and over as a percentage of all looked after females aged 12 and over.
+6. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+
+
+Time series of CLA data - 1994 to 2022 - NATIONAL
+
+Filename: cla_time_series_1994_2022.csv
+Geographic levels: National
+Time period: 1994 to 2022
+Content summary: National time series - 1994 to 2022. Covering:
+
+- Children looked after on 31 March
+- Children who started to be looked after in the year
+- Children who ceased to be looked after in the year
+- Children looked after who were adopted
+- Children looked after on 31 March who were unaccompanied asylum seeking children
+
+Data was formerly in table H1.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name     |  Variable description
+----------------  |  ------------------------------------------------------------
+number            |  Number
+population_count  |  Population count - Select the population measure you require
+
+Footnotes:
+
+1. Figures exclude children looked after under a series of short-term placements. Figures for 1998 to 2003 are based on a one-third sample.
+2. Only the last occasion on which a child ceased to be looked after in the year has been counted.
+3. Only the first occasion on which a child started to be looked after in the year has been counted.
+4. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication. 
+
+
+CLA during the year by placement type, distance and locality - NATIONAL
+
+Filename: national_cla_during_year_by_placement_type_and_locality_of_placement.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Number of new placements for children looked after during the year by locality of placement and distance between home and placement.
+
+Data formerly in table B2.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  -----------------
+characteristic  |  Characteristic
+cla_group       |  Type of placement
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Placement locality denotes whether or not the placement is within the geographical boundary of the responsible LA.
+3. Distance is the distance in miles between the child's home and placement. In some cases this is not known, for example UASC, or not recorded for confidentiality reasons, such as some children placed for adoption.
+4. Placements denotes the total number of new placements starting during the year - if a child has for example, more than one foster placement then both will be counted. Living independently includes children in residential employment. Other includes placement in residential schools and other placements
+
+
+Care leavers by whether their accommodation is suitable - NATIONAL 
+
+Filename: national_care_leavers_accommodation_suitability.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Care leavers, aged 17 to 21, by whether their accommodation is deemed to be suitable.
+
+Data formerly in tables F2 and F4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name              |  Variable description
+-------------------------  |  ----------------------------
+accommodation_suitability  |  Suitability of accommodation
+care_leaver_age            |  Age of care leaver
+number                     |  Number
+percentage                 |  Percentage
+
+Footnotes:
+
+1. Accommodation suitable/not suitable figures also exclude young people who have gone abroad, been deported or their residence is not know as in these cases the suitability of the accommodation will be unknown. Regulation 9(2) of the Care Leavers Regulations defines what is meant by 'Suitable accommodation'. 'No information' includes young people whose accommodation is not known because either the local authority is not in touch, or the young person has refused contact or no longer requires services.
+2. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+CLA on 31 March by placement type, distance and locality of placement - NATIONAL 
+
+Filename: national_cla_on_31_march_by_placement_distance_and_locality_of_placement.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after on 31 March each year by distance between home and placement, by placement type and by locality of placement (placed 20 miles or less from home, or more than 20 miles from home).
+
+Data formerly in table A4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  -----------------
+characteristic  |  Characteristic
+cla_group       |  Type of placement
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Placement locality denotes whether or not the placement is within the geographical boundary of the responsible LA.
+3. Living independently includes children in residential employment. Other includes placement in residential schools and other placements
+4. Distance is the distance in miles between the child's home and placement. In some cases this is not known, for example UASC, or not recorded for confidentiality reasons, such as some children placed for adoption.
+
+
+CLA on 31 March by placement provider, placement type and locality - NATIONAL
+
+Filename: national_cla_on_31_march_by_placement_provider_and_locality_.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after on 31 March by placement type, placement location (inside or outside the council boundary) and placement provider.
+
+Data formerly in table A5.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  ------------------
+number              |  Number
+percentage          |  Percentage
+placement_provider  |  Placement provider
+placement_type      |  Placement type
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Placement locality denotes whether or not the placement is within the geographical boundary of the responsible LA.
+3. Placement provider is not applicable for children placed with parents. Placement provider not reported includes children placed under other (unspecified) placements and some children placed for adoption (where information may be withheld to protect the whereabouts of the child)
+
+
+Care leavers accommodation - LA
+
+Filename: la_care_leavers_accommodation_type.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data on care leavers aged 17 to 21, by accommodation type (as measured on or around their birthday).
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  ------------------
+accommodation_type  |  Accommodation type
+age                 |  Age
+number              |  Number
+percentage          |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+Care leavers by whether their accommodation is suitable - LA
+
+Filename: la_care_leavers_accommodation_suitability.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data on care leavers, aged 17 to 21, by whether their accommodation is deemed to be suitable.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name              |  Variable description
+-------------------------  |  ----------------------------
+accommodation_suitability  |  Suitability of accommodation
+age                        |  Age
+number                     |  Number
+percentage                 |  Percentage
+
+Footnotes:
+
+1. Accommodation suitable/not suitable figures also exclude young people who have gone abroad, been deported or their residence is not know as in these cases the suitability of the accommodation will be unknown. Regulation 9(2) of the Care Leavers Regulations defines what is meant by 'Suitable accommodation'. 'No information' includes young people whose accommodation is not known because either the local authority is not in touch, or the young person has refused contact or no longer requires services.
+2. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+Care leavers in contact with the responsible authority - LA
+
+Filename: la_care_leavers_intouch.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data on care leavers, aged 17 to 21, by whether the LA was in touch (as measured on or around their birthday).
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+----------  |  ----------------------------
+age         |  Age
+in_touch    |  Contact with local authority
+number      |  Number
+percentage  |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+Care leavers who left foster care aged 18 and were eligible for care leaver support (Staying Put ) - LA
+
+Filename: la_care_leavers_stayput.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Young people aged 18, 19 and 20 who ceased to be looked after in a foster placement on their 18th birthday, were eligible for care leavers support and who were living with their former foster carer.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children..
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+----------  |  ------------------------
+age         |  Age
+number      |  Number
+percentage  |  Percentage
+stay_put    |  With former foster carer
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+Reason for placement change during the year of CLA by characteristics - NATIONAL
+
+Filename: national_reason_for_placement_change_during_year.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Reason for placement change for children who moved placements in the year. Includes breakdowns by gender, age, placement type, duration of placement and category of need.
+
+Data formerly in table B4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name      |  Variable description
+-----------------  |  ---------------------------
+characteristic     |  Characteristic
+number             |  Number
+percentage         |  Percentage
+reason_for_change  |  Reason for placement change
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Approval removed denotes where a setting is no longer approved/registered with the appropriate statutory body (eg Ofsted). Change in status of a placement only denotes where there is a change of status for the placement but the child remains with the same carer and there is no change to the care plan, for example if a foster carer moves house, or a foster carer working for a local authority becomes managed by an independent fostering agency.
+3. When a child has more than one placement then each will be counted.
+4. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+5. Age at end of placement. 
+
+
+CLA ceasing during the year by characteristics - NATIONAL
+
+Filename: national_cla_who_ceased_during_the_year.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary:  Children who ceased to be looked after during the year by gender, age on ceasing, reason episode ceased, legal status, category of need, ethnicity, placement and duration of latest period of care.
+
+Data formerly in tables D1, D2 and D3.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. FFA relates to Fostering for Adoption. Foster placements 'not FFA or concurrent planning' include children in long term foster placements. 
+3. 'Youth Justice legal statuses' refers to children: remanded to LA accommodation or youth detention accommodation under the Legal Aid, Sentencing and Punishment of Offenders Act 2012; placed in LA accommodation under the Police and Criminal Evidence Act 1984; or, sentenced to a youth rehabilitation order with residence or intensive fostering requirement under the Criminal Justice and Immigration Act 2008 (as amended).
+4. In 2022 there were 13 secure units in England, therefore most placements will inevitably be outside the council boundary.
+5. 'Aged 18 (or over) and remained with current carers' was a new category introduced in 2021. It's likely many of these children were previously reported within the 'care ceased for any other reason'.
+6. Only the last occasion on which a child ceased to be looked after in the year has been counted.
+7. Period of care refers to a continuous period of being looked after, which may include more than one placement or legal status.
+8. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+9. In 2022, 62% of all children who were stated as ceasing due to other reasons left care on their 18th birthday.
+
+
+CLA who were the subject of a special guardianship order during the year - NATIONAL
+
+Filename: national_cla_who_were_the_subject_of_a_sgo_during_year.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after who were the subject of a special guardianship order (SGO) in the year, by gender, age group at SGO, age at starting final period of care, primary need, ethnicity, duration of final period of care and final legal status.
+
+Data formerly in table E5.
+
+Note: Age group at SGO and age at starting final period of care include an average age value; duration of final period of care includes an average duration. These values are in the 'Number' indicator but are in the format (years:month).
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. In 2019 the detail collected for the status of special guardianship order was changed. As such, figures for the status of special guardianship orders from 2019 onwards are not comparable to earlier figures.
+3. Period of care refers to a continuous period of being looked after, which may include more than one placement or legal status.
+4. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+
+
+CLA who were adopted during the year - NATIONAL
+
+Filename: national_cla_who_were_adopted_during_year.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after who were adopted in the year, by gender, age group at adoption, age at starting final period of care, primary need, ethnicity, duration of final period of care and final legal status.
+
+Data formerly in table E1.
+
+Note: Age group at adoption and age at starting final period of care include an average age value; duration of final period of care includes an average duration. These values are in the 'Number' indicator but are in the format (years:month).
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Period of care refers to a continuous period of being looked after, which may include more than one placement or legal status.
+2. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+3. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication. 
+
+
+CLA who were adopted - average time between the different stages of the adoption process - NATIONAL
+
+Filename: national_cla_adopted_average_time_between_adoption_process_stages.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after who were adopted during the year ending 31 March by average time between the different stages of the adoption process and age at start of period of care.
+
+Data formerly in table E2.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name              |  Variable description
+-------------------------  |  ----------------------------------------------------
+age_start_poc              |  Age at start of period of care
+number                     |  Number (Durations are expressed in years and months)
+stage_of_adoption_process  |  Stage of the adoption process
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Average time rounded to the nearest month. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication. Age is as at the start of period of care. 'Number of children' is those who were placed for adoption within 12 months (i.e. less than 365 days, inclusive of date placed for adoption) of the decision that they should be placed for adoption. This figure excludes children who were placed within 12 months of the decision that they should be placed for adoption, but whose placement for adoption broke down before being adopted.
+
+
+Duration of placements by type ceasing during the year - NATIONAL
+
+Filename: national_duration_of_placements_ceasing.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Duration of placement ceasing during the year, by placement type.
+
+Data formerly in table B3
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  ----------------------
+number              |  Number
+percentage          |  Percentage
+placement_duration  |  Duration of placements
+placement_group     |  Placement type
+
+Footnotes:
+
+1. Analysis of revisions in previous years suggests that total numbers of placements ceasing in the latest year are often revised upwards by around 10,000 the following year as information is updated on LA systems.
+2. A placement may cease but the child will continue to be looked after if a new placement begins immediately. This table gives counts of placements, not children. If a child has more than one placement in the year then each will be included.
+3. Numbers have been rounded to the nearest 10. Percentages and averages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+CLA on 31 March who were unaccompanied asylum-seeking children - NATIONAL
+
+Filename: national_cla_on_31_march_who_were_unaccompanied_asylum_seeking_children.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after on 31 March each year who were unaccompanied asylum-seeking children, by gender, age group (on 31 March), primary need and ethnicity.
+
+Data formerly in table A3.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+
+
+CLA ceasing during the year by number of periods of care, number of placements and age on ceasing - NATIONAL
+
+Filename: national_cla_ceased_during_year_placements_care_periods.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children who ceased to be looked after during the year by number of periods of care, number of placements and age on ceasing.
+
+Data formerly in tables D4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name          |  Variable description
+---------------------  |  ---------------------------------------
+age_on_ceasing         |  Age on ceasing
+number                 |  Number
+percentage             |  Percentage
+periods_or_placements  |  Number of periods of care or placements
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Only the last occasion on which a child ceased to be looked after in the year has been counted.
+3. Period of care refers to a continuous period of being looked after, which may include more than one placement or legal status.
+
+
+Official Statistics - CLA who were missing from placement - NATIONAL
+
+Filename: official_statistics_national_cla_missing.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Note: These statistics are published as Official Statistics. Users should be cautious making comparisons between local authorities, or across years due to changing reporting practices - see the methodology document for further information.
+
+Children looked after who were missing. Figures by duration of missing periods, placement from which the child went missing and age of child at start of missing incident.
+
+Data formerly in table G1.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  -------------------------------------------------------------------------
+characteristic  |  Children looked after who were missing from placement - by missing status
+number          |  Measure
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Since 2017 a growing number of local authorities informed the department that they do not record incidents as 'away without authorisation' but instead report all incidents as 'missing' to maintain consistency with local police reporting. We estimate this could mean an overestimate of missing incidents of up to 8% in 2018, 10% in 2019, 13% in 2020 and 2021 and 10% in 2022; suggesting the true figures could be more like 10,700, 10,800, 11,000, 9,600 and 11,100. There is a corresponding estimate of an undercount of away without authorisation incidents of up to 18% in 2018, 22% in 2019, 29% in 2020, 32% in 2021 and 30% in 2022; suggesting the true figures could be more like 4,700, 4,700, 4,800, 3,800 and 3,600. However some of these local authorities submitted some 'away without authorisation' information and this has been included in the away from placement without authorisation table.
+3. Missing is defined as a looked after child who is not at their placement or a place they are expected to be and their whereabouts is not known.
+4. Figures for 2021 exclude data for Hackney who were unable to provide figures.
+
+
+CLA during the year and on 31 March for at least 12 months by characteristics - NATIONAL
+
+Filename: national_cla_during_year_and_on_31_march_for_at_least_12_mths_by_characteristics.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after at any time during the year, and those looked after continuously for at least 12 months on 31 March, by age, ethnicity, gender and placement type.
+
+Data formerly in table B1.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+cla_group       |  CLA population
+number          |  Number
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Placements relate to the total number of placements made for each looked after child during the year ending 31 March. For example, if a child has been placed in a foster placement, with parents and also in a residential care homes they will appear three times in these figures - once in each category. If a child has had 2 foster placements and 1 placement in a residential care home, they will be counted once under foster care and once under residential care. For children looked after continuously for 12 months only the placement on 31 March is counted.
+3. Age at the end of the latest episode of care, or on 31 March if child is still looked after.
+
+
+Headline figures - NATIONAL
+
+Filename: cla_2022_headline_figure.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Headline national figures for the statistical release.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  ---------------------------
+cla_31_march    |  Children looked after (CLA)
+cla_adopted     |  CLA who were adopted
+cla_ceasing     |  CLA ceasing
+cla_march_rate  |  CLA per 10,000 children
+cla_starting    |  CLA starting
+cla_uasc        |  CLA who were UASC
+
+
+CLA on 31 March by characteristics - LA
+
+Filename: la_cla_on_31_march_by_characteristics.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children looked after on 31 March by:
+
+- age group
+- category of need
+- distance between home and placement
+- distance between home and placement and locality of placement
+- ethnicity
+- gender
+- legal status
+- local authority of placement
+- locality of placement
+- placement type
+- placement provider
+- numbers of unaccompanied asylum-seeking children.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum-seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Placement locality denotes whether or not the placement is within the geographical boundary of the responsible LA.
+2. 'Youth Justice legal statuses' refers to children: remanded to LA accommodation or youth detention accommodation under the Legal Aid, Sentencing and Punishment of Offenders Act 2012; placed in LA accommodation under the Police and Criminal Evidence Act 1984; or, sentenced to a youth rehabilitation order with residence or intensive fostering requirement under the Criminal Justice and Immigration Act 2008 (as amended).
+3. National and regional numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+4. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+
+
+Care leaver accommodation - NATIONAL
+
+Filename: national_accommodation_of_care_leavers.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Care leavers aged 17 to 21, by accommodation type (as measured on or around their birthday).
+
+Data formerly  in tables F2 and F4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  -------------------------------------------
+accommodation_type  |  Type of accommodation the care leaver is in
+care_leaver_age     |  Age of the care leaver
+number              |  Number
+percentage          |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Accommodated with parents or relatives is likely to be an under count - if a young person's former foster carer is a relative they should be recorded as accommodated with their former foster carer.
+
+
+CLA starting during the year by characteristics - NATIONAL
+
+Filename: national_cla_who_started_to_be_looked_after.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children who started to be looked after during the year, by gender, age on starting, category of need, ethnicity, legal status, previous permanence and placement type.
+
+Data formerly in tables C1 and C2.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. FFA relates to Fostering for Adoption. Foster placements 'not FFA or concurrent planning' include children in long term foster placements. 
+3. 'Youth Justice legal statuses' refers to children: remanded to LA accommodation or youth detention accommodation under the Legal Aid, Sentencing and Punishment of Offenders Act 2012; placed in LA accommodation under the Police and Criminal Evidence Act 1984; or, sentenced to a youth rehabilitation order with residence or intensive fostering requirement under the Criminal Justice and Immigration Act 2008 (as amended).
+4. In 2022 there were 13 secure units in England, therefore most placements will inevitably be outside the council boundary.
+5. Only the first occasion on which a child started to be looked after in the year has been counted.
+6. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+
+
+Care leavers who were unaccompanied asylum-seeking children - NATIONAL
+
+Filename: national_care_leavers_who_were_uasc.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Care leavers, aged 17 to 21, who were formerly unaccompanied asylum seeking children, by gender.
+
+Data formerly in table F1 and F3.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name    |  Variable description
+---------------  |  ----------------------
+care_leaver_age  |  Age of the care leaver
+characteristic   |  Characteristic
+number           |  Number
+percentage       |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+Care leaver activity - NATIONAL
+
+Filename: national_activity_of_care_leaver.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Care leavers, aged 17 to 21, by activity (as measured on or around their birthday).
+
+Data formerly in tables F1 and F3.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  ---------------------------
+age_group       |  Age of the care leaver
+characteristic  |  Characteristic - By measure
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. 'Local authority not in touch' excludes young people where activity information is known, as a third party provided it even though the local authority is not directly in touch with the young person.
+
+
+Care leavers who left foster care aged 18 and were eligible for care leaver support (Staying Put) - NATIONAL
+
+Filename: national-care_leavers_staying_put.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Young people aged 18, 19 and 20 who ceased to be looked after in a foster placement on their 18th birthday, were eligible for care leavers support and who were living with their former foster carer.
+
+Data formerly in table F2 and F4.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name    |  Variable description
+---------------  |  ------------------------
+care_leaver_age  |  Age of care leaver
+characteristic   |  With former foster carer
+number           |  Number
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+Care leavers activity - LA
+
+Filename: la_care_leavers_activity.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data on care leavers, aged 17 to 21, by activity (as measured on or around their birthday).
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+----------  |  ----------
+activity    |  Activity
+age         |  Age
+number      |  Number
+percentage  |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude young people who were looked after under an agreed series of short term placements, those who have died since leaving care, those who have returned home to parents or someone with parental responsibility for a continuous period of at least 6 months and those whose care was transferred to another local authority. Figures for the number of care leavers who have died each year can be found in the methodology document. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+Official Statistics - CLA who were missing or away from placement without authorisation - LA
+
+Filename: la_children_who_were_missing_or_away_from_placement_without_authorisation.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Note: These statistics are published as Official Statistics. Users should be cautious making comparisons between local authorities, or across years due to changing reporting practices - see the methodology document for further information.
+
+Children looked after who were missing or away from placement without authorisation. Data formerly in table LAG1.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+---------  |  ------------------------------------------------------
+cla_group  |  Children who are missing or away without authorisation
+number     |  Number
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Away from placement without authorisation is defined as a looked after child whose whereabouts is known but who is not at their placement or place they are expected to be and the carer has concerns or the incident has been notified to the local authority or the police.
+3. Since 2017 a growing number of local authorities informed the department that they do not record incidents as 'away without authorisation' but instead report all incidents as 'missing' to maintain consistency with local police reporting. We estimate this could mean an overestimate of missing incidents of up to 8% in 2018, 10% in 2019, 13% in 2020 and 2021 and 10% in 2022; suggesting the true figures could be more like 10,700, 10,800, 11,000, 9,600 and 11,100. There is a corresponding estimate of an undercount of away without authorisation incidents of up to 18% in 2018, 22% in 2019, 29% in 2020, 32% in 2021 and 30% in 2022; suggesting the true figures could be more like 4,700, 4,700, 4,800, 3,800 and 3,600. However some of these local authorities submitted some 'away without authorisation' information and this has been included in the away from placement without authorisation table.
+4. Missing is defined as a looked after child who is not at their placement or a place they are expected to be and their whereabouts is not known.
+5. Figures for 2021 exclude data for Hackney who were unable to provide figures.
+
+
+CLA for 12 months, conviction and health outcomes - LA
+
+Filename: la_conviction_health_outcome_cla.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children looked after on 31 March for at least 12 months, by OC2 indicators. These are whether the child:
+
+- was convicted or subject to youth cautions, or youth conditional cautions during the year
+- was identified as having a substance misuse problem, and if so, if they were offered an intervention and if they refused it.
+- had their annual health assessment
+- had their immunisations up to date
+- had their teeth checked by a dentist
+- had their development assessments are up to date, if they were under 5 years old
+
+And also information on Strengths and Difficulties Questionnaire (SDQ) scores.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Immunisations were up to date by end of March. 'Up to date' means the child has had all immunisations that a child of their age should have received, according to the immunisations timetable produced by the Department of Health.
+2. Development assessment information is collected for children aged 4 or younger on 31 March who were looked after continuously for at least 12 months.  This measures whether the child's health surveillance or health promotion checks were up to date.
+3. Substance misuse is defined as 'intoxication by (or regular excessive consumption and/or dependence on) psychoactive substances, leading to social, psychological, physical or legal problems'.  It includes problematic use of both legal and illegal drugs (including alcohol when used in conjunction with other substances). The term 'drug' is used to refer to any psychotropic substance, including illegal drugs, illicit use of prescription drugs and volatile substances.  Young people's drug taking is often inextricably linked with the consumption of alcohol.  Therefore the term 'substance' refers to both drugs and alcohol but not tobacco.
+4. 'Had annual health assessment' records whether the child received their annual health assessment from a doctor or other suitably qualified professional during the year. Both assessments must be carried out for under fives (once in every six months before the child's fifth birthday). For fives and over a single assessment fulfils the requirement.
+5. Figures include children who have been continuously looked after for at least 12 months on 31 March and exclude children who were looked after under an agreed series of short term placements. Numbers have been rounded to the nearest 10.  Percentages have been rounded to the nearest whole number. Age is on 31 March. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+6. Latest available comparable offending figures from the Ministry of Justice for all children are for 2017 where 1% of all children aged 10-17 years were convicted or subject to youth cautions, or youth conditional cautions during the year.
+7. 'Teeth checked by dentist' records whether the child has had their teeth checked by a dentist in the year ending 31 March
+8. Average SDQ scores have been rounded to the nearest one decimal place. An SDQ score is required of all children aged 4-16 on the date of last assessment. Date of assessment is not collected so data in this table is restricted to children aged 5 to 16 years. A higher score indicates more emotional difficulties. 0-13 is considered normal, 14-16 is borderline cause for concern and 17-40 is cause for concern.
+
+
+CLA for 12 months, conviction and health outcomes - NATIONAL
+
+Filename: national_conviction_health_outcomes_for_cla.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after on 31 March for at least 12 months, by OC2 indicators. These are:
+
+- whether the child was convicted or subject to youth cautions, or youth conditional cautions during the year
+- whether the child was identified as having a substance misuse problem, and if so, if they were offered an intervention and if they refused it
+- whether the child had their annual health assessment
+- whether the child had their immunisations up to date
+- whether the child had their teeth checked by a dentist
+- if the child is under 5 years whether their development assessments are up to date
+- Information on Strengths and Difficulties Questionnaire (SDQ) scores
+
+Data formerly in tables I1 , I2, I3, I4, I5a and I5b.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+----------  |  ---------------------
+age_group   |  Characteristic by age
+gender      |  Gender
+number      |  Number
+percentage  |  Percentage
+
+Footnotes:
+
+1. Immunisations were up to date by end of March. 'Up to date' means the child has had all immunisations that a child of their age should have received, according to the immunisations timetable produced by the Department of Health.
+2. Development assessment information is collected for children aged 4 or younger on 31 March who were looked after continuously for at least 12 months.  This measures whether the child's health surveillance or health promotion checks were up to date.
+3. Substance misuse is defined as 'intoxication by (or regular excessive consumption and/or dependence on) psychoactive substances, leading to social, psychological, physical or legal problems'.  It includes problematic use of both legal and illegal drugs (including alcohol when used in conjunction with other substances). The term 'drug' is used to refer to any psychotropic substance, including illegal drugs, illicit use of prescription drugs and volatile substances.  Young people's drug taking is often inextricably linked with the consumption of alcohol.  Therefore the term 'substance' refers to both drugs and alcohol but not tobacco.
+4. 'Had annual health assessment' records whether the child received their annual health assessment from a doctor or other suitably qualified professional during the year. Both assessments must be carried out for under fives (once in every six months before the child's fifth birthday). For fives and over a single assessment fulfils the requirement.
+5. Figures include children who have been continuously looked after for at least 12 months on 31 March and exclude children who were looked after under an agreed series of short term placements. Numbers have been rounded to the nearest 10.  Percentages have been rounded to the nearest whole number. Age is on 31 March. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+6. Latest available comparable offending figures from the Ministry of Justice for all children are for 2017 where 1% of all children aged 10-17 years were convicted or subject to youth cautions, or youth conditional cautions during the year.
+7. 'Teeth checked by dentist' records whether the child has had their teeth checked by a dentist in the year ending 31 March
+8. Average SDQ scores have been rounded to the nearest one decimal place. An SDQ score is required of all children aged 4-16 on the date of last assessment. Date of assessment is not collected so data in this table is restricted to children aged 5 to 16 years. A higher score indicates more emotional difficulties. 0-13 is considered normal, 14-16 is borderline cause for concern and 17-40 is cause for concern.
+
+
+CLA starting during the year by characteristics - LA
+
+Filename: la_cla_who_started_to_be_looked_after.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children who started to be looked after during the year by:
+
+- age group
+- category of need
+- gender
+- legal status
+- numbers taken into care
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. National and regional numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Category of need is the main category of the eight “need codes” at the time the child started to be looked after.
+
+
+CLA on 31 March by placement stability - NATIONAL
+
+Filename: national_cla_plcount_by_characteristics.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after on 31 March each year, by gender, age group (on 31 March), ethnicity, first legal status during the year, first placement during the year, unaccompanied/non-unaccompanied asylum-seeking children and number of placements during the year (placement stability).
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  --------------------
+characteristic       |  Characteristic
+cla_group            |  CLA group
+number               |  Number
+percentage           |  Percentage
+placement_stability  |  Number of placements
+
+Footnotes:
+
+1. Percentages have been rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. 'Youth Justice legal statuses' refers to children: remanded to LA accommodation or youth detention accommodation under the Legal Aid, Sentencing and Punishment of Offenders Act 2012; placed in LA accommodation under the Police and Criminal Evidence Act 1984; or, sentenced to a youth rehabilitation order with residence or intensive fostering requirement under the Criminal Justice and Immigration Act 2008 (as amended).
+3. First placement and legal status during the year, excluding a small number of children for whom placement on 31 March and corresponding legal status has been used. See methodology document for further information.
+4. Numbers have been rounded to the nearest 10. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+
+
+CLA on 31 March by LA of placement net gain - LA
+
+Filename: la_cla_on_31_march_la_of_placement_net_gain.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children looked after on 31 March by numbers the LA places outside their LA and numbers other LAs place within the LA.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  ---------------
+characteristic  |  Net gain
+number          |  CLA on 31 March
+
+Footnotes:
+
+1. National and regional numbers have been rounded to the nearest 10. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Net gain is the difference between the number of children who are the responsibility of other LAs placed within this LA boundary and the number of children who are the responsibility of this LA placed outside the LA boundary.
+
+
+CLA on 31 March for 2.5 years by placement stability - NATIONAL
+
+Filename: national_cla_2year_pl_by_characteristics.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Children looked after aged under 16 on 31 March who had been looked after continuously for at least 2.5 years and who were living in the same placement for at least 2 years each year, by gender, age group (on 31 March), ethnicity, legal status, placement, unaccompanied/non-unaccompanied asylum-seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  --------------------
+characteristic       |  Characteristic
+number               |  Number
+percentage           |  Percentage
+placement_stability  |  Number of placements
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. 'Youth Justice legal statuses' refers to children: remanded to LA accommodation or youth detention accommodation under the Legal Aid, Sentencing and Punishment of Offenders Act 2012; placed in LA accommodation under the Police and Criminal Evidence Act 1984; or, sentenced to a youth rehabilitation order with residence or intensive fostering requirement under the Criminal Justice and Immigration Act 2008 (as amended).
+3. A child is included as having been a. in care for at least 2.5 years if their period of care start date was on or before the 30 September of the relevant year  and b. in their current placement for at least 2 years if their episode start date for the relevant placement was on or before the 31 March of the relevant year.
+4. Figures for children looked after continuously for at least 2.5 years, aged under 16,  include only children living in the same placement for at least two years or if they have been placed for adoption, their adoptive placement and their previous placement combined last for at least two years. Figures exclude children looked after under an agreed series of short-term placements. Note the methodology has changed compared to figures published in the 2020 publication, the figures now a. exclude children who started a period of care under an agreed series of short-term placements which later became continuous and b. include children in fostering placements with relative(s) or friend(s) or other foster carers who is/are also an approved adopter(s) – fostering for adoption/concurrent planning (placement codes U2 and U5) as a placement change.
+
+
+CLA on 31 March with three or more placements during the year, or aged under 16 on 31 March who had been looked after continuously for at least 2.5 years and who were living in the same placement for at least 2 years - LA
+
+Filename: la_cla_at_31_march_placement_stability_indicator.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data on
+
+- children looked after on 31 March with three of more placements during the year
+- children looked after aged under 16 on 31 March who had been looked after continuously for at least 2.5 years and who were living in the same placement for at least 2 years.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. National and regional numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication. 
+2. A child is included as having been a. in care for at least 2.5 years if their period of care start date was on or before the 30 September of the relevant year  and b. in their current placement for at least 2 years if their episode start date for the relevant placement was on or before the 31 March of the relevant year.
+3. Figures for children looked after continuously for at least 2.5 years, aged under 16,  include only children living in the same placement for at least two years or if they have been placed for adoption, their adoptive placement and their previous placement combined last for at least two years. Figures exclude children looked after under an agreed series of short-term placements. Note the methodology has changed compared to figures published in the 2020 publication, the figures now a. exclude children who started a period of care under an agreed series of short-term placements which later became continuous and b. include children in fostering placements with relative(s) or friend(s) or other foster carers who is/are also an approved adopter(s) – fostering for adoption/concurrent planning (placement codes U2 and U5) as a placement change.
+
+
+CLA during the year by characteristics - LA
+
+Filename: la_cla_during_year_new_placements.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children looked after during the year by placement locality and by reason for placement change.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Placement locality denotes whether or not the placement is within the geographical boundary of the responsible LA.
+3. Approval removed denotes where a setting is no longer approved/registered with the appropriate statutory body (eg Ofsted). Change in status of a placement only denotes where there is a change of status for the placement but the child remains with the same carer and there is no change to the care plan, for example if a foster carer moves house, or a foster carer working for a local authority becomes managed by an independent fostering agency.
+4. Only the last occasion on which a child ceased to be looked after in the year has been counted.
+
+
+CLA during the year who were looked after exclusively under a series of short-term placements - LA
+
+Filename: la_children_looked_after_exclusively_under_a_series_of_short_term_placements.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children looked after at any time during the year ending 31 March who were only looked after exclusively under a series of short term placements.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+------  |  ------
+number  |  Number
+
+Footnotes:
+
+1. National and regional numbers have been rounded to the nearest 10. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Children looked after exclusively under one or more agreed series of short term placements at any time during the years ending 31 March. Note that children may be provided with with short breaks as 'children in need' or as 'children looked after' so these figures will be an undercount of the total number of children provided with short breaks.
+
+
+CLA who were adopted and who were the subject of a special guardianship order - LA
+
+Filename: la_children_who_ceased_during_the_year_sgo_adoptions.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children ceasing to be looked after through an adoption or a special guardianship order.
+
+Adoption figures are split by:
+
+- adoption - application unopposed
+- adoption - consent dispensed with
+
+Special guardianship order figures are split by:
+
+- made to former foster carer, relative or friend
+- made to  former foster carer, other than relative or friend
+- made to carer, other than former foster carer, relative or friend
+- made to carer, other than former foster carer, other than relative or friend
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. National and regional numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. In 2019 the detail collected for the status of special guardianship order was changed. As such, figures for the status of special guardianship orders from 2019 onwards are not comparable to earlier figures.
+
+
+CLA numbers and rates per 10,000 children aged under 18 years - LA
+
+Filename: cla_number_and_rate_per_10k_children.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for:
+
+- Children looked after on 31 March
+- Children who started to be looked after during the year
+- Children who ceased to be looked after during the year
+
+Data includes numbers of looked after children, population and rates per 10,000 children aged under 18 years. Data formerly in tables LAA1, LAC1, LAD1.
+
+Calculated rates per 10,000 children in this release are based upon ONS population estimates. Estimates by age and LA for mid-2021 were released by ONS in November 2022 and have been used for calculating rates for 2022. Rates for earlier years in this release are based upon population estimates published in 2021 and have not yet been revised following the 2021 census. As such, rates for 2022 are not comparable to rates for earlier years. Revised population estimates by age and LA years prior to 2021 are expected to be published by ONS in early 2023.
+
+Note: Figures for children looked after during the year can be found in the LA dataset on children who have gone missing or who are away from placement without authorisation.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  --------------------------------------------
+number               |  Number of children looked after
+population_count     |  CLA Population count
+population_estimate  |  Population estimate
+rate_per_10000       |  Rate per 10 000 children aged under 18 years
+
+Footnotes:
+
+1. Rates per 10,000 children are calculated using the most recent mid-year population estimates from the Office for National Statistics. Estimates for 2022 year are based upon the 2021 census, however rates for earlier years have not yet been revised by ONS following the census. This means the rates per 10,000 for 2022 are not comparable to earlier years. 
+2. Only the last occasion on which a child ceased to be looked after in the year has been counted.
+3. National and regional numbers have been rounded to the nearest 10. Rates rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+4. Only the first occasion on which a child started to be looked after in the year has been counted.
+
+
+CLA ceasing during the year by characteristics - LA
+
+Filename: la_children_who_ceased_during_year.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2018 to 2022
+Content summary: Local authority level data for children who ceased to be looked after during the year by:
+
+- age group
+- gender
+- reason episode ceased.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  --------------
+characteristic  |  Characteristic
+number          |  Number
+percentage      |  Percentage
+
+Footnotes:
+
+1. National and regional numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Only the last occasion on which a child ceased to be looked after in the year has been counted.
+
+
+Official Statistics - CLA who were away from placement without authorisation - NATIONAL
+
+Filename: official_statistics_national_cla_away_without_authorisation.csv
+Geographic levels: National
+Time period: 2018 to 2022
+Content summary: Note: These statistics are published as Official Statistics. Users should be cautious making comparisons between local authorities, or across years due to changing reporting practices - see the methodology document for further information.
+
+Children looked after who were missing or away from placement without authorisation. Data formerly in table LAG1.
+
+For some local authorities, such as Kent or Croydon, the figures may be impacted by significant numbers of unaccompanied asylum seeking children
+
+Variable names and descriptions for this file are provided below:
+
+Variable name   |  Variable description
+--------------  |  ----------------------------------------------------------------------
+characteristic  |  Children looked after who were away from placement - by missing status
+number          |  Measure
+
+Footnotes:
+
+1. Numbers have been rounded to the nearest 10. Percentages rounded to the nearest whole number. Figures exclude children looked after under a series of short-term placements. Historical data may differ from older publications which is mainly due to amendments made by local authorities after the previous publication.
+2. Away from placement without authorisation is defined as a looked after child whose whereabouts is known but who is not at their placement or place they are expected to be and the carer has concerns or the incident has been notified to the local authority or the police.
+3. Since 2017 a growing number of local authorities informed the department that they do not record incidents as 'away without authorisation' but instead report all incidents as 'missing' to maintain consistency with local police reporting. We estimate this could mean an overestimate of missing incidents of up to 8% in 2018, 10% in 2019, 13% in 2020 and 2021 and 10% in 2022; suggesting the true figures could be more like 10,700, 10,800, 11,000, 9,600 and 11,100. There is a corresponding estimate of an undercount of away without authorisation incidents of up to 18% in 2018, 22% in 2019, 29% in 2020, 32% in 2021 and 30% in 2022; suggesting the true figures could be more like 4,700, 4,700, 4,800, 3,800 and 3,600. However some of these local authorities submitted some 'away without authorisation' information and this has been included in the away from placement without authorisation table.
+4. Figures for 2021 exclude data for Hackney who were unable to provide figures.

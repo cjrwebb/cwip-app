@@ -1,0 +1,286 @@
+
+Meta Data Document
+Release of underlying data
+“Characteristics of Children in Need, 2011-12, Final, SFR27-2012”
+Background
+This Statistical Release provides final figures on the numbers of children referred to and assessed by local authority social care services. It includes information on the numbers and characteristics of children in need and information on children who were the subject of a child protection plan for year ending March 2012. 
+A copy of the guidance notes for the 2011-12 Children in Need data collection can be found at:
+http://www.education.gov.uk/childrenandyoungpeople/strategy/research/a0063842/cin-for-2011-12
+The Underlying Data File
+Title: SFR27-2012.csv
+File Headers:   See Annex A for a list of codes and headers
+Coverage:  	Total for England provided for each variable
+Total for each LA in England 
+Variable names – A list of the headings used in the CSV file and the corresponding variable names are shown at Annex A.
+Methodology
+Data are returned from 150 LAs in England. No data were provided by Newham or Havering Local Authorities.
+National totals are derived by summing data provided by each LA. In a number of cases where data is missing for a LA we have estimated the missing data. Detail on how this has been done is in paragraphs 23 and 24 of the publication technical notes.
+LA level data are data as returned by each LA and have been suppressed where necessary. 
+Data Quality Indicator (DCI) values: '3' denotes high confidence, '2' denotes medium confidence, '1' denotes low confidence, '..' denotes no data was supplied/published and ‘P’ denotes a local authority trialling pilot arrangements for assessments. Further details on the construction of the indicator are in section 4 of the document ‘SFR27/2012 Methodology document’.
+Rounding and Suppression: National and regional figures have been rounded to the nearest 100 or the nearest 10 as they include estimates for missing data. Any numbers between 1 and 5 inclusive (before rounding) have been suppressed and have been replaced by an ‘x’. Where there is a percentage reported and the difference between the numerator and denominator is between 1 and 5, the numerator and the denominator have been suppressed and replaced by an ‘x’. Secondary suppression may be required in some cases. Where any number is shown as zero (0), the original figure submitted was zero. Where data were not submitted by a Local Authority ‘..’ has been used. 
+Annex A
+geog_l:     Geography Level
+geog_c:     Geography Code
+geog_n:     Geography Name
+CINThro1112:     Number of Children in Need throughout 2011-12
+CINStarting1112:     Number of Children starting an episode of need in 2011-12
+CINEnding1112:     Number of Children ending an episode of need in 2011-12
+CINAt310312:     Number of Children in Need at 31st March 2012
+CINThroRatePer10K:     Rate per 10,000 Children in Need throughout the year
+CINStartingRatePer10K:     Rate per 10,000 Children in Need episodes starting
+CINEndingRatePer10K:     Rate per 10,000 Children in Need episodes ending
+CINAt310312RatePer10K:     Rate per 10,000 Children in Need at end of year
+CINThro1112DCI:     Data Confidence Indicator - Children in Need throughout 2011-12
+CINStarting1112DCI:     Data Confidence Indicator - Children starting an episode of need in 2011-12
+CINEnding1112DCI:     Data Confidence Indicator - Children ending and episode of need in 2011-12
+CINAt310312DCI:     Data Confidence Indicator - Children in Need at 31st March 2012
+CINAt310312UnbornUnknown:     Number of Children in Need at 31st March 2012 unborn or unknown gender
+CINAt310312MaleUnder1:     Number of Children in Need at 31st March 2012 Male under 1 year old.
+CINAt310312Male1-4yrs:     Number of Children in Need at 31st March 2012 male 1-4 years old
+CINAt310312Male5-9yrs:     Number of Children in Need at 31st March 2012 male 5-9 years old
+CINAt310312Male10-15yrs:     Number of Children in Need at 31st March 2012 male 10-15 years old
+CINAt310312Male16+yrs:     Number of Children in Need at 31st March 2012 male over 16 years
+CINAt310312TotalMales:     Number of Children in Need at 31st March 2012 total males
+CINAt310312FemaleUnder1:     Number of Children in Need at 31st March 2012 female under 1 year old.
+CINAt310312Female1-4yrs:     Number of Children in Need at 31st March 2012 female 1-4 years old
+CINAt310312Female5-9yrs:     Number of Children in Need at 31st March 2012 female 5-9 years old
+CINAt310312Female10-15yrs:     Number of Children in Need at 31st March 2012 female 10-15 years old
+CINAt310312Female16+yrs:     Number of Children in Need at 31st March 2012 female over 16 years
+CINAt310312TotalFemales:     Number of Children in Need at 31st March 2012 total females
+CINat310312AgeGenderDCI:     Data Confidence Indicator - Age and Gender at 31st March 2012
+CINAt310312White:     Number of White Children in Need at 31st March 2012
+CINAt310312Mixed:     Number of Mixed race Children in Need at 31st March 2012
+CINAt310312AsianOrAsianBritish:     Number of Asian or Asian British Children in Need at 31st March 2012
+CINAt310312BlackorBlackBritish:     Number of Black or Black British Children in Need at 31st March 2012
+CINAt310312Other:     Number of Other ethnicity Children in Need at 31st March 2012
+CINAt310312RefusedNotObtained:     Number of Children in Need at 31st March 2012 with Refused/Not Obtained ethnicity
+CINAt310312EthnicityDCI:     Data Confidence Indicator - Ethnicity
+CINAt310312NoDisabled:     Number of disabled Children in Need at 31st March 2012
+%CINAt310312Disabled:	Percentage of Children in Need at 31st March 2012 who were disabled
+%CINAt310312AutismAsperger:     Percentage of disabled Children in Need at 31st March 2012 with Autism/Aspergers disability
+%CINAt310312Behaviour:     Percentage of disabled Children in Need at 31st March 2012 with Behaviour disability
+%CINAt310312Communication:     Percentage of disabled Children in Need at 31st March 2012 with Communication disability
+%CINAt310312Consciousness:     Percentage of disabled Children in Need at 31st March 2012 with Consciousness disability
+%CINAt310312HandFunction:     Percentage of disabled Children in Need at 31st March 2012 with Hand Function disability
+%CINAt310312Hearing:     Percentage of disabled Children in Need at 31st March 2012 with Hearing disability
+%CINAt310312Incontinence:     Percentage of disabled Children in Need at 31st March 2012 with Incontinence disability
+%CINAt310312Learning:     Percentage of disabled Children in Need at 31st March 2012 with Learning disability
+%CINAt310312Mobility:     Percentage of disabled Children in Need at 31st March 2012 with Mobility disability
+%CINAt310312PersonalCare:     Percentage of disabled Children in Need at 31st March 2012 with Personal Care disability
+%CINAt310312Vision:     Percentage of disabled Children in Need at 31st March 2012 with Vision disability
+%CINAt310312OtherDisability:     Percentage of disabled Children in Need at 31st March 2012 with Other disability
+CINAt310312DisabilitiesDCI:     Data Confidence Indicator - Disability
+CINAt310312PrimaryNeedMissingUnknown:     Number of Children in Need at 31st March 2012 with Primary Need code Missing/Unknown
+CINAt310312IAPriNeedAbuse/Neglect:     Number of Children in Need at 31st March 2012 with Primary Need code Abuse or Neglect
+CINAt310312IAPriNeedChildDisability/Illness:     Number of Children in Need at 31st March 2012 with Primary Need code Child Disability or Family 
+CINAt310312IAPriNeedParentDisability/Illness:     Number of Children in Need at 31st March 2012 with Primary Need code Parent Disability or Illness
+CINAt310312IAPriNeedFamilyStress:     Number of Children in Need at 31st March 2012 with Primary Need code Family Stress
+CINAt310312IAPriNeedFamilyDysfunction:     Number of Children in Need at 31st March 2012 with Primary Need code Family Dysfunction
+CINAt310312IAPriNeedUnacceptableBehaviour:     Number of Children in Need at 31st March 2012 with Primary Need code Unacceptable Behaviour
+CINAt310312IAPriNeedLowInc:     Number of Children in Need at 31st March 2012 with Primary Need code Low Income
+CINAt310312IAPriNeedAbsentParent:     Number of Children in Need at 31st March 2012 with Primary Need code Absent Parenting
+CINAt310312PriNeedOther:     Number of Children in Need at 31st March 2012 with Primary Need code Missing/Unknown
+CINAt310312IAPriNeedNotStated:     Number of Children in Need at 31st March 2012 with Primary Need code Cases other than children in need
+CINAt310312PrimaryNeedDCI:     Data Confidence Indicator - Primary Need code.
+CINAt310312OCDuration<3mths:     Children in Need at 31st March 2012 with under 3 months open case duration
+%CINAt310312OCDuration<3mths:     Percentage of Children in Need at 31st March 2012 with under 3 months open case duration
+CINAt310312OCDuration3-6mths:     Children in Need at 31st March 2012 with 3 months but less than 6 months open case duration
+%CINAt310312OCDuration3-6mths:     Percentage of Children in Need at 31st March 2012 with 3 months but less than 6 months open case duration
+CINAt310312OCDuration6mths-1yr:     Children in Need at 31st March 2012 with 6 months but less than 1 year open case duration
+%CINAt310312OCDuration6mths-1yr:     Percentage of Children in Need at 31st March 2012 with 6 months but less than 1 year open case duration
+CINAt310312OCDuration1-2yr:     Children in Need at 31st March 2012 with 1 year but less than 2 years open case duration
+%CINAt310312OCDuration1-2yr:     Percentage of Children in Need at 31st March 2012 with 1 year but less than 2 years open case duration
+CINAt310312OCDuration2+yrs:     Children in Need at 31st March 2012 with 2 or more years open case duration
+%CINAt310312OCDuration2+yrs:     Percentage of Children in Need at 31st March 2012 with 2 or more years open case duration
+CINAt310312OCDurationDCI:     Data Confidence Indicator - Duration of open case at 31st March 2012
+CINEnding1112Duration<3mths:     Children ceasing an episode of need in 2011 of under 3 months duration
+%CINEnding1112Duration<3mths:     Percentage of Children ceasing an episode of need in 2011 of under 3 months duration
+CINEnding1112Duration3-6mths:     Children ceasing an episode of need in 2011 of 3 months but less than 6 months duration
+%CINEnding1112Duration3-6mths:     Percentage of Children ceasing an episode of need in 2011 of 3 months but less than 6 months duration
+CINEnding1112Duration6mths-1yr:     Children ceasing an episode of need in 2011 of 6 months but less than 1 year duration
+%CINEnding1112Duration6mths-1yr:     Percentage of Children ceasing an episode of need in 2011 of 6 months but less than 1 year duration
+CINEnding1112Duration1-2yr:     Children ceasing an episode of need in 2011 of 1 year but less than 2 years duration
+%CINEnding1112Duration1-2yr:     Percentage of Children ceasing an episode of need in 2011 of 1 year but less than 2 years duration
+CINEnding1112Duration2+yrs:     Children ceasing an episode of need in 2011 of 2 or more years duration
+%CINEnding1112Duration2+yrs:     Percentage of Children ceasing an episode of need in 2011 of 2 or more years duration
+CINEnding1112DurationDCI:     Data Confidence Indicator - open case duration
+CINEnding1112RCmissing:     Number of Children ceasing an episode of need in 2011-12 with unknown reason for closure
+%CINEnding1112RCmissing_A:     Percentage of Children ceasing an episode of need in 2011-12 with unknown reason for closure
+CINEnding1112RCAd:     Number of Children ceasing an episode of need in 2011-12 with adopted reason for closure
+%CINEnding1112RCAd:     Percentage of Children ceasing an episode of need in 2011-12 with adopted reason for closure
+CINEnding1112RCDied:     Number of Children ceasing an episode of need in 2011-12 with died reason for closure
+%CINEnding1112RCDied:     Percentage of Children ceasing an episode of need in 2011-12 with died reason for closure
+CINEnding1112ResidenceOrder:     Number of Children ceasing an episode of need in 2011-12 with residence order reason for closure
+%CINEnding1112ResidenceOrder:     Percentage of Children ceasing an episode of need in 2011-12 with residence order reason for closure
+CINEnding1112SpecialGuardianship:     Number of Children ceasing an episode of need in 2011-12 with special guardianship reason for closure
+%CINEnding1112SpecialGuardianship:     Percentage of Children ceasing an episode of need in 2011-12 with special guardianship reason for closure
+CINEnding1112TransferToLA:     Number of Children ceasing an episode of need in 2011-12 with transfer to LA reason for closure
+%CINEnding1112TransferToLA:     Percentage of Children ceasing an episode of need in 2011-12 with transfer to LA reason for closure
+CINEnding1112TransferToAdultServices:     Number of Children ceasing an episode of need in 2011-12 with transfer to adult services reason for closure
+%CINEnding1112TransferToAdultServices:     Percentage of Children ceasing an episode of need in 2011-12 with transfer to adult services reason for closure
+CINEnding1112OtherNotInNeed:     Number of Children ceasing an episode of need in 2011-12 with not in need reason for closure
+%CINEnding1112OtherNotInNeed:     Percentage of Children ceasing an episode of need in 2011-12 with not in need reason for closure
+CINEnding1112RCDCI:     Data Confidence Indicator - Children ceasing an episode of need by closure reason
+Referrals1112:     Number of referrals in 2011-12
+Referrals1112Rate:     Rate of referrals in 2011-12
+IAs1112:     Initial Assessments completed during 2011-12
+IAs1112Rate:     Rate of Initial Assessments completed during 2011-12
+IAs%OfReferrals1112:     Initial Assessments as a percentage of referrals in 2011-12
+IAsStartEndSameDay1112:	Initial Assessments which start and end the same day 2011-12
+IAs1-5days1112:	Initial Assessments completed in 1-5 days 2011-12
+IAs6-10days1112:	Initial Assessments completed in 6-10 days 2011-12
+IAs11-15days1112:	Initial Assessments completed in 11-15 days 2011-12
+IAs16-20days1112:	Initial Assessments completed in 16-20 days 2011-12
+IAs21+days1112:	Initial Assessments completed in 21+ days 2011-12
+IAs25thpercentile1112:	Duration of initial assessments, 25th percentile
+IAsMedian1112:	Duration of initial assessments, median value
+IAs75thpercentile1112:	Duration of initial assessments, 75th percentile
+Referrals1112DCI:    Data Confidence Indicator – Number of referrals in 2011-12
+IAs1112DCI:     Data Confidence Indicator - Initial Assessments completed 
+IAsDuration1112DCI:     Data Confidence Indicator - Initial Assessments duration
+IAs%OfReferrals1112DCI:     Data Confidence Indicator - Initial Assessments as a percentage of referrals
+ReferralsWithin12mths1112:     Number of 2011-12 referrals within 12 months of a previous referral
+%ReferralsWithin12mths1112:     Percentage of 2011-12 referrals within 12 months of a previous referral
+ReferralsNFA1112:     Number of 2011-12 referrals resulting in no further action 
+%ReferralsNFA1112:     Percentage of 2011-12 referrals resulting in no further action 
+ReferralsIANotInNeed1112:     Number of 2011-12 referrals resulting in the child not being in need 2011-12
+%ReferralsIANotInNeed1112:     Percentage of 2011-12 referrals resulting in the child not being in need 2011-12
+Rereferrals1112DCI:     Data Confidence Indicator – Rereferrals 2011-12
+CAs1112:     Number of Core Assessments completed in 2011-12
+CAsRate1112:     Rate per 10,000 children - Core Assessments completed in 2011-12
+CAs0-10days1112:     Number of Core Assessments completed within 0-10 working days in 2011-12
+CAs11-20days1112:     Number of Core Assessments completed within 11-20 working days in 2011-12
+CAs21-30days1112:     Number of Core Assessments completed within 21-30 working days in 2011-12
+CAs31-35days1112:     Number of Core Assessments completed within 31-35 working days in 2011-12
+CAs36-40days1112:     Number of Core Assessments completed within 36-40 working days in 2011-12
+CAs41-50days1112:     Number of Core Assessments completed within 41-50 working days in 2011-12
+CAs51-60days1112:     Number of Core Assessments completed within 51-60 working days in 2011-12
+CAs61+days1112:     Number of Core Assessments completed within 61+ working days in 2011-12
+CAs25thPercentile1112:     Duration of Core Assessments, 25th percentile 2011-12
+CAsMedian1112:     Duration of Core Assessments, median value, 2011-12
+CAs75thPercentile1112:     Duration of Core Assessments, 75th percentile 2011-12
+CAs1112DCI:     Data Confidence Indicator - Core Assessments completed within the year, 2011-12
+CAsDuration1112DCI:     Data Confidence Indicator - Core Assessments duration, 2011-12
+S471112:     Number of children subject to Section 47 enquiries within 2011-12
+S47Rate1112:     Rate per 10,000 children - Children subject to Section 47 enquiries within 2011-12
+ICPCin1112:     Number of children subject to an Initial Child Protection Conference in 2011-12
+ICPCRate1112:     Rate per 10,000 children - Children subject to to an Initial Child Protection Conference in 2011-12
+ICPC0-10days1112:     Number of Initial Child Protection Conferences held within 0-10 days of Section 47 enquiry in 2011-12
+ICPC11-15days1112:     Number of Initial Child Protection Conferences held within 11-15 days of Section 47 enquiry in 2011-12
+ICPC16-20days1112:     Number of Initial Child Protection Conferences held within 16-20 days of Section 47 enquiry in 2011-12
+ICPC21+days1112:     Number of Initial Child Protection Conferences held within 21+ days of Section 47 enquiry in 2011-12
+ICPC25thPercentile1112:     Number of Initial Child Protection Conferences in 2011-12, 25th percentile
+ICPCMedian1112:     Number of Initial Child Protection Conferences in 2011-12, median value
+ICPC75thPercentile1112:     Number of Initial Child Protection Conferences in 2011-12, 75th percentile
+S471112DCI:     Data Confidence Indicator - Section 47 
+ICPC1112DCI:     Data Confidence Indicator - Initial Child Protection Conferences
+CPPStart1112:     Number of children who became the subject of a Child Protection plan during 2011-12
+CPPStartRate1112:     Rate per 10,000 children - Number of children who became the subject of a Child Protection plan during 2011-12
+CPPCeased1112:     Number of children who ceased to be the subject of a Child Protection plan during 2011-12
+CPPCeasedRate1112:     Rate per 10,000 children - Number of children who ceased to be the subject of a Child Protection plan during 2011-12
+CPPAt310312:     Number of children who were the subject of a Child Protection plan at 31 March 2012
+CPPAt310312Rate:     Rate per 10,000 children - Number of children who were the subject of a Child Protection plan at 31 March 2012
+CPPStart1112DCI:     Data Confidence Indicator - Number of children who became the subject of a Child Protection plan during 2011-12
+CPPCeased1112DCI:     Data Confidence Indicator - Number of children who ceased to be the subject of a Child Protection plan during 2011-12
+CPPAt310312DCI:     Data Confidence Indicator - Number of children who were the subject of a Child Protection plan at 31 March 2012
+CPPStart1112InitialAbuseNeglect:     Number of children who became the subject of a Child Protection plan during 2011-12 - Initial Category of abuse Neglect
+CPPStart1112InitialAbusePhysical:     Number of children who became the subject of a Child Protection plan during 2011-12 - Initial Category of abuse Physical Abuse
+CPPStart1112InitialAbuseSexual:     Number of children who became the subject of a Child Protection plan during 2011-12 - Initial Category of abuse Sexual Abuse
+CPPStart1112InitialAbuseEmotional:     Number of children who became the subject of a Child Protection plan during 2011-12 - Initial Category of abuse Emotional Abuse
+CPPStart1112InitialAbuseMultiple:     Number of children who became the subject of a Child Protection plan during 2011-12 - Initial Category of abuse Multiple categories
+CPPStart1112InitialAbuseMissing:     Number of children who became the subject of a Child Protection plan during 2011-12 - Initial Category of abuse Missing
+CPPStart1112LatestAbuseNeglect:     Number of children who became the subject of a Child Protection plan during 2011-12 - Latest Category of abuse Neglect
+CPPStart1112LatestAbusePhysical:     Number of children who became the subject of a Child Protection plan during 2011-12 - Latest Category of abuse Physical Abuse
+CPPStart1112LatestAbuseSexual:     Number of children who became the subject of a Child Protection plan during 2011-12 - Latest Category of abuse Sexual Abuse
+CPPStart1112LatestAbuseEmotional:     Number of children who became the subject of a Child Protection plan during 2011-12 - Latest Category of abuse Emotional Abuse
+CPPStart1112LatestAbuseMultiple:     Number of children who became the subject of a Child Protection plan during 2011-12 - Latest Category of abuse Multiple categories
+CPPStart1112LatestAbuseMissing:     Number of children who became the subject of a Child Protection plan during 2011-12 - Latest Category of abuse Missing
+CPPStart1112AbuseDCI:     Data Confidence Indicator - Category of abuse for children who became the subject of a Child Protection plan during 2011-12
+CPPStart1112UnknownGender:     Number of children who became the subject of a child protection plan during 2011-12 whose gender is unknown
+CPPStart1112Male1yr:     Number of children who became the subject of a child protection plan during 2011-12 - male, age under 1
+CPPStart1112Male14yrs:     Number of children who became the subject of a child protection plan during 2011-12 - male, age 1 to 4
+CPPStart1112Male59yrs:     Number of children who became the subject of a child protection plan during 2011-12 - male, age 5 to 9
+CPPStart1112Male1015yrs:     Number of children who became the subject of a child protection plan during 2011-12 - male, age 10 to 15
+CPPStart1112Male16yrs:     Number of children who became the subject of a child protection plan during 2011-12 - male, age 16 and over
+CPPStart1112TotalMales:     Number of children who became the subject of a child protection plan during 2011-12 - Total males
+CPPStart1112Female1yr:     Number of children who became the subject of a child protection plan during 2011-12 - female, age under 1
+CPPStart1112Female14yrs:     Number of children who became the subject of a child protection plan during 2011-12 - female, age 1 to 4
+CPPStart1112Female59yrs:     Number of children who became the subject of a child protection plan during 2011-12 - female, age 5 to 9
+CPPStart1112Female1015yrs:     Number of children who became the subject of a child protection plan during 2011-12 - female, age 10 to 15
+CPPStart1112Female16yrs:     Number of children who became the subject of a child protection plan during 2011-12 - female, age 16 and over
+CPPStart1112TotalFemales:     Number of children who became the subject of a child protection plan during 2011-12 - Total females
+CPPStart1112AgeGenderDCI:     Data Confidence Indicator - Age for Number of children who became the subject of a child protection plan during 2011-12
+CPPStart1112SecondTime:     Number of children who became the subject of a child protection plan during 2011-12 for a second or subsequent time
+CPPStart1112SecondTime_A:     Percentage of children who became the subject of a child protection plan during 2011-12 for a second or subsequent time
+CPPStart1112SecondTimeDCI:     Data Confidence Indicator - Number of children who became the subject of a child protection plan during 2011-12 for a second or subsequent time
+CPPat310312InitialAbuseNeglect:     Number of children who were the subject of a child protection plan at 31 March 2012 - Initial Category of abuse Neglect
+CPPat310312InitialAbusePhysical:     Number of children who were the subject of a child protection plan at 31 March 2012 - Initial Category of abuse Physical Abuse
+CPPat310312InitialAbuseSexual:     Number of children who were the subject of a child protection plan at 31 March 2012 - Initial Category of abuse Sexual Abuse
+CPPat310312InitialAbuseEmotional:     Number of children who were the subject of a child protection plan at 31 March 2012 - Initial Category of abuse Emotional Abuse
+CPPat310312InitialAbuseMultiple:     Number of children who were the subject of a child protection plan at 31 March 2012 - Initial Category of abuse Multiple categories
+CPPat310312InitialAbuseMissing:     Number of children who were the subject of a child protection plan at 31 March 2012 - Initial Category of abuse Missing
+CPPat310312LatestAbuseNeglect:     Number of children who were the subject of a child protection plan at 31 March 2012 - Latest Category of abuse Neglect
+CPPat310312LatestAbusePhysical:     Number of children who were the subject of a child protection plan at 31 March 2012 - Latest Category of abuse Physical Abuse
+CPPat310312LatestAbuseSexual:     Number of children who were the subject of a child protection plan at 31 March 2012 - Latest Category of abuse Sexual Abuse
+CPPat310312LatestAbuseEmotional:     Number of children who were the subject of a child protection plan at 31 March 2012 - Latest Category of abuse Emotional Abuse
+CPPat310312LatestAbuseMultiple:     Number of children who were the subject of a child protection plan at 31 March 2012 - Latest Category of abuse Multiple categories
+CPPat310312LatestAbuseMissing:     Number of children who were the subject of a child protection plan at 31 March 2012 - Latest Category of abuse Missing
+CPPat310312AbuseDCI:     Data Confidence Indicator - Category of abuse for children who were the subject of a child protection plan at 31 March 2012
+CPPat310312UnknownGender:     Number of children who were the subject of a child protection plan at 31 March 2012 - Unknown Gender
+CPPat310312Male<1yr:     Number of children who were the subject of a child protection plan at 31 March 2012 - male, age under 1
+CPPat310312Male1-4yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - male, age 1 to 4
+CPPat310312Male5-9yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - male, age 5 to 9
+CPPat310312Male10-15yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - male, age 10 to 15
+CPPat310312Male16+yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - male, age 16 and over
+CPPat310312TotalMales:     Number of children who were the subject of a child protection plan at 31 March 2012 - Total males
+CPPat310312Female<1yr:     Number of children who were the subject of a child protection plan at 31 March 2012 - female, age under 1
+CPPat310312Female1-4yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - female, age 1 to 4
+CPPat310312Female5-9yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - female, age 5 to 9
+CPPat310312Female10-15yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - female, age 10 to 15
+CPPat310312Female16+yrs:     Number of children who were the subject of a child protection plan at 31 March 2012 - female, age 16 and over
+CPPat310312TotalFemales:     Number of children who were the subject of a child protection plan at 31 March 2012 - Total females
+CPPat310312AgeGenderDCI:     Data Confidence Indicator - Age and gender for Number of children who were the subject of a child protection plan at 31 March 2012
+CPPAt310312White:     Number of Children who were the subject of a child protection plan at 31 March 2012 whose ethnicity is white
+CPPAt310312Mixed:     Number of Children who were the subject of a child protection plan at 31 March 2012 whose ethnicity is Mixed
+CPPAt310312AsianOrAsianBritish:     Number of Children who were the subject of a child protection plan at 31 March 2012 whose ethnicity is Asian/Asian British
+CPPAt310312BlackorBlackBritish:     Number of Children who were the subject of a child protection plan at 31 March 2012 whose ethnicity is Black/Black British
+CPPAt310312OtherEthnicity:     Number of Children who were the subject of a child protection plan at 31 March 2012 whose ethnicity is Other
+CPPAt310312EthnicityRefusedNO:     Number of Children who were the subject of a child protection plan at 31 March 2012 whose ethnicity is Refused or Not Obtained
+CPPAt310312EthnicityDCI:     Data Confidence Indicator - Ethnicity for Children who were the subject of a child protection plan at 31 March 2012
+CPPAT310312Duration<3mths: Child protection plans at 31 March 2012, lasting under 3 months
+%CPPAT310312Duration<3mths: Percentage of child protection plans at 31 March 2012, lasting under 3 months
+CPPAT310312Duration3-6mths: Child protection plans at 31 March 2012, lasting 3 to 6 months
+%CPPAT310312Duration3-6mths: Percentage of child protection plans at 31 March 2012, lasting 3 to 6 months
+CPPAT310312Duration6mths-1yr: Child protection plans at 31 March 2012, lasting 6 months to 1 year
+%CPPAT310312Duration6mths-1yr: Percentage of child protection plans at 31 March 2012, lasting 6 months to 1 year
+CPPAT310312Duration1-2yrs: Child protection plans at 31 March 2012, lasting 1 -2 years
+%CPPAT310312Duration1-2yrs: Percentage of child protection plans at 31 March 2012, lasting 1 -2 years
+CPPAT310312Duration2+yrs: Child protection plans at 31 March 2012, 2 or more years
+%CPPAT310312Duration2+yrs: Percentage of child protection plans at 31 March 2012, lasting 2 or more years
+CPPAT310312DurationDCI:	Data Confidence Indicator – Duration of child protection plans at 31 March 2012
+CPPat310312For3mths:     Number of Children who were the subject of a child protection plan at 31 March 2012 who were subject of a plan for 3 or more months
+CPPsReviewedinTimescales:     Number of child protection plans at 31 March 2012 who were subject of a plan for 3 or more months reviewed within the required timescales
+%CPPsReviewedinTimescales:     Percentage of child protection plans at 31 March 2012 who were subject of a plan for 3 or more months reviewed within the required timescales
+CPPReviewedinTimescalesDCI:     Data Confidence Indicator - Number of child protection plans at 31 March 2012 who were subject of a plan for 3 or more months 
+CPPCeased1112Duration<3mths:     Number of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is less than 3 months
+%CPPCeased1112Duration<3mths:     Percentage of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is less than 3 months
+CPPCeased1112Duration3-6mths:     Number of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 3 months but less than 6 months
+%CPPCeased1112Duration3-6mths:     Percentage of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 3 months but less than 6 months
+CPPCeased1112Duration6mths-1yr:     Number of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 6 months but less than 1 year
+%CPPCeased1112Duration6mths-1yr:     Percentage of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 6 months but less than 1 year
+CPPCeased1112Duration1-2yrs:     Number of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 1 year but less than 2 years
+%CPPCeased1112Duration1-2yrs:     Percentage of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 1 year but less than 2 years
+CPPCeased1112Duration2+yrs:     Number of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 2 or more years
+%CPPCeased1112Duration2+yrs:     Percentage of children who ceased to be the subject of a child protection plan during 2011-12 where length of time of plan is 2 years or more
+CPPCeased1112DurationDCI:     Data Confidence Indicator - Length of time of plan for Number of children who ceased to be the subject of a child protection plan during 2011-12
+CPPCeased6mths1112:	Number of child protection plans ending in first 6mths of the year, 2011-12
+CPPCeased6mthsDuration3mths1112:	Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, 2011-12
+%CPPCeased6mthsDuration3mths1112:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, 2011-12
+CPPCeased6mthsDurationAnotherLA1112:	Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2011-12
+%CPPCeased6mthsDurationAnother LA1112:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3mths, who transferred to another LA, 2011-12
+CPPCeased6mthsDuration36mths1112:	Number of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2011-12
+%CPPCeased6mthsDuration36mths1112:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode ended within 3 to 6mths, 2011-12
+CPPCeased6mthsDuration6mths1112:	Number of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2011-12
+%CPPCeased6mthsDuration6mths1112:	Percentage of child protection plans ending in first 6mths of the year, whose CIN episode lasted 6mths or more, 2011-12
+CPPCeased6mthsDuration1112DCI:	Data Confidence Indicator - Number of child protection plans ending in first 6mths of the year, by duration of CIN episode
+Mid2011Pop017:     Mid-2011 population estimates, rounded to the nearest 100. Source: Population Estimates Unit, ONS: Crown Copyright.

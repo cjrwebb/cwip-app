@@ -1,0 +1,385 @@
+
+"Population estimates - local authority based by single year of age"
+"ONS Crown Copyright Reserved [from Nomis on 30 March 2023]"
+"Gender     :","Total"
+"Age        :","Age 16"
+
+"local authority: district / unitary (as of April 2021)","mnemonic","2021"
+
+"Darlington","E06000005",1284
+"County Durham","E06000047",5580
+"Hartlepool","E06000001",1120
+"Middlesbrough","E06000002",1772
+"Northumberland","E06000057",3347
+"Redcar and Cleveland","E06000003",1463
+"Stockton-on-Tees","E06000004",2339
+"Gateshead","E08000037",2064
+"Newcastle upon Tyne","E08000021",2886
+"North Tyneside","E08000022",2302
+"South Tyneside","E08000023",1572
+"Sunderland","E08000024",3019
+"Blackburn with Darwen","E06000008",2267
+"Blackpool","E06000009",1626
+"Cheshire East","E06000049",4530
+"Cheshire West and Chester","E06000050",3943
+"Halton","E06000006",1515
+"Warrington","E06000007",2452
+"Allerdale","E07000026",1017
+"Barrow-in-Furness","E07000027",751
+"Carlisle","E07000028",1151
+"Copeland","E07000029",670
+"Eden","E07000030",556
+"South Lakeland","E07000031",1177
+"Bolton","E08000001",3898
+"Bury","E08000002",2492
+"Manchester","E08000003",6665
+"Oldham","E08000004",3593
+"Rochdale","E08000005",2973
+"Salford","E08000006",2903
+"Stockport","E08000007",3395
+"Tameside","E08000008",2666
+"Trafford","E08000009",2985
+"Wigan","E08000010",3815
+"Burnley","E07000117",1199
+"Chorley","E07000118",1300
+"Fylde","E07000119",912
+"Hyndburn","E07000120",1090
+"Lancaster","E07000121",1501
+"Pendle","E07000122",1292
+"Preston","E07000123",1789
+"Ribble Valley","E07000124",732
+"Rossendale","E07000125",882
+"South Ribble","E07000126",1220
+"West Lancashire","E07000127",1312
+"Wyre","E07000128",1279
+"Knowsley","E08000011",1889
+"Liverpool","E08000012",4803
+"Sefton","E08000014",2970
+"St. Helens","E08000013",2022
+"Wirral","E08000015",3753
+"East Riding of Yorkshire","E06000011",3705
+"Kingston upon Hull, City of","E06000010",3090
+"North East Lincolnshire","E06000012",1862
+"North Lincolnshire","E06000013",2029
+"York","E06000014",2002
+"Craven","E07000163",545
+"Hambleton","E07000164",940
+"Harrogate","E07000165",2293
+"Richmondshire","E07000166",499
+"Ryedale","E07000167",603
+"Scarborough","E07000168",1145
+"Selby","E07000169",989
+"Barnsley","E08000016",2692
+"Doncaster","E08000017",3520
+"Rotherham","E08000018",3076
+"Sheffield","E08000019",6168
+"Bradford","E08000032",8033
+"Calderdale","E08000033",2619
+"Kirklees","E08000034",5576
+"Leeds","E08000035",8648
+"Wakefield","E08000036",3870
+"Derby","E06000015",3198
+"Leicester","E06000016",4936
+"Nottingham","E06000018",3408
+"Rutland","E06000017",619
+"Amber Valley","E07000032",1315
+"Bolsover","E07000033",878
+"Chesterfield","E07000034",1079
+"Derbyshire Dales","E07000035",788
+"Erewash","E07000036",1221
+"High Peak","E07000037",977
+"North East Derbyshire","E07000038",1013
+"South Derbyshire","E07000039",1255
+"Blaby","E07000129",1193
+"Charnwood","E07000130",1903
+"Harborough","E07000131",1207
+"Hinckley and Bosworth","E07000132",1223
+"Melton","E07000133",555
+"North West Leicestershire","E07000134",1136
+"Oadby and Wigston","E07000135",698
+"Boston","E07000136",831
+"East Lindsey","E07000137",1345
+"Lincoln","E07000138",1006
+"North Kesteven","E07000139",1298
+"South Holland","E07000140",925
+"South Kesteven","E07000141",1611
+"West Lindsey","E07000142",1048
+"Ashfield","E07000170",1410
+"Bassetlaw","E07000171",1255
+"Broxtowe","E07000172",1011
+"Gedling","E07000173",1308
+"Mansfield","E07000174",1161
+"Newark and Sherwood","E07000175",1331
+"Rushcliffe","E07000176",1384
+"North Northamptonshire","E06000061",4347
+"West Northamptonshire","E06000062",4950
+"Herefordshire, County of","E06000019",1988
+"Shropshire","E06000051",3564
+"Stoke-on-Trent","E06000021",3186
+"Telford and Wrekin","E06000020",2311
+"Cannock Chase","E07000192",1065
+"East Staffordshire","E07000193",1463
+"Lichfield","E07000194",1151
+"Newcastle-under-Lyme","E07000195",1395
+"South Staffordshire","E07000196",1135
+"Stafford","E07000197",1424
+"Staffordshire Moorlands","E07000198",1067
+"Tamworth","E07000199",873
+"North Warwickshire","E07000218",740
+"Nuneaton and Bedworth","E07000219",1517
+"Rugby","E07000220",1403
+"Stratford-on-Avon","E07000221",1479
+"Warwick","E07000222",1564
+"Birmingham","E08000025",16038
+"Coventry","E08000026",4015
+"Dudley","E08000027",3768
+"Sandwell","E08000028",4678
+"Solihull","E08000029",2648
+"Walsall","E08000030",3683
+"Wolverhampton","E08000031",3347
+"Bromsgrove","E07000234",1206
+"Malvern Hills","E07000235",973
+"Redditch","E07000236",1051
+"Worcester","E07000237",1141
+"Wychavon","E07000238",1450
+"Wyre Forest","E07000239",1088
+"Bedford","E06000055",2183
+"Central Bedfordshire","E06000056",3217
+"Luton","E06000032",3253
+"Peterborough","E06000031",2740
+"Southend-on-Sea","E06000033",1951
+"Thurrock","E06000034",2336
+"Cambridge","E07000008",1285
+"East Cambridgeshire","E07000009",1008
+"Fenland","E07000010",1009
+"Huntingdonshire","E07000011",2020
+"South Cambridgeshire","E07000012",1999
+"Basildon","E07000066",2188
+"Braintree","E07000067",1800
+"Brentwood","E07000068",898
+"Castle Point","E07000069",980
+"Chelmsford","E07000070",2125
+"Colchester","E07000071",2092
+"Epping Forest","E07000072",1526
+"Harlow","E07000073",1133
+"Maldon","E07000074",784
+"Rochford","E07000075",934
+"Tendring","E07000076",1430
+"Uttlesford","E07000077",1090
+"Broxbourne","E07000095",1174
+"Dacorum","E07000096",1782
+"East Hertfordshire","E07000242",1924
+"Hertsmere","E07000098",1352
+"North Hertfordshire","E07000099",1497
+"St Albans","E07000240",1954
+"Stevenage","E07000243",983
+"Three Rivers","E07000102",1249
+"Watford","E07000103",1232
+"Welwyn Hatfield","E07000241",1299
+"Breckland","E07000143",1432
+"Broadland","E07000144",1424
+"Great Yarmouth","E07000145",1047
+"King's Lynn and West Norfolk","E07000146",1530
+"North Norfolk","E07000147",984
+"Norwich","E07000148",1278
+"South Norfolk","E07000149",1524
+"Babergh","E07000200",1077
+"Ipswich","E07000202",1671
+"Mid Suffolk","E07000203",1134
+"East Suffolk","E07000244",2698
+"West Suffolk","E07000245",1798
+"Camden","E09000007",2101
+"City of London","E09000001",35
+"Hackney","E09000012",2979
+"Hammersmith and Fulham","E09000013",1652
+"Haringey","E09000014",3041
+"Islington","E09000019",1808
+"Kensington and Chelsea","E09000020",1204
+"Lambeth","E09000022",2986
+"Lewisham","E09000023",3360
+"Newham","E09000025",4548
+"Southwark","E09000028",3156
+"Tower Hamlets","E09000030",3320
+"Wandsworth","E09000032",2642
+"Westminster","E09000033",1801
+"Barking and Dagenham","E09000002",3358
+"Barnet","E09000003",4876
+"Bexley","E09000004",3007
+"Brent","E09000005",4126
+"Bromley","E09000006",3898
+"Croydon","E09000008",4983
+"Ealing","E09000009",4424
+"Enfield","E09000010",4630
+"Greenwich","E09000011",3304
+"Harrow","E09000015",3375
+"Havering","E09000016",3172
+"Hillingdon","E09000017",3667
+"Hounslow","E09000018",3416
+"Kingston upon Thames","E09000021",1984
+"Merton","E09000024",2438
+"Redbridge","E09000026",4035
+"Richmond upon Thames","E09000027",2263
+"Sutton","E09000029",2529
+"Waltham Forest","E09000031",3123
+"Bracknell Forest","E06000036",1607
+"Brighton and Hove","E06000043",2711
+"Isle of Wight","E06000046",1406
+"Medway","E06000035",3342
+"Milton Keynes","E06000042",3664
+"Portsmouth","E06000044",2141
+"Reading","E06000038",1800
+"Slough","E06000039",2192
+"Southampton","E06000045",2400
+"West Berkshire","E06000037",1900
+"Windsor and Maidenhead","E06000040",2115
+"Wokingham","E06000041",2287
+"Buckinghamshire","E06000060",6981
+"Eastbourne","E07000061",1111
+"Hastings","E07000062",991
+"Lewes","E07000063",1098
+"Rother","E07000064",933
+"Wealden","E07000065",1777
+"Basingstoke and Deane","E07000084",2033
+"East Hampshire","E07000085",1519
+"Eastleigh","E07000086",1491
+"Fareham","E07000087",1214
+"Gosport","E07000088",913
+"Hart","E07000089",1229
+"Havant","E07000090",1355
+"New Forest","E07000091",1788
+"Rushmoor","E07000092",1084
+"Test Valley","E07000093",1425
+"Winchester","E07000094",1590
+"Ashford","E07000105",1565
+"Canterbury","E07000106",1728
+"Dartford","E07000107",1457
+"Dover","E07000108",1298
+"Gravesham","E07000109",1340
+"Maidstone","E07000110",1986
+"Sevenoaks","E07000111",1544
+"Folkestone and Hythe","E07000112",1115
+"Swale","E07000113",1746
+"Thanet","E07000114",1580
+"Tonbridge and Malling","E07000115",1676
+"Tunbridge Wells","E07000116",1495
+"Cherwell","E07000177",1890
+"Oxford","E07000178",1703
+"South Oxfordshire","E07000179",1706
+"Vale of White Horse","E07000180",1642
+"West Oxfordshire","E07000181",1242
+"Elmbridge","E07000207",1827
+"Epsom and Ewell","E07000208",1049
+"Guildford","E07000209",1597
+"Mole Valley","E07000210",1058
+"Reigate and Banstead","E07000211",1679
+"Runnymede","E07000212",910
+"Spelthorne","E07000213",1117
+"Surrey Heath","E07000214",1120
+"Tandridge","E07000215",1143
+"Waverley","E07000216",1768
+"Woking","E07000217",1218
+"Adur","E07000223",736
+"Arun","E07000224",1577
+"Chichester","E07000225",1248
+"Crawley","E07000226",1397
+"Horsham","E07000227",1786
+"Mid Sussex","E07000228",1815
+"Worthing","E07000229",1172
+"Bath and North East Somerset","E06000022",1978
+"Bristol, City of","E06000023",4588
+"Cornwall","E06000052",5907
+"Isles of Scilly","E06000053",5
+"North Somerset","E06000024",2346
+"Plymouth","E06000026",2812
+"South Gloucestershire","E06000025",3144
+"Swindon","E06000030",2667
+"Torbay","E06000027",1513
+"Wiltshire","E06000054",5810
+"East Devon","E07000040",1513
+"Exeter","E07000041",1171
+"Mid Devon","E07000042",988
+"North Devon","E07000043",1101
+"South Hams","E07000044",927
+"Teignbridge","E07000045",1402
+"Torridge","E07000046",677
+"West Devon","E07000047",649
+"Bournemouth, Christchurch and Poole","E06000058",4015
+"Dorset","E06000059",4193
+"Cheltenham","E07000078",1259
+"Cotswold","E07000079",923
+"Forest of Dean","E07000080",946
+"Gloucester","E07000081",1533
+"Stroud","E07000082",1321
+"Tewkesbury","E07000083",1019
+"Mendip","E07000187",1465
+"Sedgemoor","E07000188",1355
+"South Somerset","E07000189",1906
+"Somerset West and Taunton","E07000246",1770
+"Isle of Anglesey","W06000001",716
+"Gwynedd","W06000002",1259
+"Conwy","W06000003",1216
+"Denbighshire","W06000004",1162
+"Flintshire","W06000005",1846
+"Wrexham","W06000006",1603
+"Powys","W06000023",1459
+"Ceredigion","W06000008",688
+"Pembrokeshire","W06000009",1390
+"Carmarthenshire","W06000010",2187
+"Swansea","W06000011",2582
+"Neath Port Talbot","W06000012",1661
+"Bridgend","W06000013",1704
+"Vale of Glamorgan","W06000014",1527
+"Cardiff","W06000015",3945
+"Rhondda Cynon Taff","W06000016",2854
+"Merthyr Tydfil","W06000024",628
+"Caerphilly","W06000018",1986
+"Blaenau Gwent","W06000019",718
+"Torfaen","W06000020",1109
+"Monmouthshire","W06000021",1031
+"Newport","W06000022",1896
+"Aberdeen City","S12000033",1945
+"Aberdeenshire","S12000034",2940
+"Angus","S12000041",1262
+"Argyll and Bute","S12000035",878
+"Clackmannanshire","S12000005",548
+"Dumfries and Galloway","S12000006",1588
+"Dundee City","S12000042",1455
+"East Ayrshire","S12000008",1305
+"East Dunbartonshire","S12000045",1277
+"East Lothian","S12000010",1177
+"East Renfrewshire","S12000011",1307
+"City of Edinburgh","S12000036",4436
+"Na h-Eileanan Siar","S12000013",261
+"Falkirk","S12000014",1791
+"Fife","S12000047",4040
+"Glasgow City","S12000049",5579
+"Highland","S12000017",2592
+"Inverclyde","S12000018",848
+"Midlothian","S12000019",1015
+"Moray","S12000020",1086
+"North Ayrshire","S12000021",1485
+"North Lanarkshire","S12000050",4087
+"Orkney Islands","S12000023",242
+"Perth and Kinross","S12000048",1714
+"Renfrewshire","S12000038",1960
+"Scottish Borders","S12000026",1248
+"Shetland Islands","S12000027",269
+"South Ayrshire","S12000028",1198
+"South Lanarkshire","S12000029",3388
+"Stirling","S12000030",1084
+"West Dunbartonshire","S12000039",994
+"West Lothian","S12000040",2281
+"Antrim and Newtownabbey","N09000001",1829
+"Armagh City, Banbridge and Craigavon","N09000002",2939
+"Belfast","N09000003",3757
+"Causeway Coast and Glens","N09000004",1710
+"Derry City and Strabane","N09000005",1926
+"Fermanagh and Omagh","N09000006",1536
+"Lisburn and Castlereagh","N09000007",1693
+"Mid and East Antrim","N09000008",1736
+"Mid Ulster","N09000009",2107
+"Newry, Mourne and Down","N09000010",2422
+"Ards and North Down","N09000011",1917
+
+
+

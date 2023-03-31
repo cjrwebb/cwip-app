@@ -1,0 +1,377 @@
+Meta Data Document
+Release of underlying data
+Children looked after in England including adoption: 2015 to 2016
+SFR 41/2016
+
+Overview
+
+This publication provides information about children looked after in England for the year ending 31 March 2016.  The figures are based on data collected annually through the Children Looked After return (also known as SSDA903) which is completed each spring by all local authorities in England.  Further details on which children are included in the data collection can be found in the children looked after return 2015-16 collection guide: https://www.gov.uk/government/publications/children-looked-after-return-2015-to-2016-guide.
+
+National totals are derived by summing data provided by each LA and then applying rounding and suppression.  The sum of each LA will not necessarily match national totals as a result.
+
+Regional totals are derived by summing data for each LA within that region and then applying rounding and suppression.  The sum of regional totals will not necessarily match the national total as a result.
+
+LA level data are data as returned by each LA and have been suppressed where necessary.
+
+Rounding and suppression: To ensure that no individual can be identified, we use conventions for the rounding and suppression of very small numbers.  National totals have been rounded to the nearest 100 if they exceed 1,000 and to the nearest 10 otherwise.  Regional totals have been rounded to the nearest 10.
+
+For confidentiality purposes, numbers from one to five inclusive have been suppressed and replaced by a cross (x).  Where any number is shown as zero (0), the original figure submitted was zero (0).  It has been necessary to suppress other figures whenever it would be possible to calculate the value of a suppressed number by means of simple arithmetic.  The rule applied in these circumstances has been to suppress the next smallest data item.
+
+Data usage note: In order to allow users maximum flexibility to aggregate data to meet their own purposes, LA level data has been shown to the nearest whole number.
+
+The Underlying Data Files
+File 1 Title: SFR41_CLA2016.csv (children looked after year ending 31 March 2016)
+File 2 Title: SFR41_ADM2016.csv (children who started to be looked after year ending 31 March 2016)
+File 3 Title: SFR41_CEA2016.csv (children who ceased to be looked after year ending 31 March 2016)
+File 4 Title: SFR41_CareLeavers2016.csv (children now aged 17 to 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday)
+File 5 Title: SFR41_Missing2016.csv (children who were missing or away without authorisation from their agreed placement in the year ending 31 March 2016)
+File 6 Title: SFR41_OC22016.csv (outcomes for children who were looked after continuously for 12 months at 31 March 2016)
+
+
+Annex A:
+
+SFR41_CLA2016.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_Mar2016: Children looked after at 31 March 2016
+CLA_2016: Children looked after during the year ending 31 March 2016
+CLA_stp2016: Children looked after during the year ending 31 March 2016 who were only looked after under a series of short term placements
+CLA_male: Male children looked after at 31 March 2016
+CLA_female: Female children looked after at 31 March 2016
+CLA_U1: Children looked after at 31 March 2016 aged under 1 year
+CLA_1to4: Children looked after at 31 March 2016 aged 1 to 4 years
+CLA_5to9: Children looked after at 31 March 2016 aged 5 to 9 years 
+CLA_10to15: Children looked after at 31 March 2016 aged 10 to 15 years
+CLA_16over: Children looked after at 31 March 2016 aged 16 years and over
+CLA_White: Children looked after at 31 March 2016 from a white ethnic background
+CLA_Mixed: Children looked after at 31 March 2016 from a mixed ethnic background
+CLA_Asian: Children looked after at 31 March 2016 from an Asian ethnic background
+CLA_Black: Children looked after at 31 March 2016 from a Black ethnic background
+CLA_EOTH: Children looked after at 31 March 2016 from any other ethnic background
+CLA_Oth: Children looked after at 31 March 2016 where ethnic background is not known
+CLA_Fost: Children looked after at 31 March 2016 in foster placements
+CLA_Adopt: Children looked after at 31 March 2016 placed for adoption
+CLA_Parent: Children looked after at 31 March 2016 placed with parents
+CLA_Ocom: Children looked after at 31 March 2016 placed in other placements within the community
+CLA_Secure: Children looked after at 31 March 2016 placed in secure units, children’s homes and hostels
+CLA_Ores: Children looked after at 31 March 2016 placed in other residential accommodation
+CLA_RSch: Children looked after at 31 March 2016 placed in residential schools
+CLA_OthPl: Children looked after at 31 March 2016 in other placements
+CLA_ICO: Children looked after at 31 March 2016 under an interim care order
+CLA_FCO: Children looked after at 31 March 2016 under a full care order
+CLA_FrAd: Children looked after at 31 March 2016 who are freed for adoption
+CLA_PlaceO: Children looked after at 31 March 2016 who have a placement order
+CLA_S20: Children looked after at 31 March 2016 under section 20
+CLA_CPG: Children looked after at 31 March 2016 under child protection grounds
+CLA_YJLS: Children looked after at 31 March 2016 under a youth justice legal status
+CLA_UASC: Children looked after at 31 March 2016 who were unaccompanied asylum seekers during the year
+CLA_OwnP: Children looked after at 31 March 2016 where placement is provided by the LAs own provision
+CLA_OthLA: Children looked after at 31 March 2016 under where placement is provided by another LA
+CLA_OthPP: Children looked after at 31 March 2016 where placement is provided by other public provision
+CLA_Priv: Children looked after at 31 March 2016 where placement is provided by private provision
+CLA_Vol: Children looked after at 31 March 2016 where placement is provided by voluntary provision
+CLA_Par: Children looked after at 31 March 2016 where placement is provided by parents
+CLA_Nrep: Children looked after at 31 March 2016 where placement provider is not reported
+CLA_InBound: Children looked after at 31 March 2016 placed within LA boundary
+CLA_Outbound: Children looked after at 31 March 2016 placed outside of the LA boundary
+CLA_ExtPl: Children looked after at 31 March 2016 in the LA's boundary by another LA
+CLA_NetGain: Children looked after at 31 March 2016 – net gain of children by an LA
+
+
+SFR41_ADM2016.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_started2016: Children who started to be looked after during the year ending 31 March 2016
+CLA_taken2016: Children who were taken into care during the year ending 31 March 2016
+SCLA_male: Male children who started to be looked after during the year ending 31 March 2016
+SCLA_female: Female children who started to be looked after during the year ending 31 March 2016
+SCLA_U1 : Children who started to be looked after during the year ending 31 March 2016 aged under 1
+SCLA_1to4: Children who started to be looked after during the year ending 31 March 2016 aged 1 to 4 years
+SCLA_5to9: Children who started to be looked after during the year ending 31 March 2016 aged 5 to 9 years
+SCLA_10to15: Children who started to be looked after during the year ending 31 March 2016 aged 10 to 15 years
+SCLA_16over: Children who started to be looked after during the year ending 31 March 2016 aged 16 years and over
+SCLA_AbNeg: Children who started to be looked after during the year ending 31 March 2016 due to abuse or neglect
+SCLA_Cdisab: Children who started to be looked after during the year ending 31 March 2016 due to the child’s disability
+SCLA_ParIll: Children who started to be looked after during the year ending 31 March 2016 due to parental illness or disability
+SCLA_FAcSt: Children who started to be looked after during the year ending 31 March 2016 due to family in acute stress
+SCLA_FD: Children who started to be looked after during the year ending 31 March 2016 due to family dysfunction
+SCLA_SUB: Children who started to be looked after during the year ending 31 March 2016 due to socially unacceptable behaviour
+SCLA_LI: Children who started to be looked after during the year ending 31 March 2016 due to low income
+SCLA_AbsPar: Children who started to be looked after during the year ending 31 March 2016 due to absent parenting
+SCLA_ICO: Children who started to be looked after during the year ending 31 March 2016 under an interim care order
+SCLA_FCO: Children who started to be looked after during the year ending 31 March 2016 under a full care order
+SCLA_POG: Children who started to be looked after during the year ending 31 March 2016 where a placement order has been granted
+SCLA_S20: Children who started to be looked after during the year ending 31 March 2016 under section 20
+SCLA_UPP: Children who started to be looked after during the year ending 31 March 2016 under police protection
+SCLA_SEPO: Children who started to be looked after during the year ending 31 March 2016 subject to an emergency protection order
+SCLA_UCAO: Children who started to be looked after during the year ending 31 March 2016 under a child assessment order
+SCLA_ONCT: Children who started to be looked after during the year ending 31 March 2016 on remand or committed for trial
+SCLA_PACE: Children who started to be looked after during the year ending 31 March 2016 under the police and criminal evidence act
+SCLA_SORR: Children who started to be looked after during the year ending 31 March 2016 under a supervision order with residence requirement
+
+
+SFR41_CEA2016.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_cease: Children who ceased to be looked after during the year ending 31 March 2016
+CLA_ceamal: Male children who ceased to be looked after during the year ending 31 March 2016
+CLA_ceafe: Female children who ceased to be looked after during the year ending 31 March 2016
+CLA_cea1: Children who ceased to be looked after during the year ending 31 March 2016 aged under 1
+CLA_cea14: Children who ceased to be looked after during the year ending 31 March 2016 aged 1 to 4 years
+CLA_cea59: Children who ceased to be looked after during the year ending 31 March 2016 aged 5 to 9 years
+CLA_cea1015: Children who ceased to be looked after during the year ending 31 March 2016 aged 10 to 15 years
+CLA_cea16: Children who ceased to be looked after during the year ending 31 March 2016 aged 16 years
+CLA_cea17: Children who ceased to be looked after during the year ending 31 March 2016 aged 17 years
+CLA_cea18: Children who ceased to be looked after during the year ending 31 March 2016 aged 18 years and over
+CLA_ceaAdop1: Children who ceased to be looked after during the year ending 31 March 2016 due to adoption - application unopposed
+CLA_ceaAdop2: Children who ceased to be looked after during the year ending 31 March 2016 - consent dispensed with
+CLA_ceaDied: Children who ceased to be looked after during the year ending 31 March 2016 as they have died
+CLA_ceataken: Children who ceased to be looked after during the year ending 31 March 2016 - care taken by another LA
+CLA_ceaParPlan: Children who ceased to be looked after during the year ending 31 March 2016 - returned home to live with parents or relatives as part of care planning process
+CLA_ceaParNPlan: Children who ceased to be looked after during the year ending 31 March 2016 - returned home to live with parents or relatives not as part of care planning process
+CLA_ceaNoPar: Children who ceased to be looked after during the year ending 31 March 2016 - ceased to live with parents or relatives without parental responsibility
+CLA_ceaROG: Children who ceased to be looked after during the year ending 31 March 2016 - residence order granted
+CLA_ceaSpecG1: Children who ceased to be looked after during the year ending 31 March 2016 - special guardianship order made to former foster carers
+CLA_ceaSpecG2: Children who ceased to be looked after during the year ending 31 March 2016 - special guardianship order made to carers other than former foster carers
+CLA_ceaIndLiv1: Children who ceased to be looked after during the year ending 31 March 2016 - moved into independent living (with supportive accommodation)
+CLA_ceaIndLiv2: Children who ceased to be looked after during the year ending 31 March 2016 - moved into independent living (with no formalised support)
+CLA_cea_tran_res: Children who ceased to be looked after during the year ending 31 March 2016 - transferred to residential care funded by adult social services
+CLA_cea_sen_cust: Children who ceased to be looked after during the year ending 31 March 2016 - sentenced to custody
+CLA_ceaRemEnd: Children who ceased to be looked after during the year ending 31 March 2016 - accommodation on remand ended
+CLA_ceaAgeAssmt: Children who ceased to be looked after during the year ending 31 March 2016 - age assessment determined child was 18 or over
+CLA_ceaAbroad: Children who ceased to be looked after during the year ending 31 March 2016 - child moved abroad
+CLA_cea_OthRea: Children who ceased to be looked after during the year ending 31 March 2016 - care ceased for any other reason
+
+
+SFR41_CareLeavers2016.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+All_aged1920&21: All care leavers now aged 19, 20 and 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+All_aged19: All care leavers now aged 19 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+All_aged20: All care leavers now aged 20 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+All_aged21: All care leavers now aged 21 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+All_aged17&18: All care leavers now aged 17 and 18 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+All_aged17: All care leavers now aged 17 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+All_aged18: All care leavers now aged 18 years old who were looked after for a total of at least 13 weeks after their 14th birthday including some time after their 16th birthday
+Act_HE1920&21: Number aged 19, 20 and 21 years old whose activity is higher education i.e. studies beyond A level
+Act_HE19: Number aged 19 years old whose activity is higher education i.e. studies beyond A level
+Act_HE20: Number aged 20 years old whose activity is higher education i.e. studies beyond A level
+Act_HE21: Number aged 21 years old whose activity is higher education i.e. studies beyond A level
+Act_HE17&18: Number aged 17 and 18 years old whose activity is higher education i.e. studies beyond A level
+Act_HE17: Number aged 17 years old whose activity is higher education i.e. studies beyond A level
+Act_HE18: Number aged 18 years old whose activity is higher education i.e. studies beyond A level
+Act_OE1920&21: Number aged 19, 20 and 21 years old whose activity is education other than higher education
+Act_OE19: Number aged 19 years old whose activity is education other than higher education
+Act_OE20: Number aged 20 years old whose activity is education other than higher education
+Act_OE21: Number aged 21 years old whose activity is education other than higher education
+Act_OE17&18: Number aged 17 and 18 years old whose activity is education other than higher education
+Act_OE17: Number aged 17 years old whose activity is education other than higher education
+Act_OE18: Number aged 18 years old whose activity is education other than higher education
+Act_TE1920&21: Number aged 19, 20 and 21 years old whose activity is training or employment
+Act_TE19: Number aged 19 years old whose activity is training or employment
+Act_TE20: Number aged 20 years old whose activity is training or employment
+Act_TE21: Number aged 21 years old whose activity is training or employment
+Act_TE17&18: Number aged 17 and 18 years old whose activity is training or employment
+Act_TE17: Number aged 17 years old whose activity is training or employment
+Act_TE18: Number aged 18 years old whose activity is training or employment
+Act_NEET_ill1920&21: Number aged 19, 20 and 21 years old who are not in education, training or employment, due to illness or disability
+Act_NEET_ill19: Number aged 19 years old who are not in education, training or employment, due to illness or disability
+Act_NEET_ill20: Number aged 20 years old who are not in education, training or employment, due to illness or disability
+Act_NEET_ill21: Number aged 21 years old who are not in education, training or employment, due to illness or disability
+Act_NEET_ill17&18: Number aged 17 and 18 years old who are not in education, training or employment, due to illness or disability
+Act_NEET_ill17: Number aged 17 years old who are not in education, training or employment, due to illness or disability
+Act_NEET_ill18: Number aged 18 years old who are not in education, training or employment, due to illness or disability
+Act_NEET_oth1920&21: Number aged 19, 20 and 21 years old who are not in education, training or employment due to other reasons
+Act_NEET_oth19: Number aged 19 years old who are not in education, training or employment due to other reasons
+Act_NEET_oth20: Number aged 20 years old who are not in education, training or employment due to other reasons
+Act_NEET_oth21: Number aged 21 years old who are not in education, training or employment due to other reasons
+Act_NEET_oth17&18: Number aged 17 and 18 years old who are not in education, training or employment due to other reasons
+Act_NEET_oth17: Number aged 17 years old who are not in education, training or employment due to other reasons
+Act_NEET_oth18: Number aged 18 years old who are not in education, training or employment due to other reasons
+Act_NEET_preg1920&21: Number aged 19, 20 and 21 years old who are not in education, training or employment due to pregnancy or parenting
+Act_NEET_preg19: Number aged 19 years old who are not in education, training or employment due to pregnancy or parenting
+Act_NEET_preg20: Number aged 20 years old who are not in education, training or employment due to pregnancy or parenting
+Act_NEET_preg21: Number aged 21 years old who are not in education, training or employment due to pregnancy or parenting
+Act_NEET_preg17&18: Number aged 17 and 18 years old who are not in education, training or employment due to pregnancy or parenting
+Act_NEET_preg17: Number aged 17 years old who are not in education, training or employment due to pregnancy or parenting
+Act_NEET_preg18: Number aged 18 years old who are not in education, training or employment due to pregnancy or parenting
+LA_NoActinf1920&21: Number aged 19, 20 and 21 years old for whom local authority does not have activity information
+LA_NoActinf19: Number aged 19 years old for whom local authority does not have activity information
+LA_NoActinf20: Number aged 20 years old for whom local authority does not have activity information
+LA_NoActinf21: Number aged 21 years old for whom local authority does not have activity information
+LA_NoActinf17&18: Number aged 17 and 18 years old for whom local authority does not have activity information
+LA_NoActinf17: Number aged 17 years old for whom local authority does not have activity information
+LA_NoActinf18: Number aged 18 years old for whom local authority does not have activity information
+Acc_SUIT1920&21: Total number aged 19, 20 and 21 years old in suitable accommodation
+Acc_SUIT19: Total number aged 19 years old in suitable accommodation
+Acc_SUIT20: Total number aged 20 years old in suitable accommodation
+Acc_SUIT21: Total number aged 21 years old in suitable accommodation
+Acc_SUIT17&18: Total number aged 17 and 18 years old in suitable accommodation
+Acc_SUIT17: Total number aged 17 years old in suitable accommodation
+Acc_SUIT18: Total number aged 18 years old in suitable accommodation
+Acc_P1920&21: Number aged 19, 20 and 21 years old accommodated with parents or relatives
+Acc_P19: Number aged 19 years old accommodated with parents or relatives
+Acc_P20: Number aged 20 years old accommodated with parents or relatives
+Acc_P21: Number aged 21 years old accommodated with parents or relatives
+Acc_P17&18: Number aged 17 and 18 years old accommodated with parents or relatives
+Acc_P17: Number aged 17 years old accommodated with parents or relatives
+Acc_P18: Number aged 18 years old accommodated with parents or relatives
+Acc_CH1920&21: Number aged 19, 20 and 21 years old accommodated in community homes
+Acc_CH19: Number aged 19 years old accommodated in community homes
+Acc_CH20: Number aged 20 years old accommodated in community homes
+Acc_CH21: Number aged 21 years old accommodated in community homes
+Acc_CH17&18: Number aged 17 and 18 years old accommodated in community homes
+Acc_CH17: Number aged 17 years old accommodated in community homes
+Acc_CH18: Number aged 18 years old accommodated in community homes
+Acc_SITA1920&21: Number aged 19, 20 and 21 years old accommodated in semi-independent transitional accommodation
+Acc_SITA19: Number aged 19 years old accommodated in semi-independent transitional accommodation
+Acc_SITA20: Number aged 20 years old accommodated in semi-independent transitional accommodation
+Acc_SITA21: Number aged 21 years old accommodated in semi-independent transitional accommodation
+Acc_SITA17&18: Number aged 17 and 18 years old accommodated in semi-independent transitional accommodation
+Acc_SITA17: Number aged 17 years old accommodated in semi-independent transitional accommodation
+Acc_SITA18: Number aged 18 years old accommodated in semi-independent transitional accommodation
+Acc_SL1920&21: Number aged 19, 20 and 21 years old accommodated in supported lodgings
+Acc_SL19: Number aged 19 years old accommodated in supported lodgings
+Acc_SL20: Number aged 20 years old accommodated in supported lodgings
+Acc_SL21: Number aged 21 years old accommodated in supported lodgings
+Acc_SL17&18: Number aged 17 and 18 years old accommodated in supported lodgings
+Acc_SL17: Number aged 17 years old accommodated in supported lodgings
+Acc_SL18: Number aged 18 years old accommodated in supported lodgings
+Acc_GA1920&21: Number aged 19, 20 and 21 years old gone abroad
+Acc_GA19: Number aged 19 years old gone abroad
+Acc_GA20: Number aged 20 years old gone abroad
+Acc_GA21: Number aged 21 years old gone abroad
+Acc_GA17&18: Number aged 17 and 18 years old gone abroad
+Acc_GA17: Number aged 17 years old gone abroad
+Acc_GA18: Number aged 18 years old gone abroad
+Acc_Dep1920&21: Number aged 19, 20 and 21 years old deported
+Acc_Dep19: Number aged 19 years old deported
+Acc_Dep20: Number aged 20 years old deported
+Acc_Dep21: Number aged 21 years old deported
+Acc_Dep17&18: Number aged 17 and 18 years old deported
+Acc_Dep17: Number aged 17 years old deported
+Acc_Dep18: Number aged 18 years old deported
+Acc_OL1920&21: Number aged 19, 20 and 21 years old accommodated in ordinary lodgings
+Acc_OL19: Number aged 19 years old accommodated in ordinary lodgings
+Acc_OL20: Number aged 20 years old accommodated in ordinary lodgings
+Acc_OL21: Number aged 21 years old accommodated in ordinary lodgings
+Acc_OL17&18: Number aged 17 and 18 years old accommodated in ordinary lodgings
+Acc_OL17: Number aged 17 years old accommodated in ordinary lodgings
+Acc_OL18: Number aged 18 years old accommodated in ordinary lodgings
+Acc_ResNK1920&21: Number aged 19, 20 and 21 years old with residence not known
+Acc_ResNK19: Number aged 19 years old with residence not known
+Acc_ResNK20: Number aged 20 years old with residence not known
+Acc_ResNK21: Number aged 21 years old with residence not known
+Acc_ResNK17&18: Number aged 17 and 18 years old with residence not known
+Acc_ResNK17: Number aged 17 years old with residence not known
+Acc_ResNK18: Number aged 18 years old with residence not known
+Acc_NFA1920&21: Number aged 19, 20 and 21 years old with no fixed abode or homeless
+Acc_NFA19: Number aged 19 years old with no fixed abode or homeless
+Acc_NFA20: Number aged 20 years old with no fixed abode or homeless
+Acc_NFA21: Number aged 21 years old with no fixed abode or homeless
+Acc_NFA17&18: Number aged 17 and 18 years old with no fixed abode or homeless
+Acc_NFA17: Number aged 17 years old with no fixed abode or homeless
+Acc_NFA18: Number aged 18 years old with no fixed abode or homeless
+Acc_F1920&21: Number aged 19, 20 and 21 years old accommodated in foyers
+Acc_F19: Number aged 19 years old accommodated in foyers
+Acc_F20: Number aged 20 years old accommodated in foyers
+Acc_F21: Number aged 21 years old accommodated in foyers
+Acc_F17&18: Number aged 17 and 18 years old accommodated in foyers
+Acc_F17: Number aged 17 years old accommodated in foyers
+Acc_F18: Number aged 18 years old accommodated in foyers
+Acc_IL1920&21: Number aged 19, 20 and 21 years old accommodated in independent living
+Acc_IL19: Number aged 19 years old accommodated in independent living
+Acc_IL20: Number aged 20 years old accommodated in independent living
+Acc_IL21: Number aged 21 years old accommodated in independent living
+Acc_IL17&18: Number aged 17 and 18 years old accommodated in independent living
+Acc_IL17: Number aged 17 years old accommodated in independent living
+Acc_IL18: Number aged 18 years old accommodated in independent living
+Acc_EA1920&21: Number aged 19, 20 and 21 years old accommodated in emergency accommodation
+Acc_EA19: Number aged 19 years old accommodated in emergency accommodation
+Acc_EA20: Number aged 20 years old accommodated in emergency accommodation
+Acc_EA21: Number aged 21 years old accommodated in emergency accommodation
+Acc_EA17&18: Number aged 17 and 18 years old accommodated in emergency accommodation
+Acc_EA17: Number aged 17 years old accommodated in emergency accommodation
+Acc_EA18: Number aged 18 years old accommodated in emergency accommodation
+Acc_BB1920&21: Number aged 19, 20 and 21 years old in bed and breakfast accommodation
+Acc_BB19: Number aged 19 years old in bed and breakfast accommodation
+Acc_BB20: Number aged 20 years old in bed and breakfast accommodation
+Acc_BB21: Number aged 21 years old in bed and breakfast accommodation
+Acc_BB17&18: Number aged 17 and 18 years old in bed and breakfast accommodation
+Acc_BB17: Number aged 17 years old in bed and breakfast accommodation
+Acc_BB18: Number aged 18 years old in bed and breakfast accommodation
+Acc_Cust1920&21: Number aged 19, 20 and 21 years old who are in custody
+Acc_Cust19: Number aged 19 years old who are in custody
+Acc_Cust20: Number aged 20 years old who are in custody
+Acc_Cust21: Number aged 21 years old who are in custody
+Acc_Cust17&18: Number aged 17 and 18 years old who are in custody
+Acc_Cust17: Number aged 17 years old who are in custody
+Acc_Cust17: Number aged 18 years old who are in custody
+Acc_FFC1920&21: Number aged 19, 20 and 21 years old accommodated with former foster carers
+Acc_FFC19: Number aged 19 years old accommodated with former foster carers
+Acc_FFC20: Number aged 20 years old accommodated with former foster carers
+Acc_FFC21: Number aged 21 years old accommodated with former foster carers
+Acc_FFC17&18: Number aged 17 and 18 years old accommodated with former foster carers
+Acc_FFC17: Number aged 17 years old accommodated with former foster carers
+Acc_FFC18: Number aged 18 years old accommodated with former foster carers
+Acc_OTH1920&21: Number aged 19, 20 and 21 years old in other accommodation
+Acc_OTH19: Number aged 19 years old in other accommodation
+Acc_OTH20: Number aged 20 years old in other accommodation
+Acc_OTH21: Number aged 21 years old in other accommodation
+Acc_OTH17&18: Number aged 17 and 18 years old in other accommodation
+Acc_OTH17: Number aged 17 years old in other accommodation
+Acc_OTH18: Number aged 18 years old in other accommodation
+LA_NoAccinf1920&21: Number aged 19, 20 and 21 years old for whom local authority does not have accommodation information
+LA_NoAccinf19: Number aged 19 years old for whom local authority does not have accommodation information
+LA_NoAccinf20: Number aged 20 years old for whom local authority does not have accommodation information
+LA_NoAccinf21: Number aged 21 years old for whom local authority does not have accommodation information
+LA_NoAccinf17&18: Number aged 17 and 18 years old for whom local authority does not have accommodation information
+LA_NoAccinf17: Number aged 17 years old for whom local authority does not have accommodation information
+LA_NoAccinf18: Number aged 18 years old for whom local authority does not have accommodation information
+
+
+
+SFR41_Missing2016.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_MissDuringYear: Children looked after who had a missing incident during the year
+CLA_MissIncs: Number of missing incidents during the year
+CLA_MissMoreOnce: Children looked after who went missing more than once during the year
+CLA_Miss31Mar: Children looked after who were missing at 31 March 2016
+CLA_AwayDuringYear: Children looked after who were away from placement without authorisation during the year
+CLA_AwayIncs: Number of away from placements without authorisation incidents during the year
+CLA_AwayMoreOnce: Children looked after who were away from placement without authorisation more than once during the year
+CLA_Away31Mar: Children looked after who were away from placement without authorisation at 31 March 2016
+
+
+SFR41_OC22016.csv
+New_geog_code: New geography code
+geog_l: Geography level
+geog_c: Geography code
+geog_n: Geography name
+CLA_12mths: Children looked after at 31 March 2016 for at least 12 months
+CLA_10over: Children looked after at 31 March 2016 for at least 12 months aged 10 years and over
+CLA_convicted: Children looked after at 31 March 2016 convicted or subject to a final warning or reprimand during the year
+CLA_submisuse: Children looked after at 31 March 2016 identified as having a substance misuse problem
+CLA_subint: Children looked after at 31 March 2016 received intervention for substance misuse
+CLA_suboffint: Children looked after at 31 March 2016 offered intervention for substance misuse and refused
+CLA_immunisation: Children looked after at 31 March 2016 whose immunisations were up to date
+CLA_teethcheck: Children looked after at 31 March 2016 who had their teeth checked
+CLA_healthassmt: Children looked after at 31 March 2016 who had their annual health assessment
+CLA_under5: Children looked after at 31 March 2016 for at least 12 months aged under 5 years
+CLA_devassmt: Children looked after at 31 March 2016 whose development assessments were up to date
+CLA_5to16: Children looked after at 31 March 2016 for at least 12 months aged 5 to 16 years
+CLA_SDQ: Children looked after at 31 March 2016 with an SDQ score
+CLA_SDQnormal: Children looked after at 31 March 2016 whose SDQ score was normal
+CLA_SDQborderline: Children looked after at 31 March 2016 whose SDQ score was borderline
+CLA_SDQconcern: Children looked after at 31 March 2016 whose SDQ score was a cause for concern

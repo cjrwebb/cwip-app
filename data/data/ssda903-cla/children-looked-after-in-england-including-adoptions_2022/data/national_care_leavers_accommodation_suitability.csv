@@ -1,0 +1,121 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,care_leaver_age,accommodation_suitability,number,percentage
+2018,Reporting year,National,E92000001,England,18 years,Accommodation considered suitable,9340,90
+2018,Reporting year,National,E92000001,England,18 years,Accommodation considered unsuitable,480,5
+2018,Reporting year,National,E92000001,England,18 years,No information,530,5
+2018,Reporting year,National,E92000001,England,18 years,Total,10350,100
+2019,Reporting year,National,E92000001,England,18 years,Accommodation considered suitable,9540,90
+2019,Reporting year,National,E92000001,England,18 years,Accommodation considered unsuitable,520,5
+2019,Reporting year,National,E92000001,England,18 years,No information,580,5
+2019,Reporting year,National,E92000001,England,18 years,Total,10640,100
+2020,Reporting year,National,E92000001,England,18 years,Accommodation considered suitable,10110,91
+2020,Reporting year,National,E92000001,England,18 years,Accommodation considered unsuitable,500,5
+2020,Reporting year,National,E92000001,England,18 years,No information,520,5
+2020,Reporting year,National,E92000001,England,18 years,Total,11140,100
+2021,Reporting year,National,E92000001,England,18 years,Accommodation considered suitable,10580,92
+2021,Reporting year,National,E92000001,England,18 years,Accommodation considered unsuitable,460,4
+2021,Reporting year,National,E92000001,England,18 years,No information,510,4
+2021,Reporting year,National,E92000001,England,18 years,Total,11550,100
+2022,Reporting year,National,E92000001,England,18 years,Accommodation considered suitable,10820,91
+2022,Reporting year,National,E92000001,England,18 years,Accommodation considered unsuitable,440,4
+2022,Reporting year,National,E92000001,England,18 years,No information,580,5
+2022,Reporting year,National,E92000001,England,18 years,Total,11840,100
+2018,Reporting year,National,E92000001,England,17 years,Accommodation considered suitable,410,68
+2018,Reporting year,National,E92000001,England,17 years,Accommodation considered unsuitable,70,11
+2018,Reporting year,National,E92000001,England,17 years,No information,130,22
+2018,Reporting year,National,E92000001,England,17 years,Total,610,100
+2019,Reporting year,National,E92000001,England,17 years,Accommodation considered suitable,310,64
+2019,Reporting year,National,E92000001,England,17 years,Accommodation considered unsuitable,60,13
+2019,Reporting year,National,E92000001,England,17 years,No information,110,23
+2019,Reporting year,National,E92000001,England,17 years,Total,480,100
+2020,Reporting year,National,E92000001,England,17 years,Accommodation considered suitable,300,65
+2020,Reporting year,National,E92000001,England,17 years,Accommodation considered unsuitable,50,11
+2020,Reporting year,National,E92000001,England,17 years,No information,110,24
+2020,Reporting year,National,E92000001,England,17 years,Total,470,100
+2021,Reporting year,National,E92000001,England,17 years,Accommodation considered suitable,320,68
+2021,Reporting year,National,E92000001,England,17 years,Accommodation considered unsuitable,30,7
+2021,Reporting year,National,E92000001,England,17 years,No information,120,24
+2021,Reporting year,National,E92000001,England,17 years,Total,470,100
+2022,Reporting year,National,E92000001,England,17 years,Accommodation considered suitable,290,63
+2022,Reporting year,National,E92000001,England,17 years,Accommodation considered unsuitable,30,7
+2022,Reporting year,National,E92000001,England,17 years,No information,140,31
+2022,Reporting year,National,E92000001,England,17 years,Total,460,100
+2018,Reporting year,National,E92000001,England,19 years,Accommodation considered suitable,8630,87
+2018,Reporting year,National,E92000001,England,19 years,Accommodation considered unsuitable,590,6
+2018,Reporting year,National,E92000001,England,19 years,No information,710,7
+2018,Reporting year,National,E92000001,England,19 years,Total,9930,100
+2019,Reporting year,National,E92000001,England,19 years,Accommodation considered suitable,9090,88
+2019,Reporting year,National,E92000001,England,19 years,Accommodation considered unsuitable,610,6
+2019,Reporting year,National,E92000001,England,19 years,No information,660,6
+2019,Reporting year,National,E92000001,England,19 years,Total,10360,100
+2020,Reporting year,National,E92000001,England,19 years,Accommodation considered suitable,9420,88
+2020,Reporting year,National,E92000001,England,19 years,Accommodation considered unsuitable,630,6
+2020,Reporting year,National,E92000001,England,19 years,No information,610,6
+2020,Reporting year,National,E92000001,England,19 years,Total,10670,100
+2021,Reporting year,National,E92000001,England,19 years,Accommodation considered suitable,10100,90
+2021,Reporting year,National,E92000001,England,19 years,Accommodation considered unsuitable,610,5
+2021,Reporting year,National,E92000001,England,19 years,No information,510,5
+2021,Reporting year,National,E92000001,England,19 years,Total,11210,100
+2022,Reporting year,National,E92000001,England,19 years,Accommodation considered suitable,10390,90
+2022,Reporting year,National,E92000001,England,19 years,Accommodation considered unsuitable,610,5
+2022,Reporting year,National,E92000001,England,19 years,No information,550,5
+2022,Reporting year,National,E92000001,England,19 years,Total,11550,100
+2018,Reporting year,National,E92000001,England,20 years,Accommodation considered suitable,7790,84
+2018,Reporting year,National,E92000001,England,20 years,Accommodation considered unsuitable,650,7
+2018,Reporting year,National,E92000001,England,20 years,No information,800,9
+2018,Reporting year,National,E92000001,England,20 years,Total,9230,100
+2019,Reporting year,National,E92000001,England,20 years,Accommodation considered suitable,8390,85
+2019,Reporting year,National,E92000001,England,20 years,Accommodation considered unsuitable,620,6
+2019,Reporting year,National,E92000001,England,20 years,No information,860,9
+2019,Reporting year,National,E92000001,England,20 years,Total,9870,100
+2020,Reporting year,National,E92000001,England,20 years,Accommodation considered suitable,8900,86
+2020,Reporting year,National,E92000001,England,20 years,Accommodation considered unsuitable,580,6
+2020,Reporting year,National,E92000001,England,20 years,No information,850,8
+2020,Reporting year,National,E92000001,England,20 years,Total,10330,100
+2021,Reporting year,National,E92000001,England,20 years,Accommodation considered suitable,9370,88
+2021,Reporting year,National,E92000001,England,20 years,Accommodation considered unsuitable,610,6
+2021,Reporting year,National,E92000001,England,20 years,No information,680,6
+2021,Reporting year,National,E92000001,England,20 years,Total,10650,100
+2022,Reporting year,National,E92000001,England,20 years,Accommodation considered suitable,9860,88
+2022,Reporting year,National,E92000001,England,20 years,Accommodation considered unsuitable,650,6
+2022,Reporting year,National,E92000001,England,20 years,No information,640,6
+2022,Reporting year,National,E92000001,England,20 years,Total,11150,100
+2018,Reporting year,National,E92000001,England,21 years,Accommodation considered suitable,7060,80
+2018,Reporting year,National,E92000001,England,21 years,Accommodation considered unsuitable,650,7
+2018,Reporting year,National,E92000001,England,21 years,No information,1120,13
+2018,Reporting year,National,E92000001,England,21 years,Total,8830,100
+2019,Reporting year,National,E92000001,England,21 years,Accommodation considered suitable,7560,82
+2019,Reporting year,National,E92000001,England,21 years,Accommodation considered unsuitable,640,7
+2019,Reporting year,National,E92000001,England,21 years,No information,1030,11
+2019,Reporting year,National,E92000001,England,21 years,Total,9230,100
+2020,Reporting year,National,E92000001,England,21 years,Accommodation considered suitable,8040,81
+2020,Reporting year,National,E92000001,England,21 years,Accommodation considered unsuitable,640,6
+2020,Reporting year,National,E92000001,England,21 years,No information,1200,12
+2020,Reporting year,National,E92000001,England,21 years,Total,9880,100
+2021,Reporting year,National,E92000001,England,21 years,Accommodation considered suitable,8790,85
+2021,Reporting year,National,E92000001,England,21 years,Accommodation considered unsuitable,530,5
+2021,Reporting year,National,E92000001,England,21 years,No information,1020,10
+2021,Reporting year,National,E92000001,England,21 years,Total,10340,100
+2022,Reporting year,National,E92000001,England,21 years,Accommodation considered suitable,9020,85
+2022,Reporting year,National,E92000001,England,21 years,Accommodation considered unsuitable,590,6
+2022,Reporting year,National,E92000001,England,21 years,No information,1010,9
+2022,Reporting year,National,E92000001,England,21 years,Total,10620,100
+2018,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered suitable,23480,84
+2018,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered unsuitable,1890,7
+2018,Reporting year,National,E92000001,England,19 to 21 years,No information,2630,9
+2018,Reporting year,National,E92000001,England,19 to 21 years,Total,27990,100
+2019,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered suitable,25040,85
+2019,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered unsuitable,1880,6
+2019,Reporting year,National,E92000001,England,19 to 21 years,No information,2550,9
+2019,Reporting year,National,E92000001,England,19 to 21 years,Total,29470,100
+2020,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered suitable,26350,85
+2020,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered unsuitable,1860,6
+2020,Reporting year,National,E92000001,England,19 to 21 years,No information,2670,9
+2020,Reporting year,National,E92000001,England,19 to 21 years,Total,30880,100
+2021,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered suitable,28260,88
+2021,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered unsuitable,1740,5
+2021,Reporting year,National,E92000001,England,19 to 21 years,No information,2210,7
+2021,Reporting year,National,E92000001,England,19 to 21 years,Total,32200,100
+2022,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered suitable,29270,88
+2022,Reporting year,National,E92000001,England,19 to 21 years,Accommodation considered unsuitable,1850,6
+2022,Reporting year,National,E92000001,England,19 to 21 years,No information,2200,7
+2022,Reporting year,National,E92000001,England,19 to 21 years,Total,33320,100

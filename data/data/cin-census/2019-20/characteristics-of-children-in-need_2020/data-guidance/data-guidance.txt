@@ -1,0 +1,881 @@
+Characteristics of children in need
+2020 Reporting Year
+
+Description
+
+This page describes the data included in the ‘Characteristics of children in need’ National Statistics release's underlying data files. This data is released under the terms of the Open Government License and it intended to meet at least 3 stars for Open Data.
+
+The methodology should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+Coverage
+
+This release provides information on:
+
+- children in need of social services
+- children referred to social services
+- assessments undertaken, primary need at assessment and factors identified at the end of assessment
+- section 47 enquiries (a local authority carries out one of these if they suspect a child is suffering, or likely to suffer, significant harm) and initial child protection conferences
+- children who were the subject of a child protection plan
+
+These statistics are based on child-level data collected via the children in need census.
+
+File formats and conventions
+
+Confidentiality
+
+In this publication, any number between 1 and 5 inclusive has been suppressed and replaced by ‘c’.  Secondary suppression has been applied where necessary, to preserve confidentiality.
+
+The symbol ‘:’ indicates that data is not available. This may be because a local authority was unable to return a particular data item in the children in need census; changes to the data collected in the census; or data is not available because of concerns regarding quality.
+
+The letter ‘z’ indicates data is not applicable.
+
+The symbols used are in accordance with the latest Government Statistical Service (GSS) guidance.
+
+Rounding
+
+England and regional totals are rounded to the nearest 10, therefore sub totals may not sum to totals.
+
+Percentages are rounded to one decimal place, therefore sub totals may not sum to 100.
+
+Rates per 10,000 children aged under 18 years are rounded to one decimal place. Rates are calculated using ONS mid-year population estimates for children aged 0 to 17 years in England.
+
+Data files
+
+A1 Children in Need, Referrals and Assessments
+
+Filename: a1_cin_referrals_assessments_2013_to_2020.csv
+Geographic levels: National
+Time period: 2013 to 2020
+Content summary: Children in need, episodes of need, referrals and assessments completed by children's social care services.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+-------------  |  --------------------------------------------
+category_type  |  Category type
+number         |  Number
+percent        |  Percentage
+rate           |  Rate per 10,000 children aged under 18 years
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. Figures for children in need at 31 March include children awaiting assessment and those that do not require an assessment. These children are included to give a full account of the children in need population and are not intended to be used as a measure of local authority performance.
+3. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+
+
+A2 Section 47s, initial child protection conferences and child protection plans
+
+Filename: a2_section47_icpc_cpp_2013_to_2020.csv
+Geographic levels: National
+Time period: 2013 to 2020
+Content summary: Section 47 enquiries and initial child protection conferences carried out by children's social care services, and children who were the subject of a child protection plan, in the year ending 31 March.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+-------------  |  -------------------------------------------
+category_type  |  Category type
+number         |  Number
+percent        |  Percentage
+rate           |  Rate per 10000 children aged under 18 years
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. If a local authority identifies there is reasonable cause to suspect the child is suffering, or is likely to suffer significant harm, it will carry out an assessment under section 47 of the Children Act 1989 to determine if it needs to take steps to safeguard and promote the welfare of the child.
+3. If concerns regarding a child’s welfare are substantiated as result of a section 47 enquiry and the child is judged to be at continuing risk of harm then an initial child protection conference (ICPC) should be convened within 15 working days.
+4. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+
+
+A3 Children in need by gender, age and primary need
+
+Filename: a3_cin_primary_need_by_age_gender_2018_to_2020.csv
+Geographic levels: National
+Time period: 2018 to 2020
+Content summary: Children in need at 31 March by gender, age (at 31 March) and primary need.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                       |  Variable description
+----------------------------------  |  --------------------------------------
+characteristic                      |  Characteristic
+CIN_At31                            |  Children in Need at 31st March
+N0_Not_stated                       |  N0 - Not stated
+N1_Abuse_or_neglect                 |  N1 - Abuse or neglect
+N2_Childs_disability_or_illness     |  N2 - Child's disability or illness
+N3_Parents_disability_or_illness    |  N3 - Parent's disability or illness
+N4_Family_in_acute_stress           |  N4 - Family in acute stress
+N5_Family_dysfunction               |  N5 - Family dysfunction
+N6_Socially_unacceptable_behaviour  |  N6 - Socially unacceptable behaviour
+N7_Low_income                       |  N7 - Low income
+N8_Absent_parenting                 |  N8 - Absent parenting
+N9_Cases_other_than_CIN             |  N9 - Cases other than children In need
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. When a child is referred to children's social care with a request for services to be provided the main reason why the child started to receive services is recorded as their primary need.
+
+
+A4 Children in need by ethnicity, age and gender
+
+Filename: a4_cin_by_ethnicity_and_age_gender_2018_to_2020.csv
+Geographic levels: National
+Time period: 2018 to 2020
+Content summary: Children in need at 31 March by gender, age (at 31 March) and ethnicity.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                     |  Variable description
+--------------------------------  |  ------------------------------
+characteristic                    |  Characteristic
+CIN_At31                          |  Children in Need at 31st March
+Ethnicity_Asian_or_Asian_British  |  Asian or Asian British
+Ethnicity_Black_or_Black_British  |  Black or Black British
+Ethnicity_Mixed                   |  Mixed
+Ethnicity_White                   |  White
+Known_ethnicity                   |  Known ethnicity
+Other_ethnic_group                |  Other ethnic group
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. White comprises white British, white Irish, traveller of Irish heritage, any other white background and Gypsy/Roma.
+3. Mixed comprises white and black Caribbean, white and black African, white and Asian, any other mixed background. 
+4. Asian or Asian British comprises Indian, Pakistani, Bangladeshi, and any other Asian background.
+5. Black or black British comprises Caribbean, African or any other black background. 
+6. Other ethnic groups comprises Chinese and any other ethnic group.
+
+
+A5 Child protection plans initial category of abuse by gender, age and ethnicity
+
+Filename: a5_cpp_initial_category_of_abuse_by_gender_age_ethnicity_2018_to_2020.csv
+Geographic levels: National
+Time period: 2018 to 2020
+Content summary: Children who were the subject of a child protection plan at 31 March by initial category of abuse by gender, age and ethnicity.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------
+characteristic_type      |  Characteristic Type
+CPP_At31                 |  Child Protection Plans at 31st March
+Emotional_Abuse_Initial  |  Emotional Abuse
+Multiple_Initial         |  Multiple
+Neglect_Initial          |  Neglect
+Physical_Abuse_Initial   |  Physical Abuse
+Sexual_Abuse_Initial     |  Sexual Abuse
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. The initial category of abuse is that assessed when the child protection plan commenced.
+3. The 'Multiple' category refers to instances where there is more than one main category of abuse. Children included in this category are not included in any other category of abuse, therefore a child is counted only once overall.
+4. White comprises white British, white Irish, traveller of Irish heritage, any other white background and Gypsy/Roma.
+5. Mixed comprises white and black Caribbean, white and black African, white and Asian, any other mixed background. 
+6. Asian or Asian British comprises Indian, Pakistani, Bangladeshi, and any other Asian background.
+7. Black or black British comprises Caribbean, African or any other black background. 
+8. Other ethnic groups comprises Chinese and any other ethnic group.
+
+
+A6 Child protection plans initial category of abuse
+
+Filename: a6_cpp_initial_category_of_abuse_2013_to_2020.csv
+Geographic levels: National
+Time period: 2013 to 2020
+Content summary: Children who were the subject of a child protection plan at 31 March by initial category of abuse.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------
+CPP_At31                 |  Child Protection Plans at 31st March
+Emotional_abuse_Initial  |  Emotional Abuse
+Multiple_Initial         |  Multiple
+Neglect_Initial          |  Neglect
+Physical_abuse_Initial   |  Physical Abuse
+Sexual_abuse_Initial     |  Sexual Abuse
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. The initial category of abuse is that assessed when the child protection plan commenced.
+3. The 'Multiple' category refers to instances where there is more than one main category of abuse. Children included in this category are not included in any other category of abuse, therefore a child is counted only once overall.
+
+
+A7 Children in Need by Gender, Age and Ethnicity
+
+Filename: a7_cin_by_age_gender_ethnicity_2015_to_2020.csv
+Geographic levels: National
+Time period: 2015 to 2020
+Content summary: Children in need by gender, age and ethnicity.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -------------------
+characteristic_type  |  Characteristic type
+number               |  Number
+percent              |  Percentage
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. White comprises white British, white Irish, traveller of Irish heritage, any other white background and Gypsy/Roma.
+3. Mixed comprises white and black Caribbean, white and black African, white and Asian, any other mixed background. 
+4. Asian or Asian British comprises Indian, Pakistani, Bangladeshi, and any other Asian background.
+5. Black or black British comprises Caribbean, African or any other black background. 
+6. Other ethnic groups comprises Chinese and any other ethnic group.
+
+
+B1 Children in Need and Episodes of Need
+
+Filename: b1_children_in_need_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Children in need episodes at any point during the year, episodes starting in year, episodes ending in year, and children in need at 31 March.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name             |  Variable description
+------------------------  |  ------------------------------------------------------------------------------------------------------------------------------------
+Anypoint_child            |  Children with an episode of need at any point during the year
+Anypoint_child_rate       |  Rate of children with an episode of need at any point during the year per 10000 children aged under 18 years
+Anypoint_episodes         |  Episodes of need at any point during the year
+Anypoint_episodes_rate    |  Rate of episodes of need at any point during the year per 10000 children aged under 18 years
+At31_episodes             |  Children in need at 31 March
+At31_episodes_rate        |  Rate of children in need at 31 March per 10000 children aged under 18 years
+Awaiting_assessment       |  Children in need at 31 March who are awaiting assessment or do not require an assessment
+Awaiting_assessment_rate  |  Rate of children in need at 31 March who are awaiting assessment or do not require assessment per 10000 children aged under 18 years
+Ended_child               |  Children ending an episode of need in the year
+Ended_child_rate          |  Rate of children ending an episode of need in the year per 10000 children aged under 18 years
+Ended_episodes            |  Episodes of need ending in the year
+Ended_episodes_rate       |  Rate of episodes ending in the year per 10000 children aged under 18 years
+Started_child             |  Children starting an episode of need in the year
+Started_child_rate        |  Rate of children starting an episode of need in the year per 10000 children aged under 18 years
+Started_episodes          |  Episodes of need starting in the year
+Started_episodes_rate     |  Rate of episodes of need starting in the year per 10000 children aged under 18 years
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. A child can have more than one episode of need throughout the year, but episodes should not overlap.
+3. Figures for children in need at 31 March include children awaiting assessment and those that do not require an assessment. These children are included to give a full account of the children in need population and are not intended to be used as a measure of local authority performance.
+4. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+
+
+B2 Children in Need by Recorded Disability
+
+Filename: b2_children_in_need_recorded_disability_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Children in need at 31 March, by disability.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                             |  Variable description
+----------------------------------------  |  ---------------------------------------------------------------------
+At31_episodes                             |  Number of children in need at 31 March
+At31_episodes_disability_recorded         |  Number of children in need at 31 March with a disability recorded
+At31episodes_disability_recorded_percent  |  Percentage of children in need at 31 March with a disability recorded
+Autism_percent                            |  Autism/Asperger Syndrome
+Behaviour_percent                         |  Behaviour
+Communication_percent                     |  Communication
+Consciousness_percent                     |  Consciousness
+Hand_Function_percent                     |  Hand Function
+Hearing_percent                           |  Hearing
+Incontinence_percent                      |  Incontinence
+Learning_Difficulties_percent             |  Learning
+Mobility_percent                          |  Mobility
+Other_percent                             |  Other Disability
+Personal_care_percent                     |  Personal Care
+Vision_percent                            |  Vision
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. Definition of disability under the Equality Act 2010: “You're disabled under the Equality Act 2010 if you have a physical or mental impairment that has a 'substantial' and 'long-term' negative effect on your ability to do normal daily activities”. More information on what ‘substantial’ and ‘long-term’ mean is provided here: https://www.gov.uk/definition-of-disability-under-equality-act-2010
+3. A child may have more than one disability recorded, therefore the disability category percentages may not sum to 100.
+
+
+B3 Children in Need by Primary Need
+
+Filename: b3_cin_primary_need_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Children in need at 31 March, by primary need at assessment.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                       |  Variable description
+----------------------------------  |  --------------------------------------
+At31_episodes                       |  Number of children in need at 31 March
+N0_Not_stated                       |  N0 - Not stated
+N1_Abuse_or_neglect                 |  N1 - Abuse or neglect
+N2_Childs_disability_or_illness     |  N2 - Child's disability or illness
+N3_Parents_disability_or_illness    |  N3 - Parent's disability or illness
+N4_Family_in_acute_stress           |  N4 - Family in acute stress
+N5_Family_dysfunction               |  N5 - Family dysfunction
+N6_Socially_unacceptable_behaviour  |  N6 - Socially unacceptable behaviour
+N7_Low_income                       |  N7 - Low income
+N8_Absent_parenting                 |  N8 - Absent parenting
+N9_Cases_other_than_CIN             |  N9 - Cases other than children in need
+
+Footnotes:
+
+1. When a child is referred to children's social care with a request for services to be provided the main reason why the child started to receive services is recorded as their primary need.
+
+
+B4 Children in Need by Duration of Episode
+
+Filename: b4_children_in_need_duration_of_open_episode_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Children in need at 31 March, by duration of open case.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------------------------------------
+1_2_years                |  1 year but less than 2 years - number
+1_2_years_percent        |  1 year but less than 2 years - percentage
+2years+                  |  2 years and over - number
+2years+_percent          |  2 years and over - percentage
+3_6_months               |  More than 3 months but less than or equal to 6 months - number
+3_6_months_percent       |  More than 3 months but less than or equal to 6 months - percentage
+3_months                 |  3 months or less - number
+3_months_percent         |  3 months or less - percentage
+6_months_1_year          |  More than 6 months but less than 1 year - number
+6_months_1_year_percent  |  More than 6 months but less than 1 year - percentage
+At31_episodes            |  Number of children in need at 31 March
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. Open episodes (or cases) are those open at 31 March of the reporting year.
+3. The duration of an open episode is calculated as difference between the referral date and 31 March of the reporting year.  
+
+
+B5 Duration of Ended Episodes
+
+Filename: b5_children_in_need_duration_of_ended_episode_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Episodes of need ending in the year ending 31 March, by duration of episode of need.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  ------------------------------------------------------------------
+1_2_years                |  1 year but less than 2 years - number
+1_2_years_percent        |  1 year but less than 2 years - percentage
+2years+                  |  2 years and over - number
+2years+_percent          |  2 years and over - percentage
+3_6_months               |  More than 3 months but less than or equal to 6 months - number
+3_6_months_percent       |  More than 3 months but less than or equal to 6 months - percentage
+3_months                 |  3 months or less - number
+3_months_percent         |  3 months or less - percentage
+6_months_1_year          |  More than 6 months but less than 1 year - number
+6_months_1_year_percent  |  More than 6 months but less than 1 year - percentage
+Ended_episode            |  Number of episodes ending during the year
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. The duration of episode of need ending in the year is calculated as the difference between the referral date and closure date of the episode.  
+
+
+B6 Children in Need by Reason for Closure
+
+Filename: b6_children_in_need_reason_for_closure_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Episodes of need ending in the year to 31 March, by reason for case closure.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                                 |  Variable description
+--------------------------------------------  |  --------------------------------------------------------
+Ended_episodes                                |  Number of episodes of need ending in the year
+RC1_Adopted                                   |  RC1 - Adopted - Number
+RC1_Adopted_percent                           |  RC1 - Adopted - Percentage
+RC2_Died                                      |  RC2 - Died - Number
+RC2_Died_percent                              |  RC2 - Died -Percentage
+RC3_Residence_Order                           |  RC3 - Residence Order - Number
+RC3_Residence_Order_percent                   |  RC3 - Residence Order - Percentage
+RC4_Special_Guardianship_Order                |  RC4 - Special Guardianship Order - Number
+RC4_Special_Guardianship_Order_percent        |  RC4 - Special Guardianship Order - Percentage
+RC5_Transfer_to_another_LA                    |  RC5 - Transfer to another LA - Number
+RC5_Transfer_to_another_LA_percent            |  RC5 - Transfer to another LA - Percentage
+RC6_Transfer_to_Adult_Social_Service          |  RC6 - Transfer to Adult Social Services - Number
+RC6_Transfer_to_Adult_Social_Service_percent  |  RC6 - Transfer to Adult Social Services - Percentage
+RC7_Other                                     |  RC7 - 'Other' incl. Child no longer in need - Number
+RC7_Other_percent                             |  RC7 - 'Other' incl. Child no longer in need - Percentage
+unknown                                       |  Unknown - Number
+unknown_percent                               |  Unknown - Percentage
+
+Footnotes:
+
+1. A child in need is defined under the Children Act 1989 as a child who is unlikely to reach or maintain a satisfactory level of health or development, or their health or development will be significantly impaired without the provision of  children's social care services, or the child is disabled.
+2. Reason for closure is the reason the local authority stops providing services to the child.
+
+
+C1 Children in Need Referrals and Rereferrals
+
+Filename: c1_children_in_need_referrals_and_rereferrals_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Referrals to children's social care services, referrals which resulted in no further action, referrals which were assessed and resulted in no further action, children referred and where the referral was within 12 months of a previous referral, in the year ending 31 March.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name               |  Variable description
+--------------------------  |  ------------------------------------------------------------------------------------------
+No_Further_Action           |  Referrals which resulted in no further action
+No_Further_Action_percent   |  Referrals which resulted in no further action (%)
+Not_in_Need                 |  Referrals which resulted in an assessment and the child was assessed not to be in need
+Not_in_Need_percent         |  Referrals which resulted in an assessment and the child was assessed not to be in need (%)
+Re_referrals                |  Re-referrals within 12 months of a previous referral
+Re_referrals_child          |  Number of children with a referral within 12 months of a previous referral
+Re_referrals_child_percent  |  Number of children with a referral within 12 months of a previous referral (%)
+Re_referrals_percent        |  Re-referrals within 12 months of a previous referral (%)
+Referrals                   |  Referrals in the year
+Referrals_child             |  Number of children with a referral in the year
+Referrals_child_rate        |  Rate of children referred per 10000 children aged under 18 years
+Referrals_rate              |  Rate of referrals in the year per 10000 children aged under 18 years
+
+Footnotes:
+
+1. A referral is defined as a request for services to be provided by children’s social care and is in respect of a child who is not currently in need.
+2. Recording of referral outcomes varies between local authorities, because of differences in local reporting practices. This means there may be considerable variation at local authority level in the number of referrals recorded as no further action, and those resulting in an assessment and the child was assessed not to be in need.
+3. If a child has more than one referral in a reporting year, then each referral is counted.
+4. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+5. Re-referrals for the year ending 31 March 2020 exclude Dorset and Bournemouth, Christchurch and Poole local authorities due to the reorganisation of these areas from 1 April 2019. This means national re-referral figures for 2020 are not directly comparable with earlier years.
+
+
+C2 Children in Need Assessments by Duration
+
+Filename: c2_children_in_need_assessments_duration_2014_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2014 to 2020
+Content summary: Assessments completed by children's social care services in the year ending 31 March, by duration of assessment.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name               |  Variable description
+--------------------------  |  -------------------------------------------
+1-10_days                   |  1 to 10 days
+11-20_days                  |  11 to 20 days
+21-30_days                  |  21 to 30 days
+25th_Percentile_days        |  25th percentile (days)
+31-40_days                  |  31 to 40 days
+41-45_days                  |  41 to 45 days
+46-50_days                  |  46 to 50 days
+51-60_days                  |  51 to 60 days
+61+_days                    |  61 days and over
+75th_Percentile_days        |  75th percentile (days)
+Assessments_completed       |  Number of assessments in the year
+Assessments_completed_rate  |  Rate per 10000 children aged under 18 years
+Median_days                 |  Median (days)
+Same_day                    |  Started and finished the same day
+
+Footnotes:
+
+1. Local authorities undertake assessments of the needs of individual children to determine what services to provide and action to take. An assessment should be completed within 45 working days of a referral.
+2. The duration of an assessment is calculated as the time in working days between the assessment start date and the assessment end date.
+3. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+
+
+C3 Children in Need factor identified at end of Assessment
+
+Filename: c3_children_in_need_factors_identified_at_end_of_assessment_2018_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2018 to 2020
+Content summary: Episodes with assessment factor information in the year ending 31 March, and factors identified at the end of assessment.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                    |  Variable description
+-------------------------------  |  -----------------------------------------------------
+Alcohol_Misuse_child             |  Alcohol misuse (child)
+Alcohol_Misuse_parent            |  Alcohol misuse (parent)
+Alcohol_Misuse_person            |  Alcohol misuse (person)
+Child_sexual_exploitation        |  Child sexual exploitation
+Domestic_Violence_child          |  Domestic violence (child)
+Domestic_Violence_parent         |  Domestic violence (parent)
+Domestic_Violence_person         |  Domestic violence (person)
+Drug_Misuse_child                |  Drug misuse (child)
+Drug_Misuse_parent               |  Drug misuse (parent)
+Drug_Misuse_person               |  Drug misuse (person)
+Emotional_Abuse                  |  Emotional abuse
+Episodes_with_assessment_factor  |  Number of episodes with assessment factor information
+Faith_linked_abuse               |  Abuse linked to faith or belief
+Female_Genital_Mutilation        |  Female Genital Mutilation
+Gangs                            |  Gangs
+Going_missing                    |  Going/being missing
+Learning_Disability_child        |  Learning disability (child)
+Learning_Disability_parent       |  Learning disability (parent)
+Learning_Disability_person       |  Learning disability (person)
+Mental_Health_child              |  Mental health (child)
+Mental_Health_parent             |  Mental health (parent)
+Mental_Health_person             |  Mental health (person)
+Neglect                          |  Neglect
+Other                            |  Other factors
+Physical_Abuse                   |  Physical abuse
+Physical_Disability_child        |  Physical disability (child)
+Physical_Disability_parent       |  Physical disability (parent)
+Physical_Disability_person       |  Physical disability (person)
+Privately_fostered               |  Privately fostered
+Self_harm                        |  Self-harm
+Sexual_Abuse                     |  Sexual abuse
+Socially_unacceptable_behaviour  |  Socially unacceptable behaviour
+Trafficking                      |  Trafficking
+Unaccompanied_asylum_seeker      |  Unaccompanied asylum seeker
+Young_Carer                      |  Young carer
+
+Footnotes:
+
+1. An episode of need may have more than one factor identified at the end of assessment recorded.
+2. Factors identified at the end of assessment include only those factors which are deemed relevant at the end of a child’s assessment. 
+3. Figures exclude the category ‘no factors identified’. This category is only used for cases which are closed following assessments resulting in no further action.
+
+
+C4 Section 47s and Initial Child Protection Conferences
+
+Filename: c4_children_in_need_section_47s_and_icpcs_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Section 47 enquiries and initial child protection conferences in the year ending 31 March.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name             |  Variable description
+------------------------  |  ------------------------------------------------------------------------------------
+Duration_0-10_days        |  Duration between start of Section 47 enquiry and ICPC (0-10 working days)
+Duration_11-15_days       |  Duration between start of Section 47 enquiry and ICPC (11-15 working days)
+Duration_16-20_days       |  Duration between start of Section 47 enquiry and ICPC (16-20 working days)
+Duration_21+_days         |  Duration between start of Section 47 enquiry and ICPC (21+ working days)
+Duration_25th_Percentile  |  Duration between start of Section 47 enquiry and ICPC (25th percentile working days)
+Duration_75th_Percentile  |  Duration between start of Section 47 enquiry and ICPC (75th percentile working days)
+Duration_Median           |  Duration between start of Section 47 enquiry and ICPC (Median working days)
+ICPC                      |  Number of ICPCs
+ICPC_child                |  Number of children undergoing an ICPC
+ICPC_child_rate           |  Rate of children undergoing an ICPC per 10000 children aged under 18 years
+ICPC_rate                 |  Rate of ICPCs per 10000 children aged under 18 years
+Section47                 |  Number of Section 47s
+Section47_child           |  Number of children undergoing a Section 47
+Section47_child_rate      |  Rate of children undergoing a Section 47 per 10000 children aged under 18 years
+Section47_rate            |  Rate of Section 47s per 10000 children aged under 18 years
+
+Footnotes:
+
+1. The duration between start of a section 47 enquiry and initial child protection conference is calculated as the time in working days between the start of section 47 and the date of the initial child protection conference. For cases transferred in from another local authority, the duration is calculated as time in working days between the referral date and the date of the initial child protection conference.
+2. If a local authority identifies there is reasonable cause to suspect the child is suffering, or is likely to suffer significant harm, it will carry out an assessment under section 47 of the Children Act 1989 to determine if it needs to take steps to safeguard and promote the welfare of the child.
+3. If concerns regarding a child’s welfare are substantiated as result of a section 47 enquiry and the child is judged to be at continuing risk of harm then an initial child protection conference (ICPC) should be convened within 15 working days.
+4. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+
+
+C5 Children in Need Referrals by Source
+
+Filename: c5_children_in_need_referrals_by_source_2014_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2014 to 2020
+Content summary: Referrals to children's social care services in the year ending 31 March by source of referral.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  -------------------
+Anonymous           |  Anonymous
+Education_Services  |  Education services
+Health_Services     |  Health services
+Housing             |  Housing
+Individual          |  Individual
+LA_Services         |  LA services
+Other               |  Other
+Other_legal_agency  |  Other legal agency
+Police              |  Police
+Referrals           |  Number of referrals
+Schools             |  Schools
+Unknown             |  Unknown
+
+Footnotes:
+
+1. A referral is defined as a request for services to be provided by children’s social care and is in respect of a child who is not currently in need.
+2. The source of referral is recorded for each new referral. Where there is more than one referral for the same child on the same day, the first referral should be recorded.
+3. 'Individual' includes referrals from family members, relatives, carers, acquaintances and self-referrals.
+4. 'Health services' includes referral from GPs, health visitors, school nurses, other primary health services, A&E and other health services.	
+5. 'LA services' includes referrals from social care, other internal local authority services and external local authority services.	
+6. If a child has more than one referral in a reporting year, then each referral is counted.
+
+
+C6 Referrals by Month
+
+Filename: c6_children_in_need_referrals_by_month_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Referrals to children's social care services, in the year ending 31 March by month of the year.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+---------  |  -------------------------------------
+April      |  April
+August     |  August
+December   |  December
+February   |  February
+January    |  January
+July       |  July
+June       |  June
+March      |  March
+May        |  May
+November   |  November
+October    |  October
+Referrals  |  Total number of referrals in the year
+September  |  September
+
+Footnotes:
+
+1. A referral is defined as a request for services to be provided by children’s social care and is in respect of a child who is not currently in need.
+2. If a child has more than one referral in a reporting year, then each referral is counted.
+
+
+D1 Child Protection Plans
+
+Filename: d1_child_protection_plans_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Child protection plans starting, ending and at any point during the year ending 31 March, children subject to a child protection plan at 31 March.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  -----------------------------------------------------------------------------------------------------------
+CPP_anypoint             |  Number of child protection plans at any point in the year
+CPP_anypoint_rate        |  Rate of child protection plans taking place at any point in the year per 10000 children aged under 18 years
+CPP_At31                 |  Number of child protection plans at 31 March
+CPP_At31_rate            |  Rate of child protection plans at 31 March per 10000 children aged under 18 years
+CPP_child_anypoint       |  Number of children on child protection plans at any point in the year
+CPP_child_anypoint_rate  |  Rate of children on child protection plans at any point in the year per 10000 children aged under 18 years
+CPP_child_end            |  Number of children ending child protection plans in the year
+CPP_child_end_rate       |  Rate of children ending child protection plans in the year per 10000 children aged under 18 years
+CPP_child_start          |  Number of children starting child protection plans in the year
+CPP_child_start_rate     |  Rate of children starting child protection plans in the year per 10000 children aged under 18 years
+CPP_end                  |  Number of child protection plans ending in the year
+CPP_end_rate             |  Rate of child protection plans ending in the year per 10000 children aged under 18 years
+CPP_start                |  Number of child protection plans starting in the year
+CPP_start_rate           |  Rate of child protection plans starting in the year per 10000 children aged under 18 years
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. If a child is the subject of more than one child protection plan during the year, each plan is counted.
+3. Rates per 10,000 of the population of children aged under 18 years are calculated using Office for National Statistics (ONS) mid-year population estimates for children aged 0 to 17 years in England.
+
+
+D2 Child Protection Plans starting in the year by Category of Abuse
+
+Filename: d2_cpps_starting_by_category_of_abuse_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Child protection plans starting during the year ending 31 March, by initial and latest category of abuse.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name      |  Variable description
+-----------------  |  ---------------------------------------------------------
+CPP_start          |  Number of child protection plans starting during the year
+Emotional_Initial  |  Initial: Emotional abuse
+Emotional_Latest   |  Latest: Emotional abuse
+Multiple_Initial   |  Initial: Multiple
+Multiple_Latest    |  Latest: Multiple
+Neglect_Initial    |  Initial: Neglect
+Neglect_Latest     |  Latest: Neglect
+Physical_Initial   |  Initial: Physical abuse
+Physical_Latest    |  Latest: Physical abuse
+Sexual_Initial     |  Initial: Sexual abuse
+Sexual_Latest      |  Latest: Sexual abuse
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. The initial category of abuse is that assessed when the child protection plan commenced.
+3. The latest category of abuse is the most recent category of abuse assigned to the child protection plan. The latest category of abuse may be the same as the initial category of abuse.
+4. If a child is the subject of more than one child protection plan during the year, each plan is counted.
+5. The 'Multiple' category refers to instances where there is more than one main category of abuse. Children included in this category are not included in any other category of abuse, therefore a child is counted only once overall.
+
+
+D3 Child protection plans with subsequent plan
+
+Filename: d3_cpps_subsequent_plan_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Child protection plans starting in the year ending 31 March and child protection plans which are a second or subsequent plan.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name           |  Variable description
+----------------------  |  -------------------------------------------------------------------------------
+CPP_start               |  Number of child protection plans starting during the year
+CPP_subsequent          |  Number of child protection plans which were a second or subsequent plan
+CPP_subsequent_percent  |  Percentage of child protection plans which were a second or subsequent plan (%)
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. If a child is the subject of more than one child protection plan during the year, each plan is counted.
+
+
+D4 Child Protection Plans at 31st March by Category of Abuse
+
+Filename: d4_cpps_at31march_by_category_of_abuse_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Children who were the subject of a child protection plan at 31 March, by initial and latest category of abuse.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name      |  Variable description
+-----------------  |  ------------------------------------------------------------------------------
+CPP_At31           |  Number of children who were the subject of a child protection plan at 31 March
+Emotional_Initial  |  Initial: Emotional abuse
+Emotional_Latest   |  Latest: Emotional abuse
+Multiple_Initial   |  Initial: Multiple
+Multiple_Latest    |  Latest: Multiple
+Neglect_Initial    |  Initial: Neglect
+Neglect_Latest     |  Latest: Neglect
+Physical_Initial   |  Initial: Physical abuse
+Physical_Latest    |  Latest: Physical abuse
+Sexual_Initial     |  Initial: Sexual abuse
+Sexual_Latest      |  Latest: Sexual abuse
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. The initial category of abuse is that assessed when the child protection plan commenced.
+3. The latest category of abuse is the most recent category of abuse assigned to the child protection plan. The latest category of abuse may be the same as the initial category of abuse.
+4. The 'Multiple' category refers to instances where there is more than one main category of abuse. Children included in this category are not included in any other category of abuse, therefore a child is counted only once overall.
+
+
+D5 Child Protection Plans at 31 March by Length of Time
+
+Filename: d5_cpps_at31march_by_length_of_time_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Children who were the subject of a child protection plan at 31 March, by length of time as the subject of a plan.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  -------------------------------------------------------------
+1_2_years                |  1 year but less than 2 years
+1_2_years_percent        |  1 year but less than 2 years (%)
+2_years+                 |  2 years and over
+2_years+_percent         |  2 years and over (%)
+3_6_months               |  More than 3 months but less than or equal to 6 months
+3_6_months_percent       |  More than 3 months but less than or equal to 6 months (%)
+3_months                 |  3 months or less
+3_months_percent         |  3 months or less (%)
+6_months_1_year          |  More than 6 months but less than 1 year
+6_months_1_year_percent  |  More than 6 months but less than 1 year (%)
+CPP_At31                 |  Number of children who were the subject of a plan at 31 March
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. The duration of a child protection plan at 31 March is calculated as the time between the child protection plan start date and 31 March of the reporting year.
+
+
+D6 Child Protection Plans Reviewed within Timescales
+
+Filename: d6_cpps_reviewed_within_timescales_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Children who were the subject of a child protection plan at 31 March, and who had been on a plan for at least three months and had reviews carried out within the required timescales.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                       |  Variable description
+----------------------------------  |  --------------------------------------------------------------------------------------------------------------------------------
+CPP_At31_3Months                    |  Children who were the subject of a child protection plan at 31 March and who had been the subject of a plan for 3 or more months
+Reviewed_within_timescales          |  Reviewed within the required timescales
+Reviewed_within_timescales_percent  |  Reviewed within the required timescales (%)
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. Statutory guidance states that a child should have a review of their child protection plan within the first three months of being the subject of the plan, and then subsequently at intervals of not more than six months.
+
+
+D7 Child Protection Plans Ending in year by Length of Time
+
+Filename: d7_cpps_ending_by_length_of_time_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Child protection plans ending, during year ending 31 March, by length of time as the subject of a plan.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name            |  Variable description
+-----------------------  |  -----------------------------------------------------------
+1_2_years                |  1 year but less than 2 years
+1_2_years_percent        |  1 year but less than 2 years (%)
+2_years+                 |  2 years and over
+2_years+_percent         |  2 years and over (%)
+3_6_months               |  More than 3 months but less than or equal to 6 months
+3_6_months_percent       |  More than 3 months but less than or equal to 6 months (%)
+3_months                 |  3 months or less
+3_months_percent         |  3 months or less (%)
+6_months_1_year          |  More than 6 months but less than 1 year
+6_months_1_year_percent  |  More than 6 months but less than 1 year (%)
+CPP_End                  |  Number of child protection plans that ended during the year
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. The duration of a child protection plan which ended during the year ending 31 March is calculated as the time between the child protection plan start date and end date.
+3. If a child is the subject of more than one child protection plan during the year, each plan is counted.
+
+
+D8 Child protection plans ending during the first six months of the year by length of time child remained in need
+
+Filename: d8_cpps_ending_in_first_6months_by_length_of_time_2013_to_2020.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2013 to 2020
+Content summary: Child protection plans ending during the first six months of the year ending 31 March, by length of time the child remained in need.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name              |  Variable description
+-------------------------  |  --------------------------------------------------------------------------------------------
+3_6_months                 |  More than 3 months but less than or equal to 6 months
+3_6_months_percent         |  More than 3 months but less than or equal to 6 months (%)
+3_months                   |  Less than or equal to 3 months
+3_months_percent           |  Less than or equal to 3 months (%)
+3_months_transfer          |  Transferred to another local authority
+3_months_transfer_percent  |  Transferred to another local authority (%)
+6_months+                  |  More than 6 months
+6_months+_percent          |  More than 6 months (%)
+CPP_End_first_6months      |  Number of child protection plans that ended during the first 6 months of the collection year
+
+Footnotes:
+
+1. A child becomes the subject of a child protection plan if they are assessed as being at risk of harm, at an initial child protection conference.
+2. The duration of a child protection plan which ended during the first 6 months of the year ending 31 March is calculated as the time between the child protection plan start date and end date.
+3. If a child is the subject of more than one child protection plan during the year, each plan is counted.
+
+
+ONS mid-year population estimates
+
+Filename: ons_mid-year_population_estimates.csv
+Geographic levels: National; Local Authority; Regional
+Time period: 2012 to 2019
+Content summary: Population aged 0 to 17 (age at mid-year) for years 2012 to 2019 based on 2011 census.
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -------------------
+age_group            |  Age group
+population_estimate  |  Population estimate

@@ -1,0 +1,1312 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,old_la_code,new_la_code,la_name,age_group,population_estimate
+2019,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,12023570
+2019,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,532060
+2019,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1563460
+2019,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1169940
+2019,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,1002650
+2019,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1299800
+2019,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1346460
+2019,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,2032430
+2019,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1969300
+2019,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1107480
+2019,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,753680
+2019,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1278750
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22529
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,101468
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,39387
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,20054
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,32794
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,58451
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,41851
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,59050
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27608
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,30168
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,43848
+2019,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54849
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38742
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,29215
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,68385
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,43289
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,77290
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,68656
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,92527
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28770
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,33802
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,251042
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,96052
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,122914
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,59592
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,53299
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,57452
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,54057
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36868
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,63518
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,50664
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,56511
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44391
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,68916
+2019,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67508
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,51083
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,142580
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,46118
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,66918
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,63044
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,57370
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,100094
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,169422
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34518
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35638
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,117428
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,57522
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,117736
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,73845
+2019,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36625
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,59878
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,154264
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,84082
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,141860
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,146412
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,171681
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,69071
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,167547
+2019,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7854
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,287393
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,79765
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,69544
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,36048
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,82449
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,60013
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,47549
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,170184
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,57912
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,41120
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,68970
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,117720
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,62276
+2019,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,118860
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,40689
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,136427
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,63665
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,314163
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,272558
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,57487
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,171656
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,51833
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,39738
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,153591
+2019,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,44650
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,28384
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,50267
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,125734
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,106338
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,284331
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,24738
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,343839
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,64979
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,68805
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,146123
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,43756
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,37009
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,43112
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,51275
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,263760
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,35595
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,176107
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,34728
+2019,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,40417
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,36247
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,839,E06000058,Bournemouth Christchurch and Poole,Children aged 0 to 17 years,75568
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,94136
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,108515
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,146874
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,838,E06000059,Dorset,Children aged 0 to 17 years,67868
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,128910
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,337
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,43711
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,52898
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,111190
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,59243
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,50357
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,25559
+2019,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,106064
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,52407
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,1621
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,63866
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,37032
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,59847
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,42424
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,28923
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,62085
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,68561
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,86068
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,65302
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,72290
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,64462
+2019,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,48791
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,63547
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,93672
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,57087
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,77687
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,74982
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,94931
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,82172
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,84309
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,69047
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,59375
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,58361
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,74077
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,65232
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,39528
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,47409
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,76247
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,45865
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,48463
+2019,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,66757
+2018,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,11954620
+2018,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,529680
+2018,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1553150
+2018,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1165390
+2018,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,996350
+2018,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1292340
+2018,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1335880
+2018,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,2022020
+2018,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1957500
+2018,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1102320
+2018,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,749200
+2018,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1272830
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22454
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,101040
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,39605
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,20006
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,32513
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,58056
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,41360
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,59011
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27626
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,29920
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,43521
+2018,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54563
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38481
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,28904
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,67670
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,43142
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,76523
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,68054
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,92500
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28617
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,33477
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,249727
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,94902
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,121962
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,59416
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,52689
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,56566
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,53833
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36785
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,63141
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,50223
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,56087
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44484
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,68388
+2018,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67576
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,50727
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,142005
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,46021
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,66448
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,62942
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,57023
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,100174
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,168176
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34503
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35714
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,117499
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,57196
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,117497
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,72893
+2018,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36572
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,59899
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,153272
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,83994
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,140307
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,145641
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,170235
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,68651
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,166542
+2018,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7807
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,288388
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,78994
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,69265
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,36103
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,81920
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,59839
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,46946
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,169603
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,57549
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,40620
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,68157
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,115928
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,61244
+2018,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,117783
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,40088
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,135719
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,62515
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,311172
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,271005
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,57375
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,170810
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,51137
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,39540
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,152752
+2018,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,43762
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,28336
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,51005
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,124321
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,106378
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,284002
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,24869
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,340140
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,64391
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,68278
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,144788
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,44046
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,37080
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,42699
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,50832
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,261905
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,35623
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,174672
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,34604
+2018,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,39532
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,35946
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Children aged 0 to 17 years,36373
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,94016
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,107810
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,145878
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Children aged 0 to 17 years,76699
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,128136
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,368
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,43435
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,52552
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Children aged 0 to 17 years,30188
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,110700
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,58867
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,50239
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,25423
+2018,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,105692
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,50983
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,1453
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,63655
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,36898
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,60398
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,42098
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,28678
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,62629
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,68458
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,86567
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,65121
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,70973
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,63840
+2018,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,47445
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,63401
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,92701
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,56853
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,77893
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,75055
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,94702
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,81732
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,84497
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,68917
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,58373
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,57541
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,73377
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,64898
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,38977
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,47266
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,76159
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,45525
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,47941
+2018,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,67017
+2017,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,11866960
+2017,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,527410
+2017,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1543280
+2017,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1158480
+2017,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,988740
+2017,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1282900
+2017,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1324440
+2017,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,2001360
+2017,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1943860
+2017,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1096480
+2017,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,737550
+2017,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1263810
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22476
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,100540
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,39780
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,20050
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,32396
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,57544
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,40877
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,58926
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27519
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,29609
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,43250
+2017,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54444
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38657
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,28760
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,67433
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,43113
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,75834
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,67284
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,92624
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28408
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,32930
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,247856
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,93556
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,121182
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,59069
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,52128
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,55657
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,53514
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36644
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,62912
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,49645
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,55642
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44646
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,68076
+2017,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67706
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,50185
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,141606
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,46168
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,65867
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,62638
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,56454
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,99815
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,166268
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34392
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35679
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,117596
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,56947
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,116703
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,71639
+2017,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36524
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,59670
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,153099
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,83778
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,138410
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,144653
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,167948
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,67939
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,165481
+2017,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7765
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,288082
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,77584
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,68811
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,35933
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,81080
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,59691
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,46714
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,168935
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,57271
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,40141
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,67211
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,114422
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,60091
+2017,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,116938
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,39224
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,134525
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,61449
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,308028
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,269296
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,57043
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,170025
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,50009
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,39115
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,152903
+2017,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,42824
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,28071
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,50981
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,123075
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,106045
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,283314
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,25055
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,336090
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,63943
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,67647
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,143444
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,44192
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,37093
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,42180
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,50305
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,260305
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,35790
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,173281
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,34352
+2017,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,38702
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,35558
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Children aged 0 to 17 years,35981
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,93960
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,107044
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,144720
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Children aged 0 to 17 years,76861
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,127004
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,365
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,43189
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,52417
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Children aged 0 to 17 years,30190
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,110084
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,58166
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,49924
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,25417
+2017,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,105597
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,49173
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,1254
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,63048
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,35928
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,60625
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,41416
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,28475
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,62632
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,68272
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,85755
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,64386
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,68403
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,63019
+2017,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,45165
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,62889
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,91502
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,56600
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,77563
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,74041
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,94775
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,81884
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,84211
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,68262
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,57825
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,56671
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,72746
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,63928
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,38609
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,47002
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,75908
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,45122
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,47469
+2017,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,66801
+2016,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,11785280
+2016,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,525640
+2016,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1533440
+2016,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1152400
+2016,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,980660
+2016,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1272350
+2016,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1313780
+2016,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,1981780
+2016,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1934340
+2016,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1090900
+2016,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,728770
+2016,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1253010
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22581
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,100271
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,40030
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,19986
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,32175
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,56899
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,40595
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,58995
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27346
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,29498
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,43012
+2016,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54255
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38480
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,28660
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,66745
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,42828
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,75472
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,66586
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,92763
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28359
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,32728
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,246552
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,92234
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,120048
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,58876
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,51441
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,54870
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,53363
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36367
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,62369
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,49402
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,55006
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44648
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,67933
+2016,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67710
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,49857
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,140973
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,46097
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,65598
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,62763
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,56001
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,99134
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,164819
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34261
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35401
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,117453
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,56610
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,116295
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,70499
+2016,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36639
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,59312
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,153059
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,83355
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,136857
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,143757
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,165388
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,67073
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,164126
+2016,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7734
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,286450
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,76587
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,68161
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,35895
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,79948
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,59461
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,46072
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,168699
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,56748
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,39488
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,66231
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,113271
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,59285
+2016,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,116054
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,38692
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,133720
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,60670
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,305817
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,267176
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,56881
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,169052
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,48915
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,38781
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,152036
+2016,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,42030
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,28174
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,51152
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,122367
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,106045
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,283036
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,25218
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,332979
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,63624
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,67345
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,142798
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,43990
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,36656
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,41429
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,49828
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,259248
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,36045
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,171991
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,34246
+2016,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,38167
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,35193
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Children aged 0 to 17 years,35312
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,93694
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,106179
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,143543
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Children aged 0 to 17 years,77157
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,126254
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,382
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,43082
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,52254
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Children aged 0 to 17 years,30180
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,109817
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,57715
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,49478
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,25374
+2016,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,105284
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,47906
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,1104
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,62355
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,35041
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,60770
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,40741
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,28374
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,62422
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,67963
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,85551
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,63810
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,66573
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,62069
+2016,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,44087
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,61833
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,90342
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,56540
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,76391
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,73281
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,94445
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,81849
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,83908
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,67291
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,57578
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,55748
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,71882
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,63272
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,38173
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,46739
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,76031
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,44864
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,46848
+2016,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,65996
+2015,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,11677860
+2015,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,524370
+2015,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1521580
+2015,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1145520
+2015,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,971510
+2015,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1262410
+2015,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1299960
+2015,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,1951740
+2015,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1918620
+2015,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1082150
+2015,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,716590
+2015,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1235150
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22674
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,100233
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,39840
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,19823
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,31948
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,56497
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,40407
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,59258
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27375
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,29194
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,42784
+2015,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54332
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38285
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,28724
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,66123
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,42623
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,74987
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,66246
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,92933
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28279
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,32497
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,245325
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,91116
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,117425
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,58295
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,50836
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,53813
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,53184
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36266
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,61831
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,48980
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,54179
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44468
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,67610
+2015,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67554
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,49642
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,139867
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,45761
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,65333
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,62735
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,55521
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,98730
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,162588
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34221
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35296
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,117258
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,56366
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,115877
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,69654
+2015,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36671
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,58724
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,153445
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,81977
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,135552
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,142269
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,162633
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,65906
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,163263
+2015,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7740
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,284011
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,75119
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,68018
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,36059
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,78722
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,59352
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,45640
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,168819
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,56132
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,39208
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,65073
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,112720
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,58317
+2015,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,115223
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,37970
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,132680
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,59542
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,302994
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,264237
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,56035
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,167859
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,47640
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,38427
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,151574
+2015,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,40999
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,28139
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,51142
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,120726
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,105922
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,282110
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,25344
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,330334
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,63103
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,66280
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,141643
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,43756
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,36426
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,40559
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,49055
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,256602
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,35796
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,170537
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,33797
+2015,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,37353
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,34738
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Children aged 0 to 17 years,34813
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,92782
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,105465
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,142591
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Children aged 0 to 17 years,77154
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,124796
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,386
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,42610
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,51868
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Children aged 0 to 17 years,29786
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,109265
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,57449
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,49056
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,25262
+2015,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,104133
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,46242
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,1018
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,61120
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,34398
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,60298
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,40109
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,28328
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,62418
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,67332
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,83982
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,62902
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,64797
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,61036
+2015,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,42610
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,60281
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,88754
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,56028
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,75033
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,72176
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,93166
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,81217
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,83274
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,66010
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,57186
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,54279
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,70644
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,62349
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,37534
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,46260
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,75418
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,44364
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,46142
+2015,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,65030
+2014,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,11591700
+2014,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,524980
+2014,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1514980
+2014,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1141040
+2014,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,965750
+2014,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1257090
+2014,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1286690
+2014,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,1920210
+2014,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1904420
+2014,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1076540
+2014,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,702370
+2014,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1217840
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22739
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,100287
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,40057
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,19959
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,31782
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,56215
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,40487
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,59825
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27330
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,29302
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,42517
+2014,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54484
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38267
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,28847
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,65677
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,42524
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,75095
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,66155
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,93352
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28242
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,32250
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,244635
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,90139
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,114749
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,57653
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,50559
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,53057
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,53490
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36416
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,61481
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,48781
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,53738
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44450
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,67795
+2014,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67630
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,49469
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,138951
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,45651
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,65179
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,63178
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,55362
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,98317
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,160476
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34317
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35223
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,117565
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,56420
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,115195
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,69152
+2014,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36585
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,58267
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,154075
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,80803
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,134753
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,141395
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,160663
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,64985
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,163094
+2014,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7711
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,282191
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,73988
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,67864
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,36082
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,77705
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,59778
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,45469
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,169607
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,55778
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,39029
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,64538
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,112324
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,57749
+2014,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,114986
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,37402
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,131150
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,58555
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,300324
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,261708
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,54693
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,166914
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,46592
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,38232
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,151003
+2014,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,40121
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,27809
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,50942
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,118896
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,105439
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,281692
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,25566
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,328257
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,62498
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,65306
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,141009
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,43341
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,35786
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,39829
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,48456
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,254701
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,35677
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,168948
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,33399
+2014,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,36869
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,34424
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Children aged 0 to 17 years,34117
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,91932
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,104923
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,142130
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Children aged 0 to 17 years,77248
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,123845
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,388
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,42469
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,51671
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Children aged 0 to 17 years,29683
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,108932
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,57051
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,48625
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,25077
+2014,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,104021
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,44228
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,866
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,59972
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,33966
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,59577
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,39137
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,27861
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,62115
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,66657
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,82780
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,61765
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,62881
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,59935
+2014,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,40633
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,58844
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,87821
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,55565
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,73979
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,71465
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,92384
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,80272
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,82050
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,64766
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,56628
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,53277
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,69137
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,61400
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,36733
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,45680
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,74574
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,43681
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,45314
+2014,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,64268
+2013,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,11506450
+2013,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,525100
+2013,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1509760
+2013,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1137760
+2013,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,961070
+2013,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1251160
+2013,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1274070
+2013,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,1887380
+2013,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1890530
+2013,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1069620
+2013,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,688760
+2013,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1198620
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22793
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,100222
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,40088
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,20188
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,31730
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,55358
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,40481
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,60426
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27471
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,29426
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,42337
+2013,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54578
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38585
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,29057
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,65538
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,42342
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,74970
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,66122
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,94072
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28167
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,32385
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,243886
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,89644
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,112887
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,57177
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,50549
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,52270
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,53575
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36274
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,61010
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,48691
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,52972
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44294
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,67799
+2013,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67498
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,49339
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,138322
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,45652
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,64972
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,63426
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,55219
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,97961
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,158592
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34426
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35356
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,118440
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,56121
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,114732
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,68869
+2013,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36334
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,57758
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,154874
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,79540
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,134631
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,140747
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,159188
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,63859
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,162680
+2013,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7795
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,279992
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,73083
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,67626
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,36099
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,76887
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,60036
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,45317
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,170253
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,55112
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,38966
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,63852
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,111987
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,56927
+2013,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,115027
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,36782
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,129570
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,57964
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,298341
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,258427
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,53657
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,166202
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,45774
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,37889
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,150014
+2013,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,39446
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,27379
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,50645
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,117878
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,104952
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,281744
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,25719
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,326092
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,61815
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,64240
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,140173
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,42792
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,35025
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,38964
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,47771
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,252390
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,35763
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,167646
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,33029
+2013,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,36511
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,34211
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Children aged 0 to 17 years,33480
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,90607
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,104275
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,141532
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Children aged 0 to 17 years,77343
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,122772
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,379
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,42224
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,51288
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Children aged 0 to 17 years,29435
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,108739
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,56960
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,47978
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,24929
+2013,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,103467
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,42477
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,739
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,58990
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,33533
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,58806
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,38397
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,27454
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,61888
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,65600
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,81518
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,61185
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,60599
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,58430
+2013,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,39139
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,57353
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,86382
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,54939
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,72561
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,70453
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,91671
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,79474
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,80956
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,63776
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,55757
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,52136
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,67529
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,60336
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,35670
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,45015
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,73292
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,42839
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,44700
+2013,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,63785
+2012,Reporting year,National,E92000001,England,,,,,,Children aged 0 to 17 years,11423310
+2012,Reporting year,Regional,E92000001,England,E12000001,North East,,,,Children aged 0 to 17 years,525030
+2012,Reporting year,Regional,E92000001,England,E12000002,North West,,,,Children aged 0 to 17 years,1504930
+2012,Reporting year,Regional,E92000001,England,E12000003,Yorkshire and the Humber,,,,Children aged 0 to 17 years,1132920
+2012,Reporting year,Regional,E92000001,England,E12000004,East Midlands,,,,Children aged 0 to 17 years,956730
+2012,Reporting year,Regional,E92000001,England,E12000005,West Midlands,,,,Children aged 0 to 17 years,1244410
+2012,Reporting year,Regional,E92000001,England,E12000006,East of England,,,,Children aged 0 to 17 years,1265550
+2012,Reporting year,Regional,E92000001,England,E12000007,London,,,,Children aged 0 to 17 years,1853210
+2012,Reporting year,Regional,E92000001,England,E12000008,South East,,,,Children aged 0 to 17 years,1876270
+2012,Reporting year,Regional,E92000001,England,E12000009,South West,,,,Children aged 0 to 17 years,1064260
+2012,Reporting year,Regional,E92000001,England,E13000001,Inner London,,,,Children aged 0 to 17 years,673380
+2012,Reporting year,Regional,E92000001,England,E13000002,Outer London,,,,Children aged 0 to 17 years,1179830
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,Children aged 0 to 17 years,22774
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,840,E06000047,Durham,Children aged 0 to 17 years,100250
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,Children aged 0 to 17 years,40305
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,Children aged 0 to 17 years,20289
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,Children aged 0 to 17 years,31637
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,Children aged 0 to 17 years,54523
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,Children aged 0 to 17 years,40338
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,Children aged 0 to 17 years,61054
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,Children aged 0 to 17 years,27522
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,Children aged 0 to 17 years,29485
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,Children aged 0 to 17 years,42147
+2012,Reporting year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,Children aged 0 to 17 years,54708
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,Children aged 0 to 17 years,38662
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,Children aged 0 to 17 years,29073
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,Children aged 0 to 17 years,65151
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,Children aged 0 to 17 years,42201
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,Children aged 0 to 17 years,75016
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,Children aged 0 to 17 years,66047
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,Children aged 0 to 17 years,94549
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,Children aged 0 to 17 years,28030
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,Children aged 0 to 17 years,32465
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,Children aged 0 to 17 years,243220
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,Children aged 0 to 17 years,89517
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,Children aged 0 to 17 years,110817
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,Children aged 0 to 17 years,56701
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,Children aged 0 to 17 years,50679
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,Children aged 0 to 17 years,51575
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,Children aged 0 to 17 years,53837
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,Children aged 0 to 17 years,36416
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,Children aged 0 to 17 years,60667
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,Children aged 0 to 17 years,48503
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,Children aged 0 to 17 years,52324
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,Children aged 0 to 17 years,44104
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,Children aged 0 to 17 years,67712
+2012,Reporting year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,Children aged 0 to 17 years,67661
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,370,E08000016,Barnsley,Children aged 0 to 17 years,49095
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,380,E08000032,Bradford,Children aged 0 to 17 years,137405
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,381,E08000033,Calderdale,Children aged 0 to 17 years,45582
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,371,E08000017,Doncaster,Children aged 0 to 17 years,64918
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,811,E06000011,East Riding of Yorkshire,Children aged 0 to 17 years,63888
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,810,E06000010,Kingston Upon Hull City of,Children aged 0 to 17 years,54847
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,382,E08000034,Kirklees,Children aged 0 to 17 years,97335
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,383,E08000035,Leeds,Children aged 0 to 17 years,156848
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,812,E06000012,North East Lincolnshire,Children aged 0 to 17 years,34381
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,813,E06000013,North Lincolnshire,Children aged 0 to 17 years,35474
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,815,E10000023,North Yorkshire,Children aged 0 to 17 years,118574
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,372,E08000018,Rotherham,Children aged 0 to 17 years,56108
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,373,E08000019,Sheffield,Children aged 0 to 17 years,114028
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,384,E08000036,Wakefield,Children aged 0 to 17 years,68401
+2012,Reporting year,Local authority,E92000001,England,E12000003,Yorkshire and the Humber,816,E06000014,York,Children aged 0 to 17 years,36036
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,Children aged 0 to 17 years,57412
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,Children aged 0 to 17 years,155839
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,Children aged 0 to 17 years,78492
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,Children aged 0 to 17 years,134433
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,Children aged 0 to 17 years,139777
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,Children aged 0 to 17 years,157811
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,Children aged 0 to 17 years,63004
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,Children aged 0 to 17 years,162152
+2012,Reporting year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,Children aged 0 to 17 years,7809
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,Children aged 0 to 17 years,277098
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,Children aged 0 to 17 years,71783
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,Children aged 0 to 17 years,67423
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,Herefordshire,Children aged 0 to 17 years,36019
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,Children aged 0 to 17 years,75695
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,Children aged 0 to 17 years,60558
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,Children aged 0 to 17 years,45110
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,Children aged 0 to 17 years,170531
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,Children aged 0 to 17 years,54779
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,Children aged 0 to 17 years,39011
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,Children aged 0 to 17 years,63478
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,Children aged 0 to 17 years,111916
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,Children aged 0 to 17 years,56400
+2012,Reporting year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,Children aged 0 to 17 years,114606
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford Borough,Children aged 0 to 17 years,36116
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,Children aged 0 to 17 years,128728
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,Children aged 0 to 17 years,57139
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,Children aged 0 to 17 years,296733
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,Children aged 0 to 17 years,256018
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,Children aged 0 to 17 years,52868
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,Children aged 0 to 17 years,165632
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,Children aged 0 to 17 years,44991
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,Children aged 0 to 17 years,37632
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,Children aged 0 to 17 years,150671
+2012,Reporting year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,Children aged 0 to 17 years,39024
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,Children aged 0 to 17 years,26989
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,Children aged 0 to 17 years,50058
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,Children aged 0 to 17 years,116860
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,Children aged 0 to 17 years,104657
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,Children aged 0 to 17 years,281502
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,Children aged 0 to 17 years,25967
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,Children aged 0 to 17 years,324341
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,Children aged 0 to 17 years,61408
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,Children aged 0 to 17 years,62949
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,Children aged 0 to 17 years,139334
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,Children aged 0 to 17 years,42475
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,Children aged 0 to 17 years,34197
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,Children aged 0 to 17 years,38267
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,Children aged 0 to 17 years,47003
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,Children aged 0 to 17 years,249845
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,Children aged 0 to 17 years,35503
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,Children aged 0 to 17 years,166027
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,Children aged 0 to 17 years,32907
+2012,Reporting year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,Children aged 0 to 17 years,35984
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,Children aged 0 to 17 years,33839
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,Children aged 0 to 17 years,32736
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,801,E06000023,Bristol City of,Children aged 0 to 17 years,89408
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,Children aged 0 to 17 years,103579
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,Children aged 0 to 17 years,141040
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,Children aged 0 to 17 years,77180
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,Children aged 0 to 17 years,122439
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,Children aged 0 to 17 years,369
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,Children aged 0 to 17 years,41825
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,Children aged 0 to 17 years,50924
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,Children aged 0 to 17 years,29426
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,Children aged 0 to 17 years,108630
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,Children aged 0 to 17 years,57046
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,Children aged 0 to 17 years,47384
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,Children aged 0 to 17 years,24860
+2012,Reporting year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,Children aged 0 to 17 years,103572
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,202,E09000007,Camden,Children aged 0 to 17 years,40753
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,201,E09000001,City of London,Children aged 0 to 17 years,738
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,204,E09000012,Hackney,Children aged 0 to 17 years,57830
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,205,E09000013,Hammersmith and Fulham,Children aged 0 to 17 years,33046
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,309,E09000014,Haringey,Children aged 0 to 17 years,58111
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,206,E09000019,Islington,Children aged 0 to 17 years,37433
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,207,E09000020,Kensington and Chelsea,Children aged 0 to 17 years,26993
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,208,E09000022,Lambeth,Children aged 0 to 17 years,61324
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,209,E09000023,Lewisham,Children aged 0 to 17 years,64497
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,316,E09000025,Newham,Children aged 0 to 17 years,79941
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,210,E09000028,Southwark,Children aged 0 to 17 years,60307
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,211,E09000030,Tower Hamlets,Children aged 0 to 17 years,57735
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,212,E09000032,Wandsworth,Children aged 0 to 17 years,57026
+2012,Reporting year,Local authority,E92000001,England,E13000001,Inner London,213,E09000033,Westminster,Children aged 0 to 17 years,37646
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,301,E09000002,Barking and Dagenham,Children aged 0 to 17 years,55584
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,302,E09000003,Barnet,Children aged 0 to 17 years,85160
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,303,E09000004,Bexley,Children aged 0 to 17 years,54560
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,304,E09000005,Brent,Children aged 0 to 17 years,71675
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,305,E09000006,Bromley,Children aged 0 to 17 years,69586
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,306,E09000008,Croydon,Children aged 0 to 17 years,90722
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,307,E09000009,Ealing,Children aged 0 to 17 years,78080
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,308,E09000010,Enfield,Children aged 0 to 17 years,80123
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,203,E09000011,Greenwich,Children aged 0 to 17 years,62547
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,310,E09000015,Harrow,Children aged 0 to 17 years,55158
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,311,E09000016,Havering,Children aged 0 to 17 years,51399
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,312,E09000017,Hillingdon,Children aged 0 to 17 years,65949
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,313,E09000018,Hounslow,Children aged 0 to 17 years,59207
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,314,E09000021,Kingston upon Thames,Children aged 0 to 17 years,34910
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,315,E09000024,Merton,Children aged 0 to 17 years,44477
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,317,E09000026,Redbridge,Children aged 0 to 17 years,72072
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,318,E09000027,Richmond upon Thames,Children aged 0 to 17 years,41831
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,319,E09000029,Sutton,Children aged 0 to 17 years,43957
+2012,Reporting year,Local authority,E92000001,England,E13000002,Outer London,320,E09000031,Waltham Forest,Children aged 0 to 17 years,62836

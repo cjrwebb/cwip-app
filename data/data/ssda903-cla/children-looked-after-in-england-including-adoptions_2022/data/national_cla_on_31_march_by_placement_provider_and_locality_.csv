@@ -1,0 +1,721 @@
+﻿time_period,time_identifier,geographic_level,country_code,country_name,placement_type,placement_provider,number,percentage
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,All children,82170,100
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other LA provision,1050,1
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other public provision (eg by PCT),320,k
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Own provision (by the LA),37680,46
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Parents or other person with parental responsibility,5610,7
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Placement provider not reported,710,1
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Private provision,31070,38
+2022,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Voluntary/third sector provision,5720,7
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,All children,46280,100
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other LA provision,150,k
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other public provision (eg by PCT),90,k
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Own provision (by the LA),27680,60
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Parents or other person with parental responsibility,4610,10
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Private provision,10970,24
+2022,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Voluntary/third sector provision,2780,6
+2022,Reporting year,National,E92000001,England,2a. Foster placements,All children,33870,100
+2022,Reporting year,National,E92000001,England,2a. Foster placements,Other LA provision,30,k
+2022,Reporting year,National,E92000001,England,2a. Foster placements,Other public provision (eg by PCT),0,0
+2022,Reporting year,National,E92000001,England,2a. Foster placements,Own provision (by the LA),25640,76
+2022,Reporting year,National,E92000001,England,2a. Foster placements,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,2a. Foster placements,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,2a. Foster placements,Private provision,6010,18
+2022,Reporting year,National,E92000001,England,2a. Foster placements,Voluntary/third sector provision,2190,6
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,All children,1390,100
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,Other LA provision,30,2
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,Other public provision (eg by PCT),10,1
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,Own provision (by the LA),240,17
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,Private provision,1020,74
+2022,Reporting year,National,E92000001,England,2b. Other placement in the community,Voluntary/third sector provision,80,6
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",All children,5690,100
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,30,k
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),40,1
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),1390,24
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Private provision,3790,67
+2022,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,450,8
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,All children,230,100
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,Other LA provision,c,c
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,Other public provision (eg by PCT),40,19
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,Own provision (by the LA),30,12
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,Private provision,140,62
+2022,Reporting year,National,E92000001,England,2d. Other residential settings,Voluntary/third sector provision,10,5
+2022,Reporting year,National,E92000001,England,2e. Residential schools,All children,30,100
+2022,Reporting year,National,E92000001,England,2e. Residential schools,Other LA provision,0,0
+2022,Reporting year,National,E92000001,England,2e. Residential schools,Other public provision (eg by PCT),0,0
+2022,Reporting year,National,E92000001,England,2e. Residential schools,Own provision (by the LA),10,48
+2022,Reporting year,National,E92000001,England,2e. Residential schools,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,2e. Residential schools,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,2e. Residential schools,Private provision,c,c
+2022,Reporting year,National,E92000001,England,2e. Residential schools,Voluntary/third sector provision,10,37
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,All children,4610,100
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,Other LA provision,z,z
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,Other public provision (eg by PCT),z,z
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,Own provision (by the LA),z,z
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,Parents or other person with parental responsibility,4610,100
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,Private provision,z,z
+2022,Reporting year,National,E92000001,England,2f. Placement with parents,Voluntary/third sector provision,z,z
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,All children,470,100
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,Other LA provision,60,12
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,Other public provision (eg by PCT),0,0
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,Own provision (by the LA),370,78
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,Private provision,c,c
+2022,Reporting year,National,E92000001,England,2g. Placed for adoption,Voluntary/third sector provision,40,9
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,All children,35180,100
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other LA provision,900,3
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other public provision (eg by PCT),230,1
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Own provision (by the LA),10000,28
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Parents or other person with parental responsibility,1000,3
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Private provision,20100,57
+2022,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Voluntary/third sector provision,2940,8
+2022,Reporting year,National,E92000001,England,3a. Foster placements,All children,23670,100
+2022,Reporting year,National,E92000001,England,3a. Foster placements,Other LA provision,200,1
+2022,Reporting year,National,E92000001,England,3a. Foster placements,Other public provision (eg by PCT),0,0
+2022,Reporting year,National,E92000001,England,3a. Foster placements,Own provision (by the LA),9290,39
+2022,Reporting year,National,E92000001,England,3a. Foster placements,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,3a. Foster placements,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,3a. Foster placements,Private provision,12130,51
+2022,Reporting year,National,E92000001,England,3a. Foster placements,Voluntary/third sector provision,2050,9
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,All children,650,100
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,Other LA provision,20,4
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,Other public provision (eg by PCT),c,c
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,Own provision (by the LA),10,2
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,Private provision,580,89
+2022,Reporting year,National,E92000001,England,3b. Other placement in the community,Voluntary/third sector provision,30,4
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",All children,7320,100
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,150,2
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),20,k
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),c,c
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Private provision,6760,92
+2022,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,390,5
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,All children,800,100
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,Other LA provision,10,1
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,Other public provision (eg by PCT),210,26
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,Own provision (by the LA),0,0
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,Private provision,540,68
+2022,Reporting year,National,E92000001,England,3d. Other residential settings,Voluntary/third sector provision,40,5
+2022,Reporting year,National,E92000001,England,3e. Residential schools,All children,80,100
+2022,Reporting year,National,E92000001,England,3e. Residential schools,Other LA provision,c,c
+2022,Reporting year,National,E92000001,England,3e. Residential schools,Other public provision (eg by PCT),0,0
+2022,Reporting year,National,E92000001,England,3e. Residential schools,Own provision (by the LA),0,0
+2022,Reporting year,National,E92000001,England,3e. Residential schools,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,3e. Residential schools,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,3e. Residential schools,Private provision,50,68
+2022,Reporting year,National,E92000001,England,3e. Residential schools,Voluntary/third sector provision,20,27
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,All children,1000,100
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,Other LA provision,z,z
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,Other public provision (eg by PCT),z,z
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,Own provision (by the LA),z,z
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,Parents or other person with parental responsibility,1000,100
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,Private provision,z,z
+2022,Reporting year,National,E92000001,England,3f. Placement with parents,Voluntary/third sector provision,z,z
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,All children,1670,100
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,Other LA provision,520,31
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,Other public provision (eg by PCT),0,0
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,Own provision (by the LA),700,42
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,Placement provider not reported,z,z
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,Private provision,40,2
+2022,Reporting year,National,E92000001,England,3g. Placed for adoption,Voluntary/third sector provision,420,25
+2022,Reporting year,National,E92000001,England,4. Other placement,All children,710,100
+2022,Reporting year,National,E92000001,England,4. Other placement,Other LA provision,z,z
+2022,Reporting year,National,E92000001,England,4. Other placement,Other public provision (eg by PCT),z,z
+2022,Reporting year,National,E92000001,England,4. Other placement,Own provision (by the LA),z,z
+2022,Reporting year,National,E92000001,England,4. Other placement,Parents or other person with parental responsibility,z,z
+2022,Reporting year,National,E92000001,England,4. Other placement,Placement provider not reported,710,100
+2022,Reporting year,National,E92000001,England,4. Other placement,Private provision,z,z
+2022,Reporting year,National,E92000001,England,4. Other placement,Voluntary/third sector provision,z,z
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,All children,80780,100
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other LA provision,1000,1
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other public provision (eg by PCT),370,k
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Own provision (by the LA),38460,48
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Parents or other person with parental responsibility,6050,7
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Placement provider not reported,600,1
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Private provision,29210,36
+2021,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Voluntary/third sector provision,5080,6
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,All children,46290,100
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other LA provision,150,k
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other public provision (eg by PCT),110,k
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Own provision (by the LA),28430,61
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Parents or other person with parental responsibility,4980,11
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Private provision,10250,22
+2021,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Voluntary/third sector provision,2380,5
+2021,Reporting year,National,E92000001,England,2a. Foster placements,All children,34180,100
+2021,Reporting year,National,E92000001,England,2a. Foster placements,Other LA provision,40,k
+2021,Reporting year,National,E92000001,England,2a. Foster placements,Other public provision (eg by PCT),0,0
+2021,Reporting year,National,E92000001,England,2a. Foster placements,Own provision (by the LA),26270,77
+2021,Reporting year,National,E92000001,England,2a. Foster placements,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,2a. Foster placements,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,2a. Foster placements,Private provision,6030,18
+2021,Reporting year,National,E92000001,England,2a. Foster placements,Voluntary/third sector provision,1850,5
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,All children,1290,100
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,Other LA provision,30,2
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,Other public provision (eg by PCT),30,2
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,Own provision (by the LA),220,17
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,Private provision,940,73
+2021,Reporting year,National,E92000001,England,2b. Other placement in the community,Voluntary/third sector provision,80,6
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",All children,4970,100
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,20,k
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),30,1
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),1370,28
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Private provision,3150,63
+2021,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,400,8
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,All children,220,100
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,Other LA provision,c,c
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,Other public provision (eg by PCT),50,24
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,Own provision (by the LA),30,12
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,Private provision,130,57
+2021,Reporting year,National,E92000001,England,2d. Other residential settings,Voluntary/third sector provision,10,5
+2021,Reporting year,National,E92000001,England,2e. Residential schools,All children,30,100
+2021,Reporting year,National,E92000001,England,2e. Residential schools,Other LA provision,c,c
+2021,Reporting year,National,E92000001,England,2e. Residential schools,Other public provision (eg by PCT),0,0
+2021,Reporting year,National,E92000001,England,2e. Residential schools,Own provision (by the LA),20,55
+2021,Reporting year,National,E92000001,England,2e. Residential schools,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,2e. Residential schools,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,2e. Residential schools,Private provision,10,18
+2021,Reporting year,National,E92000001,England,2e. Residential schools,Voluntary/third sector provision,10,24
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,All children,4980,100
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,Other LA provision,z,z
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,Other public provision (eg by PCT),z,z
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,Own provision (by the LA),z,z
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,Parents or other person with parental responsibility,4980,100
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,Private provision,z,z
+2021,Reporting year,National,E92000001,England,2f. Placement with parents,Voluntary/third sector provision,z,z
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,All children,620,100
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,Other LA provision,60,10
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,Other public provision (eg by PCT),0,0
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,Own provision (by the LA),520,85
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,Private provision,c,c
+2021,Reporting year,National,E92000001,England,2g. Placed for adoption,Voluntary/third sector provision,30,5
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,All children,33890,100
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other LA provision,850,3
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other public provision (eg by PCT),270,1
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Own provision (by the LA),10040,30
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Parents or other person with parental responsibility,1070,3
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Private provision,18960,56
+2021,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Voluntary/third sector provision,2700,8
+2021,Reporting year,National,E92000001,England,3a. Foster placements,All children,22830,100
+2021,Reporting year,National,E92000001,England,3a. Foster placements,Other LA provision,160,1
+2021,Reporting year,National,E92000001,England,3a. Foster placements,Other public provision (eg by PCT),0,0
+2021,Reporting year,National,E92000001,England,3a. Foster placements,Own provision (by the LA),9200,40
+2021,Reporting year,National,E92000001,England,3a. Foster placements,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,3a. Foster placements,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,3a. Foster placements,Private provision,11740,51
+2021,Reporting year,National,E92000001,England,3a. Foster placements,Voluntary/third sector provision,1740,8
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,All children,500,100
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,Other LA provision,20,5
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,Other public provision (eg by PCT),c,c
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,Own provision (by the LA),c,c
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,Private provision,470,93
+2021,Reporting year,National,E92000001,England,3b. Other placement in the community,Voluntary/third sector provision,10,2
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",All children,6720,100
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,140,2
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),10,k
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),c,c
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Private provision,6190,92
+2021,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,370,6
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,All children,810,100
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,Other LA provision,10,2
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,Other public provision (eg by PCT),250,31
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,Own provision (by the LA),0,0
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,Private provision,490,60
+2021,Reporting year,National,E92000001,England,3d. Other residential settings,Voluntary/third sector provision,60,8
+2021,Reporting year,National,E92000001,England,3e. Residential schools,All children,80,100
+2021,Reporting year,National,E92000001,England,3e. Residential schools,Other LA provision,c,c
+2021,Reporting year,National,E92000001,England,3e. Residential schools,Other public provision (eg by PCT),0,0
+2021,Reporting year,National,E92000001,England,3e. Residential schools,Own provision (by the LA),0,0
+2021,Reporting year,National,E92000001,England,3e. Residential schools,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,3e. Residential schools,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,3e. Residential schools,Private provision,50,63
+2021,Reporting year,National,E92000001,England,3e. Residential schools,Voluntary/third sector provision,30,31
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,All children,1070,100
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,Other LA provision,z,z
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,Other public provision (eg by PCT),z,z
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,Own provision (by the LA),z,z
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,Parents or other person with parental responsibility,1070,100
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,Private provision,z,z
+2021,Reporting year,National,E92000001,England,3f. Placement with parents,Voluntary/third sector provision,z,z
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,All children,1860,100
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,Other LA provision,510,28
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,Other public provision (eg by PCT),0,0
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,Own provision (by the LA),830,45
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,Placement provider not reported,z,z
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,Private provision,20,1
+2021,Reporting year,National,E92000001,England,3g. Placed for adoption,Voluntary/third sector provision,490,27
+2021,Reporting year,National,E92000001,England,4. Other placement,All children,600,100
+2021,Reporting year,National,E92000001,England,4. Other placement,Other LA provision,z,z
+2021,Reporting year,National,E92000001,England,4. Other placement,Other public provision (eg by PCT),z,z
+2021,Reporting year,National,E92000001,England,4. Other placement,Own provision (by the LA),z,z
+2021,Reporting year,National,E92000001,England,4. Other placement,Parents or other person with parental responsibility,z,z
+2021,Reporting year,National,E92000001,England,4. Other placement,Placement provider not reported,600,100
+2021,Reporting year,National,E92000001,England,4. Other placement,Private provision,z,z
+2021,Reporting year,National,E92000001,England,4. Other placement,Voluntary/third sector provision,z,z
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,All children,80000,100
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other LA provision,950,1
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other public provision (eg by PCT),410,1
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Own provision (by the LA),38760,48
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Parents or other person with parental responsibility,5530,7
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Placement provider not reported,500,1
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Private provision,28790,36
+2020,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Voluntary/third sector provision,5070,6
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,All children,46450,100
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other LA provision,120,k
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other public provision (eg by PCT),110,k
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Own provision (by the LA),28980,62
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Parents or other person with parental responsibility,4560,10
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Private provision,10260,22
+2020,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Voluntary/third sector provision,2420,5
+2020,Reporting year,National,E92000001,England,2a. Foster placements,All children,34610,100
+2020,Reporting year,National,E92000001,England,2a. Foster placements,Other LA provision,20,k
+2020,Reporting year,National,E92000001,England,2a. Foster placements,Other public provision (eg by PCT),0,0
+2020,Reporting year,National,E92000001,England,2a. Foster placements,Own provision (by the LA),26740,77
+2020,Reporting year,National,E92000001,England,2a. Foster placements,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,2a. Foster placements,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,2a. Foster placements,Private provision,6020,17
+2020,Reporting year,National,E92000001,England,2a. Foster placements,Voluntary/third sector provision,1840,5
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,All children,1770,100
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,Other LA provision,20,1
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,Other public provision (eg by PCT),30,2
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,Own provision (by the LA),300,17
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,Private provision,1310,74
+2020,Reporting year,National,E92000001,England,2b. Other placement in the community,Voluntary/third sector provision,110,6
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",All children,4650,100
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,20,k
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),40,1
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),1350,29
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Private provision,2820,61
+2020,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,420,9
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,All children,190,100
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,Other LA provision,c,c
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,Other public provision (eg by PCT),50,24
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,Own provision (by the LA),30,15
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,Private provision,110,55
+2020,Reporting year,National,E92000001,England,2d. Other residential settings,Voluntary/third sector provision,10,5
+2020,Reporting year,National,E92000001,England,2e. Residential schools,All children,30,100
+2020,Reporting year,National,E92000001,England,2e. Residential schools,Other LA provision,0,0
+2020,Reporting year,National,E92000001,England,2e. Residential schools,Other public provision (eg by PCT),0,0
+2020,Reporting year,National,E92000001,England,2e. Residential schools,Own provision (by the LA),20,61
+2020,Reporting year,National,E92000001,England,2e. Residential schools,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,2e. Residential schools,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,2e. Residential schools,Private provision,10,24
+2020,Reporting year,National,E92000001,England,2e. Residential schools,Voluntary/third sector provision,c,c
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,All children,4560,100
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,Other LA provision,z,z
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,Other public provision (eg by PCT),z,z
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,Own provision (by the LA),z,z
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,Parents or other person with parental responsibility,4560,100
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,Private provision,z,z
+2020,Reporting year,National,E92000001,England,2f. Placement with parents,Voluntary/third sector provision,z,z
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,All children,630,100
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,Other LA provision,60,9
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,Other public provision (eg by PCT),0,0
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,Own provision (by the LA),540,86
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,Private provision,0,0
+2020,Reporting year,National,E92000001,England,2g. Placed for adoption,Voluntary/third sector provision,30,5
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,All children,33050,100
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other LA provision,820,2
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other public provision (eg by PCT),300,1
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Own provision (by the LA),9780,30
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Parents or other person with parental responsibility,970,3
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Private provision,18530,56
+2020,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Voluntary/third sector provision,2660,8
+2020,Reporting year,National,E92000001,England,3a. Foster placements,All children,22360,100
+2020,Reporting year,National,E92000001,England,3a. Foster placements,Other LA provision,160,1
+2020,Reporting year,National,E92000001,England,3a. Foster placements,Other public provision (eg by PCT),0,0
+2020,Reporting year,National,E92000001,England,3a. Foster placements,Own provision (by the LA),9030,40
+2020,Reporting year,National,E92000001,England,3a. Foster placements,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,3a. Foster placements,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,3a. Foster placements,Private provision,11470,51
+2020,Reporting year,National,E92000001,England,3a. Foster placements,Voluntary/third sector provision,1700,8
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,All children,700,100
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,Other LA provision,30,4
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,Other public provision (eg by PCT),10,1
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,Own provision (by the LA),10,1
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,Private provision,630,90
+2020,Reporting year,National,E92000001,England,3b. Other placement in the community,Voluntary/third sector provision,30,4
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",All children,6480,100
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,140,2
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),10,k
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),10,k
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Private provision,5890,91
+2020,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,430,7
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,All children,840,100
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,Other LA provision,10,2
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,Other public provision (eg by PCT),280,33
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,Own provision (by the LA),0,0
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,Private provision,490,58
+2020,Reporting year,National,E92000001,England,3d. Other residential settings,Voluntary/third sector provision,60,7
+2020,Reporting year,National,E92000001,England,3e. Residential schools,All children,70,100
+2020,Reporting year,National,E92000001,England,3e. Residential schools,Other LA provision,10,11
+2020,Reporting year,National,E92000001,England,3e. Residential schools,Other public provision (eg by PCT),0,0
+2020,Reporting year,National,E92000001,England,3e. Residential schools,Own provision (by the LA),0,0
+2020,Reporting year,National,E92000001,England,3e. Residential schools,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,3e. Residential schools,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,3e. Residential schools,Private provision,50,70
+2020,Reporting year,National,E92000001,England,3e. Residential schools,Voluntary/third sector provision,10,19
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,All children,970,100
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,Other LA provision,z,z
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,Other public provision (eg by PCT),z,z
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,Own provision (by the LA),z,z
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,Parents or other person with parental responsibility,970,100
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,Private provision,z,z
+2020,Reporting year,National,E92000001,England,3f. Placement with parents,Voluntary/third sector provision,z,z
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,All children,1650,100
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,Other LA provision,470,29
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,Other public provision (eg by PCT),0,0
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,Own provision (by the LA),730,44
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,Placement provider not reported,z,z
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,Private provision,10,1
+2020,Reporting year,National,E92000001,England,3g. Placed for adoption,Voluntary/third sector provision,430,26
+2020,Reporting year,National,E92000001,England,4. Other placement,All children,500,100
+2020,Reporting year,National,E92000001,England,4. Other placement,Other LA provision,z,z
+2020,Reporting year,National,E92000001,England,4. Other placement,Other public provision (eg by PCT),z,z
+2020,Reporting year,National,E92000001,England,4. Other placement,Own provision (by the LA),z,z
+2020,Reporting year,National,E92000001,England,4. Other placement,Parents or other person with parental responsibility,z,z
+2020,Reporting year,National,E92000001,England,4. Other placement,Placement provider not reported,500,100
+2020,Reporting year,National,E92000001,England,4. Other placement,Private provision,z,z
+2020,Reporting year,National,E92000001,England,4. Other placement,Voluntary/third sector provision,z,z
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,All children,78140,100
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other LA provision,960,1
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other public provision (eg by PCT),500,1
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Own provision (by the LA),38700,50
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Parents or other person with parental responsibility,5320,7
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Placement provider not reported,400,1
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Private provision,27390,35
+2019,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Voluntary/third sector provision,4880,6
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,All children,45460,100
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other LA provision,120,k
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other public provision (eg by PCT),140,k
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Own provision (by the LA),28970,64
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Parents or other person with parental responsibility,4450,10
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Private provision,9660,21
+2019,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Voluntary/third sector provision,2130,5
+2019,Reporting year,National,E92000001,England,2a. Foster placements,All children,34020,100
+2019,Reporting year,National,E92000001,England,2a. Foster placements,Other LA provision,30,k
+2019,Reporting year,National,E92000001,England,2a. Foster placements,Other public provision (eg by PCT),0,0
+2019,Reporting year,National,E92000001,England,2a. Foster placements,Own provision (by the LA),26630,78
+2019,Reporting year,National,E92000001,England,2a. Foster placements,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,2a. Foster placements,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,2a. Foster placements,Private provision,5880,17
+2019,Reporting year,National,E92000001,England,2a. Foster placements,Voluntary/third sector provision,1490,4
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,All children,1930,100
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,Other LA provision,30,2
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,Other public provision (eg by PCT),30,1
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,Own provision (by the LA),300,16
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,Private provision,1440,75
+2019,Reporting year,National,E92000001,England,2b. Other placement in the community,Voluntary/third sector provision,130,7
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",All children,4140,100
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,20,k
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),60,1
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),1350,33
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Private provision,2270,55
+2019,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,440,11
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,All children,170,100
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,Other LA provision,c,c
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,Other public provision (eg by PCT),60,36
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,Own provision (by the LA),20,13
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,Private provision,70,42
+2019,Reporting year,National,E92000001,England,2d. Other residential settings,Voluntary/third sector provision,10,7
+2019,Reporting year,National,E92000001,England,2e. Residential schools,All children,30,100
+2019,Reporting year,National,E92000001,England,2e. Residential schools,Other LA provision,0,0
+2019,Reporting year,National,E92000001,England,2e. Residential schools,Other public provision (eg by PCT),0,0
+2019,Reporting year,National,E92000001,England,2e. Residential schools,Own provision (by the LA),10,32
+2019,Reporting year,National,E92000001,England,2e. Residential schools,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,2e. Residential schools,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,2e. Residential schools,Private provision,10,35
+2019,Reporting year,National,E92000001,England,2e. Residential schools,Voluntary/third sector provision,10,32
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,All children,4450,100
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,Other LA provision,z,z
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,Other public provision (eg by PCT),z,z
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,Own provision (by the LA),z,z
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,Parents or other person with parental responsibility,4450,100
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,Private provision,z,z
+2019,Reporting year,National,E92000001,England,2f. Placement with parents,Voluntary/third sector provision,z,z
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,All children,730,100
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,Other LA provision,40,5
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,Other public provision (eg by PCT),0,0
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,Own provision (by the LA),650,89
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,Private provision,0,0
+2019,Reporting year,National,E92000001,England,2g. Placed for adoption,Voluntary/third sector provision,40,6
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,All children,32280,100
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other LA provision,840,3
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other public provision (eg by PCT),350,1
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Own provision (by the LA),9740,30
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Parents or other person with parental responsibility,870,3
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Private provision,17730,55
+2019,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Voluntary/third sector provision,2750,9
+2019,Reporting year,National,E92000001,England,3a. Foster placements,All children,21740,100
+2019,Reporting year,National,E92000001,England,3a. Foster placements,Other LA provision,180,1
+2019,Reporting year,National,E92000001,England,3a. Foster placements,Other public provision (eg by PCT),0,0
+2019,Reporting year,National,E92000001,England,3a. Foster placements,Own provision (by the LA),8930,41
+2019,Reporting year,National,E92000001,England,3a. Foster placements,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,3a. Foster placements,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,3a. Foster placements,Private provision,10970,50
+2019,Reporting year,National,E92000001,England,3a. Foster placements,Voluntary/third sector provision,1660,8
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,All children,1090,100
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,Other LA provision,30,3
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,Other public provision (eg by PCT),20,1
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,Own provision (by the LA),20,2
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,Private provision,980,89
+2019,Reporting year,National,E92000001,England,3b. Other placement in the community,Voluntary/third sector provision,40,4
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",All children,5910,100
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,140,2
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),20,k
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),10,k
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Private provision,5280,89
+2019,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,460,8
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,All children,850,100
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,Other LA provision,10,1
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,Other public provision (eg by PCT),320,37
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,Own provision (by the LA),0,0
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,Private provision,450,53
+2019,Reporting year,National,E92000001,England,3d. Other residential settings,Voluntary/third sector provision,70,8
+2019,Reporting year,National,E92000001,England,3e. Residential schools,All children,80,100
+2019,Reporting year,National,E92000001,England,3e. Residential schools,Other LA provision,10,10
+2019,Reporting year,National,E92000001,England,3e. Residential schools,Other public provision (eg by PCT),0,0
+2019,Reporting year,National,E92000001,England,3e. Residential schools,Own provision (by the LA),0,0
+2019,Reporting year,National,E92000001,England,3e. Residential schools,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,3e. Residential schools,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,3e. Residential schools,Private provision,40,56
+2019,Reporting year,National,E92000001,England,3e. Residential schools,Voluntary/third sector provision,30,34
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,All children,870,100
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,Other LA provision,z,z
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,Other public provision (eg by PCT),z,z
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,Own provision (by the LA),z,z
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,Parents or other person with parental responsibility,870,100
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,Private provision,z,z
+2019,Reporting year,National,E92000001,England,3f. Placement with parents,Voluntary/third sector provision,z,z
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,All children,1730,100
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,Other LA provision,460,27
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,Other public provision (eg by PCT),0,0
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,Own provision (by the LA),770,45
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,Placement provider not reported,z,z
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,Private provision,c,c
+2019,Reporting year,National,E92000001,England,3g. Placed for adoption,Voluntary/third sector provision,500,29
+2019,Reporting year,National,E92000001,England,4. Other placement,All children,400,100
+2019,Reporting year,National,E92000001,England,4. Other placement,Other LA provision,z,z
+2019,Reporting year,National,E92000001,England,4. Other placement,Other public provision (eg by PCT),z,z
+2019,Reporting year,National,E92000001,England,4. Other placement,Own provision (by the LA),z,z
+2019,Reporting year,National,E92000001,England,4. Other placement,Parents or other person with parental responsibility,z,z
+2019,Reporting year,National,E92000001,England,4. Other placement,Placement provider not reported,400,100
+2019,Reporting year,National,E92000001,England,4. Other placement,Private provision,z,z
+2019,Reporting year,National,E92000001,England,4. Other placement,Voluntary/third sector provision,z,z
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,All children,75360,100
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other LA provision,870,1
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Other public provision (eg by PCT),440,1
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Own provision (by the LA),39200,52
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Parents or other person with parental responsibility,4810,6
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Placement provider not reported,280,k
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Private provision,25510,34
+2018,Reporting year,National,E92000001,England,1. All children looked after at 31 March,Voluntary/third sector provision,4250,6
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,All children,44250,100
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other LA provision,100,k
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Other public provision (eg by PCT),110,k
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Own provision (by the LA),29450,67
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Parents or other person with parental responsibility,3980,9
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Private provision,8990,20
+2018,Reporting year,National,E92000001,England,2. All children placed inside council boundary,Voluntary/third sector provision,1630,4
+2018,Reporting year,National,E92000001,England,2a. Foster placements,All children,33800,100
+2018,Reporting year,National,E92000001,England,2a. Foster placements,Other LA provision,20,k
+2018,Reporting year,National,E92000001,England,2a. Foster placements,Other public provision (eg by PCT),0,0
+2018,Reporting year,National,E92000001,England,2a. Foster placements,Own provision (by the LA),27010,80
+2018,Reporting year,National,E92000001,England,2a. Foster placements,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,2a. Foster placements,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,2a. Foster placements,Private provision,5710,17
+2018,Reporting year,National,E92000001,England,2a. Foster placements,Voluntary/third sector provision,1060,3
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,All children,1830,100
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,Other LA provision,20,1
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,Other public provision (eg by PCT),30,2
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,Own provision (by the LA),350,19
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,Private provision,1300,71
+2018,Reporting year,National,E92000001,England,2b. Other placement in the community,Voluntary/third sector provision,130,7
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",All children,3650,100
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,10,k
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),40,1
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),1330,36
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Private provision,1890,52
+2018,Reporting year,National,E92000001,England,"2c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,390,11
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,All children,180,100
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,Other LA provision,c,c
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,Other public provision (eg by PCT),40,24
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,Own provision (by the LA),30,19
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,Private provision,90,52
+2018,Reporting year,National,E92000001,England,2d. Other residential settings,Voluntary/third sector provision,10,4
+2018,Reporting year,National,E92000001,England,2e. Residential schools,All children,30,100
+2018,Reporting year,National,E92000001,England,2e. Residential schools,Other LA provision,0,0
+2018,Reporting year,National,E92000001,England,2e. Residential schools,Other public provision (eg by PCT),c,c
+2018,Reporting year,National,E92000001,England,2e. Residential schools,Own provision (by the LA),10,42
+2018,Reporting year,National,E92000001,England,2e. Residential schools,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,2e. Residential schools,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,2e. Residential schools,Private provision,c,c
+2018,Reporting year,National,E92000001,England,2e. Residential schools,Voluntary/third sector provision,10,35
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,All children,3980,100
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,Other LA provision,z,z
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,Other public provision (eg by PCT),z,z
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,Own provision (by the LA),z,z
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,Parents or other person with parental responsibility,3980,100
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,Private provision,z,z
+2018,Reporting year,National,E92000001,England,2f. Placement with parents,Voluntary/third sector provision,z,z
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,All children,790,100
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,Other LA provision,40,5
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,Other public provision (eg by PCT),0,0
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,Own provision (by the LA),730,91
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,Private provision,0,0
+2018,Reporting year,National,E92000001,England,2g. Placed for adoption,Voluntary/third sector provision,30,4
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,All children,30830,100
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other LA provision,770,3
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Other public provision (eg by PCT),330,1
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Own provision (by the LA),9750,32
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Parents or other person with parental responsibility,840,3
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Private provision,16520,54
+2018,Reporting year,National,E92000001,England,3. All children placed outside council boundary,Voluntary/third sector provision,2620,9
+2018,Reporting year,National,E92000001,England,3a. Foster placements,All children,20900,100
+2018,Reporting year,National,E92000001,England,3a. Foster placements,Other LA provision,160,1
+2018,Reporting year,National,E92000001,England,3a. Foster placements,Other public provision (eg by PCT),0,0
+2018,Reporting year,National,E92000001,England,3a. Foster placements,Own provision (by the LA),8820,42
+2018,Reporting year,National,E92000001,England,3a. Foster placements,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,3a. Foster placements,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,3a. Foster placements,Private provision,10410,50
+2018,Reporting year,National,E92000001,England,3a. Foster placements,Voluntary/third sector provision,1510,7
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,All children,1080,100
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,Other LA provision,10,1
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,Other public provision (eg by PCT),10,1
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,Own provision (by the LA),90,8
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,Private provision,900,84
+2018,Reporting year,National,E92000001,England,3b. Other placement in the community,Voluntary/third sector provision,60,6
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",All children,5280,100
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other LA provision,140,3
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Other public provision (eg by PCT),10,k
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Own provision (by the LA),30,1
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Private provision,4620,88
+2018,Reporting year,National,E92000001,England,"3c. Secure units, childrens homes and semi-independent living accommodation",Voluntary/third sector provision,470,9
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,All children,930,100
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,Other LA provision,10,1
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,Other public provision (eg by PCT),320,34
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,Own provision (by the LA),10,1
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,Private provision,530,57
+2018,Reporting year,National,E92000001,England,3d. Other residential settings,Voluntary/third sector provision,70,7
+2018,Reporting year,National,E92000001,England,3e. Residential schools,All children,90,100
+2018,Reporting year,National,E92000001,England,3e. Residential schools,Other LA provision,10,10
+2018,Reporting year,National,E92000001,England,3e. Residential schools,Other public provision (eg by PCT),c,c
+2018,Reporting year,National,E92000001,England,3e. Residential schools,Own provision (by the LA),c,c
+2018,Reporting year,National,E92000001,England,3e. Residential schools,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,3e. Residential schools,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,3e. Residential schools,Private provision,50,51
+2018,Reporting year,National,E92000001,England,3e. Residential schools,Voluntary/third sector provision,30,37
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,All children,840,100
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,Other LA provision,z,z
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,Other public provision (eg by PCT),z,z
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,Own provision (by the LA),z,z
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,Parents or other person with parental responsibility,840,100
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,Private provision,z,z
+2018,Reporting year,National,E92000001,England,3f. Placement with parents,Voluntary/third sector provision,z,z
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,All children,1720,100
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,Other LA provision,450,26
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,Other public provision (eg by PCT),0,0
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,Own provision (by the LA),790,46
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,Placement provider not reported,z,z
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,Private provision,10,k
+2018,Reporting year,National,E92000001,England,3g. Placed for adoption,Voluntary/third sector provision,480,28
+2018,Reporting year,National,E92000001,England,4. Other placement,All children,280,100
+2018,Reporting year,National,E92000001,England,4. Other placement,Other LA provision,z,z
+2018,Reporting year,National,E92000001,England,4. Other placement,Other public provision (eg by PCT),z,z
+2018,Reporting year,National,E92000001,England,4. Other placement,Own provision (by the LA),z,z
+2018,Reporting year,National,E92000001,England,4. Other placement,Parents or other person with parental responsibility,z,z
+2018,Reporting year,National,E92000001,England,4. Other placement,Placement provider not reported,280,100
+2018,Reporting year,National,E92000001,England,4. Other placement,Private provision,z,z
+2018,Reporting year,National,E92000001,England,4. Other placement,Voluntary/third sector provision,z,z

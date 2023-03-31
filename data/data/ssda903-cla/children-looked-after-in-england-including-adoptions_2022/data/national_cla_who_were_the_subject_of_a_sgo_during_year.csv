@@ -1,0 +1,256 @@
+time_period,time_identifier,geographic_level,country_code,country_name,cla_group,characteristic,number,percentage
+2022,Reporting year,National,E92000001,England,Age at special guardianship order,1 to 4 years,1480,38
+2022,Reporting year,National,E92000001,England,Age at special guardianship order,10 to 15 years,870,22
+2022,Reporting year,National,E92000001,England,Age at special guardianship order,16 years and over,120,3
+2022,Reporting year,National,E92000001,England,Age at special guardianship order,5 to 9 years,980,25
+2022,Reporting year,National,E92000001,England,Age at special guardianship order,Average age (years:months),06:04,z
+2022,Reporting year,National,E92000001,England,Age at special guardianship order,Total,3870,100
+2022,Reporting year,National,E92000001,England,Age at special guardianship order,Under 1 year,430,11
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,370,10
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,340,9
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,260,7
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,1670,43
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),04:05,z
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3870,100
+2022,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,1240,32
+2022,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2870,74
+2022,Reporting year,National,E92000001,England,Category of need,N2. Child disability,20,1
+2022,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,160,4
+2022,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,230,6
+2022,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,530,14
+2022,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,20,k
+2022,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2022,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,30,1
+2022,Reporting year,National,E92000001,England,Category of need,Total,3870,100
+2022,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,1070,28
+2022,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,260,7
+2022,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,730,19
+2022,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),01:11,z
+2022,Reporting year,National,E92000001,England,Duration of final period of care,Total,3870,100
+2022,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,1810,47
+2022,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,60,1
+2022,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",150,4
+2022,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,450,12
+2022,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,30,1
+2022,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,40,1
+2022,Reporting year,National,E92000001,England,Ethnic origin,Total,3870,100
+2022,Reporting year,National,E92000001,England,Ethnic origin,White,3150,81
+2022,Reporting year,National,E92000001,England,Final legal status,Care order,3560,92
+2022,Reporting year,National,E92000001,England,Final legal status,Other,c,c
+2022,Reporting year,National,E92000001,England,Final legal status,Placement order,30,1
+2022,Reporting year,National,E92000001,England,Final legal status,Total,3870,100
+2022,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,280,7
+2022,Reporting year,National,E92000001,England,Gender,Female,1950,50
+2022,Reporting year,National,E92000001,England,Gender,Male,1930,50
+2022,Reporting year,National,E92000001,England,Gender,Total,3870,100
+2022,Reporting year,National,E92000001,England,Status of special guardianship order,Made to carer other than former foster carer,z,z
+2022,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, other than relative or friend",80,2
+2022,Reporting year,National,E92000001,England,Status of special guardianship order,Made to former foster carer,z,z
+2022,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, other than relative or friend",430,11
+2022,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, who was/are a relative or friend",2480,64
+2022,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, who was/are a relative or friend",890,23
+2022,Reporting year,National,E92000001,England,Status of special guardianship order,Total,3870,100
+2021,Reporting year,National,E92000001,England,Age at special guardianship order,1 to 4 years,1510,40
+2021,Reporting year,National,E92000001,England,Age at special guardianship order,10 to 15 years,790,21
+2021,Reporting year,National,E92000001,England,Age at special guardianship order,16 years and over,100,3
+2021,Reporting year,National,E92000001,England,Age at special guardianship order,5 to 9 years,980,26
+2021,Reporting year,National,E92000001,England,Age at special guardianship order,Average age (years:months),06:01,z
+2021,Reporting year,National,E92000001,England,Age at special guardianship order,Total,3820,100
+2021,Reporting year,National,E92000001,England,Age at special guardianship order,Under 1 year,450,12
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,380,10
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,330,9
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,280,7
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,1650,43
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),04:05,z
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3820,100
+2021,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,1180,31
+2021,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2800,73
+2021,Reporting year,National,E92000001,England,Category of need,N2. Child disability,20,k
+2021,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,170,4
+2021,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,210,5
+2021,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,560,15
+2021,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,20,1
+2021,Reporting year,National,E92000001,England,Category of need,N7. Low income,10,k
+2021,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,30,1
+2021,Reporting year,National,E92000001,England,Category of need,Total,3820,100
+2021,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,900,24
+2021,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,270,7
+2021,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,570,15
+2021,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),01:08,z
+2021,Reporting year,National,E92000001,England,Duration of final period of care,Total,3820,100
+2021,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,2080,55
+2021,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,70,2
+2021,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",140,4
+2021,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,360,9
+2021,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,30,1
+2021,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,40,1
+2021,Reporting year,National,E92000001,England,Ethnic origin,Total,3820,100
+2021,Reporting year,National,E92000001,England,Ethnic origin,White,3170,83
+2021,Reporting year,National,E92000001,England,Final legal status,Care order,3410,89
+2021,Reporting year,National,E92000001,England,Final legal status,Other,c,c
+2021,Reporting year,National,E92000001,England,Final legal status,Placement order,40,1
+2021,Reporting year,National,E92000001,England,Final legal status,Total,3820,100
+2021,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,370,10
+2021,Reporting year,National,E92000001,England,Gender,Female,1900,50
+2021,Reporting year,National,E92000001,England,Gender,Male,1920,50
+2021,Reporting year,National,E92000001,England,Gender,Total,3820,100
+2021,Reporting year,National,E92000001,England,Status of special guardianship order,Made to carer other than former foster carer,z,z
+2021,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, other than relative or friend",80,2
+2021,Reporting year,National,E92000001,England,Status of special guardianship order,Made to former foster carer,z,z
+2021,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, other than relative or friend",370,10
+2021,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, who was/are a relative or friend",2450,64
+2021,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, who was/are a relative or friend",920,24
+2021,Reporting year,National,E92000001,England,Status of special guardianship order,Total,3820,100
+2020,Reporting year,National,E92000001,England,Age at special guardianship order,1 to 4 years,1380,37
+2020,Reporting year,National,E92000001,England,Age at special guardianship order,10 to 15 years,770,21
+2020,Reporting year,National,E92000001,England,Age at special guardianship order,16 years and over,70,2
+2020,Reporting year,National,E92000001,England,Age at special guardianship order,5 to 9 years,910,24
+2020,Reporting year,National,E92000001,England,Age at special guardianship order,Average age (years:months),05:10,z
+2020,Reporting year,National,E92000001,England,Age at special guardianship order,Total,3720,100
+2020,Reporting year,National,E92000001,England,Age at special guardianship order,Under 1 year,590,16
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,370,10
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,310,8
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,270,7
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,1580,43
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),04:03,z
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3720,100
+2020,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,1190,32
+2020,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2720,73
+2020,Reporting year,National,E92000001,England,Category of need,N2. Child disability,20,k
+2020,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,160,4
+2020,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,210,6
+2020,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,540,15
+2020,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,30,1
+2020,Reporting year,National,E92000001,England,Category of need,N7. Low income,0,0
+2020,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,40,1
+2020,Reporting year,National,E92000001,England,Category of need,Total,3720,100
+2020,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,600,16
+2020,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,250,7
+2020,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,520,14
+2020,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),01:07,z
+2020,Reporting year,National,E92000001,England,Duration of final period of care,Total,3720,100
+2020,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,2350,63
+2020,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,70,2
+2020,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",160,4
+2020,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,440,12
+2020,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,40,1
+2020,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,50,1
+2020,Reporting year,National,E92000001,England,Ethnic origin,Total,3720,100
+2020,Reporting year,National,E92000001,England,Ethnic origin,White,2970,80
+2020,Reporting year,National,E92000001,England,Final legal status,Care order,3200,86
+2020,Reporting year,National,E92000001,England,Final legal status,Other,0,0
+2020,Reporting year,National,E92000001,England,Final legal status,Placement order,20,k
+2020,Reporting year,National,E92000001,England,Final legal status,Total,3720,100
+2020,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,500,13
+2020,Reporting year,National,E92000001,England,Gender,Female,1910,51
+2020,Reporting year,National,E92000001,England,Gender,Male,1810,49
+2020,Reporting year,National,E92000001,England,Gender,Total,3720,100
+2020,Reporting year,National,E92000001,England,Status of special guardianship order,Made to carer other than former foster carer,z,z
+2020,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, other than relative or friend",90,3
+2020,Reporting year,National,E92000001,England,Status of special guardianship order,Made to former foster carer,z,z
+2020,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, other than relative or friend",330,9
+2020,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, who was/are a relative or friend",2170,58
+2020,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, who was/are a relative or friend",1120,30
+2020,Reporting year,National,E92000001,England,Status of special guardianship order,Total,3720,100
+2019,Reporting year,National,E92000001,England,Age at special guardianship order,1 to 4 years,1410,37
+2019,Reporting year,National,E92000001,England,Age at special guardianship order,10 to 15 years,700,18
+2019,Reporting year,National,E92000001,England,Age at special guardianship order,16 years and over,60,2
+2019,Reporting year,National,E92000001,England,Age at special guardianship order,5 to 9 years,1040,27
+2019,Reporting year,National,E92000001,England,Age at special guardianship order,Average age (years:months),05:07,z
+2019,Reporting year,National,E92000001,England,Age at special guardianship order,Total,3870,100
+2019,Reporting year,National,E92000001,England,Age at special guardianship order,Under 1 year,670,17
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,390,10
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,330,8
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,280,7
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,1650,43
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),04:03,z
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3870,100
+2019,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,1230,32
+2019,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2840,73
+2019,Reporting year,National,E92000001,England,Category of need,N2. Child disability,30,1
+2019,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,160,4
+2019,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,230,6
+2019,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,540,14
+2019,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,30,1
+2019,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2019,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,50,1
+2019,Reporting year,National,E92000001,England,Category of need,Total,3870,100
+2019,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,530,14
+2019,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,220,6
+2019,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,420,11
+2019,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),01:04,z
+2019,Reporting year,National,E92000001,England,Duration of final period of care,Total,3870,100
+2019,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,2700,70
+2019,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,60,1
+2019,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",150,4
+2019,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,440,11
+2019,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,30,1
+2019,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,50,1
+2019,Reporting year,National,E92000001,England,Ethnic origin,Total,3870,100
+2019,Reporting year,National,E92000001,England,Ethnic origin,White,3150,81
+2019,Reporting year,National,E92000001,England,Final legal status,Care order,3290,85
+2019,Reporting year,National,E92000001,England,Final legal status,Other,c,c
+2019,Reporting year,National,E92000001,England,Final legal status,Placement order,20,1
+2019,Reporting year,National,E92000001,England,Final legal status,Total,3870,100
+2019,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,550,14
+2019,Reporting year,National,E92000001,England,Gender,Female,1920,50
+2019,Reporting year,National,E92000001,England,Gender,Male,1950,50
+2019,Reporting year,National,E92000001,England,Gender,Total,3870,100
+2019,Reporting year,National,E92000001,England,Status of special guardianship order,Made to carer other than former foster carer,z,z
+2019,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, other than relative or friend",50,1
+2019,Reporting year,National,E92000001,England,Status of special guardianship order,Made to former foster carer,z,z
+2019,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, other than relative or friend",360,9
+2019,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, who was/are a relative or friend",2270,59
+2019,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, who was/are a relative or friend",1200,31
+2019,Reporting year,National,E92000001,England,Status of special guardianship order,Total,3870,100
+2018,Reporting year,National,E92000001,England,Age at special guardianship order,1 to 4 years,1210,35
+2018,Reporting year,National,E92000001,England,Age at special guardianship order,10 to 15 years,690,20
+2018,Reporting year,National,E92000001,England,Age at special guardianship order,16 years and over,60,2
+2018,Reporting year,National,E92000001,England,Age at special guardianship order,5 to 9 years,940,27
+2018,Reporting year,National,E92000001,England,Age at special guardianship order,Average age (years:months),05:10,z
+2018,Reporting year,National,E92000001,England,Age at special guardianship order,Total,3470,100
+2018,Reporting year,National,E92000001,England,Age at special guardianship order,Under 1 year,570,16
+2018,Reporting year,National,E92000001,England,Age on starting final period of care,1 year,330,10
+2018,Reporting year,National,E92000001,England,Age on starting final period of care,2 years,280,8
+2018,Reporting year,National,E92000001,England,Age on starting final period of care,3 years,260,8
+2018,Reporting year,National,E92000001,England,Age on starting final period of care,4 years and over,1570,45
+2018,Reporting year,National,E92000001,England,Age on starting final period of care,Average age (years:months),04:06,z
+2018,Reporting year,National,E92000001,England,Age on starting final period of care,Total,3470,100
+2018,Reporting year,National,E92000001,England,Age on starting final period of care,Under 1 year,1020,30
+2018,Reporting year,National,E92000001,England,Category of need,N1. Abuse or neglect,2450,71
+2018,Reporting year,National,E92000001,England,Category of need,N2. Child disability,20,1
+2018,Reporting year,National,E92000001,England,Category of need,N3. Parental illness or disability,200,6
+2018,Reporting year,National,E92000001,England,Category of need,N4. Family in acute stress,210,6
+2018,Reporting year,National,E92000001,England,Category of need,N5. Family dysfunction,530,15
+2018,Reporting year,National,E92000001,England,Category of need,N6. Socially unacceptable behaviour,20,1
+2018,Reporting year,National,E92000001,England,Category of need,N7. Low income,c,c
+2018,Reporting year,National,E92000001,England,Category of need,N8. Absent parenting,30,1
+2018,Reporting year,National,E92000001,England,Category of need,Total,3470,100
+2018,Reporting year,National,E92000001,England,Duration of final period of care,1 to 2 years,470,13
+2018,Reporting year,National,E92000001,England,Duration of final period of care,2 to 3 years,170,5
+2018,Reporting year,National,E92000001,England,Duration of final period of care,3 years and over,360,10
+2018,Reporting year,National,E92000001,England,Duration of final period of care,Average duration (years:months),01:04,z
+2018,Reporting year,National,E92000001,England,Duration of final period of care,Total,3470,100
+2018,Reporting year,National,E92000001,England,Duration of final period of care,Under 1 year,2460,71
+2018,Reporting year,National,E92000001,England,Ethnic origin,Asian or Asian British,60,2
+2018,Reporting year,National,E92000001,England,Ethnic origin,"Black, African, Caribbean or Black British",160,4
+2018,Reporting year,National,E92000001,England,Ethnic origin,Mixed or Multiple ethnic group,370,11
+2018,Reporting year,National,E92000001,England,Ethnic origin,Other ethnic group,40,1
+2018,Reporting year,National,E92000001,England,Ethnic origin,Refused or information not yet available,40,1
+2018,Reporting year,National,E92000001,England,Ethnic origin,Total,3470,100
+2018,Reporting year,National,E92000001,England,Ethnic origin,White,2800,81
+2018,Reporting year,National,E92000001,England,Final legal status,Care order,2690,78
+2018,Reporting year,National,E92000001,England,Final legal status,Other,c,c
+2018,Reporting year,National,E92000001,England,Final legal status,Placement order,20,1
+2018,Reporting year,National,E92000001,England,Final legal status,Total,3470,100
+2018,Reporting year,National,E92000001,England,Final legal status,Voluntary agreement,750,22
+2018,Reporting year,National,E92000001,England,Gender,Female,1690,49
+2018,Reporting year,National,E92000001,England,Gender,Male,1780,51
+2018,Reporting year,National,E92000001,England,Gender,Total,3470,100
+2018,Reporting year,National,E92000001,England,Status of special guardianship order,Made to carer other than former foster carer,1600,46
+2018,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, other than relative or friend",z,z
+2018,Reporting year,National,E92000001,England,Status of special guardianship order,Made to former foster carer,1870,54
+2018,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, other than relative or friend",z,z
+2018,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to former foster carer, who was/are a relative or friend",z,z
+2018,Reporting year,National,E92000001,England,Status of special guardianship order,"Made to carer, other than former foster carer, who was/are a relative or friend",z,z
+2018,Reporting year,National,E92000001,England,Status of special guardianship order,Total,3470,100
