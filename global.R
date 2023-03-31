@@ -222,6 +222,19 @@ labels_lsoa_data_2 <- labels_lsoa_data
 
 eng_wales_checker <- labels_lsoa_data$label[4:nrow(labels_lsoa_data_univ)] %>% str_detect("England & Wales")
 
+# Saved versions of tidied data for lean version (for shinyapps.io)
+
+# write_csv(csc_data, "data/tidied_data/csc_data_2-22.csv")
+# write_rds(la_sf, "data/tidied_data/la_sf.rds")
+# write_rds(la_sf_cart, "data/tidied_data/la_sf_cart.rds")
+# write_rds(la_sf_centroids, "data/tidied_data/la_sf_centroids.rds")
+# write_rds(la_sf_centroids_cart, "data/tidied_data/la_sf_centroids_cart.rds")
+# write_rds(lsoa_data_spatial, "data/tidied_data/la_sf_centroids_cart.rds")
+# write_rds(csc_ethnicity_data, "data/tidied_data/csc_ethnicity_data.RDS")
+# write_csv(labels_lsoa_data, "data/tidied_data/lsoa_dataset_labelsv4.csv")
+
+
+
 
 # Functions ------------------------------------------------
 
