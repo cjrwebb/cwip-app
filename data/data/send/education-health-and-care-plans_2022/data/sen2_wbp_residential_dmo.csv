@@ -1,0 +1,971 @@
+time_period,time_identifier,geographic_level,country_code,country_name,region_code,region_name,old_la_code,new_la_code,la_name,MApprenEHC,MTrainEHC,MSuppIntEHC,WorkbasedEHC,Mres38week05EHC,Mres38week510EHC,Mres38week1115EHC,Mres38week1619EHC,Mres38week2025EHC,TotMres38weekEHC,Mres52week05EHC,Mres52week510EHC,Mres52week1115EHC,Mres52week1619EHC,Mres52week2025EHC,TotMres52weekEHC,Mres38week05,Mres38week510,Mres38week1115,Mres38week1619,TotMres38week,Mres52week05,Mres52week510,Mres52week1115,Mres52week1619,TotMres52week,DMO,DCO,DMODCOFunction
+2022,Calendar year,National,E92000001,England,"","","","","",1056,693,2477,4226,1,179,776,703,398,2057,2,72,543,489,134,1240,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000001,North East,"","","",66,154,153,373,0,1,6,4,3,14,0,3,27,13,0,43,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000002,North West,"","","",121,101,449,671,0,2,33,34,19,88,0,13,78,51,12,154,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,"","","",98,80,257,435,0,5,65,53,31,154,1,6,32,34,9,82,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000004,East Midlands,"","","",46,103,83,232,0,2,31,29,9,71,0,2,37,30,4,73,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000005,West Midlands,"","","",92,32,225,349,0,0,19,30,35,84,0,6,37,41,15,99,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000006,East of England,"","","",114,55,225,394,0,85,159,68,15,327,0,9,63,57,7,136,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000007,London,"","","",102,63,597,762,1,11,131,124,79,346,1,5,51,61,41,159,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000008,South East,"","","",284,67,268,619,0,33,229,247,140,649,0,14,119,118,29,280,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Regional,E92000001,England,E12000009,South West,"","","",133,38,220,391,0,40,103,114,67,324,0,14,99,84,17,214,z,z,z,z,z,z,z,z,z,z,z,z,z
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,306,E09000008,Croydon,0,9,1,10,0,1,2,4,8,15,0,0,1,3,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,307,E09000009,Ealing,7,0,23,30,1,0,1,2,0,4,1,0,1,1,1,4,z,z,z,z,z,z,z,z,z,z,N,R,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,308,E09000010,Enfield,4,0,11,15,0,0,6,4,2,12,0,0,0,0,1,1,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,203,E09000011,Greenwich,2,4,0,6,0,0,5,3,6,14,0,0,0,2,1,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,204,E09000012,Hackney,0,0,43,43,0,0,5,5,0,10,0,0,0,0,2,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,205,E09000013,Hammersmith and Fulham,0,0,14,14,0,0,3,2,2,7,0,0,3,1,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,309,E09000014,Haringey,0,0,34,34,0,0,0,7,0,7,0,0,2,0,3,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,310,E09000015,Harrow,1,0,19,20,0,0,0,1,4,5,0,0,4,3,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,311,E09000016,Havering,17,4,20,41,0,1,5,2,2,10,0,0,0,3,2,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,312,E09000017,Hillingdon,3,0,22,25,0,0,0,2,0,2,0,0,6,5,0,11,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,313,E09000018,Hounslow,6,0,16,22,0,0,5,6,0,11,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,206,E09000019,Islington,0,1,10,11,0,0,0,2,0,2,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,207,E09000020,Kensington and Chelsea,0,0,0,0,0,0,0,2,0,2,0,0,4,1,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,314,E09000021,Kingston upon Thames,3,1,21,25,0,1,7,4,2,14,0,0,2,1,2,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,208,E09000022,Lambeth,0,0,27,27,0,0,3,3,1,7,0,0,2,1,2,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,209,E09000023,Lewisham,1,0,20,21,0,0,1,1,5,7,0,0,5,1,0,6,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,315,E09000024,Merton,2,3,11,16,0,1,4,2,6,13,0,0,1,4,3,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,316,E09000025,Newham,0,8,3,11,0,0,9,3,0,12,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,317,E09000026,Redbridge,2,1,20,23,0,0,1,2,2,5,0,0,0,1,1,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,318,E09000027,Richmond upon Thames,10,2,11,23,0,1,9,8,7,25,0,0,1,4,2,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,210,E09000028,Southwark,2,0,23,25,0,1,3,3,0,7,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,319,E09000029,Sutton,5,2,1,8,0,0,3,3,0,6,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,211,E09000030,Tower Hamlets,6,2,81,89,0,1,16,7,1,25,0,1,2,1,3,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,320,E09000031,Waltham Forest,0,2,20,22,0,0,0,0,0,0,0,1,0,2,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,212,E09000032,Wandsworth,3,6,14,23,0,1,8,8,4,21,0,0,0,3,2,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,213,E09000033,Westminster,0,0,10,10,0,0,2,2,1,5,0,0,1,3,1,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,3,17,0,20,0,0,1,0,0,1,0,1,2,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,14,9,6,29,0,0,0,0,0,0,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,10,17,62,89,0,0,1,2,0,3,0,0,5,2,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,0,0,50,50,0,0,1,1,0,2,0,0,1,4,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,8,5,18,31,0,0,0,0,0,0,0,1,2,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,0,3,12,15,0,0,0,1,0,1,0,0,4,1,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,21,6,21,48,0,0,1,1,1,3,0,0,2,1,2,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,4,12,33,49,0,0,0,0,0,0,0,0,0,2,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,19,4,3,26,0,0,3,2,1,6,0,0,4,1,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,6,2,29,37,0,0,0,0,0,0,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,1,0,8,9,0,0,0,0,0,0,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,0,0,43,43,0,0,2,1,0,3,0,1,7,1,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,4,9,7,20,0,0,0,0,0,0,0,1,2,2,3,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,1,12,9,22,0,0,0,0,0,0,0,1,0,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,0,1,0,1,0,0,0,0,0,0,0,2,2,4,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,E08000016,Barnsley,10,0,34,44,0,1,2,2,0,5,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,E08000017,Doncaster,9,6,13,28,0,0,0,1,0,1,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,E08000018,Rotherham,7,33,4,44,0,0,0,0,0,0,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,E08000019,Sheffield,5,2,3,10,0,0,0,2,0,2,0,0,0,5,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,7,1,16,24,0,0,0,0,0,0,0,1,0,1,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,20,47,31,98,0,0,1,1,2,4,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,0,2,7,9,0,0,0,1,0,1,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,3,46,2,51,0,0,0,0,0,0,0,1,8,1,0,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,0,0,47,47,0,0,3,4,0,7,0,1,2,3,2,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,3,0,16,19,0,0,0,0,0,0,0,0,1,3,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,7,0,9,16,0,0,1,0,7,8,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,1,1,4,6,0,0,0,0,0,0,0,0,1,3,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,3,0,4,7,0,0,0,0,0,0,0,0,0,0,2,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,3,15,0,18,0,0,4,2,1,7,0,1,0,0,1,2,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,8,0,3,11,0,0,0,0,0,0,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,E08000032,Bradford,10,1,22,33,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,E08000033,Calderdale,1,0,10,11,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,E08000034,Kirklees,2,0,8,10,0,0,1,6,2,9,0,0,1,2,2,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,E08000035,Leeds,6,0,39,45,0,0,6,3,4,13,0,2,2,1,1,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,E08000036,Wakefield,2,24,17,43,0,0,1,2,1,4,0,1,9,1,0,11,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,24,2,2,28,0,7,27,12,2,48,0,0,6,0,1,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,3,0,4,7,0,1,13,9,1,24,0,2,21,6,1,30,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,2,3,1,6,0,0,4,1,1,6,0,1,4,1,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,31,9,67,107,0,2,3,9,8,22,0,1,11,11,2,25,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,24,16,10,50,0,0,7,6,7,20,0,3,8,4,0,15,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,22,10,63,95,0,43,54,23,0,120,0,1,15,10,0,26,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,2,0,40,42,0,1,8,3,1,13,0,0,18,16,0,34,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,3,5,41,49,0,13,37,28,25,103,0,3,19,13,3,38,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,7,27,1,35,0,0,2,4,0,6,0,4,15,10,0,29,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,117,11,16,144,0,5,47,51,14,117,0,2,14,21,1,38,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,18,1,55,74,0,0,7,12,15,34,0,0,9,11,3,23,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,6,0,8,14,0,0,3,2,1,6,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,11,0,5,16,0,0,10,14,5,29,0,1,5,11,2,19,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,28,1,28,57,0,31,39,7,0,77,0,0,11,10,0,21,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,E10000023,North Yorkshire,0,0,39,39,0,1,27,26,11,65,0,3,3,6,1,13,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,1,49,0,50,0,0,2,0,0,2,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,1,3,36,40,0,0,11,13,17,41,0,1,6,9,3,19,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,17,1,30,48,0,1,10,14,10,35,0,3,14,3,1,21,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,28,0,55,83,0,0,1,1,0,2,0,0,4,5,2,11,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,4,0,28,32,0,1,8,10,7,26,0,0,1,3,4,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,52,3,42,97,0,2,24,33,21,80,0,1,11,10,4,26,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,27,3,26,56,0,0,1,5,3,9,0,1,4,3,2,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,29,0,15,44,0,6,37,25,7,75,0,0,7,10,1,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,4,4,7,15,0,0,3,6,11,20,0,0,8,15,2,25,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,5,0,25,30,0,0,4,1,0,5,0,0,3,9,1,13,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,3,0,2,5,0,0,2,2,0,4,0,2,2,5,0,9,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,10,10,26,46,0,1,5,5,0,11,0,2,4,3,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,2,1,1,4,0,4,6,15,4,29,0,0,1,3,2,6,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,2,1,1,4,0,0,3,1,0,4,0,0,1,5,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,7,11,1,19,0,0,0,4,3,7,0,0,6,4,1,11,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,1,0,0,1,0,1,3,1,3,8,0,0,2,2,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,1,3,16,20,0,0,1,2,2,5,0,1,2,2,2,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,7,0,8,15,0,0,4,6,7,17,0,0,5,2,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,6,2,7,15,0,0,2,3,7,12,0,1,3,2,2,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,1,1,0,2,0,0,1,2,2,5,0,0,1,3,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,12,9,7,28,0,1,7,3,0,11,0,0,5,5,0,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,5,0,15,20,0,0,3,3,0,6,0,0,5,4,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,2,0,22,24,0,0,0,6,0,6,0,0,7,0,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,2,0,16,18,0,0,5,6,1,12,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,201,E09000001,City of London,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,301,E09000002,Barking and Dagenham,9,0,16,25,0,0,3,5,1,9,0,1,1,1,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,302,E09000003,Barnet,1,10,24,35,0,2,4,11,7,24,0,2,1,2,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,303,E09000004,Bexley,13,3,12,28,0,0,5,7,3,15,0,0,2,2,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,304,E09000005,Brent,0,2,29,31,0,1,0,3,1,5,0,0,0,4,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,305,E09000006,Bromley,1,3,23,27,0,0,19,8,13,40,0,0,4,7,8,19,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000007,London,202,E09000007,Camden,4,0,18,22,0,0,2,2,1,5,0,0,2,1,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,2,1,13,16,0,0,1,0,0,1,0,1,3,0,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,4,9,28,41,0,0,1,0,0,1,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,7,5,0,12,0,0,1,0,0,1,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,6,0,17,23,0,0,0,0,0,0,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,1,0,8,9,0,0,1,1,0,2,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,0,0,12,12,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,4,0,20,24,0,0,1,1,1,3,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,0,0,8,8,0,0,0,0,0,0,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,1,0,6,7,0,0,0,0,0,0,0,2,0,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,E06000010,"Kingston upon Hull, City of",18,5,26,49,0,0,13,1,0,14,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,E06000011,East Riding of Yorkshire,21,5,22,48,0,0,4,3,7,14,1,0,5,3,4,13,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,E06000012,North East Lincolnshire,5,3,1,9,0,3,5,1,0,9,0,0,4,8,0,12,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,E06000013,North Lincolnshire,2,1,10,13,0,0,2,2,0,4,0,0,0,2,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,E06000014,York,0,0,9,9,0,0,4,4,6,14,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,13,3,14,30,0,1,2,7,0,10,0,0,3,6,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,7,48,0,55,0,0,0,0,0,0,0,0,12,4,2,18,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,2,0,5,7,0,0,1,1,0,2,0,0,5,4,0,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,"Herefordshire, County of",3,0,2,5,0,0,3,3,4,10,0,0,3,3,1,7,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,0,0,26,26,0,0,1,3,0,4,0,0,2,0,1,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,5,3,4,12,0,0,0,0,3,3,0,1,3,1,2,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,2,0,0,2,0,1,3,5,1,10,0,0,2,6,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",2,4,34,40,0,3,2,9,3,17,0,1,19,6,2,28,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,2,1,14,17,0,1,8,8,18,35,0,0,1,2,2,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,6,11,0,17,0,7,0,5,7,19,0,1,8,9,1,19,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,12,0,5,17,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,13,1,0,14,0,0,2,1,0,3,0,0,6,0,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,5,1,7,13,0,3,12,4,2,21,0,1,4,1,2,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,6,0,26,32,0,1,10,1,0,12,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,840,E06000047,County Durham,16,42,14,72,0,1,0,1,1,3,0,0,7,2,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,4,3,22,29,0,1,3,1,0,5,0,0,0,4,2,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,0,0,21,21,0,0,0,3,0,3,0,2,9,9,1,21,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,0,6,22,28,0,0,2,6,6,14,0,2,7,3,0,12,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,24,0,7,31,0,4,5,16,5,30,0,3,3,7,4,17,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,4,0,4,8,0,9,28,19,5,61,0,2,7,14,1,24,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford,1,0,8,9,0,0,2,1,0,3,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,4,5,16,25,0,1,6,2,6,15,0,0,3,4,1,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,0,0,2,2,0,0,0,0,0,0,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,0,1,15,16,0,0,1,0,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,839,E06000058,"Bournemouth, Christchurch and Poole",13,10,12,35,0,4,9,9,5,27,0,1,3,6,1,11,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000009,South West,838,E06000059,Dorset,0,0,0,0,0,4,13,10,2,29,0,1,3,3,1,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000008,South East,825,E06000060,Buckinghamshire,10,1,14,25,0,1,31,39,20,91,0,2,14,18,9,43,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,940,E06000061,North Northamptonshire,1,0,17,18,0,0,3,0,1,4,0,0,4,0,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2022,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,941,E06000062,West Northamptonshire,3,0,32,35,0,1,6,4,1,12,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,National,E92000001,England,"","","","","",932,667,2243,3842,0,189,872,724,413,2198,0,84,572,532,107,1295,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000001,North East,"","","",35,103,242,380,0,1,9,5,2,17,0,5,32,22,2,61,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000002,North West,"","","",138,97,386,621,0,3,36,24,16,79,0,11,67,55,9,142,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,"","","",88,85,216,389,0,31,114,66,29,240,0,6,44,37,8,95,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000004,East Midlands,"","","",33,98,85,216,0,8,40,33,9,90,0,4,32,29,3,68,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000005,West Midlands,"","","",67,46,191,304,0,5,18,36,41,100,0,8,37,53,13,111,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000006,East of England,"","","",89,64,192,345,0,83,196,67,17,363,0,15,79,58,3,155,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000007,London,"","","",106,73,467,646,0,9,119,139,99,366,0,8,63,95,26,192,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000008,South East,"","","",258,87,241,586,0,20,235,233,122,610,0,17,120,117,23,277,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Regional,E92000001,England,E12000009,South West,"","","",118,14,223,355,0,29,105,121,78,333,0,10,98,66,20,194,z,z,z,z,z,z,z,z,z,z,z,z,z
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,306,E09000008,Croydon,0,12,1,13,0,1,1,10,7,19,0,0,1,5,1,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,307,E09000009,Ealing,9,1,23,33,0,0,1,2,2,5,0,2,2,0,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,308,E09000010,Enfield,4,1,10,15,0,0,4,6,3,13,0,1,2,1,1,5,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,203,E09000011,Greenwich,3,3,0,6,0,0,4,6,6,16,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,204,E09000012,Hackney,0,0,41,41,0,0,2,4,1,7,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,205,E09000013,Hammersmith and Fulham,1,0,13,14,0,0,2,3,3,8,0,0,4,5,1,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,309,E09000014,Haringey,4,0,21,25,0,0,5,3,1,9,0,0,1,4,2,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,310,E09000015,Harrow,1,0,15,16,0,0,5,3,6,14,0,0,2,2,4,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,311,E09000016,Havering,10,2,25,37,0,0,4,0,0,4,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,312,E09000017,Hillingdon,3,0,10,13,0,1,4,5,0,10,0,1,4,7,0,12,z,z,z,z,z,z,z,z,z,z,R,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,313,E09000018,Hounslow,9,2,12,23,0,1,5,8,5,19,0,1,1,6,1,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,206,E09000019,Islington,0,0,31,31,0,0,0,2,0,2,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,207,E09000020,Kensington and Chelsea,0,0,13,13,0,0,1,4,3,8,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,314,E09000021,Kingston upon Thames,5,1,10,16,0,1,5,4,4,14,0,0,2,5,1,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,208,E09000022,Lambeth,0,0,20,20,0,0,2,3,4,9,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,209,E09000023,Lewisham,0,0,20,20,0,0,0,5,7,12,0,0,5,5,1,11,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,315,E09000024,Merton,1,1,11,13,0,0,3,4,5,12,0,0,5,3,4,12,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,316,E09000025,Newham,1,6,5,12,0,0,6,2,0,8,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,317,E09000026,Redbridge,2,1,22,25,0,0,2,2,3,7,0,0,0,2,1,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,318,E09000027,Richmond upon Thames,9,1,2,12,0,1,11,12,8,32,0,0,4,1,3,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,210,E09000028,Southwark,0,1,0,1,0,1,5,3,0,9,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,319,E09000029,Sutton,4,5,1,10,0,0,4,1,6,11,0,0,2,5,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,211,E09000030,Tower Hamlets,1,10,31,42,0,0,7,8,1,16,0,0,1,5,2,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,320,E09000031,Waltham Forest,14,2,26,42,0,0,0,1,3,4,0,1,0,0,1,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,212,E09000032,Wandsworth,5,10,6,21,0,0,13,11,12,36,0,0,1,4,1,6,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,213,E09000033,Westminster,0,0,9,9,0,0,1,3,1,5,0,1,2,2,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,1,10,0,11,0,0,1,0,0,1,0,1,2,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,16,15,2,33,0,0,0,0,1,1,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,23,11,51,85,0,1,3,0,0,4,0,0,7,3,0,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,0,0,43,43,0,0,1,0,0,1,0,2,4,3,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,8,1,10,19,0,0,0,2,1,3,0,1,2,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,0,9,13,22,0,0,0,1,0,1,0,0,3,1,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,12,3,18,33,0,0,2,0,2,4,0,0,2,3,3,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,6,7,13,26,0,0,0,1,0,1,0,0,0,2,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,17,2,10,29,0,0,2,0,3,5,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,9,4,35,48,0,0,0,0,0,0,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,3,1,3,7,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,0,0,33,33,0,1,3,1,0,5,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,3,13,7,23,0,0,1,0,0,1,0,1,1,4,1,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,7,8,21,36,0,0,0,0,0,0,0,1,2,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,4,1,0,5,0,0,0,0,0,0,0,1,6,4,1,12,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,E08000016,Barnsley,31,0,16,47,0,1,2,4,0,7,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,E08000017,Doncaster,9,2,12,23,0,18,58,10,0,86,0,0,4,2,1,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,E08000018,Rotherham,3,27,8,38,0,0,0,0,0,0,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,E08000019,Sheffield,6,0,4,10,0,0,0,0,0,0,0,0,4,8,0,12,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,4,4,25,33,0,0,0,0,0,0,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,4,25,40,69,0,0,0,0,1,1,0,0,0,1,1,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,1,9,23,33,0,0,1,0,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,0,15,38,53,0,0,1,1,0,2,0,3,8,5,0,16,z,z,z,z,z,z,z,z,z,z,N,R,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,0,0,0,0,0,0,3,2,0,5,0,0,2,6,2,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,2,0,23,25,0,0,0,0,0,0,0,1,2,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,0,0,0,0,0,1,1,5,4,11,0,0,1,3,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,1,0,4,5,0,0,0,0,0,0,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,4,0,0,4,0,0,0,1,0,1,0,0,1,2,2,5,z,z,z,z,z,z,z,z,z,z,R,Y,Y
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,3,7,0,10,0,0,3,2,3,8,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,0,7,8,15,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,E08000032,Bradford,8,0,17,25,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,E08000033,Calderdale,1,0,10,11,0,0,0,0,0,0,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,E08000034,Kirklees,1,0,0,1,0,0,1,1,1,3,0,0,2,4,1,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,E08000035,Leeds,6,2,17,25,0,4,9,8,0,21,0,1,8,5,0,14,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,E08000036,Wakefield,4,19,13,36,0,0,0,3,0,3,0,1,4,1,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,19,3,2,24,0,3,18,7,0,28,0,3,10,11,0,24,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,4,0,0,4,0,0,9,8,1,18,0,1,7,6,0,14,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,2,1,1,4,0,1,4,0,1,6,0,1,5,2,1,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,32,3,59,94,0,2,5,7,17,31,0,1,17,9,2,29,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,9,15,4,28,0,0,8,5,6,19,0,2,3,5,0,10,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,22,34,59,115,0,40,84,19,0,143,0,1,24,16,0,41,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,0,0,35,35,0,2,6,0,0,8,0,0,21,10,0,31,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,2,5,47,54,0,8,40,28,21,97,0,7,17,18,3,45,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,2,20,0,22,0,4,21,13,0,38,0,5,14,4,0,23,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,88,10,12,110,0,1,19,23,23,66,0,1,9,10,4,24,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,8,2,51,61,0,0,10,6,5,21,0,0,8,13,3,24,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,6,0,17,23,0,0,10,3,0,13,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,6,3,5,14,0,3,9,11,4,27,0,1,4,11,2,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,21,0,31,52,0,30,43,6,1,80,0,3,12,11,0,26,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,2,0,38,40,0,2,8,9,2,21,0,0,5,0,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,E10000023,North Yorkshire,0,0,52,52,0,5,34,30,16,85,0,3,6,3,2,14,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,0,52,1,53,0,1,2,1,0,4,0,0,3,3,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,2,13,48,63,0,0,8,4,0,12,0,1,9,8,0,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,7,0,5,12,0,2,10,18,13,43,0,0,16,0,0,16,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,21,2,33,56,0,0,0,4,0,4,0,1,2,5,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,2,1,32,35,0,2,15,10,7,34,0,0,2,4,2,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,54,2,35,91,0,4,30,45,27,106,0,2,18,16,1,37,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,18,4,19,41,0,1,3,3,3,10,0,1,7,4,0,12,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,40,0,14,54,0,2,41,29,4,76,0,0,16,12,0,28,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,4,4,26,34,0,0,3,6,13,22,0,0,8,15,2,25,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,1,0,26,27,0,0,0,4,0,4,0,0,6,6,1,13,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,2,0,2,4,0,0,1,0,1,2,0,1,3,2,0,6,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,14,5,23,42,0,1,1,2,1,5,0,2,6,0,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,4,11,1,16,0,2,8,11,4,25,0,1,4,4,1,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,3,1,1,5,0,0,3,0,0,3,0,0,1,7,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,2,13,0,15,0,0,4,4,2,10,0,0,3,4,1,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,1,0,0,1,0,1,0,0,3,4,0,0,4,0,2,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,4,2,4,10,0,0,0,2,2,4,0,2,1,2,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,4,0,0,4,0,0,4,7,8,19,0,0,4,0,2,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,2,1,0,3,0,1,7,9,1,18,0,0,4,1,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,7,6,2,15,0,0,4,4,4,12,0,0,2,5,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,9,0,25,34,0,0,7,3,0,10,0,1,7,4,0,12,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,7,0,16,23,0,0,5,3,0,8,0,0,7,1,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,3,1,1,5,0,0,1,3,0,4,0,0,1,1,1,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,3,0,10,13,0,0,9,4,1,14,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,201,E09000001,City of London,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,301,E09000002,Barking and Dagenham,0,0,0,0,0,0,4,0,0,4,0,0,5,1,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,302,E09000003,Barnet,1,9,18,28,0,3,9,9,0,21,0,1,1,5,1,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,303,E09000004,Bexley,11,1,12,24,0,0,5,3,5,13,0,0,3,5,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,304,E09000005,Brent,0,2,31,33,0,0,0,4,0,4,0,0,1,8,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,305,E09000006,Bromley,5,2,19,26,0,0,3,2,2,7,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2021,Calendar year,Local authority,E92000001,England,E12000007,London,202,E09000007,Camden,3,0,9,12,0,0,1,5,1,7,0,0,3,5,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,0,1,21,22,0,0,1,0,0,1,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,3,11,34,48,0,0,2,2,0,4,0,2,6,3,0,11,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,2,4,0,6,0,0,1,0,0,1,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,0,0,19,19,0,0,0,0,0,0,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,1,0,10,11,0,0,2,0,0,2,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,2,0,10,12,0,0,1,0,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,10,5,12,27,0,0,0,1,1,2,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,0,0,2,2,0,0,0,0,0,0,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,0,2,4,6,0,0,1,0,0,1,0,2,1,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,E06000010,"Kingston upon Hull, City of",5,20,26,51,0,0,1,0,2,3,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,E06000011,East Riding of Yorkshire,12,2,19,33,0,1,1,3,5,10,0,0,3,6,4,13,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,E06000012,North East Lincolnshire,1,12,1,14,0,2,2,6,0,10,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,E06000013,North Lincolnshire,0,1,4,5,0,0,4,1,0,5,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,E06000014,York,1,0,17,18,0,0,2,0,5,7,0,1,4,1,0,6,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,12,3,14,29,0,1,5,8,0,14,0,0,3,6,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,4,38,0,42,0,0,0,0,0,0,0,0,6,5,0,11,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,1,0,0,1,0,0,0,0,1,1,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,0,1,9,10,0,0,2,1,1,4,0,2,5,1,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,"Herefordshire, County of",2,1,0,3,0,3,1,3,7,14,0,0,2,2,2,6,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,2,1,31,34,0,0,2,0,1,3,0,2,3,2,0,7,z,z,z,z,z,z,z,z,z,z,N,R,Y
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,9,5,23,37,0,0,0,2,2,4,0,0,2,4,3,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,1,0,0,1,0,0,7,7,0,14,0,0,0,6,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",8,1,23,32,0,2,6,1,7,16,0,1,12,10,1,24,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,0,1,17,18,0,1,12,12,13,38,0,0,1,3,2,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,9,0,29,38,0,0,3,14,9,26,0,0,8,6,4,18,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,14,0,8,22,0,0,0,0,1,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,13,3,0,16,0,2,1,0,0,3,0,2,6,0,1,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,6,0,23,29,0,1,9,4,1,15,0,0,4,4,3,11,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,0,0,14,14,0,2,2,0,1,5,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,840,E06000047,County Durham,19,31,9,59,0,1,1,2,1,5,0,0,7,5,1,13,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,5,3,22,30,0,1,1,1,0,3,0,0,1,6,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,0,0,26,26,0,0,1,3,2,6,0,1,7,7,1,16,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,1,15,24,40,0,0,2,8,8,18,0,3,4,10,1,18,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,17,1,10,28,0,4,5,16,5,30,0,3,3,7,4,17,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,R,Y
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,3,0,3,6,0,11,25,22,5,63,0,0,5,3,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford,2,0,3,5,0,1,1,1,0,3,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,4,1,0,5,0,0,10,5,6,21,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,1,0,2,3,0,0,0,0,0,0,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,0,3,21,24,0,0,0,0,0,0,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,839,E06000058,"Bournemouth, Christchurch and Poole",8,5,11,24,0,1,10,8,3,22,0,2,1,6,1,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000009,South West,838,E06000059,Dorset,0,0,0,0,0,1,6,10,4,21,0,1,4,2,2,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2021,Calendar year,Local authority,E92000001,England,E12000008,South East,825,E06000060,Buckinghamshire,14,7,21,42,0,1,37,49,16,103,0,0,8,19,7,34,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,National,E92000001,England,"","","","","",876,504,2231,3611,0,147,870,787,405,2209,0,88,577,520,125,1310,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000001,North East,"","","",48,79,208,335,0,0,7,7,5,19,0,12,46,19,2,79,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000002,North West,"","","",157,106,405,668,0,5,34,25,10,74,0,9,79,57,9,154,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,"","","",68,83,194,345,0,19,65,52,17,153,0,6,42,29,4,81,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000004,East Midlands,"","","",43,23,95,161,0,6,40,48,6,100,0,4,34,25,1,64,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000005,West Midlands,"","","",87,36,227,350,0,5,29,36,42,112,0,8,44,54,16,122,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000006,East of England,"","","",82,16,191,289,0,42,181,67,45,335,0,14,71,58,19,162,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000007,London,"","","",133,82,439,654,0,10,135,150,101,396,0,10,80,99,29,218,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000008,South East,"","","",171,65,235,471,0,28,253,303,127,711,0,19,100,124,37,280,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Regional,E92000001,England,E12000009,South West,"","","",87,14,237,338,0,32,126,99,52,309,0,6,81,55,8,150,z,z,z,z,z,z,z,z,z,z,z,z,z
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,306,E09000008,Croydon,2,11,3,16,0,1,3,7,10,21,0,0,2,4,1,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,307,E09000009,Ealing,4,4,11,19,0,0,2,2,3,7,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,308,E09000010,Enfield,3,0,22,25,0,0,4,4,5,13,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,203,E09000011,Greenwich,2,3,0,5,0,0,3,10,6,19,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,N,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,204,E09000012,Hackney,0,0,40,40,0,0,3,0,1,4,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,205,E09000013,Hammersmith and Fulham,1,0,11,12,0,0,2,4,2,8,0,0,5,6,0,11,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,309,E09000014,Haringey,3,0,17,20,0,0,3,5,1,9,0,0,0,7,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,310,E09000015,Harrow,1,1,10,12,0,0,5,3,6,14,0,0,0,2,1,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,311,E09000016,Havering,0,0,14,14,0,0,3,1,2,6,0,0,4,4,1,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,312,E09000017,Hillingdon,1,0,15,16,0,0,1,3,0,4,0,2,2,2,0,6,z,z,z,z,z,z,z,z,z,z,N,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,313,E09000018,Hounslow,10,1,17,28,0,1,11,8,3,23,0,0,3,6,2,11,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,206,E09000019,Islington,0,0,11,11,0,0,1,2,0,3,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,207,E09000020,Kensington and Chelsea,0,0,9,9,0,0,1,4,4,9,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,314,E09000021,Kingston upon Thames,10,7,14,31,0,0,8,7,6,21,0,0,4,3,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,208,E09000022,Lambeth,1,6,30,37,0,0,2,2,4,8,0,0,0,4,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,209,E09000023,Lewisham,1,0,6,7,0,0,1,5,2,8,0,1,7,2,2,12,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,315,E09000024,Merton,4,7,11,22,0,0,4,6,3,13,0,1,4,4,2,11,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,316,E09000025,Newham,7,4,7,18,0,1,4,2,1,8,0,0,4,1,0,5,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,317,E09000026,Redbridge,2,1,19,22,0,0,2,3,3,8,0,0,1,3,1,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,318,E09000027,Richmond upon Thames,21,9,5,35,0,2,15,15,11,43,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,210,E09000028,Southwark,3,1,7,11,0,0,6,3,0,9,0,0,1,0,1,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,319,E09000029,Sutton,0,6,1,7,0,0,5,2,7,14,0,0,1,4,1,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,211,E09000030,Tower Hamlets,34,1,40,75,0,0,10,7,1,18,0,0,2,5,2,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,320,E09000031,Waltham Forest,3,1,34,38,0,2,1,2,1,6,0,0,1,3,4,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,212,E09000032,Wandsworth,15,13,5,33,0,0,11,10,12,33,0,0,2,3,2,7,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,213,E09000033,Westminster,0,0,7,7,0,1,1,4,1,7,0,0,2,0,1,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,3,5,0,8,0,0,0,0,0,0,0,0,5,1,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,16,14,13,43,0,0,0,0,1,1,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,R,Y
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,17,4,18,39,0,1,4,0,0,5,0,0,6,4,0,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,0,2,40,42,0,0,1,1,0,2,0,0,2,3,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,7,4,14,25,0,0,0,3,2,5,0,1,2,0,2,5,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,0,9,23,32,0,0,0,0,0,0,0,0,5,0,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,23,8,8,39,0,0,2,0,0,2,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,11,3,14,28,0,0,0,1,0,1,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,16,2,5,23,0,1,3,1,2,7,0,0,3,1,0,4,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,6,0,26,32,0,0,0,0,1,1,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,9,2,6,17,0,0,0,0,0,0,0,1,4,6,0,11,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,0,0,39,39,0,1,2,1,0,4,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,0,11,17,28,0,0,0,0,0,0,0,0,5,2,1,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,8,11,17,36,0,0,0,0,0,0,0,1,0,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,6,1,19,26,0,0,0,0,0,0,0,1,3,1,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,E08000016,Barnsley,22,0,28,50,0,0,2,0,0,2,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,R,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,E08000017,Doncaster,0,6,9,15,0,0,0,2,0,2,0,0,5,2,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,E08000018,Rotherham,3,32,0,35,0,0,1,0,0,1,0,0,4,3,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,E08000019,Sheffield,5,5,11,21,0,0,1,0,0,1,0,1,8,4,0,13,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,7,0,20,27,0,0,0,0,0,0,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,3,11,35,49,0,0,0,1,0,1,0,0,1,0,1,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,0,6,10,16,0,0,1,0,0,1,0,1,0,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,2,10,27,39,0,0,0,1,0,1,0,6,4,5,0,15,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,1,0,41,42,0,0,4,5,1,10,0,0,3,8,2,13,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,2,0,22,24,0,0,0,0,0,0,0,1,1,1,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,2,1,0,3,0,0,0,2,2,4,0,1,1,2,2,6,z,z,z,z,z,z,z,z,z,z,Y,R,Y
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,4,0,5,9,0,0,0,0,0,0,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,5,0,1,6,0,0,0,0,0,0,0,0,1,2,2,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,1,5,0,6,0,1,2,1,2,6,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,6,1,6,13,0,0,0,0,3,3,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,E08000032,Bradford,5,3,0,8,0,0,0,0,0,0,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,E08000033,Calderdale,1,2,7,10,0,0,0,0,2,2,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,E08000034,Kirklees,2,0,1,3,0,0,3,1,0,4,0,0,1,3,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,E08000035,Leeds,8,4,21,33,0,3,5,2,0,10,0,0,1,5,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,E08000036,Wakefield,3,11,10,24,0,0,1,1,0,2,0,1,4,2,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,13,1,18,32,0,3,33,37,3,76,0,1,4,24,19,48,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,17,2,5,24,0,1,12,3,0,16,0,2,11,9,2,24,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,2,0,0,2,0,1,9,8,1,19,0,3,7,8,0,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,3,4,1,8,0,1,3,0,1,5,0,0,4,2,1,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,24,2,65,91,0,0,4,5,5,14,0,3,3,6,1,13,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,18,6,6,30,0,1,7,6,4,18,0,3,2,6,0,11,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,15,7,52,74,0,1,39,27,25,92,0,2,21,15,3,41,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,0,0,33,33,0,1,3,2,0,6,0,0,22,9,0,31,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,1,4,63,68,0,9,26,29,17,81,0,8,17,18,1,44,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,18,6,0,24,0,0,5,7,4,16,0,3,6,11,5,25,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,48,10,12,70,0,5,45,68,27,145,0,0,10,9,4,23,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,10,6,68,84,0,0,8,4,0,12,0,0,13,10,3,26,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,4,0,21,25,0,1,8,10,1,20,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,15,10,5,30,0,1,11,14,0,26,0,1,6,7,0,14,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,10,0,37,47,0,33,72,5,1,111,0,5,17,10,2,34,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,3,0,35,38,0,1,10,7,2,20,0,0,7,2,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,E10000023,North Yorkshire,0,0,44,44,0,9,32,27,6,74,0,1,8,0,1,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,1,0,25,26,0,1,1,4,0,6,0,1,3,4,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,0,13,28,41,0,2,16,19,18,55,0,0,10,6,2,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,6,0,9,15,0,5,6,16,10,37,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,23,6,22,51,0,1,1,6,2,10,0,0,2,7,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,1,0,28,29,0,3,23,9,7,42,0,1,4,3,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,17,1,23,41,0,2,44,50,24,120,0,2,11,19,1,33,z,z,z,z,z,z,z,z,z,z,R,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,21,9,56,86,0,1,6,10,6,23,0,2,8,10,3,23,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,17,0,17,34,0,4,39,21,2,66,0,2,9,8,0,19,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,2,5,9,16,0,0,5,8,16,29,0,3,14,9,3,29,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,1,1,18,20,0,0,4,1,1,6,0,0,2,3,3,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,1,0,1,2,0,0,1,0,1,2,0,0,2,0,2,4,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,17,0,10,27,0,1,7,5,0,13,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,10,12,1,23,0,0,8,9,5,22,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,5,1,6,12,0,0,3,1,0,4,0,0,3,5,1,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,2,3,3,8,0,0,1,3,3,7,0,1,3,4,1,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,1,0,0,1,0,1,0,0,3,4,0,0,2,3,2,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,0,0,6,6,0,0,1,0,0,1,0,0,1,3,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,6,0,0,6,0,1,3,11,8,23,0,0,3,3,1,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,2,2,0,4,0,0,7,20,3,30,0,1,2,2,4,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,12,8,4,24,0,0,4,8,3,15,0,0,4,4,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,8,2,18,28,0,0,8,5,0,13,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,7,0,7,14,0,0,3,5,1,9,0,1,8,2,0,11,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,2,2,8,12,0,0,0,1,0,1,0,0,7,1,1,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,2,0,15,17,0,0,5,10,6,21,0,0,0,2,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,201,E09000001,City of London,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,301,E09000002,Barking and Dagenham,0,0,7,7,0,0,4,0,0,4,0,1,5,1,2,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,302,E09000003,Barnet,3,4,13,20,0,1,5,5,0,11,0,1,6,7,2,16,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,303,E09000004,Bexley,0,0,5,5,0,0,9,8,0,17,0,3,9,5,1,18,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,304,E09000005,Brent,0,2,13,15,0,0,0,7,0,7,0,0,2,5,2,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,305,E09000006,Bromley,0,0,17,17,0,0,3,4,6,13,0,0,1,3,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2020,Calendar year,Local authority,E92000001,England,E12000007,London,202,E09000007,Camden,2,0,18,20,0,1,2,4,0,7,0,1,2,4,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,0,0,8,8,0,0,2,0,0,2,0,0,4,0,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,6,19,29,54,0,0,1,1,0,2,0,0,6,3,0,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,7,1,9,17,0,0,0,0,0,0,0,0,5,3,0,8,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,0,0,30,30,0,0,0,0,0,0,0,0,4,0,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,1,0,7,8,0,0,1,0,0,1,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,0,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,20,15,6,41,0,1,4,0,0,5,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,0,0,4,4,0,0,0,0,0,0,0,0,3,2,2,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,0,2,8,10,0,0,0,0,0,0,0,1,1,0,0,2,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,E06000010,"Kingston upon Hull, City of",2,18,21,41,0,0,1,0,2,3,0,1,1,1,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,E06000011,East Riding of Yorkshire,15,1,14,30,0,1,2,4,2,9,0,1,2,4,2,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,E06000012,North East Lincolnshire,0,0,1,1,0,4,10,8,0,22,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,E06000013,North Lincolnshire,0,1,15,16,0,1,5,0,0,6,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,N,R,Y
+2020,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,E06000014,York,2,0,12,14,0,1,2,7,5,15,0,1,1,2,1,5,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,11,9,1,21,0,1,6,11,0,18,0,0,5,4,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,5,0,0,5,0,0,0,1,0,1,0,0,3,3,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,1,0,0,1,0,0,0,0,1,1,0,1,0,1,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,0,0,7,7,0,0,1,1,1,3,0,1,4,1,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,"Herefordshire, County of",7,1,1,9,0,0,2,0,8,10,0,0,0,3,3,6,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,3,0,24,27,0,1,3,3,2,9,0,0,3,1,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,3,8,15,26,0,0,0,0,0,0,0,0,2,3,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,3,0,0,3,0,0,8,4,0,12,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",8,1,28,37,0,12,29,8,0,49,0,1,12,5,0,18,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,1,2,26,29,0,4,15,15,7,41,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,10,0,24,34,0,0,6,11,12,29,0,0,8,7,2,17,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,25,1,6,32,0,0,0,1,2,3,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,4,5,0,9,0,0,3,2,2,7,0,0,8,1,1,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,1,0,25,26,0,1,11,5,2,19,0,1,11,7,1,20,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,0,0,20,20,0,2,12,2,0,16,0,1,1,1,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,840,E06000047,County Durham,20,30,12,62,0,0,2,3,4,9,0,0,8,6,1,15,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,3,7,34,44,0,0,1,3,0,4,0,0,1,6,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,0,0,17,17,0,0,0,3,3,6,0,1,10,6,0,17,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,7,0,25,32,0,1,6,1,0,8,0,1,5,8,0,14,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,1,0,20,21,0,8,29,14,6,57,0,1,7,7,1,16,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford,0,0,9,9,0,1,2,0,1,4,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,2,0,11,13,0,0,4,8,5,17,0,0,3,2,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,0,0,19,19,0,0,0,1,1,2,0,2,4,1,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,2,2,2,6,0,0,0,0,0,0,0,3,5,1,0,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,839,E06000058,"Bournemouth, Christchurch and Poole",3,3,1,7,0,0,2,6,2,10,0,0,0,1,1,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2020,Calendar year,Local authority,E92000001,England,E12000009,South West,838,E06000059,Dorset,0,0,0,0,0,1,9,9,4,23,0,0,4,4,1,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,National,E92000001,England,"","","","","",708,584,1646,2938,2,174,976,900,417,2469,0,110,610,519,88,1327,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000001,North East,"","","",52,65,180,297,0,0,8,9,8,25,0,9,49,21,9,88,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000002,North West,"","","",115,114,296,525,0,10,58,40,26,134,0,20,72,67,9,168,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,"","","",39,69,113,221,1,11,42,38,21,113,0,5,47,41,2,95,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000004,East Midlands,"","","",42,48,74,164,0,4,43,49,13,109,0,3,29,23,2,57,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000005,West Midlands,"","","",54,29,164,247,0,27,105,91,62,285,0,16,65,58,8,147,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000006,East of England,"","","",89,114,137,340,0,56,178,53,19,306,0,17,73,48,7,145,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000007,London,"","","",60,68,301,429,0,9,161,180,81,431,0,10,74,88,19,191,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000008,South East,"","","",165,55,169,389,0,29,273,292,125,719,0,21,124,103,18,266,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Regional,E92000001,England,E12000009,South West,"","","",92,22,212,326,1,28,108,148,62,347,0,9,77,70,14,170,z,z,z,z,z,z,z,z,z,z,z,z,z
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,306,E09000008,Croydon,2,9,6,17,0,1,5,7,12,25,0,0,5,4,1,10,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,307,E09000009,Ealing,2,2,21,25,0,0,2,4,3,9,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,308,E09000010,Enfield,3,0,22,25,0,0,3,5,3,11,0,1,1,5,1,8,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,203,E09000011,Greenwich,7,1,0,8,0,1,5,9,3,18,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,204,E09000012,Hackney,1,2,20,23,0,0,7,3,2,12,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,205,E09000013,Hammersmith and Fulham,0,0,11,11,0,0,0,2,2,4,0,0,1,6,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,309,E09000014,Haringey,5,0,2,7,0,0,4,4,0,8,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,310,E09000015,Harrow,1,2,9,12,0,0,6,7,1,14,0,1,3,3,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,311,E09000016,Havering,2,0,8,10,0,0,4,3,3,10,0,0,2,1,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,312,E09000017,Hillingdon,1,0,19,20,0,0,3,1,0,4,0,1,1,1,0,3,z,z,z,z,z,z,z,z,z,z,N,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,313,E09000018,Hounslow,2,0,0,2,0,1,12,4,0,17,0,0,5,7,5,17,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,206,E09000019,Islington,0,1,6,7,0,0,1,4,0,5,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,207,E09000020,Kensington and Chelsea,0,0,2,2,0,0,1,4,4,9,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,314,E09000021,Kingston upon Thames,0,1,2,3,0,0,10,7,3,20,0,0,1,3,1,5,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,208,E09000022,Lambeth,0,2,12,14,0,0,1,6,3,10,0,0,0,4,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,209,E09000023,Lewisham,0,0,10,10,0,0,2,7,2,11,0,2,4,2,1,9,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,315,E09000024,Merton,1,5,5,11,0,0,4,9,4,17,0,1,2,4,3,10,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,316,E09000025,Newham,2,12,52,66,0,2,4,2,0,8,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,317,E09000026,Redbridge,1,1,8,10,0,0,1,9,3,13,0,0,2,3,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,318,E09000027,Richmond upon Thames,8,1,2,11,0,2,18,22,8,50,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,210,E09000028,Southwark,1,2,1,4,0,1,6,1,0,8,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,319,E09000029,Sutton,1,3,0,4,0,0,5,3,9,17,0,0,1,5,1,7,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,211,E09000030,Tower Hamlets,1,1,30,32,0,0,13,6,0,19,0,0,5,3,0,8,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,320,E09000031,Waltham Forest,10,9,12,31,0,0,1,2,0,3,0,0,1,2,1,4,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,212,E09000032,Wandsworth,7,12,5,24,0,0,17,19,0,36,0,0,2,3,0,5,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,213,E09000033,Westminster,0,0,0,0,0,1,2,5,1,9,0,0,2,1,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,2,4,0,6,0,0,0,0,0,0,0,1,3,2,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,11,5,4,20,0,0,0,1,1,2,0,0,1,2,1,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,2,1,36,39,0,4,0,0,0,4,0,2,5,2,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,10,6,17,33,0,2,0,0,1,3,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,R,Y,Y
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,9,5,13,27,0,0,0,4,1,5,0,0,0,0,2,2,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,1,9,21,31,0,0,0,0,0,0,0,1,8,0,0,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,9,2,8,19,0,0,1,3,4,8,0,0,2,4,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,11,3,0,14,0,0,6,1,1,8,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,5,2,4,11,0,1,2,3,3,9,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,3,0,13,16,0,0,0,0,2,2,0,0,3,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,8,5,9,22,0,0,0,0,0,0,0,0,10,5,0,15,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,0,0,19,19,0,0,0,0,0,0,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,0,11,4,15,0,1,0,0,0,1,0,2,2,3,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,3,8,4,15,0,0,0,0,0,0,0,1,0,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,6,1,19,26,0,0,7,6,1,14,0,4,5,8,0,17,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,E08000016,Barnsley,5,0,0,5,0,0,2,1,0,3,0,0,1,2,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,E08000017,Doncaster,0,9,0,9,0,0,0,1,0,1,0,1,4,0,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,E08000018,Rotherham,2,27,0,29,0,0,2,0,0,2,0,0,5,3,0,8,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,E08000019,Sheffield,0,0,13,13,1,5,0,0,0,6,0,0,3,7,0,10,z,z,z,z,z,z,z,z,z,z,N,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,10,3,26,39,0,0,0,3,0,3,0,0,2,1,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,3,0,11,14,0,0,1,2,1,4,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,0,1,1,2,0,0,0,0,0,0,0,1,0,1,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,9,26,5,40,0,0,3,0,1,4,0,4,6,4,0,14,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,0,0,44,44,0,23,65,19,11,118,0,1,5,13,0,19,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,1,1,16,18,0,0,1,0,1,2,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,3,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,0,0,4,4,0,0,0,2,0,2,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,2,0,0,2,0,0,0,1,1,2,0,1,1,2,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,0,9,0,9,0,0,1,1,0,2,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,2,0,15,17,0,0,0,1,2,3,0,1,0,0,1,2,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,E08000032,Bradford,5,3,0,8,0,0,2,1,0,3,0,0,1,4,0,5,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,E08000033,Calderdale,2,1,25,28,0,0,0,1,5,6,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,R,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,E08000034,Kirklees,0,0,3,3,0,0,3,1,0,4,0,0,1,3,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,E08000035,Leeds,1,0,0,1,0,1,8,1,0,10,0,0,12,7,0,19,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,E08000036,Wakefield,3,14,7,24,0,0,2,0,0,2,0,1,5,5,0,11,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,3,1,1,5,0,3,38,61,13,115,0,2,9,13,2,26,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,14,1,11,26,0,1,15,2,0,18,0,3,11,7,0,21,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,1,0,18,19,0,1,17,10,0,28,0,5,10,14,0,29,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,1,1,5,7,0,0,1,2,0,3,0,1,0,1,0,2,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,14,2,77,93,0,1,3,21,5,30,0,3,13,7,2,25,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,2,1,0,3,0,2,15,10,2,29,0,0,4,2,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,21,6,16,43,0,1,11,9,4,25,0,1,5,7,1,14,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,14,0,50,64,0,4,49,15,0,68,0,3,20,11,0,34,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,0,0,38,38,0,1,4,6,1,12,0,2,17,15,0,34,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,0,2,35,37,0,16,45,37,19,117,0,5,23,13,1,42,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,11,1,0,12,0,3,15,9,0,27,0,1,7,10,1,19,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,47,3,8,58,0,0,29,43,28,100,0,0,16,6,2,24,z,z,z,z,z,z,z,z,z,z,R,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,12,0,46,58,0,1,23,6,12,42,0,4,6,8,0,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,0,0,0,0,0,2,7,9,0,18,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,13,36,9,58,0,0,6,14,2,22,0,1,3,5,1,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,24,112,24,160,0,42,55,3,3,103,0,5,18,8,0,31,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,5,0,22,27,0,1,8,8,6,23,0,0,6,4,0,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,E10000023,North Yorkshire,0,0,35,35,0,2,8,16,4,30,0,2,4,1,1,8,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,4,2,28,34,0,1,5,6,0,12,0,1,5,5,0,11,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,0,17,30,47,0,1,8,18,10,37,0,3,11,6,2,22,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,8,0,8,16,0,1,9,22,18,50,0,0,3,3,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,4,3,20,27,0,1,3,3,1,8,0,0,5,6,0,11,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,1,0,7,8,0,2,22,9,13,46,0,0,3,3,4,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,18,0,9,27,0,5,45,33,20,103,0,2,8,18,1,29,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,12,5,32,49,0,1,8,17,6,32,0,2,17,6,2,27,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,16,0,9,25,0,3,35,15,1,54,0,1,9,8,0,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,10,3,4,17,0,1,5,18,10,34,0,5,13,11,1,30,z,z,z,z,z,z,z,z,z,z,R,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,1,0,0,1,0,1,5,0,0,6,0,2,5,2,0,9,z,z,z,z,z,z,z,z,z,z,N,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,1,0,5,6,0,1,0,2,0,3,0,0,2,2,1,5,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,19,0,24,43,0,0,3,1,0,4,0,1,1,0,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,11,14,0,25,0,0,8,9,11,28,0,0,4,2,1,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,3,0,3,6,0,0,3,1,0,4,0,0,7,2,1,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,2,0,2,4,0,0,4,4,5,13,0,0,4,3,2,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,1,0,0,1,0,0,3,2,0,5,0,0,1,4,1,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,0,0,3,3,0,0,2,0,1,3,0,0,1,3,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,18,0,0,18,0,0,2,6,4,12,0,1,1,2,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,4,1,0,5,0,0,7,21,2,30,0,0,5,1,3,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,12,9,4,25,0,0,5,10,2,17,0,0,9,3,0,12,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,2,0,19,21,0,0,16,8,0,24,0,0,2,2,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,4,0,6,10,0,0,6,7,0,13,0,3,2,4,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,2,2,8,12,0,0,2,2,3,7,0,3,5,5,0,13,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,1,0,16,17,0,0,4,6,2,12,0,0,2,1,0,3,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,201,E09000001,City of London,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,301,E09000002,Barking and Dagenham,0,0,0,0,0,0,4,0,0,4,0,0,4,1,0,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,302,E09000003,Barnet,1,2,0,3,0,0,10,4,0,14,0,0,7,7,0,14,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,303,E09000004,Bexley,1,0,10,11,0,0,2,3,0,5,0,2,3,1,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,304,E09000005,Brent,0,0,10,10,0,0,0,7,0,7,0,1,2,5,1,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,305,E09000006,Bromley,0,0,0,0,0,0,5,7,13,25,0,0,3,3,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2019,Calendar year,Local authority,E92000001,England,E12000007,London,202,E09000007,Camden,0,0,16,16,0,0,3,3,2,8,0,1,5,4,0,10,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,1,2,14,17,0,0,1,0,0,1,0,1,2,1,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,3,4,34,41,0,0,1,1,0,2,0,0,8,1,0,9,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,3,0,12,15,0,0,0,0,0,0,0,0,4,3,0,7,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,0,0,22,22,0,0,0,0,0,0,0,0,8,0,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,1,0,5,6,0,0,0,0,0,0,0,0,1,0,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,14,52,5,71,0,0,0,0,0,0,0,0,6,1,0,7,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,0,0,5,5,0,0,0,0,0,0,0,0,2,3,2,7,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,E06000010,"Kingston upon Hull, City of",4,14,0,18,0,0,0,1,2,3,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,E06000011,East Riding of Yorkshire,14,1,10,25,0,0,3,6,1,10,0,1,4,4,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,E06000012,North East Lincolnshire,1,0,0,1,0,3,5,1,0,9,0,0,1,3,1,5,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,E06000013,North Lincolnshire,0,0,5,5,0,0,5,2,0,7,0,0,3,1,0,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,E06000014,York,2,0,15,17,0,0,2,6,9,17,0,0,2,0,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,13,6,1,20,0,0,12,9,2,23,0,0,3,2,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,5,2,0,7,0,0,1,1,0,2,0,0,3,2,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,0,1,0,1,0,0,1,0,1,2,0,0,0,1,0,1,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,1,0,9,10,0,0,2,0,2,4,0,0,7,2,0,9,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,"Herefordshire, County of",17,1,0,18,0,0,2,4,14,20,0,0,0,4,2,6,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,5,0,9,14,0,0,7,2,0,9,0,1,5,2,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,1,0,17,18,0,0,0,2,1,3,0,1,6,5,2,14,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,1,1,0,2,0,3,3,25,7,38,0,0,3,3,0,6,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",14,0,31,45,1,0,5,10,5,21,0,2,9,6,1,18,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,2,2,28,32,0,2,4,10,4,20,0,0,3,1,0,4,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,3,0,3,6,0,1,5,12,15,33,0,0,7,7,2,16,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,30,1,0,31,0,0,0,3,1,4,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,6,3,1,10,0,0,4,3,2,9,0,1,6,1,1,9,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,2,9,5,16,0,3,2,5,1,11,0,0,3,0,1,4,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,4,2,0,6,0,0,3,5,1,9,0,0,1,4,0,5,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,0,0,10,10,0,2,16,6,0,24,0,0,3,3,1,7,z,z,z,z,z,z,z,z,z,z,N,N,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,0,0,5,5,0,1,10,4,0,15,0,1,0,1,0,2,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,840,E06000047,County Durham,12,24,24,60,0,0,2,2,5,9,0,0,7,4,7,18,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,8,0,22,30,0,0,2,3,0,5,0,0,3,5,0,8,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,0,0,19,19,0,0,0,3,0,3,0,0,0,6,4,10,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,0,7,3,10,0,1,13,21,15,50,0,3,10,9,0,22,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,0,0,0,0,0,1,3,4,0,8,0,0,1,1,0,2,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,6,0,11,17,0,11,31,6,0,48,0,1,4,17,6,28,z,z,z,z,z,z,z,z,z,z,N,R,Y
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford,1,0,4,5,0,1,1,1,0,3,0,0,4,2,0,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,3,0,7,10,0,0,3,7,3,13,0,1,2,2,1,6,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,3,0,17,20,0,0,0,1,1,2,0,2,6,4,1,13,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2019,Calendar year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,7,5,9,21,0,0,0,0,0,0,0,1,5,1,0,7,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2018,Calendar year,National,E92000001,England,"","","","","",605,415,1186,2206,1,204,962,895,409,2471,1,92,527,458,82,1160,0,42,247,95,384,0,13,136,68,217,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000001,North East,"","","",33,46,121,200,0,0,12,6,8,26,0,7,46,21,3,77,0,0,1,0,1,0,0,2,0,2,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000002,North West,"","","",95,78,206,379,0,6,44,48,34,132,0,18,63,43,8,132,0,1,6,0,7,0,0,12,4,16,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,"","","",67,68,95,230,0,15,71,43,43,172,0,11,57,35,2,105,0,1,20,8,29,0,3,6,8,17,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000004,East Midlands,"","","",35,24,55,114,0,4,45,52,8,109,0,5,25,36,3,69,0,0,6,0,6,0,1,2,4,7,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000005,West Midlands,"","","",45,16,102,163,0,5,24,79,57,165,0,10,42,54,9,115,0,1,8,9,18,0,1,16,6,23,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000006,East of England,"","","",51,87,46,184,0,79,184,86,24,373,0,12,62,60,14,148,0,16,42,5,63,0,1,32,9,42,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000007,London,"","","",91,29,196,316,0,17,118,151,77,363,1,4,64,79,21,169,0,5,49,36,90,0,3,28,18,49,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000008,South East,"","","",131,53,147,331,1,54,372,311,101,839,0,21,99,85,18,223,0,16,88,32,136,0,3,21,12,36,z,z,z
+2018,Calendar year,Regional,E92000001,England,E12000009,South West,"","","",57,14,218,289,0,24,92,119,57,292,0,4,69,45,4,122,0,2,27,5,34,0,1,17,7,25,z,z,z
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,306,E09000008,Croydon,0,3,7,10,0,1,3,4,3,11,0,0,4,2,0,6,0,0,1,0,1,0,1,1,0,2,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,307,E09000009,Ealing,56,0,23,79,0,0,3,4,3,10,0,0,1,3,1,5,0,0,3,0,3,0,0,3,0,3,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,308,E09000010,Enfield,3,0,0,3,0,0,4,7,2,13,0,0,1,1,0,2,0,0,0,0,0,0,0,0,4,4,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,203,E09000011,Greenwich,11,8,8,27,0,2,5,4,2,13,0,0,0,3,0,3,0,0,2,0,2,0,0,0,0,0,N,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,204,E09000012,Hackney,0,0,18,18,0,0,5,4,2,11,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,Y,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,205,E09000013,Hammersmith and Fulham,0,0,0,0,0,0,0,1,2,3,0,0,2,0,1,3,0,0,1,1,2,0,0,2,1,3,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,309,E09000014,Haringey,3,0,0,3,0,0,3,2,4,9,0,0,0,1,0,1,0,0,3,2,5,0,0,1,2,3,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,310,E09000015,Harrow,0,1,8,9,0,0,2,11,6,19,0,0,2,2,1,5,0,0,0,2,2,0,0,0,1,1,Y,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,311,E09000016,Havering,4,0,6,10,0,0,1,1,4,6,0,0,1,1,0,2,0,0,0,0,0,0,0,3,0,3,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,312,E09000017,Hillingdon,4,0,0,4,0,0,0,2,0,2,0,1,1,0,1,3,0,0,0,0,0,0,0,0,0,0,Y,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,313,E09000018,Hounslow,1,0,13,14,0,0,0,2,6,8,0,1,3,5,0,9,0,0,0,0,0,0,0,8,1,9,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,206,E09000019,Islington,0,0,4,4,0,0,1,2,2,5,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,207,E09000020,Kensington and Chelsea,0,0,0,0,0,1,3,5,2,11,0,0,1,2,0,3,0,1,2,0,3,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,314,E09000021,Kingston upon Thames,0,0,0,0,0,0,9,1,0,10,0,0,0,1,0,1,0,0,3,1,4,0,0,1,1,2,Y,N,Y
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,208,E09000022,Lambeth,0,0,5,5,0,0,1,12,0,13,0,0,0,6,3,9,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,209,E09000023,Lewisham,1,0,5,6,0,0,5,10,3,18,0,0,1,1,1,3,0,0,0,1,1,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,315,E09000024,Merton,1,3,6,10,0,0,4,15,6,25,0,0,4,6,4,14,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,316,E09000025,Newham,0,0,0,0,0,1,1,1,0,3,0,1,1,1,0,3,0,0,0,0,0,0,0,0,0,0,N,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,317,E09000026,Redbridge,0,0,8,8,0,0,1,7,2,10,0,0,1,2,0,3,0,0,2,1,3,0,0,1,0,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,318,E09000027,Richmond upon Thames,1,0,1,2,0,0,14,5,0,19,0,0,0,1,0,1,0,1,15,19,35,0,0,0,2,2,N,N,Y
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,210,E09000028,Southwark,0,2,0,2,0,2,3,3,3,11,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,319,E09000029,Sutton,0,4,0,4,0,0,0,2,5,7,0,0,1,6,0,7,0,0,1,0,1,0,0,1,0,1,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,211,E09000030,Tower Hamlets,1,0,29,30,0,1,6,9,0,16,0,0,1,2,0,3,0,0,4,2,6,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,320,E09000031,Waltham Forest,1,5,20,26,0,1,2,3,0,6,0,0,1,0,1,2,0,1,0,0,1,0,0,1,1,2,Y,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,212,E09000032,Wandsworth,2,0,0,2,0,3,17,6,2,28,0,1,14,13,3,31,0,0,2,2,4,0,0,2,3,5,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,213,E09000033,Westminster,0,0,0,0,0,0,0,3,0,3,1,0,1,2,0,4,0,0,1,0,1,0,0,0,1,1,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,2,4,0,6,0,0,0,0,0,0,0,0,2,2,0,4,0,0,0,0,0,0,0,1,1,2,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,5,2,16,23,0,0,0,1,0,1,0,0,2,1,3,6,0,0,0,0,0,0,0,1,0,1,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,1,4,24,29,0,0,4,1,0,5,0,2,6,0,0,8,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,4,4,16,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,4,0,9,13,0,0,0,4,1,5,0,0,2,0,2,4,0,0,0,0,0,0,0,1,0,1,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,0,8,15,23,0,0,1,1,0,2,0,8,0,0,0,8,0,0,0,0,0,0,0,0,0,0,Y,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,28,36,9,73,0,0,0,3,0,3,0,0,2,2,0,4,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,5,1,0,6,0,0,2,2,0,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,2,0,1,3,0,0,1,3,0,4,0,1,5,2,0,8,0,1,0,0,1,0,0,0,0,0,N,N,Y
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,2,0,6,8,0,0,0,2,2,4,0,0,4,0,0,4,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,4,2,4,10,0,0,0,0,0,0,0,0,3,1,0,4,0,0,0,0,0,0,0,2,0,2,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,0,1,4,5,0,0,0,0,1,1,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,0,2,2,4,0,0,1,1,0,2,0,1,2,2,0,5,0,0,0,0,0,0,0,1,1,2,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,3,1,18,22,0,1,8,7,4,20,0,0,3,2,2,7,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,E08000016,Barnsley,5,0,16,21,0,1,3,4,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,E08000017,Doncaster,0,4,0,4,0,0,3,1,0,4,0,2,2,2,0,6,0,0,0,0,0,0,0,0,0,0,Y,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,E08000018,Rotherham,2,19,3,24,0,1,3,1,1,6,0,0,9,5,0,14,0,0,0,0,0,0,0,0,0,0,Y,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,E08000019,Sheffield,11,6,6,23,0,1,1,1,0,3,0,0,3,2,0,5,0,0,0,0,0,0,2,4,2,8,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,3,3,25,31,0,0,2,2,2,6,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,0,2,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,2,1,4,7,0,0,0,0,0,0,0,0,3,2,0,5,0,0,0,0,0,0,0,0,0,0,Y,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,0,9,0,9,0,0,3,1,0,4,0,2,5,2,0,9,0,0,0,0,0,0,0,2,0,2,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,6,0,22,28,0,1,1,11,14,27,0,1,9,19,0,29,0,0,0,0,0,0,0,3,2,5,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,2,0,19,21,0,0,1,1,0,2,0,0,1,0,0,1,0,0,0,1,1,0,0,1,0,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,Y,N,Y
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,1,0,9,10,0,0,0,6,0,6,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,3,0,0,3,0,0,0,0,0,0,0,0,5,1,0,6,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,0,9,0,9,0,0,1,2,1,4,0,0,1,1,0,2,0,0,0,0,0,0,0,0,1,1,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,2,0,15,17,0,0,1,3,3,7,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,E08000032,Bradford,5,2,14,21,0,6,30,13,16,65,0,2,4,0,0,6,0,1,10,7,18,0,0,0,2,2,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,E08000033,Calderdale,1,1,0,2,0,0,0,4,9,13,0,0,1,0,0,1,0,0,1,1,2,0,0,0,0,0,N,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,E08000034,Kirklees,0,0,0,0,0,0,1,3,0,4,0,0,2,0,0,2,0,0,4,0,4,0,0,0,1,1,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,E08000035,Leeds,6,2,1,9,0,0,5,0,0,5,0,0,4,3,0,7,0,0,1,0,1,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,E08000036,Wakefield,0,14,30,44,0,3,4,0,0,7,0,2,9,10,0,21,0,0,1,0,1,0,0,1,0,1,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,0,0,12,12,1,3,30,49,6,89,0,0,8,6,1,15,0,4,20,3,27,0,2,1,0,3,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,11,2,6,19,0,3,11,6,0,20,0,1,7,6,0,14,0,1,2,0,3,0,0,3,1,4,N,R,Y
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,1,0,9,10,0,4,22,7,0,33,0,4,17,12,0,33,0,0,2,0,2,0,0,0,1,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,4,1,4,9,0,0,1,2,0,3,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,Y,N,Y
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,9,1,51,61,0,1,3,13,12,29,0,0,10,6,1,17,0,0,0,1,1,0,0,5,0,5,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,0,0,0,0,0,1,8,16,0,25,0,0,1,3,0,4,0,0,8,0,8,0,0,3,1,4,N,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,10,5,20,35,0,0,9,9,6,24,0,0,2,6,3,11,0,0,5,0,5,0,0,1,2,3,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,5,1,0,6,0,27,35,11,10,83,0,2,14,7,3,26,0,10,17,1,28,0,1,12,3,16,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,0,3,39,42,0,1,12,7,5,25,0,1,24,9,1,35,0,0,0,0,0,0,0,1,0,1,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,1,2,9,12,0,30,129,80,21,260,0,6,16,2,1,25,0,9,37,15,61,0,1,8,5,14,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,4,0,0,4,0,14,63,32,7,116,0,1,13,19,4,37,0,0,1,0,1,0,0,0,0,0,Y,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,56,3,16,75,0,2,37,26,20,85,0,3,8,7,0,18,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,28,3,24,55,0,0,3,4,19,26,0,1,2,8,0,11,0,0,2,0,2,0,0,2,1,3,R,R,Y
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,0,0,0,0,0,1,13,10,0,24,0,0,1,2,0,3,0,0,1,0,1,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,11,7,12,30,0,1,11,21,0,33,0,1,5,11,2,19,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,23,83,0,106,0,27,32,8,0,67,0,8,11,5,0,24,0,4,18,3,25,0,0,15,4,19,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,4,0,29,33,0,2,9,12,3,26,0,0,9,10,0,19,0,0,2,0,2,0,1,1,1,3,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,E10000023,North Yorkshire,17,0,0,17,0,0,0,3,7,10,0,3,4,3,0,10,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,3,4,1,8,0,0,4,3,0,7,0,1,3,5,0,9,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,0,14,23,37,0,1,9,7,0,17,0,3,8,8,0,19,0,0,2,2,4,0,0,0,1,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,2,0,5,7,0,1,14,21,14,50,0,0,2,0,0,2,0,0,6,2,8,0,1,2,1,4,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,2,1,13,16,0,0,0,0,5,5,0,0,0,0,0,0,0,1,4,6,11,0,1,8,1,10,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,1,0,8,9,0,3,25,9,3,40,0,0,2,12,3,17,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,15,2,20,37,0,6,47,53,26,132,0,1,11,17,1,30,0,0,4,3,7,0,0,4,0,4,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,4,1,12,17,0,1,10,19,8,38,0,1,8,6,1,16,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,4,0,9,13,0,4,28,12,0,44,0,1,6,3,0,10,0,1,5,2,8,0,0,4,0,4,R,R,Y
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,8,3,3,14,0,1,2,22,12,37,0,4,5,6,0,15,0,0,1,0,1,0,0,3,1,4,R,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,1,0,0,1,0,0,2,4,2,8,0,0,3,4,1,8,0,0,0,0,0,0,0,1,1,2,N,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,0,0,9,9,0,1,0,1,0,2,0,0,2,3,0,5,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,1,1,3,5,0,0,1,2,0,3,0,0,2,2,1,5,0,0,3,0,3,0,0,1,0,1,N,R,Y
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,10,3,5,18,0,0,7,10,8,25,0,0,3,2,1,6,0,0,3,0,3,0,0,0,0,0,N,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,8,0,0,8,0,0,5,2,0,7,0,0,5,0,1,6,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,2,0,1,3,0,0,2,5,10,17,0,0,2,4,1,7,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,0,0,0,0,0,0,3,2,0,5,0,0,1,4,0,5,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,2,0,0,1,0,1,0,0,0,2,2,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,1,0,0,1,0,2,16,3,0,21,0,2,1,5,3,11,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,2,0,0,2,0,1,8,16,0,25,0,1,5,3,2,11,0,0,2,2,4,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,11,7,2,20,0,0,9,11,0,20,0,1,10,6,0,17,0,0,0,0,0,0,0,1,0,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,1,7,10,18,0,0,11,7,2,20,0,2,1,2,1,6,0,0,2,0,2,0,0,2,0,2,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,3,5,1,9,0,1,8,6,0,15,0,0,4,2,0,6,0,0,1,0,1,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,3,3,0,6,0,4,14,13,2,33,0,1,7,8,2,18,0,2,6,5,13,0,0,0,2,2,Y,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,4,2,19,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,201,E09000001,City of London,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,301,E09000002,Barking and Dagenham,0,0,1,1,0,0,3,1,0,4,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,302,E09000003,Barnet,1,3,4,8,0,5,6,2,4,17,0,0,6,7,0,13,0,2,0,0,2,0,0,1,0,1,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,303,E09000004,Bexley,1,0,8,9,0,0,1,7,2,10,0,0,3,1,1,5,0,0,1,2,3,0,1,1,1,3,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,304,E09000005,Brent,0,0,12,12,0,0,1,3,0,4,0,0,5,3,2,10,0,0,1,0,1,0,1,0,0,1,N,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,305,E09000006,Bromley,0,0,3,3,0,0,10,10,9,29,0,0,2,3,0,5,0,0,4,2,6,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000007,London,202,E09000007,Camden,0,0,7,7,0,0,4,2,3,9,0,0,5,3,1,9,0,0,2,1,3,0,0,2,0,2,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,0,0,4,4,0,0,1,0,0,1,0,1,5,0,0,6,0,0,0,0,0,0,0,0,0,0,Y,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,5,7,8,20,0,0,1,0,0,1,0,0,5,0,0,5,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,4,0,14,18,0,0,0,0,1,1,0,1,4,1,0,6,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,0,0,10,10,0,0,1,1,1,3,0,0,6,4,0,10,0,0,0,0,0,0,0,0,0,0,N,R,Y
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,0,0,3,3,0,0,0,0,0,0,0,0,4,3,0,7,0,0,0,0,0,0,0,0,0,0,N,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,0,0,6,6,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,N,N,Y
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,5,9,9,23,0,0,0,5,7,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,0,0,8,8,0,0,0,0,0,0,0,0,2,5,1,8,0,0,1,0,1,0,0,0,0,0,R,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,R,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,E06000010,"Kingston upon Hull, City of",5,17,0,22,0,0,0,0,3,3,0,2,7,4,0,13,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,E06000011,East Riding of Yorkshire,14,3,8,25,0,0,4,4,2,10,0,0,1,1,0,2,0,0,1,0,1,0,1,1,3,5,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,E06000012,North East Lincolnshire,0,0,0,0,0,2,9,1,0,12,0,0,5,3,2,10,0,0,2,0,2,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,E06000013,North Lincolnshire,0,0,10,10,0,0,6,3,0,9,0,0,3,1,0,4,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,E06000014,York,1,0,7,8,0,1,2,5,5,13,0,0,3,1,0,4,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,6,12,1,19,0,0,1,3,3,7,0,0,2,0,0,2,0,0,3,0,3,0,0,0,2,2,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,3,0,0,3,0,0,0,0,0,0,0,0,1,4,1,6,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,1,0,0,1,0,0,3,1,1,5,0,1,1,1,0,3,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,3,0,8,11,0,0,3,0,1,4,0,1,3,3,0,7,0,0,0,0,0,0,0,0,1,1,N,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,"Herefordshire, County of",1,1,3,5,0,0,2,4,11,17,0,0,3,1,1,5,0,0,0,1,1,0,0,0,1,1,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,8,1,6,15,0,1,1,7,0,9,0,2,4,3,0,9,0,0,2,0,2,0,0,1,0,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,0,0,0,0,0,0,2,1,2,5,0,2,4,3,2,11,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,1,2,0,3,0,3,6,3,0,12,0,0,4,5,0,9,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",9,0,36,45,0,0,3,19,3,25,0,0,9,10,1,20,0,0,2,1,3,0,0,0,1,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,3,0,41,44,0,2,10,8,2,22,0,0,0,0,0,0,0,1,2,1,4,0,0,0,0,0,N,N,Y
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,3,0,0,3,0,0,1,12,12,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,20,0,0,20,0,0,1,3,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,2,1,4,7,0,2,3,5,1,11,0,1,7,5,0,13,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,2,7,4,13,0,0,0,2,1,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Y,R,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,2,0,4,6,0,0,9,5,0,14,0,1,1,3,0,5,0,0,0,0,0,0,0,1,0,1,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,0,0,13,13,0,3,5,1,0,9,0,0,2,2,0,4,0,0,4,0,4,0,0,1,4,5,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,0,0,5,5,0,3,9,6,0,18,0,0,2,0,0,2,0,0,0,1,1,0,0,0,0,0,N,R,Y
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,840,E06000047,County Durham,12,21,19,52,0,0,3,2,4,9,0,2,5,1,2,10,0,0,1,0,1,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,1,0,1,2,0,0,1,3,0,4,0,0,2,1,0,3,0,0,0,0,0,0,0,4,0,4,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,0,1,20,21,0,0,1,4,0,5,0,0,7,4,0,11,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,8,0,0,8,0,1,3,3,1,8,0,0,0,10,5,15,0,0,1,1,2,0,0,0,0,0,N,Y,Y
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,N,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Y,N,N
+2018,Calendar year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,3,0,20,23,0,10,16,4,6,36,0,1,9,2,1,13,0,1,4,0,5,0,0,4,0,4,N,R,Y
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford,1,0,5,6,0,0,1,0,0,1,0,0,5,0,1,6,0,0,0,0,0,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,4,0,10,14,0,1,5,7,2,15,0,0,1,2,1,4,0,1,1,0,2,0,0,0,0,0,N,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,0,0,17,17,0,0,1,0,0,1,0,0,3,5,0,8,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2018,Calendar year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,7,3,16,26,0,0,0,0,0,0,0,1,6,1,1,9,0,0,0,0,0,0,0,0,0,0,Y,Y,N
+2017,Calendar year,National,E92000001,England,"","","","","",262,267,678,1207,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000001,North East,"","","",18,14,52,84,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000002,North West,"","","",46,49,157,252,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000003,Yorkshire and The Humber,"","","",17,47,56,120,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000004,East Midlands,"","","",13,11,46,70,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000005,West Midlands,"","","",16,41,39,96,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000006,East of England,"","","",29,50,62,141,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000007,London,"","","",22,23,94,139,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000008,South East,"","","",56,11,59,126,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Regional,E92000001,England,E12000009,South West,"","","",45,21,113,179,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,306,E09000008,Croydon,0,1,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,307,E09000009,Ealing,0,1,13,14,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,308,E09000010,Enfield,8,0,1,9,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,203,E09000011,Greenwich,0,2,4,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,204,E09000012,Hackney,4,0,8,12,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,205,E09000013,Hammersmith and Fulham,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,309,E09000014,Haringey,3,0,0,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,310,E09000015,Harrow,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,311,E09000016,Havering,2,0,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,312,E09000017,Hillingdon,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,313,E09000018,Hounslow,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,206,E09000019,Islington,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,207,E09000020,Kensington and Chelsea,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,314,E09000021,Kingston upon Thames,0,1,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,208,E09000022,Lambeth,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,209,E09000023,Lewisham,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,315,E09000024,Merton,0,2,1,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,316,E09000025,Newham,0,0,20,20,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,317,E09000026,Redbridge,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,318,E09000027,Richmond upon Thames,0,1,1,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,210,E09000028,Southwark,0,1,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,319,E09000029,Sutton,0,3,3,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,211,E09000030,Tower Hamlets,0,0,13,13,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,320,E09000031,Waltham Forest,0,0,9,9,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,212,E09000032,Wandsworth,4,6,3,13,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,213,E09000033,Westminster,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,350,E08000001,Bolton,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,351,E08000002,Bury,4,4,8,16,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,352,E08000003,Manchester,1,2,35,38,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,353,E08000004,Oldham,1,0,14,15,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,R,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,354,E08000005,Rochdale,1,0,1,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,355,E08000006,Salford,0,1,15,16,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,356,E08000007,Stockport,15,25,1,41,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,R,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,357,E08000008,Tameside,1,1,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,358,E08000009,Trafford,2,0,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,359,E08000010,Wigan,0,0,7,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,340,E08000011,Knowsley,3,4,1,8,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,341,E08000012,Liverpool,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,342,E08000013,St. Helens,2,8,0,10,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,343,E08000014,Sefton,0,2,13,15,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,344,E08000015,Wirral,z,z,9,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,370,E08000016,Barnsley,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,371,E08000017,Doncaster,1,1,9,11,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,R,Y
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,372,E08000018,Rotherham,1,3,3,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,373,E08000019,Sheffield,5,1,8,14,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,391,E08000021,Newcastle upon Tyne,6,1,18,25,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,392,E08000022,North Tyneside,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,393,E08000023,South Tyneside,1,6,8,15,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,394,E08000024,Sunderland,0,0,6,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,330,E08000025,Birmingham,0,5,0,5,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,331,E08000026,Coventry,1,0,9,10,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,332,E08000027,Dudley,0,0,1,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,333,E08000028,Sandwell,0,6,0,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,334,E08000029,Solihull,5,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,335,E08000030,Walsall,0,4,0,4,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,336,E08000031,Wolverhampton,1,0,17,18,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,380,E08000032,Bradford,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,381,E08000033,Calderdale,0,2,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,382,E08000034,Kirklees,0,1,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,383,E08000035,Leeds,4,2,1,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,384,E08000036,Wakefield,0,19,17,36,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,825,E10000002,Buckinghamshire,1,0,1,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,R,Y
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,873,E10000003,Cambridgeshire,4,0,0,4,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,909,E10000006,Cumbria,1,0,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,830,E10000007,Derbyshire,0,2,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,878,E10000008,Devon,5,1,17,23,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,835,E10000009,Dorset,1,0,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,845,E10000011,East Sussex,5,0,15,20,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,881,E10000012,Essex,2,1,0,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,916,E10000013,Gloucestershire,0,5,33,38,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,850,E10000014,Hampshire,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,919,E10000015,Hertfordshire,4,3,31,38,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,886,E10000016,Kent,5,0,0,5,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,888,E10000017,Lancashire,5,1,12,18,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,R,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,855,E10000018,Leicestershire,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,925,E10000019,Lincolnshire,6,0,25,31,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,926,E10000020,Norfolk,13,44,0,57,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,928,E10000021,Northamptonshire,2,1,14,17,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,815,E10000023,North Yorkshire,1,0,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,891,E10000024,Nottinghamshire,1,0,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,931,E10000025,Oxfordshire,4,0,23,27,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,933,E10000027,Somerset,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,860,E10000028,Staffordshire,1,0,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,935,E10000029,Suffolk,0,0,10,10,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,936,E10000030,Surrey,21,4,5,30,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,937,E10000031,Warwickshire,2,1,12,15,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,938,E10000032,West Sussex,2,0,10,12,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,885,E10000034,Worcestershire,4,4,0,8,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,821,E06000032,Luton,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,882,E06000033,Southend-on-Sea,0,0,9,9,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,883,E06000034,Thurrock,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,887,E06000035,Medway,3,1,0,4,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,R,Y
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,867,E06000036,Bracknell Forest,6,1,0,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,869,E06000037,West Berkshire,1,2,3,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,870,E06000038,Reading,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,871,E06000039,Slough,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,868,E06000040,Windsor and Maidenhead,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,872,E06000041,Wokingham,1,1,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,826,E06000042,Milton Keynes,5,0,1,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,846,E06000043,Brighton and Hove,1,0,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,851,E06000044,Portsmouth,0,0,1,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,852,E06000045,Southampton,1,2,0,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000008,South East,921,E06000046,Isle of Wight,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,201,E09000001,City of London,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,301,E09000002,Barking and Dagenham,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,302,E09000003,Barnet,1,5,8,14,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,303,E09000004,Bexley,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,304,E09000005,Brent,0,0,7,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,305,E09000006,Bromley,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000007,London,202,E09000007,Camden,0,0,3,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,805,E06000001,Hartlepool,0,0,2,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,806,E06000002,Middlesbrough,1,1,4,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,807,E06000003,Redcar and Cleveland,1,0,2,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,808,E06000004,Stockton-on-Tees,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,841,E06000005,Darlington,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,876,E06000006,Halton,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,877,E06000007,Warrington,5,1,3,9,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,R,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,889,E06000008,Blackburn with Darwen,0,0,6,6,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,R,Y
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,890,E06000009,Blackpool,0,0,10,10,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,810,E06000010,"Kingston upon Hull, City of",5,18,0,23,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,811,E06000011,East Riding of Yorkshire,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,812,E06000012,North East Lincolnshire,0,0,8,8,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,813,E06000013,North Lincolnshire,0,0,10,10,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000003,Yorkshire and The Humber,816,E06000014,York,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,831,E06000015,Derby,0,4,1,5,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,R,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,856,E06000016,Leicester,2,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,857,E06000017,Rutland,1,0,1,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000004,East Midlands,892,E06000018,Nottingham,1,1,5,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,884,E06000019,"Herefordshire, County of",0,21,0,21,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,894,E06000020,Telford and Wrekin,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,Y
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,861,E06000021,Stoke-on-Trent,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,800,E06000022,Bath and North East Somerset,2,1,4,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,801,E06000023,"Bristol, City of",7,0,16,23,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,802,E06000024,North Somerset,4,5,1,10,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,803,E06000025,South Gloucestershire,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,Y
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,879,E06000026,Plymouth,21,1,0,22,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,880,E06000027,Torbay,3,0,0,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,837,E06000028,Bournemouth,0,7,0,7,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,836,E06000029,Poole,1,1,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,866,E06000030,Swindon,0,0,14,14,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,874,E06000031,Peterborough,0,0,3,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,840,E06000047,County Durham,3,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,895,E06000049,Cheshire East,5,0,0,5,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000002,North West,896,E06000050,Cheshire West and Chester,0,0,22,22,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000005,West Midlands,893,E06000051,Shropshire,2,0,0,2,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,908,E06000052,Cornwall,0,0,5,5,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,420,E06000053,Isles of Scilly,0,0,0,0,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000009,South West,865,E06000054,Wiltshire,1,0,23,24,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,R,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,822,E06000055,Bedford,4,1,9,14,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000006,East of England,823,E06000056,Central Bedfordshire,2,1,0,3,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,N,Y,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,929,E06000057,Northumberland,0,1,0,1,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,N,N
+2017,Calendar year,Local authority,E92000001,England,E12000001,North East,390,E08000037,Gateshead,6,2,12,20,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,z,Y,Y,N

@@ -1,0 +1,228 @@
+Education, health and care plans
+2022 Reporting year
+
+Description
+
+This document describes the data included in the Education, health and care (EHC) plans National Statistics release’s underlying data files. This data is released under the terms of the Open Government License and is intended to meet at least 3 stars for Open Data. The methodology document should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+Coverage
+
+This release provides information on the EHC plan process including:
+
+- number of active EHC plans at January of the calendar year
+- number of new EHC plans in the previous calendar year
+- the administration of requests for assessments for an EHC plan
+
+The information is based on local authority level data collected via the SEN2 data collection. The underlying data files include national, regional and local authority level data
+
+File formats and conventions
+
+The dataset and outputs have not had suppression or rounding applied
+
+The following convention is used throughout the underlying data.
+
+z - Not applicable
+
+Data files
+
+01 - EHC plans - by age - January 2010 to 2022
+
+Filename: sen2_age_caseload.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2010 to 2022
+Content summary: Number of children and young people with an EHC plan, broken down by age band
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  -----------------------------------------------
+characteristic_age  |  Age group - Filter by age group
+Total_all           |  Number of statements and EHC plans combined
+Total_all_pc        |  Percentage of statements and EHC plans combined
+Total_ehc           |  Number of EHC plans
+Total_ehc_pc        |  Percentage of EHC plans
+Total_st            |  Number of statements
+Total_st_pc         |  Percentage of statements
+
+
+02 - EHC plans - by establishment type - January 2010 to 2022
+
+Filename: sen2_estab_caseload.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2010 to 2022
+Content summary: Number of children and young people with an EHC plan, broken down by establishment type
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -----------------------------------------------------------
+establishment_group  |  Establishment group - Filter by type of establishment group
+establishment_type   |  Establishment type - Filter by type of establishment
+Total_all            |  Number of statements and EHC plans combined
+Total_all_pc         |  Percentage of statements and EHC plans combined
+Total_ehc            |  Number of EHC plans
+Total_ehc_pc         |  Percentage of EHC plans
+Total_st             |  Number of statements
+Total_st_pc          |  Percentage of statements
+
+
+03 - New EHC plans - by age - 2009 to 2021
+
+Filename: sen2_age_new_plans.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2009 to 2021
+Content summary: Number of children and young people with a new EHC plan in the calendar year, broken down by age band
+
+Variable names and descriptions for this file are provided below:
+
+Variable name       |  Variable description
+------------------  |  ---------------------------------------------------
+characteristic_age  |  Age group - Filter by age group
+Total_new_all       |  Number of new statements and EHC plans combined
+Total_new_all_pc    |  Percentage of new statements and EHC plans combined
+Total_new_ehc       |  Number of new EHC plans
+Total_new_ehc_pc    |  Percentage of new EHC plans
+Total_new_st        |  Number of new statements
+Total_new_st_pc     |  Percentage of new statements
+
+
+04 - New EHC plans - by establishment type - 2009 to 2021
+
+Filename: sen2_estab_new_plans.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2009 to 2021
+Content summary: Number of children and young people with a new EHC plan in the calendar year, broken down by establishment type
+
+Variable names and descriptions for this file are provided below:
+
+Variable name        |  Variable description
+-------------------  |  -----------------------------------------------------------
+establishment_group  |  Establishment group - Filter by type of establishment group
+establishment_type   |  Establishment type - Filter by type of establishment
+Total_new_all        |  Number of new statements and EHC plans combined
+Total_new_all_pc     |  Percentage of new statements and EHC plans combined
+Total_new_ehc        |  Number of new EHC plans
+Total_new_ehc_pc     |  Percentage of new EHC plans
+Total_new_st         |  Number of new statements
+Total_new_st_pc      |  Percentage of new statements
+
+
+05 - Requests, assessments, discontinued plans, 20 week timeliness, mainstream to special transfers, mediation and tribunals
+
+Filename: sen2_mi.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2014 to 2021
+Content summary: Data on the administration of statements and EHC plans, including;
+
+- requests for assessment
+- decisions to assess
+- decisions to issue
+- 20 week timeliness
+- mediation
+- transfers between school types
+- personal budgets and direct payments
+
+Variable names and descriptions for this file are provided below:
+
+Variable name             |  Variable description
+------------------------  |  --------------------------------------------------------------------------------------------------------------------------------------------
+Assnodecision             |  Still being assessed or where assessment has been completed but no decision taken for a statement of SEN at the calendar year end
+AssnodecisionEHC          |  Still being assessed or where assessment has been completed but no decision taken for an EHC plan at the calendar year end
+Assnone                   |  Assessments where it was decided not to issue a statement of SEN
+AssnoneEHC                |  Assessments where it was decided not to issue an EHC plan
+AssnoneEHC_pc             |  Percentage of assessments during the calendar year where it was decided not to issue an EHC plan
+AssRefused                |  Initial requests for assessment for a statement of SEN that were refused
+AssRefusedEHC             |  Initial requests for assessment for an EHC plan that were refused
+AssRefusedEHC_pc          |  Percentage of initial requests for assessment for an EHC plan that were refused during the calendar year
+DirectPayEducation        |  Personal budgets in place that have direct payment for education
+DirectPayHealth           |  Personal budgets in place that have direct payment for health
+DirectPayIntegrated       |  Personal budgets in place that have direct payment for an integrated payment
+DirectPaySocialCare       |  Personal budgets in place that have direct payment for social care
+Dislea                    |  Statement of SEN discontinued as transferred to another LA
+DisleaEHC                 |  EHC plan discontinued as transferred to another LA
+Disleft                   |  Statement of SEN discontinued because pupils have left school at the end of compulsory schooling or after
+DisleftEHC                |  EHC plan discontinued because pupils have left school at the end of compulsory schooling or after
+Dismet                    |  Statement of SEN discontinued as special needs being met without an EHC plan
+DismetEHC                 |  EHC plan discontinued as special needs being met without an EHC plan
+Disoth                    |  Statement of SEN discontinued for other reasons
+DisothEHC                 |  EHC plan discontinued for other reasons
+IncExc20weekEHC           |  EHC plans including exceptions issued within 20 weeks
+IncExc20weekRate          |  Rate of EHC plans including exceptions issued within 20 weeks
+IncExc26week              |  Statements including exceptions issued within 26 weeks
+InreqEHC                  |  Initial requests for an EHC plan
+InreqryaEHC               |  Initial requests for an EHC plan when detained in youth accomodation
+MtoPar                    |  Children and young people with a statement of SEN who were taken out of school by their parents to be home educated from mainstream settings
+MtoParEHC                 |  Children and young people with an EHC plan who were taken out of school by their parents to be home educated from mainstream settings
+Mtosi                     |  Children and young people with a statement of SEN who transferred from mainstream to special settings
+MtosiEHC                  |  Children and young people with an EHC plan who transferred from mainstream to special settings
+NewallEHC                 |  Children and young people assessed for whom an EHC plan was issued
+NewallEHC_AssnoneEHC_sum  |  Children and young people assessed for whom a plan was issued and those for whom one not issued
+NewallEHC_pc              |  Percentage of children and young people assessed for whom EHC plans were made for the first time during the calendar year
+NewEHCMediation           |  Mediation cases that have been held
+NewEHCTribunal            |  Mediation cases that have been held which were followed by appeals to the Tribunal
+NewEHCTribunal_pc         |  Percentage of mediation cases held which were followed by appeals to tribunal
+NoExc20weekEHC            |  EHC plans excluding exceptions issued within 20 weeks
+NoExc20weekRate           |  Rate of EHC plans excluding exceptions issued within 20 weeks
+NoExc26week               |  Statements excluding exceptions issued within 26 weeks
+OrgArrangements           |  Personal budgets in place that have organised arrangements
+PersonalBudgets           |  Personal budgets in place for all EHC plans
+Sitom                     |  Children and young people with a statement of SEN who transferred from special to mainstream settings
+SitomEHC                  |  Children and young people with an EHC plan who transferred from special to mainstream settings
+SitoPar                   |  Children and young people with a statement of SEN who were taken out of school by their parents to be home educated from special settings
+SitoParEHC                |  Children and young people with an EHC plan who were taken out of school by their parents to be home educated from special settings
+StatementstoEHC           |  Children and young people with statements who were issued with an EHC plan
+StatementstoNoEHC         |  Children and young people with statements who were assessed for an EHC plan and a decision not to issue an EHC plan made
+TotIncExc                 |  Statements including exceptions
+TotIncExcEHC              |  EHC plans including exceptions
+TotNoExc                  |  Statements excluding exceptions
+TotNoExcEHC               |  EHC plans excluding exceptions
+
+Footnotes:
+
+1. Figures for assessments still in progress correspond to the end of the calendar year, for example, the 2021 figure corresponds to those assessments still in progress at 31st December 2021
+2. St. Helens notified the department of an error post-publication in 2022. The number of initial requests for assessment for an EHC plan that were refused was reported as zero, but should have been 107. 
+3. During part of 2020 the law on the time limit for EHC needs assessments and plans was changed to take account of the impacts of coronavirus (COVID-19).
+4. Medway notified the department of an error post-publication in 2022. Assessments in the local authority where it was decided not to issue an EHC plan during the 2021 calendar year should have been 16 (5.0%, published = 223, 42.4%).  The resulting total of children and young people assessed for whom a plan was issued and those for whom one not issued should have been 319 (published = 526) and the percentage of children and young people assessed  in the local authority for whom EHC plans were made for the first time during 2021 should have been 95.0% (published = 57.6%).
+5. Figures for Dorset include exceptions for 2021.
+
+
+06 - Work based placements, residential settings, designated medical and clinical officers - 2017 to 2022
+
+Filename: sen2_wbp_residential_dmo.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2017 to 2022
+Content summary: Number of children and young people with an EHC plan who are on work based placements in residential settings
+
+Variable names and descriptions for this file are provided below:
+
+Variable name      |  Variable description
+-----------------  |  -------------------------------------------------------------------------------------------------
+DCO                |  Designated clinical officer in place (Yes/No/Recruiting)
+DMO                |  Designated medical officer in place (Yes/No/Recruiting)
+DMODCOFunction     |  Person performing role of designated medical/clinical officer in place (Yes/No/Recruiting)
+MApprenEHC         |  Number of young people enrolled on an apprenticeship
+Mres38week05       |  Children and young people with statements - in residential settings, 38 to 51 weeks, age under 5
+Mres38week05EHC    |  Children and young people with EHC plans - in residential settings, 38 to 51 weeks, age under 5
+Mres38week1115     |  Children and young people with statements - in residential settings, 38 to 51 weeks, age 11 to 15
+Mres38week1115EHC  |  Children and young people with EHC plans - in residential settings, 38 to 51 weeks, age 11 to 15
+Mres38week1619     |  Children and young people with statements - in residential settings, 38 to 51 weeks, age 16 to 19
+Mres38week1619EHC  |  Children and young people with EHC plans - in residential settings, 38 to 51 weeks, age 16 to 19
+Mres38week2025EHC  |  Children and young people with EHC plans - in residential settings, 38 to 51 weeks, age 20 to 25
+Mres38week510      |  Children and young people with statements - in residential settings, 38 to 51 weeks, age 5 to 10
+Mres38week510EHC   |  Children and young people with EHC plans - in residential settings, 38 to 51 weeks, age 5 to 10
+Mres52week05       |  Children and young people with statements - in residential settings, 52 weeks, age under 5
+Mres52week05EHC    |  Children and young people with EHC plans - in residential settings, 52 weeks, age under 5
+Mres52week1115     |  Children and young people with statements - in residential settings, 52 weeks, age 11 to 15
+Mres52week1115EHC  |  Children and young people with EHC plans - in residential settings, 52 weeks, age 11 to 15
+Mres52week1619     |  Children and young people with statements - in residential settings, 52 weeks, age 16 to 19
+Mres52week1619EHC  |  Children and young people with EHC plans - in residential settings, 52 weeks, age 16 to 19
+Mres52week2025EHC  |  Children and young people with EHC plans - in residential settings, 52 weeks, age 20 to 25
+Mres52week510      |  Children and young people with statements - in residential settings, 52 weeks, age 5 to 10
+Mres52week510EHC   |  Children and young people with EHC plans - in residential settings, 52 weeks, age 5 to 10
+MSuppIntEHC        |  Number of young people enrolled on a supported internship
+MTrainEHC          |  Number of young people enrolled on a traineeship
+TotMres38week      |  Children and young people with statements - in residential settings, 38 to 51 weeks, Total
+TotMres38weekEHC   |  Children and young people with EHC plans - in residential settings, 38 to 51 weeks, Total
+TotMres52week      |  Children and young people with statements - in residential settings, 52 weeks, Total
+TotMres52weekEHC   |  Children and young people with EHC plans - in residential settings, 52 weeks, Total
+WorkbasedEHC       |  Number of young people enrolled on an apprenticeship, trainship or supported internship

@@ -1,5 +1,6 @@
 library(tidyverse)
 library(janitor)
+library(patchwork)
 
 # cla data
 cla2018_21 <- read_csv("data/ssda903-cla/2018-2021/data/cla_number_and_rate_per_10k_children.csv")
@@ -582,6 +583,158 @@ cin_22 <- cin_22 %>%
 cin_dat <- bind_rows(cin_dat, cin_22)
 
 
+# Add referrals 2009 - 2022
+
+# 2013 to 2022
+ref_13_22 <- read_csv("data/cin-census/2021-22/data/c1_children_in_need_referrals_and_rereferrals_2013_to_2022.csv") %>%
+  filter(geographic_level == "Local authority") %>%
+  select(time_period, old_la_code, new_la_code, la_name, 
+         referrals_n = Referrals, rereferrals_n = Re_referrals, referrals_nfa_n = No_Further_Action,
+         referrals_nin_n = Not_in_Need, children_referred_n = Referrals_child, children_rereferred_n = Re_referrals_child
+         ) %>%
+  mutate_at(vars(referrals_n:children_referred_n), as.numeric)
+
+# Referrals1213 ReferralsWithin12mths1213 ReferralsNFA1213 ReferralsIANotInNeed1213
+ref_12 <- read_csv("data/cin-census/2011-12/sfr27-2012udv3/SFR27-2012ud.csv") %>%
+  select(old_la_code = geog_c, 
+         la_name = geog_n, 
+         referrals_n = Referrals1112, 
+         rereferrals_n = ReferralsWithin12mths1112,
+         referrals_nfa_n = ReferralsNFA112,
+         referrals_nin_n = ReferralsIANotInNeed1112) %>%
+  mutate(time_period = 2012, .before = referrals_n) %>%
+  slice(-1) %>%
+  mutate_at(vars(referrals_n:referrals_nin_n), parse_number)
+
+anti_join(ref_12, old_new_la_code, by = "old_la_code")
+ref_12 <- left_join(ref_12, old_new_la_code, by = "old_la_code") %>%
+  relocate(new_la_code, .before = old_la_code)
+
+# check for mismatches and then join
+anti_join(ref_13_22, ref_12, by = "new_la_code")
+
+# referrals 2010-11
+ref_11 <- read_csv("data/cin-census/2010-11/osr26-2011ud.csv") %>%
+  select(old_la_code = geog_c, 
+         la_name = geog_n, 
+         referrals_n = Referrals1011, 
+         rereferrals_n = ReferralsWithin12mths1011) %>%
+  mutate(time_period = 2011, .before = referrals_n) %>%
+  slice(-1) %>%
+  mutate_at(vars(referrals_n:rereferrals_n), parse_number)
+
+anti_join(ref_11, old_new_la_code, by = "old_la_code")
+ref_11 <- left_join(ref_11, old_new_la_code, by = "old_la_code") %>%
+  relocate(new_la_code, .before = old_la_code)
+
+# referrals 2010
+ref_10 <- read_csv("data/cin-census/2009-10/osr28-2010udv4/osr28-2010ud.csv") %>%
+  select(old_la_code = geog_c, 
+         la_name = geog_n, 
+         referrals_n = Referrals0910) %>%
+  mutate(time_period = 2010, .before = referrals_n) %>%
+  slice(-1)
+
+anti_join(ref_10, old_new_la_code, by = "old_la_code")
+ref_10 <- left_join(ref_10, old_new_la_code, by = "old_la_code") %>%
+  relocate(new_la_code, .before = old_la_code)
+
+ref_10_22 <- bind_rows(ref_13_22, ref_12, ref_11, ref_10)
+
+
+
+
+# update Dorset, North Northamptonshire, West Northamptonshire, Bournemouth codes
+
+# Update Dorset code and merge North and West Northamptonshire
+ref_10_22 <- ref_10_22 %>%
+  mutate(
+    new_la_code = ifelse(new_la_code == "E06000059", "E10000009", new_la_code)
+  )
+
+ref_10_22 %>% filter(str_detect(la_name, "Northamptonshire")) %>% print(n=1000)
+ref_10_22 %>% filter(str_detect(la_name, "Bournemouth|Poole")) %>% print(n=1000) 
+ref_10_22 %>% filter(str_detect(la_name, "Dorset")) %>% print(n=1000)
+
+ref_10_22 <- ref_10_22 %>%
+  mutate(
+    new_la_code = case_when(new_la_code == "E06000061" ~ "E10000021",
+                            new_la_code == "E06000062" ~ "E10000021",
+                            new_la_code == "E06000028" ~ "E06000058",
+                            new_la_code == "E06000029" ~ "E06000058",
+                            TRUE ~ new_la_code),
+    la_name = case_when(new_la_code == "E10000021" ~ "Northamptonshire", 
+                        new_la_code == "E06000058" ~ "Bournemouth, Christchurch and Poole", 
+                        TRUE ~ la_name)
+  )
+
+
+
+ref_10_22 <- ref_10_22 %>%
+  mutate_at(vars(referrals_n:children_rereferred_n), as.numeric) %>%
+  group_by(new_la_code, time_period) %>%
+  summarise_at(vars(referrals_n:children_rereferred_n), sum)
+
+
+# percent of referrals re-referred, percent NFAd, percent Not in Need, 
+ref_10_22 <- ref_10_22 %>%
+  mutate(
+    pc_referrals_rereferral = (rereferrals_n / referrals_n) * 100,
+    pc_referalls_nfa = (referrals_nfa_n / referrals_n) * 100,
+    pc_referrals_nin = (referrals_nin_n / referrals_n) * 100,
+    pc_children_rereferrred = (children_rereferred_n / children_referred_n) * 100
+  ) %>%
+  ungroup()
+
+
+# Merge with cin_dat
+cin_dat
+
+anti_join(cin_dat, ref_10_22, by = c("new_la_code", "time_period"))
+
+cin_dat <- left_join(cin_dat, ref_10_22, by = c("new_la_code", "time_period"))
+
+# SEND
+
+send_10_22 <- read_csv("data/send/education-health-and-care-plans_2022/data/sen2_age_caseload.csv") %>%
+  filter(geographic_level == "Local authority" & characteristic_age == "Total") %>%
+  select(new_la_code, la_name, time_period, 
+         send_statem_n = Total_st, 
+         ehcp_n = Total_ehc,
+         sendst_or_ehcp_n = Total_all) %>% 
+  mutate_at(vars(send_statem_n:sendst_or_ehcp_n), as.numeric)
+
+anti_join(send_10_22, cin_dat, by = c("new_la_code", "time_period"))
+
+send_10_22 <- send_10_22 %>%
+  mutate(
+    new_la_code = ifelse(new_la_code == "E06000059", "E10000009", new_la_code)
+  )
+
+
+send_10_22 <- send_10_22 %>%
+  mutate(
+    new_la_code = case_when(new_la_code == "E06000061" ~ "E10000021",
+                            new_la_code == "E06000062" ~ "E10000021",
+                            new_la_code == "E06000028" ~ "E06000058",
+                            new_la_code == "E06000029" ~ "E06000058",
+                            new_la_code == "E10000002" ~ "E06000060",
+                            new_la_code == "E08000020" ~ "E08000037",
+                            new_la_code == "E06000048" ~ "E06000057",
+                            TRUE ~ new_la_code),
+    la_name = case_when(new_la_code == "E10000021" ~ "Northamptonshire", 
+                        new_la_code == "E06000058" ~ "Bournemouth, Christchurch and Poole", 
+                        TRUE ~ la_name)
+  )
+
+
+send_10_22 <- send_10_22 %>%
+  group_by(new_la_code, time_period) %>%
+  summarise_at(vars(send_statem_n:sendst_or_ehcp_n), sum) %>% ungroup()
+
+
+cin_dat <- left_join(cin_dat, send_10_22 , by = c("new_la_code", "time_period"))
+
 
 # Child population
 read_csv("data/child-population/nomis_popest.csv") %>%
@@ -800,7 +953,21 @@ cin_dat <- cin_dat %>%
             la_name = first(la_name),
             anypoint_episodes = sum(anypoint_episodes),
             started_episodes = sum(started_episodes),
-            at31_episodes = sum(at31_episodes))
+            at31_episodes = sum(at31_episodes),
+            referrals_n = sum(referrals_n),
+            rereferrals_n = sum(rereferrals_n),
+            referrals_nfa_n = sum(referrals_nfa_n),
+            referrals_nin_n = sum(referrals_nin_n),
+            children_referred_n = sum(children_referred_n),
+            children_rereferred_n = sum(children_rereferred_n),
+            pc_referrals_rereferral = (rereferrals_n / referrals_n) * 100,
+            pc_referalls_nfa = (referrals_nfa_n / referrals_n) * 100,
+            pc_referrals_nin = (referrals_nin_n / referrals_n) * 100,
+            pc_children_rereferrred = (children_rereferred_n / children_referred_n) * 100,
+            send_statem_n = sum(send_statem_n),
+            ehcp_n = sum(ehcp_n),
+            sendst_or_ehcp_n = sum(sendst_or_ehcp_n)
+            ) 
 
 
 
@@ -891,31 +1058,228 @@ new_pop_long <- new_pop_long %>%
 
 # Add population
 
-left_join(cin_dat, new_pop_long %>% select(-la_name), by = c("new_la_code", "time_period")) %>%
+popproj <- left_join(cin_dat, new_pop_long %>% select(-la_name), by = c("new_la_code", "time_period")) %>%
   ggplot() +
-  geom_line(aes(x = time_period, y = population_0_16, group = new_la_code))
+  geom_line(aes(x = time_period, y = population_0_16, group = new_la_code), size = 0.1) +
+  ggtitle("Population estimates (before rebasing)") +
+  scale_x_continuous(breaks = seq(2009, 2022, 1))
 
+
+# ADMIN-BASED POPULATION ESTIMATES
+ltla_utla_lu <- read_csv("data/ltla-utla-lookup/ltla-utla-lookup.csv")
+
+admin_pop <- readxl::read_xlsx("data/child-population/population-estimates-by-admin/apbefromdpmfeb23.xlsx", sheet = 2)
+
+admin_pop <- admin_pop %>%
+  filter(age %in% 0:16) %>%
+  group_by(ladcode21, laname_21, time) %>%
+  summarise_at(vars(mean:upper), sum)
+
+unique(admin_pop$ladcode21)
+
+# remove wales
+admin_pop <- admin_pop %>% 
+  ungroup() %>%
+  filter(str_detect(ladcode21, "E"))
+
+anti_join(admin_pop, ltla_utla_lu %>% select(-LTLA21NM, -FID),
+          by = c("ladcode21" = "LTLA21CD"))
+
+
+admin_pop <- left_join(admin_pop, ltla_utla_lu %>% select(-LTLA21NM, -FID),
+          by = c("ladcode21" = "LTLA21CD"))
+
+admin_pop <- admin_pop %>%
+  group_by(UTLA21CD, UTLA21NM, time) %>%
+  summarise(
+    population_0_16 = sum(mean),
+    population_0_16_lower = sum(lower),
+    population_0_16_upper = sum(upper)
+  )
+
+admin_pop <- admin_pop %>% ungroup()
+
+pop_from_admin <-admin_pop %>%
+  ggplot() +
+  geom_line(aes(x = time, y = population_0_16, group = UTLA21CD), size = 0.1) +
+  ggtitle("Population from admin data") +
+  scale_x_continuous(breaks = seq(2011, 2022, 1))
+
+
+popproj + pop_from_admin
+
+# update names to be consistent for joining
+
+admin_pop <- admin_pop %>%
+  rename(
+    new_la_code = UTLA21CD,
+    la_name = UTLA21NM,
+    time_period = time
+  )
+
+# Add 2010 ye from population projection estimates
+
+new_pop_long_2010 <- new_pop_long %>%
+  filter(time_period == 2010)
+
+new_pop_long_2010 <- new_pop_long_2010 %>%
+  filter(str_detect(new_la_code, "E"))
+
+admin_pop <- bind_rows(admin_pop, new_pop_long_2010)
+
+
+# Check for any mergers and add to existing dataset
+anti_join(cin_dat, admin_pop %>% select(-la_name), by = c("new_la_code", "time_period")) %>% print(n=100)
+
+# Update Dorset code and merge North and West Northamptonshire
+admin_pop <- admin_pop %>%
+  mutate(
+    new_la_code = ifelse(new_la_code == "E06000059", "E10000009", new_la_code)
+  )
+
+admin_pop %>% filter(str_detect(la_name, "Northamptonshire")) %>% print(n=1000)
+
+admin_pop <- admin_pop %>%
+  mutate(
+    new_la_code = case_when(new_la_code == "E06000061" ~ "E10000021",
+                            new_la_code == "E06000062" ~ "E10000021",
+                            TRUE ~ new_la_code),
+    la_name = ifelse(new_la_code == "E10000021", "Northamptonshire", la_name)
+  )
+
+admin_pop <- admin_pop %>%
+  group_by(new_la_code, la_name, time_period) %>%
+  summarise_at(vars(population_0_16:population_0_16_upper), sum)
+
+# Get admin estimates population 5-16 as well (for SEND statistics)
+
+admin_pop_5_16 <- readxl::read_xlsx("data/child-population/population-estimates-by-admin/apbefromdpmfeb23.xlsx", sheet = 2)
+
+admin_pop_5_16 <- admin_pop_5_16 %>%
+  filter(age %in% 5:16) %>%
+  group_by(ladcode21, laname_21, time) %>%
+  summarise_at(vars(mean:upper), sum)
+
+admin_pop_5_16 <- admin_pop_5_16 %>% 
+  ungroup() %>%
+  filter(str_detect(ladcode21, "E"))
+
+admin_pop_5_16 <- left_join(admin_pop_5_16, ltla_utla_lu %>% select(-LTLA21NM, -FID),
+                       by = c("ladcode21" = "LTLA21CD"))
+
+admin_pop_5_16 <- admin_pop_5_16 %>%
+  group_by(UTLA21CD, UTLA21NM, time) %>%
+  summarise(
+    population_5_16 = sum(mean),
+    population_5_16_lower = sum(lower),
+    population_5_16_upper = sum(upper)
+  )
+
+admin_pop_5_16 <- admin_pop_5_16 %>% ungroup()
+
+
+# update names to be consistent for joining
+
+admin_pop_5_16 <- admin_pop_5_16 %>%
+  rename(
+    new_la_code = UTLA21CD,
+    la_name = UTLA21NM,
+    time_period = time
+  )
+
+# Add 2010 ye from population projection estimates
+
+pop_5_16_proj <- bind_rows(age_5_9_09_21, age_10_14_09_21, age_15_09_21, age_16_09_21) %>%
+  group_by(la_name, new_la_code) %>%
+  summarise_at(vars(mid_2009:mid_2021), sum) %>%
+  ungroup() %>%
+  pivot_longer(cols = mid_2009:mid_2021, names_to = "time_period", values_to = "population_5_16") %>%
+  mutate(time_period = parse_number(time_period) + 1)
+
+pop_5_16_proj <- pop_5_16_proj %>%
+  mutate(
+    new_la_code = case_when(new_la_code == "E06000059" ~ "E10000009",
+                            # Northamptonshire
+                            new_la_code == "E06000061" ~ "E10000021",
+                            new_la_code == "E06000062" ~ "E10000021",
+                            TRUE ~ new_la_code),
+    la_name = case_when(new_la_code == "E10000021" ~ "Northamptonshire",
+                        TRUE ~ la_name)
+  ) %>%
+  group_by(new_la_code, la_name, time_period) %>%
+  summarise(population_5_16 = sum(population_5_16)) %>%
+  ungroup()
+
+
+pop_5_16_proj_2010 <- pop_5_16_proj %>%
+  filter(time_period == 2010)
+
+pop_5_16_proj_2010 <- pop_5_16_proj_2010 %>%
+  filter(str_detect(new_la_code, "E"))
+
+admin_pop_5_16 <- bind_rows(admin_pop_5_16, pop_5_16_proj_2010)
+
+
+# Check for any mergers and add to existing dataset
+anti_join(cin_dat, admin_pop_5_16 %>% select(-la_name), by = c("new_la_code", "time_period")) %>% print(n=100)
+
+# Update Dorset code and merge North and West Northamptonshire
+admin_pop_5_16 <- admin_pop_5_16 %>%
+  mutate(
+    new_la_code = ifelse(new_la_code == "E06000059", "E10000009", new_la_code)
+  )
+
+admin_pop_5_16 %>% filter(str_detect(la_name, "Northamptonshire")) %>% print(n=1000)
+
+admin_pop_5_16 <- admin_pop_5_16 %>%
+  mutate(
+    new_la_code = case_when(new_la_code == "E06000061" ~ "E10000021",
+                            new_la_code == "E06000062" ~ "E10000021",
+                            TRUE ~ new_la_code),
+    la_name = ifelse(new_la_code == "E10000021", "Northamptonshire", la_name)
+  )
+
+admin_pop_5_16 <- admin_pop_5_16 %>%
+  group_by(new_la_code, la_name, time_period) %>%
+  summarise_at(vars(population_5_16:population_5_16_upper), sum)
+
+admin_pop_5_16 <- admin_pop_5_16 %>% ungroup()
+
+anti_join(admin_pop, admin_pop_5_16, by = c("new_la_code", "la_name", "time_period"))
+
+admin_pop <- left_join(admin_pop, admin_pop_5_16, by = c("new_la_code", "la_name", "time_period"))
+
+admin_pop <- admin_pop %>% ungroup()
 
 # * Population estimates before 2022 may not have been retrospectively updated yet
-cin_dat <- left_join(cin_dat, new_pop_long %>% select(-la_name), by = c("new_la_code", "time_period")) 
-
-
-
-# 7 very large populations look right
-# cin_dat %>%
-#   arrange(desc(population_0_16)) %>% view()
+# - replaced with estimates from admin data and dynamic modelling
+cin_dat <- left_join(cin_dat, admin_pop %>% select(-la_name), by = c("new_la_code", "time_period")) 
 
 cin_dat %>%
   filter(is.na(population_0_16))
 
+cin_dat %>%
+  filter(is.na(population_5_16))
+
 # missing time period of population for one LA
 
 # calculate CIN episode rates per 10,000 population
+# referral rate per 10,000 
+# referrals non-re-referred per 10,000
+# SEND statements per 10,000 age 5 -16
+# EHCP statements per 10,000 age 5 -16
+# SEND or EHCP per 10,000 age 5 -16
 cin_dat <- cin_dat %>%
   mutate(
     any_cin_ep_rate_10000 = (anypoint_episodes / population_0_16)*10000,
     start_cin_ep_rate_10000 = (started_episodes / population_0_16)*10000,
-    at31_cin_ep_rate_10000 = (at31_episodes / population_0_16)*10000
+    at31_cin_ep_rate_10000 = (at31_episodes / population_0_16)*10000,
+    referrals_rate_10000 = (referrals_n / population_0_16)*10000,
+    children_referred_rate_10000 = (children_referred_n / population_0_16)*10000,
+    referrals_not_reref_rate_10000 = ( (referrals_n - rereferrals_n) / population_0_16)*10000,
+    send_statem_rate_10000 = (send_statem_n / population_5_16)*10000,
+    ehcp_rate_10000 = (ehcp_n / population_5_16)*10000,
+    send_or_ehcp_rate_10000 = (sendst_or_ehcp_n / population_5_16)*10000,
   )
 
 
@@ -987,7 +1351,8 @@ rel_pov_long %>%
 
 
 # add population data and LA names
-anti_join(rel_pov_long, pop_long, by = c("new_la_code", "time_period"))
+anti_join(rel_pov_long, admin_pop, by = c("new_la_code", "time_period")) %>%
+  filter(str_detect(new_la_code, "E"))
 
 
 # Update code for Dorset and merge Northamptonshires for 2022
@@ -1004,7 +1369,7 @@ rel_pov_long <- rel_pov_long %>%
   ungroup()
 
 
-rel_pov_long <- left_join(rel_pov_long, pop_long, by = c("new_la_code", "time_period"), multiple = "any") %>%
+rel_pov_long <- left_join(rel_pov_long, admin_pop, by = c("new_la_code", "time_period"), multiple = "any") %>%
   relocate(la_name, .before = time_period) %>%
   mutate(rel_pov_rate100 = (n_poverty / population_0_16) * 100) %>%
   rename(rel_pov_chil = n_poverty)
@@ -1289,12 +1654,16 @@ lowinc_2014_m <- lowinc_2014 %>%
 rel_pov_long <- rel_pov_long %>%
   select(-population_0_16, -rel_pov_rate100)
 
+rel_pov_long <- rel_pov_long %>% select(-population_0_16_lower:-population_5_16_upper)
+
 rel_pov_long_merged <- bind_rows(rel_pov_long, lowinc_2014_m, lowinc_2013_m, lowinc_2012_m, lowinc_2011_m) %>% arrange(new_la_code, time_period)
 
 rel_pov_long_merged
 
 # join population data
-anti_join(rel_pov_long_merged, pop_long, by = c("new_la_code", "time_period"))
+anti_join(rel_pov_long_merged, admin_pop, by = c("new_la_code", "time_period")) %>%
+  group_by(new_la_code, la_name) %>%
+  slice(1) %>% .$la_name %>% unique(.)
 
 rel_pov_long_merged <- rel_pov_long_merged %>%
   mutate(new_la_code = case_when(
@@ -1302,7 +1671,7 @@ rel_pov_long_merged <- rel_pov_long_merged %>%
     TRUE ~ new_la_code
   ))
 
-rel_pov_long_merged <- left_join(rel_pov_long_merged, pop_long %>% select(-la_name), 
+rel_pov_long_merged <- left_join(rel_pov_long_merged, admin_pop %>% select(new_la_code, time_period, population_0_16), 
                                  by = c("new_la_code", "time_period"), multiple = "any") %>%
   mutate(
     rel_pov_rate100 = (rel_pov_chil / population_0_16)*100
@@ -1315,7 +1684,8 @@ rel_pov_long <- rel_pov_long %>%
     TRUE ~ new_la_code
   ))
 
-rel_pov_long <- left_join(rel_pov_long, pop_long %>% select(-la_name), by = c("new_la_code", "time_period")) %>%
+rel_pov_long <- left_join(rel_pov_long, admin_pop %>% select(new_la_code, time_period, population_0_16), 
+                          by = c("new_la_code", "time_period")) %>%
   mutate(
     rel_pov_rate100 = (rel_pov_chil / population_0_16)*100
   )
@@ -1517,13 +1887,18 @@ lowinc_2016 <- lowinc_2016 %>%
 
 clif_11_16 <- bind_rows(lowinc_2011, lowinc_2012, lowinc_2013, lowinc_2014, lowinc_2015, lowinc_2016)
 
-anti_join(clif_11_16, pop_long, by = c("utla11cd" = "new_la_code", "time_period"))
+anti_join(clif_11_16, admin_pop, by = c("utla11cd" = "new_la_code", "time_period"))
 
 # update Buckinghamshire code and combine Bournemouth and Poole
+# Update Dorset code 
+# merge north and west northamptonshire
 
 clif_11_16 <- clif_11_16 %>%
   mutate(
     utla11cd = case_when(
+      utla11cd == "E06000059" ~ "E10000009",
+      utla11cd == "E06000061" ~ "E10000021",
+      utla11cd == "E06000062" ~ "E10000021",
       utla11cd == "E10000002" ~ "E06000060",
       utla11cd == "E06000028" ~ "E06000058",
       utla11cd == "E06000029" ~ "E06000058",
@@ -1531,6 +1906,7 @@ clif_11_16 <- clif_11_16 %>%
     ),
     utla11nm = case_when(
       utla11cd == "E06000058" ~ "Bournemouth, Christchurch and Poole",
+      utla11cd == "E10000021" ~ "Northamptonshire",
       TRUE ~ utla11nm
     )
   ) %>%
@@ -1538,7 +1914,8 @@ clif_11_16 <- clif_11_16 %>%
   summarise_at(vars(pov_0_4:pov_chil), sum) %>%
   ungroup()
 
-clif_11_16 <- left_join(clif_11_16, pop_long %>% select(-la_name), by = c("utla11cd" = "new_la_code", "time_period"),
+clif_11_16 <- left_join(clif_11_16, admin_pop %>% select(new_la_code, time_period, population_0_16), 
+                        by = c("utla11cd" = "new_la_code", "time_period"),
                         multiple = "any") %>%
   mutate(
     clif_11_16_cpov_rate = (pov_chil / population_0_16)*100
@@ -1579,7 +1956,7 @@ ggplot(merged_data) +
 names(merged_data)
 
 merged_data <- merged_data %>%
-  relocate(population_0_16, .before = anypoint_episodes) %>%
+  relocate(population_0_16:population_5_16_upper, .before = anypoint_episodes) %>%
   mutate(at_31_cla_rate10000 = (at31_cla/population_0_16)*10000,
          cla_start_rate10000 = (cla_start/population_0_16)*10000,
          cla_cease_rate10000 = (cla_cease/population_0_16)*10000, .before = rel_pov_chil
@@ -1802,11 +2179,6 @@ cpp_10_12 <- cpp_10_22 %>%
 
 cpp_10_22 <- bind_rows(cpp_10_12, cpp_10_22 %>% filter(!is.na(new_la_code))) %>% arrange(time_period)
 
-length(unique(cpp_10_22$old_la_code))
-length(unique(cpp_10_22$new_la_code))
-length(unique(cpp_10_22$la_name)) # don't group/merge by la_name
-length(unique(cpp_10_22$time_period))
-
 # add to merged data
 anti_join(merged_data, cpp_10_22 %>% select(-la_name, -old_la_code), by = c("new_la_code", "time_period"))
 
@@ -1910,8 +2282,6 @@ s251_16_22 <- read_csv("data/s251/2021-22/la-and-school-expenditure_2021-22/data
   mutate(
     gspend_noncla_nonsg = rowSums(across(c(gspend_fss, gspend_oth, gspend_yps, gspend_ss5)), na.rm = TRUE)
   ) 
-
-
 
 
 # 2015
@@ -2574,7 +2944,6 @@ s251_10_22 <- left_join(s251_10_22, sppi, by = "time_period")
 # Adjust spending for inflation
 s251_10_22 <- s251_10_22 %>%
   mutate_at(vars(gspend_cla:gspend_noncla_nonsg), ~.*sppi)
-
 
 s251_10_22 %>%
   ggplot() +
@@ -4033,9 +4402,40 @@ merged_data %>% group_by(new_la_code, la_name) %>% summarise()
 
 if (dir.exists("tidied_data") == FALSE) { dir.create("tidied_data") }
 
+
+# reorder columns
+merged_data <- merged_data %>%
+  relocate(
+    # Identifiers
+    new_la_code:la_name,
+    # Population data
+    population_0_16:population_5_16_upper,
+    # Referrals
+    referrals_n:pc_children_rereferrred, referrals_rate_10000:referrals_not_reref_rate_10000,
+    # SEND/EHCP Statements
+    send_statem_n:sendst_or_ehcp_n, send_statem_rate_10000:send_or_ehcp_rate_10000,
+    # CIN
+    anypoint_episodes:at31_episodes, any_cin_ep_rate_10000:at31_cin_ep_rate_10000,
+    # CPP
+    cpp_start:at31_cpp_rate10000,
+    # CLA
+    at31_cla:cla_cease_rate10000,
+    # Poverty
+    rel_pov_chil:clif_11_16_cpov_rate,
+    # Median household income from earnings
+    median_gppa:mm_ginc_ratio,
+    # Spending
+    gspend_cla:gspend_saf_percpp,
+    # IMD
+    imd19_imd:imd15_idaci,
+    # Housing
+    n_households:waitlist_n_rate,
+    # Political party control
+    n_lab:majority
+  )
+
 write_csv(merged_data, file = "tidied_data/merged_data.csv")
 
-# 
 # Mergers/boundary changes:
 # Bournemouth, Christchurch and Poole
 # Dorset
@@ -4046,54 +4446,124 @@ write_csv(merged_data, file = "tidied_data/merged_data.csv")
 # Codebook for variables
 
 var_names <- colnames(merged_data)
+print(var_names, width = 20)
 var_labels <- c(
+  # Identifiers
   "Upper tier local authority code",
-  "Year of data measurement",
+  "Year of data measurement (if financial year, end of financial year)",
   "Old 3-digit local authority code",
   "Local authority name", 
-  "Population estimate for children (aged 0-16) in 1000s (NOMIS)",
+  
+  # Population data
+  "Mean Population estimate for children (aged 0-16) (ONS Population Estimates from Admin Data)",
+  "Lower Population estimate for children (aged 0-16) (ONS Population Estimates from Admin Data)",
+  "Upper Population estimate for children (aged 0-16) (ONS Population Estimates from Admin Data)",
+  "Mean Population estimate for children (aged 5-16) (ONS Population Estimates from Admin Data)",
+  "Lower Population estimate for children (aged 5-16) (ONS Population Estimates from Admin Data)",
+  "Upper Population estimate for children (aged 5-16) (ONS Population Estimates from Admin Data)",
+  
+  # Referrals
+  "Number of referrals to children's services, including repeat referrals (CIN Census)",
+  "Number of re-referrals to children's services (CIN Census)",
+  "Number of referrals ending in No Further Action (CIN Census)",
+  "Number of referrals deemed Not in Need (CIN Census)",
+  "Number of children referred to children's services (CIN Census)",
+  "Number of children re-referred to children's services (CIN Census)",
+  "Percentage of referrals that were re-referrals (CIN Census)",
+  "Percentage of referrals that were NFA (CIN Census)",
+  "Percentage of referrals that were NIN (CIN Census)",
+  "Percentage of individual children referred who were re-referred within 12 months (CIN Census)",
+  "Rate of referrals throughout year (Rate per 10,000 0-16 population) (CIN Census)",
+  "Rate of children referred throughout year (Rate per 10,000 0-16 population) (CIN Census)",
+  "Rate of referrals throughout year that were not re-referrals (Rate per 10,000 0-16 population) (CIN Census)",
+  
+  # SEND/EHCP Statements
+  "Number of SEN statements (EHCP Data, DfE)",
+  "Number of EHCP plans (succeeding SEN statements) (EHCP Data, DfE)",
+  "Combined number of SEN statements and EHCP plans (EHCP Data, DfE)",
+  "Rate of SEN statements (Rate per 10,000 5-16 population) (EHCP Data, DfE)",
+  "Rate of EHCP plans (Rate per 10,000 5-16 population) (EHCP Data, DfE)",
+  "Rate of combined SEN statements & EHCP plans (Rate per 10,000 5-16 population) (EHCP Data, DfE)",
+  
+  # CIN
   "Number of children in need episodes at any point in the year (CIN Census)",
   "Number of children who started an episode in need in the year (CIN Census)",
   "Number of children in need episodes on 31st March (CIN Census)",
-  "Rate of children in need episodes at any point in the year (Rate per 10,000 population) (CIN Census)",
-  "Rate of children who started an episode in need in the year (Rate per 10,000 population) (CIN Census)",
-  "Rate of children in need episodes on 31st March (Rate per 10,000 population) (CIN Census)",
+  "Rate of children in need episodes at any point in the year (Rate per 10,000 0-16 population) (CIN Census)",
+  "Rate of children who started an episode in need in the year (Rate per 10,000 0-16 population) (CIN Census)",
+  "Rate of children in need episodes on 31st March (Rate per 10,000 0-16 population) (CIN Census)",
+  
+  # CPP
+  "Number of children starting a Child Protection Plan (CIN Census)",
+  "Number of children on a Child Protection Plan on 31st March (CIN Census)",
+  "Rate of children starting a Child Protection Plan (Rate per 10,000 0-16 population) (CIN Census)",
+  "Rate of children on a Child Protection Plan on 31st March (Rate per 10,000 0-16 population) (CIN Census)",
+  
+  # CLA
   "Number of children looked after at 31st March (SSDA903)", 
   "Number of children starting to be looked after throughout the year (SSDA903)",
   "Number of children ceasing to be looked after throughout the year (SSDA903)",
-  "Rate of children looked after at 31st March (Rate per 10,000 population) (SSDA903)", 
-  "Rate of children starting to be looked after throughout the year (Rate per 10,000 population) (SSDA903)",
-  "Rate of children ceasing to be looked after throughout the year (Rate per 10,000 population) (SSDA903)",
-  "Number of children in relative poverty (DWP)",
-  "Percentage of children in relative poverty (rate per 100) (DWP)",
-  "Number of children in low income families (2011-2016 measure of poverty) (DWP)",
-  "Rate of children in low income families (2011-2016 CLIF measure of poverty) (DWP)",
-  "Number of children starting a Child Protection Plan (CIN Census)",
-  "Number of children on a Child Protection Plan on 31st March (CIN Census)",
-  "Rate of children starting a Child Protection Plan (Rate per 10,000 population) (CIN Census)",
-  "Rate of children on a Child Protection Plan on 31st March (Rate per 10,000 population) (CIN Census)",
-  "Gross expenditure on children looked after in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on family support services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on other services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on safeguarding in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on services for young people in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on Sure Start and under 5s in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on youth justice services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on combined non-CLA, non-safeguarding services in £Millions (SPPI Adjusted to 2021 Prices) (S251 + Revenue Outturns)",
+  "Rate of children looked after at 31st March (Rate per 10,000 0-16 population) (SSDA903)", 
+  "Rate of children starting to be looked after throughout the year (Rate per 10,000 0-16 population) (SSDA903)",
+  "Rate of children ceasing to be looked after throughout the year (Rate per 10,000 0-16 population) (SSDA903)",
+  
+  # Poverty
+  "Number of children in relative low income households (2015-2021, 2022*provisional) (DWP)",
+  "Percentage of children in relative low income (2015-2021, 2022*provisional, rate per 100) (DWP)",
+  "Number of children in low income families (2011-2016) (DWP)",
+  "Rate of children in low income families (2011-2016) (DWP)",
+  
+  
+  # Median household income from earnings
+  "Median household gross pay per annum estimate (ONS)",
+  "Mean household gross pay per annum estimate (ONS)",
+  "Number of jobs (in 1000s) (ONS)",
+  "Consumer Price Inflation including Housing (CPIH) (ONS)",
+  "Median household gross pay per annum estimate adjusted by CPIH (2022 prices) (ONS)",
+  "Mean household gross pay per annum estimate adjusted by CPIH (2022 prices) (ONS)",
+  "Median to mean gross pay per annum ratio (indactor of skewness/inequality) (2022 prices) (ONS)",
+  
+  # Spending
+  "Gross expenditure on children looked after (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on family support services (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on other services (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on safeguarding (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on services for young people (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on Sure Start and under 5s (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on youth justice services (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on non-CLA, non-safeguarding services (family support, services for young people, sure start and under 5s, and other) (SPPI Adjusted to 2021 Prices) (S251 + Revenue Outturns)",
   "Services Provider Price Inflation Index (SPPI) - rebased to 2022, as a multiplicative factor",
   "Percentage of total gross expenditure on children looked after",
   "Percentage of total gross expenditure on safeguarding",
   "Percentage of total gross expenditure on non-CLA, non-safeguarding",
-  "Gross expenditure on children looked after per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on family support services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on other services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on safeguarding per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on services for young people per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)",
-  "Gross expenditure on Sure Start and under 5s per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)",
-  "Gross expenditure on youth justice services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
-  "Gross expenditure on combined non-CLA, non-safeguarding services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on children looked after per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on family support services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on other services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on safeguarding per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on services for young people per child aged 0-16 (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)",
+  "Gross expenditure on Sure Start and under 5s per child aged 0-16 (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)",
+  "Gross expenditure on youth justice services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  "Gross expenditure on non-CLA, non-safeguarding services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
   "Gross expenditure on children looked after per child looked after (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
   "Gross expenditure on safeguarding per child on a child protection plan (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)",
+  
+  # IMD
+  "Indices of Multiple Deprivation Score (IMD 2019)",
+  "Income Deprivation Score (IMD 2019)",
+  "Employment Deprivation Score (IMD 2019)",
+  "Education Training and Skills Deprivation Score (IMD 2019)",
+  "Health Deprivation Score (IMD 2019)",
+  "Crime Deprivation Score (IMD 2019)",
+  "Income Deprivation Affecting Children Index Score (IMD 2019)",
+  "Indices of Multiple Deprivation Score (IMD 2015)",
+  "Income Deprivation Score (IMD 2015)",
+  "Employment Deprivation Score (IMD 2015)",
+  "Education Training and Skills Deprivation Score (IMD 2015)",
+  "Health Deprivation Score (IMD 2015)",
+  "Crime Deprivation Score (IMD 2015)",
+  "Income Deprivation Affecting Children Index Score (IMD 2015)",
+  
+  # Housing
   "Number of households",
   "Number of households in temporary accommodation (MHCLG Open Data)",
   "Number of homelessness applications rejected not homeless (MHCLG Open Data)",
@@ -4111,27 +4581,8 @@ var_labels <- c(
   "Rate of homelessness applications rejected intentionally homeless per 10,000 households (MHCLG Open Data)",
   "Rate of homelessness applications any outcome per 10,000 households (MHCLG Open Data)",
   "Rate of households on the waitlist for social housing per 10,000 households (MHCLG Open Data)",
-  "Indices of Multiple Deprivation Score (IMD 2019)",
-  "Income Deprivation Score (IMD 2019)",
-  "Employment Deprivation Score (IMD 2019)",
-  "Education Training and Skills Deprivation Score (IMD 2019)",
-  "Health Deprivation Score (IMD 2019)",
-  "Crime Deprivation Score (IMD 2019)",
-  "Income Deprivation Affecting Children Index Score (IMD 2019)",
-  "Indices of Multiple Deprivation Score (IMD 2015)",
-  "Income Deprivation Score (IMD 2015)",
-  "Employment Deprivation Score (IMD 2015)",
-  "Education Training and Skills Deprivation Score (IMD 2015)",
-  "Health Deprivation Score (IMD 2015)",
-  "Crime Deprivation Score (IMD 2015)",
-  "Income Deprivation Affecting Children Index Score (IMD 2015)",
-  "Median household gross pay per annum estimate (ONS)",
-  "Mean household gross pay per annum estimate (ONS)",
-  "Number of jobs (in 1000s) (ONS)",
-  "Consumer Price Inflation including Housing (CPIH) (ONS)",
-  "Median household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)",
-  "Mean household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)",
-  "Median to mean gross pay per annum ratio (indactor of skewness/inequality) (2022 prices) (ONS)",
+  
+  # Political party control
   "Number of years with Labour party local political control",
   "Number of years with Conservative party local political control",
   "Number of years with Liberal Democrat local party political control",
