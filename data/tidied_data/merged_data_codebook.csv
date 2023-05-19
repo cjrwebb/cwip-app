@@ -1,51 +1,96 @@
 var_names,var_labels
 new_la_code,Upper tier local authority code
-time_period,Year of data measurement
+time_period,"Year of data measurement (if financial year, end of financial year)"
 old_la_code,Old 3-digit local authority code
 la_name,Local authority name
-population_0_16,Population estimate for children (aged 0-16) in 1000s (NOMIS)
+population_0_16,"Mean Population estimate for children (aged 0-16) in 1,000s (ONS Population Estimates from Admin Data)"
+population_0_16_lower,Lower Population estimate for children (aged 0-16) (ONS Population Estimates from Admin Data)
+population_0_16_upper,Upper Population estimate for children (aged 0-16) (ONS Population Estimates from Admin Data)
+population_5_16,"Mean Population estimate for children (aged 5-16) in 1,000s (ONS Population Estimates from Admin Data)"
+population_5_16_lower,Lower Population estimate for children (aged 5-16) (ONS Population Estimates from Admin Data)
+population_5_16_upper,Upper Population estimate for children (aged 5-16) (ONS Population Estimates from Admin Data)
+referrals_n,"Number of referrals to children's services, including repeat referrals (CIN Census)"
+rereferrals_n,Number of re-referrals to children's services (CIN Census)
+referrals_nfa_n,Number of referrals ending in No Further Action (CIN Census)
+referrals_nin_n,Number of referrals deemed Not in Need (CIN Census)
+children_referred_n,Number of children referred to children's services (CIN Census)
+children_rereferred_n,Number of children re-referred to children's services (CIN Census)
+pc_referrals_rereferral,Percentage of referrals that were re-referrals (CIN Census)
+pc_referalls_nfa,Percentage of referrals that were NFA (CIN Census)
+pc_referrals_nin,Percentage of referrals that were NIN (CIN Census)
+pc_children_rereferrred,Percentage of individual children referred who were re-referred within 12 months (CIN Census)
+referrals_rate_10000,"Rate of referrals throughout year (Rate per 10,000 0-16 population) (CIN Census)"
+children_referred_rate_10000,"Rate of children referred throughout year (Rate per 10,000 0-16 population) (CIN Census)"
+referrals_not_reref_rate_10000,"Rate of referrals throughout year that were not re-referrals (Rate per 10,000 0-16 population) (CIN Census)"
+send_statem_n,"Number of SEN statements (EHCP Data, DfE)"
+ehcp_n,"Number of EHCP plans (succeeding SEN statements) (EHCP Data, DfE)"
+sendst_or_ehcp_n,"Combined number of SEN statements and EHCP plans (EHCP Data, DfE)"
+send_statem_rate_10000,"Rate of SEN statements (Rate per 10,000 5-16 population) (EHCP Data, DfE)"
+ehcp_rate_10000,"Rate of EHCP plans (Rate per 10,000 5-16 population) (EHCP Data, DfE)"
+send_or_ehcp_rate_10000,"Rate of combined SEN statements & EHCP plans (Rate per 10,000 5-16 population) (EHCP Data, DfE)"
 anypoint_episodes,Number of children in need episodes at any point in the year (CIN Census)
 started_episodes,Number of children who started an episode in need in the year (CIN Census)
 at31_episodes,Number of children in need episodes on 31st March (CIN Census)
-any_cin_ep_rate_10000,"Rate of children in need episodes at any point in the year (Rate per 10,000 population) (CIN Census)"
-start_cin_ep_rate_10000,"Rate of children who started an episode in need in the year (Rate per 10,000 population) (CIN Census)"
-at31_cin_ep_rate_10000,"Rate of children in need episodes on 31st March (Rate per 10,000 population) (CIN Census)"
+any_cin_ep_rate_10000,"Rate of children in need episodes at any point in the year (Rate per 10,000 0-16 population) (CIN Census)"
+start_cin_ep_rate_10000,"Rate of children who started an episode in need in the year (Rate per 10,000 0-16 population) (CIN Census)"
+at31_cin_ep_rate_10000,"Rate of children in need episodes on 31st March (Rate per 10,000 0-16 population) (CIN Census)"
+cpp_start,Number of children starting a Child Protection Plan (CIN Census)
+at31_cpp,Number of children on a Child Protection Plan on 31st March (CIN Census)
+cpp_start_rate10000,"Rate of children starting a Child Protection Plan (Rate per 10,000 0-16 population) (CIN Census)"
+at31_cpp_rate10000,"Rate of children on a Child Protection Plan on 31st March (Rate per 10,000 0-16 population) (CIN Census)"
 at31_cla,Number of children looked after at 31st March (SSDA903)
 cla_start,Number of children starting to be looked after throughout the year (SSDA903)
 cla_cease,Number of children ceasing to be looked after throughout the year (SSDA903)
-at_31_cla_rate10000,"Rate of children looked after at 31st March (Rate per 10,000 population) (SSDA903)"
-cla_start_rate10000,"Rate of children starting to be looked after throughout the year (Rate per 10,000 population) (SSDA903)"
-cla_cease_rate10000,"Rate of children ceasing to be looked after throughout the year (Rate per 10,000 population) (SSDA903)"
-rel_pov_chil,Number of children in relative poverty (DWP)
-rel_pov_rate100,Percentage of children in relative poverty (rate per 100) (DWP)
-clif1116_pov_chil,Number of children in low income families (2011-2016 measure of poverty) (DWP)
-clif_11_16_cpov_rate,Rate of children in low income families (2011-2016 CLIF measure of poverty) (DWP)
-cpp_start,Number of children starting a Child Protection Plan (CIN Census)
-at31_cpp,Number of children on a Child Protection Plan on 31st March (CIN Census)
-cpp_start_rate10000,"Rate of children starting a Child Protection Plan (Rate per 10,000 population) (CIN Census)"
-at31_cpp_rate10000,"Rate of children on a Child Protection Plan on 31st March (Rate per 10,000 population) (CIN Census)"
-gspend_cla,Gross expenditure on children looked after in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_fss,Gross expenditure on family support services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_oth,Gross expenditure on other services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_saf,Gross expenditure on safeguarding in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_yps,Gross expenditure on services for young people in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_ss5,Gross expenditure on Sure Start and under 5s in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_yjs,Gross expenditure on youth justice services in £Millions (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_noncla_nonsg,"Gross expenditure on combined non-CLA, non-safeguarding services in £Millions (SPPI Adjusted to 2021 Prices) (S251 + Revenue Outturns)"
+at_31_cla_rate10000,"Rate of children looked after at 31st March (Rate per 10,000 0-16 population) (SSDA903)"
+cla_start_rate10000,"Rate of children starting to be looked after throughout the year (Rate per 10,000 0-16 population) (SSDA903)"
+cla_cease_rate10000,"Rate of children ceasing to be looked after throughout the year (Rate per 10,000 0-16 population) (SSDA903)"
+rel_pov_chil,"Number of children in relative low income households (2015-2021, 2022*provisional) (DWP)"
+rel_pov_rate100,"Percentage of children in relative low income (2015-2021, 2022*provisional, rate per 100) (DWP)"
+clif1116_pov_chil,Number of children in low income families (2011-2016) (DWP)
+clif_11_16_cpov_rate,Rate of children in low income families (2011-2016) (DWP)
+median_gppa,"Median household gross pay per annum estimate in GBP1,000s (ONS)"
+mean_gppa,"Mean household gross pay per annum estimate in GBP1,000s (ONS)"
+njobs,Number of jobs (in 1000s) (ONS)
+cpih,Consumer Price Inflation including Housing (CPIH) (ONS)
+median_gppa_adj,"Median household gross pay per annum in GBP1,000s estimate adjusted by CPIH (2022 prices) (ONS)"
+mean_gppa_adj,"Mean household gross pay per annum in GBP1,000s estimate adjusted by CPIH (2022 prices) (ONS)"
+mm_ginc_ratio,Median to mean gross pay per annum ratio (indicator of skewness/inequality) (2022 prices) (ONS)
+gspend_cla,Gross expenditure on children looked after (SPPI Adjusted to 2022 Prices) in millions (S251 + Revenue Outturns)
+gspend_fss,Gross expenditure on family support services (SPPI Adjusted to 2022 Prices) in millions (S251 + Revenue Outturns)
+gspend_oth,Gross expenditure on other services (SPPI Adjusted to 2022 Prices) in millions (S251 + Revenue Outturns)
+gspend_saf,Gross expenditure on safeguarding (SPPI Adjusted to 2022 Prices) in millions (S251 + Revenue Outturns)
+gspend_yps,Gross expenditure on services for young people (SPPI Adjusted to 2022 Prices) in millions (S251 + Revenue Outturns)
+gspend_ss5,Gross expenditure on Sure Start and under 5s (SPPI Adjusted to 2022 Prices) in millions (S251 + Revenue Outturns)
+gspend_yjs,Gross expenditure on youth justice services (SPPI Adjusted to 2022 Prices) in millions (S251 + Revenue Outturns)
+gspend_noncla_nonsg,"Gross expenditure on non-CLA, non-safeguarding services in millions (family support, services for young people, sure start and under 5s, and other) (SPPI Adjusted to 2021 Prices) (S251 + Revenue Outturns)"
 sppi,"Services Provider Price Inflation Index (SPPI) - rebased to 2022, as a multiplicative factor"
 gspend_pc_cla,Percentage of total gross expenditure on children looked after
 gspend_pc_sg,Percentage of total gross expenditure on safeguarding
 gspend_pc_ncnsg,"Percentage of total gross expenditure on non-CLA, non-safeguarding"
-gspend_cla_pc,Gross expenditure on children looked after per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_fss_pc,Gross expenditure on family support services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_oth_pc,Gross expenditure on other services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_saf_pc,Gross expenditure on safeguarding per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_yps_pc,Gross expenditure on services for young people per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)
-gspend_ss5_pc,Gross expenditure on Sure Start and under 5s per child (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)
-gspend_yjs_pc,Gross expenditure on youth justice services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
-gspend_noncla_nonsg_pc,"Gross expenditure on combined non-CLA, non-safeguarding services per child (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)"
+gspend_cla_pc,Gross expenditure on children looked after per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_fss_pc,Gross expenditure on family support services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_oth_pc,Gross expenditure on other services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_saf_pc,Gross expenditure on safeguarding per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_yps_pc,Gross expenditure on services for young people per child aged 0-16 (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)
+gspend_ss5_pc,Gross expenditure on Sure Start and under 5s per child aged 0-16 (SPPI Adjusted to 2022 Prices) (All children age 0-16) (S251 + Revenue Outturns)
+gspend_yjs_pc,Gross expenditure on youth justice services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+gspend_noncla_nonsg_pc,"Gross expenditure on non-CLA, non-safeguarding services per child aged 0-16 (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)"
 gspend_cla_percla,Gross expenditure on children looked after per child looked after (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
 gspend_saf_percpp,Gross expenditure on safeguarding per child on a child protection plan (SPPI Adjusted to 2022 Prices) (S251 + Revenue Outturns)
+imd19_imd,Indices of Multiple Deprivation Score (IMD 2019)
+imd19_income_dep,Income Deprivation Score (IMD 2019)
+imd19_employ_dep,Employment Deprivation Score (IMD 2019)
+imd19_edu_dep,Education Training and Skills Deprivation Score (IMD 2019)
+imd19_health_dep,Health Deprivation Score (IMD 2019)
+imd19_crime_dep,Crime Deprivation Score (IMD 2019)
+imd19_idaci,Income Deprivation Affecting Children Index Score (IMD 2019)
+imd15_imd,Indices of Multiple Deprivation Score (IMD 2015)
+imd15_income_dep,Income Deprivation Score (IMD 2015)
+imd15_employ_dep,Employment Deprivation Score (IMD 2015)
+imd15_edu_dep,Education Training and Skills Deprivation Score (IMD 2015)
+imd15_health_dep,Health Deprivation Score (IMD 2015)
+imd15_crime_dep,Crime Deprivation Score (IMD 2015)
+imd15_idaci,Income Deprivation Affecting Children Index Score (IMD 2015)
 n_households,Number of households
 tempacc_hh,Number of households in temporary accommodation (MHCLG Open Data)
 rej_not_hl,Number of homelessness applications rejected not homeless (MHCLG Open Data)
@@ -63,27 +108,6 @@ acc_hl_rate,"Rate of accepted homelessness applications per 10,000 households (M
 rej_int_hl_rate,"Rate of homelessness applications rejected intentionally homeless per 10,000 households (MHCLG Open Data)"
 homeless_any_rate,"Rate of homelessness applications any outcome per 10,000 households (MHCLG Open Data)"
 waitlist_n_rate,"Rate of households on the waitlist for social housing per 10,000 households (MHCLG Open Data)"
-imd19_imd,Indices of Multiple Deprivation Score (IMD 2019)
-imd19_income_dep,Income Deprivation Score (IMD 2019)
-imd19_employ_dep,Employment Deprivation Score (IMD 2019)
-imd19_edu_dep,Education Training and Skills Deprivation Score (IMD 2019)
-imd19_health_dep,Health Deprivation Score (IMD 2019)
-imd19_crime_dep,Crime Deprivation Score (IMD 2019)
-imd19_idaci,Income Deprivation Affecting Children Index Score (IMD 2019)
-imd15_imd,Indices of Multiple Deprivation Score (IMD 2015)
-imd15_income_dep,Income Deprivation Score (IMD 2015)
-imd15_employ_dep,Employment Deprivation Score (IMD 2015)
-imd15_edu_dep,Education Training and Skills Deprivation Score (IMD 2015)
-imd15_health_dep,Health Deprivation Score (IMD 2015)
-imd15_crime_dep,Crime Deprivation Score (IMD 2015)
-imd15_idaci,Income Deprivation Affecting Children Index Score (IMD 2015)
-median_gppa,Median household gross pay per annum estimate (ONS)
-mean_gppa,Mean household gross pay per annum estimate (ONS)
-njobs,Number of jobs (in 1000s) (ONS)
-cpih,Consumer Price Inflation including Housing (CPIH) (ONS)
-median_gppa_adj,Median household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)
-mean_gppa_adj,Mean household gross pay per annum estimate adjusted by CPIH in £1000s (2022 prices) (ONS)
-mm_ginc_ratio,Median to mean gross pay per annum ratio (indactor of skewness/inequality) (2022 prices) (ONS)
 n_lab,Number of years with Labour party local political control
 n_con,Number of years with Conservative party local political control
 n_ld,Number of years with Liberal Democrat local party political control

@@ -38,7 +38,7 @@ library(emojifont)
 load.fontawesome()
 
 
-gg_title_size = 28
+gg_title_size = 25
 geom_text_size = 7
 axis_text_size = 16
 axis_title_size = 24
@@ -93,16 +93,18 @@ csc_data <- read_rds("data/csc_data_v3.RDS") %>%
 
 # Update to 2022 data
 csc_data <- read_csv("data/tidied_data/merged_data.csv") %>%
-  select(-old_la_code, -n_households:-waitlist_n_rate, 
-         -imd19_income_dep:-cpih, -n_lab:-majority,
-         -anypoint_episodes:-at31_episodes, 
-         -at31_cla:-cla_cease,
-         -cpp_start:-at31_cpp,
+  select(-old_la_code, 
+         -population_0_16_lower:-population_0_16_upper,
+         -population_5_16_lower:-population_5_16_upper,
+         -n_households:-majority, 
+         -imd19_income_dep:-imd15_idaci, 
+         -median_gppa:-cpih, 
          -sppi) %>%
-  mutate(population_0_16 = population_0_16/1000) %>%
+  mutate(population_0_16 = population_0_16/1000,
+         population_5_16 = population_5_16/1000) %>%
   mutate_at(vars(gspend_cla:gspend_noncla_nonsg), ~./1000000) %>%
   mutate_at(vars(median_gppa_adj:mean_gppa_adj), ~./1000) %>%  
-  mutate_at(vars(population_0_16:mm_ginc_ratio), ~round(., 2)) %>%
+  mutate_at(vars(population_0_16:gspend_saf_percpp), ~round(., 2)) %>%
   rename(year = time_period) %>%
   pivot_longer(cols = -1:-3) %>%
   left_join(., read_csv("data/tidied_data/merged_data_codebook.csv"), by = c("name" = "var_names")) %>%
@@ -119,20 +121,19 @@ csc_data <- read_csv("data/tidied_data/merged_data.csv") %>%
 csc_vars <- unique(csc_data$description)
 
 
+
+
+
 # IMD score variable name (for adjusting by deprivation)
-imd_variable_desc <- csc_vars[35]
-# Expenditure on CLA variable name (for waffle plot)- replacing csc_vars[2]
-cla_exp_description <- csc_vars[14] # in millions
-# Total population child aged - replacing csc_vars[17]
+imd_variable_desc <- csc_vars[66]
+# Expenditure on CLA variable name  (for waffle plot)- replacing csc_vars[2]
+cla_exp_description <- csc_vars[45] # in millions
+# Total population child aged 0 - 16 replacing csc_vars[17]
 population_description <- csc_vars[1]
-
 # Safeguarding spend variable description per child (replaces csc_vars[6])
-saf_spend_pc_description <- csc_vars[28]
-
+saf_spend_pc_description <- csc_vars[59]
 # Non-SG, non-CLA spend variable description per child (replaces csc_vars[7])
-ehfs_pc_description <- csc_vars[32]
-
-
+ehfs_pc_description <- csc_vars[63]
 
 
 la_sf <- read_rds("data/la_sf.RDS")
@@ -1768,37 +1769,6 @@ if (adj_dep == "No") {
 # Fixing English average data not being sorted properly for CIN Census data
 
 
-# 
-# # Add adjustment for deprivation
-# 
-# plot_csctrend(data = csc_data, var = csc_vars[19])
-# plot_csctrend(data = csc_data, var = csc_vars[10], year_range = 2011:2015)
-# plot_csctrend(data = csc_data, var = csc_vars[2], la_select = c("Sheffield", "England Average"))
-# plot_csctrend(data = csc_data, var = csc_vars[15], la_select = c("Sheffield", "Derby", "Rotherham", "Kent", "Leicester", "Nottingham", "Leeds", "Hackney"), include_avg = FALSE)
-# plot_csctrend(data = csc_data, var = csc_vars[2], la_select = c("Sheffield", "Derby"), year_range = 2011:2015)
-# 
-# 
-# plot_csctrend(data = csc_data, var = csc_vars[7], adj_dep = "Yes")
-# plot_csctrend(data = csc_data, var = csc_vars[7], adj_dep = "No")
-# 
-# 
-# plot_csctrend(data = csc_data, var = csc_vars[12], adj_dep = "No", la_select = c("Leeds", "York", "Barnsley")) +
-# plot_csctrend(data = csc_data, var = csc_vars[12], adj_dep = "Yes", la_select = c("Leeds", "York", "Barnsley"))
-# 
-# plot_csctrend(data = csc_data, var = csc_vars[12], adj_dep = "No", la_select = c("Leeds", "York", "England Average"), year_range = 2016:2019)
-# plot_csctrend(data = csc_data, var = csc_vars[12], adj_dep = "Yes", la_select = c("Leeds", "York", "England Average"), year_range = 2016:2019)
-# 
-# plot_csctrend(data = csc_data, var = csc_vars[12], adj_dep = "No", year_range = 2016:2019)
-# plot_csctrend(data = csc_data, var = csc_vars[12], adj_dep = "Yes", year_range = 2016:2019)
-# 
-# # Fix error: working, moved year range within plotting
-# plot_csctrend(data = csc_data, var = csc_vars[19], adj_dep = "No", la_select = c("Leeds", "York"))
-# plot_csctrend(data = csc_data, var = csc_vars[19], adj_dep = "Yes", la_select = c("Leeds", "York"))
-# 
-# 
-# plot_csctrend(data = csc_data, var = csc_vars[20], adj_dep = "Yes")
-
-
 
 # Function for difference from average plot -------------------------------
 
@@ -1996,21 +1966,8 @@ plot_csctrend_diff <- function(data, var, year_range = NULL, adj_dep = "No", la_
 }
 
 
-# 
-# plot_csctrend_diff(data = csc_data, var = csc_vars[12], la_select = c("Sheffield", "Kensington and Chelsea", "Derby"), adj_dep = TRUE)
-# 
-# 
-# plot_csctrend_diff(data = csc_data, var = csc_vars[12], la_select = c("Sheffield", "Leeds", "Derby")) +
-#   plot_csctrend_diff(data = csc_data, var = csc_vars[12], la_select = c("Sheffield", "Leeds", "Derby"), adj_dep = TRUE)
-
-
-
 # To do: maps
 # Extended data should only be available without deprivation adjustment (e.g. data dash)
-
-# 
-# p1 <- plot_csctrend(data = csc_data, var = csc_vars[50], la_select = c("Blackpool", "Leeds", "York"))
-# p2 <- plot_csctrend(data = csc_data, var = csc_vars[50], la_select = c("Blackpool", "Leeds", "York"), adj_dep = "Yes")
 
 patchwork_trendplots <- function(plot1, plot2) {
   
@@ -2024,12 +1981,6 @@ patchwork_trendplots <- function(plot1, plot2) {
   
 }
 
-# patchwork_trendplots(p1, p2)
-# 
-# 
-# p3 <- plot_csctrend_diff(data = csc_data, var = csc_vars[50], la_select = c("Sheffield", "Leeds", "Derby"))
-# p4 <- plot_csctrend_diff(data = csc_data, var = csc_vars[50], la_select = c("Sheffield", "Leeds", "Derby"), adj_dep = "Yes")
-# 
 
 patchwork_trendplot_diffs <- function(plot1, plot2) {
   
@@ -2038,13 +1989,6 @@ patchwork_trendplot_diffs <- function(plot1, plot2) {
   
   
 }
-
-# 
-# patchwork_trendplot_diffs(p3, p4)
-# 
-# plot_csctrend_diff(data = csc_data, var = csc_vars[12], la_select = c("Sheffield", "Leeds", "Derby", "York", "Brent"), adj_dep = "No") /
-# plot_csctrend_diff(data = csc_data, var = csc_vars[12], la_select = c("Sheffield", "Leeds", "Derby", "York", "Brent"), adj_dep = "Yes")
-# 
 
 
 
@@ -2113,11 +2057,6 @@ plot_csc_points <- function(data, var, year_range = NULL, la_select = NULL) {
   }
   
 }
-
-# plot_csc_points(csc_data, csc_vars[12])
-# plot_csc_points(csc_data, csc_vars[12], la_select = c("Sheffield", "Leeds", "Coventry", "York"))
-# plot_csc_points(csc_data, csc_vars[12], year = 2015:2019)
-# plot_csc_points(csc_data, csc_vars[12], la_select = c("Sheffield", "Leeds", "Coventry", "York"), year = 2015:2019)
 
 
 # Maps
@@ -2419,56 +2358,6 @@ plot_csc_map <- function(geo_data, centroid_data, data, var, year_range = NULL,
 }
 
 
-# testing
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[7], adj_dep = TRUE, global_scales = TRUE)
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[7], global_scales = TRUE)
-# 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[7], make_cart = TRUE)
-# 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[12], adj_dep = "No", global_scales = TRUE) +
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, imd_variable_desc, global_scales = TRUE) +
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[12], adj_dep = TRUE, global_scales = TRUE) 
-# 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[12], adj_dep = "No", global_scales = TRUE, la_select = c("Kirklees", "Sheffield", "Coventry", "Plymouth", "Warwickshire", "Camden", "Brent", "Birmingham", "Knowsley"))  +
-#   plot_csc_map(la_sf, la_sf_centroids, csc_data, imd_variable_desc, global_scales = TRUE, la_select = c("Kirklees", "Sheffield", "Coventry", "Plymouth", "Warwickshire", "Camden", "Brent", "Birmingham", "Knowsley"))  +
-#   plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[12], adj_dep = TRUE, global_scales = TRUE, la_select = c("Kirklees", "Sheffield", "Coventry", "Plymouth", "Warwickshire", "Camden", "Brent", "Birmingham", "Knowsley")) &
-#   plot_annotation(caption = "Data: DfE, DCLG. Data Viz by Calum Webb @cjrwebb")
-# 
-# (plot_csc_map(la_sf, la_sf_centroids, make_cart = FALSE, csc_data, csc_vars[12], adj_dep = "No", global_scales = TRUE, la_select = c("Birmingham", "Liverpool"))  +
-#   plot_csc_map(la_sf, la_sf_centroids, make_cart = FALSE, csc_data, imd_variable_desc, global_scales = TRUE, la_select = c("Birmingham", "Liverpool"))  +
-#   plot_csc_map(la_sf, la_sf_centroids, make_cart = FALSE, csc_data, csc_vars[12], adj_dep = TRUE, global_scales = TRUE, la_select = c("Birmingham", "Liverpool"))) /
-# (plot_csc_map(la_sf, la_sf_centroids, make_cart = TRUE, csc_data, csc_vars[12], adj_dep = "No", global_scales = TRUE, la_select = c("Birmingham", "Liverpool"))  +
-#   plot_csc_map(la_sf, la_sf_centroids, make_cart = TRUE, csc_data, imd_variable_desc, global_scales = TRUE, la_select = c("Birmingham", "Liverpool"))  +
-#   plot_csc_map(la_sf, la_sf_centroids, make_cart = TRUE, csc_data, csc_vars[12], adj_dep = TRUE, global_scales = TRUE, la_select = c("Birmingham", "Liverpool"))) &
-#   plot_annotation(caption = "Data: DfE, DCLG. Data Viz by Calum Webb @cjrwebb")
-# 
-# 
-# (plot_csc_map(la_sf, la_sf_centroids, make_cart = FALSE, csc_data, csc_vars[7], year_range = 2011:2013, adj_dep = "No", global_scales = TRUE, la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"))  +
-#     plot_csc_map(la_sf, la_sf_centroids, make_cart = FALSE, csc_data, imd_variable_desc, global_scales = TRUE, la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"))  +
-#     plot_csc_map(la_sf, la_sf_centroids, make_cart = FALSE, csc_data, csc_vars[7], year_range = 2016:2019, adj_dep = "No", global_scales = TRUE, la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"))) /
-#   (plot_csc_map(la_sf, la_sf_centroids, make_cart = TRUE, csc_data, csc_vars[7], year_range = 2011:2013, adj_dep = "No", global_scales = TRUE, la_select = c("Birmingham", "Liverpool"))  +
-#      plot_csc_map(la_sf, la_sf_centroids, make_cart = TRUE, csc_data, imd_variable_desc, global_scales = TRUE, la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"))  +
-#      plot_csc_map(la_sf, la_sf_centroids, make_cart = TRUE, csc_data, csc_vars[7], year_range = 2016:2019, adj_dep = "No", global_scales = TRUE, la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"))) &
-#   plot_annotation(caption = "Data: DfE, DCLG. Data Viz by Calum Webb @cjrwebb")
-# 
-# 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[12], adj_dep = "No", global_scales = TRUE, la_select = c("Sheffield"))
-# 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[19], adj_dep = "No", global_scales = TRUE, la_select = c("Torbay", "Sheffield", "Devon", "Kent", "Camden"), year_range = 2015)
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[19], adj_dep = "Yes", global_scales = TRUE, la_select = c("Torbay", "Sheffield", "Devon", "Kent", "Camden"), year_range = 2019)
-# 
-# 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[12])
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[7], year_range = 2011) 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[7], year_range = 2019) 
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[19], year_range = 2018:2019)
-# plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[27], year_range = 2018:2019)
-# 
-# (plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[19]) + plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[19], adj_dep = "Yes")  ) /
-#   (plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[19], make_cart = TRUE) + plot_csc_map(la_sf, la_sf_centroids, csc_data, csc_vars[19], make_cart = TRUE, adj_dep = "Yes") )  
-# 
-# 
-# csc_vars
 
 # Map patchwork for comparing two years with same scale
 
@@ -2483,251 +2372,6 @@ patchwork_maps <- function(data, var, la_select = NULL, year_range1, year_range2
   
   
 }
-
-# patchwork_maps(csc_data, csc_vars[7], 2011:2013, 2017:2019,  la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"))
-# patchwork_maps(csc_data, csc_vars[15], 2011:2013, 2017:2019, la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"))
-
-# 
-# (patchwork_maps(csc_data, csc_vars[7], 2011:2013, 2017:2019,  
-#                la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"),
-#                make_cart = FALSE)) /
-# (patchwork_maps(csc_data, csc_vars[7], 2011:2013, 2017:2019,  
-#                la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"),
-#                make_cart = TRUE))
-# 
-# patchwork_maps(csc_data, csc_vars[12], 2011:2013, 2017:2019, adj_dep =  "Yes",
-#                la_select = c("Redcar and Cleveland", "Camden", "North East Lincolnshire", "Bournemouth, Christchurch and Poole"),
-#                make_cart = TRUE)
-
-# Waffle plots spending ---------------------------------------------------
-# Quite slow but works
-
-
-# # old
-# spending_waffles <- function(data, year_range = NULL, la_select = NULL) {
-#   
-#   exp_cla_pc_data <- data %>% 
-#     filter(description %in% c(csc_vars[2], csc_vars[17])) %>%
-#     pivot_wider(names_from = description, values_from = value) %>%
-#     rename(exp_cla = 4, pop = 5) %>%
-#     mutate(exp_cla_pc = (exp_cla * 100000) / pop) %>%
-#     pivot_longer(cols = exp_cla:exp_cla_pc, names_to = "description") %>%
-#     filter(description == "exp_cla_pc")
-#   
-#   print(exp_cla_pc_data)
-#   
-#   if (is.null(la_select)) {
-#   
-#     waff_plot <- data %>% 
-#       add_row(exp_cla_pc_data) %>%
-#       filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
-#       mutate(description = case_when(description == "exp_cla_pc" ~ "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                                      description == csc_vars[7] ~ "£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                                      description == csc_vars[6] ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
-#       group_by(year, description) %>%
-#       summarise(value = mean(value, na.rm = TRUE)) %>%
-#       mutate(value = value/10,
-#              label = "fa-money-bill-wave") %>%
-#       ggplot() +
-#       geom_text(aes(label = label, family = 'fontawesome-webfont', 
-#                     col = description, values = value), 
-#                      flip = TRUE, make_proportional = FALSE, size = 4,
-#                      n_rows = 5) +
-#       scale_color_manual(
-#         name = NULL,
-#         values = c("#1B9E77", "#D95F02", "#7570B3"),
-#         labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                    "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                    "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-#       ) +
-#       # max is 3650 which equals 10 * 5 * 71
-#       # ylim(c(0, 71)) +
-#       facet_grid(~year) +
-#       coord_equal() +
-#       labs(title = "Spending per Child on Different Services (England LA Average)") +
-#       theme_minimal() +
-#       theme(plot.background = element_blank(),
-#             panel.grid = element_blank(),
-#             axis.ticks = element_blank(),
-#             plot.title = element_text(hjust = 0.5, face = "bold"),
-#             legend.text = element_text(hjust = 0, vjust = 1)) +
-#       ggeasy::easy_text_size(size = 12) +
-#       ggeasy::easy_remove_legend_title() +
-#       ggeasy::easy_remove_axes() +
-#       theme(legend.position = "top") +
-#       guides(col = guide_legend(ncol=1, nrow=3, byrow=TRUE)) 
-#     
-#     
-#       waff_plot <- set_panel_size(waff_plot, width = unit(1.5, "in"), height = unit(3.5, "in"))
-#   
-#       grid.arrange(waff_plot)
-#     
-#   } else {
-#   
-#     if (length(la_select) == 1) {
-#       
-#       waff_plot <- data %>% 
-#         add_row(exp_cla_pc_data) %>%
-#         filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
-#         mutate(description = case_when(description == "exp_cla_pc" ~ "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                                        description == csc_vars[7] ~ "£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                                        description == csc_vars[6] ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
-#         filter(la_name %in% la_select) %>%
-#         mutate(value = value/10,
-#                label = "fa-money-bill-wave") %>%
-#         ggplot() +
-#         geom_text(aes(label = label, family = 'fontawesome-webfont', 
-#                       col = description, values = value), 
-#                   flip = TRUE, make_proportional = FALSE, size = 4,
-#                   n_rows = 5) +
-#         scale_color_manual(
-#           name = NULL,
-#           values = c("#1B9E77", "#D95F02", "#7570B3"),
-#           labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                      "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                      "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-#         ) +
-#         facet_grid(~year) +
-#         coord_equal() +
-#         labs(title = paste0("Spending per Child on Different Services ", "(", la_select, ")")) +
-#         theme_minimal() +
-#         theme(plot.background = element_blank(),
-#               panel.grid = element_blank(),
-#               axis.ticks = element_blank(),
-#               plot.title = element_text(hjust = 0.5, face = "bold"),
-#               legend.text = element_text(hjust = 0, vjust = 1)) +
-#         ggeasy::easy_text_size(size = 12) +
-#         ggeasy::easy_remove_legend_title() +
-#         ggeasy::easy_remove_axes() +
-#         theme(legend.position = "top") +
-#         guides(col = guide_legend(ncol=1, nrow=3, byrow=TRUE)) 
-#       
-#       
-#       waff_plot <- set_panel_size(waff_plot, width = unit(1.5, "in"), height = unit(5.5, "in"))
-#       
-#       grid.arrange(waff_plot)
-#       
-#     } else {
-#       
-#      data %>% 
-#         add_row(exp_cla_pc_data) %>%
-#         filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
-#         mutate(description = case_when(description == "exp_cla_pc" ~ "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                                        description == csc_vars[7] ~ "£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                                        description == csc_vars[6] ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
-#         filter(la_name %in% la_select) %>%
-#         mutate(value = value/10,
-#                label = "fa-money-bill-wave") %>%
-#         ggplot() +
-#         geom_text(aes(label = label, family = 'fontawesome-webfont', 
-#                       col = description, values = value), 
-#                   flip = TRUE, make_proportional = FALSE, size = 4,
-#                   n_rows = 5) +
-#         scale_color_manual(
-#           name = NULL,
-#           values = c("#1B9E77", "#D95F02", "#7570B3"),
-#           labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                      "£10 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                      "£10 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-#         ) +
-#         facet_grid(la_name ~ year) +
-#         coord_equal() +
-#         labs(title = "Spending per Child on Different Services ") +
-#         theme_minimal() +
-#         theme(plot.background = element_blank(),
-#               panel.grid = element_blank(),
-#               axis.ticks = element_blank(),
-#               plot.title = element_text(hjust = 0.5, face = "bold"),
-#               legend.text = element_text(hjust = 0, vjust = 1)) +
-#         ggeasy::easy_text_size(size = 12) +
-#         ggeasy::easy_remove_legend_title() +
-#         ggeasy::easy_remove_axes() +
-#         theme(legend.position = "top") +
-#         guides(col = guide_legend(ncol=1, nrow=3, byrow=TRUE)) 
-#       
-#       
-#       
-#     }
-#     
-#     
-# }
-#   
-# }
-# # 
-# csc_data %>%
-#   filter(description %in% c(csc_vars[2], csc_vars[17]))
-# 
-# exp_cla_pc_data <- csc_data %>% 
-#   filter(description %in% c(csc_vars[2], csc_vars[17])) %>%
-#   pivot_wider(names_from = description, values_from = value) %>%
-#   rename(exp_cla = 4, pop = 5) %>%
-#   mutate(exp_cla_pc = (exp_cla * 100000) / pop) %>%
-#   pivot_longer(cols = exp_cla:exp_cla_pc, names_to = "description") %>%
-#   filter(description == "exp_cla_pc")
-# 
-# waff_dat <- csc_data %>% 
-#   add_row(exp_cla_pc_data) %>%
-#   filter(description %in% c("exp_cla_pc", csc_vars[6], csc_vars[7])) %>%
-#   mutate(description = case_when(description == "exp_cla_pc" ~ "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                                  description == csc_vars[7] ~ "£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                                  description == csc_vars[6] ~ "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")) %>%
-#   group_by(year, description) %>%
-#   summarise(value = mean(value, na.rm = TRUE)) %>%
-#   mutate(value = value/20,
-#          label = "fa-money-bill-wave")
-# 
-# 
-# waff_dat_combined <- waff_dat %>%
-#   filter(year == 2011) %>%
-#   mutate(value = round(value)) %>%
-#   uncount(value) %>%
-#   ungroup() %>%
-#   waffle_iron(aes_d(group = description)) %>%
-#   mutate(label = fontawesome("fa-money"),
-#          year = 2011)
-# 
-# for (i in 2012:2019) {
-# 
-#   waff_dat_i <- waff_dat %>%
-#     filter(year == i) %>%
-#     mutate(value = round(value)) %>%
-#     uncount(value) %>%
-#     ungroup() %>%
-#     waffle_iron(aes_d(group = description)) %>%
-#     mutate(label = fontawesome("fa-money"),
-#            year = i)
-#   
-#   waff_dat_combined <- bind_rows(waff_dat_combined, waff_dat_i)
-#   
-# }
-# 
-# 
-# waff_dat_combined %>% 
-#   ggplot(aes(x, y, colour = group)) + 
-#   geom_text(aes(label=label), family='fontawesome-webfont', size=3) +
-#   coord_equal() + 
-#   scale_color_manual(
-#     name = NULL,
-#     values = c("#1B9E77", "#D95F02", "#7570B3"),
-#     labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2019 prices)",
-#                "£20 Spent on Looked After per Child Aged 0-17 (in 2019 prices)",
-#                "£20 Spent on Safeguarding per Child Aged 0-17 (in 2019 prices)")
-#   ) +
-#   facet_grid(~year) +
-#   #coord_equal() +
-#   labs(title = "Spending per Child on Different Services (England LA Average)") +
-#   theme_minimal() +
-#   theme(plot.background = element_blank(),
-#         panel.grid = element_blank(),
-#         axis.ticks = element_blank(),
-#         plot.title = element_text(hjust = 0.5, face = "bold"),
-#         legend.text = element_text(hjust = 0, vjust = 1)) +
-#   ggeasy::easy_text_size(size = 12) +
-#   ggeasy::easy_remove_legend_title() +
-#   ggeasy::easy_remove_axes() +
-#   theme(legend.position = "top") +
-#   guides(col = guide_legend(ncol=1, nrow=3, byrow=TRUE)) 
-
 
 spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
   
@@ -2789,7 +2433,7 @@ spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
         labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2022 prices)",
                    "£20 Spent on Looked After per Child Aged 0-17 (in 2022 prices)",
                    "£20 Spent on Safeguarding per Child Aged 0-17 (in 2022 prices)")
-        ) +
+      ) +
       facet_grid(~year) +
       coord_equal(1) +
       labs(title = "Spending per Child on Different Services (England LA Average)") +
@@ -2891,9 +2535,9 @@ spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
       data %>% 
         add_row(exp_cla_pc_data) %>%
         filter(description %in% c("exp_cla_pc", saf_spend_pc_description, ehfs_pc_description)) %>%
-        mutate(description = case_when(description == "exp_cla_pc" ~ "£10 Spent on Looked After per Child Aged 0-17 (in 2022 prices)",
-                                       description == ehfs_pc_description ~ "£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2022 prices)",
-                                       description == saf_spend_pc_description ~ "£10 Spent on Safeguarding per Child Aged 0-17 (in 2022 prices)")) %>%
+        mutate(description = case_when(description == "exp_cla_pc" ~ "£20 Spent on Looked After per Child Aged 0-17 (in 2022 prices)",
+                                       description == ehfs_pc_description ~ "£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2022 prices)",
+                                       description == saf_spend_pc_description ~ "£20 Spent on Safeguarding per Child Aged 0-17 (in 2022 prices)")) %>%
         filter(la_name %in% la_select) %>%
         mutate(value = value/20,
                label = "fa-money-bill-wave") %>%
@@ -2905,9 +2549,9 @@ spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
         scale_color_manual(
           name = NULL,
           values = c("#1B9E77", "#D95F02", "#7570B3"),
-          labels = c("£10 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2022 prices)",
-                     "£10 Spent on Looked After per Child Aged 0-17 (in 2022 prices)",
-                     "£10 Spent on Safeguarding per Child Aged 0-17 (in 2022 prices)")
+          labels = c("£20 Spent on Early Help/Family Support (non-SG, non-CLA) per Child Aged 0-17 (in 2022 prices)",
+                     "£20 Spent on Looked After per Child Aged 0-17 (in 2022 prices)",
+                     "£20 Spent on Safeguarding per Child Aged 0-17 (in 2022 prices)")
         ) +
         facet_grid(la_name ~ year) +
         coord_equal() +
@@ -2932,32 +2576,6 @@ spending_waffles20s <- function(data, year_range = NULL, la_select = NULL) {
   }
   
 }
-
-# # not recommended to compare more than 2 at a time
-# spending_waffles(csc_data, la_select = c("Birmingham", "Bracknell Forest")) 
-# spending_waffles20s(csc_data, la_select = c("Sheffield", "Camden")) 
-# spending_waffles20s(csc_data, la_select = c("Camden")) 
-# 
-# patchwork_trendplots(plot_csctrend(csc_data, csc_vars[12], la_select = c("Camden")),
-#   plot_csctrend(csc_data, csc_vars[12], la_select = c("Camden"), adj_dep = TRUE))
-# 
-# 
-# # Good example of IIL
-# plot_csctrend(csc_data, csc_vars[93], la_select = c("Birmingham", "Bracknell Forest")) +
-#   plot_csctrend(csc_data, csc_vars[93], la_select = c("Birmingham", "Bracknell Forest"), adj_dep = TRUE)
-# 
-# spending_waffles(csc_data)
-# spending_waffles(csc_data, la_select = "Leeds")
-# spending_waffles(csc_data, la_select = "Kensington and Chelsea")
-# spending_waffles(csc_data, la_select = "York")
-# spending_waffles(csc_data, la_select = "Birmingham")
-# spending_waffles(csc_data, la_select = "Blackpool")
-# spending_waffles(csc_data, la_select = "Barnsley")
-# spending_waffles(csc_data, la_select = "Slough")
-# spending_waffles(csc_data, la_select = "Warwickshire")
-# 
-# spending_waffles(csc_data, la_select = c("Blackpool", "Warwickshire")) 
-
 
 
 # Hierarchical Cluster Analysis Diagram -----------------------------------
@@ -3093,27 +2711,6 @@ plot_csc_hca <- function(data, var_list, la_select = NULL, year_range = 2010:202
 }
 
 
-# plot_csc_hca(csc_data, c(csc_vars[7]), la_select = c("Rutland", "Surrey", "Tower Hamlets", "Southwark"), year_range = 2011:2019, trend_hca = TRUE)
-# plot_csctrend(csc_data, c(csc_vars[7]), la_select = c("Rutland", "Surrey", "Tower Hamlets", "Southwark"), year_range = 2011:2019, include_avg = FALSE)
-# plot_csctrend(csc_data, c(csc_vars[12]), la_select = c("Rutland", "Surrey", "Tower Hamlets", "Southwark"), year_range = 2011:2019, include_avg = FALSE)
-# 
-# plot_csc_hca(csc_data, c(csc_vars[7], csc_vars[12]), la_select = c("Camden", "Bristol City of", "Luton"), year_range = 2011:2019, trend_hca = TRUE)
-# plot_csctrend(csc_data, c(csc_vars[7]), la_select = c("Camden", "Bristol City of", "Luton"), year_range = 2011:2019, include_avg = FALSE)
-# plot_csctrend(csc_data, c(csc_vars[12]), la_select = c("Camden", "Bristol City of", "Luton"), year_range = 2011:2019, include_avg = FALSE)
-# 
-# 
-# 
-# plot_csc_hca(csc_data, c(imd_variable_desc, csc_vars[17], csc_vars[15], csc_vars[5]), la_select = c("Sheffield", "York", "Leeds", "Devon", "Torbay"), year_range = 2018:2019)
-# plot_csc_hca(csc_data, c(csc_vars[7]), la_select = "Camden", year_range = 2018:2019)
-# plot_csc_hca(csc_data, c(csc_vars[7]), la_select = "Camden", year_range = 2011:2012)
-# plot_csc_hca(csc_data, c(csc_vars[12]))
-# plot_csc_hca(csc_data, c(csc_vars[5]))
-# 
-# plot_csc_hca(csc_data, c(csc_vars[7]), la_select = "Camden", year_range = 2011:2012) 
-# plot_csc_hca(csc_data, c(csc_vars[7]), la_select = "Camden", year_range = 2018:2019)
-
-
-
 # Ethnic inequalities (CLA only) -----------------------------------------
 
 plot_ethnic_inequalities <- function(data, var, la_select = NULL, relative = FALSE) {
@@ -3178,70 +2775,3 @@ plot_ethnic_inequalities <- function(data, var, la_select = NULL, relative = FAL
   }    
     
 }
-
-
-
-# plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[7], la_select = "Liverpool")
-#   
-# plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[9], la_select = "Liverpool")
-# 
-# 
-# plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[1])
-# 
-# plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[6]) +
-#   plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[7]) +
-#   plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[8]) +
-#   plot_layout(ncol = 3, nrow = 1) 
-#   
-# plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[2]) +
-#   plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[3]) +
-#   plot_ethnic_inequalities(data = csc_ethnicity_data, var = csc_ethnicity_vars[4]) +
-#   plot_layout(ncol = 3, nrow = 1) 
-
-# csc_data %>%
-#   filter(description %in% c(csc_vars[2], csc_vars[17], csc_vars[6], csc_vars[7], imd_variable_desc)) %>%
-#   write_rds(., path="temp/csc_data_spend_imd.rds")
-
-# Total CSC spending on looked after in 2019
-
-# csc_data %>% filter(description == csc_vars[2] & year == 2019) %>%
-#   summarise(value = sum(value, na.rm = TRUE))
-
-# Danica
-# 
-# csc_vars
-# 
-# 
-# read_rds("data/csc_data_v3.RDS") %>%
-#   mutate(value = ifelse(is.infinite(value), NA, value)) %>%
-#   filter(description %in% c(csc_vars[104], csc_vars[8], csc_vars[7], csc_vars[6],
-#                             imd_variable_desc, csc_vars[17], csc_vars[167], csc_vars[174], 
-#                             csc_vars[175], csc_vars[176], csc_vars[177], csc_vars[178], 
-#                             csc_vars[180], csc_vars[184], csc_vars[194], csc_vars[197])) %>%
-#   pivot_wider(values_from = value, names_from = description) %>%
-#   names(.) %>%
-#   view(.)
-# 
-# read_rds("data/csc_data_v3.RDS") %>%
-#   mutate(value = ifelse(is.infinite(value), NA, value),
-#          la_name = case_when(la_name == "Kingston Upon Hull, City of" ~ "Kingston upon Hull City of",
-#                              la_name == "Bristol, City of" ~ "Bristol City of",
-#                              la_name == "Bedford Borough" ~ "Bedford",
-#                              TRUE ~ la_name
-#                              ),
-#          new_la_code = ifelse(new_la_code == "E06000057", "E06000048", ifelse(new_la_code == "E08000037", "E08000020", new_la_code))) %>%
-#   filter(description %in% c(csc_vars[104], csc_vars[8], csc_vars[7], csc_vars[6],
-#                             imd_variable_desc, csc_vars[17], csc_vars[167], csc_vars[174], csc_vars[175],
-#                             csc_vars[176], csc_vars[177], csc_vars[178], csc_vars[180],
-#                             csc_vars[184], csc_vars[194], csc_vars[197])) %>%
-#   pivot_wider(values_from = value, names_from = description) %>%
-#   clean_names() %>%
-#   rename(sg_exp_pc = 4, eh_exp_pc = 5, cla_exp_pc = 6, 
-#          child_pop = 7, imd_score = 8, total_cla = 9, 
-#          cla_male_percent = 10, cla_white_percent = 11, 
-#          cla_mh_percent = 12, cla_asian_percent = 13,
-#          cla_black_percent = 14, cla_other_percent = 15, cla_foster_percent = 16,
-#          cla_su_resi_percent = 17, cla_laprov_percent = 18, cla_privprov_percent = 19
-#          ) %>%
-#   filter(year > 2015) %>%
-#   write_csv(., "/Users/calumwebb/Library/Mobile Documents/com~apple~CloudDocs/r/danica_placement_data/cwip_app_data.csv")

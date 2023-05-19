@@ -13,7 +13,7 @@ output:
 
 <div style = "padding: 0px 20%; font-size: 16px"> 
 
-Last updated: 31.03.2023. Current longitudinal data between 2010 and 2022.
+Last updated: 19.05.2023. Current longitudinal data between 2010 and 2022.
 
 **Welcome to the CWIP App.** The purpose of the CWIP App is to make it easier for the public to interrogate longitudinal and spatial data related to children's services and society in general. It brings together a range of data sources, combines them together, and visualises them for the user. It includes data on children's services expenditure, rates of intervention, poverty, average local authority households income, indices of deprivation, and more. It allows to you perform a range of statistical analyses, such as adjusting values for underlying deprivarion, performing cluster analysis, and generating some descriptive statistics.
 
@@ -44,6 +44,7 @@ All data has been sourced from public government data releases. The [github repo
   * Children in Need Census
   * Children looked-after statistics
   * Section 251 Returns
+  * SEN Statements and EHCP Plan Statistics
 * Data from the Office of National Statistics and Nomis (Census and Population estimates)
 * Indices of Multiple Deprivation 2019 and 2015
 * Earnings and hours worked estimates by place of residence (ONS)
@@ -80,7 +81,7 @@ It was only possible to create this app thanks to the people behind R Shiny, RSt
 
 * <strike>Fixed Waffle plots, but cannot display these in Shiny app. Problem with Font Awesome 5 library or with waffle package? Can't see immediate fix and will wait until waffle > 0.70 is on CRAN.</strike> Fixed by installing fonts to .fonts on shinyapps.io deployment.
 
-* England Average label on trendplots can occassionally obscure LA label.
+* England Average label on trendplots can occasionally obscure LA label.
 
 * Add additional filter to remove Isles of Scilly and City of London from some data
 
