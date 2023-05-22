@@ -19,22 +19,22 @@ install.packages(c("shiny", "tidyverse",
                    "shadowtext", "egg",
                    "cowplot", "ggdendro",
                    "janitor", "shinyWidgets",
-                   "emojifont"))
+                   "emojifont", "ggtext"))
 
 
 update.packages(c("shiny", "tidyverse", 
-                   "plotly", "shinydashboard",
-                   "htmlwidgets", "sf",
-                   "lazyeval", "rlang",
-                   "mltools", "RColorBrewer",
-                   "gsubfn", "shinycssloaders",
-                   "shinyjs", "waiter",
-                   "psych", "broom",
-                   "DT", "ggeffects",
-                   "ggeasy", "ggrepel",
-                   "tidymodels", "patchwork",
-                   "shadowtext", "egg",
-                   "cowplot", "ggdendro",
-                   "janitor", "shinyWidgets",
-                   "emojifont"))
+                  "plotly", "shinydashboard",
+                  "htmlwidgets", "sf",
+                  "lazyeval", "rlang",
+                  "mltools", "RColorBrewer",
+                  "gsubfn", "shinycssloaders",
+                  "shinyjs", "waiter",
+                  "psych", "broom",
+                  "DT", "ggeffects",
+                  "ggeasy", "ggrepel",
+                  "tidymodels", "patchwork",
+                  "shadowtext", "egg",
+                  "cowplot", "ggdendro",
+                  "janitor", "shinyWidgets",
+                  "emojifont", "ggtext"))
 
